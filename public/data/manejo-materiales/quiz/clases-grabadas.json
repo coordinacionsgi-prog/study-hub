@@ -1,0 +1,354 @@
+[
+  {
+    "question": "[Clase 1] ¿Por qué el profesor afirma que mover material es siempre un costo?",
+    "options": [
+      "Porque siempre daña el producto en el traslado",
+      "Porque implica energía, mantenimiento, espacio y a veces mano de obra, sin agregar valor al producto",
+      "Porque está prohibido por ley mover materiales dentro de la planta",
+      "Porque encarece únicamente el seguro de la empresa"
+    ],
+    "answerIndex": 1,
+    "explanation": "El movimiento de materiales consume recursos (energía, mantenimiento del equipo, espacio, mano de obra) sin transformar ni agregar valor al producto, por lo que se busca siempre minimizarlo."
+  },
+  {
+    "question": "[Clase 1] Según la evolución histórica contada en clase, ¿qué se incorporó al estudio del manejo de materiales recién hacia el año 2000?",
+    "options": [
+      "El análisis de la distribución en planta (layout)",
+      "El concepto de cadena de suministros",
+      "La inteligencia artificial en almacenes",
+      "El primer código de edificación argentino"
+    ],
+    "answerIndex": 0,
+    "explanation": "El profesor explicó que en los años 90 el foco era el movimiento de material, y ya hacia el 2000 se incorporó el análisis de distribución en planta (layout) como parte del estudio."
+  },
+  {
+    "question": "[Clase 1] ¿Cuál es la diferencia entre una ley y una norma técnica según lo explicado en clase?",
+    "options": [
+      "No hay diferencia, ambas son obligatorias",
+      "La ley es de cumplimiento obligatorio; la norma técnica (ej. ISO) es optativa, elegida como diferenciador",
+      "La norma técnica siempre reemplaza a la ley",
+      "La ley solo aplica a nivel municipal"
+    ],
+    "answerIndex": 1,
+    "explanation": "El profesor remarcó que la ley es de cumplimiento obligatorio en todos los niveles (nacional, provincial, municipal), mientras que las normas técnicas o certificaciones (como ISO) son optativas."
+  },
+  {
+    "question": "[Clase 1] ¿Qué ejemplo dio el profesor para explicar el concepto de \"regla del buen arte\"?",
+    "options": [
+      "Instalar un grupo electrógeno de respaldo",
+      "Redondear los extremos de una mesa para minimizar el daño ante un golpe",
+      "Certificar ISO 9001 para diferenciarse",
+      "Exigir el uso obligatorio de casco en toda la planta"
+    ],
+    "answerIndex": 1,
+    "explanation": "El profesor usó el ejemplo de redondear los bordes de una mesa (o eliminar rebabas de una chapa cortada) como regla del buen arte: no está escrita en ninguna norma, surge del sentido común y la experiencia."
+  },
+  {
+    "question": "[Clase 2] Según el convenio 127 de la OIT citado en clase, ¿qué establece respecto al transporte manual de cargas?",
+    "options": [
+      "Que todo trabajador debe cargar un máximo de 50 kg sin excepción",
+      "Que no se debería exigir ni permitir transportar cargas cuyo peso comprometa la salud o seguridad del trabajador",
+      "Que solo los hombres pueden realizar manejo manual de cargas",
+      "Que el manejo manual de cargas está prohibido en toda actividad industrial"
+    ],
+    "answerIndex": 1,
+    "explanation": "El convenio 127/67 de la OIT establece que no debe exigirse ni permitirse el transporte de cargas cuyo peso pueda comprometer la salud o seguridad del trabajador."
+  },
+  {
+    "question": "[Clase 2] Según el ejemplo dado en clase, ¿aproximadamente cuánto pesa una media res que se descarga en las carnicerías?",
+    "options": [
+      "Alrededor de 30 kg",
+      "Alrededor de 100 kg en promedio",
+      "Alrededor de 250 kg",
+      "Alrededor de 500 kg"
+    ],
+    "answerIndex": 1,
+    "explanation": "El profesor indicó que el promedio ronda los 100 kg (pudiendo ser algo menos si es carne más tierna), un peso cercano al del propio trabajador que la descarga."
+  },
+  {
+    "question": "[Clase 2] Usando el método de Lehmann-Spitzer con un tiempo de reposo del 25%, ¿cuántos minutos de trabajo y descanso corresponden por cada hora de jornada?",
+    "options": [
+      "45 minutos de trabajo y 15 de descanso",
+      "48 minutos de trabajo y 12 de descanso",
+      "50 minutos de trabajo y 10 de descanso",
+      "40 minutos de trabajo y 20 de descanso"
+    ],
+    "answerIndex": 1,
+    "explanation": "El 25% se aplica sobre el tiempo de tarea efectiva, no sobre los 60 minutos totales. Llevado a una hora de jornada, esto da 48 minutos de trabajo y 12 de descanso, manteniendo la relación de 25% (12 es el 25% de 48)."
+  },
+  {
+    "question": "[Clase 2] ¿Cuál es la diferencia principal entre macrolocalización y microlocalización?",
+    "options": [
+      "La macrolocalización analiza la parcela puntual y la microlocalización la región completa",
+      "Son sinónimos, se usan indistintamente",
+      "La macrolocalización analiza a gran escala (zona/provincia) y la microlocalización el terreno puntual dentro de esa zona",
+      "La microlocalización solo aplica a plantas menores a 1000 m²"
+    ],
+    "answerIndex": 2,
+    "explanation": "Se empieza por un análisis macro (a nivel de zona o provincia) para luego, dentro de la zona elegida, hacer el análisis micro sobre la parcela o terreno específico."
+  },
+  {
+    "question": "[Clase 2] En el método de Brown Gibson, ¿qué representa el factor K en la fórmula de ponderación?",
+    "options": [
+      "El número de locaciones a comparar",
+      "La importancia relativa asignada a los factores objetivos frente a los subjetivos",
+      "El costo total de transporte de materia prima",
+      "La cantidad de empleados necesarios en la planta"
+    ],
+    "answerIndex": 1,
+    "explanation": "K pondera cuánta importancia se da a los factores objetivos (cuantificables) versus los subjetivos (1-K), por ejemplo K=0,7 significa que se le da 70% de peso a lo objetivo y 30% a lo subjetivo."
+  },
+  {
+    "question": "[Clase 3] ¿Qué indica el FOS (Factor de Ocupación del Suelo) de un terreno?",
+    "options": [
+      "El total de metros cuadrados que se pueden construir en altura",
+      "El porcentaje del terreno que puede ocupar la proyección en planta del edificio",
+      "La cantidad de pisos máximos permitidos",
+      "El costo del metro cuadrado en esa zona"
+    ],
+    "answerIndex": 1,
+    "explanation": "El FOS indica qué porcentaje de la superficie del terreno (visto en planta, como si se mirara desde arriba) puede quedar ocupado por la proyección de la construcción."
+  },
+  {
+    "question": "[Clase 3] Con un terreno de 100 m², FOS de 0,8 y FOT de 5, ¿cuántos m² totales se pueden construir como máximo?",
+    "options": [
+      "80 m²",
+      "100 m²",
+      "500 m²",
+      "800 m²"
+    ],
+    "answerIndex": 2,
+    "explanation": "El FOT es un multiplicador sobre el terreno total: 100 m² × 5 = 500 m² construibles en total, distribuidos en plantas de hasta 80 m² cada una para respetar el FOS de 0,8."
+  },
+  {
+    "question": "[Clase 3] ¿Qué diferencia principal existe entre una zona industrial y un parque industrial?",
+    "options": [
+      "La zona industrial siempre es más grande que el parque industrial",
+      "El parque industrial suele ofrecer servicios comunes (como tratamiento de efluentes) compartidos entre las empresas instaladas",
+      "Solo el parque industrial permite construir edificios de más de un piso",
+      "La zona industrial no requiere ningún trámite ambiental"
+    ],
+    "answerIndex": 1,
+    "explanation": "En un parque industrial suele haber servicios comunes (por ejemplo una planta de tratamiento de efluentes compartida) y beneficios impositivos o energéticos, mientras que en una zona industrial cada empresa debe resolver estos aspectos individualmente."
+  },
+  {
+    "question": "[Clase 3] ¿Cuál es la autoridad ambiental máxima en la Ciudad de Buenos Aires?",
+    "options": [
+      "OPDS",
+      "APRA (Agencia de Protección Ambiental)",
+      "El Ministerio de Ambiente de la Nación",
+      "El Ministerio de Ambiente de la Provincia de Buenos Aires"
+    ],
+    "answerIndex": 1,
+    "explanation": "En CABA, la autoridad ambiental máxima es la APRA (Agencia de Protección Ambiental), un organismo independiente encargado de la política ambiental de la ciudad."
+  },
+  {
+    "question": "[Clase 3] En la provincia de Buenos Aires, ¿cómo se determina la categoría de complejidad ambiental de una actividad?",
+    "options": [
+      "Mediante una lista fija de actividades, igual que en CABA",
+      "Mediante un polinomio que suma puntos según dimensión, zona, riesgos y efluentes; superando 25 puntos se llega a la tercera categoría",
+      "Únicamente según la cantidad de empleados de la empresa",
+      "Se determina por sorteo entre las categorías disponibles"
+    ],
+    "answerIndex": 1,
+    "explanation": "A diferencia de CABA que usa una lista, la provincia de Buenos Aires usa una fórmula polinómica que suma puntos por distintos factores; superar los 25 puntos ubica a la actividad en la tercera categoría, la más compleja."
+  },
+  {
+    "question": "[Clase 3] ¿Cuál es el orden correcto de pasos antes de comenzar la obra de una planta con impacto ambiental relevante?",
+    "options": [
+      "Construcción, luego evaluación de impacto ambiental, luego certificado",
+      "Evaluación de impacto ambiental, audiencia pública (si corresponde), certificado de aptitud ambiental, y recién entonces la obra",
+      "Certificado de aptitud ambiental, obra, y luego evaluación de impacto ambiental",
+      "Audiencia pública, obra, evaluación de impacto ambiental"
+    ],
+    "answerIndex": 1,
+    "explanation": "El profesor insistió en que primero debe completarse la evaluación de impacto ambiental (y la audiencia pública si aplica) para obtener el certificado de aptitud ambiental, y solo después iniciar la obra; empezar la obra antes puede derivar en clausuras."
+  },
+  {
+    "question": "[Clase 4] ¿Por qué se agrega acero al hormigón para formar hormigón armado?",
+    "options": [
+      "Porque el hormigón es malo a la tracción y flexión, y el acero compensa esa debilidad",
+      "Porque el acero acelera el proceso de fraguado",
+      "Porque abarata el costo de la construcción",
+      "Porque reemplaza la necesidad de agua en la mezcla"
+    ],
+    "answerIndex": 0,
+    "explanation": "El hormigón es muy resistente a la compresión pero malo a la tracción y flexión; el acero (varillas o mallas) se agrega para dar resistencia a esos esfuerzos que el hormigón simple no soporta bien."
+  },
+  {
+    "question": "[Clase 4] ¿Qué significa la clasificación H30 de un hormigón?",
+    "options": [
+      "Que tiene 30 días de garantía",
+      "Que resiste 300 kg por cm² una vez curado",
+      "Que contiene 30% de agua en la mezcla",
+      "Que se fabrica con 30 kg de cemento por bolsa"
+    ],
+    "answerIndex": 1,
+    "explanation": "La clasificación H30 indica que ese hormigón, una vez curado, resiste 300 kg por centímetro cuadrado; se verifica ensayando probetas tomadas durante el colado."
+  },
+  {
+    "question": "[Clase 4] ¿Cuál es la diferencia clave entre hormigón pretensado y postensado?",
+    "options": [
+      "El pretensado se tensa antes de colar el hormigón y el postensado después del fraguado",
+      "El pretensado no lleva acero y el postensado sí",
+      "El postensado se usa solo en pisos y el pretensado solo en columnas",
+      "No hay diferencia real entre ambos métodos"
+    ],
+    "answerIndex": 0,
+    "explanation": "En el pretensado se tensan las varillas antes de colar el hormigón y se liberan tras el fraguado; en el postensado las varillas van dentro de una vaina y se tensan recién después de que el hormigón fraguó."
+  },
+  {
+    "question": "[Clase 4] ¿Por qué una estructura de hormigón en una zona sísmica como Salta lleva mucho más acero que la misma estructura en CABA?",
+    "options": [
+      "Porque el hormigón en Salta es de peor calidad",
+      "Para dar mayor resistencia ante los esfuerzos que genera un sismo, cumpliendo la normativa antisísmica local",
+      "Porque en Salta el acero es más barato",
+      "Porque las columnas en Salta deben ser más bajas"
+    ],
+    "answerIndex": 1,
+    "explanation": "En zonas sísmicas se aumenta fuertemente la cantidad de acero (el ejemplo dado fue de hasta 7 veces más) para dar a la estructura la propiedad antisísmica que exige la normativa local, manteniendo la misma sección de hormigón."
+  },
+  {
+    "question": "[Clase 4] En el ejemplo de clase, si cada nodo soporta 100 kg y hay que colgar 800 kg de forma centrada, ¿cuántos nodos se necesitan como mínimo?",
+    "options": [
+      "2 nodos",
+      "4 nodos",
+      "8 nodos",
+      "16 nodos"
+    ],
+    "answerIndex": 2,
+    "explanation": "Repartiendo la carga en niveles sucesivos (de 2 a 4 y de 4 a 8 nodos), cada uno de los 8 nodos recibe un octavo de 800 kg, es decir 100 kg, que es justo lo que soporta cada nodo."
+  },
+  {
+    "question": "[Clase 4] ¿Para qué sirve una junta de dilatación en un piso industrial de hormigón?",
+    "options": [
+      "Para decorar el piso con un patrón geométrico",
+      "Para inducir dónde se va a fisurar el piso ante dilatación o contracción, evitando grietas descontroladas",
+      "Para marcar los límites entre distintos sectores administrativos",
+      "Para facilitar el drenaje pluvial exclusivamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "La junta de dilatación es un corte parcial que actúa como troquel, concentrando ahí la fisura que de todos modos aparecería por dilatación/contracción térmica, evitando grietas imprevistas o que el piso se dislocare en niveles distintos."
+  },
+  {
+    "question": "[Clase 5] ¿Cuál de los siguientes NO es uno de los seis principios de distribución en planta vistos en clase?",
+    "options": [
+      "Mínima distancia recorrida",
+      "Flexibilidad",
+      "Espacio cúbico",
+      "Maximización del stock de seguridad"
+    ],
+    "answerIndex": 3,
+    "explanation": "Los seis principios vistos fueron satisfacción y seguridad, integración conjunta, mínima distancia recorrida, circulación/flujo de materiales, espacio cúbico y flexibilidad; la maximización del stock de seguridad no es uno de ellos (de hecho se busca minimizar inventario)."
+  },
+  {
+    "question": "[Clase 5] ¿En qué caso conviene una distribución por posición fija?",
+    "options": [
+      "Cuando se fabrican grandes volúmenes de un producto pequeño",
+      "Cuando el producto es de gran envergadura (barcos, aeronaves, obras civiles) y resulta impráctico moverlo",
+      "Cuando todos los procesos requieren la misma máquina",
+      "Cuando se necesita mínima superficie de planta"
+    ],
+    "answerIndex": 1,
+    "explanation": "La distribución por posición fija se usa cuando el producto (por su volumen o envergadura, como un barco o una aeronave) no puede moverse, y son el herramental y la mano de obra los que se trasladan hacia él."
+  },
+  {
+    "question": "[Clase 5] ¿Qué busca minimizar la agrupación por \"familias de productos\" en una distribución por proceso?",
+    "options": [
+      "El costo de la materia prima",
+      "El tiempo de puesta a punto (preparación) de la máquina",
+      "La cantidad de empleados por turno",
+      "El tamaño del almacén de producto terminado"
+    ],
+    "answerIndex": 1,
+    "explanation": "Agrupar piezas similares que requieren configuraciones parecidas de la máquina minimiza el tiempo de preparación (cambio de matrices, punzones, calibración), optimizando la utilización de la máquina."
+  },
+  {
+    "question": "[Clase 5] ¿Por qué la distribución por producto (línea de montaje) tiene baja flexibilidad ante cambios?",
+    "options": [
+      "Porque siempre requiere mano de obra no calificada",
+      "Porque tiene soportes y herramentales específicos ajustados a un producto o componente determinado",
+      "Porque no permite ningún tipo de automatización",
+      "Porque el mercado nunca cambia en este tipo de industria"
+    ],
+    "answerIndex": 1,
+    "explanation": "La línea suele tener soportes y herramentales hechos a medida para un modelo específico (por ejemplo, para cierto tipo de asiento), por lo que cambiar de producto implica rediseñar y reemplazar ese equipamiento."
+  },
+  {
+    "question": "[Clase 5] ¿Cuál de estos es uno de los ocho \"factores condicionantes\" de la distribución en planta mencionados en clase?",
+    "options": [
+      "El factor movimiento",
+      "El factor moneda extranjera",
+      "El factor accionistas",
+      "El factor publicidad"
+    ],
+    "answerIndex": 0,
+    "explanation": "Los factores condicionantes mencionados fueron: material, maquinaria, hombre, movimiento, espera, servicios, edificio y cambio; el factor movimiento apunta a minimizar el traslado de materiales entre departamentos."
+  },
+  {
+    "question": "[Clase 6] ¿Cuál es la diferencia clave entre el enfoque tradicional (departamentalizado) y el enfoque de cadena de suministros?",
+    "options": [
+      "El tradicional integra proveedores externos y el de cadena de suministros no",
+      "El tradicional optimiza cada departamento por separado; la cadena de suministros integra información para optimizar el proceso global",
+      "No existe ninguna diferencia práctica entre ambos",
+      "El de cadena de suministros solo aplica a empresas de servicios"
+    ],
+    "answerIndex": 1,
+    "explanation": "En el enfoque tradicional cada área (compras, producción, ventas) persigue su propio objetivo, generando conflictos; la cadena de suministros comparte información entre todos los eslabones (internos y externos) para optimizar el resultado global."
+  },
+  {
+    "question": "[Clase 6] ¿Qué caracteriza a un sistema de producción push?",
+    "options": [
+      "Se produce solo después de recibir el pedido confirmado del cliente",
+      "Se produce anticipándose a una demanda estimada (pronóstico), generando mayor inventario",
+      "No requiere ningún tipo de pronóstico de ventas",
+      "Es exclusivo de la industria de servicios"
+    ],
+    "answerIndex": 1,
+    "explanation": "En un sistema push la empresa produce basándose en un pronóstico de demanda futura, generando inventarios más altos con el riesgo de sobrestock si la estimación falla."
+  },
+  {
+    "question": "[Clase 6] ¿Cuál es la diferencia principal entre un sistema ERP y un SGA (sistema de gestión de almacén)?",
+    "options": [
+      "Son exactamente el mismo sistema con distinto nombre",
+      "El ERP conoce totales administrativos (stock, costos); el SGA conoce la ubicación física exacta de cada unidad en el almacén",
+      "El SGA solo se usa para gestionar sueldos del personal",
+      "El ERP reemplaza completamente la necesidad de un almacén físico"
+    ],
+    "answerIndex": 1,
+    "explanation": "El ERP maneja información administrativa general (cuánto stock hay, a qué costo), mientras que el SGA sabe exactamente dónde está ubicada cada unidad o palet dentro del almacén, permitiendo planificar picking y reposición con precisión."
+  },
+  {
+    "question": "[Clase 6] ¿Cuál es el orden típico de etapas en la operación de un almacén según lo visto en clase?",
+    "options": [
+      "Despacho, recepción, picking, control de calidad",
+      "Recepción, control de calidad, almacenamiento, picking, despacho",
+      "Picking, recepción, despacho, almacenamiento",
+      "Control de calidad, despacho, recepción, picking"
+    ],
+    "answerIndex": 1,
+    "explanation": "El flujo típico es: recepción (descarga provisoria), control de calidad, almacenamiento definitivo, picking (preparación de pedidos) y finalmente despacho/expedición."
+  },
+  {
+    "question": "[Clase 6] ¿Por qué un almacén nunca se diseña para operar al 100% de ocupación de sus posiciones?",
+    "options": [
+      "Porque la ley lo prohíbe expresamente",
+      "Porque hacen falta posiciones libres (redundantes) para poder mover paletas y mantener la fluidez del almacén",
+      "Porque el 100% de ocupación generaría un incendio",
+      "Porque los clientes exigen ver espacio vacío en el almacén"
+    ],
+    "answerIndex": 1,
+    "explanation": "Se necesitan posiciones libres redundantes (del orden de 10-15% adicional) para poder reorganizar y mover mercadería con fluidez; un almacén al 100% de ocupación pierde eficiencia porque no hay dónde maniobrar."
+  },
+  {
+    "question": "[Clase 6] Según el ejemplo de la clase, ¿dónde conviene ubicar los productos con mayor rotación (más pedidos) dentro del almacén?",
+    "options": [
+      "Lo más lejos posible del sector de picking, para no saturarlo",
+      "Cerca del sector de picking, para minimizar la distancia recorrida",
+      "Siempre en el nivel más alto de las estanterías",
+      "Es indistinto, la ubicación no afecta la eficiencia"
+    ],
+    "answerIndex": 1,
+    "explanation": "El sistema de gestión de almacén ubica los productos de mayor rotación cerca del sector de picking para minimizar distancias recorridas y evitar congestionamientos, dejando los de baja rotación más alejados."
+  }
+]

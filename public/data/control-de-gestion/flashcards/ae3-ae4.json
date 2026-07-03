@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Qué es un ratio o índice financiero?",
+    "back": "Es una relación (cociente) entre dos cifras extraídas de los Estados Contables (o de información extracontable) que refleja de forma objetiva y numérica el comportamiento o la salud de una empresa. Un ratio aislado dice poco: cobra sentido cuando se lo compara con ejercicios anteriores, con objetivos de la empresa o con el promedio del sector."
+  },
+  {
+    "front": "¿Cuáles son las cuatro grandes familias de ratios económico-financieros?",
+    "back": "Liquidez (capacidad de pago a corto plazo), Solvencia o endeudamiento (grado de uso de recursos ajenos y apalancamiento), Actividad o gestión (eficiencia en el uso de los recursos, rotaciones) y Rendimiento o rentabilidad (capacidad de generar utilidades respecto a ventas o inversión)."
+  },
+  {
+    "front": "¿Cómo se calcula el Índice de Liquidez Corriente (razón corriente)?",
+    "back": "Razón corriente = Activo Corriente / Pasivo Corriente. Mide cuántos pesos de activo circulante hay por cada peso de deuda de corto plazo. En el ejercicio Tata del Sur da 1,73 (520/300), lo que indica capacidad de cubrir las obligaciones de corto plazo."
+  },
+  {
+    "front": "¿Cómo se calcula el Test Ácido (prueba ácida o liquidez ácida)?",
+    "back": "Test ácido = (Activo Corriente - Bienes de Cambio) / Pasivo Corriente. Es más exigente que la razón corriente porque excluye los inventarios (los menos líquidos del activo corriente). En Tata del Sur: 392/300 = 1,31."
+  },
+  {
+    "front": "¿Qué diferencia hay entre razón corriente y prueba ácida?",
+    "back": "La razón corriente incluye todo el activo corriente (incluidos los bienes de cambio o inventarios), mientras que la prueba ácida los excluye porque son los activos de más lenta conversión en efectivo. Por eso la prueba ácida siempre es menor o igual que la razón corriente y es una medida más estricta de liquidez inmediata."
+  },
+  {
+    "front": "¿Cómo se calcula el Ratio del Efectivo o Ratio del Disponible?",
+    "back": "Ratio del disponible = Disponible (Caja y Bancos) / Pasivo Corriente. Es la medida más exigente de liquidez porque solo considera el efectivo inmediato. En Tata del Sur: 72/300 = 0,24."
+  },
+  {
+    "front": "¿Qué es el Fondo de Maniobra (FM) y cómo se calcula?",
+    "back": "FM = Recursos Permanentes (Deuda de Largo Plazo + Patrimonio Neto) - Activo Inmovilizado. Es el excedente de recursos financieros permanentes, después de financiar el activo fijo, disponible para financiar el ciclo operativo de corto plazo. Un FM positivo brinda estabilidad financiera; un FM negativo indica que parte del activo fijo se financia con deuda de corto plazo, lo cual es una señal de alerta."
+  },
+  {
+    "front": "¿Por qué se prefiere definir el Fondo de Maniobra desde el pasivo (Recursos Permanentes - Activo Inmovilizado) y no desde el activo (Activo Corriente - Pasivo Corriente)?",
+    "back": "Aunque matemáticamente dan el mismo resultado, el enfoque del pasivo es conceptualmente correcto: el FM es una fuente de financiamiento de largo plazo (decisión estratégica de la alta dirección), no un uso de fondos. Pensarlo como AC-PC genera la falsa idea de que para agrandar el FM hay que aumentar el activo circulante indiscriminadamente, lo cual es incorrecto."
+  },
+  {
+    "front": "¿Cómo se calcula la Tasa o Relación de Endeudamiento?",
+    "back": "Relación de endeudamiento = Deuda Total (Exigible Total) / Patrimonio Neto (Capital Propio). Indica cuántos pesos aportan los terceros por cada peso propio invertido. En Tata del Sur: 640/360 = 1,78."
+  },
+  {
+    "front": "¿Cómo se calcula la Palanca Financiera (multiplicador del capital)?",
+    "back": "Palanca financiera = Activo Total / Patrimonio Neto = 1 + (Deuda Total / Patrimonio Neto). Muestra cuántas veces el activo total supera al capital propio; a mayor palanca, mayor apalancamiento y mayor amplificación del ROE (para bien o para mal). En Tata del Sur: 1000/360 = 2,78."
+  },
+  {
+    "front": "¿Qué mide el ratio de Cobertura de Intereses?",
+    "back": "Cobertura de intereses = (BAII + Amortizaciones y Depreciaciones) / Gastos en Intereses. Indica cuántas veces la generación de fondos operativos cubre los gastos financieros; cuanto más alto, más solvente es la empresa frente a sus compromisos de deuda."
+  },
+  {
+    "front": "¿Qué es el Margen Bruto y cómo se calcula?",
+    "back": "Margen Bruto = Utilidad Bruta / Ventas. Indica qué porcentaje de las ventas queda después de descontar el costo de ventas (CMV). En el ejemplo Tata del Sur: 503/1120 = 44,91%, es decir que por cada $1 vendido quedan $0,45 de utilidad bruta."
+  },
+  {
+    "front": "¿Qué es el Margen Neto (ROS) y cómo se calcula?",
+    "back": "Margen Neto = Utilidad Neta / Ventas, también llamado ROS (Return on Sales). Mide cuánto de cada peso vendido se convierte en utilidad final, después de todos los costos, gastos, intereses e impuestos. En Tata del Sur: 76,1/1120 = 6,79%."
+  },
+  {
+    "front": "¿Cuál es la diferencia conceptual entre Margen y Rendimiento?",
+    "back": "El Margen relaciona una utilidad con las Ventas (ambas del cuadro de resultados). El Rendimiento (o Retorno) relaciona una utilidad con la inversión (activo o patrimonio, del balance). El margen mide rentabilidad comercial; el rendimiento mide productividad de los fondos invertidos."
+  },
+  {
+    "front": "¿Cómo se calcula Ra'' (Rendimiento de Explotación) y qué mide?",
+    "back": "Ra'' = BAII / Activo Total (promedio). Mide la rentabilidad de las inversiones con independencia de cómo se financian (no descuenta intereses ni impuestos), por lo que permite comparar empresas con estructuras de capital distintas. En Tata del Sur: 177/1000 = 17,7%."
+  },
+  {
+    "front": "¿Cómo se calcula el Rendimiento Neto de los Activos (Ra)?",
+    "back": "Ra = Utilidad Neta / Activo Total (promedio). Es el ROA genérico más común: mide cuánta utilidad final genera la empresa por cada peso invertido en activos, incluyendo el efecto de intereses e impuestos. En Tata del Sur: 76,1/1000 = 7,61%."
+  },
+  {
+    "front": "¿Cuál es la Identidad de Dupont (versión simple)?",
+    "back": "Ra = Margen Neto x Rotación de Activos = (Utilidad Neta / Ventas) x (Ventas / Activo Total). Descompone el rendimiento neto de los activos en un componente comercial (margen) y uno de eficiencia en el uso de activos (rotación). En Tata del Sur: 6,79% x 1,12 = 7,61%."
+  },
+  {
+    "front": "¿Cómo se calcula el ROE (Rentabilidad del Capital Propio)?",
+    "back": "ROE = Utilidad Neta / Patrimonio Neto (Capital Propio) promedio. Mide el retorno que obtienen los accionistas sobre su inversión. En Tata del Sur: 76,1/360 = 21,14%. También se llama Rentabilidad Financiera o Return on Equity."
+  },
+  {
+    "front": "¿Qué diferencia hay conceptualmente entre ROE y ROA?",
+    "back": "El ROA (Ra) mide el rendimiento generado por el total de activos, sin importar cómo se financiaron. El ROE mide el rendimiento que le queda al accionista sobre su capital propio, después de pagar la deuda y sus intereses. El ROE siempre será mayor que el ROA si la empresa tiene deuda y el rendimiento de los activos supera la tasa de interés de esa deuda (apalancamiento positivo)."
+  },
+  {
+    "front": "¿Cómo se relacionan el ROE y el Ra mediante la Palanca Financiera?",
+    "back": "ROE = Ra x (1 + Dt/E), donde Dt/E es la relación deuda-capital propio. Esto muestra que el ROE es directamente proporcional al Ra: si el 'auto' (Ra) es malo, ni el mejor 'conductor' (buena gestión financiera) puede sostener un buen ROE a largo plazo."
+  },
+  {
+    "front": "¿Qué es el apalancamiento financiero y cuándo conviene endeudarse?",
+    "back": "El apalancamiento financiero es el uso de deuda para amplificar la rentabilidad del capital propio. Conviene endeudarse cuando el Rendimiento de Explotación (Ra'') es mayor que la tasa de interés de la deuda (Kd): en ese caso, cada peso de deuda adicional aumenta el ROE. Si Ra'' es menor que la tasa de interés, el apalancamiento juega en contra y reduce el ROE."
+  },
+  {
+    "front": "¿Cómo se calcula la Rotación de Inventarios (Bienes de Cambio)?",
+    "back": "Rotación de Inventarios = Costo de Ventas (CMV) / Bienes de Cambio. En el ejercicio AE327 (La Isla Cercana) se usa como dato (8,7 veces) para despejar el saldo de inventarios a partir del test ácido. A mayor rotación, más rápido se venden y renuevan las existencias."
+  },
+  {
+    "front": "¿Cómo se calcula el Plazo Medio de Cobro (días de cuentas a cobrar)?",
+    "back": "Plazo Medio de Cobro = (Créditos por Ventas promedio / (Ventas + IVA)) x 365. Indica cuántos días tarda la empresa, en promedio, en cobrar sus ventas a crédito. En el ejercicio AE328 (El Refugio) dio 110 días."
+  },
+  {
+    "front": "¿Qué es el Ciclo de Conversión de Efectivo y por qué importa?",
+    "back": "Es el tiempo que transcurre entre el pago a proveedores y el cobro a clientes, combinando los días de inventario, los días de cobro y los días de pago a proveedores. Cuanto más corto, menos capital de trabajo necesita la empresa para financiar su operación; se relaciona directamente con las Necesidades Operativas de Fondos (NOF)."
+  },
+  {
+    "front": "¿Qué son las Necesidades Operativas de Fondos (NOF) o Necesidad de Capital de Trabajo?",
+    "back": "NOF = Existencias + Realizable (créditos por ventas) - Deudas No Financieras (recursos espontáneos como proveedores y deudas sociales). Es el capital de trabajo estructural que exige el ciclo operativo. En Requilsur: 90+130-110 = $110. Se compara con el FM para determinar la Situación de Tesorería (ST = FM - NOF)."
+  },
+  {
+    "front": "¿Para qué sirve el análisis de comparables por industria (benchmarking sectorial)?",
+    "back": "Permite contrastar los ratios de una empresa con el promedio (o con las empresas más exitosas) de su mismo sector industrial, ya que un ratio aislado no dice si es bueno o malo: depende del contexto sectorial. Por ejemplo, el nivel de endeudamiento 'normal' de un banco es muy distinto al de una empresa de biotecnología. Se usan tablas de analistas o centrales de balances (como la del Banco de España) para obtener estos datos comparables."
+  },
+  {
+    "front": "En el ejercicio AE324, ¿cómo se determina si conviene financiar el Activo Fijo con recursos de largo plazo?",
+    "back": "Se compara el Activo Fijo (AF) con la suma de Deuda de Largo Plazo más Patrimonio Neto (DLP+E, los Recursos Permanentes). Si AF < (DLP+E), la relación es aceptable porque los activos fijos se financian a largo plazo, lo cual es aconsejable especialmente para empresas industriales (regla de oro del equilibrio financiero)."
+  },
+  {
+    "front": "¿Cuándo corresponde usar 'saldo promedio' en una fórmula de ratios?",
+    "back": "Cuando en la misma fórmula se combina una variable FLUJO (del Estado de Resultados, ej. Ventas o Utilidad Neta) con una variable STOCK (del Balance, ej. Activo Total o Patrimonio Neto), y se dispone de dos Estados Contables. En ese caso corresponde promediar la variable stock (saldo inicial + saldo final)/2. Si solo hay un ejercicio contable (monoperíodo), no es posible promediar."
+  },
+  {
+    "front": "En el ejercicio AE320, con Rotación de Activos = 1,87, Margen Neto = 9,2% y financiamiento por terceros = 41%, ¿cuánto da el Ra y el ROE?",
+    "back": "Ra = Margen Neto x Rotación = 9,2% x 1,87 = 17,2%. Como Deuda/Activo = 0,41 y Capital Propio/Activo = 0,59, la Palanca Financiera = Activo/Patrimonio = 1/0,59 = 1,695. Entonces ROE = Ra x Palanca = 17,2% x 1,695 = 29,2%."
+  },
+  {
+    "front": "En Requilsur (AE331), ¿cómo se calcula el WACC y para qué se usa?",
+    "back": "WACC = Ke x (E/(Df+E)) + Kd x (1-tx) x (Df/(Df+E)), donde Ke es el costo del capital propio, Kd la tasa de la deuda onerosa y Df la deuda financiera. En Requilsur dio 20,85%. Se usa para calcular el EVA (Valor Económico Agregado): EVA = Capital Invertido x (ROIC - WACC); si ROIC > WACC, la empresa crea valor (en Requilsur creó $74,86)."
+  }
+]

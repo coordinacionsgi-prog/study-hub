@@ -1,0 +1,178 @@
+[
+  {
+    "question": "¿Cuál es la diferencia clave entre una variable stock y una variable flujo?",
+    "options": [
+      "La variable stock se mide en un instante determinado; la variable flujo se mide durante un período de tiempo",
+      "La variable stock siempre es monetaria; la variable flujo siempre es física",
+      "La variable flujo aparece solo en el Balance; la variable stock solo en el Cuadro de Resultados",
+      "No hay diferencia real, son sinónimos en el análisis financiero"
+    ],
+    "answerIndex": 0,
+    "explanation": "La variable stock es una 'foto' en un instante (como el saldo de un balance), mientras que la variable flujo se acumula a lo largo de un período de tiempo (como las ventas de un año)."
+  },
+  {
+    "question": "Cuando una fórmula combina una variable flujo (por ejemplo, ventas anuales) con una variable stock (por ejemplo, activos), ¿qué ajuste corresponde hacer?",
+    "options": [
+      "Usar el valor de la variable stock solo al cierre del ejercicio",
+      "Usar el valor de la variable stock solo al inicio del ejercicio",
+      "Promediar la variable stock entre su valor inicial y final del período",
+      "Convertir la variable flujo en variable stock dividiéndola por 365"
+    ],
+    "answerIndex": 2,
+    "explanation": "Lo correcto es usar el saldo medio (promedio entre el valor inicial y final) de la variable stock, ya que la variable flujo cubre todo el período pero la variable stock es puntual."
+  },
+  {
+    "question": "¿Cuál es la diferencia principal entre el ciclo operativo de una empresa comercial y una industrial?",
+    "options": [
+      "La empresa comercial no tiene pasivo circulante",
+      "La empresa industrial agrega una función de transformación (fabricación) que la comercial no tiene",
+      "La empresa comercial siempre cobra al contado",
+      "No hay diferencia, ambas calculan el PMinv de la misma manera"
+    ],
+    "answerIndex": 1,
+    "explanation": "La empresa industrial compra materia prima y la transforma en producto terminado antes de venderla, lo que agrega el subciclo de fabricación; la comercial revende la mercadería tal cual la compró."
+  },
+  {
+    "question": "En una empresa industrial, ¿cómo se calcula correctamente el Plazo Medio de Inventarios (PMinv)?",
+    "options": [
+      "PMinv = Saldo medio de Bienes de Cambio / CMV x n, igual que en la comercial",
+      "PMinv = PMmp + PMfab + PMvta, sumando los tres subciclos por separado",
+      "PMinv = Ventas anuales / Activo Circulante promedio",
+      "PMinv no se puede calcular en una empresa industrial"
+    ],
+    "answerIndex": 1,
+    "explanation": "En la empresa industrial siempre hay que calcular los tres subciclos por separado (materia prima, fabricación y productos terminados) porque cada uno tiene su propio flujo asociado; no se puede calcular en forma directa como en la comercial."
+  },
+  {
+    "question": "¿Cuál es la fórmula del Ciclo del Efectivo o Ciclo de Conversión de Caja (PMef)?",
+    "options": [
+      "PMef = PMinv + PMcli + PMprov",
+      "PMef = PMcli - PMinv",
+      "PMef = PMinv + PMcli - PMprov (equivalente a PMM - PMprov)",
+      "PMef = PMprov - PMcli"
+    ],
+    "answerIndex": 2,
+    "explanation": "El ciclo del efectivo es el período de maduración (PMinv + PMcli) menos el plazo que financian los proveedores (PMprov), es decir, el tiempo que la empresa realmente debe financiar con recursos propios u onerosos."
+  },
+  {
+    "question": "¿Qué mide el Período Medio de Cobro (PMcli)?",
+    "options": [
+      "Cuántos días en promedio tarda la empresa en pagarles a los proveedores",
+      "Cuántos días en promedio permanecen las mercaderías en existencia",
+      "Cuántos días en promedio tardan los clientes en pagar sus compras",
+      "Cuántas veces al año rota el activo total"
+    ],
+    "answerIndex": 2,
+    "explanation": "El PMcli se calcula como (Saldo medio de créditos por ventas / Ventas del período con IVA) x n, y mide el plazo promedio que la empresa tarda en cobrarles a sus clientes."
+  },
+  {
+    "question": "¿Por qué hay que sumar el IVA a las ventas o compras en el denominador de las fórmulas de PMcli y PMprov?",
+    "options": [
+      "Porque el IVA no afecta el cálculo y se puede ignorar",
+      "Porque las cuentas a cobrar y a pagar en el balance incluyen el IVA, y hay que mantener coherencia entre numerador y denominador",
+      "Porque el IVA reemplaza directamente a las ventas en la fórmula",
+      "Porque las normas contables lo exigen solo para empresas industriales"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los saldos de créditos y deudas comerciales en el balance siempre incluyen IVA, entonces para que la fórmula sea coherente el denominador (ventas o compras) también debe incluir IVA."
+  },
+  {
+    "question": "En el ejemplo Rotaveloz, los saldos medios eran: Materia Prima 1.000, y el consumo diario de MP era 13,70 (miles de $). ¿Cuál es el PMmp resultante?",
+    "options": [
+      "14,6 días",
+      "26,5 días",
+      "73,0 días",
+      "144,3 días"
+    ],
+    "answerIndex": 2,
+    "explanation": "PMmp = Saldo Medio de MP / Consumo diario de MP = 1.000 / 13,70 ≈ 73,0 días, tal como figura en la solución del caso Rotaveloz."
+  },
+  {
+    "question": "En el caso Rotaveloz, el Plazo Medio de Inventarios (PMinv = PMmp + PMfab + PMvta) resultó en 114,15 días, y el PMcli fue de 30,2 días. ¿Cuál fue entonces el Período Medio de Maduración (PMM)?",
+    "options": [
+      "83,95 días",
+      "144,3 días",
+      "20,6 días",
+      "123,7 días"
+    ],
+    "answerIndex": 1,
+    "explanation": "PMM = PMinv + PMcli = 114,15 + 30,2 = 144,3 días, que es el ciclo operativo completo desde la compra de MP hasta el cobro a clientes."
+  },
+  {
+    "question": "Siguiendo con Rotaveloz: si PMM = 144,3 días y el Plazo Medio de Pago a Proveedores (PMprov) fue de 20,6 días, ¿cuánto dio el Ciclo del Efectivo (PMef)?",
+    "options": [
+      "164,9 días",
+      "20,6 días",
+      "123,7 días",
+      "114,15 días"
+    ],
+    "answerIndex": 2,
+    "explanation": "PMef = PMM - PMprov = 144,3 - 20,6 = 123,7 días, el tiempo que la empresa debe financiar por sus propios medios porque los proveedores no lo cubren."
+  },
+  {
+    "question": "En el ejemplo Tata del Sur (empresa comercial), el PMinv fue de 76,0 días y el PMcli de 75,21 días. ¿Cuál fue el PMM resultante?",
+    "options": [
+      "0,79 días",
+      "151,2 días",
+      "26,3 días",
+      "124,9 días"
+    ],
+    "answerIndex": 1,
+    "explanation": "En una empresa comercial, PMM = PMinv + PMcli = 76,0 + 75,21 ≈ 151,2 días."
+  },
+  {
+    "question": "En Tata del Sur, el PMM fue de 151,2 días y el PMprov de 124,9 días. ¿Cuál fue el Ciclo del Efectivo (PMef)?",
+    "options": [
+      "276,1 días",
+      "26,3 días",
+      "124,9 días",
+      "75,21 días"
+    ],
+    "answerIndex": 1,
+    "explanation": "PMef = PMM - PMprov = 151,2 - 124,9 ≈ 26,3 días, mostrando que gracias al crédito de los proveedores la empresa solo necesita financiar poco más de 26 días del ciclo."
+  },
+  {
+    "question": "¿Qué diferencia explica por qué, en el ejercicio Cicletti S.A., tratar a la misma empresa como comercial o como industrial da resultados distintos del ciclo de inventarios?",
+    "options": [
+      "Porque las ventas cambian según el tipo de empresa",
+      "Porque como industrial hay que calcular tres subciclos (PMmp, PMfab, PMvta) con datos de costos que no están en los EECC publicados, mientras que como comercial se usa un solo cálculo directo",
+      "Porque las empresas industriales no tienen período de maduración",
+      "Porque el IVA se calcula distinto en cada tipo de empresa"
+    ],
+    "answerIndex": 1,
+    "explanation": "El enfoque industrial exige desagregar el inventario en materia prima, producción en proceso y productos terminados usando datos de contabilidad de costos; el enfoque comercial usa un cálculo único con Bienes de Cambio y CMV, lo que genera resultados distintos si se aplica el criterio equivocado."
+  },
+  {
+    "question": "¿Qué son los 'recursos espontáneos' del pasivo circulante?",
+    "options": [
+      "Préstamos bancarios de corto plazo con interés explícito",
+      "Cuentas por pagar a proveedores y deudas sociales, que financian a la empresa sin cobrar interés explícito",
+      "Los saldos de caja y bancos",
+      "Las cuentas por cobrar a clientes"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los recursos espontáneos (proveedores, deudas sociales, sueldos a pagar) son financiamiento de corto plazo que la empresa obtiene sin que en principio le cobren intereses, a diferencia de los recursos negociados u onerosos como préstamos bancarios."
+  },
+  {
+    "question": "Según la Identidad de DuPont, ¿en qué dos factores se descompone el Rendimiento sobre Activos (Ra)?",
+    "options": [
+      "Liquidez corriente y test ácido",
+      "Margen Neto (Utilidad Neta / Ventas) y Rotación de Activos (Ventas / Activos promedio)",
+      "Plazo Medio de Cobro y Plazo Medio de Pago",
+      "Endeudamiento y solvencia"
+    ],
+    "answerIndex": 1,
+    "explanation": "DuPont descompone Ra = Margen Neto x Rotación de Activos, mostrando si el rendimiento proviene más del margen por venta o de la velocidad para generar ventas con la inversión disponible."
+  },
+  {
+    "question": "¿Por qué aumentar la rotación de inventarios no siempre es una estrategia sin riesgos?",
+    "options": [
+      "Porque una rotación alta siempre implica pérdidas contables",
+      "Porque bajar demasiado el nivel de inventarios puede generar quiebres de stock y pérdida de ventas",
+      "Porque la rotación de inventarios no tiene relación con la eficiencia",
+      "Porque solo se puede calcular en empresas de servicios"
+    ],
+    "answerIndex": 1,
+    "explanation": "Existe una paradoja: reducir inventarios mejora la eficiencia y libera capital, pero si se reduce demasiado se corre el riesgo de no poder abastecer la demanda y perder ventas."
+  }
+]

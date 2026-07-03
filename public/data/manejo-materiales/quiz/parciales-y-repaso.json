@@ -1,0 +1,442 @@
+[
+  {
+    "question": "¿Cuál de los siguientes conceptos comprende la Intralogística?",
+    "options": [
+      "Protección, movimiento y almacenaje",
+      "Solo el transporte externo a planta",
+      "Únicamente la gestión de stocks",
+      "Compra, venta y distribución comercial"
+    ],
+    "answerIndex": 0,
+    "explanation": "La Intralogística abarca protección, movimiento y almacenaje de materiales dentro de la planta."
+  },
+  {
+    "question": "¿A qué principio de Material Handling corresponde: \"debe reconocerse tanto las capacidades como las limitaciones humanas y respetárselas al diseñar las tareas y seleccionar equipos\"?",
+    "options": [
+      "Estandarización",
+      "Ergonomía",
+      "Carga Unitaria",
+      "Planeamiento"
+    ],
+    "answerIndex": 1,
+    "explanation": "Es la definición textual del principio de Ergonomía del Material Handling Institute."
+  },
+  {
+    "question": "¿Cuáles son los 4 componentes que corresponden al costo del ciclo de vida de un producto o equipo?",
+    "options": [
+      "Instalación, calidad, medio ambiente, compra",
+      "Compra, instalación, comercialización, medio ambiente",
+      "Mantenimiento, comercialización, calidad, compras",
+      "Compra, mantenimiento, desinstalación y valor residual"
+    ],
+    "answerIndex": 3,
+    "explanation": "El costo de ciclo de vida incluye compra, instalación, operación, mantenimiento, desinstalación y valor residual; la comercialización no forma parte de este costo."
+  },
+  {
+    "question": "¿En qué etapa de la planeación de una instalación se incurre en mayores costos al hacer una modificación?",
+    "options": [
+      "Diseño",
+      "Planeación",
+      "Operación",
+      "Construcción"
+    ],
+    "answerIndex": 2,
+    "explanation": "El orden de mayor a menor costo de modificación es: Operación > Instalación > Construcción > Diseño > Planeación."
+  },
+  {
+    "question": "¿Cuál de los siguientes grupos de normativas está ordenado de mayor a menor jerarquía?",
+    "options": [
+      "Ley; Resolución; Decreto de Necesidad y Urgencia; Disposición",
+      "Ley; Resolución; Decreto; Decreto de Necesidad y Urgencia",
+      "Decreto de Necesidad y Urgencia; Decreto; Resolución; Disposición",
+      "Ley; Disposición; Resolución; Decreto; Decreto de Necesidad y Urgencia"
+    ],
+    "answerIndex": 2,
+    "explanation": "El orden correcto de jerarquía es Ley, Decreto de Necesidad y Urgencia, Decreto, Resolución, Disposición; entre las opciones dadas, la que respeta ese orden descendente (sin la Ley) es la C."
+  },
+  {
+    "question": "De los códigos de un distrito (Edificación, Habilitaciones y Verificaciones, Tránsito y Transporte, Urbanismo), ¿cuál tiene supremacía sobre los demás?",
+    "options": [
+      "Habilitaciones y verificaciones",
+      "Tránsito y transporte",
+      "Edificación",
+      "Urbanismo"
+    ],
+    "answerIndex": 3,
+    "explanation": "El Código de Urbanismo es el de mayor peso jerárquico entre los códigos de un distrito."
+  },
+  {
+    "question": "¿Cuál es el FOS y el FOT correctamente definidos?",
+    "options": [
+      "FOS: número que multiplica la superficie de parcela para dar superficie edificable. FOT: porcentaje de superficie ocupable",
+      "FOS: porcentaje de superficie del terreno ocupable con la proyección horizontal de las construcciones. FOT: número que multiplicado por la superficie de parcela determina la superficie edificable",
+      "FOS y FOT son sinónimos del mismo indicador",
+      "FOS mide la altura máxima permitida y FOT la superficie mínima de parcela"
+    ],
+    "answerIndex": 1,
+    "explanation": "FOS (Factor de Ocupación del Suelo) es el porcentaje de ocupación en planta; FOT (Factor de Ocupación Total) multiplicado por la superficie de parcela da la superficie total edificable."
+  },
+  {
+    "question": "Necesito construir una planta de 12.000 m² techados en 4 plantas iguales, con FOT=3,2. ¿Qué superficie mínima de parcela necesito?",
+    "options": [
+      "3.750 m²",
+      "7.500 m²",
+      "8.640 m²",
+      "5.760 m²"
+    ],
+    "answerIndex": 0,
+    "explanation": "Superficie de parcela = superficie techada / FOT = 12.000 / 3,2 = 3.750 m²."
+  },
+  {
+    "question": "¿Cuáles son los ítems más relevantes para la Categorización Ambiental de una actividad?",
+    "options": [
+      "Tipo de actividad, superficie y consumo de energía del establecimiento",
+      "Tipo de actividad, zonificación y superficie del establecimiento",
+      "Tipo de actividad, consumo de energía y cantidad de residuos y desperdicios generados",
+      "Tipo de actividad, zonificación e infraestructura de servicios públicos a utilizar"
+    ],
+    "answerIndex": 2,
+    "explanation": "Los ítems más relevantes son tipo de actividad, consumo de energía y cantidad de residuos y desperdicios generados."
+  },
+  {
+    "question": "¿Cuáles son las variantes de Categorización Ambiental vigentes en CABA?",
+    "options": [
+      "Categorías 1, 2 y 3 (s/Res. SAYDS 177/07)",
+      "Categorías 1, 2 y 3 (s/Ley 11.459) PBA",
+      "Con Relevante Efecto (CRE), Sujeto a Categorización (S/C), Con DDJJ, SRE c/C y SRE, según Ley 123",
+      "Categorías A, B y C (s/Ley 24.051)"
+    ],
+    "answerIndex": 2,
+    "explanation": "La Ley 123 de CABA establece las categorías CRE, S/C, con DDJJ del profesional, SRE con condiciones y SRE."
+  },
+  {
+    "question": "¿Cuál es la vigencia de los Certificados de Aptitud Ambiental en CABA?",
+    "options": [
+      "En todos los casos es de 4 años",
+      "Es variable, de 4 a 6 años según el tipo de categorización",
+      "En todos los casos es de 2 años",
+      "Es variable, de 2 a 10 años según el tipo de categorización de la actividad"
+    ],
+    "answerIndex": 3,
+    "explanation": "La vigencia va de 2 a 10 años dependiendo de la categorización de la actividad (CRE 2 años, SRE 10 años, etc.)."
+  },
+  {
+    "question": "¿Cuál de las definiciones citadas explica correctamente a la Evaluación de Impacto Ambiental?",
+    "options": [
+      "Es el estudio de impactos ambientales que junto a los permisos de obra permite desarrollar una actividad",
+      "Es el procedimiento técnico administrativo a partir del cual se determinan los impactos ambientales",
+      "Es un procedimiento técnico administrativo destinado a identificar, interpretar y prevenir los efectos de corto, mediano y largo plazo de una actividad sobre el ambiente",
+      "Es el estudio que permite dar inicio al pedido del Permiso de Obra"
+    ],
+    "answerIndex": 2,
+    "explanation": "La EIA es un procedimiento técnico-administrativo para identificar, interpretar y prevenir los efectos ambientales de corto, mediano y largo plazo de una actividad."
+  },
+  {
+    "question": "Una empresa industrial con plantas en el AMBA, generadora de residuos peligrosos, ¿qué normativa debe cumplir?",
+    "options": [
+      "Las normas de la CABA y PBA",
+      "Las normas de la CABA, la PBA y de la Nación",
+      "Solo las normas de ACUMAR",
+      "Solo las normas nacionales"
+    ],
+    "answerIndex": 1,
+    "explanation": "Debe cumplir simultáneamente las normas de la CABA, la Provincia de Buenos Aires y de la Nación."
+  },
+  {
+    "question": "¿A qué corresponde la siguiente definición: \"conjunto de herramientas voluntarias que intentan estimular la demanda de productos y servicios con menores cargas ambientales ofreciendo información relevante sobre su ciclo de vida\"?",
+    "options": [
+      "La gestión ambiental",
+      "El etiquetado ambiental",
+      "Ninguna de las anteriores",
+      "Las buenas prácticas en sustentabilidad"
+    ],
+    "answerIndex": 1,
+    "explanation": "Es la definición de Etiquetado Ambiental según la norma ISO 14020."
+  },
+  {
+    "question": "¿Cómo se completa correctamente la definición de Desarrollo Sostenible?",
+    "options": [
+      "Equilibrio entre el crecimiento económico, el cuidado del ambiente y el bienestar social",
+      "Equilibrio entre la generación de bienes naturales y su consumo",
+      "Bienestar social, disminución de la pobreza y cuidado del ambiente",
+      "Sustentabilidad social y preservación del ambiente como bien común"
+    ],
+    "answerIndex": 0,
+    "explanation": "El Desarrollo Sostenible garantiza el equilibrio entre crecimiento económico, cuidado del ambiente y bienestar social."
+  },
+  {
+    "question": "¿Cuál es la mejor definición del objetivo de los Parques Industriales?",
+    "options": [
+      "Minimizar los costos de fabricación mediante exenciones impositivas",
+      "Mejorar los costos de fabricación y logística de las empresas radicadas",
+      "Mejorar la situación económica de las compañías participantes y minimizar su impacto ambiental",
+      "Mejorar los costos de fabricación gracias a infraestructura eficiente"
+    ],
+    "answerIndex": 2,
+    "explanation": "El objetivo de los Parques Industriales es mejorar la situación económica de las empresas participantes y minimizar el impacto ambiental conjunto."
+  },
+  {
+    "question": "Respecto de los Prerrequisitos en las normas LEED, ¿qué puntaje otorgan y qué pasa si no se cumplen?",
+    "options": [
+      "Otorgan puntaje parcial y su incumplimiento reduce la certificación final",
+      "No otorgan puntaje (se responde sí/no) y su incumplimiento impide continuar el proceso de certificación",
+      "Otorgan el máximo puntaje posible siempre",
+      "Son opcionales y no afectan la certificación"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los prerrequisitos LEED no dan puntaje (se evalúan sí/no); si no se cumplen, no se puede continuar con la certificación."
+  },
+  {
+    "question": "¿Cómo se puede demostrar la implementación de políticas de cero residuos como complemento de una certificación LEED?",
+    "options": [
+      "Certificando True Zero Waste",
+      "Certificando Zero Waste Company",
+      "Certificando Zero Waste Generation",
+      "Ninguna de las anteriores es correcta"
+    ],
+    "answerIndex": 1,
+    "explanation": "Se demuestra certificando Zero Waste Company como complemento de LEED."
+  },
+  {
+    "question": "Para el método de Cribado en localización de plantas, ¿cómo se calcula el Grado de Conveniencia de cada sitio?",
+    "options": [
+      "Con el producto entre la ponderación y el Grado de Conveniencia de cada factor",
+      "Con la sumatoria de las distintas ponderaciones",
+      "Con el producto entre la ponderación total y el grado de Perfección de cada factor",
+      "Con el producto entre la Ponderación y el Grado de Perfección, para cada factor y sitio"
+    ],
+    "answerIndex": 3,
+    "explanation": "El Grado de Conveniencia surge del producto entre la Ponderación de cada factor y el Grado de Perfección de cada sitio, sumado para todos los factores."
+  },
+  {
+    "question": "¿Cuáles son los métodos no cuantificables para evaluación de factores en localización de plantas?",
+    "options": [
+      "Antecedentes industriales, factor de preferencia y factor dominante",
+      "Brown-Gibson, Cribado y Centro de Gravedad",
+      "Método funcional, método de puntos y Delphi",
+      "CRAFT, SLP y método de adyacencias"
+    ],
+    "answerIndex": 0,
+    "explanation": "Los métodos no cuantificables (cualitativos) son Antecedentes industriales, Factor de preferencia y Factor dominante."
+  },
+  {
+    "question": "¿Cuáles son los seis principios básicos de la Distribución en Planta?",
+    "options": [
+      "Integración de conjunto, mínima distancia recorrida, circulación de materiales, espacio cúbico, seguridad y satisfacción, flexibilidad",
+      "Automatización, ergonomía, estandarización, sistema, carga unitaria, ambiental",
+      "FOS, FOT, cribado, Brown-Gibson, CRAFT, SLP",
+      "Producto, proceso, posición fija, familia de productos, células, mixta"
+    ],
+    "answerIndex": 0,
+    "explanation": "Son los 6 principios de Distribución en Planta: integración, mínima distancia, circulación de materiales, espacio cúbico, seguridad/satisfacción y flexibilidad."
+  },
+  {
+    "question": "¿A qué principio de Distribución en Planta según Richard Muther corresponde: \"es mejor la distribución que ordene las áreas de trabajo en el mismo orden o secuencia en que se tratan, elaboran o montan los materiales\"?",
+    "options": [
+      "Principio de la integración de conjunto",
+      "Principio de la satisfacción y de la seguridad",
+      "Principio de la circulación o flujo de materiales",
+      "Ninguno de los anteriores"
+    ],
+    "answerIndex": 2,
+    "explanation": "Es la definición exacta del Principio de la Circulación o Flujo de Materiales."
+  },
+  {
+    "question": "¿Cuál es el objetivo principal del sistema computarizado CRAFT?",
+    "options": [
+      "Desarrollar el Lay-Out de una planta desde cero",
+      "Mejorar el Lay-Out de una planta existente, minimizando costos de transporte",
+      "Diseñar el layout ideal sin datos previos de flujo",
+      "Calcular la resistencia estructural de una planta"
+    ],
+    "answerIndex": 1,
+    "explanation": "CRAFT parte de una distribución existente y la optimiza, minimizando el costo total de transporte entre departamentos."
+  },
+  {
+    "question": "En la fórmula de CRAFT min Z = ΣΣ fij·cij·dij, ¿qué representa cij?",
+    "options": [
+      "El costo de mover una carga unitaria una unidad de distancia desde el Dto i al j",
+      "El número de departamentos involucrados",
+      "La distancia del Dto i al j",
+      "El flujo entre el Dto i al j expresado en cantidad de cargas unitarias"
+    ],
+    "answerIndex": 0,
+    "explanation": "cij representa el costo de mover una carga unitaria una unidad de distancia entre los departamentos i y j."
+  },
+  {
+    "question": "Si tengo que diseñar un nuevo layout con 9 procesos, donde 2 de ellos (Recepción y Despacho) no pueden cambiar de posición, ¿cuántas combinaciones posibles hay?",
+    "options": [
+      "No más de 79 formas",
+      "Aprox. 49 formas",
+      "Solo 5040 formas",
+      "9! formas"
+    ],
+    "answerIndex": 2,
+    "explanation": "Quedan 7 procesos libres de combinar: 7! = 5040 alternativas posibles."
+  },
+  {
+    "question": "¿Cuáles son las dos determinaciones previas para pasar del Análisis Producto-Cantidad al Diagrama Relacional de Actividades en el método SLP?",
+    "options": [
+      "Analizar el flujo de materiales y definir las relaciones/intensidad entre actividades",
+      "Definir el espacio disponible y las limitaciones edilicias",
+      "Calcular el costo de transporte y la distancia entre departamentos",
+      "Elegir el terreno y calcular el FOS/FOT"
+    ],
+    "answerIndex": 0,
+    "explanation": "Se requiere analizar el flujo total de materiales y definir las relaciones (intensidad) entre las distintas actividades."
+  },
+  {
+    "question": "¿Qué esfuerzo resistente mejora más el hormigón armado en comparación con el hormigón común?",
+    "options": [
+      "Compresión",
+      "Flexión",
+      "Corte",
+      "Tracción"
+    ],
+    "answerIndex": 3,
+    "explanation": "El acero de las armaduras aumenta principalmente la resistencia a la tracción (y la ductilidad), que es el punto débil del hormigón común."
+  },
+  {
+    "question": "Las alturas libres, de piso a cabreadas, en edificios industriales suelen ser de aproximadamente 7 metros. ¿Cuál es el motivo principal?",
+    "options": [
+      "Para instalar dos niveles de trabajo y/o dos locales en vertical",
+      "Para viabilizar la instalación de puentes grúa",
+      "Para instalar en la parte superior equipos de transporte",
+      "Para poder instalar, de ser necesario, un sistema de vigas de repartición de cargas"
+    ],
+    "answerIndex": 3,
+    "explanation": "La altura estándar de 7 metros permite instalar, de ser necesario, un sistema de vigas de repartición de cargas."
+  },
+  {
+    "question": "En un edificio metálico tipo diente de sierra, ¿cómo deben instalarse las vigas de repartición de cargas del 1er nivel?",
+    "options": [
+      "Paralelas a las cabreadas triangulares",
+      "Perpendiculares a las cabreadas triangulares",
+      "No interesa el sentido mientras la resistencia sea adecuada",
+      "Paralelas a las vigas porta cabreadas"
+    ],
+    "answerIndex": 1,
+    "explanation": "Según las reglas del buen arte, deben instalarse perpendiculares a las cabreadas triangulares."
+  },
+  {
+    "question": "¿Qué significa la inscripción \"10.9\" en la cabeza de un tornillo bajo normas ISO?",
+    "options": [
+      "Resistencia a la rotura 1000 N/mm² y límite elástico 900 N/mm²",
+      "Resistencia a la rotura 900 N/mm² y límite elástico 1000 N/mm²",
+      "Resistencia a la rotura 100 N/mm² y límite elástico 90 N/mm²",
+      "Resistencia a la rotura 10 N/mm² y límite elástico 9 N/mm²"
+    ],
+    "answerIndex": 0,
+    "explanation": "El primer número (10) da la resistencia a la rotura: 10x100=1000 N/mm². El segundo (9) da el 90% de eso como límite elástico: 900 N/mm²."
+  },
+  {
+    "question": "¿Cuáles son los dos tipos de uniones roscadas (abulonadas) que se pueden ajustar sin medir torque?",
+    "options": [
+      "Rígidas y elásticas",
+      "Flexibles y rígidas",
+      "Rígidas y fijas",
+      "Elásticas y fijas"
+    ],
+    "answerIndex": 0,
+    "explanation": "Existen uniones roscadas rígidas y elásticas, ambas ajustables sin torquímetro mediante procedimientos estandarizados."
+  },
+  {
+    "question": "¿Qué norma establece las condiciones generales para el almacenaje seguro de Materiales Peligrosos?",
+    "options": [
+      "Ninguna de las anteriores es correcta",
+      "Ley Nacional 24.051 y Decreto Reglamentario N° 831/1993",
+      "Ley CABA 123",
+      "Ley Nacional 24.449 y Decreto Reglamentario N° 779/1995"
+    ],
+    "answerIndex": 1,
+    "explanation": "El almacenaje seguro de materiales peligrosos se rige por la Ley Nacional 24.051 y su Decreto Reglamentario 831/1993."
+  },
+  {
+    "question": "¿Cuál es la principal diferencia entre los contenedores tipo Conair y Reefer?",
+    "options": [
+      "El contenedor Reefer posee equipo de refrigeración propio",
+      "El contenedor Reefer se usa para alimentos sin necesidad de refrigeración",
+      "El contenedor Conair posee mejor potencia de refrigeración",
+      "El contenedor Conair posee mejor aislación térmica"
+    ],
+    "answerIndex": 0,
+    "explanation": "El contenedor Reefer trae equipo de refrigeración propio incorporado; el Conair depende de una fuente externa."
+  },
+  {
+    "question": "¿Cuáles son las dimensiones y capacidad de carga nominal del pallet de intercambio ARLOG?",
+    "options": [
+      "1000x1200mm - capacidad de carga variable de 800/2200 kg",
+      "1000x1200mm - capacidad de carga nominal 4000 kg",
+      "1000x1200mm - capacidad de carga máxima 4000 kg",
+      "1000x1200mm - capacidad de carga nominal 1000 kg"
+    ],
+    "answerIndex": 3,
+    "explanation": "El pallet ARLOG mide 1000x1200mm con capacidad de carga nominal de 1000 kg."
+  },
+  {
+    "question": "¿Cuáles son las funciones técnicas del embalaje?",
+    "options": [
+      "Diferenciar al producto",
+      "Bajar el costo de las operaciones logísticas únicamente",
+      "Proteger y conservar el producto en las operaciones logísticas",
+      "Aumentar el precio de venta"
+    ],
+    "answerIndex": 2,
+    "explanation": "Las funciones técnicas del embalaje son proteger, conservar y facilitar el manejo del producto, no diferenciarlo (eso es función comercial)."
+  },
+  {
+    "question": "¿Qué sistema de almacenaje compacto de pallets permite tanto FIFO como LIFO indistintamente?",
+    "options": [
+      "Los sistemas Drive-in",
+      "Ninguna de las respuestas es correcta",
+      "Los sistemas Drive-through",
+      "Los sistemas Pallet-Runner/Radio Shuttle"
+    ],
+    "answerIndex": 3,
+    "explanation": "Los sistemas Pallet-Runner/Radio Shuttle permiten operar tanto en modalidad FIFO como LIFO."
+  },
+  {
+    "question": "¿Cuál es el motivo principal por el cual los edificios de hormigón armado pretensado resultan más convenientes que los de acero para naves industriales?",
+    "options": [
+      "Requieren menor tiempo de construcción y montaje",
+      "Son más económicos para el caso de vigas de repartición de cargas",
+      "Poseen mayor facilidad para cambios de layout",
+      "Son más aptos para modificaciones no previstas en el diseño original"
+    ],
+    "answerIndex": 1,
+    "explanation": "Resultan más económicos específicamente cuando se necesita implementar un sistema de vigas de repartición de cargas."
+  },
+  {
+    "question": "¿Cuáles son los tres tipos de carga que se consideran al diseñar un piso industrial?",
+    "options": [
+      "Móviles, puntuales y uniformemente distribuidas",
+      "Estáticas, dinámicas y térmicas",
+      "Livianas, medias y pesadas",
+      "Horizontales, verticales y oblicuas"
+    ],
+    "answerIndex": 0,
+    "explanation": "Se consideran cargas móviles, puntuales y uniformemente distribuidas."
+  },
+  {
+    "question": "¿Cuál es el objetivo de un sistema de Vigas de Repartición de Cargas (VRC) en un edificio industrial?",
+    "options": [
+      "Repartir y transmitir cargas suspendidas (equipos, instalaciones) hacia los nodos de la estructura de cabreadas, dentro de los límites admisibles",
+      "Reemplazar completamente a las columnas del edificio",
+      "Servir únicamente como elemento decorativo",
+      "Aumentar la superficie techada de la planta"
+    ],
+    "answerIndex": 0,
+    "explanation": "Las VRC distribuyen cargas suspendidas entre los nodos de la estructura de cabreadas, respetando la carga admisible de cada nodo."
+  },
+  {
+    "question": "¿Qué caracteriza a los edificios industriales de \"uso específico\"?",
+    "options": [
+      "Satisfacen por completo las necesidades del proceso, con mayor costo inicial, menor flexibilidad y más exposición a obsolescencia",
+      "Son siempre más baratos que los de uso general",
+      "Se adaptan fácilmente a cualquier tipo de industria",
+      "No requieren mantenimiento estructural"
+    ],
+    "answerIndex": 0,
+    "explanation": "Los edificios de uso específico satisfacen completamente las necesidades del proceso pero tienen mayor costo inicial, menor flexibilidad y mayor riesgo de obsolescencia."
+  }
+]

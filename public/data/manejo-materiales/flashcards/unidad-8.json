@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Qué es la localización de planta y por qué es una decisión crítica?",
+    "back": "Es la decisión de dónde ubicar físicamente una planta industrial o centro de servicios. Es una decisión de largo plazo que impacta directamente en los beneficios del proyecto, por lo que un estudio deficiente puede afectar seriamente su rentabilidad."
+  },
+  {
+    "front": "¿Qué es un 'factor' en el contexto de la localización de plantas?",
+    "back": "Es toda variable que influye directamente en la localización de una planta a través de costos o beneficios sobre el proyecto. Debe poder medirse y ponderarse para usarse en una matriz de decisión."
+  },
+  {
+    "front": "¿Cuáles son los tres factores originales que definió Alfred Weber en 1909?",
+    "back": "Recursos (materias primas y semielaborados), Mercado (localización de los consumidores) y Economía o fuerzas de aglomeración (beneficios de ubicarse cerca de otras empresas por economías de escala y efectos de red)."
+  },
+  {
+    "front": "¿En qué consiste el método del centroide de Weber?",
+    "back": "Plantea que la localización óptima minimiza el costo total de transporte, ubicándose en el centroide del triángulo formado por los factores recursos, mercado y economías de aglomeración. Se calcula como Ct = Σ Ui·ti·di (unidades transportadas por tarifa por distancia)."
+  },
+  {
+    "front": "¿Qué aportó Masood Badri en su estudio de 2007?",
+    "back": "Definió 14 factores críticos de localización industrial a nivel global: 10 para la localización doméstica (transporte, mano de obra, materias primas, mercados, sitio industrial, servicios públicos, acción del Estado, estructura fiscal, clima, comunidad) y 4 adicionales para la localización internacional."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre macro localización y micro localización?",
+    "back": "La macro localización define el área geográfica general (nivel global, regional o país), mientras que la micro localización determina el emplazamiento físico específico dentro de esa área, evaluando provincias, municipios y el terreno puntual."
+  },
+  {
+    "front": "¿Qué diferencia a los métodos no cuantificables de los cuantificables en localización de plantas?",
+    "back": "Los no cuantificables son técnicas subjetivas basadas en pocos factores cualitativos o en la experiencia del equipo (antecedentes industriales, factor preferencial, factor dominante). Los cuantificables usan matrices de decisión con factores críticos medidos y ponderados objetivamente."
+  },
+  {
+    "front": "¿Qué es el método de 'antecedentes industriales'?",
+    "back": "Un método no cuantificable que supone que si una planta similar ya está instalada exitosamente en una zona, esa locación podría ser adecuada para el nuevo proyecto, aprovechando sinergias como plantas de tratamiento compartidas o centros de distribución."
+  },
+  {
+    "front": "¿Qué es el 'factor dominante' en localización de plantas?",
+    "back": "Es un concepto (no un método de selección propiamente dicho) que se da cuando no hay alternativas reales de locación, como en minería o petróleo: la planta debe instalarse necesariamente cerca del yacimiento o recurso."
+  },
+  {
+    "front": "Enumerá los pasos del proceso de análisis para localización mediante métodos cuantificables.",
+    "back": "1) Identificación de factores críticos, 2) selección de la forma de medición, 3) relevamiento de datos, 4) validación de las mediciones, 5) validación de los factores, y 6) determinación de la localización mediante modelos cuantitativos de decisión."
+  },
+  {
+    "front": "¿Cómo funciona el método cualitativo de puntos?",
+    "back": "Se arma una matriz donde a cada factor crítico se le asigna un peso o ponderación (que suma 1) y un valor o calificación por locación. Se calcula Lj = Σ Pi·Vfi para cada locación; como los valores representan costos, la locación óptima es la de menor Lj."
+  },
+  {
+    "front": "¿En qué se diferencia el método de análisis dimensional (funcional) del método cualitativo de puntos?",
+    "back": "El análisis dimensional usa una matriz de ponderación exponencial en vez de lineal, comparando las locaciones de a pares mediante Fl = Π(Sai/Sbi)^Pi. Si Fl < 1 es mejor A, si Fl > 1 es mejor B, y si Fl = 1 ambas son equivalentes."
+  },
+  {
+    "front": "¿Qué caracteriza al método de Brown-Gibson?",
+    "back": "Desarrollado en 1972, es uno de los pocos métodos que integra factores objetivos (cuantificables, en términos de costo) y factores subjetivos (cualitativos) en la toma de decisión, mediante la fórmula MPL = K(FOi) + (1-K)(FSi), donde K pondera la importancia relativa de lo objetivo sobre lo subjetivo."
+  },
+  {
+    "front": "En el método Brown-Gibson, ¿cómo se calcula el valor relativo de los factores objetivos (FOi)?",
+    "back": "FOi = (1/Ci) / Σ(1/Ci), donde Ci es la sumatoria de costos de los factores objetivos de la locación i. La locación óptima es la que tenga el mayor MPL."
+  },
+  {
+    "front": "¿En qué consiste el método de cribado?",
+    "back": "Combina una técnica gráfica (superposición de mapas transparentes que marcan zonas no deseables para cada factor crítico, dejando visibles las zonas viables) con una matriz cualitativa de puntos para elegir la locación óptima entre las zonas resultantes."
+  },
+  {
+    "front": "¿Cuándo conviene usar el modelo de costo/volumen para elegir localización?",
+    "back": "Cuando los factores críticos no presentan diferencias significativas entre las locaciones y se quiere decidir en función de variables económicas. Se calculan las rectas de costo total (costo fijo + costo variable × volumen) para cada locación y se elige la de menor costo según el rango de producción esperado."
+  },
+  {
+    "front": "¿Qué diferencia al modelo en ambiente de incertidumbre del modelo en ambiente de riesgo?",
+    "back": "En incertidumbre se desconoce la probabilidad de ocurrencia de los escenarios (se usan criterios como análisis pesimista, optimista o de igual probabilidad). En riesgo sí se conoce o estima la probabilidad de cada escenario, y se calcula un valor ponderado por esas probabilidades."
+  },
+  {
+    "front": "¿Qué son los 'análisis pesimista' y 'optimista' en el modelo de incertidumbre?",
+    "back": "El análisis pesimista busca el máximo resultado entre los mínimos de cada locación (asume el peor escenario); el análisis optimista busca el máximo resultado entre los máximos (asume el mejor escenario)."
+  },
+  {
+    "front": "¿Qué son el FOS y el FOT en el Código Urbanístico de CABA?",
+    "back": "El FOS (Factor de Ocupación del Suelo) es el porcentaje de la superficie del terreno que puede ocuparse con la proyección horizontal de las construcciones. El FOT (Factor de Ocupación Total), multiplicado por la superficie de la parcela, determina la superficie total edificable en todos los niveles. Dividiendo FOT×S por FOS×S se obtiene la cantidad de plantas posibles."
+  },
+  {
+    "front": "¿Qué es un Parque Industrial según la normativa de la provincia de Buenos Aires?",
+    "back": "Es el sector de la zona industrial dotado de infraestructura, equipamiento y servicios públicos necesarios para el asentamiento de industrias agrupadas, rodeado por cortinas forestales, con el objetivo de mejorar la situación económica de las empresas participantes y minimizar el impacto ambiental."
+  },
+  {
+    "front": "¿Qué es la Evaluación de Impacto Ambiental (EIA)?",
+    "back": "Es un procedimiento técnico-administrativo destinado a identificar, interpretar y prevenir los efectos de corto, mediano y largo plazo que una actividad, proyecto o emprendimiento puede causar al ambiente. Funciona como instrumento de política ambiental para que el Estado conozca, valore y prevenga los impactos."
+  },
+  {
+    "front": "¿Cuáles son las principales etapas del procedimiento de Evaluación de Impacto Ambiental?",
+    "back": "Inicio del trámite, categorización de la actividad, manifiesto de impacto ambiental, estudio técnico de impacto ambiental, dictamen técnico, audiencia pública, declaración de impacto ambiental y certificado de aptitud ambiental."
+  },
+  {
+    "front": "¿Qué categorías de actividades existen en CABA según su impacto ambiental?",
+    "back": "Con Relevante Efecto (CRE), Sujetas a Categorización (s/C), Con Declaración Jurada del profesional (c/DDJJ), Sin Relevante Efecto con Condiciones (SRE c/C) y Sin Relevante Efecto (SRE)."
+  },
+  {
+    "front": "¿Cómo se calcula el Nivel de Complejidad Ambiental (N.C.A.) en la provincia de Buenos Aires?",
+    "back": "N.C.A. = Ru + ER + Ri + Di + Lo, donde Ru es el rubro de la actividad, ER la calidad de efluentes y residuos, Ri los riesgos potenciales, Di la dimensión del emprendimiento y Lo la localización. Según el puntaje, la industria se clasifica en primera (hasta 15 pts), segunda (15-25 pts) o tercera categoría (más de 25 pts)."
+  },
+  {
+    "front": "¿Qué es la certificación LEED y qué mide?",
+    "back": "Es el sistema de clasificación de edificios ecológicos más utilizado del mundo (Leadership in Energy & Environmental Design). Mide localización sostenible, ahorro de agua, eficiencia energética, selección de materiales y recursos, calidad ambiental interior e innovación y diseño."
+  },
+  {
+    "front": "¿Qué ventajas tiene un edificio industrial de una sola planta frente a uno de plantas múltiples?",
+    "back": "El de una sola planta ofrece grandes áreas libres sin interrupciones, flujo continuo de materiales y gran adaptabilidad para sistemas de transporte de recorrido fijo (puentes grúa, transportadores). El de plantas múltiples conviene cuando hay flujo por gravedad o terreno limitado/costoso."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre hormigón simple, armado y pretensado?",
+    "back": "El hormigón simple se usa solo en elementos comprimidos (mala resistencia a tracción). El armado incorpora barras de acero que mejoran la resistencia a flexión y ductilidad. El pretensado tiene armaduras activas tensadas que comprimen el hormigón antes de cargarlo, reduciendo la fisuración."
+  },
+  {
+    "front": "¿Qué es una cabreada o cercha en un edificio industrial?",
+    "back": "Es un sistema coplanar de elementos estructurales (perfiles tipo L) conectados por sus extremos en puntos llamados nodos, que sostiene la cubierta del techo más las cargas de viento, nieve y equipos, trabajando los elementos a esfuerzos axiales."
+  },
+  {
+    "front": "¿Cuál es el principio de diseño en una unión roscada bien calculada?",
+    "back": "Debe romperse primero el elemento de unión (el 'fusible', es decir tornillo o bulón) antes que cualquiera de los componentes que se están uniendo, protegiendo así las piezas estructurales principales."
+  },
+  {
+    "front": "¿Qué diferencia una unión roscada rígida de una elástica?",
+    "back": "La rígida se da entre dos superficies duras en contacto directo, donde el torque final se alcanza tras aproximadamente 1/4 de giro luego de la resistencia inicial. La elástica involucra superficies blandas o juntas/arandelas, y el torque final se logra tras 2 o más giros."
+  }
+]

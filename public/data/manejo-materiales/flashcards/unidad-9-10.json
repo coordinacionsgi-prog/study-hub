@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Qué es la distribución en planta (layout)?",
+    "back": "Es la organización física de una planta industrial o centro de servicios, sea nueva o una reformulación de una existente, que comprende el espacio para toda la actividad productiva y de soporte."
+  },
+  {
+    "front": "¿Cuáles son los objetivos básicos de una distribución en planta?",
+    "back": "Integrar todos los factores de producción, minimizar el movimiento de materiales, utilizar efectivamente el espacio disponible, garantizar la seguridad de las personas y el medio ambiente, y dar flexibilidad ante cambios tecnológicos y productivos."
+  },
+  {
+    "front": "Nombrá los cuatro tipos básicos de distribución en planta.",
+    "back": "Distribución por posición fija, distribución por proceso o función, distribución por familia de productos (celular o tecnología de grupos) y distribución por producto o en línea."
+  },
+  {
+    "front": "¿En qué consiste la distribución por posición fija?",
+    "back": "El componente principal permanece fijo en un lugar y son las herramientas, equipos, mano de obra e insumos los que se trasladan hacia él. Se usa para el montaje de grandes unidades como aeronaves, barcos o construcción civil, con bajo volumen de producción."
+  },
+  {
+    "front": "¿Cuándo conviene una distribución por proceso (o por función)?",
+    "back": "Cuando el volumen de producción no justifica una línea dedicada, hay gran variedad de productos a fabricar y demanda baja o variable. Se agrupan los procesos similares en departamentos, con alto flujo entre departamentos pero bajo dentro de cada uno."
+  },
+  {
+    "front": "¿Qué es la distribución por familia de productos o tecnología de grupos?",
+    "back": "Se basa en agrupar piezas similares (que Tompkins llama 'seudo producto') que comparten proceso productivo, formando celdas de fabricación. El flujo es intenso dentro del departamento pero bajo entre departamentos."
+  },
+  {
+    "front": "¿Qué caracteriza a la distribución por producto (en línea)?",
+    "back": "El producto se mueve siguiendo la secuencia de operaciones del proceso; los puestos de trabajo se ordenan según esa secuencia. Se usa con grandes volúmenes, producto estandarizado y demanda estable, logrando menores tiempos unitarios de fabricación pero exigiendo equilibrio de las estaciones (línea de balance)."
+  },
+  {
+    "front": "¿Cuál es el hito histórico asociado a la distribución por producto?",
+    "back": "El 7 de octubre de 1913, Henry Ford introdujo en la planta de Highland Park (Detroit) la producción en serie con línea de montaje móvil, reduciendo drásticamente tiempos y costos de fabricación del Modelo T."
+  },
+  {
+    "front": "Nombrá al menos cuatro principios clásicos para la distribución en planta.",
+    "back": "Integración de conjunto, mínima distancia recorrida, circulación o flujo de materiales, uso del espacio cúbico, flexibilidad, y satisfacción y seguridad para los trabajadores."
+  },
+  {
+    "front": "¿Qué son los 'factores de distribución' o factores dominantes del proceso?",
+    "back": "Son los elementos que impactan en la distribución en planta: factor material, máquina, hombre, movimiento, espera, servicio, edificio y cambio."
+  },
+  {
+    "front": "¿Qué implica el factor 'espera' dentro de los factores de distribución?",
+    "back": "Incluye el almacenamiento temporal y permanente y las demoras en el proceso. Es una inmovilización de materiales que no genera valor, por lo que debe minimizarse, considerando costos de espacio, guarda, financieros, de manejo y de oportunidad."
+  },
+  {
+    "front": "¿Quién fue Richard Muther y qué desarrolló?",
+    "back": "Fue el primero en estudiar sistemáticamente los procesos de distribución en planta, desarrollando en los años 60 el Systematic Layout Planning (SLP), un sistema de cuatro fases que sigue siendo la base de los métodos modernos de distribución."
+  },
+  {
+    "front": "¿Cuáles son las cuatro fases del método SLP de Muther?",
+    "back": "Fase I: Localización. Fase II: Distribución General o de Conjunto. Fase III: Distribución Detallada (por departamento). Fase IV: Instalación. Estas fases se superponen en el tiempo."
+  },
+  {
+    "front": "En el SLP, ¿qué se define en la Fase I - Localización?",
+    "back": "Se selecciona el método de localización integrado al proyecto; la decisión definitiva conviene aprobarla recién una vez desarrollada la distribución de conjunto (Fase II)."
+  },
+  {
+    "front": "¿Qué es el 'Paso 1: Análisis producto-cantidad' dentro del procedimiento SLP?",
+    "back": "Consiste en determinar qué se va a producir y en qué cantidades para cierto horizonte temporal. Muther recomienda graficar los productos en abscisas y las cantidades en ordenadas, ordenados en forma decreciente, para orientar el tipo de distribución a adoptar."
+  },
+  {
+    "front": "¿Qué herramientas se usan en el 'Paso 2: Análisis del recorrido de los productos' del SLP?",
+    "back": "Diagrama OTIDA, diagrama de acoplamiento, cursogramas analíticos, diagrama multiproducto, matrices origen-destino (desde/hacia), diagramas de hilos y diagramas de recorrido, que describen la secuencia y cantidad de movimientos de los productos."
+  },
+  {
+    "front": "¿Qué es la tabla relacional de actividades del SLP y qué código usa?",
+    "back": "Es un diagrama de doble entrada que registra la necesidad de proximidad entre cada par de actividades. Usa el código de vocales decreciente: A (absolutamente necesaria), E (especialmente importante), I (importante), O (importancia ordinaria), U (no importante), y X para indeseable."
+  },
+  {
+    "front": "¿Qué es el Diagrama de Relaciones de Actividades en el SLP?",
+    "back": "Es un grafo donde cada actividad es un nodo y las líneas que los unen representan la intensidad de relación (A, E, I, O, U, X) según un código de líneas. Se ajusta a prueba y error para minimizar cruces, priorizando cercanía entre actividades de mayor relación."
+  },
+  {
+    "front": "¿Qué diferencia al Diagrama Relacional de Espacios del Diagrama Relacional de Actividades?",
+    "back": "El Diagrama Relacional de Espacios es similar, pero los símbolos de cada actividad se representan a escala, de modo que el tamaño sea proporcional al área real requerida por cada actividad."
+  },
+  {
+    "front": "En el SLP, ¿cuántas propuestas de distribución recomienda desarrollar Muther antes de elegir la definitiva?",
+    "back": "Recomienda desarrollar de dos a cinco propuestas elaboradas con precisión, resultado de haber filtrado un número mayor de alternativas analizadas solo esquemáticamente."
+  },
+  {
+    "front": "¿Cuáles son los tres métodos más usados para evaluar y seleccionar la mejor alternativa de distribución en el SLP?",
+    "back": "Comparación de ventajas y desventajas (el más simple pero menos exacto), análisis de factores ponderados (escala 1-10 o 1-100, aumenta objetividad) y comparación de costos (el método más sustancial, usado para justificar el proyecto y comparar alternativas)."
+  },
+  {
+    "front": "¿Cuáles son los siete pasos del procedimiento SLP en detalle?",
+    "back": "1) Análisis producto-cantidad, 2) análisis del recorrido de productos, 3) análisis de relaciones entre actividades, 4) diagrama de relaciones de actividades, 5) análisis de necesidades y disponibilidad de espacios, 6) diagrama relacional de espacios, y 7) evaluación de alternativas y selección de la mejor distribución."
+  },
+  {
+    "front": "¿En qué se diferencia el método de J. M. Apple del SLP de Muther?",
+    "back": "Apple propone un método secuencial no rígido (relevamiento, análisis, planeación, diseño, ejecución) donde se puede avanzar y retroceder entre pasos, partiendo del supuesto de que no hay dos distribuciones idénticas ni procedimientos de diseño iguales."
+  },
+  {
+    "front": "¿Qué anchos mínimos de pasillo se recomiendan para la circulación de personal sin puertas y para montacargas de 3 toneladas?",
+    "back": "Circulación de personal sin puertas: 0,9 m. Montacargas de horquilla de 3 toneladas: 3,6 m (junto con camiones/tractores). El ancho depende del tipo de flujo y equipo que circula."
+  },
+  {
+    "front": "¿Qué diferencia a los algoritmos de distribución 'basado en distancias' de los 'basado en adyacencias'?",
+    "back": "El basado en distancias busca minimizar la sumatoria de flujos (fij) por distancias (dij) entre departamentos usando la tabla Desde-Hacia. El basado en adyacencias busca maximizar la calificación de adyacencia usando datos cualitativos de la tabla de relaciones, sin considerar directamente las distancias entre departamentos no adyacentes."
+  },
+  {
+    "front": "¿En qué consiste el algoritmo de Intercambio Pareado?",
+    "back": "Parte de una distribución inicial de departamentos en línea (todas las áreas iguales) y calcula el costo de intercambiar pares de departamentos. Se elige el intercambio de menor costo en cada iteración hasta que ninguna nueva iteración logre reducir el costo, momento en que se llega al óptimo."
+  },
+  {
+    "front": "¿Qué es el sistema CRAFT?",
+    "back": "Es un sistema informático que parte de una distribución inicial dada y la optimiza mediante un algoritmo basado en distancia (usando la tabla Desde-Hasta), calculando centroides de departamentos y evaluando intercambios pareados o de tres departamentos hasta minimizar el costo total."
+  },
+  {
+    "front": "¿Qué son los patrones de flujo diagonal versus perpendicular/paralelo dentro de un departamento organizado por procesos?",
+    "back": "El patrón diagonal usa pasillos de un solo sentido, requiere menos ancho y espacio pero es menos flexible. Los patrones perpendicular y paralelo usan pasillos de doble sentido, requieren más espacio pero ofrecen mayor flexibilidad ante variaciones del proceso."
+  },
+  {
+    "front": "¿Qué establece el 'principio de la mínima distancia recorrida' en distribución de planta?",
+    "back": "Que la mejor distribución es siempre aquella que permite que la distancia a recorrer por el material sea la menor posible, reduciendo tiempos y costos de manejo de materiales."
+  },
+  {
+    "front": "¿Qué plantea la 'ley de Parkinson' aplicada a la planificación de espacios en distribución de planta?",
+    "back": "Que 'las cosas crecerán hasta ocupar todo el espacio disponible antes del tiempo previsto', por lo que el planificador debe filtrar los pedidos de espacio inflados de los responsables de sector y definir los requerimientos reales."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "front": "¿Qué diferencia hay entre \"mover\" materiales y \"manejar\" materiales?",
+    "back": "Mover es solo trasladar un elemento de un punto a otro. Manejar es más complejo: estudia de forma sistémica ese movimiento más el embalaje y el almacenamiento, buscando una optimización económica del resultado del proceso."
+  },
+  {
+    "front": "¿A qué principio de Material Handling corresponde: minimizar el trabajo manual y que el equipamiento sea intrínsecamente seguro para el operador?",
+    "back": "Al principio de Ergonomía: reconoce las capacidades y limitaciones humanas y las respeta al diseñar tareas y seleccionar equipos, para asegurar operaciones efectivas y seguras."
+  },
+  {
+    "front": "¿Qué principio de Material Handling promueve mecanizar y/o automatizar las operaciones para mejorar resultados, flexibilidad y predictibilidad, y eliminar tareas repetitivas o inseguras?",
+    "back": "El principio de Automatización."
+  },
+  {
+    "front": "Según el Material Handling Institute, ¿qué establece el Principio de Carga Unitaria?",
+    "back": "Que hay que dimensionar apropiadamente la carga para que el manejo cumpla con los objetivos de inventario y stock y permita un flujo adecuado, evitando mover cargas en forma individual."
+  },
+  {
+    "front": "En la planeación de una instalación, ¿en qué etapa se incurre en mayores costos al hacer una modificación?",
+    "back": "En la etapa de Operación. El orden de mayor a menor costo de modificar es: Operación > Instalación > Construcción > Diseño > Planeación."
+  },
+  {
+    "front": "¿Qué normativa regula el uso del suelo en una ciudad?",
+    "back": "El Código de Planeamiento Urbano."
+  },
+  {
+    "front": "¿Qué son el FOS y el FOT?",
+    "back": "FOS (Factor de Ocupación del Suelo) es el porcentaje de la superficie del terreno que se puede ocupar con la proyección horizontal de las construcciones. FOT (Factor de Ocupación Total) es el número que, multiplicado por la superficie de la parcela, determina la superficie total edificable."
+  },
+  {
+    "front": "¿Cuáles son los ítems más relevantes para la Categorización Ambiental de una actividad?",
+    "back": "Tipo de actividad, consumo de energía y cantidad de residuos y desperdicios generados."
+  },
+  {
+    "front": "¿Cuáles son las variantes de Categorización Ambiental vigentes en CABA y qué norma las establece?",
+    "back": "Con Relevante Efecto (CRE), Sujeto a Categorización (S/C), Con Declaración Jurada del profesional (c/DDJJ), Sin Relevante Efecto con Condiciones (SRE c/C) y Sin Relevante Efecto (SRE), establecidas por la Ley 123 de CABA."
+  },
+  {
+    "front": "¿Cuál es la vigencia de los Certificados de Aptitud Ambiental en CABA?",
+    "back": "Es variable según la categorización de la actividad: CRE 2 años + audiencia, SRE 10 años, SRE c/C 6 años, con DDJJ de procesión 4 años, S/C 2 años + audiencia."
+  },
+  {
+    "front": "¿Qué es la Evaluación de Impacto Ambiental (EIA)?",
+    "back": "Es un procedimiento técnico administrativo destinado a identificar, interpretar y prevenir los efectos de corto, mediano y largo plazo que una actividad, proyecto o emprendimiento pueda causar al ambiente."
+  },
+  {
+    "front": "Una empresa industrial con plantas en el AMBA, generadora de residuos peligrosos, ¿qué normativa debe cumplir?",
+    "back": "Debe cumplir las normas de la CABA, la Provincia de Buenos Aires y de la Nación simultáneamente."
+  },
+  {
+    "front": "¿Cuál es el plazo máximo que admite CABA para la guarda de residuos peligrosos de grandes generadores?",
+    "back": "6 a 12 meses."
+  },
+  {
+    "front": "¿Qué es el \"Etiquetado Ambiental\" según normas ISO?",
+    "back": "Es, según ISO 14020, un conjunto de herramientas voluntarias que buscan estimular la demanda de productos y servicios con menores cargas ambientales, ofreciendo información relevante de su ciclo de vida para satisfacer la demanda de información ambiental de los compradores."
+  },
+  {
+    "front": "¿Qué es el Greenwashing?",
+    "back": "Es la práctica de presentar un producto, servicio o empresa como respetuoso del ambiente sin serlo realmente. El etiquetado ambiental busca evitarlo garantizando comunicación ambiental veraz."
+  },
+  {
+    "front": "¿Cómo se completa la definición de Desarrollo Sostenible?",
+    "back": "Es aquel desarrollo que satisface las necesidades del presente sin comprometer la capacidad de las futuras generaciones, garantizando el equilibrio entre el crecimiento económico, el cuidado del ambiente y el bienestar social."
+  },
+  {
+    "front": "¿Qué es un Parque Industrial y cuál es su objetivo?",
+    "back": "Es el sector de una zona industrial dotado de infraestructura, equipamiento y servicios públicos para el asentamiento agrupado de industrias, circundado por cortinas forestales. Su objetivo es mejorar la situación económica de las empresas participantes y minimizar el impacto ambiental conjunto."
+  },
+  {
+    "front": "¿Qué son los Prerrequisitos en las normas LEED y qué puntaje otorgan?",
+    "back": "Son requisitos que se deben cumplir obligatoriamente antes de iniciar la evaluación por puntaje. No otorgan puntos (se califican solo con sí/no); si no se cumplen, no se puede continuar con la certificación."
+  },
+  {
+    "front": "¿Cómo se puede demostrar la implementación de políticas de cero residuos como complemento de una certificación LEED?",
+    "back": "Certificando Zero Waste Company."
+  },
+  {
+    "front": "¿Qué método se usa para localizar una planta descartando zonas indeseables mediante mapas superpuestos?",
+    "back": "El método de Cribado. Se marcan en tantos mapas como factores las zonas indeseables, se superponen para encontrar \"zonas blancas\", y luego se aplica una matriz de ponderación para determinar el Grado de Conveniencia de cada zona."
+  },
+  {
+    "front": "¿Cómo se calcula el Grado de Conveniencia en el método de Cribado?",
+    "back": "Con el producto entre la Ponderación (importancia del factor en los costos) y el Grado de Perfección (qué tan bien cumple cada zona blanca ese factor), sumado para todos los factores de cada sitio."
+  },
+  {
+    "front": "¿Cuáles son los métodos no cuantificables (cualitativos) para evaluar factores de localización de planta?",
+    "back": "Antecedentes industriales, Factor de preferencia y Factor dominante."
+  },
+  {
+    "front": "¿Cómo se interpreta el resultado del Método Funcional (comparación A/B) para elegir localización?",
+    "back": "Si A/B es menor a 1, la localización óptima es A. Si A/B es mayor a 1 (o ≥2), la localización óptima es B."
+  },
+  {
+    "front": "¿Cómo combina el método Brown-Gibson los factores objetivos y subjetivos?",
+    "back": "Mediante el coeficiente K en la fórmula DPLi = K x FOi + (1-K) x FSi, donde K indica cuántas veces son más importantes los factores objetivos sobre los subjetivos."
+  },
+  {
+    "front": "¿Cuáles son los seis principios básicos de la Distribución en Planta?",
+    "back": "Integración de conjunto, mínima distancia recorrida, circulación o flujo de materiales, espacio cúbico, seguridad y satisfacción, y flexibilidad."
+  },
+  {
+    "front": "¿A qué principio de Distribución en Planta corresponde: \"es mejor la distribución que ordene las áreas de trabajo en el mismo orden o secuencia en que se tratan, elaboran o montan los materiales\"?",
+    "back": "Al principio de Circulación o Flujo de Materiales."
+  },
+  {
+    "front": "En el gráfico Variedad (eje X) - Volumen (eje Y) de producto, ¿dónde se ubica la distribución por proceso?",
+    "back": "Con volumen bajo y variedad de producto alta."
+  },
+  {
+    "front": "¿Cuál es el objetivo principal del sistema computarizado CRAFT?",
+    "back": "Mejorar (optimizar) el Lay-Out de una planta ya existente, minimizando el costo total de transporte entre departamentos. No sirve para diseñar un layout desde cero."
+  },
+  {
+    "front": "Si tengo que diseñar un layout con 12 procesos perfectamente alineados, ¿cuántas combinaciones posibles hay y qué método conviene usar?",
+    "back": "12! = 479.001.600 combinaciones. Al ser demasiadas para calcular manualmente, conviene usar el método CRAFT (computarizado)."
+  },
+  {
+    "front": "Si tengo 9 procesos para un nuevo layout pero 2 de ellos (Recepción y Despacho) no se pueden mover, ¿cuántas combinaciones posibles hay?",
+    "back": "Quedan 7 procesos libres para combinar: 7! = 5.040 alternativas."
+  },
+  {
+    "front": "¿Cuáles son las dos determinaciones previas para pasar del Análisis Producto-Cantidad al Diagrama Relacional de Actividades en el método SLP?",
+    "back": "Analizar el flujo total de materiales (movimientos) y definir las relaciones/intensidad entre actividades."
+  },
+  {
+    "front": "¿Qué esfuerzo resistente mejora más el hormigón armado respecto del hormigón común?",
+    "back": "La tracción: el acero de las armaduras aumenta la resistencia a tracción y la ductilidad, mientras que el hormigón común resiste bien la compresión pero es débil a tracción."
+  },
+  {
+    "front": "¿Cuál es la principal ventaja del hormigón pretensado?",
+    "back": "El armado tensado comprime el hormigón (armaduras activas), reduciendo su trabajo a tracción y el tamaño de fisuras, aprovechando su alta resistencia a compresión. Se usa en vigas y pilares de grandes construcciones."
+  },
+  {
+    "front": "¿Cuáles son los 4 parámetros básicos para definir un edificio industrial?",
+    "back": "Q: carga portante de la estructura; H: altura libre del piso a cabreadas; P: tipo de piso; L: distancia entre columnas."
+  },
+  {
+    "front": "¿Qué altura libre estándar suelen tener los edificios industriales y por qué?",
+    "back": "Aproximadamente 7 metros, para poder instalar, de ser necesario, un sistema de vigas de repartición de cargas."
+  },
+  {
+    "front": "¿Qué es una Viga de Repartición de Cargas (VRC)?",
+    "back": "Son perfiles o vigas metálicas ancladas a los nodos de las cabreadas que reparten y distribuyen cargas suspendidas (como equipos o instalaciones) hacia los nodos de la estructura, dentro de la carga admisible de cada uno."
+  },
+  {
+    "front": "En un edificio metálico tipo diente de sierra, ¿cómo deben instalarse las vigas de repartición de cargas del 1er nivel?",
+    "back": "Perpendiculares a las cabreadas triangulares."
+  },
+  {
+    "front": "¿Cuáles son los dos tipos de uniones roscadas (abulonadas) sin necesidad de medir el torque?",
+    "back": "Rígidas y elásticas."
+  },
+  {
+    "front": "¿Qué significa la inscripción \"10.9\" en la cabeza de un tornillo?",
+    "back": "El primer número (10) indica la resistencia a la rotura: 10 x 100 = 1000 N/mm². El segundo número (9) indica el porcentaje de fluencia: 0,9 x 1000 = 900 N/mm² es el límite elástico."
+  },
+  {
+    "front": "¿Qué tipo de unión (soldada o abulonada) es de carácter permanente?",
+    "back": "La unión soldada."
+  },
+  {
+    "front": "¿Qué norma establece las condiciones para el almacenaje seguro de materiales peligrosos?",
+    "back": "La Ley Nacional 24.051 y su Decreto Reglamentario N° 831/1993."
+  },
+  {
+    "front": "¿Qué diferencia hay entre un contenedor Reefer y uno Conair?",
+    "back": "El contenedor Reefer posee equipo de refrigeración propio incorporado; el Conair, en cambio, depende de conexión externa (aire acondicionado del buque) para su refrigeración."
+  },
+  {
+    "front": "¿Qué es un TEU?",
+    "back": "Twenty-foot Equivalent Unit: es la unidad estándar (pero inexacta, ya que es una equivalencia) usada para medir la capacidad de carga de contenedores, tomando como referencia un contenedor de 20 pies."
+  },
+  {
+    "front": "¿Qué capacidad aproximada tienen los buques portacontenedores ultramodernos?",
+    "back": "Cercana a los 24.000 TEU (los más grandes actuales superan ampliamente los 20.000 TEU)."
+  },
+  {
+    "front": "¿Cuáles son las funciones técnicas del embalaje?",
+    "back": "Proteger y conservar el producto en las operaciones logísticas, mantener sus características hasta el punto de consumo, y facilitar su manejo y movimiento."
+  },
+  {
+    "front": "¿Qué diferencia hay entre un Plano Llave (Key Plan) y un Lay-Out?",
+    "back": "El Lay-Out muestra el trazado unifilar de columnas, la disposición de equipos y procesos con su escala y norte geográfico. El Plano Llave (Key Plan) es un esquema general de ubicación/referencia de sectores dentro de un predio o edificio, sin el detalle del layout."
+  },
+  {
+    "front": "¿Qué sistema de almacenaje compacto de pallets permite la modalidad FIFO?",
+    "back": "Los sistemas Drive-Through (drive-in permite solo LIFO)."
+  },
+  {
+    "front": "¿Qué sistema de almacenaje compacto de pallets permite tanto FIFO como LIFO indistintamente?",
+    "back": "Los sistemas Pallet-Runner / Radio Shuttle."
+  },
+  {
+    "front": "¿Qué caracteriza a un almacén autoportante?",
+    "back": "Las estructuras de las estanterías forman parte de la propia estructura del edificio (no son independientes): las estanterías ayudan a sostener el edificio."
+  },
+  {
+    "front": "¿Dónde conviene ubicar el mando motriz de una cinta transportadora?",
+    "back": "En el tambor de reenvío, en la tolva receptora del material (zona de descarga), para que la parte cargada de la banda trabaje traccionada."
+  },
+  {
+    "front": "¿Cuántas clases de aire comprimido define la norma ISO 8573 y cuál asegura ausencia total de aceite?",
+    "back": "Define 10 clases; la Clase 0 es la única que asegura la no existencia de aceite en el aire comprimido."
+  },
+  {
+    "front": "¿Sobre qué vigas se desplazan las ruedas de un puente grúa tipo pórtico?",
+    "back": "Sobre las vigas principales y sobre las testeras."
+  }
+]

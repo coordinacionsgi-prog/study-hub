@@ -1,0 +1,167 @@
+[
+  {
+    "question": "¿Cuál es la fórmula correcta del EVA?",
+    "options": [
+      "EVA = Capital Invertido x (ROIC − WACC)",
+      "EVA = Utilidad Neta − Gastos Financieros",
+      "EVA = BAII − Impuestos",
+      "EVA = ROE − Ke"
+    ],
+    "answerIndex": 0,
+    "explanation": "El EVA se calcula como el Capital Invertido multiplicado por la diferencia entre el ROIC (rendimiento del capital invertido) y el WACC (costo promedio ponderado del capital), lo cual es equivalente a NOPAT − (Capital Invertido x WACC)."
+  },
+  {
+    "question": "¿Qué representa el NOPAT (o BAIDI) en el cálculo del EVA?",
+    "options": [
+      "La utilidad neta después de intereses y de impuestos",
+      "El BAII (EBIT) multiplicado por (1 − tasa impositiva completa)",
+      "El flujo de caja libre de la empresa",
+      "El resultado antes de impuestos (BAI)"
+    ],
+    "answerIndex": 1,
+    "explanation": "NOPAT o BAIDI se define como BAII x (1 − Tx), aplicando la tasa impositiva completa sobre el resultado operativo, sin descontar los intereses de la deuda."
+  },
+  {
+    "question": "En la empresa 'LOS TRES PERIODOS SRL' (AE700), para el año 2022 el BAIDI (NOPAT) se calculó como BAII x (1 − tx). Si el BAII 2022 fue 576 y la tasa impositiva 2022 fue 35%, ¿cuál es el BAIDI 2022?",
+    "options": [
+      "374,40",
+      "576,00",
+      "201,60",
+      "410,33"
+    ],
+    "answerIndex": 0,
+    "explanation": "BAIDI2022 = 576 x (1 − 0,35) = 576 x 0,65 = 374,40, tal como surge del ejercicio resuelto."
+  },
+  {
+    "question": "Según el ejercicio AE700, el Capital Invertido de 2022 fue 5.817 y el WACC 2022 fue 8,39%, con un ROIC 2022 de 7,85%. ¿Qué indica el EVA resultante?",
+    "options": [
+      "La empresa creó valor porque ROIC > WACC",
+      "La empresa destruyó valor porque ROIC < WACC",
+      "El EVA es cero porque ROIC = WACC",
+      "No se puede determinar sin conocer el Ke"
+    ],
+    "answerIndex": 1,
+    "explanation": "Como el ROIC (7,85%) es menor que el WACC (8,39%), el EVA2022 resulta negativo (-31,69), lo que significa que la empresa destruyó valor ese año, según el ejercicio resuelto."
+  },
+  {
+    "question": "En el mismo ejercicio (AE700), el EVA 2023 fue de -424,97, notablemente peor que el de 2022. ¿Cuál fue la causa principal según los datos del ejercicio?",
+    "options": [
+      "El WACC subió fuertemente (de 8,39% a 14,00%) mientras el ROIC bajó",
+      "El Capital Invertido se redujo drásticamente",
+      "La tasa impositiva se incrementó al 50%",
+      "El NOPAT se volvió negativo"
+    ],
+    "answerIndex": 0,
+    "explanation": "El WACC pasó de 8,39% en 2022 a 14,00% en 2023 (impulsado por el aumento de Ke a 19,5% y el mayor costo de capital), mientras que el ROIC bajó de 7,85% a 6,83%, ampliando la brecha negativa entre ROIC y WACC."
+  },
+  {
+    "question": "En el ejercicio de la 'Distribuidora más allá del viento y la marea SA' (AE721), Ke = 19% y Kd(1-Tx) = 29,25%, con PN/(PN+Do) = 51,22% y Do/(PN+Do) = 48,78%. ¿Cuál es el WACC resultante?",
+    "options": [
+      "24,00%",
+      "19,00%",
+      "45,00%",
+      "39,75%"
+    ],
+    "answerIndex": 0,
+    "explanation": "WACC = 19% x 51,22% + 29,25% x 48,78% ≈ 9,73% + 14,27% = 24,00%, tal como figura en la solución del ejercicio."
+  },
+  {
+    "question": "En el ejercicio AE721, con ROIC = 39,75%, WACC = 24,00% y Capital Invertido = 708, ¿cuál es el EVA?",
+    "options": [
+      "111,53 (crea valor)",
+      "708,00 (crea valor)",
+      "-111,53 (destruye valor)",
+      "15,75 (crea valor)"
+    ],
+    "answerIndex": 0,
+    "explanation": "EVA = (ROIC − WACC) x Capital Invertido = (39,75% − 24,00%) x 708 = 15,75% x 708 = 111,53, por lo tanto la empresa creó valor."
+  },
+  {
+    "question": "En el mismo ejercicio AE721, si el BAII sube 8% y el Capital Invertido sube 12% (nuevo NOPAT = 303,97 y nuevo Capital Invertido = 793, con WACC constante en 24%), ¿qué se concluye sobre el nuevo proyecto?",
+    "options": [
+      "Conviene, porque el EVA aumenta de 111,53 a 113,66",
+      "No conviene, porque el EVA baja a 19,49",
+      "Es indiferente porque el EVA no cambia",
+      "No conviene porque el ROIC pasa a ser negativo"
+    ],
+    "answerIndex": 0,
+    "explanation": "El nuevo EVA resulta 113,66, superior al original de 111,53 (delta EVA = +2,13), por lo que el proyecto conviene ya que mejora el EVA."
+  },
+  {
+    "question": "En el ejercicio AE721 (parte ii), si el WACC sube un 13% adicional (pasando del 24% al 37%) manteniendo NOPAT y Capital Invertido constantes, ¿qué ocurre con el EVA?",
+    "options": [
+      "Baja de 111,53 a 19,49, por lo que no conviene aceptar el cambio",
+      "Sube porque el WACC más alto genera mayor rentabilidad",
+      "Permanece igual porque el WACC no afecta al EVA",
+      "Se vuelve negativo y la empresa pasa a destruir valor"
+    ],
+    "answerIndex": 0,
+    "explanation": "Con WACC = 37%, el EVA cae a 19,49 (delta = -92,04). Aunque sigue siendo positivo, la conclusión del ejercicio es que no conviene porque el proyecto empeora el EVA original."
+  },
+  {
+    "question": "¿Por qué el WACC pondera el costo de la deuda (Kd) por el factor (1 − Tx)?",
+    "options": [
+      "Porque los intereses son deducibles del impuesto a las ganancias, generando un escudo fiscal",
+      "Porque la deuda siempre es más cara que el capital propio",
+      "Porque Tx representa la inflación del período",
+      "Porque así se anula el efecto del riesgo de la deuda"
+    ],
+    "answerIndex": 0,
+    "explanation": "Al ser deducibles del impuesto a las ganancias, los intereses generan un ahorro fiscal (tax shield), por lo que el costo efectivo de la deuda para la empresa es menor que la tasa nominal, de ahí el ajuste (1 − Tx)."
+  },
+  {
+    "question": "¿Cuál es la diferencia esencial entre la Deuda Onerosa y las Deudas Operativas (como proveedores)?",
+    "options": [
+      "La Deuda Onerosa tiene costo financiero explícito (intereses); las Deudas Operativas son de generación espontánea y sin costo financiero explícito",
+      "La Deuda Onerosa es siempre de corto plazo y las Operativas de largo plazo",
+      "No hay diferencia, ambas se incluyen igual en el cálculo del WACC",
+      "La Deuda Onerosa nunca genera escudo fiscal"
+    ],
+    "answerIndex": 0,
+    "explanation": "Solo la deuda con costo explícito (préstamos, bonos, etc.) entra en el cálculo del WACC; las deudas operativas como proveedores o cargas fiscales/sociales no tienen tasa de interés explícita y financian espontáneamente parte de la operación."
+  },
+  {
+    "question": "¿Qué significa que una empresa tenga utilidad neta contable positiva pero EVA negativo?",
+    "options": [
+      "Que la utilidad no alcanza a cubrir el costo de oportunidad del capital propio, aunque contablemente haya ganancia",
+      "Que hubo un error en el cálculo de impuestos",
+      "Que la empresa tiene flujo de caja negativo",
+      "Que el WACC es igual a cero"
+    ],
+    "answerIndex": 0,
+    "explanation": "La utilidad contable descuenta los intereses de la deuda pero no el costo de oportunidad del capital propio (Ke). Si el rendimiento generado no cubre ese costo implícito, hay ganancia contable pero destrucción de valor económico."
+  },
+  {
+    "question": "¿Por qué se dice que el EVA es una medida 'monoperiodo' y eso se considera una limitación?",
+    "options": [
+      "Porque evalúa un único ejercicio y no incorpora las expectativas de generación de valor futura de la empresa",
+      "Porque solo puede calcularse una vez en la vida de la empresa",
+      "Porque no permite compararse entre distintas unidades de negocio",
+      "Porque requiere datos de más de diez años para calcularse"
+    ],
+    "answerIndex": 0,
+    "explanation": "El EVA se calcula sobre un período concreto (por ejemplo, un ejercicio anual) y no capta directamente las expectativas de flujos futuros, a diferencia de métodos como el descuento de flujos de fondos (DCF)."
+  },
+  {
+    "question": "En el ejemplo del emprendimiento gastronómico (cafetería) de la teoría, con NOPAT = 13.000 y Capital Invertido = 95.000, ¿qué WACC hace que el EVA sea exactamente cero?",
+    "options": [
+      "Aproximadamente 13,68%",
+      "10%",
+      "15,5%",
+      "18%"
+    ],
+    "answerIndex": 0,
+    "explanation": "El ROIC del ejemplo es NOPAT/Capital Invertido = 13.000/95.000 = 13,68%. Cuando el WACC iguala exactamente al ROIC, el EVA es cero; con WACC=10% el EVA fue positivo (+3.500) y con WACC=15,5% fue negativo (-1.725)."
+  },
+  {
+    "question": "¿Cuál de las siguientes es una estrategia reconocida para mejorar el EVA?",
+    "options": [
+      "Desinvertir o reasignar capital de negocios cuyo retorno no supere el costo de capital",
+      "Aumentar la deuda sin importar la tasa de interés que se pague",
+      "Ignorar el costo de oportunidad del accionista al evaluar proyectos",
+      "Maximizar la utilidad neta contable sin considerar el capital invertido"
+    ],
+    "answerIndex": 0,
+    "explanation": "Una de las tres estrategias clásicas para mejorar el EVA es desinvertir o reasignar capital cuando el retorno obtenido no satisface el costo de ese capital, junto con operar con mayor eficiencia e invertir solo cuando el retorno exceda el WACC."
+  }
+]

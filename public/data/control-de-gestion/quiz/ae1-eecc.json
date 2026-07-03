@@ -1,0 +1,178 @@
+[
+  {
+    "question": "¿Cuál es la principal diferencia entre la Contabilidad Patrimonial y la Contabilidad Gerencial?",
+    "options": [
+      "La Patrimonial es para uso interno y la Gerencial para uso externo",
+      "La Patrimonial produce información obligatoria y regulada para terceros externos, mientras que la Gerencial produce información flexible para decisiones internas",
+      "No hay diferencias reales, son sinónimos",
+      "La Gerencial solo se usa en empresas industriales y la Patrimonial en empresas comerciales"
+    ],
+    "answerIndex": 1,
+    "explanation": "La Contabilidad Patrimonial genera reportes obligatorios con formato regulado para usuarios externos (accionistas, bancos, entes reguladores), mientras que la Gerencial produce información interna adaptada para la toma de decisiones."
+  },
+  {
+    "question": "¿Cuáles son los cuatro Estados Contables básicos que debe emitir una empresa cada ejercicio?",
+    "options": [
+      "Balance General, Estado de Resultados, Memoria e Informe del Auditor",
+      "Estado de Situación Patrimonial, Estado de Resultados, Estado de Evolución del Patrimonio Neto y Estado de Flujo de Efectivo",
+      "Plan de Cuentas, Libro Diario, Libro Mayor y Libro de Inventarios",
+      "Análisis Vertical, Análisis Horizontal, Análisis de Tendencias y Análisis de Tamaño Homogéneo"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los cuatro estados contables básicos de publicación son: Estado de Situación Patrimonial (Balance), Estado de Resultados, Estado de Evolución del Patrimonio Neto y Estado de Flujo de Efectivo, acompañados de Notas, Anexos, Memoria e Informe del Auditor."
+  },
+  {
+    "question": "¿Qué diferencia principal existe entre el Análisis Vertical y el Análisis Horizontal?",
+    "options": [
+      "El Vertical compara varias empresas y el Horizontal compara una sola empresa",
+      "El Vertical es dinámico (compara períodos) y el Horizontal es estático (un solo período)",
+      "El Vertical es estático y analiza un solo período expresando cada rubro como % de una base; el Horizontal es dinámico y compara la variación de una cuenta entre dos períodos",
+      "No hay diferencia, son el mismo método con distinto nombre"
+    ],
+    "answerIndex": 2,
+    "explanation": "El Análisis Vertical toma un solo Estado Contable y relaciona cada ítem con una cifra base (ej. Activo Total = 100%), mientras que el Horizontal compara dos períodos consecutivos para ver la variación absoluta y porcentual de cada cuenta."
+  },
+  {
+    "question": "En el Análisis Vertical del Balance General, ¿cuál es la cifra base habitual?",
+    "options": [
+      "El Patrimonio Neto",
+      "El Activo Total",
+      "Las Ventas Totales",
+      "El Pasivo Corriente"
+    ],
+    "answerIndex": 1,
+    "explanation": "En el Balance, cada línea se expresa como porcentaje del Activo Total (=100%). En el Estado de Resultados, en cambio, la base son los Ingresos/Ventas totales (=100%)."
+  },
+  {
+    "question": "¿Qué representa el Análisis de Tamaño Homogéneo (Common Size Analysis)?",
+    "options": [
+      "Una comparación de una sola cuenta entre dos empresas de igual tamaño",
+      "Un análisis que informa solo porcentuales año a año, eliminando el sesgo del valor monetario y muy útil para benchmarking con la industria",
+      "El cálculo del índice de liquidez corriente",
+      "La suma total de todos los activos de una empresa en un período"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Análisis de Tamaño Homogéneo expresa las cifras en términos relativos (porcentajes) para varios períodos, eliminando el efecto inflacionario y el sesgo del tamaño absoluto, siendo ideal para comparar contra competidores o la media de la industria."
+  },
+  {
+    "question": "Si en el Análisis de Tendencias se toma el año 2019 como año base (100%) y las Ventas de 2021 muestran un índice de 138%, ¿qué significa ese número?",
+    "options": [
+      "Las ventas de 2021 cayeron un 138% respecto de 2019",
+      "Las ventas de 2021 son un 38% mayores que las de 2019",
+      "Las ventas de 2021 son iguales a las de 2019",
+      "Las ventas de 2019 son mayores que las de 2021"
+    ],
+    "answerIndex": 1,
+    "explanation": "En el Análisis de Tendencias, el año base se fija en 100% y los años posteriores se expresan como índice respecto a esa base. Un índice de 138% indica un crecimiento del 38% respecto del año base."
+  },
+  {
+    "question": "¿Qué diferencia hay entre una Previsión y una Provisión en los Estados Contables?",
+    "options": [
+      "Son sinónimos exactos, ambas son cuentas de pasivo",
+      "La Previsión es una cuenta regularizadora del Activo por una posible pérdida de valor; la Provisión es una cuenta de Pasivo por una obligación cierta de monto estimado",
+      "La Previsión es del Pasivo y la Provisión es del Patrimonio Neto",
+      "La Previsión se usa solo en empresas industriales y la Provisión solo en comerciales"
+    ],
+    "answerIndex": 1,
+    "explanation": "La Previsión regulariza (resta) al Activo por un hecho incierto de pérdida de valor (ej: previsión para incobrables). La Provisión es una cuenta de Pasivo que refleja una obligación cuya ocurrencia es cierta y el monto es estimable, aunque el momento exacto de pago se desconozca."
+  },
+  {
+    "question": "¿Cuál es la diferencia entre depreciación y amortización contable?",
+    "options": [
+      "Son sinónimos perfectos y se usan indistintamente para cualquier activo",
+      "La depreciación se aplica a bienes de uso tangibles y la amortización a bienes intangibles",
+      "La depreciación se aplica a intangibles y la amortización a tangibles",
+      "Ambas se aplican únicamente al Patrimonio Neto"
+    ],
+    "answerIndex": 1,
+    "explanation": "La depreciación refleja el desgaste de activos tangibles (edificios, maquinaria, rodados) por el uso y el paso del tiempo. La amortización distribuye el valor de los activos intangibles (patentes, marcas, software) a lo largo de su vida útil."
+  },
+  {
+    "question": "¿Cuáles son los cuatro formatos jurídicos más usuales de organización empresarial mencionados en la teoría?",
+    "options": [
+      "Cooperativa, ONG, Fundación y Asociación Civil",
+      "Propiedad unipersonal, sociedad de hecho, sociedad de responsabilidad limitada y sociedad anónima",
+      "S.A., S.R.L., Sociedad Colectiva y Sociedad en Comandita únicamente en Europa",
+      "Empresa pública, empresa privada, empresa mixta y empresa multinacional"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los cuatro formatos legales más usuales a nivel mundial son: la propiedad unipersonal, la sociedad de hecho (ambas con responsabilidad ilimitada), y las compañías de responsabilidad limitada y las sociedades anónimas (ambas con responsabilidad limitada)."
+  },
+  {
+    "question": "¿Qué tipo de responsabilidad tienen los accionistas de una Sociedad Anónima (S.A.)?",
+    "options": [
+      "Responsabilidad ilimitada sobre todo su patrimonio personal",
+      "Responsabilidad limitada al monto de capital aportado o al valor de las acciones adquiridas",
+      "No tienen ningún tipo de responsabilidad",
+      "Responsabilidad compartida solidariamente con el Estado"
+    ],
+    "answerIndex": 1,
+    "explanation": "En la S.A., la responsabilidad de los accionistas está limitada a la cantidad invertida en la empresa mediante el aporte de capital o la compra de acciones, protegiendo su patrimonio personal de las deudas de la sociedad."
+  },
+  {
+    "question": "Según la Memoria de 'La Romana de Buenos Aires S.A.', las ventas del ejercicio Nº15 fueron de $6.933.372,24, un 26,01% superiores al ejercicio anterior. ¿Qué tipo de análisis se está utilizando en esa frase?",
+    "options": [
+      "Análisis Vertical",
+      "Análisis de Tamaño Homogéneo",
+      "Análisis Horizontal",
+      "Análisis por ratios de liquidez"
+    ],
+    "answerIndex": 2,
+    "explanation": "Comparar la cifra de ventas de un ejercicio contra el ejercicio anterior y expresar la variación en porcentaje es exactamente la definición de Análisis Horizontal (análisis dinámico entre dos períodos)."
+  },
+  {
+    "question": "En el Estado de Situación Patrimonial de 'La Romana de Buenos Aires S.A.' al 31/12/20X4, el Activo Corriente es $825.812,86 y el Activo Total es $1.899.929,18. Aproximadamente, ¿qué porcentaje del activo total representa el activo corriente (análisis vertical)?",
+    "options": [
+      "Aproximadamente 15%",
+      "Aproximadamente 43%",
+      "Aproximadamente 65%",
+      "Aproximadamente 90%"
+    ],
+    "answerIndex": 1,
+    "explanation": "825.812,86 / 1.899.929,18 x 100 ≈ 43,5%. Este cálculo, expresar un rubro del balance como porcentaje del activo total, es un Análisis Vertical."
+  },
+  {
+    "question": "En el ejercicio ilustrativo AE100, el Activo Corriente es 790 y el Pasivo Corriente es 470. ¿Cuál es el índice de Liquidez Corriente?",
+    "options": [
+      "0,60",
+      "1,68",
+      "2,50",
+      "0,74"
+    ],
+    "answerIndex": 1,
+    "explanation": "Liquidez Corriente = Activo Corriente / Pasivo Corriente = 790 / 470 = 1,68, lo que indica que la empresa tiene $1,68 de activo corriente por cada $1 de deuda de corto plazo."
+  },
+  {
+    "question": "¿Qué es una transacción permutativa en el marco de las variaciones patrimoniales?",
+    "options": [
+      "Una operación que aumenta el Patrimonio Neto por un ingreso puro",
+      "Una operación que cambia la composición del activo y/o pasivo pero no modifica el valor total del Patrimonio Neto",
+      "Una operación que solo pueden realizar los accionistas, como aportes de capital",
+      "Una operación que siempre reduce el Patrimonio Neto"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las transacciones permutativas alteran la composición cualitativa del patrimonio (por ejemplo, comprar mercadería a crédito aumenta bienes de cambio y deudas por igual monto) pero no modifican cuantitativamente el Patrimonio Neto."
+  },
+  {
+    "question": "¿Cuál es la diferencia entre una variación patrimonial modificativa propia y una impropia?",
+    "options": [
+      "La propia se origina en operaciones normales de la empresa (afecta resultados); la impropia se origina en decisiones de los propietarios (aportes o retiros de capital)",
+      "La propia siempre es negativa y la impropia siempre positiva",
+      "Ambas son idénticas y no cambian el Patrimonio Neto",
+      "La propia solo ocurre en sociedades anónimas y la impropia en sociedades de hecho"
+    ],
+    "answerIndex": 0,
+    "explanation": "Las modificativas propias provienen de la actividad normal de la empresa (ventas, gastos) y afectan el PN a través del resultado del ejercicio. Las impropias se originan por decisiones de los socios, como aportes de capital o distribución de dividendos, y también modifican el PN pero sin pasar por el Estado de Resultados."
+  },
+  {
+    "question": "¿Por qué es importante eliminar el efecto de la inflación al hacer un Análisis Horizontal?",
+    "options": [
+      "Porque no es necesario, la inflación no afecta este análisis",
+      "Porque si no se elimina, una variación positiva en las cifras (ej. +25% en ventas) podría reflejar solo el efecto de los precios y no un crecimiento real, distorsionando la toma de decisiones",
+      "Porque el Análisis Horizontal solo se usa en países sin inflación",
+      "Porque la inflación solo afecta al Análisis Vertical, no al Horizontal"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Análisis Horizontal muestra variaciones nominales entre períodos; si no se descuenta la inflación, un incremento en valores monetarios puede no reflejar un crecimiento real del negocio, llevando a conclusiones erróneas."
+  }
+]

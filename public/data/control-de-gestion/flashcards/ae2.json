@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Qué es el análisis de variaciones patrimoniales?",
+    "back": "Es el estudio de los cambios que sufre el patrimonio neto (PN) de una empresa entre dos momentos, identificando qué hechos, actos o transacciones provocaron ese aumento o disminución. Sirve para entender las causas detrás de la evolución económica y financiera del ente, no solo el resultado final."
+  },
+  {
+    "front": "Según su impacto en el Patrimonio Neto, ¿en qué tres grandes grupos se clasifican las variaciones patrimoniales?",
+    "back": "1) Permutativas (no cambian el PN); 2) Modificativas (cambian el PN, y se subdividen en propias e impropias); 3) Mixtas (cambian el PN porque combinan una permutación con una modificación en la misma operación)."
+  },
+  {
+    "front": "¿Qué es una variación patrimonial permutativa?",
+    "back": "Es aquella que no altera el valor total del PN: solo cambia la composición cualitativa del activo y/o del pasivo (por ejemplo, canjear efectivo por un bien, o aumentar un activo y una deuda por el mismo importe). No hay ganancia ni pérdida, sino un movimiento de valores entre cuentas patrimoniales."
+  },
+  {
+    "front": "¿Qué es una variación patrimonial modificativa propia?",
+    "back": "Es la que se origina en las operaciones normales de la empresa (su giro de negocio) y afecta al PN a través del resultado del ejercicio: si aumentan los ingresos puros el PN sube (variación positiva) y si aumentan los gastos puros el PN baja (variación negativa)."
+  },
+  {
+    "front": "¿Qué es una variación patrimonial modificativa impropia?",
+    "back": "Es la que se origina por decisión de los propietarios/socios, no por la operatoria del negocio: los aportes de capital generan una variación impropia aumentativa del PN, y los retiros o distribución de dividendos generan una variación impropia disminutiva del PN."
+  },
+  {
+    "front": "¿Qué es una variación patrimonial mixta?",
+    "back": "Es la que combina en una misma operación un efecto permutativo y uno modificativo: por ejemplo, la venta de mercadería al contado permuta 'Mercaderías' por 'Caja', pero además genera una ganancia o pérdida por la diferencia entre el precio de venta y el costo, lo que sí modifica el PN."
+  },
+  {
+    "front": "Dan de baja mercadería que costaba $140 y cobran $100 en efectivo por su venta. ¿Qué tipo de variación patrimonial es y cuál es el efecto en el PN?",
+    "back": "Es una variación MIXTA: hay una parte permutativa (baja del activo Mercaderías, sube Efectivo) y una parte modificativa negativa, porque se vendió por debajo del costo. El PN disminuye en $40 (100 − 140 = −40)."
+  },
+  {
+    "front": "Los socios hacen un aporte adicional de capital de $1.000 en efectivo. ¿Qué tipo de variación patrimonial es?",
+    "back": "Es una variación MODIFICATIVA IMPROPIA aumentativa: el PN sube $1.000 porque el origen del cambio es una decisión de los propietarios (aporte de capital), no una operación propia del giro del negocio."
+  },
+  {
+    "front": "Se cobran $500 por servicios prestados (ingreso puro). ¿Qué tipo de variación patrimonial es?",
+    "back": "Es una variación MODIFICATIVA PROPIA aumentativa: el PN sube $500 porque proviene de un resultado positivo (ingreso) generado por la actividad propia de la empresa."
+  },
+  {
+    "front": "¿Cuáles son las dos grandes causas que explican, en general, por qué cambia el Patrimonio Neto de una empresa?",
+    "back": "1) Operaciones corrientes / propias de la empresa: se reflejan en el resultado del ejercicio (ganancias o pérdidas). 2) Decisiones de los propietarios (variaciones impropias): aportes de capital (aumentan el PN) o retiros/distribución de utilidades o dividendos (disminuyen el PN)."
+  },
+  {
+    "front": "En el ejercicio de Goldemediacancha SA (Ej201), ¿cuál era el Patrimonio Neto al 01/01/20x4 y se mantuvo constante durante las 4 operaciones encadenadas?",
+    "back": "El PN inicial era $95.000. A lo largo de las operaciones a) compra de mercaderías al contado, b) compra de un mueble con pagaré, c) pago a un proveedor en efectivo y d) firma de un pagaré por una deuda, el PN se mantuvo en $95.000 porque todas fueron variaciones permutativas (solo cambiaron activo y pasivo, sin afectar el neto)."
+  },
+  {
+    "front": "En el ejemplo ilustrativo AE200 (empresa comercial, monoperíodo), ¿cómo se compone el Patrimonio Neto final?",
+    "back": "El PN total es $900, compuesto por Capital Social $530, Resultados No Asignados $93,1 y Resultado del Ejercicio $276,90 (530 + 93,1 + 276,9 = 900). Los Activos Totales igualan a $1.440, que se financian con $540 de pasivos y $900 de PN."
+  },
+  {
+    "front": "¿Qué es el Fondo de Maniobra (FM) y cómo se calcula?",
+    "back": "Es el excedente de los Capitales Permanentes (Patrimonio Neto + Deudas de Largo Plazo) por sobre el Activo Fijo, disponible para financiar parte del Activo Corriente. Fórmula: FM = Capitales Permanentes − Activo Fijo. Ejemplo AE200: FM = 970 − 650 = 320."
+  },
+  {
+    "front": "¿Qué significa que una empresa tenga Fondo de Maniobra positivo (FM>0)?",
+    "back": "Que todo el Activo Fijo está financiado con capitales permanentes y además sobra un excedente que financia parte del Activo Corriente. Es la situación de equilibrio y estabilidad financiera más cómoda: se cumple que Recursos Permanentes financian el Activo Fijo y que el Activo Circulante es mayor a las Deudas de Corto Plazo."
+  },
+  {
+    "front": "¿Qué riesgo implica un Fondo de Maniobra negativo (FM<0)?",
+    "back": "Que parte del Activo Fijo se está financiando con deudas de corto plazo, generando desequilibrio patrimonial y financiero. Es una situación de alerta cercana a la suspensión de pagos: si persiste en el tiempo, la empresa corre riesgo de tener que recurrir a un concurso de acreedores o incluso a la quiebra."
+  },
+  {
+    "front": "¿Qué significa un Fondo de Maniobra neutro (FM=0)?",
+    "back": "Es un equilibrio meramente teórico: el Activo Corriente iguala a las Deudas de Corto Plazo. Es una situación inestable, porque cualquier atraso en cobros o falla en la velocidad de conversión de activos en efectivo puede llevar a la empresa a una situación de desequilibrio (FM negativo)."
+  },
+  {
+    "front": "¿Cuáles son las cinco masas patrimoniales clásicas en el análisis de un balance?",
+    "back": "Del lado del activo: Disponibilidades, Realizable (créditos) y Bienes de Cambio (existencias), más el Activo Fijo (No Corriente). Del lado del pasivo y PN: Deudas de Corto Plazo (DCP), Deudas de Largo Plazo (DLP) y el Patrimonio Neto (Equity)."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre 'variables stock' y 'variables flujo' en el análisis patrimonial?",
+    "back": "Las variables stock se miden en un instante determinado (por ejemplo, el PN o el activo total en una fecha de balance), son estáticas. Las variables flujo se miden durante un período de tiempo (por ejemplo, la utilidad neta del ejercicio), son dinámicas y tienen dimensión temporal."
+  },
+  {
+    "front": "¿Qué informa el Estado de Cambios en el Patrimonio Neto (ECPN)?",
+    "back": "Informa la composición del PN y las causas de los cambios ocurridos durante el período en cada uno de sus rubros (capital social, reservas, resultados no asignados, resultado del ejercicio, etc.), mostrando ordenadamente los movimientos que tuvo el PN."
+  },
+  {
+    "front": "¿Cómo se calcula la variación total del Patrimonio Neto entre dos fechas de balance?",
+    "back": "ΔPN = PN final − PN inicial. Ese cambio total luego se explica descomponiéndolo en sus causas: resultado del ejercicio (propias), aportes de capital y distribución de utilidades o retiros de los socios (impropias)."
+  },
+  {
+    "front": "¿Por qué es importante ajustar por 'saldo promedio' cuando se combina una variable flujo con una variable stock en una fórmula?",
+    "back": "Porque la variable flujo (por ej. la utilidad neta) se generó a lo largo de todo el período, mientras que la variable stock (por ej. el activo total) representa un valor en un instante. Para que la relación sea representativa hay que usar el promedio de la variable stock entre el inicio y el fin del período (si se dispone de 2 balances); en un ejercicio monoperíodo no es posible hacer ese ajuste."
+  },
+  {
+    "front": "Net worth (inglés-español)",
+    "back": "Patrimonio neto. Es la magnitud residual que resulta de restar al total del activo el total del pasivo (deudas); representa la porción de la empresa que pertenece a los propietarios."
+  },
+  {
+    "front": "Retained earnings (inglés-español)",
+    "back": "Utilidades retenidas o resultados no asignados. Son las ganancias generadas en ejercicios anteriores que la empresa no distribuyó como dividendos y mantiene acumuladas dentro del Patrimonio Neto."
+  },
+  {
+    "front": "Contributed capital (inglés-español)",
+    "back": "Capital social - aportes. Es la parte del Patrimonio Neto que representa lo que los socios o accionistas aportaron efectivamente a la empresa (a diferencia de lo generado por resultados)."
+  },
+  {
+    "front": "Accrual method of accounting (inglés-español)",
+    "back": "Método de lo devengado. Criterio contable según el cual los ingresos y gastos se reconocen cuando se generan económicamente, independientemente de cuándo se cobran o pagan en efectivo."
+  },
+  {
+    "front": "Working capital requirement / WCR (inglés-español)",
+    "back": "Necesidades (requeridas) de Capital de Trabajo (NOF o NCT). Es la necesidad de fondos de corto plazo que la empresa necesita para sostener su operación diaria, cubierta con deuda bancaria de corto plazo y el excedente del Fondo de Maniobra."
+  },
+  {
+    "front": "Financial leverage (inglés-español)",
+    "back": "Palanca financiera. Relación entre el Activo Total y el Patrimonio Neto de la empresa: 1 + (Deuda total / Patrimonio Neto). Cuanto mayor es el endeudamiento con terceros, mayor es la palanca financiera."
+  },
+  {
+    "front": "Prior period adjustments (inglés-español)",
+    "back": "Ajuste de ejercicios anteriores. Corrección que se realiza sobre resultados o saldos de ejercicios ya cerrados, y que impacta directamente en el Patrimonio Neto (típicamente en Resultados No Asignados)."
+  },
+  {
+    "front": "Return on Equity (ROE) (inglés-español)",
+    "back": "Rentabilidad del Patrimonio Neto. Se calcula como Utilidad Neta / Capital Propio promedio; muestra cuánta utilidad generó la empresa en relación con el importe del Patrimonio Neto invertido por los dueños."
+  },
+  {
+    "front": "Book value (inglés-español)",
+    "back": "Valor de libros o valor contable. Es el valor al que figura un activo, pasivo o el Patrimonio Neto según los registros contables, que puede diferir del valor de mercado."
+  }
+]

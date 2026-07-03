@@ -1,0 +1,106 @@
+[
+  {
+    "front": "¿Qué es el EVA (Valor Económico Agregado)?",
+    "back": "Es una métrica que cuantifica la creación (o destrucción) de valor de una empresa en un período, midiendo si la utilidad operativa después de impuestos supera al costo de todo el capital utilizado (propio y ajeno). Una empresa crea valor solo cuando el rendimiento obtenido con el capital invertido es mayor que lo que cuesta ese capital."
+  },
+  {
+    "front": "¿Cuál es la fórmula básica del EVA?",
+    "back": "EVA = NOPAT (o BAIDI) − (Capital Invertido x WACC). También puede expresarse como EVA = Capital Invertido x (ROIC − WACC), ya que ambas formas son equivalentes por pasaje de términos."
+  },
+  {
+    "front": "¿Qué es el NOPAT o BAIDI?",
+    "back": "Es la sigla de Net Operating Profit After Tax (o Beneficio Antes de Intereses y Después de Impuestos). Se calcula como BAII x (1 − Tasa impositiva completa) y representa la utilidad operativa que tendría la empresa si no tuviera deuda, excluyendo el efecto de la estructura de financiamiento."
+  },
+  {
+    "front": "¿Por qué el NOPAT no resta los intereses de la deuda?",
+    "back": "Porque el NOPAT busca aislar el resultado puramente operativo, sin mezclarlo con decisiones de financiamiento. El costo de la deuda (y del capital propio) se incorpora después, en el cargo por el uso del capital dentro del cálculo del EVA."
+  },
+  {
+    "front": "¿Qué diferencia hay entre la Tasa Impositiva (Tx) y la Tasa Efectiva pagada?",
+    "back": "La Tasa Impositiva (Tx) es la alícuota completa vigente que fija el organismo recaudador (por ejemplo AFIP), y es la que se usa para calcular el NOPAT. La Tasa Efectiva es la que realmente se paga sobre el BAI en el estado de resultados tradicional, y puede diferir de la tasa completa por distintos ajustes contables."
+  },
+  {
+    "front": "¿Qué es el Capital Invertido?",
+    "back": "Es la inversión neta que realmente utiliza la empresa para generar su negocio: activo fijo neto más la Necesidad Operativa de Fondos (NOF), o equivalentemente, la deuda neta onerosa más el capital propio. También se lo llama Capital Empleado o Inversión Neta."
+  },
+  {
+    "front": "¿Qué es el WACC o CPPC?",
+    "back": "Es el Costo Promedio Ponderado del Capital (Weighted Average Cost of Capital), la tasa que en promedio le cuesta a la empresa financiarse considerando tanto el capital propio como el capital ajeno oneroso, ponderados según su participación en el capital invertido."
+  },
+  {
+    "front": "¿Cuál es la fórmula del WACC?",
+    "back": "WACC = Ke x [E/(Df+E)] + Kd x (1−Tx) x [Df/(Df+E)], donde E es el capital propio, Df es la deuda financiera onerosa, Ke es el costo del capital propio y Kd es el costo de la deuda antes de impuestos."
+  },
+  {
+    "front": "¿Por qué el WACC multiplica a Kd por (1−Tx)?",
+    "back": "Porque los intereses de la deuda son deducibles del impuesto a las ganancias, generando un ahorro fiscal (escudo fiscal o tax shield). Por eso el costo real de la deuda después de impuestos es menor que la tasa nominal que cobra el prestamista."
+  },
+  {
+    "front": "¿Qué es Ke y cómo se estima habitualmente?",
+    "back": "Ke es el costo de oportunidad del capital propio, es decir, la rentabilidad mínima que exigen los accionistas por invertir en la empresa dado su nivel de riesgo. Se suele estimar con el modelo CAPM: Ke = rf + β(Rm − rf) + prima de riesgo país + riesgo sectorial, aunque en mercados poco desarrollados como el argentino su cálculo es más subjetivo."
+  },
+  {
+    "front": "¿Qué es Kd y cómo se calcula?",
+    "back": "Kd es la tasa de interés promedio que cobran los acreedores por la deuda onerosa (con costo financiero explícito). Se calcula dividiendo los gastos financieros (intereses pagados) por el monto de la deuda onerosa promedio."
+  },
+  {
+    "front": "¿Por qué Ke siempre es mayor que Kd?",
+    "back": "Porque el accionista asume mayor riesgo que el acreedor: cobra después que los acreedores en caso de liquidación y su retorno no está garantizado, mientras que la deuda tiene condiciones y prioridad de cobro pactadas. A mayor riesgo asumido, mayor rentabilidad exigida."
+  },
+  {
+    "front": "¿Qué es la Deuda Onerosa (Do o Df)?",
+    "back": "Es el pasivo que tiene costo financiero explícito (intereses), como préstamos bancarios, obligaciones negociables o bonos. Se distingue de las deudas operativas (proveedores, cargas fiscales y sociales) que son de generación espontánea y no tienen costo financiero explícito, por lo que no forman parte del WACC."
+  },
+  {
+    "front": "¿Cuándo el EVA es positivo y qué significa?",
+    "back": "El EVA es positivo cuando el ROIC (rendimiento del capital invertido) supera al WACC. Significa que la empresa generó una rentabilidad por encima de lo que cuesta su capital, es decir, creó valor para los accionistas más allá de lo mínimo exigido."
+  },
+  {
+    "front": "¿Cuándo el EVA es negativo y qué significa?",
+    "back": "El EVA es negativo cuando el ROIC es menor al WACC. Significa que la empresa no logra cubrir el costo total de su financiamiento (incluido el costo de oportunidad del accionista) y, por lo tanto, destruye valor aunque muestre utilidad contable positiva."
+  },
+  {
+    "front": "¿Por qué una empresa puede tener utilidad neta positiva y sin embargo destruir valor (EVA negativo)?",
+    "back": "Porque la utilidad neta contable descuenta los intereses de la deuda pero nunca descuenta el costo del capital propio (los accionistas no tienen un 'gasto' explícito en el estado de resultados). Si el rendimiento generado no alcanza a cubrir ese costo de oportunidad implícito del capital propio, hay utilidad contable pero destrucción de valor económico."
+  },
+  {
+    "front": "¿Por qué se dice que el EVA es mejor indicador de gestión que el Ra o el ROE?",
+    "back": "Porque a diferencia de indicadores tradicionales como el Rendimiento de Activos (Ra) o la Rentabilidad Financiera (ROE), el EVA incorpora explícitamente el costo financiero total asociado a los activos que generan los rendimientos, incluyendo el costo de oportunidad del capital propio, no solo el de la deuda."
+  },
+  {
+    "front": "¿Qué es el ROIC y cómo se relaciona con el EVA?",
+    "back": "El ROIC (Return on Invested Capital) es el rendimiento del capital invertido, calculado como NOPAT / Capital Invertido. La comparación entre ROIC y WACC es la base del EVA: si ROIC > WACC hay creación de valor, y si ROIC < WACC hay destrucción de valor."
+  },
+  {
+    "front": "¿Cuáles son las principales formas de mejorar el EVA?",
+    "back": "Operar con mayor eficiencia (aumentar el NOPAT con el mismo capital), crecer de manera rentable (invertir solo cuando el retorno supere el WACC), administrar mejor el capital invertido (liberar capital improductivo o reducir la NOF) y reducir el costo de capital (optimizar la estructura de financiamiento)."
+  },
+  {
+    "front": "¿Qué relación existe entre el EVA y la creación de valor para el accionista?",
+    "back": "El EVA operacionaliza el principio de que una empresa solo crea valor para el accionista cuando la rentabilidad obtenida supera el costo de oportunidad exigido por ese accionista (Ke) y por los acreedores en conjunto (WACC). Un EVA positivo sostenido en el tiempo es consistente con el aumento de la riqueza del accionista."
+  },
+  {
+    "front": "¿Qué ventajas se le reconocen al EVA como métrica?",
+    "back": "Es relativamente fácil de calcular, contempla todos los costos financieros (propios y ajenos), se puede aplicar a distintos niveles de la organización (empresa, unidad de negocio, proyecto), permite alinear los incentivos de los directivos con la creación de valor y ayuda a identificar dónde se crea o destruye valor dentro de la compañía."
+  },
+  {
+    "front": "¿Qué limitaciones o críticas tiene el EVA?",
+    "back": "Es una medida de un solo período (monoperiodo) que no capta expectativas futuras de la empresa; depende de cifras contables que pueden requerir ajustes; y el cálculo del costo de capital (especialmente Ke) es complejo, sobre todo en mercados con alta inflación o poco desarrollados bursátilmente, como el argentino."
+  },
+  {
+    "front": "¿Qué ajustes contables son típicos para pasar de la utilidad contable al NOPAT usado en el EVA?",
+    "back": "Excluir activos y resultados extrafuncionales (no relacionados al negocio principal), aplicar la tasa impositiva completa (no la efectiva) sobre el BAII, y reconstruir el 'balance corto' o financiero separando la deuda onerosa de las deudas operativas espontáneas (proveedores, cargas fiscales) para obtener el verdadero capital invertido."
+  },
+  {
+    "front": "¿Qué es el 'Balance Corto' o visión financiera del balance?",
+    "back": "Es una reclasificación del balance contable tradicional que separa el capital invertido (activo fijo neto + NOF) del capital empleado (deuda neta onerosa + capital propio), quitando las partidas extrafuncionales y las deudas operativas sin costo explícito, para poder calcular correctamente el ROIC, el WACC y el EVA."
+  },
+  {
+    "front": "¿Quién popularizó el concepto de EVA y cuándo?",
+    "back": "La consultora estadounidense Stern Stewart & Co. desarrolló y patentó la metodología EVA como marca registrada, popularizándola especialmente desde los años 80 y 90, aunque la idea de 'ingreso residual' (ganancia por encima del costo de oportunidad del capital) ya existía en la teoría económica desde fines del siglo XIX, con antecedentes como Alfred Marshall."
+  },
+  {
+    "front": "¿Qué es el 'cargo por el uso del capital' dentro del EVA?",
+    "back": "Es el monto en pesos que resulta de multiplicar el Capital Invertido por el WACC (Capital Invertido x WACC). Representa el costo monetario total de financiar los activos de la empresa, incluyendo tanto la deuda onerosa como el capital propio, y es lo que se le resta al NOPAT para obtener el EVA."
+  }
+]

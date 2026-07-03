@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Qué es el circulante operativo de una empresa?",
+    "back": "Es el conjunto de partidas de activo y pasivo vinculadas al ciclo dinero-mercadería-dinero, es decir, el circulante que la empresa necesita para operar en el día a día. Incluye disponibilidades, créditos por ventas y existencias del lado del activo, y las deudas de generación espontánea (proveedores, cargas sociales) del lado del pasivo."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre una variable stock y una variable flujo?",
+    "back": "La variable stock (o existencia) se mide en un instante determinado del tiempo, como una foto (por ejemplo, el saldo de mercaderías al 31/12). La variable flujo se mide durante un período de tiempo, como una película (por ejemplo, las ventas de todo un año). El Balance muestra variables stock y el Cuadro de Resultados muestra variables flujo."
+  },
+  {
+    "front": "Cuando una fórmula combina una variable flujo con una variable stock, ¿qué ajuste hay que hacer?",
+    "back": "Hay que promediar la variable stock entre su valor inicial y final del período (saldo medio), porque la variable flujo ya representa todo el período mientras que la variable stock es puntual. Cuantos más datos se usen para el promedio, más preciso será el resultado (por ejemplo, promediar con 12 valores mensuales es más exacto que con solo 2 balances anuales)."
+  },
+  {
+    "front": "¿Cuál es la diferencia principal entre el ciclo operativo de una empresa comercial y una industrial?",
+    "back": "En la empresa comercial el ciclo es más corto: se compra mercadería, se almacena y se vende tal cual, sin transformación. En la empresa industrial el ciclo es más largo porque agrega la función de transformación: se compra materia prima, se fabrica (mano de obra + costos indirectos), se obtiene el producto terminado y recién ahí se vende."
+  },
+  {
+    "front": "En una empresa industrial, ¿en qué se divide el período medio de inventarios (PMinv)?",
+    "back": "Se divide en tres subciclos que siempre hay que calcular por separado, nunca en forma directa: PMinv = PMmp (plazo medio de materia prima) + PMfab (plazo medio de fabricación o producción en proceso) + PMvta (plazo medio de productos terminados hasta la venta)."
+  },
+  {
+    "front": "¿Por qué en una empresa industrial no se puede calcular el PMinv en forma directa como en una comercial?",
+    "back": "Porque la empresa industrial tiene tres tipos de inventario distintos (materia prima, semielaborados/producción en proceso y productos terminados), cada uno con su propio flujo asociado (consumo de MP, costo de producción, costo de ventas). Además, esos datos de costos no figuran en los estados contables de publicación, sino que hay que obtenerlos de la contabilidad de costos."
+  },
+  {
+    "front": "¿Cómo se calcula el plazo medio de inventarios (PMinv) en una empresa comercial?",
+    "back": "PMinv = (Saldo medio de Bienes de Cambio / Costo de Mercaderías Vendidas del período) x n, donde n son los días del período (365 si es anual). Mide cuántos días en promedio las mercaderías permanecen en existencia antes de venderse."
+  },
+  {
+    "front": "¿Cómo se calcula el Período Medio de Cobro (PMC o PMcli)?",
+    "back": "PMcli = (Saldo medio de Créditos por Ventas / Ventas del período con IVA) x n. Mide cuántos días en promedio tardan los clientes en pagar. Ojo: como las cuentas a cobrar en el balance incluyen IVA, hay que sumarle el IVA a las ventas del denominador para mantener la coherencia."
+  },
+  {
+    "front": "¿Cómo se calcula el Período Medio de Pago a proveedores (PMP o PMprov)?",
+    "back": "PMprov = (Saldo medio de Cuentas a Pagar / Compras del período con IVA) x n. Mide cuántos días en promedio tarda la empresa en pagarles a sus proveedores. Es más preciso si se usan solo las compras a crédito, ya que las compras al contado no generan plazo de pago."
+  },
+  {
+    "front": "¿Qué es el Ciclo Operativo o Período de Maduración (PMM)?",
+    "back": "Es el tiempo que transcurre desde que la empresa adquiere las materias primas o mercaderías hasta que cobra a los clientes por la venta. PMM = PMinv + PMcli. En la empresa comercial, PMinv es un solo cálculo; en la industrial, PMinv es la suma de PMmp + PMfab + PMvta."
+  },
+  {
+    "front": "¿Qué es el Ciclo de Caja o Ciclo de Conversión de Efectivo (PMef)?",
+    "back": "Es el plazo que la empresa realmente necesita financiar con recursos propios o ajenos onerosos, porque no lo cubren los proveedores. Se calcula como PMef = PMinv + PMcli - PMprov, o equivalentemente PMef = PMM - PMprov. También se lo llama período medio de fondos necesarios."
+  },
+  {
+    "front": "¿Qué ciclos o subciclos se calculan igual en la empresa comercial y en la industrial?",
+    "back": "El Plazo Medio de Cobro (PMcli), el Plazo Medio de Pago a proveedores (PMprov), el Período de Maduración (PMM) y el Ciclo del Efectivo (PMef) se calculan con la misma lógica en ambos tipos de empresa. Lo que difiere es el cálculo del PMinv, que en la industrial se desagrega en tres subciclos (PMmp, PMfab, PMvta) y en la comercial es un único cálculo sobre mercaderías."
+  },
+  {
+    "front": "¿Qué relación general existe entre rotación y plazo medio (ciclo)?",
+    "back": "Son inversos entre sí: Rotación = Variable Flujo / Variable Stock promedio (veces que gira el stock en el período), mientras que Plazo Medio = (Variable Stock promedio / Variable Flujo) x n, expresado en días. A mayor rotación, menor plazo medio, y viceversa."
+  },
+  {
+    "front": "¿Qué significa que un inventario tenga una rotación de 6 veces al año?",
+    "back": "Significa que, en promedio, el stock completo se renueva (se vende y se repone) 6 veces durante el año. Una rotación alta indica uso eficiente del inventario o alta demanda; una rotación baja puede indicar exceso de stock o baja demanda."
+  },
+  {
+    "front": "¿Aumentar la velocidad de rotación siempre es bueno para la gestión?",
+    "back": "Generalmente sí, excepto para las rotaciones del pasivo circulante (por ejemplo, rotación de proveedores), donde conviene que el pago tarde más, no menos. Además hay una paradoja: bajar demasiado los inventarios mejora la eficiencia, pero si se agotan las existencias se pueden perder ventas por quiebre de stock."
+  },
+  {
+    "front": "¿Qué componentes forman el Activo Circulante (u operativo)?",
+    "back": "Disponibilidades o tesorería (caja, bancos, inversiones cuasi-líquidas), Realizable o créditos a corto plazo (cuentas por cobrar, documentos a cobrar, otros créditos) y Existencias o Bienes de Cambio (mercaderías en la comercial; materia prima, semielaborados y productos terminados en la industrial)."
+  },
+  {
+    "front": "¿Qué componentes forman el Pasivo Circulante y cómo se clasifican?",
+    "back": "Se clasifican en dos tipos: a) Recursos espontáneos o pasivo circulante operativo (proveedores, deudas sociales, sueldos a pagar), que financian a la empresa sin cobrarle interés explícito; y b) Recursos negociados o expresos (préstamos bancarios de corto plazo, sobregiros), que sí tienen interés explícito porque cuentan con garantías específicas."
+  },
+  {
+    "front": "¿Cómo se calcula el Costo de Mercaderías Vendidas (CMV) en una empresa industrial?",
+    "back": "CMV = Compras netas de MP + Mano de obra + Gastos Indirectos de Fabricación (GIF) + Existencia inicial de MP - Existencia final de MP + Existencia inicial de Semielaborados - Existencia final de Semielaborados + Existencia inicial de Productos Terminados - Existencia final de Productos Terminados. Se calcula en tres etapas: consumo de MP, costo de producción (o costo PT) y costo de ventas."
+  },
+  {
+    "front": "¿Por qué es importante gestionar bien el circulante operativo, más allá del negocio principal?",
+    "back": "Porque muchos fracasos empresariales no se deben a mala gestión del negocio central, sino a que la empresa genera ventas y utilidad pero no logra sincronizar sus cobros con sus pagos, quedándose sin liquidez para cumplir obligaciones de corto plazo. Cuanto más rápido gira el ciclo operativo, más rápido y más veces se obtiene el margen de ganancia."
+  },
+  {
+    "front": "¿Por qué el IVA es tan relevante al calcular los plazos medios de cobro y pago?",
+    "back": "Porque las cuentas por cobrar y por pagar en el balance siempre incluyen el IVA. Por eso, para mantener coherencia entre numerador y denominador, si el saldo de créditos o deudas tiene IVA incluido, hay que usar ventas o compras también con IVA incluido en el denominador de la fórmula del plazo medio."
+  },
+  {
+    "front": "¿Qué es la Identidad de DuPont y cómo descompone el rendimiento sobre activos (Ra)?",
+    "back": "Descompone el rendimiento de los activos (Ra = Utilidad Neta / Activos Totales promedio) en dos factores: Ra = Margen Neto (Utilidad Neta / Ventas) x Rotación de Activos (Ventas / Activos Totales promedio). Permite ver si el rendimiento se explica más por el margen que deja cada venta o por la velocidad con que la empresa genera ventas con su inversión."
+  },
+  {
+    "front": "Si dos empresas tienen el mismo Ra según DuPont, ¿pueden tener estructuras muy distintas?",
+    "back": "Sí. Por ejemplo, una empresa puede lograr Ra = 20% con un margen alto (40%) y rotación baja (0,5 veces), típico de negocios con pocas ventas pero alto margen; y otra puede lograr el mismo 20% con margen bajo (4%) y rotación alta (5 veces), típico de negocios de alto volumen y bajo margen, como un supermercado."
+  },
+  {
+    "front": "¿Qué significa que una empresa tenga un ciclo de maduración negativo?",
+    "back": "Significa que cobra a sus clientes antes de tener que pagarle a sus proveedores, es decir que se financia con el dinero de terceros en vez de necesitar financiamiento propio. Es una situación poco común, típica de supermercados, grandes superficies y plataformas de e-commerce que cobran al contado o de inmediato pero pagan a sus proveedores a plazo."
+  },
+  {
+    "front": "En el ejemplo Rotaveloz (empresa industrial), ¿cuál fue el PMinv total y sus subciclos?",
+    "back": "PMinv = PMmp (73,0 días) + PMfab (14,6 días) + PMvta (26,5 días) = 114,15 días. Sumado al PMcli de 30,2 días, el PMM (ciclo de maduración) da 144,3 días. Restando el PMprov de 20,6 días, el ciclo del efectivo (PMef) resultó en 123,7 días a financiar."
+  },
+  {
+    "front": "En el caso Cicletti S.A., ¿por qué cambian los resultados según se trate la empresa como comercial o industrial?",
+    "back": "Porque el cálculo del ciclo de inventarios difiere: como industrial hay que calcular tres subciclos (PMmp, PMfab, PMvta) usando datos de contabilidad de costos que no figuran en los EECC publicados; como comercial se usa un único cálculo directo con Bienes de Cambio y CMV. En el ejercicio, esto generó una diferencia de 45,1 días entre ambos enfoques, mostrando el error de aplicar el criterio equivocado según el tipo de empresa."
+  },
+  {
+    "front": "¿Qué son los tres enfoques posibles para analizar el circulante operativo?",
+    "back": "1) Punto de vista de los plazos y velocidades de conversión (ciclos y rotaciones, el foco de esta sesión); 2) Punto de vista de la inversión monetaria necesaria de forma estática; 3) Punto de vista de la inversión necesaria a través del tiempo (planteo dinámico)."
+  },
+  {
+    "front": "En el ejemplo Tata del Sur (empresa comercial), ¿cómo se interpreta el PMef obtenido?",
+    "back": "El PMef fue de 26,3 días, resultado de PMM (151,2 días: PMinv de 76 días + PMcli de 75,21 días) menos PMprov (124,9 días). Esto significa que la empresa solo necesita financiar 26,3 días con recursos propios u onerosos, porque el crédito de los proveedores cubre gran parte del ciclo operativo."
+  },
+  {
+    "front": "¿Qué diferencia hay entre el Ciclo Económico y el Ciclo Financiero (de caja)?",
+    "back": "El Ciclo Económico son las fases sucesivas de movilización y transformación de bienes y servicios hasta el producto final. El Ciclo Financiero (de caja) se centra solo en la tesorería: comienza con la salida de caja para comprar materia prima y termina con el ingreso de caja por el cobro a los clientes."
+  },
+  {
+    "front": "¿Qué política de gestión de circulante es la 'ideal' desde el punto de vista financiero?",
+    "back": "Ampliar lo más posible el plazo de pago a proveedores (PMprov) y, al mismo tiempo, reducir lo más posible los demás plazos: inventarios y cobro a clientes. Esto minimiza el ciclo del efectivo (PMef) y reduce la necesidad de financiamiento propio del circulante."
+  },
+  {
+    "front": "¿Cómo se calcula la Rotación de Cobranzas y la Rotación de Cuentas a Pagar?",
+    "back": "Rotación de Cobranzas = n / Plazo Medio de Cobro (indica cuántas veces por año se cobra el saldo de créditos). Rotación de Cuentas a Pagar = n / Plazo Medio de Pago (indica cuántas veces por año se cancela el saldo de proveedores). Ambas son la inversa de sus respectivos plazos medios multiplicada por n."
+  }
+]

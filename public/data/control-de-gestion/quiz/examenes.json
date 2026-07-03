@@ -1,0 +1,156 @@
+[
+  {
+    "question": "¿Cuántos parciales anuales rinde un alumno regular de Control de Gestión?",
+    "options": [
+      "1 parcial integrador",
+      "2 parciales, uno por módulo",
+      "3 parciales trimestrales",
+      "4 parciales mensuales"
+    ],
+    "answerIndex": 1,
+    "explanation": "Según las consignas de examen, son 2 parciales anuales, uno por cada módulo de la materia."
+  },
+  {
+    "question": "Para aprobar un examen parcial, ¿qué se necesita respecto de sus dos partes (práctica y teórica)?",
+    "options": [
+      "Solo aprobar la parte teórica",
+      "Solo aprobar la parte práctica",
+      "Aprobar ambas partes por separado",
+      "Que el promedio general dé 6 aunque una parte esté desaprobada"
+    ],
+    "answerIndex": 2,
+    "explanation": "Es necesario aprobar ambas secciones del examen (práctica y teórica) para aprobar el parcial en su conjunto."
+  },
+  {
+    "question": "¿Cuál es el rango de notas consideradas 'de promoción' en los parciales?",
+    "options": [
+      "6 a 7",
+      "8 a 10",
+      "1 a 5",
+      "5 a 8"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las notas de 8 a 10 son de promoción; de 6 a 7 son de aprobación (sin promoción); de 1 a 5 son de aplazo."
+  },
+  {
+    "question": "Si un alumno tiene 6 en la parte práctica y 8 en la teórica, ambas aprobadas, ¿cómo se calcula la nota final?",
+    "options": [
+      "Se toma la nota más alta de las dos",
+      "Se toma la nota más baja de las dos",
+      "Se promedian ambas notas",
+      "Se suman ambas notas sin dividir"
+    ],
+    "answerIndex": 2,
+    "explanation": "Si ambas partes están aprobadas con 6 o más, se promedian y ese promedio determina la nota final del examen."
+  },
+  {
+    "question": "¿Qué pasa si un alumno recupera un parcial pero solo quiere rendir de nuevo la parte que desaprobó?",
+    "options": [
+      "Puede elegir recuperar solo la parte práctica o solo la teórica",
+      "Debe recuperar el examen completo, no se puede recuperar por partes",
+      "Automáticamente aprueba la parte que ya tenía aprobada",
+      "Pierde el derecho a recuperatorio"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las consignas indican explícitamente que si se recupera, es necesario recuperar todo el examen completo, no por partes."
+  },
+  {
+    "question": "¿Cuándo se toma el 2do recuperatorio de cada parcial?",
+    "options": [
+      "A fin del cuatrimestre correspondiente",
+      "Al día siguiente del parcial original",
+      "En Febrero/Marzo, con fecha a publicar",
+      "No existe un 2do recuperatorio"
+    ],
+    "answerIndex": 2,
+    "explanation": "El 1er recuperatorio es a fin del cuatrimestre, mientras que el 2do recuperatorio de cada parcial se toma en Febrero/Marzo del año siguiente."
+  },
+  {
+    "question": "En la corrección de un parcial dividido en parte práctica y teórica, ¿qué ocurre si la parte práctica está desaprobada (menos de 6)?",
+    "options": [
+      "Se corrige igual la parte teórica y se promedian las notas",
+      "La parte teórica no se corrige, porque la práctica es excluyente",
+      "Se aprueba automáticamente con la nota mínima",
+      "Se le da al alumno la posibilidad de elegir qué parte corregir primero"
+    ],
+    "answerIndex": 1,
+    "explanation": "La parte práctica se corrige primero y es excluyente: si no está aprobada con 6 o más, la parte teórica directamente no se corrige."
+  },
+  {
+    "question": "¿Qué nota mínima se requiere en ambos parciales (considerando la única recuperación válida, que es el 1er recuperatorio) para acceder a la promoción sin examen final?",
+    "options": [
+      "6 o más en cada parcial",
+      "7 o más en cada parcial",
+      "8 o más en cada parcial",
+      "Cualquier nota de aprobación alcanza para promocionar"
+    ],
+    "answerIndex": 2,
+    "explanation": "Para promocionar sin rendir final se necesita 8 (ocho) o más en el 1º y 2º parcial, considerando que solo el 1er recuperatorio de cada examen puede reemplazar la nota original con ese fin."
+  },
+  {
+    "question": "¿Cuánto dura el examen final y cómo se distribuye el tiempo entre sus partes?",
+    "options": [
+      "1 hora, exclusivamente para la parte práctica",
+      "2 horas reloj para resolver la parte práctica y la teórica en conjunto",
+      "3 horas, una para cada parte y una de repaso",
+      "No tiene límite de tiempo"
+    ],
+    "answerIndex": 1,
+    "explanation": "El examen final dura 2 horas reloj en total, tiempo dentro del cual el alumno debe resolver tanto la parte práctica como la teórica."
+  },
+  {
+    "question": "Según la aclaración importante de la cátedra sobre los exámenes, ¿qué consecuencia tienen los errores conceptuales graves?",
+    "options": [
+      "No afectan la nota si el resto del examen está bien resuelto",
+      "Restan puntos y podrían significar un aplazo",
+      "Solo se penalizan en el examen final, no en los parciales",
+      "Se ignoran si el alumno corrige oralmente después"
+    ],
+    "answerIndex": 1,
+    "explanation": "La cátedra aclara que se evalúa la comprensión conceptual, y los errores conceptuales graves restan puntos y pueden significar un aplazo."
+  },
+  {
+    "question": "¿Cuál es la fórmula correcta y conceptualmente preferida para calcular el Fondo de Maniobra?",
+    "options": [
+      "FM = Activo Corriente − Pasivo Corriente",
+      "FM = Recursos Permanentes − Activo Inmovilizado",
+      "FM = Ventas − Costo de Ventas",
+      "FM = Activo Total / Pasivo Total"
+    ],
+    "answerIndex": 1,
+    "explanation": "Aunque matemáticamente equivale a Activo Corriente − Pasivo Corriente, el enfoque conceptualmente correcto y recomendado en la cátedra es desde los recursos permanentes menos el activo inmovilizado, porque refleja la naturaleza de largo plazo del FM."
+  },
+  {
+    "question": "¿Qué diferencia fundamental existe entre el Fondo de Maniobra (FM) y las Necesidades Operativas de Fondos (NOF)?",
+    "options": [
+      "Son exactamente lo mismo, solo cambia el nombre",
+      "El FM es de largo plazo y estable; las NOF son de corto plazo y proporcionales a las ventas",
+      "El FM se calcula solo para empresas comerciales y las NOF solo para industriales",
+      "Las NOF siempre son mayores que el FM en cualquier empresa"
+    ],
+    "answerIndex": 1,
+    "explanation": "El FM refleja una decisión estructural de financiamiento de largo plazo, mientras que las NOF son un concepto operativo de corto plazo que crece o decrece con el nivel de actividad y ventas."
+  },
+  {
+    "question": "¿Cómo se define genéricamente la Rotación de una variable stock respecto a una variable flujo?",
+    "options": [
+      "Rotación = Variable Stock / Variable Flujo",
+      "Rotación = Variable Flujo / Variable Stock promedio",
+      "Rotación = Variable Flujo × Variable Stock",
+      "Rotación = n / Variable Flujo"
+    ],
+    "answerIndex": 1,
+    "explanation": "La rotación se calcula como el cociente entre la variable de flujo (por ejemplo, ventas o consumo del período) y la variable de stock promedio (por ejemplo, inventario promedio)."
+  },
+  {
+    "question": "¿Cuál de las siguientes opciones es un ejemplo de 'Recurso Cíclico' o espontáneo dentro del análisis de NOF?",
+    "options": [
+      "Un préstamo bancario negociado a corto plazo",
+      "El financiamiento de proveedores por compra de mercadería",
+      "Un aporte de capital de los socios",
+      "Un préstamo hipotecario de largo plazo"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los recursos cíclicos o espontáneos surgen automáticamente de la operación, como el crédito que otorgan los proveedores; en cambio, un préstamo bancario negociado corresponde a los 'recursos negociados', no a los cíclicos."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "front": "[Clase 1] ¿Qué es la intralogística?",
+    "back": "Es el conjunto de procesos de gestión y movimiento de materias primas, insumos, semielaborados y productos terminados dentro de la planta: almacenamiento, gestión de stocks, tipos de posiciones y la tecnología de manejo y de información asociada."
+  },
+  {
+    "front": "[Clase 1] ¿Por qué mover material es siempre un costo y nunca agrega valor?",
+    "back": "Porque implica usar equipos que consumen energía, requieren mantenimiento, ocupan espacio y muchas veces necesitan mano de obra operándolos. El movimiento en sí no transforma el producto, solo lo traslada, así que suma costo sin sumar valor."
+  },
+  {
+    "front": "[Clase 1] ¿Cómo evolucionó históricamente el estudio de \"manejo de materiales\" hasta llegar a \"intralogística\"?",
+    "back": "Empezó en los años 90 centrado en el movimiento y manejo de material en planta; hacia el 2000 se incorporó el análisis de distribución en planta (layout); después se sumó el concepto de cadena de suministros integrando el transporte externo a planta, hasta llegar hoy a un enfoque integral de planeación de instalaciones."
+  },
+  {
+    "front": "[Clase 1] ¿Qué significa aplicar \"redundancia\" en el planeamiento de instalaciones?",
+    "back": "Es no poner todos los huevos en la misma canasta: prever equipos, proveedores o recursos alternativos (por ejemplo un grupo electrógeno) para que ante una falla o corte no se detenga la actividad. Implica una inversión adicional que se justifica evaluando el costo-beneficio frente a la pérdida que evitaría."
+  },
+  {
+    "front": "[Clase 1] ¿Qué diferencia hay entre una ley, una norma técnica y una regla del buen arte?",
+    "back": "La ley (nacional, provincial o municipal) es de cumplimiento obligatorio. Las normas técnicas o certificaciones (como las ISO) son optativas y sirven como diferenciador. La regla del buen arte no está escrita: surge de la experiencia y el sentido común (por ejemplo, redondear los bordes de una mesa para minimizar daños ante un golpe)."
+  },
+  {
+    "front": "[Clase 1] ¿Qué es la \"flexibilidad\" como condición de diseño de instalaciones?",
+    "back": "Es la capacidad de adaptar la línea, las instalaciones y el equipamiento ante cambios en el producto a fabricar o en las necesidades del mercado, sin incurrir en costos excesivos de modificación."
+  },
+  {
+    "front": "[Clase 1] ¿Por qué los cambios se vuelven más costosos a medida que avanza un proyecto?",
+    "back": "En la etapa de papel y diseño, modificar algo implica solo horas de trabajo. Una vez que empieza la construcción e instalación, y más aún durante la operación, los cambios generan costos mucho más altos porque hay que romper o rehacer trabajo ya realizado sin frenar la producción."
+  },
+  {
+    "front": "[Clase 2] Según el convenio 127 de la OIT (1967), ¿qué establece sobre el transporte manual de cargas?",
+    "back": "Que no se debería exigir ni permitir a un trabajador transportar una carga cuyo peso pueda comprometer su salud o seguridad."
+  },
+  {
+    "front": "[Clase 2] ¿Qué cambio de normativa se aplicó a la bolsa de cemento en Argentina?",
+    "back": "Una resolución del año 2018 exigió pasar de la bolsa tradicional de 50 kg a bolsas de 25 kg, para reducir el riesgo de lesiones en el manejo manual. Empresas como Loma Negra debieron adaptar todo su sistema de embolsado."
+  },
+  {
+    "front": "[Clase 2] Según lo comentado en clase, ¿cuánto pesa en promedio una media res que descargan los trabajadores en las carnicerías?",
+    "back": "Alrededor de 100 kg en promedio (pudiendo bajar a unos 80 kg si la carne es más tierna), un peso similar o mayor al del propio operario, lo que genera fuerte carga sobre la columna por la forma en que se descarga."
+  },
+  {
+    "front": "[Clase 2] ¿Cuál es la diferencia entre un accidente de trabajo, una enfermedad profesional y un accidente in itínere?",
+    "back": "El accidente de trabajo ocurre durante la actividad laboral y causa una lesión. La enfermedad profesional aparece con los años por la acumulación de condiciones no ideales (por ejemplo problemas de columna por levantar peso). El accidente in itínere ocurre en el trayecto entre el domicilio y el trabajo (o hacia un lugar vinculado a la tarea laboral)."
+  },
+  {
+    "front": "[Clase 2] ¿Qué son el metabolismo basal, el metabolismo de ocio y el metabolismo laboral?",
+    "back": "El metabolismo basal es la energía que necesita el cuerpo para sus funciones vitales básicas. El metabolismo de ocio corresponde a las actividades extralaborales del día (vestirse, caminar, hacer deporte). El metabolismo laboral es la energía (kilocalorías) que se consume específicamente al realizar la tarea de trabajo."
+  },
+  {
+    "front": "[Clase 2] Según la clasificación vista, ¿qué diferencia hay entre trabajo ligero, moderado y pesado?",
+    "back": "El trabajo ligero es mayormente estático (tareas de oficina, sentado, poco movimiento). El trabajo moderado implica desplazamiento y movimiento muscular repetido con mayor demanda cardiovascular. El trabajo pesado (construcción, agricultura, cargas especiales) implica mayor demanda cardiovascular, más fatiga y mayor riesgo, por lo que se busca evitar jornadas prolongadas en esas condiciones."
+  },
+  {
+    "front": "[Clase 2] Si un trabajo se cataloga con más de 2000 kilocalorías por jornada, ¿qué se espera que haga el analista de puesto?",
+    "back": "Estudiar el puesto, el herramental y la forma de trabajo para ver si es posible reducir el gasto energético y bajar la catalogación del trabajo a un nivel medio o moderado."
+  },
+  {
+    "front": "[Clase 2] Usando el cálculo de Lehmann-Spitzer, si el tiempo de reposo calculado es 25% del tiempo de tarea efectiva, ¿cuántos minutos de trabajo y descanso corresponden por cada hora de jornada?",
+    "back": "48 minutos de tarea efectiva y 12 minutos de descanso por cada hora reloj, ya que 12 es el 25% de 48 (se mantiene la proporción de 25% sobre el tiempo trabajado, no sobre los 60 minutos totales)."
+  },
+  {
+    "front": "[Clase 2] Según el video de la ART visto en clase, ¿cuáles son las pautas clave para levantar una carga de forma segura?",
+    "back": "Separar los pies y flexionar las rodillas, sujetar la carga con ambas manos y mantenerla cerca del cuerpo, levantar despacio haciendo fuerza con las piernas manteniendo la espalda recta, no dar tirones ni girar el tronco, y mover los pies para reposicionarse en vez de rotar la cintura."
+  },
+  {
+    "front": "[Clase 2] ¿Qué diferencia hay entre macrolocalización y microlocalización?",
+    "back": "La macrolocalización es el análisis a gran escala (región, provincia, zona) para elegir dónde ubicar la planta. Una vez elegida esa zona, la microlocalización analiza la parcela o terreno específico dentro de esa zona, evaluando disponibilidad del lugar puntual."
+  },
+  {
+    "front": "[Clase 2] En el método de ponderación de factores para localización de plantas, ¿cómo se elige la locación conveniente?",
+    "back": "Se listan los factores relevantes (costo de transporte, mano de obra, energía, impuestos, etc.), se les asigna un peso ponderado que suma 1, se calcula el puntaje de cada locación multiplicando factor por ponderación, y se elige la de menor costo total ponderado."
+  },
+  {
+    "front": "[Clase 2] ¿En qué consiste el método de Brown Gibson para elegir localización?",
+    "back": "Combina factores objetivos (cuantificables, como costos) y factores subjetivos (no cuantificables, evaluados por conocimiento del lugar) mediante un polinomio: valor = K × factor objetivo + (1-K) × factor subjetivo, donde K expresa la importancia relativa que se da a lo objetivo frente a lo subjetivo."
+  },
+  {
+    "front": "[Clase 2] ¿En qué consiste el método de cribado (o \"tamiz\") para localización?",
+    "back": "Se superponen mapas donde se van descartando (\"tachando\") zonas no deseables según cada factor relevante (mano de obra, materia prima, mercado, etc.); las áreas que quedan sin tachar en todos los mapas son las zonas posibles de implantación, sobre las que luego se aplican otros métodos de ponderación."
+  },
+  {
+    "front": "[Clase 3] ¿Qué diferencia hay entre FOS y FOT en el código urbanístico?",
+    "back": "El FOS (Factor de Ocupación del Suelo) indica qué porcentaje del terreno puede ocupar la proyección en planta del edificio (vista desde arriba). El FOT (Factor de Ocupación Total) es un multiplicador sobre el terreno que indica cuántos metros cuadrados totales se pueden construir en altura, respetando el FOS en cada nivel."
+  },
+  {
+    "front": "[Clase 3] Ejemplo dado en clase: si el terreno es de 100 m² con FOS de 0,8 y FOT de 5, ¿cuánto se puede construir?",
+    "back": "El FOS permite ocupar en planta 80 m² (el 20% debe quedar libre/parquizado). El FOT de 5 permite construir hasta 500 m² totales, distribuidos en varios niveles de hasta 80 m² cada uno para no superar la ocupación del suelo permitida."
+  },
+  {
+    "front": "[Clase 3] ¿Qué diferencia hay entre una zona industrial y un parque industrial?",
+    "back": "En una zona industrial la empresa se instala y debe cumplir individualmente las normativas (por ejemplo, construir su propia planta de tratamiento de efluentes). En un parque industrial suele haber servicios comunes para todas las empresas instaladas (como una planta de tratamiento compartida), además de beneficios impositivos y de energía para atraer industria a la zona."
+  },
+  {
+    "front": "[Clase 3] ¿Cuál es la autoridad ambiental máxima en CABA y cuál en la provincia de Buenos Aires?",
+    "back": "En CABA es la APRA (Agencia de Protección Ambiental), un organismo independiente. En la provincia de Buenos Aires es el Ministerio de Ambiente (antes llamado OPDS), y cada municipio puede sumar exigencias propias siempre alineadas con la normativa provincial."
+  },
+  {
+    "front": "[Clase 3] ¿Cómo se categorizan las actividades según su impacto ambiental en CABA?",
+    "back": "Van desde \"sin relevante efecto\" (la más simple), pasando por \"sin relevante efecto con condiciones\" y \"sujeta a categorización\" (mediante declaración jurada de un profesional), hasta \"con relevante efecto\" (la categoría más compleja, ejemplo: construcción de un subterráneo)."
+  },
+  {
+    "front": "[Clase 3] ¿Cómo funciona la categorización de actividades en la provincia de Buenos Aires?",
+    "back": "A diferencia de CABA (que usa una lista de actividades), la provincia usa un polinomio que suma puntos según dimensión del emprendimiento, zona, riesgos y efluentes generados, entre otros factores. Si se superan los 25 puntos la actividad queda en tercera categoría (la de mayor complejidad), que debe tramitarse ante el Ministerio de Ambiente provincial; primera y segunda categoría se tramitan a nivel municipal."
+  },
+  {
+    "front": "[Clase 3] ¿Cuál es el orden de pasos para obtener el certificado de aptitud ambiental?",
+    "back": "Se hace primero la evaluación de impacto ambiental (manifiesto + estudio técnico), luego eventualmente una audiencia pública (no vinculante pero que puede generar exigencias adicionales), y recién entonces se obtiene el certificado de aptitud ambiental, con el que se puede empezar la obra."
+  },
+  {
+    "front": "[Clase 3] ¿Qué es una audiencia pública en el proceso de evaluación de impacto ambiental y por qué se dice que \"no es vinculante\"?",
+    "back": "Es una instancia de participación ciudadana donde vecinos u otros interesados pueden expresar objeciones al proyecto. No es vinculante porque no puede cancelar el proyecto por sí sola, pero si algo señalado en la audiencia luego efectivamente ocurre (por ejemplo ruido superior al prometido), genera responsabilidad y problemas posteriores para los responsables del estudio."
+  },
+  {
+    "front": "[Clase 4] ¿Qué es el hormigón y qué es el hormigón armado?",
+    "back": "El hormigón es la mezcla de cemento (aglutinante), árido (piedra), arena y agua. Es muy resistente a la compresión pero malo a la tracción y flexión, por lo que se le agregan varillas o mallas de acero (que se colocan del lado donde hay tracción) para formar hormigón armado, con mayor resistencia estructural."
+  },
+  {
+    "front": "[Clase 4] ¿Qué significa la clasificación H30 de un hormigón?",
+    "back": "Indica que ese hormigón resiste 300 kg por cm² una vez curado. Se verifica llenando probetas cilíndricas de muestra al momento del colado y ensayándolas (aproximadamente a los 7 días, cuando el hormigón alcanza cerca del 60-70% de su resistencia final) para confirmar que va camino a cumplir la resistencia especificada."
+  },
+  {
+    "front": "[Clase 4] ¿Qué diferencia hay entre hormigón pretensado y postensado?",
+    "back": "En el pretensado se tensan las varillas de acero antes de colar el hormigón y se liberan luego del fraguado, generando compresión interna. En el postensado las varillas van dentro de una vaina, se cuela el hormigón, y recién después del fraguado se tensan las barras (inyectando luego un curador en la vaina); se usa mucho en estructuras a medida fabricadas junto al lugar de instalación."
+  },
+  {
+    "front": "[Clase 4] ¿Por qué las estructuras de hormigón en zonas sísmicas (como Salta) llevan mucho más acero que en CABA?",
+    "back": "Porque ante sismos el hormigón trabaja de forma más exigente a esfuerzos que no resiste bien (tracción/flexión), entonces se aumenta fuertemente la cantidad de acero (el ejemplo dado en clase fue hasta 7 veces más acero) para dar la propiedad antisísmica exigida por la normativa local, sin cambiar la sección de hormigón."
+  },
+  {
+    "front": "[Clase 4] ¿Qué son los \"nodos\" de una cabreada (cercha) y por qué solo se puede cargar en ellos?",
+    "back": "Son los puntos donde se unen las barras del reticulado. En un reticulado, las barras solo pueden estar sometidas a tracción o compresión (no a corte), por lo que la carga únicamente puede aplicarse en los nodos; no se puede colgar peso en la mitad de una barra."
+  },
+  {
+    "front": "[Clase 4] ¿Para qué sirve una viga de repartición de cargas en un edificio industrial?",
+    "back": "Permite distribuir una carga puntual entre varios nodos de la cabreada cuando esa carga supera lo que soporta un solo nodo, y además brinda más puntos posibles de anclaje a lo largo de su longitud, no solo en los dos nodos que une directamente."
+  },
+  {
+    "front": "[Clase 4] Ejemplo de clase: si cada nodo soporta 100 kg y hay que colgar 800 kg de forma centrada y equidistante, ¿cuántos nodos hacen falta como mínimo?",
+    "back": "Ocho nodos, distribuidos en niveles sucesivos de reparto (primer nivel divide la carga en 2, segundo nivel en 4, tercer nivel en 8), de modo que cada nodo termina recibiendo un octavo de la carga total, es decir 100 kg cada uno."
+  },
+  {
+    "front": "[Clase 4] ¿Qué es LEED y a qué apunta como certificación de construcción sostenible?",
+    "back": "LEED (Liderazgo en Diseño Sostenible para el Ambiente y Eficiencia Energética) certifica construcciones nuevas, remodelaciones o la operación de un edificio evaluando ahorro de agua, uso racional de energía, selección de materiales/recursos cercanos (menor huella de carbono) y calidad ambiental interior, con niveles de certificación como plateado, oro y platino."
+  },
+  {
+    "front": "[Clase 4] ¿Qué es una junta de dilatación en un piso industrial y para qué sirve?",
+    "back": "Es un corte parcial (hasta la mitad del espesor de la losa) hecho a intervalos regulares que actúa como un \"troquel\" para inducir dónde se va a fisurar el piso por dilatación o contracción térmica, evitando que aparezcan grietas descontroladas o que dos secciones del piso se dislocen entre sí."
+  },
+  {
+    "front": "[Clase 4] ¿Cuáles son las cuatro características que definen a un edificio industrial?",
+    "back": "La distancia entre columnas (luz), la altura libre entre el piso terminado y la base de la cabreada, la carga máxima que soporta la estructura portante (cabreada), y el tipo de acabado del piso (según la tecnología de manejo que circulará sobre él)."
+  },
+  {
+    "front": "[Clase 5] ¿Cuáles son los seis principios clásicos de distribución en planta vistos en clase?",
+    "back": "Satisfacción y seguridad, integración conjunta, mínima distancia recorrida, circulación o flujo de materiales, uso del espacio cúbico (volumétrico) y flexibilidad."
+  },
+  {
+    "front": "[Clase 5] ¿Qué es la distribución por posición fija y en qué casos se usa?",
+    "back": "Es cuando el producto permanece en un lugar fijo y son el herramental, la mano de obra y los materiales los que se trasladan hacia él. Se usa para productos de gran envergadura (barcos, aeronaves, obras de construcción civil, minería) donde mover el producto no es viable."
+  },
+  {
+    "front": "[Clase 5] ¿Cuándo conviene una distribución por proceso en vez de por producto?",
+    "back": "Cuando el volumen de producción no justifica una línea dedicada por producto: se agrupan máquinas similares (fresado, rectificado, etc.) y distintas piezas o familias de productos pasan por el proceso correspondiente, lo que da flexibilidad pero implica mayor movimiento de materiales entre sectores."
+  },
+  {
+    "front": "[Clase 5] ¿Qué ventaja aporta agrupar por \"familias de productos\" dentro de una distribución por proceso?",
+    "back": "Minimiza el tiempo de puesta a punto de la máquina (cambio de matrices, punzones, calibraciones) al agrupar piezas similares que requieren configuraciones parecidas, optimizando así la utilización de la máquina y el flujo de materiales."
+  },
+  {
+    "front": "[Clase 5] ¿Qué caracteriza a la distribución por producto (línea de montaje) y quién es reconocido como su creador?",
+    "back": "El producto se desplaza siguiendo la secuencia de operaciones del proceso, y la velocidad de la línea condiciona el nivel de producción; hay poco stock en proceso porque el material llega justo cuando se necesita. Henry Ford es reconocido como el creador de este esquema con la línea de montaje del Ford Modelo T."
+  },
+  {
+    "front": "[Clase 5] ¿Por qué la distribución por producto (línea) tiene baja flexibilidad ante cambios?",
+    "back": "Porque la línea está optimizada y equipada con soportes y herramentales específicos para un tipo de producto o componente (por ejemplo, un soporte hecho a medida para un modelo de asiento); cambiar el producto implica rediseñar esos soportes y herramentales."
+  },
+  {
+    "front": "[Clase 5] Nombrá al menos cuatro de los \"factores condicionantes\" de la distribución en planta vistos en clase.",
+    "back": "Material, maquinaria, hombre (factor humano), movimiento, espera, servicios, edificio y cambio (flexibilidad) son los ocho factores mencionados; cualquier combinación de al menos cuatro de ellos es correcta."
+  },
+  {
+    "front": "[Clase 5] ¿Qué es la \"relación de actividades\" (deseabilidad de cercanía) en distribución en planta?",
+    "back": "Es un análisis que pondera qué tan conveniente (deseable) es que dos departamentos o actividades estén cerca uno del otro dentro de la planta, considerando el flujo de materiales entre ellos y también razones de seguridad o contaminación que puedan requerir mantenerlos alejados."
+  },
+  {
+    "front": "[Clase 6] ¿Qué diferencia hay entre un enfoque tradicional (departamentalizado) y uno de cadena de suministros integrada?",
+    "back": "El enfoque tradicional optimiza cada departamento por separado (compras busca el menor precio, producción busca ocupar más las máquinas, etc.), generando conflictos entre áreas. La cadena de suministros integra la información entre departamentos internos y con proveedores/clientes externos para optimizar el proceso global, no cada función aislada."
+  },
+  {
+    "front": "[Clase 6] ¿Qué diferencia hay entre un sistema push y un sistema pull de producción?",
+    "back": "En push la empresa produce anticipándose a una demanda estimada (pronóstico) y luego empuja la venta; genera más inventario y riesgo de sobrestock. En pull la producción se dispara a partir de un pedido o demanda real del mercado, con menos inventario pero exigiendo mayor coordinación logística para no perder ventas."
+  },
+  {
+    "front": "[Clase 6] ¿Qué diferencia hay entre un sistema ERP y un SGA (sistema de gestión de almacén)?",
+    "back": "El ERP maneja información administrativa general (qué se compró, vendió o fabricó, stock total en costo), pero no sabe exactamente dónde está físicamente cada unidad dentro del almacén. El SGA sí conoce la ubicación física exacta de cada palet o posición, permitiendo planificar el picking y la reposición con precisión."
+  },
+  {
+    "front": "[Clase 6] ¿Cuáles son las etapas típicas del flujo de operación de un almacén?",
+    "back": "Recepción (descarga y recepción provisoria), control de calidad, almacenamiento definitivo, picking (preparación de pedidos), y despacho/expedición con su documentación y embalaje correspondiente."
+  },
+  {
+    "front": "[Clase 6] ¿Por qué un almacén nunca se diseña para trabajar al 100% de su capacidad de posiciones?",
+    "back": "Porque hacen falta posiciones libres (redundantes, del orden de 10-15% adicional) para poder mover paletas y reorganizar el almacén con fluidez; un almacén bien diseñado no es el que tiene más espacio disponible sino el que permite mover la mayor cantidad de posiciones con la menor cantidad de movimientos."
+  },
+  {
+    "front": "[Clase 6] En el ejemplo de la clase, ¿por qué el sistema de gestión ubica cerca del sector de picking los productos más pedidos?",
+    "back": "Para minimizar la distancia recorrida y evitar congestionamientos: los productos con mayor rotación (pedidos con más frecuencia) se posicionan más cerca de la zona de picking, mientras que los de baja rotación se ubican más lejos, optimizando así los tiempos de preparación de pedidos."
+  }
+]

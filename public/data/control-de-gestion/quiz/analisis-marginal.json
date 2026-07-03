@@ -1,0 +1,145 @@
+[
+  {
+    "question": "¿Cuál es la fórmula de la Contribución Marginal Unitaria de un producto?",
+    "options": [
+      "cmg = precio de venta + costo variable",
+      "cmg = precio de venta − costo variable unitario",
+      "cmg = costo fijo / cantidad vendida",
+      "cmg = ventas totales / costos totales"
+    ],
+    "answerIndex": 1,
+    "explanation": "La contribución marginal unitaria es la diferencia entre el precio de venta y el costo variable unitario: cmg = pv − cv."
+  },
+  {
+    "question": "Un producto tiene precio de venta $8 y costo variable $9. ¿Qué se recomienda hacer con este producto?",
+    "options": [
+      "Seguir vendiéndolo porque siempre ayuda a cubrir gastos fijos",
+      "Discontinuarlo, porque su contribución marginal es negativa y no cubre ni sus costos variables",
+      "Aumentar el volumen de ventas indefinidamente",
+      "No se puede determinar sin conocer los gastos fijos"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cuando el costo variable supera al precio de venta, la contribución marginal es negativa: cada unidad vendida genera pérdida directa y no aporta nada a los gastos fijos."
+  },
+  {
+    "question": "Una empresa aumenta su gasto en publicidad de $6M a $7M (variación de +$1M/6M) y logra vender 500 kg adicionales sobre una base de 10.000 kg, con contribución marginal total del producto de $35M. Usando la ecuación del análisis marginal, ¿cuál es el efecto sobre la utilidad?",
+    "options": [
+      "ΔU = -0,75 M$ (no convino)",
+      "ΔU = +0,75 M$ (convino)",
+      "ΔU = +1,75 M$",
+      "ΔU = 0 (no hubo efecto)"
+    ],
+    "answerIndex": 1,
+    "explanation": "ΔUo = -F·[ΔF/F] + CMg·[ΔQ/Q] = -6M×(1/6) + 35M×(500/10000) = -1M + 1,75M = +0,75M$. La medida fue conveniente."
+  },
+  {
+    "question": "¿Qué mide la Tasa de Contribución Marginal de la Empresa (m)?",
+    "options": [
+      "El porcentaje de gastos fijos sobre el activo total",
+      "Cuántos pesos crecen las utilidades totales de la empresa cuando se vende un peso adicional de la misma mezcla de ventas",
+      "La rentabilidad neta sobre el patrimonio",
+      "El costo variable total dividido por unidades producidas"
+    ],
+    "answerIndex": 1,
+    "explanation": "m = Contribución Marginal Empresa($) / Ventas($), y representa cuánto aporta cada peso adicional vendido con el mismo mix a la utilidad."
+  },
+  {
+    "question": "¿Bajo qué condición se mantiene constante la tasa 'm' cuando cambia el volumen de ventas de varios productos?",
+    "options": [
+      "Cuando todos los productos cambian su volumen en la misma proporción porcentual (mismo mix)",
+      "Cuando solo cambia el producto más vendido",
+      "Nunca se mantiene constante ante cambios de volumen",
+      "Cuando los costos fijos aumentan proporcionalmente"
+    ],
+    "answerIndex": 0,
+    "explanation": "Para que 'm' no cambie ante variaciones de volumen, todos los productos deben modificar su cantidad vendida en la misma proporción, manteniendo el mismo mix de ventas."
+  },
+  {
+    "question": "¿Cuál es la fórmula del Punto de Equilibrio (Qe) para un producto individual?",
+    "options": [
+      "Qe = Fi / cmgi",
+      "Qe = cmgi / Fi",
+      "Qe = Ventas − Costos Variables",
+      "Qe = Fi × cmgi"
+    ],
+    "answerIndex": 0,
+    "explanation": "El punto de equilibrio en unidades es igual a los costos fijos divididos por la contribución marginal unitaria: Qe = Fi/cmgi."
+  },
+  {
+    "question": "¿Qué efecto tiene un aumento de los Costos Fijos sobre el Punto de Equilibrio?",
+    "options": [
+      "Lo baja, porque hay más margen disponible",
+      "No tiene ningún efecto",
+      "Lo sube, porque se necesita vender más para cubrir los mayores costos fijos",
+      "Depende exclusivamente del precio de venta"
+    ],
+    "answerIndex": 2,
+    "explanation": "Al subir los costos fijos, se requiere un mayor volumen de ventas (o de pesos vendidos) para alcanzar el punto donde ingresos igualan costos totales."
+  },
+  {
+    "question": "¿Qué diferencia hay entre Gastos Fijos Propios y Gastos Fijos Prorrateados?",
+    "options": [
+      "Los propios desaparecen si el producto se discontinúa; los prorrateados deben ser absorbidos por el resto de los productos",
+      "Los prorrateados siempre son mayores que los propios",
+      "No hay diferencia real entre ambos conceptos",
+      "Los propios solo existen en empresas industriales"
+    ],
+    "answerIndex": 0,
+    "explanation": "Los gastos fijos propios están identificados directamente con el producto y desaparecen si el producto se elimina; los prorrateados son comunes a varios productos y, si uno se discontinúa, ese costo se redistribuye entre los que quedan."
+  },
+  {
+    "question": "Si el Índice de Absorción de Gastos Fijos (IA) de un producto es negativo, ¿qué implica?",
+    "options": [
+      "El producto genera ganancia neta positiva",
+      "Cuanto más se vende del producto, mayores son las pérdidas; conviene analizar discontinuarlo",
+      "El producto no tiene costos fijos asociados",
+      "El IA negativo es imposible matemáticamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un IA negativo indica que la contribución marginal del producto es negativa, por lo que vender más unidades incrementa la pérdida en lugar de reducirla."
+  },
+  {
+    "question": "En el ejercicio de Mezcla de Ventas (A, B, C), con CMgA=8, CMgB=10 y costos fijos totales de $125.000, se busca una mezcla con QA=10.000 y QB=1.200 que dé un beneficio de $45.000. ¿Cuál es la QC necesaria si CMgC=10?",
+    "options": [
+      "QC = 5.000",
+      "QC = 6.500",
+      "QC = 7.800",
+      "QC = 10.000"
+    ],
+    "answerIndex": 2,
+    "explanation": "45.000 = 8×10.000 + 10×1.200 + 10×QC − 125.000 → 45.000 = 80.000+12.000+10QC−125.000 → 10QC=78.000 → QC=7.800."
+  },
+  {
+    "question": "¿Cuál es la diferencia clave entre Costeo por Absorción y Costeo Directo (Variable) respecto al tratamiento de los costos fijos de fabricación?",
+    "options": [
+      "En Absorción los costos fijos se inventarían junto al producto; en Directo se cargan íntegramente al resultado del período en que se incurren",
+      "En Directo los costos fijos se inventarían y en Absorción no",
+      "Ambos métodos tratan los costos fijos exactamente igual",
+      "El costeo directo no reconoce costos fijos"
+    ],
+    "answerIndex": 0,
+    "explanation": "La distinción central entre ambos métodos es que Absorción activa los costos fijos de fabricación en el inventario, mientras que Directo los trata como gasto del período."
+  },
+  {
+    "question": "¿En qué situación la utilidad calculada por Costeo Absorbente es mayor que la calculada por Costeo Variable?",
+    "options": [
+      "Cuando el volumen de ventas es menor que el volumen de producción (los inventarios aumentan)",
+      "Cuando el volumen de ventas es igual al volumen de producción siempre",
+      "Cuando no existen costos fijos",
+      "Nunca puede ser mayor"
+    ],
+    "answerIndex": 0,
+    "explanation": "Si se produce más de lo que se vende, en Absorción parte de los costos fijos queda 'guardada' en el inventario final (no se envía a resultados), inflando la utilidad respecto del Costeo Variable."
+  },
+  {
+    "question": "¿Qué significa una elasticidad precio de la demanda e=0,2 para un producto?",
+    "options": [
+      "Demanda perfectamente elástica",
+      "Demanda inelástica: poco sensible a cambios de precio",
+      "Demanda unitaria",
+      "Demanda perfectamente inelástica, no cambia nunca"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un valor de e menor a 1 indica demanda inelástica: ante cambios en el precio, la cantidad demandada varía proporcionalmente poco."
+  }
+]

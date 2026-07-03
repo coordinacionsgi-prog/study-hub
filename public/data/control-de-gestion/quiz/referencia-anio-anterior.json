@@ -1,0 +1,167 @@
+[
+  {
+    "question": "¿Cuál es la diferencia principal entre presupuesto económico y presupuesto financiero?",
+    "options": [
+      "El económico mide liquidez y el financiero mide rentabilidad",
+      "El económico proyecta ingresos y gastos devengados (rentabilidad) y el financiero proyecta flujo de efectivo percibido (liquidez)",
+      "Son sinónimos, ambos calculan lo mismo con distinto nombre",
+      "El económico es mensual y el financiero es siempre anual"
+    ],
+    "answerIndex": 1,
+    "explanation": "Según la fuente, el presupuesto económico refiere a lo devengado (ganancia o pérdida) y el financiero a lo percibido (efectivo disponible por entradas y salidas)."
+  },
+  {
+    "question": "¿Qué caracteriza a un presupuesto base cero?",
+    "options": [
+      "Se ajusta el presupuesto del año anterior sumando la inflación",
+      "Se revalúa cada programa y gasto partiendo siempre de cero, como si fuera la primera operación de la empresa",
+      "Solo aplica a empresas que recién comienzan a operar",
+      "Elimina la necesidad de controlar los gastos reales"
+    ],
+    "answerIndex": 1,
+    "explanation": "El presupuesto base cero exige justificar cada partida desde cero en cada período, sin tomar como referencia automática lo ejecutado el año anterior."
+  },
+  {
+    "question": "¿Qué diferencia principal existe entre leasing operativo y leasing financiero?",
+    "options": [
+      "En el operativo hay opción de compra y en el financiero no",
+      "En el financiero el arrendatario tiene opción de compra y se registra como activo/pasivo en su balance; en el operativo no hay opción de compra",
+      "Ambos son exactamente iguales en términos contables",
+      "El operativo siempre es a largo plazo y el financiero a corto plazo"
+    ],
+    "answerIndex": 1,
+    "explanation": "La gran diferencia señalada en la fuente es que el leasing operativo NO ofrece opción de compra, mientras que el financiero SÍ, y además el financiero se contabiliza como activo y pasivo del arrendatario."
+  },
+  {
+    "question": "¿Cuáles son las principales desventajas del factoring según el resumen de la cátedra?",
+    "options": [
+      "Bajo costo y flexibilidad total con cualquier cliente",
+      "Alto costo, y hay clientes que no permiten la cesión de sus facturas",
+      "No brinda anticipo de efectivo",
+      "Solo lo pueden usar empresas que cotizan en bolsa"
+    ],
+    "answerIndex": 1,
+    "explanation": "Entre las desventajas del factoring se mencionan el alto costo del servicio y que algunos clientes no permiten la cesión de sus créditos."
+  },
+  {
+    "question": "En la descomposición Dupont del ROE, ¿qué mide el factor BAII/Ventas?",
+    "options": [
+      "El efecto fiscal",
+      "El efecto de los intereses de la deuda",
+      "El efecto operativo (margen sobre ventas)",
+      "El efecto de la palanca financiera"
+    ],
+    "answerIndex": 2,
+    "explanation": "BAII/Ventas mide el margen operativo, es decir, cuánto beneficio operativo genera cada peso de ventas antes de intereses e impuestos."
+  },
+  {
+    "question": "En la descomposición Dupont del ROE, ¿qué mide el factor Activos/Capital Propio?",
+    "options": [
+      "El efecto de rotación de activos",
+      "El efecto fiscal",
+      "El efecto de la palanca financiera",
+      "El efecto operativo"
+    ],
+    "answerIndex": 2,
+    "explanation": "Activos/Capital Propio equivale a 1 + Deuda/Capital Propio, y mide el efecto de apalancamiento financiero: cuánto se multiplica el retorno del accionista por el uso de deuda."
+  },
+  {
+    "question": "¿Cómo se calcula la Contribución Marginal Unitaria en una empresa monoproductora?",
+    "options": [
+      "Precio de Venta menos Costo Fijo Unitario",
+      "Precio de Venta menos Costo Variable Unitario",
+      "Ventas Totales menos Costos Totales",
+      "Costo Variable Unitario menos Costo Fijo Unitario"
+    ],
+    "answerIndex": 1,
+    "explanation": "CMu = Pv − Cvu: es lo que le queda a la empresa de cada unidad vendida, después de cubrir el costo variable, para aportar a cubrir los costos fijos y generar utilidad."
+  },
+  {
+    "question": "¿Qué representa el Punto de Equilibrio de una empresa?",
+    "options": [
+      "El nivel de ventas donde la utilidad es máxima",
+      "El nivel de ventas donde la contribución marginal generada iguala exactamente a los costos fijos (utilidad cero)",
+      "El nivel de ventas donde el costo variable es igual a cero",
+      "El nivel de ventas donde el precio iguala al costo fijo"
+    ],
+    "answerIndex": 1,
+    "explanation": "En el punto de equilibrio, toda la contribución marginal generada hasta ese nivel de ventas alcanza justo para cubrir los costos fijos del período, sin generar ganancia ni pérdida."
+  },
+  {
+    "question": "Si el índice de absorción de costos fijos de un producto (Contribución Marginal Unitaria / Costo Fijo Unitario) da menor a 1 pero positivo, ¿qué significa?",
+    "options": [
+      "El producto genera pérdidas y no aporta nada",
+      "El producto absorbe la totalidad de sus costos fijos y genera ganancia extra",
+      "El producto absorbe solo una parte de sus costos fijos",
+      "El producto no tiene costo variable"
+    ],
+    "answerIndex": 2,
+    "explanation": "Un índice entre 0 y 1 indica que el producto contribuye a cubrir parte de sus costos fijos, pero no los cubre en su totalidad."
+  },
+  {
+    "question": "¿Cómo se calcula la Variación de Eficiencia de Mano de Obra Directa?",
+    "options": [
+      "(Precio real − Precio estándar) × Horas reales",
+      "(Horas reales − Horas estándar para la producción real) × Tasa estándar",
+      "(Horas estándar − Horas reales) × Precio real",
+      "Producción real × Tasa real de mano de obra"
+    ],
+    "answerIndex": 1,
+    "explanation": "La variación de eficiencia siempre compara las horas reales trabajadas contra las horas estándar permitidas para la producción REAL, valorizadas a la tasa estándar."
+  },
+  {
+    "question": "¿Cómo se calcula la Tasa de Crecimiento Sostenible (Gs) de una empresa?",
+    "options": [
+      "Gs = ROE × P (tasa de reinversión)",
+      "Gs = ROA / Deuda Total",
+      "Gs = Ventas del período actual / Ventas del período anterior",
+      "Gs = Dividendos repartidos / Utilidad Neta"
+    ],
+    "answerIndex": 0,
+    "explanation": "El crecimiento sostenible se calcula como el ROE multiplicado por la tasa de reinversión de utilidades P (que es 1 menos la tasa de reparto de dividendos)."
+  },
+  {
+    "question": "¿Qué es el 'crecimiento extrínseco' de una empresa según el análisis de crecimiento sostenible?",
+    "options": [
+      "El crecimiento financiado exclusivamente con reinversión de utilidades propias",
+      "El crecimiento financiado con endeudamiento adicional (capitales ajenos)",
+      "El crecimiento por aumento de precios de venta",
+      "El crecimiento que ocurre sin ninguna inversión adicional"
+    ],
+    "answerIndex": 1,
+    "explanation": "El crecimiento extrínseco depende de la deuda: usa el diferencial entre el rendimiento operativo (Ra'') y la tasa de interés de la deuda, multiplicado por el nivel de endeudamiento (D/E)."
+  },
+  {
+    "question": "¿Cuál es la diferencia entre la teoría de la fuente y la teoría del balance en el impuesto a las ganancias?",
+    "options": [
+      "Ambas son idénticas y se aplican indistintamente",
+      "La teoría de la fuente exige periodicidad, permanencia y habilitación; la teoría del balance grava todas las ganancias de sociedades sin exigir esas condiciones",
+      "La teoría del balance solo aplica a personas físicas",
+      "La teoría de la fuente solo se usa para IVA"
+    ],
+    "answerIndex": 1,
+    "explanation": "La teoría de la fuente requiere que la ganancia cumpla condiciones de periodicidad, permanencia y habilitación (aplicable a personas físicas), mientras que la teoría del balance grava todas las ganancias obtenidas por sociedades, cumplan o no esas condiciones."
+  },
+  {
+    "question": "¿Con qué frecuencia se debe recategorizar un monotributista en Argentina?",
+    "options": [
+      "Una vez al año, en diciembre",
+      "Cada 6 meses, en enero y julio",
+      "Cada 3 meses, trimestralmente",
+      "Solo cuando la AFIP lo solicita expresamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "La recategorización del monotributo es bimestral en el sentido de ocurrir cada 6 meses, en los meses de enero y julio, según los ingresos y parámetros de los últimos 12 meses."
+  },
+  {
+    "question": "Si una empresa compra máquinas con fondos propios el próximo año, ¿cómo impacta esto en sus estados contables proyectados?",
+    "options": [
+      "Disminuye el activo fijo y aumenta la caja",
+      "Aumenta el activo fijo, disminuye la caja o equivalentes, y a futuro aumentan las depreciaciones",
+      "No genera ningún impacto en el balance ni en resultados",
+      "Aumenta directamente la utilidad neta del ejercicio"
+    ],
+    "answerIndex": 1,
+    "explanation": "Comprar bienes de uso con fondos propios aumenta el activo fijo y reduce la caja (permutativa), y a futuro impactará el estado de resultados vía mayores depreciaciones, además de una salida de efectivo en el flujo de caja."
+  }
+]

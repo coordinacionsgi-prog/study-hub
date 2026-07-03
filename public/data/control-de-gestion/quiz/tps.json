@@ -1,0 +1,167 @@
+[
+  {
+    "question": "¿Cómo se calcula el MAD (Desviación Media Absoluta) de un pronóstico?",
+    "options": [
+      "El promedio de los valores absolutos de los errores",
+      "El promedio de los errores al cuadrado",
+      "La suma de los errores porcentuales",
+      "La raíz cuadrada de la varianza de la serie"
+    ],
+    "answerIndex": 0,
+    "explanation": "El MAD promedia el valor absoluto de cada error (real menos pronosticado), sin elevarlo al cuadrado ni convertirlo a porcentaje."
+  },
+  {
+    "question": "En una empresa con Palanca Financiera = 4,99 y Proporción de Capital Ajeno = 80%, ¿cuál es el Ratio de Endeudamiento (Dt/E) correspondiente?",
+    "options": [
+      "0,35",
+      "0,85",
+      "1,35",
+      "3,99"
+    ],
+    "answerIndex": 3,
+    "explanation": "Como Palanca Financiera = 1 + (Dt/E), entonces Dt/E = 4,99 − 1 = 3,99, valor que coincide con el ejercicio resuelto del TP donde ese caso corresponde a la columna c)."
+  },
+  {
+    "question": "Una empresa se compra un equipo a largo plazo pagando en efectivo. ¿Qué pasa con la Liquidez Corriente y la Proporción de Capital Ajeno?",
+    "options": [
+      "Ambas aumentan",
+      "La liquidez corriente disminuye y el capital ajeno queda igual",
+      "Ambas quedan iguales",
+      "La liquidez corriente aumenta y el capital ajeno disminuye"
+    ],
+    "answerIndex": 1,
+    "explanation": "Al pagar en efectivo (activo corriente) por un bien de uso (activo no corriente), el activo corriente baja y por ende baja la liquidez corriente; como no cambia la deuda ni el patrimonio, la proporción de capital ajeno no se altera."
+  },
+  {
+    "question": "¿Cuál es la fórmula correcta del Fondo de Maniobra según el enfoque de recursos permanentes (el conceptualmente correcto)?",
+    "options": [
+      "FM = Activo Corriente − Pasivo Corriente",
+      "FM = Activo Total − Pasivo Total",
+      "FM = Recursos Permanentes − Activo Inmovilizado",
+      "FM = Ventas − Costo de Ventas"
+    ],
+    "answerIndex": 2,
+    "explanation": "El enfoque correcto parte del lado del financiamiento: FM = (Deuda de Largo Plazo + Patrimonio Neto) − Activo Inmovilizado, porque el FM es una decisión estratégica de financiamiento de largo plazo."
+  },
+  {
+    "question": "¿Cómo se calculan las Necesidades Operativas de Fondos (NOF)?",
+    "options": [
+      "Activo Total − Pasivo Total",
+      "Activo Circulante Operativo − Pasivo Circulante Operativo",
+      "Recursos Permanentes − Activo Inmovilizado",
+      "Ventas − Costos Fijos"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las NOF surgen de restar al activo circulante operativo (existencias + cuentas a cobrar, sin contar el disponible mínimo) el pasivo circulante operativo (fundamentalmente proveedores)."
+  },
+  {
+    "question": "Según el TP, si el Fondo de Maniobra de una empresa es negativo (-$250.000), ¿qué implica esa situación?",
+    "options": [
+      "Una situación óptima, porque hay menos capital inmovilizado",
+      "Una situación inestable, sostenible en el corto plazo pero que hay que corregir pronto",
+      "Que la empresa no tiene ningún pasivo corriente",
+      "Que la empresa está en quiebra automáticamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un FM negativo indica que parte del activo fijo se financia con deuda de corto plazo, lo cual genera una situación incómoda y potencialmente inestable que conviene corregir, aunque no implica quiebra inmediata."
+  },
+  {
+    "question": "¿Qué representa la pendiente 'b' en una recta de regresión Costo Total = a + b×Q aplicada a costos de producción?",
+    "options": [
+      "El Costo Fijo Total",
+      "El Costo Variable Unitario",
+      "El volumen de producción normal",
+      "La utilidad bruta por unidad"
+    ],
+    "answerIndex": 1,
+    "explanation": "En la recta de costos, la ordenada al origen 'a' es el costo fijo y la pendiente 'b' es el costo variable por unidad producida."
+  },
+  {
+    "question": "Un coeficiente de correlación de Pearson (R) de 0,912 entre el costo total de producción y el volumen fabricado, ¿qué indica?",
+    "options": [
+      "Que no existe ninguna relación entre las variables",
+      "Una asociación lineal muy fuerte entre las variables",
+      "Que el modelo predice con error del 91,2%",
+      "Que la relación es inversamente proporcional"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un valor de R cercano a 1 (como 0,912) indica una asociación lineal muy fuerte y directa entre las dos variables analizadas."
+  },
+  {
+    "question": "En el cálculo de la Variación Precio de Materia Prima, si el resultado da -80.000, ¿cómo se interpreta?",
+    "options": [
+      "Desfavorable, porque el precio real fue mayor al estándar",
+      "Favorable, porque se pagó menos de lo estándar",
+      "Neutra, no afecta el resultado",
+      "Favorable, porque se compró menos cantidad de la estándar"
+    ],
+    "answerIndex": 1,
+    "explanation": "Por convención, si la variación (real menos estándar) da negativa significa que se gastó menos de lo previsto, lo cual es favorable para la utilidad."
+  },
+  {
+    "question": "¿Cuál es la fórmula del Ciclo del Efectivo (Ciclo de Caja)?",
+    "options": [
+      "Plazo Medio de Maduración + Plazo Medio de Pago a Proveedores",
+      "Plazo Medio de Maduración − Plazo Medio de Pago a Proveedores",
+      "Plazo Medio de Cobranza × Plazo Medio de Inventarios",
+      "Ventas / Activo Total"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Ciclo del Efectivo resulta de restarle al Plazo Medio de Maduración (ciclo operativo completo) el plazo que financian los proveedores (Plazo Medio de Pago)."
+  },
+  {
+    "question": "En el cálculo del ROE mediante el método Dupont, ¿qué representa el factor 'Activos / Capital Propio'?",
+    "options": [
+      "El efecto fiscal",
+      "El efecto de rotación de activos",
+      "El efecto de la palanca financiera",
+      "El efecto operativo de ventas"
+    ],
+    "answerIndex": 2,
+    "explanation": "El cociente Activos/Capital Propio (equivalente a 1 + Deuda/Capital Propio) mide el efecto de apalancamiento financiero dentro de la descomposición Dupont del ROE."
+  },
+  {
+    "question": "¿Cuál de las siguientes es una variable de stock (no de flujo)?",
+    "options": [
+      "Ventas del mes",
+      "Cobros realizados en el período",
+      "Saldo de Materias Primas al cierre",
+      "Exportaciones del trimestre"
+    ],
+    "answerIndex": 2,
+    "explanation": "El saldo de materias primas es una 'foto' en un momento determinado (variable de stock), mientras que ventas, cobros y exportaciones se miden a lo largo de un período (variables de flujo)."
+  },
+  {
+    "question": "Si dos empresas del mismo sector, una consultora de inversiones y Femsa Coca-Cola, se comparan por su ratio de rotación de activos, ¿cuál debería tener mayor rotación?",
+    "options": [
+      "La consultora de inversiones",
+      "Femsa Coca-Cola",
+      "Ambas tienen la misma rotación por definición",
+      "No se puede determinar sin más datos"
+    ],
+    "answerIndex": 1,
+    "explanation": "Una empresa industrial de consumo masivo como Femsa mueve mucho volumen de ventas respecto a sus activos fijos productivos, generando mayor rotación que una consultora con pocos activos pero también bajo volumen de ventas relativo a su estructura."
+  },
+  {
+    "question": "¿Cómo se calcula el Rendimiento Económico de la Operación (Ra'')?",
+    "options": [
+      "Utilidad Neta / Ventas",
+      "BAII / Activo Total promedio",
+      "Utilidad Neta / Capital Propio",
+      "Ventas / Activo Total"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ra'' usa el BAII (resultado antes de intereses e impuestos) sobre el activo total promedio, para medir el rendimiento puramente operativo sin el efecto de financiamiento ni impuestos."
+  },
+  {
+    "question": "Al elegir el 'n' de un promedio móvil, ¿qué ocurre si se usa un n más chico (por ejemplo, n=2 en vez de n=5)?",
+    "options": [
+      "El pronóstico se vuelve más estable y menos sensible a cambios recientes",
+      "El pronóstico se vuelve más sensible a los últimos datos observados",
+      "El MAD siempre da cero",
+      "No hay ninguna diferencia práctica"
+    ],
+    "answerIndex": 1,
+    "explanation": "Con un n más chico, cada dato reciente pesa más en el promedio, por lo que el pronóstico reacciona más rápido a cambios, aunque puede ser más volátil."
+  }
+]

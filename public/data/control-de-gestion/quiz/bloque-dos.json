@@ -1,0 +1,143 @@
+[
+  {
+    "question": "Un producto tiene un precio de venta de $25/u y un costo variable unitario de $17/u. ¿Cuál es su contribución marginal unitaria?",
+    "options": ["$42/u", "$8/u", "$17/u", "$25/u"],
+    "answerIndex": 1,
+    "explanation": "La contribución marginal unitaria es Precio − Costo variable unitario = 25 − 17 = $8/u, como en el producto A del ejercicio de mezcla de ventas."
+  },
+  {
+    "question": "¿Cuál es la fórmula correcta del punto de equilibrio en unidades?",
+    "options": [
+      "Qe = Costos Fijos / Contribución marginal unitaria",
+      "Qe = Ventas totales / Costos variables",
+      "Qe = Costos Fijos × Precio de venta",
+      "Qe = Contribución marginal unitaria / Costos Fijos"
+    ],
+    "answerIndex": 0,
+    "explanation": "El punto de equilibrio en unidades surge de igualar la utilidad a cero: Qe = F / cmg, donde F son los costos fijos y cmg es la contribución marginal unitaria."
+  },
+  {
+    "question": "En el ejercicio de mezcla de ventas (productos A, B y C), con CMgA=8, CMgB=10, CMgC=10, QA=10.000, QB=1.200 y costos fijos totales de $125.000, ¿qué cantidad de C se necesita para lograr una utilidad de $45.000?",
+    "options": ["7.800 unidades", "10.000 unidades", "6.500 unidades", "1.200 unidades"],
+    "answerIndex": 0,
+    "explanation": "De 45.000 = 8×10.000 + 10×1.200 + 10×QC − 125.000 se despeja QC = 7.800 unidades, tal como se resuelve en el ejercicio de mezcla de ventas."
+  },
+  {
+    "question": "¿Qué indica un índice de absorción de gastos fijos (IA) negativo para un producto?",
+    "options": [
+      "El producto cubre todos sus gastos fijos y deja ganancia",
+      "El producto no cubre siquiera sus costos variables, por lo que cuanto más se vende, mayor es la pérdida",
+      "El producto tiene contribución marginal positiva pero no cubre sus fijos",
+      "Los gastos fijos del producto son iguales a cero"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un IA negativo implica que la contribución marginal del producto es negativa, es decir que cada unidad vendida genera pérdida y conviene analizar discontinuar ese producto."
+  },
+  {
+    "question": "Según la teoría del análisis marginal, ¿cuándo conviene seguir vendiendo un producto aunque dé pérdida contable?",
+    "options": [
+      "Nunca, siempre hay que discontinuarlo",
+      "Solo si sus costos fijos propios son cero",
+      "Siempre que su contribución marginal sea positiva, porque igual ayuda a absorber costos fijos",
+      "Solo si su costo variable es mayor al precio de venta"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mientras la contribución marginal sea positiva (precio de venta mayor al costo variable), el producto aporta a cubrir los costos fijos, aun con pérdida contable a nivel de absorción."
+  },
+  {
+    "question": "En el ejercicio de costo estándar (Ejercicio 2), el estándar de materia prima es 12,5 kg/u a $10/kg. Si la producción real fue de 54.500 unidades, ¿cuál es la cantidad estándar permitida de materia prima (QSmp)?",
+    "options": ["540.000 kg", "681.250 kg", "627.300 kg", "545.000 kg"],
+    "answerIndex": 1,
+    "explanation": "QSmp = Consumo estándar por unidad × Producción real = 12,5 kg/u × 54.500 u = 681.250 kg."
+  },
+  {
+    "question": "Continuando el mismo ejercicio, el consumo real de materia prima fue 627.300 kg. ¿Cuál es la variación de eficiencia de materia prima (VeMP) y su signo?",
+    "options": [
+      "+539.500 $, Desfavorable",
+      "-539.500 $, Favorable",
+      "+80.000 $, Desfavorable",
+      "-80.000 $, Favorable"
+    ],
+    "answerIndex": 1,
+    "explanation": "VeMP = Precio estándar × (Qreal − Qestándar) = 10 × (627.300 − 681.250) = -539.500 $, favorable porque se consumió menos materia prima que la permitida por el estándar."
+  },
+  {
+    "question": "En ese mismo ejercicio se compraron 320.000 kg de materia prima por $3.120.000 (precio real $9,75/kg contra un estándar de $10/kg). ¿Cuál es la variación en precio de materia prima (VpMP)?",
+    "options": ["+80.000 $ Desfavorable", "-80.000 $ Favorable", "+250.000 $ Desfavorable", "0 $ Neutro"],
+    "answerIndex": 1,
+    "explanation": "VpMP = Cantidad comprada × (Precio real − Precio estándar) = 320.000 × (9,75 − 10) = -80.000 $, favorable porque se pagó menos por kg que lo estándar."
+  },
+  {
+    "question": "¿Cuál es la fórmula correcta de la variación de eficiencia de mano de obra directa (VeMO)?",
+    "options": [
+      "VeMO = Horas reales × (Tarifa real − Tarifa estándar)",
+      "VeMO = Tarifa estándar × (Horas reales − Horas estándar)",
+      "VeMO = Tarifa real × Horas estándar",
+      "VeMO = Horas estándar × (Tarifa real − Tarifa estándar)"
+    ],
+    "answerIndex": 1,
+    "explanation": "La variación de eficiencia de mano de obra se calcula valorizando la diferencia entre horas reales y horas estándar permitidas a la tarifa estándar: VeMO = pSmo × (QRmo − QSmo)."
+  },
+  {
+    "question": "En el ejercicio C_STD_1, el estándar de mano de obra es 1,5 h/u a $38/h, y la producción real fue 47.000 unidades con 75.200 horas reales trabajadas. ¿Cuál es la variación de eficiencia de mano de obra (VeMO)?",
+    "options": ["+178.600 $ Desfavorable", "-178.600 $ Favorable", "-37.600 $ Favorable", "+70.500 $ Desfavorable"],
+    "answerIndex": 0,
+    "explanation": "QSmo = 1,5 × 47.000 = 70.500 hs. VeMO = 38 × (75.200 − 70.500) = 38 × 4.700 = 178.600 $, desfavorable porque se usaron más horas que las estándar."
+  },
+  {
+    "question": "¿Cuáles son los tres tipos de variaciones que se analizan habitualmente en los Costos Indirectos de Fabricación (CIF), a diferencia de materiales y mano de obra que solo tienen dos?",
+    "options": [
+      "Precio, cantidad y volumen de ventas",
+      "Presupuesto (gasto), eficiencia y volumen de producción (capacidad ociosa)",
+      "Compra, consumo y stock final",
+      "Fijo, variable y mixto solamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los CIF, al incluir una componente fija, requieren además de precio/gasto y eficiencia, una variación de volumen de producción o capacidad ociosa, que no aplica a materiales ni a mano de obra."
+  },
+  {
+    "question": "En el ejemplo de ESTANDAR S.A., la capacidad normal presupuestada es 6.000 horas de MOD y las horas estándar reales permitidas fueron 5.580 horas, con una tasa de CIF fijos de $6/hora. ¿Cuál es la variación de volumen de producción (capacidad ociosa)?",
+    "options": ["$2.520 Desfavorable", "$2.520 Favorable", "$420 Desfavorable", "$36.000 Desfavorable"],
+    "answerIndex": 0,
+    "explanation": "VV = (Horas normales − Horas estándar) × tasa CIF fijos = (6.000 − 5.580) × 6 = $2.520, desfavorable porque se produjo por debajo de la capacidad normal (capacidad ociosa)."
+  },
+  {
+    "question": "¿Qué significa que un desvío en costos estándar sea 'favorable'?",
+    "options": [
+      "Que el costo real fue menor que el costo estándar, generando un ahorro",
+      "Que el costo real fue mayor que el costo estándar",
+      "Que la producción real fue menor que la programada",
+      "Que no hubo ninguna diferencia entre costo real y estándar"
+    ],
+    "answerIndex": 0,
+    "explanation": "Un desvío favorable ocurre cuando el costo real resulta inferior al estándar, lo cual suma a la utilidad neta ajustada; el desfavorable, en cambio, resta."
+  },
+  {
+    "question": "¿Cómo se calcula la utilidad neta ajustada a partir de la utilidad neta contable y las variaciones de costo estándar?",
+    "options": [
+      "UN ajustada = UN + todas las variaciones sin importar el signo",
+      "UN ajustada = UN − (Vp materia prima + Ve materia prima + Vp mano de obra + Ve mano de obra + Vp CIF + Ve CIF + Variación de volumen)",
+      "UN ajustada = UN × (1 + variaciones)",
+      "UN ajustada = Ventas − Variaciones únicamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "Se resta la sumatoria de las variaciones (con su signo, positivo si desfavorable y negativo si favorable) a la utilidad neta original para obtener la utilidad neta ajustada."
+  },
+  {
+    "question": "¿Qué efecto tiene un aumento de los costos fijos sobre el punto de equilibrio, manteniendo todo lo demás constante?",
+    "options": [
+      "Reduce el punto de equilibrio",
+      "No tiene ningún efecto",
+      "Aumenta el punto de equilibrio, porque hace falta vender más para cubrir los mayores costos fijos",
+      "Solo afecta el margen de seguridad, no el punto de equilibrio"
+    ],
+    "answerIndex": 2,
+    "explanation": "Como Qe = F / cmg, un aumento de F (costos fijos) eleva directamente el punto de equilibrio en unidades y en pesos."
+  },
+  {
+    "question": "En el ejercicio de aumento salarial del 20% (Ejercicio 3, análisis marginal), la utilidad inicial de la empresa con los tres productos A, B y C era de $2.050.000. Tras el aumento, ¿qué nuevo precio de venta debía fijarse para el producto A para mantener esa utilidad, sabiendo que B no podía subir de precio y C solo podía subir 5%?",
+    "options": ["$16,20 (sin cambios)", "$16,66 por unidad", "$18,00 por unidad", "$14,175 por unidad"],
+    "answerIndex": 1,
+    "explanation": "Resolviendo la ecuación de utilidad con los nuevos costos variables y manteniendo U'=Uo=2.050.000, se obtiene P'A ≈ $16,6616 por unidad, un incremento de aproximadamente 2,85%."
+  }
+]

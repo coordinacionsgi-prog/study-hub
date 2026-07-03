@@ -1,0 +1,118 @@
+[
+  {
+    "front": "¿Qué es el Costeo Estándar (STD)?",
+    "back": "Es un sistema de costos presupuestados que se anticipa a la realidad, pero a diferencia de un presupuesto simple, el STD implica un desafío de eficiencia a lograr con esfuerzo (no es un promedio histórico ni un ideal inalcanzable)."
+  },
+  {
+    "front": "¿En qué tipo de empresas se aplica el Costeo Estándar y en cuáles no tiene sentido?",
+    "back": "Se aplica en empresas grandes de producción seriada. No es aplicable a trabajos a pedido (por orden), porque calcular un estándar para un producto que se fabrica una sola vez resulta muy costoso y poco práctico."
+  },
+  {
+    "front": "¿Cómo se construye el costo estándar de Materia Prima?",
+    "back": "Costo Estándar MP = Precio Estándar ($/kg) × Consumo Estándar (kg/unidad). Ambos componentes (precio y cantidad física) se fijan de antemano como objetivo."
+  },
+  {
+    "front": "¿Cómo se construye el costo estándar de Mano de Obra Directa (MOD)?",
+    "back": "Costo Estándar MOD = Tarifa Estándar ($/hora) × Horas Estándar (h/unidad)."
+  },
+  {
+    "front": "Fórmula de la Variación Precio de Materia Prima (VPMP)",
+    "back": "VPMP = Qc × (Pr − Ps), donde Qc es la cantidad comprada, Pr el precio real y Ps el precio estándar. Se calcula sobre lo comprado, no sobre lo consumido."
+  },
+  {
+    "front": "Fórmula de la Variación Eficiencia de Materia Prima (VEMP)",
+    "back": "VEMP = Ps × (Qr − Qs), donde Ps es el precio estándar, Qr la cantidad real consumida y Qs la cantidad estándar permitida para la producción real."
+  },
+  {
+    "front": "Fórmula de la Variación Precio de Mano de Obra (VPMO)",
+    "back": "VPMO = Qr × (Pr − Ps), donde Qr son las horas reales trabajadas, Pr la tarifa real y Ps la tarifa estándar."
+  },
+  {
+    "front": "Fórmula de la Variación Eficiencia de Mano de Obra (VEMO)",
+    "back": "VEMO = Ps × (Qr − Qs), donde Ps es la tarifa estándar, Qr las horas reales trabajadas y Qs las horas estándar permitidas para la producción real."
+  },
+  {
+    "front": "¿Cómo se interpreta el signo de una variación de costo estándar?",
+    "back": "Si la variación es mayor a 0 (positiva) es Desfavorable (el costo real superó al estándar); si es menor a 0 (negativa) es Favorable (se gastó menos que lo estándar)."
+  },
+  {
+    "front": "En el cálculo de variaciones, ¿qué va primero: la variación de precio o la de eficiencia?",
+    "back": "Primero se calcula la Variación Precio y después la Variación Eficiencia. Esto asegura que la variación de eficiencia se mida ya valorizada a precio estándar, aislando el efecto de la cantidad."
+  },
+  {
+    "front": "¿Cuáles son los 7 tipos de variaciones del Costeo Estándar?",
+    "back": "1) Vpmp (precio MP), 2) Vemp (eficiencia MP), 3) Vpmo (precio MOD), 4) Vemo (eficiencia MOD), 5) VpCIF (precio CIF), 6) VeCIF (eficiencia CIF), 7) VV (variación volumen de fabricación)."
+  },
+  {
+    "front": "¿Cómo se calcula la Utilidad Neta Ajustada por variaciones?",
+    "back": "UN Ajustada = UN (antes de variaciones) − Vpmp − Vemp − Vpmo − Vemo − VpCIF − VeCIF − VV (todas las variaciones se restan porque son desvíos respecto del estándar que impactan el resultado)."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre costo, gasto, pérdida e inversión?",
+    "back": "Costo está relacionado a la producción de un bien o servicio; gasto es un desembolso de comercialización/administración; pérdida es un desembolso por ineficiencia que no crea riqueza (no se activa); inversión es un desembolso activable."
+  },
+  {
+    "front": "¿Por qué no se pueden activar las pérdidas por ineficiencia?",
+    "back": "Porque las pérdidas no forman parte del valor del bien; deben ir directamente al nudo de ventas (Cuadro de Resultados) del período en que ocurren, en lugar de quedar 'escondidas' dentro del costo de Producción en Proceso."
+  },
+  {
+    "front": "¿Qué significa que el costo 'no es exacto, no es absoluto y no es constante'?",
+    "back": "No es exacto porque se trabaja con aproximaciones (medir todo con precisión sería carísimo); no es absoluto porque depende de la técnica de costeo utilizada; no es constante porque la inflación altera el valor de la moneda como denominador común a través del tiempo."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre Materiales Directos, Mano de Obra Directa y Gastos Generales (CIF)?",
+    "back": "Materiales Directos: insumos que forman parte del producto final. Mano de Obra Directa (MOD): trabajo directamente asignable a través de tiempos de fabricación. Gastos Generales/CIF: costos comunes a todos los productos, difíciles de asignar directamente, que requieren departamentalización y criterios de prorrateo."
+  },
+  {
+    "front": "¿Qué son los Costos Indirectos de Fabricación (CIF)?",
+    "back": "Son los costos de manufactura que no son materiales primas ni MOD (mano de obra indirecta, materiales indirectos, calefacción, alquileres, depreciaciones de fábrica, etc.), y se clasifican en Variables, Fijos y Mixtos."
+  },
+  {
+    "front": "¿Cuáles son los 4 niveles de capacidad productiva para estimar el nivel de producción CIF?",
+    "back": "Teórica o Ideal (máxima sin interrupciones, 24/7), Práctica o Realista (máxima con interrupciones inevitables), Normal o de Largo Plazo (ajustada a demanda de 5 años) y Esperada o de Corto Plazo (estimación del próximo período). Las más usadas son Normal y Esperada."
+  },
+  {
+    "front": "¿Cuáles son los 3 métodos de asignación de costos en la Distribución Secundaria de CIF?",
+    "back": "Método Directo (el más usado, ignora servicios entre departamentos de servicio), Método Escalonado o Cruzado (más exacto, considera servicios de un departamento de servicio a otro en un orden), y Método Algebraico o Recíproco (el más exacto, resuelve la prestación mutua entre departamentos de servicio mediante ecuaciones simultáneas)."
+  },
+  {
+    "front": "Fórmula de la Variación Total de CIF (análisis con 1 variación)",
+    "back": "VT = CIF Reales − CIF Aplicados = CIF Reales − (Horas Estándar × cuota de aplicación c). Es la diferencia entre lo realmente gastado y lo que se aplicó a la producción a estándar."
+  },
+  {
+    "front": "¿Qué es la Variación de Presupuesto de CIF (análisis con 2 variaciones)?",
+    "back": "VP = CIF Reales − CIF Presupuestados en Horas Estándar = CIF Reales − (Hs.Std × cuota variable + CIF Fijos Presupuestados). Combina el efecto de precio/gasto y eficiencia."
+  },
+  {
+    "front": "¿Qué es la Variación de Volumen de Producción (Capacidad Ociosa) en CIF?",
+    "back": "VV = (Horas Normales de MOD − Horas Estándar de MOD) × tasa de CIF Fijos. Refleja el efecto de producir a un nivel distinto del usado para fijar la tasa de aplicación de CIF Fijos; solo afecta a los CIF Fijos (subabsorción o sobreabsorción)."
+  },
+  {
+    "front": "En el análisis de CIF con 3 variaciones, ¿cómo se descompone la Variación de Presupuesto?",
+    "back": "Se divide en Variación de Precio/Gasto: Vp(g) = CIF Reales − (Hs.Reales × cuota variable + CIF Fijos Ppto), y Variación de Eficiencia: Ve = (Hs.Reales − Hs.Std) × cuota de CIF Variables."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre Costeo por Absorción y Costeo Directo (Variable)?",
+    "back": "En Costeo por Absorción, todos los costos de fabricación (fijos y variables) forman parte del costo del producto. En Costeo Directo, solo los costos variables se inventarían; los costos fijos se cargan directamente al resultado del período en que se incurren."
+  },
+  {
+    "front": "¿Cuándo coinciden las utilidades entre Costeo por Absorción y Costeo Directo?",
+    "back": "Solo cuando lo producido en el período coincide exactamente con lo vendido en ese mismo período (no hay variación de inventarios)."
+  },
+  {
+    "front": "¿Qué es el Plan de Cuentas de Costos y para qué sirve?",
+    "back": "Es una clasificación detallada (por ítem) de todos los conceptos de costos que interesa controlar (materia prima, MOD, MOI, materiales indirectos, etc.), a diferencia del Cuadro de Resultados contable que solo muestra el 'Costo de Ventas' global."
+  },
+  {
+    "front": "¿Qué es un Centro de Costos y para qué se usa la departamentalización?",
+    "back": "Es un lugar (departamento o área de responsabilidad) al que se le adjudican los gastos que genera, para saber quién y dónde se gasta y así poder tomar acciones correctivas, en lugar de tratar los gastos en forma global."
+  },
+  {
+    "front": "¿Por qué el costo NO debería usarse para fijar el precio de venta (teoría del 'Costo Plus')?",
+    "back": "Porque lo correcto es partir del precio de mercado menos la utilidad esperada por la inversión, para determinar cuál debería ser el costo objetivo (el costo es un esfuerzo al que hay que tender, no un punto de partida para inflar el precio)."
+  },
+  {
+    "front": "¿Qué es el Costeo por Órdenes de Trabajo?",
+    "back": "Es un sistema que permite costear una unidad o lote específico (por ejemplo, en Ingeniería Civil o fabricación a medida), identificando perfectamente los insumos asociados a esa orden particular, a diferencia de las industrias seriadas que costean por procesos."
+  }
+]

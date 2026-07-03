@@ -1,0 +1,111 @@
+[
+  {
+    "question": "¿Qué es una unidad de carga?",
+    "options": [
+      "Un vehículo industrial para transportar pallets",
+      "La agrupación de productos, envases o empaques en un elemento individual para facilitar su manejo y transporte",
+      "El peso máximo que puede levantar un trabajador",
+      "Un tipo de estantería para almacenamiento"
+    ],
+    "answerIndex": 1,
+    "explanation": "La unidad de carga agrupa productos para reducir el número de movimientos, disminuyendo así los costos de transporte y almacenaje."
+  },
+  {
+    "question": "¿Cuál es la diferencia principal entre envase y embalaje?",
+    "options": [
+      "Son sinónimos exactos",
+      "El envase contiene y diferencia comercialmente al producto; el embalaje tiene función esencialmente logística, sin buscar diferenciación de imagen",
+      "El embalaje siempre es de madera y el envase de plástico",
+      "El envase se usa solo para líquidos"
+    ],
+    "answerIndex": 1,
+    "explanation": "El envase protege y diferencia comercialmente al producto; el embalaje resguarda el producto o la unidad de carga con fines logísticos, sin buscar la diferenciación de imagen."
+  },
+  {
+    "question": "¿Qué proceso se usa para dar estabilidad a una unidad de carga sobre un pallet mediante un film plástico?",
+    "options": ["Flejado", "Retractilado", "Cross docking", "Paletizado inverso"],
+    "answerIndex": 1,
+    "explanation": "El retractilado envuelve la unidad de carga con un film plástico que la fija al pallet, aportando estabilidad y protección ambiental."
+  },
+  {
+    "question": "¿Qué norma ISO establece el módulo de embalaje normalizado de 600 x 400 mm?",
+    "options": ["ISO 668", "ISO 3394", "ISO 9001", "ISO 3676"],
+    "answerIndex": 1,
+    "explanation": "La norma ISO 3394, desarrollada por el comité técnico 122, estandariza las dimensiones externas de las cajas para embalaje de transporte."
+  },
+  {
+    "question": "¿Qué norma IRAM define las cargas máximas de trabajo de los pallets?",
+    "options": ["IRAM 10.010", "IRAM 10.011", "IRAM 10.014", "IRAM 3755"],
+    "answerIndex": 2,
+    "explanation": "La norma IRAM 10.014 'Pallets para manipulación y transporte de mercancías. Cargas máximas de trabajo' establece los límites según el tipo de carga y su modo de aplicación."
+  },
+  {
+    "question": "¿Cuál es el peso máximo de transporte manual de carga establecido en el Convenio C128/67 de la OIT para trabajadores adultos varones?",
+    "options": ["25 kg", "35 kg", "55 kg", "70 kg"],
+    "answerIndex": 2,
+    "explanation": "El Convenio C128 de la OIT establece un peso máximo de 55 kg para el transporte manual de cargas por trabajadores adultos de sexo masculino."
+  },
+  {
+    "question": "¿Qué peso máximo estableció la Resolución 42/2018 de la SRT argentina para bolsas de cemento?",
+    "options": ["15 kg", "20 kg", "25 kg", "30 kg"],
+    "answerIndex": 2,
+    "explanation": "La Resolución 42/2018 de la Superintendencia de Riesgos del Trabajo fijó en 25 kg el peso máximo para bolsas de cemento en transporte manual."
+  },
+  {
+    "question": "¿Qué tipo de movimiento de carga se define como 'el realizado por el trabajador con su propia energía'?",
+    "options": ["Mecanizado", "Por gravedad", "Manual", "Automatizado"],
+    "answerIndex": 2,
+    "explanation": "El movimiento manual es el que ejecuta el trabajador con su propia energía, sin intervención de máquinas."
+  },
+  {
+    "question": "¿Con qué norma IRAM se determina la carga física de un trabajo manual expresada en Kcal/h?",
+    "options": ["IRAM 10.014", "IRAM 3755", "IRAM 10.011", "IRAM 10.010"],
+    "answerIndex": 1,
+    "explanation": "La norma IRAM 3755 determina la carga física a través del consumo metabólico, expresado en Kcal/h."
+  },
+  {
+    "question": "¿Cuántas veces más energía consume aproximadamente el trabajo muscular dinámico respecto al estático?",
+    "options": ["2 a 3 veces más", "5 a 7 veces más", "10 a 15 veces más", "20 a 25 veces más"],
+    "answerIndex": 2,
+    "explanation": "El material de la cátedra indica que el trabajo muscular dinámico demanda entre 10 y 15 veces más energía que el trabajo estático."
+  },
+  {
+    "question": "¿Cuál de estas actividades es un ejemplo de 'Trabajo Pesado' según la clasificación por gasto energético?",
+    "options": [
+      "Atención al cliente en mostrador",
+      "Trabajos de oficina y uso de computadoras",
+      "Carga y descarga con levantamiento de cajas medianamente pesadas",
+      "Enfermería con tareas ligeras"
+    ],
+    "answerIndex": 2,
+    "explanation": "El Trabajo Pesado incluye actividades como construcción, carga y descarga, y levantamiento de materiales medianamente pesados, con alta demanda cardiovascular y muscular."
+  },
+  {
+    "question": "¿Qué método permite calcular el Metabolismo Total por Trabajo (MTT) considerando energía estática y dinámica?",
+    "options": ["Método OSHA", "Método Spitzer, Hettinger y Guelaud", "Método SLP", "Método CRAFT"],
+    "answerIndex": 1,
+    "explanation": "El método de Spitzer, Hettinger y Guelaud calcula el MTT combinando la energía por trabajo estático (Ee) y dinámico (Ed1 y Ed2)."
+  },
+  {
+    "question": "Según las buenas prácticas de transporte manual, ¿qué se debe hacer antes de levantar una carga pesada, voluminosa o irregular?",
+    "options": [
+      "Levantarla lo más rápido posible para minimizar el esfuerzo",
+      "Pedir ayuda a uno o más trabajadores",
+      "Ignorar el estado del embalaje si hay apuro",
+      "Levantarla siempre con una sola mano para mantener el equilibrio"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las buenas prácticas indican que no se debe transportar solo cargas pesadas, voluminosas o irregulares, y se debe solicitar ayuda a otros trabajadores."
+  },
+  {
+    "question": "¿En qué se diferencia el sistema Push del sistema Pull (Just in Time) en la gestión de stocks?",
+    "options": [
+      "El Push produce en base a la demanda real ya generada",
+      "El Pull requiere mayor capacidad de almacenamiento que el Push",
+      "El Push produce antes de la venta y requiere alta precisión en la demanda; el Pull produce cuando la venta ya está generada",
+      "No existen diferencias prácticas entre ambos sistemas"
+    ],
+    "answerIndex": 2,
+    "explanation": "El sistema Push anticipa la producción a la venta y exige buena previsión de demanda; el Pull/Just in Time produce recién cuando la demanda real se concreta, reduciendo stocks."
+  }
+]

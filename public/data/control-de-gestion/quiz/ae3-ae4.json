@@ -1,0 +1,145 @@
+[
+  {
+    "question": "¿Qué ratio usarías principalmente para medir la capacidad de pago de una empresa en el corto plazo?",
+    "options": ["La Razón Corriente (Índice de Liquidez Corriente)", "El ROE", "La Rotación de Activos", "El Margen Bruto"],
+    "answerIndex": 0,
+    "explanation": "La Razón Corriente (Activo Corriente / Pasivo Corriente) es el indicador clásico de liquidez de corto plazo; ROE, Rotación y Margen Bruto responden a otras preguntas (rentabilidad y eficiencia)."
+  },
+  {
+    "question": "La empresa Tata del Sur tiene Activo Circulante de $520,00 y Exigible de Corto Plazo (Pasivo Corriente) de $300,00. ¿Cuál es su Razón Corriente?",
+    "options": ["1,73", "0,58", "2,20", "1,31"],
+    "answerIndex": 0,
+    "explanation": "Razón Corriente = Activo Corriente / Pasivo Corriente = 520 / 300 = 1,73, tal como figura en el ejercicio guía Tata del Sur."
+  },
+  {
+    "question": "Siguiendo con Tata del Sur, el Activo Circulante es $520,00, los Bienes de Cambio (mercaderías) son $128,00 y el Pasivo Corriente es $300,00. ¿Cuál es el Test Ácido?",
+    "options": ["1,31", "1,73", "1,89", "0,43"],
+    "answerIndex": 0,
+    "explanation": "Test ácido = (Activo Corriente - Bienes de Cambio) / Pasivo Corriente = (520-128)/300 = 392/300 = 1,31."
+  },
+  {
+    "question": "¿Cuál es la diferencia clave entre la Razón Corriente y el Test Ácido (prueba ácida)?",
+    "options": [
+      "El Test Ácido excluye los Bienes de Cambio (inventarios) del numerador",
+      "El Test Ácido usa el Pasivo Total en vez del Pasivo Corriente",
+      "La Razón Corriente se calcula solo para empresas industriales",
+      "No hay diferencia, son sinónimos"
+    ],
+    "answerIndex": 0,
+    "explanation": "El Test Ácido resta los Bienes de Cambio del Activo Corriente porque son los activos de conversión en efectivo más lenta, dando una medida más estricta de liquidez inmediata."
+  },
+  {
+    "question": "En el ejercicio AE300 (Tata del Sur), el BAII es $177,00 y el Activo Total es $1000,00 (monoperíodo, sin promedio disponible). ¿Cuánto es Ra'' (Rendimiento de Explotación)?",
+    "options": ["17,7%", "7,61%", "11,51%", "21,14%"],
+    "answerIndex": 0,
+    "explanation": "Ra'' = BAII / Activo Total = 177/1000 = 17,7%. Las otras opciones corresponden a Ra (7,61%), Ra' (11,51%) y ROE (21,14%) del mismo ejercicio."
+  },
+  {
+    "question": "Con Utilidad Neta = $76,10 y Patrimonio Neto = $360,00 (Tata del Sur), ¿cuál es el ROE?",
+    "options": ["21,14%", "7,61%", "17,7%", "2,78%"],
+    "answerIndex": 0,
+    "explanation": "ROE = Utilidad Neta / Patrimonio Neto = 76,10/360 = 21,14%, coincide con el ejercicio guía Tata del Sur."
+  },
+  {
+    "question": "¿Qué diferencia conceptual hay entre ROE y ROA?",
+    "options": [
+      "El ROA mide el rendimiento de todo el activo (sin importar cómo se financia); el ROE mide el retorno que le queda al accionista sobre su capital propio",
+      "El ROE se calcula antes de impuestos y el ROA después de impuestos",
+      "Son exactamente lo mismo, solo cambia el nombre según el país",
+      "El ROA solo aplica a empresas industriales y el ROE a empresas comerciales"
+    ],
+    "answerIndex": 0,
+    "explanation": "ROA (Ra) evalúa la eficiencia de los activos totales; ROE evalúa el retorno para el accionista, e incluye el efecto del apalancamiento financiero (deuda)."
+  },
+  {
+    "question": "En Tata del Sur, el Margen Neto es 6,79% y la Rotación de Activos es 1,12 veces. Según la Identidad de Dupont, ¿cuánto da el Ra?",
+    "options": ["7,61%", "17,70%", "21,14%", "44,91%"],
+    "answerIndex": 0,
+    "explanation": "Ra = Margen Neto x Rotación de Activos = 6,79% x 1,12 = 7,61%, que coincide con el Ra calculado directamente (Utilidad Neta/Activo Total)."
+  },
+  {
+    "question": "Si la Palanca Financiera de una empresa es 2,78 (Activo Total / Patrimonio Neto) y su Ra es 7,61%, ¿cuánto da el ROE aproximadamente?",
+    "options": ["21,15%", "10,39%", "7,61%", "2,78%"],
+    "answerIndex": 0,
+    "explanation": "ROE = Ra x (1 + Dt/E) = Ra x Palanca Financiera = 7,61% x 2,78 ≈ 21,15%, mostrando cómo el apalancamiento amplifica el rendimiento para el accionista."
+  },
+  {
+    "question": "La empresa La Isla Cercana (AE327) tiene un Test Ácido de 1,51, Activo Circulante de $33.333 y Caja y Bancos de $22.222. Usando el método de despeje visto en el ejercicio, ¿cuál es el Pasivo Corriente?",
+    "options": ["$19.380", "$22.222", "$33.333", "$4.070"],
+    "answerIndex": 0,
+    "explanation": "Como Razón Corriente = ACP/PCP = 1,72 y ACP=$33.333, despejando PCP = 33.333/1,72 ≈ $19.380, dato usado luego para calcular inventarios y ventas en el ejercicio."
+  },
+  {
+    "question": "En el ejercicio AE325 (Cacho Norte Rápido), con BAII de $2.845 e inversión total (Activo) de $11.399, ¿cuál es el Rendimiento de Explotación (Ra'')?",
+    "options": ["24,96%", "16,47%", "20,76%", "34%"],
+    "answerIndex": 0,
+    "explanation": "Ra'' = BAII / Activo Total = 2.845/11.399 = 24,96%, tal como se calcula en el punto a) del ejercicio."
+  },
+  {
+    "question": "Siguiendo el ejercicio AE325, si la empresa se financiara 100% con capital propio, con una Utilidad Neta de $1.877,70 sobre un Activo/Capital Propio de $11.399, ¿cuál sería el ROE?",
+    "options": ["16,47%", "24,96%", "20,76%", "12,90%"],
+    "answerIndex": 0,
+    "explanation": "ROE = Utilidad Neta / Capital Propio = 1.877,70 / 11.399 = 16,47%, correspondiente al escenario 'solo capital propio' del ejercicio AE325 punto b)."
+  },
+  {
+    "question": "¿Qué mide el ratio de Cobertura de Intereses y cómo se interpreta un valor alto?",
+    "options": [
+      "Mide cuántas veces el resultado operativo (BAII + Amortizaciones) cubre los gastos financieros; un valor alto indica mayor solvencia",
+      "Mide el porcentaje de ventas destinado a pagar intereses; un valor alto es negativo",
+      "Es lo mismo que la Razón Corriente pero aplicado a deuda de largo plazo",
+      "Mide la proporción de capital propio sobre el activo total"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cobertura de intereses = (BAII + Amortizaciones y Depreciaciones) / Gastos en Intereses; cuanto más alto, más margen tiene la empresa para afrontar sus compromisos financieros."
+  },
+  {
+    "question": "¿Para qué sirve principalmente el análisis de comparables por industria (benchmarking sectorial)?",
+    "options": [
+      "Para contextualizar si un ratio de la empresa es bueno o malo comparándolo con el promedio o los líderes de su mismo sector",
+      "Para calcular automáticamente el ROE de cualquier empresa sin necesidad de sus estados contables",
+      "Para reemplazar el análisis de tendencia histórica de la propia empresa",
+      "Solo se usa en empresas que cotizan en bolsa"
+    ],
+    "answerIndex": 0,
+    "explanation": "Un ratio aislado no tiene mucho significado; su relevancia surge al compararlo con ejercicios anteriores y, sobre todo, con los ratios promedio o ideales del sector industrial al que pertenece la empresa."
+  },
+  {
+    "question": "Según la tabla de comparables por industria, ¿por qué un ratio de Deuda/Patrimonio (Book D/E) muy alto en el sector Bancario no es necesariamente una señal de alarma, a diferencia de otros sectores?",
+    "options": [
+      "Porque cada sector tiene una estructura de financiamiento típica distinta, y en bancos el alto apalancamiento es parte normal del negocio",
+      "Porque los bancos no tienen pasivos, solo patrimonio neto",
+      "Porque el ratio Deuda/Patrimonio no aplica a instituciones financieras",
+      "Porque los bancos siempre tienen ROE negativo"
+    ],
+    "answerIndex": 0,
+    "explanation": "El nivel 'normal' de cada ratio depende del sector: los bancos operan con apalancamientos mucho mayores que una empresa industrial porque su negocio es la intermediación financiera."
+  },
+  {
+    "question": "En Requilsur (AE331), la Deuda Onerosa es $350,0 y los Gastos en Intereses son $105,00. ¿Cuál es la Tasa de Interés de la Deuda Onerosa (Kd)?",
+    "options": ["30,00%", "19,50%", "12,50%", "23,00%"],
+    "answerIndex": 0,
+    "explanation": "Kd = Gastos en intereses / Deuda Onerosa = 105/350 = 30,00%, tal como figura en la Parte B del ejercicio Requilsur."
+  },
+  {
+    "question": "¿Qué representa el Fondo de Maniobra (FM) cuando se calcula como Recursos Permanentes menos Activo Inmovilizado?",
+    "options": [
+      "El excedente de recursos de largo plazo disponible para financiar el ciclo operativo de corto plazo",
+      "La diferencia entre las ventas y el costo de ventas",
+      "El total de deuda de corto plazo que tiene la empresa",
+      "La utilidad neta acumulada de los últimos ejercicios"
+    ],
+    "answerIndex": 0,
+    "explanation": "El FM es una decisión de financiamiento de largo plazo: mide cuántos recursos permanentes quedan disponibles, después de cubrir el activo fijo, para 'maniobrar' en el corto plazo."
+  },
+  {
+    "question": "En el ejercicio AE324, la relación Deuda/Activo Total (D/At) es 65% y el Ra es 9,6%. Si la Deuda de Largo Plazo es $444.800, ¿qué conclusión permite validar si el Activo Fijo (40% del Activo Total) se financia adecuadamente?",
+    "options": [
+      "Se compara el Activo Fijo con la suma de Deuda de Largo Plazo más Patrimonio Neto (Recursos Permanentes); si AF es menor, es aceptable",
+      "Se compara directamente el Activo Fijo con la Deuda de Corto Plazo únicamente",
+      "Alcanza con mirar solo el Ra sin considerar el balance",
+      "El Activo Fijo siempre debe ser mayor a los Recursos Permanentes para ser aceptable"
+    ],
+    "answerIndex": 0,
+    "explanation": "La regla de equilibrio patrimonial de largo plazo indica que el Activo Fijo debe financiarse con Recursos Permanentes (DLP + Patrimonio Neto); en AE324 se verifica que AF < (DLP+E), lo cual es aconsejable en empresas industriales."
+  }
+]

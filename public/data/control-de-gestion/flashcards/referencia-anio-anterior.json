@@ -1,0 +1,94 @@
+[
+  {
+    "front": "¿Cuál es la diferencia entre presupuesto económico y presupuesto financiero?",
+    "back": "El presupuesto económico proyecta ingresos y gastos (criterio devengado, mide rentabilidad), mientras que el presupuesto financiero proyecta el flujo de efectivo y las necesidades de financiamiento (criterio percibido, mide liquidez)."
+  },
+  {
+    "front": "¿Qué es un presupuesto base cero?",
+    "back": "Es un método que consiste en revaluar cada programa y gasto partiendo siempre de cero, como si fuera la primera operación de la compañía, en vez de ajustar el presupuesto anterior."
+  },
+  {
+    "front": "¿Qué es el control presupuestario y cuál es la diferencia entre su componente físico y monetario?",
+    "back": "Es la supervisión y comparación entre lo presupuestado y los resultados reales, para aplicar medidas correctivas. El componente físico corresponde a cantidades o volúmenes de recursos; el monetario, al valor en dinero de esos recursos."
+  },
+  {
+    "front": "¿Qué es un presupuesto de capital?",
+    "back": "Es el presupuesto destinado a la compra de activos operacionales (bienes de uso), con dos objetivos principales: incrementar ingresos o reducir costos."
+  },
+  {
+    "front": "¿Qué es un presupuesto flexible?",
+    "back": "Es el que reconsidera los planes de acuerdo con los volúmenes de actividad real (no los fijos originales). En este enfoque, los porcentajes de gastos y costos sobre la producción son más relevantes que los valores absolutos."
+  },
+  {
+    "front": "¿Qué es un presupuesto de caja y para qué sirve?",
+    "back": "Muestra los flujos de entrada y salida de efectivo y la posición final de caja en un período. Sirve para determinar la probable posición de caja al fin de cada período, identificar excedentes o déficits, y establecer necesidades de financiamiento."
+  },
+  {
+    "front": "¿Cómo se complementan los planes estratégicos con los presupuestos anuales?",
+    "back": "Los planes estratégicos marcan los objetivos de largo plazo; esas proyecciones son la fuente principal para armar los presupuestos anuales, que detallan cómo se usarán los recursos en el año para alcanzar esos objetivos."
+  },
+  {
+    "front": "Diferencias entre leasing operativo y leasing financiero",
+    "back": "En el operativo, el arrendador mantiene la propiedad del bien, es de plazo más corto, sin opción de compra, y los pagos son más bajos. En el financiero, hay opción de compra, es de largo plazo, y se registra como activo y pasivo en el balance del arrendatario."
+  },
+  {
+    "front": "Ventajas y desventajas del factoring",
+    "back": "Ventajas: anticipo de efectivo, clasificación crediticia del cliente, tareas de cobranza tercerizadas. Desventajas: alto costo y hay clientes que no permiten la cesión de sus facturas."
+  },
+  {
+    "front": "¿Qué es el análisis de rendimientos de ventas (márgenes) y a quién le interesa?",
+    "back": "Se conocen como márgenes (bruto y neto, o ROS) y miden la rentabilidad sobre ventas. Le interesan principalmente al área comercial, ya que reflejan la eficiencia en fijación de precios y control de costos de venta."
+  },
+  {
+    "front": "¿Qué son los rendimientos económicos (Ra) y a quién le interesan?",
+    "back": "Son los rendimientos sobre los activos totales (ROA/ROI). Existen variantes: Ra'' (antes de impuestos e intereses), Ra' (después de impuestos), Ra (después de todos los costos y gastos). Le interesan a la gerencia general para evaluar la eficiencia en el uso de los activos."
+  },
+  {
+    "front": "En la descomposición Dupont del ROE, ¿qué representa cada factor: BN/BAI, BAI/BAII, BAII/Ventas, Ventas/Activos y Activos/Capital Propio?",
+    "back": "BN/BAI es el efecto fiscal (impuestos); BAI/BAII es el efecto de los intereses de la deuda; BAII/Ventas es el efecto operativo (margen); Ventas/Activos es el efecto de rotación de activos; y Activos/Capital Propio es el efecto de la palanca financiera."
+  },
+  {
+    "front": "¿Cómo se calcula la Contribución Marginal Unitaria (CMu) para una empresa monoproductora?",
+    "back": "CMu = Precio de Venta − Costo Variable Unitario (Pv − Cvu). Es lo que aporta cada unidad vendida para cubrir los costos fijos y generar utilidad, una vez cubierto su costo variable."
+  },
+  {
+    "front": "¿Cómo se calcula la Tasa de Contribución Marginal (m) en una empresa multiproductora?",
+    "back": "m = Contribución Marginal Total / Ventas Totales. Evalúa la capacidad global de generar contribución marginal para absorber los costos fijos, independientemente de la mezcla de productos vendidos."
+  },
+  {
+    "front": "¿Qué es el Punto de Equilibrio?",
+    "back": "Es el nivel de ventas en el cual la contribución marginal generada alcanza exactamente para cubrir la totalidad de los costos fijos del período, es decir, donde la utilidad es cero."
+  },
+  {
+    "front": "¿Qué es el Índice de Absorción de Costos Fijos de un producto?",
+    "back": "Es la Contribución Marginal Unitaria del producto dividida por sus Costos Fijos Unitarios. Si da mayor a 1, el producto genera utilidades positivas absorbiendo todos sus costos fijos; si es menor a 1 pero positivo, solo absorbe parte; si es negativo, ni siquiera cubre sus costos fijos."
+  },
+  {
+    "front": "¿Cómo se calculan el Crecimiento Sostenible Intrínseco y Extrínseco de una empresa?",
+    "back": "El crecimiento intrínseco depende de la reinversión de utilidades propias: se calcula con Ra'' (después de impuestos) multiplicado por la tasa de reinversión P. El crecimiento extrínseco depende del endeudamiento: se calcula con (D/E) × (Ra'' − tasa de interés de la deuda) × P, también ajustado por impuestos."
+  },
+  {
+    "front": "¿Cómo se calcula la Tasa de Crecimiento Sostenible total (Gs) de una empresa?",
+    "back": "Gs = ROE × P, donde P es la tasa de reinversión de utilidades (1 menos la tasa de reparto de dividendos). Es la tasa máxima a la que la empresa puede crecer sin cambiar su estructura de capital actual."
+  },
+  {
+    "front": "¿Qué son las variaciones de costo estándar y qué objetivo tienen?",
+    "back": "Comparan el costo teórico (estándar) contra el costo real para analizar las causas de las diferencias. Se calculan variaciones de precio y de cantidad/eficiencia tanto para materia prima como para mano de obra, y variaciones de precio, eficiencia y volumen para los gastos indirectos de fabricación (GIF)."
+  },
+  {
+    "front": "¿Cómo se calcula la Variación de Eficiencia de Mano de Obra y qué producción se usa?",
+    "back": "Variación Eficiencia MOD = (Horas reales trabajadas − Horas estándar para la producción real) × Tasa estándar. Siempre se usa la producción REAL para calcular las horas estándar permitidas, porque son costos directos."
+  },
+  {
+    "front": "¿Qué es el hecho imponible de Ingresos Brutos?",
+    "back": "Es el acto que genera la obligación de pagar el impuesto a los Ingresos Brutos: grava los ingresos provenientes del ejercicio habitual y a título oneroso del comercio, la industria u otra actividad económica."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre la teoría de la fuente y la teoría del balance en el impuesto a las ganancias?",
+    "back": "La teoría de la fuente exige periodicidad, permanencia y habilitación de la fuente productora (aplica a personas físicas). La teoría del balance considera gravables todas las ganancias obtenidas por sociedades y empresas, cumplan o no esas condiciones."
+  },
+  {
+    "front": "¿Qué es el Monotributo y con qué frecuencia se recategoriza?",
+    "back": "Es un régimen simplificado que unifica impuestos y aportes en una cuota fija según categoría. La recategorización es obligatoria y se realiza cada 6 meses (en enero y julio), en base a ingresos, superficie, energía consumida y alquileres de los últimos 12 meses."
+  }
+]

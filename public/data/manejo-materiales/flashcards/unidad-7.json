@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Cuáles son las cinco actividades principales de la gestión de operación de almacenes?",
+    "back": "Recepción, Almacenamiento, Preparación de pedidos (Picking), Despacho y Servicios al cliente/postventa. Son las áreas funcionales que manejan el flujo físico de materiales y su información de control asociada."
+  },
+  {
+    "front": "¿Qué es el WMS y cómo se relaciona con el ERP?",
+    "back": "El WMS (Sistema de Gestión de Almacenes) gestiona las operaciones internas del depósito (recepción, picking, despacho, control); el ERP integra esa información con administración, finanzas, producción, planeamiento y compras de toda la organización."
+  },
+  {
+    "front": "¿Por qué la preparación de pedidos (picking) es la actividad más costosa del proceso de almacenes?",
+    "back": "Porque concentra la mayor proporción de tiempo y recursos del proceso, ya que implica extraer y acondicionar productos individualmente para cada pedido; por eso es la que más se busca mejorar continuamente."
+  },
+  {
+    "front": "¿Cómo se divide el flujo físico de un almacén?",
+    "back": "En flujo de llegada (recepción), flujos en la preparación de pedidos, flujos internos del almacén y flujos de salida (despacho), cuya coordinación impacta directamente en el diseño y dimensionamiento del almacén."
+  },
+  {
+    "front": "¿Qué es la Cadena de Suministros (Supply Chain)?",
+    "back": "Comprar, contratar y distribuir productos a clientes internos y externos con el mayor nivel de servicio compatible con un buen control de activos, optimización de inventarios y costos de distribución."
+  },
+  {
+    "front": "¿Qué diferencia hay entre el sistema Push y el sistema Pull en la gestión de stocks?",
+    "back": "El sistema Push produce el bien antes de la venta y requiere alta precisión en la demanda y soporte de MRP; el sistema Pull (Just in Time) produce recién cuando la venta está generada, apoyado en el concepto de Lean Logistic."
+  },
+  {
+    "front": "¿Qué es una unidad de carga y cuál es su objetivo principal?",
+    "back": "Es la agrupación de productos, envases o empaques en un elemento individual para facilitar su manejo y transporte; su objetivo es reducir el número de movimientos, disminuyendo costos de transporte y almacenaje."
+  },
+  {
+    "front": "¿Cuáles son las medidas estándar de pallet más usadas y sus normas?",
+    "back": "El ARLOG de 1.200 x 1.000 mm (IRAM 10.011 / ISO 3.676) y el Europallet de 1.200 x 800 mm, además de variantes como el medio pallet (800 x 400) y el cuarto de pallet (600 x 400)."
+  },
+  {
+    "front": "¿Qué es la NIMF 15 y qué marca identifica?",
+    "back": "Es la Norma Internacional para Medidas Fitosanitarias que reduce el riesgo de dispersión de plagas por embalajes de madera en comercio internacional; su marcación incluye código de país, número de productor y abreviatura del tratamiento (HT o MB)."
+  },
+  {
+    "front": "¿Qué es el TEU?",
+    "back": "Twenty-foot Equivalent Unit: unidad de medida adimensional basada en el volumen exterior de un contenedor estándar de 20 pies, usada para dimensionar depósitos, puertos y capacidad de transporte."
+  },
+  {
+    "front": "¿Qué tipos de contenedores existen según su función?",
+    "back": "Dry Van (estándar, cargas secas), Refrigerado/Reefer (temperatura controlada), Aislado/Porthole, Ventilado, Open Top (sin techo), Flat Track y Open Side (cargas sobreanchas), Tanque (líquidos/gases) y Graneleros/Plataforma."
+  },
+  {
+    "front": "¿Qué norma ISO define las dimensiones de los contenedores serie 1?",
+    "back": "La norma ISO 668, que en su revisión de 2020 incorporó el contenedor de 45 pies y excluyó (aunque siguen circulando) los de 6½ y 5 pies."
+  },
+  {
+    "front": "¿Cómo se clasifican los almacenes según su función?",
+    "back": "Central, Regional y Local; también se clasifican por grado de protección (descubiertos o cubiertos) y por tipo de material almacenado (general, materia prima, semielaborados, producto terminado)."
+  },
+  {
+    "front": "¿Cuáles son las seis áreas funcionales del lay out de un almacén?",
+    "back": "Zonas de carga y descarga, zona de recepción y devoluciones, zona de almacenaje, zona de preparación de pedidos, zona de expedición, y oficinas y servicios al personal."
+  },
+  {
+    "front": "¿Qué ancho de puertas de ingreso/salida y de vías de circulación se recomienda en un almacén?",
+    "back": "8,5 m para doble mano de circulación y 4,2 m para mano única en puertas; las vías de circulación van de 3,6 a 4 m para una mano (el doble para doble mano), con un radio de giro en curvas de 30 m."
+  },
+  {
+    "front": "¿Cómo varía el factor L según el ángulo de atraque de camiones en los muelles?",
+    "back": "A 10° el factor L es 0,75; a 30° es 1,20; a 45° es 1,50; y a 90° es 2,00. Este factor determina el espacio libre necesario delante de los muelles."
+  },
+  {
+    "front": "¿Qué estándar de superficie se usa para dimensionar la zona de oficinas de un almacén?",
+    "back": "1,5 m² por cada empleado administrativo, además de los servicios sanitarios según legislación local y áreas de mantenimiento, pañol de izaje y sala de carga de baterías."
+  },
+  {
+    "front": "¿Cuáles son los dos grandes grupos de sistemas de almacenamiento según el tiempo de permanencia?",
+    "back": "Almacenaje en bloque y almacenaje de acceso directo, seleccionados en función del espacio disponible, el índice de rotación, el stock de seguridad y los picos de demanda."
+  },
+  {
+    "front": "¿Qué es el cross docking y cuáles son sus dos variantes?",
+    "back": "Es un sistema que minimiza el tiempo de almacenamiento transfiriendo rápidamente los productos de recepción a despacho. Sus variantes son el cross docking directo o predistribuido (mínima clasificación, alta rotación) y el cross docking con preclasificación (clasificación exhaustiva antes de transferir)."
+  },
+  {
+    "front": "¿Qué caracteriza al sistema de estanterías tipo Drive-in?",
+    "back": "Forma pasillos interiores de carga que permiten el ingreso del apilador con la carga por encima del nivel de depósito; es el más económico de los sistemas de base fija. Existen las variantes Drive in y Drive Through."
+  },
+  {
+    "front": "¿Cómo funciona el sistema Push Back de estanterías?",
+    "back": "El primer pallet se apoya sobre un carro o rodillo del canal; al ingresar el siguiente, empuja al anterior. Alcanza hasta 4 pallets de profundidad con carros o 6 con rodillos, con gestión LIFO y utilización mayor al 85%."
+  },
+  {
+    "front": "¿Cómo funciona el sistema Dinámico de estanterías?",
+    "back": "La carga se realiza por la parte posterior, y el canal (con inclinación de 2° y hasta 20 m de longitud) hace avanzar el pallet por gravedad; usa gestión FIFO, ideal para pickeo de pallets completos, con utilización mayor al 85%."
+  },
+  {
+    "front": "¿Qué es el sistema Pallet Shuttle?",
+    "back": "Un carro accionado por motor eléctrico que ubica pallets en las posiciones disponibles del canal (hasta 40 m de longitud, capacidad de hasta 1.500 kg), con gestión FIFO/LIFO y utilización mayor al 85%."
+  },
+  {
+    "front": "¿Qué es un almacén autoportante?",
+    "back": "Es aplicable a alturas superiores a 15 m; las estanterías actúan como estructura soporte del edificio, calculadas para resistir cubierta, viento, lluvia, nieve y el sistema de movimiento (generalmente transelevadores). Ahorra en promedio un 30% de costos de construcción entre 15 y 20 m de altura."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre proceso hombre-a-producto y producto-a-hombre en estanterías para piezas pequeñas?",
+    "back": "En hombre a producto, el operario se desplaza hacia la pieza; en producto a hombre, el producto se mueve hacia el operario (por ejemplo mediante lanzaderas o almacenamiento vertical automatizado)."
+  },
+  {
+    "front": "¿Qué es una zorra para pallets y cuál es la altura máxima de elevación de un autoelevador convencional?",
+    "back": "La zorra es el dispositivo más simple de transporte (no elevación) de pallets, usado en carga/descarga de camiones y traslados cortos (manual o eléctrica). El autoelevador convencional, en cambio, eleva hasta 7,50 m, con pasillos de 3,2 a 3,5 m libres."
+  },
+  {
+    "front": "¿Qué distingue a un elevador trilateral de un autoelevador convencional?",
+    "back": "El trilateral puede alcanzar hasta 15 m de altura en pasillos angostos de 1,5 a 1,8 m, porque son las horquillas (que giran) las que retiran y depositan los pallets, no el vehículo entero; requiere buena nivelación y guías laterales."
+  },
+  {
+    "front": "¿Qué es un transelevador y en qué tipo de almacenes se usa?",
+    "back": "Es una máquina de recorrido fijo en un solo pasillo, que se desplaza sobre dos guías (piso y techo) con horquillas telescópicas; no tiene límite práctico de altura (más de 40 m) y es el sistema típico de almacenes automáticos y autoportantes."
+  },
+  {
+    "front": "¿Qué busca el modelo de Distribución por Mínimo Recorrido?",
+    "back": "Ubicar las referencias en el almacén minimizando el recorrido total de los pallets desde el muelle de ingreso hasta la posición de almacenaje y desde ahí hasta el muelle de salida, asignando las mejores posiciones a las referencias con mayor relación viajes/posiciones (vj/qj)."
+  },
+  {
+    "front": "En el modelo de mínimo recorrido, ¿qué representa el cociente vj/qj?",
+    "back": "vj es el número de viajes desde/hacia el muelle para la referencia; qj es el número de posiciones de almacenaje que requiere. Las referencias con mayor cociente se asignan primero a las posiciones con menor valor de fk (más cercanas/accesibles)."
+  }
+]

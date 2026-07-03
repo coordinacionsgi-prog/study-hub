@@ -1,0 +1,126 @@
+[
+  {
+    "front": "¿Qué es pronosticar?",
+    "back": "Es la ciencia y el arte de predecir eventos futuros con cierta precisión, usando datos históricos y actuales para anticiparse a los acontecimientos y tomar mejores decisiones. Toda predicción es una 'conjetura calculada', nunca una certeza."
+  },
+  {
+    "front": "¿Por qué las empresas necesitan pronosticar?",
+    "back": "Porque operan en contextos inciertos donde factores controlables (precio, producción) e incontrolables (economía, clima, competencia) afectan el negocio. El pronóstico es la materia prima de la planeación de mediano plazo y de las decisiones de operación."
+  },
+  {
+    "front": "¿Cuál es la primera gran clasificación de los tipos de pronóstico?",
+    "back": "1) Micro vs Macro pronósticos, 2) Pronósticos de largo plazo vs corto plazo, 3) Métodos cualitativos vs cuantitativos."
+  },
+  {
+    "front": "Diferencia entre métodos cualitativos y cuantitativos de pronóstico",
+    "back": "Los cualitativos (subjetivos) usan juicio de expertos, encuestas y opiniones cuando faltan datos históricos (ej. método Delphi, consenso de panel). Los cuantitativos usan fórmulas matemáticas y estadística sobre datos numéricos objetivos."
+  },
+  {
+    "front": "¿Cuándo conviene usar métodos cualitativos en vez de cuantitativos?",
+    "back": "Cuando no hay suficiente información histórica confiable, cuando se trata de pronósticos de largo plazo (nuevos productos, mercados emergentes) o cuando el contexto cambió tanto que los datos pasados ya no son representativos del futuro."
+  },
+  {
+    "front": "¿Qué son los modelos causales de pronóstico?",
+    "back": "Son técnicas donde la variable a pronosticar (dependiente) tiene una relación de causa-efecto con una o más variables independientes. La técnica más usada en la materia es la regresión lineal simple."
+  },
+  {
+    "front": "¿Qué son los modelos de series de tiempo?",
+    "back": "Son técnicas que asumen que el comportamiento futuro de una variable puede determinarse por lo que pasó en el pasado, es decir que el patrón histórico se repite en el futuro. No buscan causalidad, sino un patrón cronológico a extrapolar."
+  },
+  {
+    "front": "¿Qué es una serie de tiempo (o serie temporal)?",
+    "back": "Es una colección de observaciones de una variable, registradas secuencialmente en el tiempo, generalmente a intervalos equiespaciados (por ejemplo ventas mensuales)."
+  },
+  {
+    "front": "¿Cuáles son los componentes de una serie de tiempo según el modelo multiplicativo?",
+    "back": "Yt = Tt · St · Ct ± εt, donde T es Tendencia (largo plazo), S es Estacionalidad, C es Ciclo (macroeconómico) y ε es el componente Irregular o aleatorio."
+  },
+  {
+    "front": "¿Cómo se calcula el pronóstico con el método de Promedio Móvil Simple de n períodos?",
+    "back": "Ft = promedio de los últimos n valores reales observados. A medida que llega un dato nuevo, se descarta el más antiguo. Un n chico es más sensible a cambios recientes; un n grande es más estable pero 'achata' la curva."
+  },
+  {
+    "front": "¿Qué diferencia hay entre el Promedio Móvil Simple y el Promedio Móvil Ponderado?",
+    "back": "En el simple todas las observaciones pesan igual. En el ponderado se asignan distintos pesos (que deben sumar 100%) dando mayor importancia a los valores más recientes."
+  },
+  {
+    "front": "¿Cuál es la fórmula del Suavizamiento Exponencial?",
+    "back": "Ŷt = Ŷt-1 + α (Yt-1 − Ŷt-1), equivalente a Ŷt = α·Yt-1 + (1-α)·Ŷt-1. Necesita solo 3 datos: el pronóstico anterior, la demanda real anterior y la constante de atenuación α (entre 0 y 1)."
+  },
+  {
+    "front": "¿Qué significa la constante α en el suavizamiento exponencial y cómo se elige?",
+    "back": "Determina el peso que se le da al error más reciente y la velocidad de reacción del modelo. Para demanda estable se usa un α bajo (5-10%); para productos con alto crecimiento se usa un α más alto (15-30%) para reaccionar más rápido a los cambios."
+  },
+  {
+    "front": "Ventaja y desventaja principal del suavizamiento exponencial",
+    "back": "Ventaja: requiere pocos datos históricos y es sencillo de calcular. Desventaja: retrasa la detección de cambios reales en la demanda (le cuesta 'reaccionar')."
+  },
+  {
+    "front": "¿Qué es el MAD (Desviación Media Absoluta)?",
+    "back": "Es el promedio de los valores absolutos de los errores de pronóstico: MAD = Σ|Yt − Ft| / n. Mide el error promedio en las mismas unidades que la variable pronosticada."
+  },
+  {
+    "front": "¿Qué es el MSE (Error Cuadrático Medio)?",
+    "back": "Es el promedio de los errores al cuadrado: MSE = Σ(Yt − Ft)² / n. Al elevar al cuadrado, penaliza más los errores grandes que el MAD."
+  },
+  {
+    "front": "¿Qué es el MAPE (Error Porcentual Medio Absoluto)?",
+    "back": "Es el promedio de los errores absolutos expresados como porcentaje del valor real: MAPE = [Σ(|Yt−Ft|/Yt)]/n × 100. Permite comparar la precisión de pronósticos entre series de distinta escala."
+  },
+  {
+    "front": "¿Para qué sirven el MAD, MSE y MAPE?",
+    "back": "Son medidas de exactitud (precisión) de un método de pronóstico: comparan el valor pronosticado contra el valor real. Se usan para elegir entre distintos métodos o distintos parámetros (por ejemplo, distintos 'n' de promedio móvil o distintos α), prefiriendo el de menor error."
+  },
+  {
+    "front": "¿Qué es la desestacionalización de una serie?",
+    "back": "Es el proceso de eliminar el componente estacional de una serie de tiempo para poder observar la tendencia real. Se calcula dividiendo cada valor original por su índice estacional correspondiente."
+  },
+  {
+    "front": "¿Cómo se calcula el índice estacional?",
+    "back": "Índice estacional = Promedio del período (mes/trimestre) / Promedio global (o promedio móvil centrado). Indica cuánto está un período por encima o por debajo del comportamiento promedio."
+  },
+  {
+    "front": "¿Cuáles son los pasos de la técnica de Proyección de tendencia con ajuste por estacionalidad?",
+    "back": "1) Desestacionalizar la serie, 2) Encontrar los índices de estacionalidad, 3) Hacer la proyección de la tendencia lineal con la serie ya desestacionalizada, y luego aplicar los índices estacionales al pronóstico de tendencia."
+  },
+  {
+    "front": "¿Cuál es la ecuación de la tendencia lineal en proyección de tendencias?",
+    "back": "Y = a + b·X (o Y = a + b·t), donde Y es el valor pronosticado, a es la ordenada al origen (valor cuando X=0), b es la pendiente de la recta y X (o t) es el período. Se calcula generalmente por mínimos cuadrados."
+  },
+  {
+    "front": "¿Por qué la proyección de tendencia NO es un método causal aunque use regresión lineal?",
+    "back": "Porque el tiempo no tiene una relación de causa-efecto real con las ventas; el tiempo actúa como sustituto de otras variables. Por eso la proyección de tendencia pertenece a la familia de 'análisis de series de tiempo', no a los modelos causales."
+  },
+  {
+    "front": "¿Qué mide el Coeficiente de Correlación de Pearson (r)?",
+    "back": "Mide la fortaleza y dirección de la relación lineal entre dos variables. Va de -1 a 1: valores absolutos cercanos a 1 indican correlación fuerte, el signo indica si la relación es positiva o negativa."
+  },
+  {
+    "front": "¿Qué mide el Coeficiente de Determinación (R²)?",
+    "back": "Indica qué porcentaje de la variación de la variable Y puede explicarse por el comportamiento de la variable X, según el modelo de regresión ajustado. Un R² cercano a 1 (o 100%) indica que el modelo se ajusta muy bien a los datos."
+  },
+  {
+    "front": "En el ejemplo de regresión ventas-publicidad (FOR01), ¿qué significan 'a' y 'b' en Y = a + bX?",
+    "back": "a (ordenada al origen ≈ 81,40) es el valor estimado de ventas cuando la inversión en publicidad es cero; b (pendiente ≈ 2,92) indica cuánto aumentan las ventas por cada unidad adicional invertida en publicidad."
+  },
+  {
+    "front": "¿Cuáles son los supuestos (hipótesis) que deben cumplir los datos para aplicar regresión lineal válidamente?",
+    "back": "Normalidad, Homocedasticidad (varianza constante de los errores), Independencia de las observaciones y Linealidad de la relación entre variables."
+  },
+  {
+    "front": "¿Qué es la desviación irregular o dato atípico en una serie y cómo se trata?",
+    "back": "Es un valor fuera de escala respecto del comportamiento normal de la serie (por un evento fortuito). Se recomienda detectarlo y reemplazarlo por el promedio entre el valor anterior y el posterior, en vez de dejarlo distorsionar el pronóstico."
+  },
+  {
+    "front": "¿Qué se debe hacer ante un cambio abrupto de escala en una serie de tiempo?",
+    "back": "Separar el conjunto de datos antiguos (escala anterior) del nuevo, y analizarlos por separado, evitando usar los datos previos al cambio ya que no reflejarían la nueva realidad de la serie."
+  },
+  {
+    "front": "¿Qué es la Distribución t de Student y para qué se usa en pronósticos?",
+    "back": "Es una distribución de probabilidad usada para construir intervalos de confianza (por ejemplo, para el pronóstico de una regresión) cuando el tamaño de muestra es chico. Se consulta la tabla t según los grados de libertad y el nivel de confianza deseado."
+  },
+  {
+    "front": "En el ejercicio ilustrativo de ventas mensuales QWERTY, ¿por qué se probaron n=4 y n=12 en el promedio móvil?",
+    "back": "Para comparar un suavizamiento más sensible (n=4) contra uno más estable que capture el ciclo anual completo (n=12), y elegir cuál refleja mejor el patrón real de la serie con estacionalidad mensual antes de proyectar la tendencia."
+  }
+]

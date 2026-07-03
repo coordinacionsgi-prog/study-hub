@@ -1,0 +1,145 @@
+[
+  {
+    "question": "¿Por qué el Costeo Estándar no es aplicable a trabajos hechos a pedido (por orden única)?",
+    "options": [
+      "Porque los CIF no existen en ese tipo de empresas",
+      "Porque calcular un estándar para un producto que se fabrica una sola vez resulta muy costoso y poco práctico",
+      "Porque solo se puede usar en empresas de servicios",
+      "Porque no admite el cálculo de variaciones"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Costeo Estándar encuentra su campo natural en la producción seriada de empresas grandes; fijar un estándar para un producto único es delicado y costoso."
+  },
+  {
+    "question": "¿Cuál es la fórmula correcta de la Variación Precio de Materia Prima (VPMP)?",
+    "options": [
+      "VPMP = Qs × (Pr − Ps)",
+      "VPMP = Qc × (Pr − Ps)",
+      "VPMP = Ps × (Qr − Qs)",
+      "VPMP = Pr × (Qc − Qs)"
+    ],
+    "answerIndex": 1,
+    "explanation": "La variación precio de MP se calcula sobre la cantidad comprada (Qc), multiplicada por la diferencia entre precio real y precio estándar."
+  },
+  {
+    "question": "Con precio estándar 10,00 $/kg, precio real 10,50 $/kg y una compra de 324.000 kg, ¿cuál es la Variación Precio de Materia Prima y su signo?",
+    "options": [
+      "-162.000 $, Favorable",
+      "+162.000 $, Desfavorable",
+      "+324.000 $, Desfavorable",
+      "0 $, Neutra"
+    ],
+    "answerIndex": 1,
+    "explanation": "VPMP = 324.000 × (10,50 − 10,00) = +162.000 $. Como es positiva, es Desfavorable (se pagó más que el estándar)."
+  },
+  {
+    "question": "Si el consumo estándar de MP era 648.600 kg y el consumo real fue 634.500 kg, con precio estándar 10 $/kg, ¿cuál es la Variación Eficiencia de MP?",
+    "options": [
+      "+141.000 $, Desfavorable",
+      "-141.000 $, Favorable",
+      "+648.600 $, Desfavorable",
+      "-634.500 $, Favorable"
+    ],
+    "answerIndex": 1,
+    "explanation": "VEMP = 10 × (634.500 − 648.600) = -141.000 $. Al consumirse menos material que el estándar permitido, la variación es Favorable."
+  },
+  {
+    "question": "¿Qué diferencia hay entre la Variación de Precio y la Variación de Eficiencia de Mano de Obra?",
+    "options": [
+      "La de precio compara tarifa real vs estándar sobre horas reales; la de eficiencia compara horas reales vs estándar a tarifa estándar",
+      "Son exactamente lo mismo",
+      "La de eficiencia se calcula sobre la cantidad comprada",
+      "La de precio no depende de las horas trabajadas"
+    ],
+    "answerIndex": 0,
+    "explanation": "VPMO = Qr(Pr−Ps) aísla el efecto de la tarifa; VEMO = Ps(Qr−Qs) aísla el efecto de las horas trabajadas, ambas evaluadas con el otro factor fijo en su valor conocido."
+  },
+  {
+    "question": "¿Cómo se calcula la Utilidad Neta Ajustada a partir de la Utilidad Neta antes de variaciones?",
+    "options": [
+      "Se suman todas las variaciones favorables y desfavorables por igual",
+      "UN Ajustada = UN antes de variaciones − suma de todas las variaciones (Vpmp+Vemp+Vpmo+Vemo+VpCIF+VeCIF+VV)",
+      "UN Ajustada = UN antes de variaciones × tasa impositiva",
+      "No es posible calcular la UN ajustada sin el balance completo"
+    ],
+    "answerIndex": 1,
+    "explanation": "Todas las variaciones (con su signo) se restan de la utilidad antes de variaciones para llegar a la utilidad neta ajustada real del período."
+  },
+  {
+    "question": "¿Cuál es la diferencia central entre Costeo por Absorción y Costeo Directo (Variable)?",
+    "options": [
+      "El costeo directo no reconoce materia prima como costo",
+      "En absorción todos los costos de fabricación (fijos y variables) se inventarían; en directo solo los variables se inventarían y los fijos van directo al resultado del período",
+      "El costeo por absorción es exclusivo de empresas de servicios",
+      "No hay diferencia real entre ambos métodos"
+    ],
+    "answerIndex": 1,
+    "explanation": "La clave está en el tratamiento de los costos fijos de producción: absorción los activa en inventario, directo los trata como gasto del período."
+  },
+  {
+    "question": "¿En qué situación las utilidades calculadas por Costeo Absorbente y por Costeo Directo son exactamente iguales?",
+    "options": [
+      "Siempre, sin excepción",
+      "Solo cuando el volumen producido coincide exactamente con el volumen vendido en el período",
+      "Solo si no hay costos fijos",
+      "Nunca pueden ser iguales"
+    ],
+    "answerIndex": 1,
+    "explanation": "Si no hay variación de inventarios (se vende todo lo que se produce), ambos métodos arrojan la misma utilidad; si hay acumulación o desacumulación de stock, difieren."
+  },
+  {
+    "question": "¿Cuál de los siguientes NO es uno de los 7 tipos de variaciones del Costeo Estándar?",
+    "options": [
+      "Variación Eficiencia de Materia Prima",
+      "Variación Volumen de Fabricación",
+      "Variación de Tipo de Cambio",
+      "Variación Precio de Mano de Obra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Las 7 variaciones son: Vpmp, Vemp, Vpmo, Vemo, VpCIF, VeCIF y VV (volumen). La variación de tipo de cambio no forma parte de este esquema."
+  },
+  {
+    "question": "En el análisis de CIF con base a 2 variaciones, ¿qué mide la Variación de Volumen de Producción (Capacidad Ociosa)?",
+    "options": [
+      "La diferencia entre precio real y precio estándar de la materia prima",
+      "El resultado de producir a un nivel de actividad distinto del usado para calcular la tasa de aplicación de CIF Fijos",
+      "El total de horas trabajadas por mano de obra indirecta",
+      "La diferencia entre ventas reales y presupuestadas"
+    ],
+    "answerIndex": 1,
+    "explanation": "La variación de volumen surge cuando las horas estándar de producción difieren de las horas normales usadas para fijar la tasa de CIF Fijos, generando sub o sobreabsorción."
+  },
+  {
+    "question": "¿Cuál de los tres métodos de distribución secundaria de CIF es el más exacto, ya que contempla la prestación recíproca de servicios entre departamentos de servicio?",
+    "options": [
+      "Método Directo",
+      "Método Escalonado o Cruzado",
+      "Método Algebraico o Recíproco",
+      "Método de Costeo por Absorción"
+    ],
+    "answerIndex": 2,
+    "explanation": "El método Algebraico resuelve mediante ecuaciones simultáneas la prestación mutua entre departamentos de servicio, siendo el más preciso (aunque también el más complejo)."
+  },
+  {
+    "question": "¿Por qué las pérdidas por ineficiencia NO se activan como costo de producción?",
+    "options": [
+      "Porque la ley contable lo prohíbe expresamente en todos los países",
+      "Porque no están asociadas a la creación de riqueza ni forman parte del valor del bien, y deben cargarse directamente al resultado del período",
+      "Porque siempre son de un monto insignificante",
+      "Porque solo ocurren en mano de obra indirecta"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las pérdidas (por ejemplo, tiempo ocioso por falta de material) no agregan valor al producto, por lo que deben imputarse directamente a resultados (Cuadro de Resultados) del período."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones sobre la Capacidad Normal es correcta?",
+    "options": [
+      "Es siempre igual a la capacidad teórica (24/7, 365 días)",
+      "Se basa en la capacidad práctica ajustada por la demanda de largo plazo (aprox. 5 años), y es igual o menor que la capacidad práctica",
+      "No se usa nunca para calcular la tasa de aplicación de CIF",
+      "Es la capacidad esperada para el próximo mes únicamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "La capacidad normal ajusta la capacidad práctica por la demanda esperada de largo plazo y las variaciones estacionales, siendo una de las bases más usadas para fijar la tasa de aplicación de CIF."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Para qué sirve el Análisis Marginal?",
+    "back": "Es una herramienta de la contabilidad gerencial para tomar decisiones: fijación de precios, mezcla de ventas, fabricar o comprar, promoción o eliminación de productos, asignación de costos indirectos, entre otras."
+  },
+  {
+    "front": "¿Qué significa 'marginal' en este contexto?",
+    "back": "Se refiere al efecto que una decisión específica (por ejemplo, producir una unidad más) tiene sobre el resultado económico, considerando los ingresos y costos adicionales que esa decisión genera, no los costos históricos o totales."
+  },
+  {
+    "front": "¿Qué es la Contribución Marginal?",
+    "back": "Es la utilidad adicional ($) que obtiene la empresa por cada unidad vendida. Contribución marginal unitaria: cmg = pv − cv (precio de venta menos costo variable unitario)."
+  },
+  {
+    "front": "¿Conviene seguir vendiendo un producto que da pérdida contable?",
+    "back": "Sí, siempre que su contribución marginal sea positiva (el precio cubre el costo variable), porque igual aporta algo para cubrir los gastos fijos y reduce la pérdida global de la empresa. Si la contribución marginal es negativa, no conviene venderlo."
+  },
+  {
+    "front": "¿Cuándo hay que discontinuar un producto según el criterio de contribución marginal?",
+    "back": "Cuando su contribución marginal es negativa, es decir, cuando el costo variable unitario supera al precio de venta: cada unidad vendida genera una pérdida directa y no aporta nada a cubrir los costos fijos."
+  },
+  {
+    "front": "¿Qué excepciones existen para seguir vendiendo un producto con contribución marginal negativa?",
+    "back": "Productos 'gancho' que atraen clientes hacia otros productos rentables, ofertas conjuntas, estrategias de entrada a mercado con pérdidas controladas de corto plazo, o liquidación de inventario perecedero/próximo a vencer."
+  },
+  {
+    "front": "Fórmula de la Utilidad total de la empresa (expresión fundamental del Análisis Marginal)",
+    "back": "Uo = Σ(pi·Qi) − Σ(cvi·Qi) − F, es decir, Ventas totales menos Costos Variables totales menos Costos Fijos."
+  },
+  {
+    "front": "Ecuación del Análisis Marginal (variación de utilidades)",
+    "back": "ΔUo = Σ[CMgPi·(ΔQi/Qi) + Vi·(Δpi/pi) − CVi·(Δcvi/cvi) − Fi·(ΔFi/Fi)]. Permite calcular cómo varía la utilidad total ante cambios porcentuales en volumen, precio, costo variable o costos fijos de cada producto."
+  },
+  {
+    "front": "¿Qué es un 'operador' en la ecuación del análisis marginal, por ejemplo [Qi]?",
+    "back": "Es la variación porcentual de esa variable respecto de su valor inicial: [Qi] = ΔQ/Q = (Q2−Q1)/Q1. Siempre se calcula sobre el valor inicial (situación de partida)."
+  },
+  {
+    "front": "¿Qué son los Gastos Fijos Propios y Prorrateados?",
+    "back": "Los propios son identificables directamente con un producto: si el producto desaparece, ese gasto desaparece también. Los prorrateados son comunes a varios productos y llegan a cada uno por un criterio de asignación; si el producto se discontinúa, ese gasto no desaparece, sino que se redistribuye entre los demás."
+  },
+  {
+    "front": "¿Qué es la Elasticidad Precio de la Demanda (e)?",
+    "back": "Mide cómo reacciona la cantidad demandada ante un cambio en el precio: (Q) = -e·(p), o e = %cambio en cantidad / %cambio en precio. El signo negativo refleja la relación inversa habitual entre precio y cantidad."
+  },
+  {
+    "front": "Interpretación de los distintos valores de elasticidad precio (e)",
+    "back": "e>1: demanda elástica (muy sensible al precio). e=1: demanda unitaria. e<1: demanda inelástica (poco sensible). e=0: perfectamente inelástica (no cambia aunque suba el precio). e=∞: perfectamente elástica."
+  },
+  {
+    "front": "¿Qué es la Tasa de Contribución Marginal de la Empresa (m)?",
+    "back": "m = CMgE($) / Ventas($). Indica cuántos pesos crecen las utilidades totales por cada peso adicional vendido, manteniendo la misma mezcla de ventas (mix)."
+  },
+  {
+    "front": "¿Bajo qué condiciones se mantiene constante la tasa de contribución marginal (m) ante cambios?",
+    "back": "Si cambia el volumen: todos los productos deben variar en la misma proporción (mismo mix). Si cambia el precio: el precio y el costo variable de cada producto deben variar en el mismo porcentaje entre sí."
+  },
+  {
+    "front": "¿Qué significa que 'm' aumente o disminuya al cambiar el mix de ventas?",
+    "back": "Si m1<m2, mejora la calidad de las ventas (se genera más contribución marginal por peso vendido, absorbiendo mejor los gastos fijos). Si m1>m2, empeora la calidad de las ventas."
+  },
+  {
+    "front": "¿Qué es el Índice de Absorción de Gastos Fijos (IA)?",
+    "back": "IAi = (Vi − CVi) / Fi = cmgi / Fi(unitario). Indica cuántos $ de contribución marginal aporta un producto por cada $ de gastos fijos que le corresponden."
+  },
+  {
+    "front": "¿Cómo se interpreta el Índice de Absorción (IA)?",
+    "back": "IA > 1 (100%): el producto cubre todos sus gastos fijos y deja ganancia neta positiva. 0 < IA < 1: cubre solo parte de sus gastos fijos, pero igual contribuye. IA negativo: cuanto más se vende, más se pierde; conviene analizar discontinuar el producto."
+  },
+  {
+    "front": "¿Cuál es la fórmula del Punto de Equilibrio (Qe) para un solo producto?",
+    "back": "Qe = Fi / cmgi (Costos Fijos / Contribución marginal unitaria). Es el volumen de ventas donde la utilidad es cero."
+  },
+  {
+    "front": "¿Cuál es la fórmula del Punto de Equilibrio en $ (Ve) para la empresa completa?",
+    "back": "Ve = F / m (Costos Fijos totales / Tasa de contribución marginal de la empresa), también expresado como Ve = F / mgc%."
+  },
+  {
+    "front": "¿Qué le sucede al Punto de Equilibrio si suben los Costos Fijos?",
+    "back": "El punto de equilibrio sube: se necesita vender más unidades (o más pesos) para cubrir los mayores costos fijos antes de empezar a generar utilidad."
+  },
+  {
+    "front": "¿Qué le sucede al Punto de Equilibrio si sube el precio de venta?",
+    "back": "El punto de equilibrio baja, porque cada unidad vendida aporta más contribución marginal, alcanzando el equilibrio con menos unidades."
+  },
+  {
+    "front": "¿Por qué el Punto de Equilibrio no es estático ni estable?",
+    "back": "Porque es un modelo simplificado que depende de hipótesis de linealidad y divisibilidad que no siempre se cumplen en la realidad; además los ingresos de la empresa son poco previsibles, por lo que siempre conviene adoptar un margen de seguridad."
+  },
+  {
+    "front": "¿Qué es el Rango Relevante en el análisis de costos?",
+    "back": "Es el rango de producción dentro del cual las hipótesis de comportamiento de costos (linealidad de variables, constancia de fijos) son válidas. Fuera de ese rango, los costos fijos pueden escalonarse y los variables cambiar de pendiente."
+  },
+  {
+    "front": "Diferencia entre Costeo Variable/Marginalista y Costeo por Absorción respecto al inventario",
+    "back": "En Costeo Variable, solo los costos variables de fabricación se inventarían; los fijos van directo al resultado del período. En Costeo Absorbente, todos los costos de producción (fijos y variables) se inventarían y se convierten en gasto recién cuando se vende el producto."
+  },
+  {
+    "front": "¿Para qué se usa cada método de costeo, Absorción vs Variable?",
+    "back": "El Costeo Absorbente se usa para informes externos (Estados Contables) y es el reconocido por normativa. El Costeo Variable/Directo se usa para fines internos de la gerencia: planificación, control y toma de decisiones ('¿qué pasa si...?')."
+  },
+  {
+    "front": "¿Cuándo la utilidad es mayor con Costeo Variable que con Costeo por Absorción?",
+    "back": "Cuando el volumen de ventas es mayor que el volumen de producción (los inventarios de productos terminados disminuyen), porque en absorción parte de los costos fijos queda 'atrapada' en el inventario que se está liquidando."
+  },
+  {
+    "front": "¿Qué son las hipótesis de Divisibilidad y Linealidad en el análisis marginal?",
+    "back": "Divisibilidad: los costos fijos y variables son 'puros', no mixtos. Linealidad: las utilidades y costos variables son proporcionales al volumen (se representan con líneas rectas). Ambas hipótesis, según la teoría económica, no se cumplen exactamente en la realidad, pero simplifican el análisis dentro del rango relevante."
+  },
+  {
+    "front": "Un producto tiene precio $15, costo variable $6, gastos fijos propios $10.000 y prorrateados $25.000. ¿Cómo se calcula su punto de equilibrio en unidades?",
+    "back": "Qe = (Fijos propios + Fijos prorrateados) / (precio − costo variable) = 35.000 / 9 = 3.889 unidades aproximadamente, asumiendo que se consideran todos los fijos que le corresponden al producto."
+  },
+  {
+    "front": "¿Qué pasa con la utilidad de la empresa si se desplaza la demanda de un producto de baja contribución marginal hacia otro de mayor contribución marginal (a igual monto de ventas)?",
+    "back": "La utilidad aumenta, porque cada peso vendido del producto con mayor cmg aporta más a cubrir los costos fijos y generar ganancia; por eso conviene analizar la 'calidad de las ventas' al cambiar el mix, no solo la rentabilidad aparente de cada producto."
+  },
+  {
+    "front": "¿Qué diferencia hay entre Margen Bruto, Contribución Marginal (Margen de Contribución) y Margen Operativo/EBIT?",
+    "back": "Margen Bruto = Ventas − Costo de Ventas (enfoque por absorción). Contribución Marginal = Ventas − Costos y Gastos Variables (enfoque marginalista). Margen Operativo/EBIT = Contribución Marginal − Costos y Gastos Fijos (o Utilidad Bruta − Gastos Adm. y Com. y depreciaciones)."
+  }
+]

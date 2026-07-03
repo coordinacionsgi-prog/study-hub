@@ -1,0 +1,178 @@
+[
+  {
+    "question": "¿Qué busca explicar el análisis de variaciones patrimoniales?",
+    "options": [
+      "Las causas del cambio del Patrimonio Neto entre dos fechas de balance",
+      "El valor de mercado de las acciones de la empresa",
+      "La cantidad de empleados que tuvo la empresa en el período",
+      "El tipo de cambio promedio del ejercicio"
+    ],
+    "answerIndex": 0,
+    "explanation": "El análisis de variaciones patrimoniales busca identificar y explicar qué hechos o transacciones provocaron el cambio del PN entre dos momentos, no otros aspectos ajenos al patrimonio."
+  },
+  {
+    "question": "¿Cómo se calcula la variación total del Patrimonio Neto entre dos fechas?",
+    "options": [
+      "Activo Total final menos Activo Total inicial",
+      "PN final menos PN inicial",
+      "Resultado del ejercicio dividido el PN inicial",
+      "Pasivo Total final menos Pasivo Total inicial"
+    ],
+    "answerIndex": 1,
+    "explanation": "La variación total del PN se obtiene restando el PN de la situación inicial al PN de la situación posterior o final: ΔPN = PN final − PN inicial."
+  },
+  {
+    "question": "Según la clasificación vista en la teoría de AE2, ¿cuáles son los tres tipos de variaciones patrimoniales según su impacto en el PN?",
+    "options": [
+      "Activas, pasivas y neutras",
+      "Permutativas, modificativas y mixtas",
+      "Corrientes, no corrientes y contingentes",
+      "Directas, indirectas y presupuestadas"
+    ],
+    "answerIndex": 1,
+    "explanation": "La clasificación central es: permutativas (no cambian el PN), modificativas (cambian el PN, propias o impropias) y mixtas (combinan ambos efectos en la misma operación)."
+  },
+  {
+    "question": "Una empresa compra un mueble pagando en efectivo. El activo 'Efectivo' baja y el activo 'Muebles' sube por el mismo importe. ¿Qué tipo de variación patrimonial es?",
+    "options": [
+      "Modificativa propia",
+      "Modificativa impropia",
+      "Permutativa",
+      "Mixta"
+    ],
+    "answerIndex": 2,
+    "explanation": "Es permutativa porque solo cambia la composición del activo (se canjea efectivo por un bien), pero el valor total del Patrimonio Neto no se modifica."
+  },
+  {
+    "question": "Los socios de una empresa deciden hacer un aporte adicional de capital en efectivo. ¿Cómo se clasifica esta variación patrimonial?",
+    "options": [
+      "Modificativa propia disminutiva",
+      "Modificativa impropia aumentativa",
+      "Permutativa nula",
+      "Mixta negativa"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los aportes de capital son decisiones de los propietarios (no de la operatoria del negocio), por lo tanto son variaciones modificativas impropias, y aumentan el PN."
+  },
+  {
+    "question": "¿Qué diferencia a una variación patrimonial 'propia' de una 'impropia'?",
+    "options": [
+      "Las propias son siempre positivas y las impropias siempre negativas",
+      "Las propias se originan en operaciones del giro del negocio (resultado del ejercicio); las impropias, en decisiones de los propietarios",
+      "Las propias afectan al activo y las impropias al pasivo",
+      "No hay diferencia, son sinónimos"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las variaciones propias vienen del resultado generado por la actividad de la empresa; las impropias vienen de decisiones de los socios, como aportes o retiros/dividendos."
+  },
+  {
+    "question": "Una empresa vende mercadería al contado y obtiene una ganancia en esa venta. ¿Qué tipo de variación patrimonial genera esta operación?",
+    "options": [
+      "Permutativa pura",
+      "Mixta",
+      "Modificativa impropia",
+      "No genera ninguna variación patrimonial"
+    ],
+    "answerIndex": 1,
+    "explanation": "Es mixta porque combina una permutación (baja la mercadería, sube el efectivo) con una modificación del PN (la ganancia obtenida en la venta)."
+  },
+  {
+    "question": "¿Cuáles son las causas típicas que explican una disminución del Patrimonio Neto?",
+    "options": [
+      "Pérdidas del ejercicio y retiros o distribución de dividendos a los socios",
+      "Aumento de las ventas y aportes de capital",
+      "Compra de bienes de uso al contado",
+      "Cancelación de una deuda con un proveedor"
+    ],
+    "answerIndex": 0,
+    "explanation": "El PN baja por resultados negativos (pérdidas) del giro del negocio o por decisiones impropias de los socios, como retiros de capital o pago de dividendos."
+  },
+  {
+    "question": "En el ejercicio de Goldemediacancha SA (Ej201), el Patrimonio Neto inicial al 01/01/20x4 era de $95.000. Luego de las 4 operaciones encadenadas (compra de mercadería al contado, compra de un mueble con pagaré, pago a proveedor y firma de un pagaré por deuda), ¿cuál fue el Patrimonio Neto final?",
+    "options": [
+      "$95.000, porque todas las operaciones fueron permutativas",
+      "$110.555, porque todas las operaciones aumentaron el PN",
+      "$80.000, porque hubo una pérdida en el período",
+      "No se puede determinar sin el estado de resultados"
+    ],
+    "answerIndex": 0,
+    "explanation": "Las cuatro operaciones (compra de mercadería, compra de mueble con pagaré, pago a proveedor y firma de pagaré) solo modifican partidas de activo y pasivo entre sí, por lo que son permutativas y el PN se mantiene en $95.000."
+  },
+  {
+    "question": "En el ejemplo ilustrativo AE200 (empresa comercial, monoperíodo), el Patrimonio Neto está compuesto por Capital Social $530, Resultados No Asignados $93,1 y Resultado del Ejercicio $276,90. ¿Cuál es el Patrimonio Neto total?",
+    "options": [
+      "$900",
+      "$1.440",
+      "$276,90",
+      "$623,10"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sumando las tres partidas (530 + 93,1 + 276,9) se obtiene un Patrimonio Neto total de $900, que además coincide con el PN que figura en el balance del ejemplo."
+  },
+  {
+    "question": "En el ejemplo AE200, si los Activos Totales son $1.440 y el Patrimonio Neto es $900, ¿a cuánto ascienden los Pasivos Totales?",
+    "options": [
+      "$540",
+      "$2.340",
+      "$900",
+      "$1.440"
+    ],
+    "answerIndex": 0,
+    "explanation": "Como Activo Total = Pasivo Total + Patrimonio Neto, el Pasivo Total es 1.440 − 900 = 540."
+  },
+  {
+    "question": "¿Cómo se calcula el Fondo de Maniobra (FM)?",
+    "options": [
+      "Capitales Permanentes menos Activo Fijo",
+      "Activo Corriente dividido Pasivo Corriente",
+      "Patrimonio Neto menos Pasivo Total",
+      "Ventas menos Costo de Mercadería Vendida"
+    ],
+    "answerIndex": 0,
+    "explanation": "El FM se calcula como Capitales Permanentes (PN + Deudas de Largo Plazo) menos el Activo Fijo. En el ejemplo AE200: 970 − 650 = 320."
+  },
+  {
+    "question": "¿Qué situación indica un Fondo de Maniobra negativo (FM<0)?",
+    "options": [
+      "Que la empresa financia parte de su Activo Fijo con deudas de corto plazo, lo que implica riesgo de iliquidez",
+      "Que la empresa no tiene ninguna deuda",
+      "Que el Patrimonio Neto es igual al Activo Total",
+      "Que la empresa tiene un excedente de recursos permanentes para financiar el circulante"
+    ],
+    "answerIndex": 0,
+    "explanation": "El FM negativo señala desequilibrio financiero: parte del activo fijo se sostiene con deuda de corto plazo, y si esta situación persiste puede derivar en un concurso de acreedores."
+  },
+  {
+    "question": "¿Cuál es la diferencia clave entre una 'variable stock' y una 'variable flujo' en el análisis patrimonial?",
+    "options": [
+      "La variable stock se mide en un instante determinado; la variable flujo se mide durante un período de tiempo",
+      "La variable stock siempre es monetaria y la variable flujo nunca lo es",
+      "No hay diferencia práctica entre ambas",
+      "La variable flujo solo aparece en el balance y la variable stock solo en el estado de resultados"
+    ],
+    "answerIndex": 0,
+    "explanation": "El Patrimonio Neto o el Activo Total son variables stock (foto a una fecha); la utilidad neta del ejercicio es una variable flujo (se acumula durante un período)."
+  },
+  {
+    "question": "¿Cómo se dice 'Patrimonio Neto' en inglés, según el glosario de la materia?",
+    "options": [
+      "Net worth / Shareholders' equity",
+      "Net income",
+      "Working capital",
+      "Retained earnings"
+    ],
+    "answerIndex": 0,
+    "explanation": "El glosario de Control de Gestión traduce 'net worth' y 'shareholders' equity' como Patrimonio Neto, mientras que 'net income' es utilidad/ganancia neta."
+  },
+  {
+    "question": "¿Cómo se dice 'aportes de capital / capital social' en inglés, según el glosario de la materia?",
+    "options": [
+      "Retained earnings",
+      "Contributed capital",
+      "Accrued liabilities",
+      "Accounts receivable"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Contributed capital' se traduce como Capital social - aportes, es decir la parte del PN que corresponde a lo aportado por los socios, a diferencia de 'retained earnings' (utilidades retenidas)."
+  }
+]

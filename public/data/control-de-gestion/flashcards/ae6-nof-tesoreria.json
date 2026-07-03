@@ -1,0 +1,110 @@
+[
+  {
+    "front": "¿Qué son las Necesidades Operativas de Fondos (NOF)?",
+    "back": "Son la inversión neta en el circulante que necesita el negocio para funcionar día a día, una vez descontada la financiación espontánea que generan las propias operaciones (básicamente proveedores). Se calculan como NOF = Activo Circulante Operativo - Pasivo Circulante Operativo, o de forma equivalente NOF = Necesidades Cíclicas - Recursos Cíclicos."
+  },
+  {
+    "front": "Fórmula simplificada de las NOF",
+    "back": "Como los rubros operativos distintos de existencias y clientes (y los pasivos distintos de proveedores) suelen ser poco significativos, en la práctica se usa: NOF = Existencias + Cuentas por Cobrar - Cuentas por Pagar."
+  },
+  {
+    "front": "¿Qué es el Fondo de Maniobra (FM)?",
+    "back": "Es la parte del activo circulante financiada con recursos permanentes (capital propio más deuda de largo plazo). Se calcula como FM = Recursos Permanentes - Activo Inmovilizado (o, desde el corto plazo, FM = Activo Corriente - Pasivo Corriente). Representa el colchón de fondos de largo plazo disponible para sostener la operación corriente."
+  },
+  {
+    "front": "¿Qué es la Situación de Tesorería (ST) y cómo se calcula?",
+    "back": "Es la comparación entre el Fondo de Maniobra y las NOF: ST = FM - NOF. También se la llama Recursos Líquidos Netos (RLN). Si ST = 0, la empresa no necesita tesorería adicional porque el FM cubre exactamente lo que exige el ciclo operativo."
+  },
+  {
+    "front": "¿Qué significa que la Situación de Tesorería sea negativa (ST < 0)?",
+    "back": "Que el FM no alcanza a cubrir las NOF (FM < NOF), por lo que existe un déficit de tesorería: la empresa debe salir a buscar Recursos de Corto Plazo Necesarios (RCPNec), por ejemplo crédito bancario de corto plazo o postergando pagos. Indica que la estructura de financiación de largo plazo es insuficiente."
+  },
+  {
+    "front": "¿Qué significa que la Situación de Tesorería sea positiva (ST > 0)?",
+    "back": "Que el FM supera a las NOF (FM > NOF), generando un excedente o superávit de tesorería. La empresa debería colocar ese excedente en inversiones temporales (plazos fijos, valores negociables) o aprovechar descuentos por pronto pago, para no mantener fondos ociosos."
+  },
+  {
+    "front": "¿Por qué las NOF se consideran una inversión (un uso de fondos) y el FM una fuente de fondos?",
+    "back": "Las NOF representan el volumen de inversión neta generada por las operaciones diarias (un concepto de activo), mientras que el FM representa el volumen de recursos de largo plazo disponibles para financiar esa operación (un concepto de pasivo o estructura de financiación). Son complementarios pero de naturaleza distinta: uno es operativo (NOF) y el otro estructural (FM)."
+  },
+  {
+    "front": "Necesidades Cíclicas vs. Recursos Cíclicos",
+    "back": "Las Necesidades Cíclicas son las inversiones ligadas al ciclo de maduración (clientes + inventarios/bienes de cambio) que se renuevan constantemente con la operación. Los Recursos Cíclicos (o espontáneos) son el financiamiento que se obtiene automáticamente de la operación, principalmente proveedores y deudas fiscales/sociales, sin costo financiero explícito."
+  },
+  {
+    "front": "¿De qué factores dependen principalmente las variaciones de las NOF?",
+    "back": "De la política comercial (plazos de cobro), la política de pagos a proveedores, la política de fabricación y de inventarios, y muy fuertemente del volumen de ventas: las NOF crecen o decrecen de forma casi proporcional a las ventas, porque todos sus componentes (clientes, inventarios, proveedores) están ligados a la actividad."
+  },
+  {
+    "front": "¿Cómo afecta un aumento de ventas a las NOF y al FM?",
+    "back": "Las NOF aumentan de forma casi proporcional al aumento de ventas (se adelantan a las ventas), mientras que el FM crece a un ritmo mucho más lento y estable, ligado a decisiones estructurales de largo plazo (aportes de capital, endeudamiento de largo plazo, utilidades retenidas). Por eso un crecimiento sostenido de ventas sin planificación financiera de largo plazo puede generar tensiones de tesorería."
+  },
+  {
+    "front": "¿Cómo deben financiarse idealmente las NOF?",
+    "back": "La parte de las NOF de carácter permanente (estable, ligada a la actividad normal del negocio) debe financiarse con Fondo de Maniobra (recursos permanentes). La parte de origen transitorio o estacional puede financiarse con pasivo circulante negociado de corto plazo (crédito bancario). Cubrir la parte permanente con deuda de corto plazo es una solución riesgosa y solo transitoria."
+  },
+  {
+    "front": "Recursos Negociados vs. Recursos Forzados",
+    "back": "Los Recursos Negociados (o Expresos) son financiamiento de corto plazo obtenido y acordado formalmente con una entidad (por ejemplo, un préstamo bancario). Los Recursos Forzados aparecen cuando ese financiamiento negociado no alcanza a cubrir el déficit y la empresa termina difiriendo pagos (a proveedores, AFIP, sueldos): es un parche riesgoso, no una solución definitiva."
+  },
+  {
+    "front": "NOF contables vs. NOF reales",
+    "back": "Las NOF contables surgen directamente del balance. Las NOF reales pueden ser mayores, porque en situaciones de tensión de liquidez la tesorería efectivamente utilizada suele ser menor a la deseada (por ejemplo, por recurrir a recursos forzados). Por eso el análisis de tesorería siempre debería referirse a las NOF reales."
+  },
+  {
+    "front": "Índice de Cobertura de las NOF",
+    "back": "Se calcula como FM / NOF. Un nivel ideal es mayor a 1 (100%). Para mejorarlo conviene disminuir las NOF (por ejemplo, acelerando el ciclo de conversión de efectivo) antes que intentar aumentar el FM, porque las NOF dependen de decisiones de mandos medios mientras que el FM depende de decisiones estratégicas de la alta dirección."
+  },
+  {
+    "front": "Estrategia de Tesorería Relajada",
+    "back": "La financiación de largo plazo cubre la totalidad de la inversión en activos, con FM igual o mayor a las NOF. Es de bajo riesgo: genera superávits de efectivo en momentos de baja estacionalidad, que se colocan en inversiones temporales, pero implica mantener fuerte inversión ociosa en efectivo y títulos negociables."
+  },
+  {
+    "front": "Estrategia de Tesorería Restrictiva",
+    "back": "La financiación de largo plazo cubre solo el activo fijo (no la totalidad de los activos), por lo que se recurre sistemáticamente a financiación de corto plazo (recursos negociados) para cubrir las variaciones estacionales de las NOF. Es la estrategia más riesgosa, aunque minimiza el costo de mantener fondos ociosos."
+  },
+  {
+    "front": "Estrategia de Tesorería Flexible (mixta)",
+    "back": "El FM financia en promedio un nivel igual a las NOF. Es una posición intermedia: hay períodos en que la empresa tiene excedentes para colocar y otros en que debe salir a buscar financiación de corto plazo esporádica, equilibrando riesgo y costo de oportunidad."
+  },
+  {
+    "front": "Criterio de lo devengado vs. criterio de lo percibido",
+    "back": "El criterio devengado (contable) reconoce ingresos y gastos cuando ocurre la operación económica (venta, compra), sin importar si se cobró o pagó; así se arma el Estado de Resultados. El criterio percibido (financiero) registra solo los movimientos reales de efectivo (cobros y pagos); así se arma la tesorería. Un gasto no es lo mismo que un pago, ni un ingreso es lo mismo que un cobro."
+  },
+  {
+    "front": "¿Por qué el saldo de caja no debe ser ni excesivo ni insuficiente?",
+    "back": "Un saldo insuficiente genera riesgo de insolvencia y de perder crédito comercial. Un saldo excesivo implica fondos ociosos con alto costo de oportunidad, ya que el efectivo prácticamente no genera rendimiento. El objetivo de la gestión de tesorería es encontrar un saldo óptimo que equilibre liquidez y rentabilidad (existen modelos como Miller-Orr o Baumol para estimarlo)."
+  },
+  {
+    "front": "Objetivos centrales de la gestión de tesorería (cash management)",
+    "back": "No mantener saldos ociosos, pagar en término para no generar intereses ni penalidades, minimizar riesgos, y maximizar el rendimiento de los excedentes mientras se minimiza el costo de financiar los déficits. Incluye la administración del efectivo, la gestión de fondos y la gestión de riesgos de tasa e interés."
+  },
+  {
+    "front": "Overtrading (sobrecrecimiento) como causa de problemas de liquidez",
+    "back": "Ocurre cuando una empresa sostiene un nivel de operaciones comerciales que crece muy rápido sin contar con recursos económicos suficientes: le crecen simultáneamente cuentas por cobrar e inventarios (y por lo tanto las NOF), generando riesgo de cesación de pagos aunque las ventas sean crecientes."
+  },
+  {
+    "front": "Estrategias básicas de manejo de efectivo",
+    "back": "Cancelar cuentas por pagar lo más tarde posible sin dañar la reputación crediticia (aprovechando descuentos por pronto pago si conviene), rotar el inventario lo más rápido posible sin quedarse sin stock, y cobrar las cuentas por cobrar lo antes posible sin perder ventas futuras por presionar demasiado a los clientes."
+  },
+  {
+    "front": "¿Por qué el crecimiento de ventas puede llevar a una empresa a la cesación de pagos?",
+    "back": "Porque las NOF aumentan casi proporcionalmente con las ventas (clientes e inventarios crecen), y si ese crecimiento no se financia con recursos permanentes planificados de largo plazo, la empresa termina recurriendo a deuda de corto plazo o a recursos forzados (atrasar pagos), lo que agrava la tensión de tesorería en vez de resolverla."
+  },
+  {
+    "front": "Caso especial: NOF negativas",
+    "back": "Cuando las cuentas por pagar superan a la suma de existencias más cuentas por cobrar, las NOF resultan negativas y se convierten en una fuente de financiación en vez de una necesidad. Es el caso típico de supermercados o grandes superficies que cobran de contado y pagan a proveedores con plazos largos."
+  },
+  {
+    "front": "Diferencia entre decisiones de corto y de largo plazo frente al dilema liquidez-rendimiento",
+    "back": "Los problemas de liquidez exigen soluciones inmediatas de corto plazo (son urgentes, no dan tiempo), mientras que los problemas de rendimiento se resuelven con decisiones estratégicas de largo plazo (reducir costos, cambiar procesos), que requieren tiempo para implementarse y madurar. Buscar liquidez a menudo implica sacrificar margen, y viceversa."
+  },
+  {
+    "front": "Alternativas para corregir un desequilibrio de tesorería",
+    "back": "En el corto plazo: disminuir las NOF mediante securitización, cheque de pago diferido o factoring. En el largo plazo: aumentar el FM emitiendo obligaciones negociables, emitiendo acciones (aporte de capital) o disminuyendo activos fijos."
+  },
+  {
+    "front": "Ciclo de maduración y ciclo de caja: ¿cuál es la diferencia?",
+    "back": "El Ciclo de Maduración (PMM) es el tiempo entre la compra de materia prima (o mercadería) y el cobro de la venta, sumando los plazos medios de inventario y de cobranza. El Ciclo de Caja descuenta de ese ciclo el plazo medio de pago a proveedores: Ciclo de Caja = Ciclo de Maduración - Plazo Medio de Pago a Proveedores."
+  }
+]

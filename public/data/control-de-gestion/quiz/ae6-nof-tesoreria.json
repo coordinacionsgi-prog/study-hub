@@ -1,0 +1,162 @@
+[
+  {
+    "question": "¿Cuál es la fórmula simplificada más usada para calcular las NOF?",
+    "options": [
+      "NOF = Existencias + Cuentas por Cobrar - Cuentas por Pagar",
+      "NOF = Activo Total - Pasivo Total",
+      "NOF = Capital Propio - Activo Inmovilizado",
+      "NOF = Ventas - Costo de Ventas"
+    ],
+    "answerIndex": 0,
+    "explanation": "Las NOF surgen de restar a las necesidades cíclicas (existencias más cuentas por cobrar) los recursos cíclicos, que en la práctica son básicamente las cuentas por pagar a proveedores."
+  },
+  {
+    "question": "¿Cómo se define el Fondo de Maniobra (FM) desde el punto de vista de largo plazo?",
+    "options": [
+      "Activo Corriente menos Pasivo Corriente",
+      "Recursos Permanentes menos Activo Inmovilizado (No Corriente)",
+      "Ventas menos Costo de Ventas",
+      "Necesidades Cíclicas menos Recursos Cíclicos"
+    ],
+    "answerIndex": 1,
+    "explanation": "El FM, definido desde la estructura de largo plazo, es el excedente de Recursos Permanentes (capital propio más deuda de largo plazo) por sobre el Activo Inmovilizado; numéricamente coincide con Activo Corriente menos Pasivo Corriente."
+  },
+  {
+    "question": "¿Cuál es la fórmula de la Situación de Tesorería (ST)?",
+    "options": [
+      "ST = NOF - FM",
+      "ST = FM + NOF",
+      "ST = FM - NOF",
+      "ST = Activo Corriente / Pasivo Corriente"
+    ],
+    "answerIndex": 2,
+    "explanation": "La Situación de Tesorería (también llamada Recursos Líquidos Netos) se calcula como Fondo de Maniobra menos NOF; si es positiva hay superávit y si es negativa hay déficit de tesorería."
+  },
+  {
+    "question": "En el ejercicio AE616, con Recursos Permanentes de $1.400, Necesidades Cíclicas de $900 y Recursos Cíclicos/Espontáneos de $600, ¿cuál es el valor de las NOF?",
+    "options": [
+      "$1.400", "$600", "$300", "$900"
+    ],
+    "answerIndex": 2,
+    "explanation": "NOF = Necesidades Cíclicas - Recursos Cíclicos = $900 - $600 = $300, tal como surge de la solución del ejercicio."
+  },
+  {
+    "question": "Siguiendo con AE616, si el FM es de $100 y las NOF son de $300, ¿cuál es la Situación de Tesorería?",
+    "options": [
+      "$400 (superávit)", "$200 (superávit)", "-$200 (déficit)", "$0 (equilibrio)"
+    ],
+    "answerIndex": 2,
+    "explanation": "ST = FM - NOF = $100 - $300 = -$200, tal como indica la solución del ejercicio AE616 (situación de tesorería negativa, déficit)."
+  },
+  {
+    "question": "En el ejercicio AE612 (La FACU S.A.), la Rotación de Inventarios es 7,02 veces y la Rotación de Clientes es 4,01 veces. ¿Cuál es aproximadamente el Ciclo de Maduración (n=365)?",
+    "options": [
+      "91 días", "52 días", "143 días", "103 días"
+    ],
+    "answerIndex": 2,
+    "explanation": "El Plazo de Inventario es 365/7,02 ≈ 52 días y el Plazo de Cobranza es 365/4,01 ≈ 91 días; sumados dan un Ciclo de Maduración de aproximadamente 143 días, según la solución del ejercicio."
+  },
+  {
+    "question": "En AE612, si el Ciclo de Maduración es 143 días y la permanencia de proveedores (financiamiento cíclico) es de 40 días en promedio, ¿cuál es el Ciclo de Caja?",
+    "options": [
+      "183 días", "40 días", "103 días", "143 días"
+    ],
+    "answerIndex": 2,
+    "explanation": "Ciclo de Caja = Ciclo de Maduración - Plazo de Pago = 143 - 40 = 103 días, según la solución del ejercicio."
+  },
+  {
+    "question": "En el ejercicio AE613 (El Anexo de la Facu S.R.L.), las Necesidades Cíclicas dieron $211.559,75 y los Recursos Cíclicos (financiamiento obtenido) fueron $180.000. ¿A cuánto ascienden las NOF?",
+    "options": [
+      "$31.559,75", "$211.559,75", "$391.559,75", "$180.000"
+    ],
+    "answerIndex": 0,
+    "explanation": "NOF = Necesidades Cíclicas - Recursos Cíclicos = $211.559,75 - $180.000 = $31.559,75, tal como se calcula en la resolución del ejercicio."
+  },
+  {
+    "question": "Según el ejercicio AE614 (Frankfurt Vertriebsgesellschaft Süd AG), con Existencias de 4.500, Realizable (CxC) de 1.000 y Deudas No Financieras de 2.700, ¿cuál es el valor de las NOF?",
+    "options": [
+      "2.800 euros", "5.500 euros", "1.800 euros", "2.700 euros"
+    ],
+    "answerIndex": 0,
+    "explanation": "NOF = Existencias + Realizable - Deudas No Financieras = 4.500 + 1.000 - 2.700 = 2.800 euros, según la resolución del ejercicio."
+  },
+  {
+    "question": "En AE614, si el FM calculado es de 3.200 euros y las NOF son de 2.800 euros, ¿cuál es la situación de tesorería aproximada?",
+    "options": [
+      "Déficit de -400 euros", "Superávit de 400 euros", "Equilibrio (0)", "Déficit de -3.200 euros"
+    ],
+    "answerIndex": 1,
+    "explanation": "ST = FM - NOF = 3.200 - 2.800 = 400 euros de superávit, indicando que la empresa dispone de más financiación de largo plazo de la que requieren sus operaciones."
+  },
+  {
+    "question": "¿Qué significa que la Situación de Tesorería (ST) sea negativa?",
+    "options": [
+      "Que la empresa tiene un excedente de efectivo para invertir",
+      "Que el FM no alcanza a cubrir las NOF y hay que salir a buscar financiación de corto plazo",
+      "Que la empresa no tiene deudas",
+      "Que las ventas cayeron a cero"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cuando FM < NOF, la ST es negativa: existe un déficit que obliga a recurrir a Recursos de Corto Plazo Necesarios (RCPNec), como créditos bancarios o postergación de pagos."
+  },
+  {
+    "question": "¿Qué tipo de empresa suele presentar NOF negativas de forma estructural?",
+    "options": [
+      "Una empresa industrial con largos procesos de fabricación",
+      "Un supermercado que cobra de contado y paga a proveedores con plazos largos",
+      "Una empresa que vende exclusivamente a crédito a 90 días",
+      "Una empresa con altísimos niveles de inventario"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cuando las cuentas por pagar superan la suma de existencias y cuentas por cobrar, las NOF se vuelven negativas y actúan como fuente de financiación; es el caso típico de supermercados y grandes superficies."
+  },
+  {
+    "question": "¿Cuál de las siguientes NO es una estrategia de tesorería mencionada en la teoría?",
+    "options": [
+      "Estrategia Relajada", "Estrategia Restrictiva", "Estrategia Flexible (mixta)", "Estrategia Especulativa"
+    ],
+    "answerIndex": 3,
+    "explanation": "Las tres estrategias de tesorería desarrolladas son la Relajada, la Restrictiva y la Flexible (mixta); la 'Especulativa' no forma parte de esta clasificación."
+  },
+  {
+    "question": "¿Cuál es la diferencia clave entre Recursos Negociados y Recursos Forzados?",
+    "options": [
+      "Los Recursos Negociados son gratuitos y los Forzados tienen costo",
+      "Los Recursos Negociados se acuerdan formalmente con una entidad de crédito; los Forzados surgen de diferir pagos a proveedores, AFIP o sueldos como parche ante un déficit",
+      "Los Recursos Forzados solo existen en empresas industriales",
+      "No hay diferencia, son sinónimos"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los Recursos Negociados (o Expresos) son financiación de corto plazo pactada; los Forzados aparecen cuando esa financiación no alcanza y la empresa termina atrasando pagos, lo cual es una solución riesgosa y transitoria."
+  },
+  {
+    "question": "En el ejemplo AE615 (El Desorden S.R.L. 2), con Existencias de 419, Realizable de 399 y Deudas No Financieras de 708 (con temporalidad), ¿cuánto dan las NOF?",
+    "options": [
+      "110", "818", "1.526", "708"
+    ],
+    "answerIndex": 0,
+    "explanation": "NOF = Existencias + Realizable - Deudas No Financieras = 419 + 399 - 708 = 110, según la resolución del ejercicio AE615."
+  },
+  {
+    "question": "¿Qué relación describe mejor el vínculo entre el volumen de ventas y las NOF?",
+    "options": [
+      "Las NOF son totalmente independientes de las ventas",
+      "Las NOF varían en sentido inverso a las ventas",
+      "Las NOF fluctúan casi proporcionalmente con el volumen de ventas, y suelen anticiparse a estas",
+      "Las NOF solo dependen del nivel de activos fijos"
+    ],
+    "answerIndex": 2,
+    "explanation": "Como clientes, inventarios y proveedores están directamente ligados a la actividad comercial, las NOF crecen o decrecen casi en la misma proporción que las ventas, y de hecho suelen anticiparse a su evolución."
+  },
+  {
+    "question": "Según la teoría, ¿por qué suele ser más sencillo actuar sobre las NOF que sobre el FM para mejorar la cobertura (FM/NOF)?",
+    "options": [
+      "Porque las NOF dependen de decisiones de mandos medios (política de cobro, pago, inventario), mientras que el FM depende de decisiones estratégicas de la alta dirección",
+      "Porque el FM cambia todos los días y las NOF nunca cambian",
+      "Porque las NOF no tienen relación con el ciclo operativo",
+      "Porque aumentar el FM no requiere aprobación de directorio"
+    ],
+    "answerIndex": 0,
+    "explanation": "El FM depende de decisiones estructurales de largo plazo (aportes de capital, deuda de largo plazo), que son poco frecuentes y requieren aprobación de la alta dirección; en cambio las NOF pueden reducirse con mejoras operativas cotidianas, como acelerar cobros o rotar más rápido el inventario."
+  }
+]

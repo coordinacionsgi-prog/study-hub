@@ -1,0 +1,137 @@
+[
+  {
+    "question": "¿Cuál es la definición correcta de Intralogística?",
+    "options": [
+      "El transporte externo de mercadería entre plantas industriales",
+      "Los procesos y movimientos de materiales dentro de una planta industrial, desde el ingreso hasta el despacho al cliente",
+      "Únicamente la gestión de stocks de materia prima",
+      "El diseño estructural de los edificios industriales"
+    ],
+    "answerIndex": 1,
+    "explanation": "La Intralogística abarca todos los procesos y movimientos internos de materiales, insumos y residuos dentro de la planta, desde su ingreso hasta el despacho a los clientes."
+  },
+  {
+    "question": "¿En qué año se introdujeron los conceptos integrales de Intralogística y Planeación de Instalaciones según la cátedra?",
+    "options": ["1990", "2000", "2016", "2014"],
+    "answerIndex": 2,
+    "explanation": "En 2016 se introdujeron los conceptos más integrales para responder a los nuevos desafíos de la Cadena de Suministros, diferenciando Intralogística de Planeación de Instalaciones."
+  },
+  {
+    "question": "Según Porter, ¿qué constituye el margen de un producto?",
+    "options": [
+      "El costo total de producción",
+      "La diferencia entre el valor que paga el cliente y los costos de generar el producto",
+      "El precio de venta menos el IVA",
+      "La suma de todos los costos de la cadena de valor"
+    ],
+    "answerIndex": 1,
+    "explanation": "El margen es la diferencia entre el valor monetario que el comprador está dispuesto a pagar y los costos necesarios para generar el producto."
+  },
+  {
+    "question": "¿Cuál de las siguientes es una actividad CENTRAL en la Cadena de Valor de Porter?",
+    "options": ["Recursos Humanos", "Infraestructura de la organización", "Intralogística", "Desarrollo de ingeniería"],
+    "answerIndex": 2,
+    "explanation": "La Intralogística es una actividad central porque genera valor directamente al producto; las otras tres son actividades de apoyo."
+  },
+  {
+    "question": "¿Quién propuso el modelo organizacional que dio origen al concepto moderno de Supply Chain Management?",
+    "options": ["Michael Porter", "Keith Oliver", "Dwight Eisenhower", "Richard Muther"],
+    "answerIndex": 1,
+    "explanation": "Keith Oliver, consultor de Booz Allen Hamilton, propuso a fines de los 70 un modelo que integraba los procesos en cadena en lugar de silos funcionales."
+  },
+  {
+    "question": "¿Qué caracteriza a una organización con estructura de 'silos' frente a una cadena de suministros integrada?",
+    "options": [
+      "Mayor visibilidad e información compartida",
+      "Funciones estancas con foco en productos e información no compartida",
+      "Gerenciamiento matricial transversal",
+      "Relaciones de tipo colaborativo con proveedores"
+    ],
+    "answerIndex": 1,
+    "explanation": "El sistema de silos se caracteriza por funciones separadas, foco en productos e ingresos, y falta de intercambio de información entre áreas."
+  },
+  {
+    "question": "¿Cuál de estos NO es uno de los diez principios del Material Handling Institute?",
+    "options": ["Principio de ergonomía", "Principio de automatización", "Principio de rentabilidad financiera", "Principio de unidad de carga"],
+    "answerIndex": 2,
+    "explanation": "Los diez principios son: planeamiento, estandarización, trabajo, ergonomía, unidad de carga, utilización del espacio, sistemas, automatización, ambiental y ciclo de vida; no existe un 'principio de rentabilidad financiera' entre ellos."
+  },
+  {
+    "question": "¿Qué porcentaje del costo de colocar un producto en el mercado puede representar el manejo de materiales en la cadena de suministros?",
+    "options": ["Entre 5% y 10%", "Entre 30% y 85%", "Menos del 1%", "Siempre el 50% exacto"],
+    "answerIndex": 1,
+    "explanation": "Con la irrupción de los modelos B2B y B2P, el costo de manejo de materiales puede llegar a representar entre el 30% y el 85% del costo total de colocar un producto en el mercado."
+  },
+  {
+    "question": "¿Cuál es la diferencia clave entre el Método Convencional y el Método Sistémico de manejo de materiales?",
+    "options": [
+      "El convencional usa robots y el sistémico no",
+      "El convencional se enfoca solo en el transporte punto A a punto B; el sistémico considera toda la cadena de abastecimiento",
+      "No hay diferencia, son sinónimos",
+      "El sistémico solo aplica a materiales peligrosos"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Método Convencional se limita al transporte entre dos puntos, mientras que el Sistémico abarca toda la cadena, desde el proveedor de materia prima hasta el consumidor final."
+  },
+  {
+    "question": "¿Qué ley argentina regula la Higiene y Seguridad en el Trabajo?",
+    "options": ["Ley 24.557", "Ley 19.587", "Ley 25.612", "Ley 24.921"],
+    "answerIndex": 1,
+    "explanation": "La Ley 19.587 es la ley fundamental de Higiene y Seguridad en el Trabajo en Argentina, reglamentada por el Decreto 351/79."
+  },
+  {
+    "question": "¿Qué diferencia a una Norma Técnica de una Norma Interna según la definición IRAM?",
+    "options": [
+      "La Norma Interna es de aplicación obligatoria en todo el país",
+      "La Norma Técnica se aprueba por consenso de un organismo reconocido; la Norma Interna la emite el propio establecimiento y solo aplica a sus proyectos",
+      "Son exactamente lo mismo",
+      "La Norma Técnica solo aplica a productos, nunca a servicios"
+    ],
+    "answerIndex": 1,
+    "explanation": "La Norma Técnica es un documento de consenso aprobado por un organismo reconocido (como IRAM); la Norma Interna la emite la propia empresa y solo rige sus proyectos, pudiendo tener requerimientos superiores."
+  },
+  {
+    "question": "¿Cuál era la misión de los almacenes antes de los años 70, según el 'Libro de Procesos de Almacenes'?",
+    "options": [
+      "Ser un eslabón estratégico central de la cadena de suministros",
+      "Ser el respaldo a las variaciones de producción y ventas, y preservar los activos de la empresa",
+      "Gestionar directamente las relaciones con el cliente final",
+      "Optimizar exclusivamente los costos de transporte internacional"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hasta los años 70, la misión de los almacenes era pasiva: respaldar producción y ventas, y preservar los bienes de cambio, hasta que el Just in Time cambió ese paradigma."
+  },
+  {
+    "question": "¿Qué es el cross docking directo o pre distribuido?",
+    "options": [
+      "Un sistema donde los productos se almacenan por más de una semana",
+      "Un sistema donde los productos se transfieren de recepción a despacho casi sin clasificación exhaustiva, ideal para alta rotación",
+      "Un sistema exclusivo para materiales peligrosos",
+      "Un método de cálculo de mínimo recorrido"
+    ],
+    "answerIndex": 1,
+    "explanation": "En el cross docking directo los productos pasan rápidamente de la recepción al despacho con clasificación mínima, típico de productos de alta rotación como bebidas."
+  },
+  {
+    "question": "¿Qué establece el Principio de Ergonomía del Material Handling Institute?",
+    "options": [
+      "Que todo debe automatizarse sin excepción",
+      "Que deben reconocerse y respetarse las capacidades y limitaciones humanas al diseñar las tareas",
+      "Que el espacio cúbico debe maximizarse siempre",
+      "Que los pallets deben ser biodegradables"
+    ],
+    "answerIndex": 1,
+    "explanation": "El principio de ergonomía indica que el equipamiento debe minimizar el trabajo manual y ser intrínsecamente seguro, considerando el esfuerzo físico y mental del trabajador."
+  },
+  {
+    "question": "En el ciclo de planeación de instalaciones, ¿cuál es el primer paso?",
+    "options": [
+      "Implementar la instalación",
+      "Definición de los Objetivos Estratégicos de la organización",
+      "Generar el Plan de Instalación",
+      "Revisión de los Planes"
+    ],
+    "answerIndex": 1,
+    "explanation": "El ciclo comienza con la Dirección estableciendo Visión, Misión, Factores Claves para el Éxito, Valores e Indicadores Clave de Performance."
+  }
+]

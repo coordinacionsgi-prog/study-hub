@@ -1,0 +1,134 @@
+[
+  {
+    "front": "¿Qué diferencia a la Contabilidad Patrimonial de la Contabilidad Gerencial?",
+    "back": "La Contabilidad Patrimonial produce información para uso externo (accionistas, bancos, CNV, IGJ, proveedores), con reportes obligatorios y formato regulado, basados en hechos históricos. La Contabilidad Gerencial produce información para uso interno, con formato flexible según necesidades de gestión, orientada a la toma de decisiones actuales y predictivas."
+  },
+  {
+    "front": "¿Qué son los Estados Contables (EECC) y cuál es su objetivo?",
+    "back": "Son informes de propósito general que representan de forma estructurada la situación patrimonial, financiera y el desempeño de una empresa en su conjunto (sin discriminar segmentos), pensados para un usuario medio. Su objetivo es dar información útil para la toma de decisiones económicas de acreedores, accionistas y otros terceros."
+  },
+  {
+    "front": "¿Cuáles son los cuatro Estados Contables básicos que emite una empresa cada ejercicio?",
+    "back": "1) Estado de Situación Patrimonial (Balance General), 2) Estado de Resultados, 3) Estado de Evolución del Patrimonio Neto y 4) Estado de Flujo de Efectivo. Se completan con Notas, Anexos, Memoria e Informe del Auditor."
+  },
+  {
+    "front": "Además de los cuatro estados básicos, ¿qué otra información complementaria acompaña a los EECC de publicación?",
+    "back": "Las Notas y Anexos (obligatorios, amplían y detallan rubros), la Memoria (actividad del ejercicio y propuesta de distribución de resultados) y el Informe del Auditor (dictamen sobre la razonabilidad de los estados), todos obligatorios. De forma voluntaria puede haber cartas a los accionistas u otros informes de gestión."
+  },
+  {
+    "front": "¿Qué muestra el Balance General o Estado de Situación Patrimonial?",
+    "back": "Es una \"foto\" de la empresa a una fecha determinada: presenta los activos (bienes y derechos), los pasivos (deudas y obligaciones) y el patrimonio neto, cumpliendo siempre la igualdad Activo = Pasivo + Patrimonio Neto."
+  },
+  {
+    "front": "¿Qué muestra el Estado de Resultados y cómo se lo llama también?",
+    "back": "También llamado Cuadro de Resultados o Estado de Pérdidas y Ganancias, muestra los ingresos, costos y gastos de un período (no una fecha puntual) y determina en su última línea la utilidad o pérdida neta del ejercicio."
+  },
+  {
+    "front": "¿Qué muestra el Estado de Evolución del Patrimonio Neto?",
+    "back": "Muestra cómo cambió cada componente del Patrimonio Neto (capital social, aportes, reservas, resultados no asignados, resultado del ejercicio) entre el comienzo y el cierre del período, explicando los movimientos como aportes de socios, distribución de dividendos o el resultado del ejercicio."
+  },
+  {
+    "front": "¿Qué muestra el Estado de Flujo de Efectivo y por qué es distinto del Estado de Resultados?",
+    "back": "Muestra los cobros y pagos reales de efectivo (variaciones de caja) durante el período. Es distinto del Estado de Resultados porque este último se basa en el criterio de lo devengado (ingresos y gastos aunque no se hayan cobrado o pagado), mientras que el Flujo de Efectivo usa el criterio de lo percibido (solo movimientos reales de dinero)."
+  },
+  {
+    "front": "¿Qué es el Activo Corriente y qué rubros incluye?",
+    "back": "Son los bienes y derechos que se pueden convertir en dinero en menos de un año: Disponibilidades (caja, bancos), Créditos por Ventas (realizable), Otros Créditos y Bienes de Cambio (existencias/inventario)."
+  },
+  {
+    "front": "¿Qué es el Activo No Corriente y qué rubros incluye?",
+    "back": "Son bienes de baja liquidez destinados a permanecer en la empresa a largo plazo (más de un año): Bienes de Uso (tangibles como maquinaria, edificios), Bienes Intangibles, e Inversiones Financieras a largo plazo. Se recuperan mediante el uso, no la venta directa, reflejado a través de la depreciación/amortización."
+  },
+  {
+    "front": "¿Qué es el Pasivo Corriente y el Pasivo No Corriente?",
+    "back": "El Pasivo Corriente son obligaciones exigibles en menos de un año (deudas comerciales, bancarias, sociales, impositivas de corto plazo). El Pasivo No Corriente son obligaciones exigibles a más de un año (préstamos de largo plazo, obligaciones negociables, provisiones de largo plazo)."
+  },
+  {
+    "front": "¿Cómo se define el Patrimonio Neto y por qué se dice que es una magnitud residual?",
+    "back": "El Patrimonio Neto (Equity) es la diferencia entre el Activo Total y el Pasivo Total (PN = A - P). Se llama magnitud residual porque no se calcula de forma directa, sino que surge de restar las deudas a los bienes y derechos; representa lo que le pertenece a los dueños/accionistas."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre Previsión y Provisión?",
+    "back": "La Previsión es una cuenta regularizadora del ACTIVO (signo negativo) que estima una posible pérdida de valor sobre un hecho incierto (ej: previsión para deudores incobrables). La Provisión es una cuenta de PASIVO que refleja una obligación cierta cuyo monto se conoce aproximadamente pero cuyo momento de pago es incierto (ej: provisión para juicios, provisión para cargas sociales)."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre depreciación y amortización?",
+    "back": "La depreciación se aplica a los bienes de uso tangibles (edificios, maquinaria, rodados) y refleja su desgaste físico por el uso y el paso del tiempo. La amortización se aplica a los activos intangibles (patentes, marcas, software) y distribuye su valor a lo largo de la vida útil estimada. Ninguna de las dos implica una salida real de efectivo."
+  },
+  {
+    "front": "¿Qué es el Análisis Vertical de los Estados Contables?",
+    "back": "Consiste en tomar un solo Estado Contable de un período y expresar cada rubro como porcentaje de una cifra base (ej: cada partida del Activo sobre el Activo Total = 100%, o cada línea del Estado de Resultados sobre las Ventas totales = 100%). Es un análisis estático porque estudia un solo momento."
+  },
+  {
+    "front": "¿Qué es el Análisis Horizontal de los Estados Contables?",
+    "back": "Compara un mismo rubro entre dos períodos consecutivos, calculando la variación en valores absolutos y en porcentaje. Es un análisis dinámico porque muestra cómo evolucionó cada cuenta en el tiempo. Hay que tener cuidado de eliminar el efecto de la inflación para no distorsionar la lectura."
+  },
+  {
+    "front": "¿Cuál es la fórmula básica del Análisis Horizontal?",
+    "back": "Variación absoluta = Valor período actual - Valor período base. Variación % = (Variación absoluta / Valor período base) x 100. Por ejemplo, si las ventas pasan de $371.000 a $418.950, la variación es +$47.950, es decir +12,9%."
+  },
+  {
+    "front": "¿Qué es el Análisis de Tendencias (Trend Analysis)?",
+    "back": "Es un subtipo del Análisis Horizontal en el que se elige un año base (=100%) y se expresan los valores de los años siguientes como índice respecto a ese año base, dividiendo cada ítem por el valor del año base. Se recomienda usar al menos entre 3 y 5 períodos para identificar tendencias significativas."
+  },
+  {
+    "front": "¿Qué es el Análisis de Tamaño Homogéneo (Common Size Analysis)?",
+    "back": "También llamado análisis combinado o de tamaño común: informa solo porcentuales año a año (como el Análisis Vertical repetido para varios períodos), eliminando el sesgo del valor monetario y el efecto inflacionario. Es muy útil para comparar (benchmarking) una empresa contra otras de la industria o contra sí misma en el tiempo."
+  },
+  {
+    "front": "En el ejemplo de análisis vertical de dos empresas del apunte, la Empresa A tiene COGS (costo de ventas) de $1.203.103 sobre ventas de $2.187.460. ¿Qué porcentaje representa y qué permite comparar?",
+    "back": "Representa el 55,0% de las ventas. El análisis vertical permite comparar directamente esa estructura de costos con otra empresa de distinto tamaño (Empresa B, con COGS de 48,0% sobre ventas), sin que el tamaño absoluto de cada compañía distorsione la comparación."
+  },
+  {
+    "front": "¿Qué es una transacción permutativa en términos de variaciones patrimoniales?",
+    "back": "Es un hecho contable que cambia la composición de los elementos patrimoniales (activo y/o pasivo) pero NO modifica el valor total del Patrimonio Neto. Ejemplo: comprar mercadería a crédito (aumenta bienes de cambio y aumenta deudas con proveedores en la misma medida)."
+  },
+  {
+    "front": "¿Qué es una transacción modificativa propia y una modificativa impropia?",
+    "back": "La modificativa propia se origina en operaciones normales de la empresa (ventas, gastos) y cambia el PN a través del resultado del ejercicio (puede ser positiva o negativa). La modificativa impropia se origina por decisiones de los propietarios (aportes de capital o retiro de dividendos), también cambia el PN pero no pasa por el Estado de Resultados."
+  },
+  {
+    "front": "¿Cuáles son los cuatro formatos jurídicos más usuales de organización empresarial?",
+    "back": "a) La propiedad unipersonal, b) la sociedad de hecho, c) las sociedades/compañías de responsabilidad limitada (S.R.L.) y d) las sociedades anónimas (S.A.). Los dos primeros tienen responsabilidad ilimitada; los dos últimos, responsabilidad limitada al capital aportado."
+  },
+  {
+    "front": "¿Qué significa que una empresa tenga responsabilidad limitada vs. ilimitada?",
+    "back": "En la responsabilidad ILIMITADA (propiedad unipersonal, sociedad de hecho), los acreedores pueden reclamar sobre el patrimonio personal del dueño para cubrir deudas de la empresa. En la responsabilidad LIMITADA (S.R.L., S.A.), los socios/accionistas solo responden hasta el monto que aportaron o invirtieron en acciones."
+  },
+  {
+    "front": "¿Por qué la mayoría de las empresas grandes del mundo son Sociedades Anónimas (S.A.) aunque en cantidad predominan las unipersonales?",
+    "back": "Porque la S.A. permite obtener más fondos mediante la venta de acciones, tiene responsabilidad limitada (atrae inversores), mayor vida útil (no depende de una persona), y mejor acceso al financiamiento y a administradores profesionales. Las unipersonales son mayoría en cantidad (~70%) pero suelen ser microempresas."
+  },
+  {
+    "front": "¿Quiénes son los principales usuarios de la información contable y qué buscan?",
+    "back": "Acreedores/proveedores: capacidad de pago (liquidez y solvencia). Bancos y bonistas: capacidad de repago de deuda y garantías. Accionistas/inversores: rentabilidad y valor de su inversión. Entes reguladores (CNV, IGJ, ARCA/AFIP): cumplimiento normativo e impositivo. Todos usan los EECC para tomar decisiones racionales de inversión, crédito u otras."
+  },
+  {
+    "front": "En el caso 'La Romana de Buenos Aires S.A.', ¿cuál fue la variación de las ventas entre el ejercicio anterior y el actual, y qué tipo de análisis se aplicaría para calcularlo?",
+    "back": "Las ventas pasaron de $5.502.158,51 a $6.933.372,24, un incremento del 26,01% según la Memoria. Ese cálculo es un Análisis Horizontal, ya que compara la misma cuenta entre dos ejercicios consecutivos y expresa la variación en términos absolutos y porcentuales."
+  },
+  {
+    "front": "En 'La Romana de Buenos Aires S.A.', el Activo Corriente al 31/12/20X4 es $825.812,86 y el Total General del Activo es $1.899.929,18. ¿Qué representa este cálculo?",
+    "back": "Es un Análisis Vertical: el Activo Corriente representa aproximadamente el 43,5% del Activo Total ($825.812,86 / $1.899.929,18 x 100). Permite ver qué proporción de los recursos de la empresa está en forma líquida o de corto plazo."
+  },
+  {
+    "front": "En el ejercicio ilustrativo AE100, con Activo Corriente de 790 y Pasivo Corriente de 470, ¿cuál es el índice de Liquidez Corriente y qué significa?",
+    "back": "Liquidez Corriente = AC / PC = 790 / 470 = 1,68. Significa que la empresa tiene $1,68 de activo corriente por cada $1 de pasivo corriente de corto plazo, es decir que podría cubrir sus deudas de corto plazo con holgura moderada (un valor cercano a 2 se considera cómodo)."
+  },
+  {
+    "front": "En el ejercicio AE100, con Utilidad Bruta de 600 y Ventas de 1500, ¿cuál es el Margen Bruto sobre Ventas?",
+    "back": "Margen Bruto = Utilidad Bruta / Ventas = 600 / 1500 = 40,00%. Representa el porcentaje que le queda a la empresa de cada peso vendido después de descontar el costo de ventas, antes de gastos de estructura, intereses e impuestos."
+  },
+  {
+    "front": "¿Qué es la 'cosmética contable' o 'contabilidad creativa'?",
+    "back": "Es el aprovechamiento de los vacíos o alternativas que permiten las normas contables para presentar la información de manera favorable a los objetivos de la empresa, sin dejar de cumplir formalmente los principios contables. Puede ser legal (contabilidad creativa) o ilegal (fraude, como los casos Enron y Worldcom)."
+  },
+  {
+    "front": "¿Qué es el Plan de Cuentas y para qué sirve?",
+    "back": "Es el listado ordenado de todas las cuentas patrimoniales y de resultado que utiliza una empresa para registrar sus operaciones, con su nombre, código y los conceptos que incluye cada una. Debe ser flexible para adaptarse al crecimiento y cambios de la empresa a través del tiempo."
+  },
+  {
+    "front": "¿Qué información brinda el Informe del Auditor dentro de los EECC?",
+    "back": "Es un dictamen de un Contador Público independiente que opina si los Estados Contables presentan razonablemente la situación patrimonial, el resultado del ejercicio y las variaciones del Patrimonio Neto, de acuerdo con las normas contables profesionales vigentes. Da respaldo de credibilidad a la información publicada."
+  }
+]

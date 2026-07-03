@@ -1,0 +1,138 @@
+[
+  {
+    "question": "En el caso Requilsur, el Activo Corriente es 245 y el Pasivo Corriente es 200. ¿Cuál es el Índice de Liquidez Corriente?",
+    "options": ["1,23", "0,82", "45", "1,48"],
+    "answerIndex": 0,
+    "explanation": "Liquidez Corriente = Activo Corriente / Pasivo Corriente = 245 / 200 = 1,23."
+  },
+  {
+    "question": "Con Activo Corriente 245, Bienes de Cambio 90 y Pasivo Corriente 200, ¿cuál es el Test Ácido?",
+    "options": ["1,23", "0,78", "1,00", "0,45"],
+    "answerIndex": 1,
+    "explanation": "Test Ácido = (245 − 90) / 200 = 155 / 200 = 0,78. Se restan los bienes de cambio por ser el activo corriente menos líquido."
+  },
+  {
+    "question": "Si el Capital Propio es 220, la Deuda de Largo Plazo es 260 y el Activo Inmovilizado es 435, ¿cuál es el Fondo de Maniobra?",
+    "options": ["$45", "$695", "$175", "$25"],
+    "answerIndex": 0,
+    "explanation": "FM = Capital Permanente − Activo Inmovilizado = (220 + 260) − 435 = 480 − 435 = $45."
+  },
+  {
+    "question": "Con Activo Total 680 y Pasivo Total (Capital Ajeno) 460, ¿cuál es el Ratio de Solvencia?",
+    "options": ["0,68", "1,48", "2,09", "1,23"],
+    "answerIndex": 1,
+    "explanation": "Solvencia = Activo Total / Pasivo Total = 680 / 460 ≈ 1,48. El valor óptimo de referencia ronda 1,5."
+  },
+  {
+    "question": "¿Qué mide la Palanca Financiera (Activo Total / Patrimonio Neto)?",
+    "options": [
+      "La capacidad de pago de deudas de corto plazo",
+      "Cuántas veces el capital propio está 'multiplicado' por el uso de deuda de terceros",
+      "El margen bruto sobre ventas",
+      "La velocidad de rotación de inventarios"
+    ],
+    "answerIndex": 1,
+    "explanation": "Palanca Financiera = Activo Total / PN = 1 + (Dt/E), mide el efecto multiplicador de la deuda sobre el capital propio."
+  },
+  {
+    "question": "En Requilsur, BAII = 290 y Gastos Financieros = 105. ¿Cuál es la Carga Financiera sobre el Resultado de Explotación?",
+    "options": ["36,21%", "22,83%", "34,43%", "42,65%"],
+    "answerIndex": 0,
+    "explanation": "Carga Financiera / BAII = 105 / 290 = 36,21%."
+  },
+  {
+    "question": "¿Cuál es la diferencia entre Ra y Ra''?",
+    "options": [
+      "Ra usa Ventas y Ra'' usa Activo Total",
+      "Ra es la Utilidad Neta sobre el Activo (después de intereses e impuestos) y Ra'' es el BAII sobre el Activo (antes de intereses e impuestos)",
+      "Ra es anual y Ra'' es mensual",
+      "No hay diferencia, son sinónimos"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ra = Utilidad Neta / Activo Total promedio. Ra'' = BAII (EBIT) / Activo Total promedio, sin el efecto de la estructura de financiamiento ni impuestos."
+  },
+  {
+    "question": "Según el Índice DUPONT, ¿cómo se descompone Ra?",
+    "options": [
+      "Ra = Liquidez × Solvencia",
+      "Ra = Margen Neto × Rotación de Activos",
+      "Ra = ROE × Palanca Financiera",
+      "Ra = Margen Bruto / Test Ácido"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ra = (Utilidad Neta / Ventas) × (Ventas / Activo Total promedio) = Margen Neto × Rotación de Activos."
+  },
+  {
+    "question": "En Requilsur, Utilidad Neta = 120,25 y Capital Propio promedio = 220. ¿Cuál es el ROE aproximado?",
+    "options": ["17,68%", "42,65%", "54,66%", "6,61%"],
+    "answerIndex": 2,
+    "explanation": "ROE = Utilidad Neta / Capital Propio promedio = 120,25 / 220 ≈ 54,66%."
+  },
+  {
+    "question": "¿Cómo se calcula la Tasa de Crecimiento Sostenible (G) en su forma simple?",
+    "options": ["G = ROE × p (tasa de retención de utilidades)", "G = ROE / Ra", "G = Ra × d (tasa de dividendos)", "G = Solvencia × ROE"],
+    "answerIndex": 0,
+    "explanation": "G = ROE × p, donde p = 1 − d (d es la tasa de reparto de dividendos). Indica el crecimiento que la empresa puede sostener sin cambiar su estructura de financiamiento."
+  },
+  {
+    "question": "En la descomposición extendida de G, ¿qué representa el 'Crecimiento Extrínseco'?",
+    "options": [
+      "La parte del crecimiento que depende solo del rendimiento operativo propio (Ra'')",
+      "La parte del crecimiento que depende del apalancamiento y de la diferencia entre Ra'' y la tasa de interés de la deuda",
+      "El crecimiento vegetativo de las ventas",
+      "El crecimiento producto de la inflación"
+    ],
+    "answerIndex": 1,
+    "explanation": "Crecimiento Extrínseco = (Dt/E) × (Ra'' − i_Dt) × p × (1−tx): depende del uso de deuda ajena y de si su costo es menor al rendimiento operativo."
+  },
+  {
+    "question": "¿Por qué se dice que la Depreciación y Amortización son gastos 'no erogables'?",
+    "options": [
+      "Porque no afectan el resultado del ejercicio",
+      "Porque representan un desgaste contable del activo fijo sin implicar una salida de caja en ese momento",
+      "Porque solo aplican a empresas industriales",
+      "Porque se calculan sobre el pasivo, no sobre el activo"
+    ],
+    "answerIndex": 1,
+    "explanation": "El efectivo por la compra del bien ya salió (o se financia) en otro momento; la depreciación solo refleja el desgaste contable en el período."
+  },
+  {
+    "question": "Según el criterio de lo devengado usado en el Balance y el Cuadro de Resultados, ¿cuándo se registran los ingresos y gastos?",
+    "options": [
+      "Cuando se cobran o pagan efectivamente",
+      "Cuando se generan/conocen, sin importar si ya fueron cobrados o pagados",
+      "Al cierre del ejercicio siguiente",
+      "Solo cuando hay movimiento bancario"
+    ],
+    "answerIndex": 1,
+    "explanation": "El criterio de lo devengado registra ingresos y gastos en el momento en que se conocen, independientemente del momento del cobro o pago."
+  },
+  {
+    "question": "En el análisis de series temporales visto en la Sesión Práctica Bloque UNO, ¿qué hipótesis de trabajo se asume al extrapolar la tendencia hacia el futuro?",
+    "options": [
+      "Que el patrón de comportamiento histórico y su contexto se mantendrá en el futuro",
+      "Que los datos futuros serán siempre mayores a los históricos",
+      "Que no es necesario tener datos históricos confiables",
+      "Que la estacionalidad desaparece con el tiempo"
+    ],
+    "answerIndex": 0,
+    "explanation": "Se asume que el patrón de los datos históricos se repetirá en el futuro; si el contexto cambia sustancialmente, el modelo pierde validez."
+  },
+  {
+    "question": "En el modelo multiplicativo de descomposición de una serie de tiempo (Yt = Tt × St × Ct ± εt), ¿qué representa 'εt'?",
+    "options": ["La Tendencia", "La Estacionalidad", "El Componente Aleatorio o irregular", "El Ciclo macroeconómico"],
+    "answerIndex": 2,
+    "explanation": "εt es el componente irregular o aleatorio, la parte de la serie que no explican la tendencia, la estacionalidad ni el ciclo."
+  },
+  {
+    "question": "Si el ROE de una empresa es 22% y su Ra es 8,3%, ¿qué relación matemática permite estimar la proporción de financiamiento con capital ajeno?",
+    "options": [
+      "ROE = Ra × (Activo Total / Capital Propio), despejando la palanca financiera implícita",
+      "ROE siempre es igual a Ra",
+      "No hay relación posible sin más datos",
+      "Se calcula directamente como ROE − Ra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Como UN = Ra × Activo Total = ROE × Capital Propio, se puede despejar la relación Activo Total / Capital Propio (palanca financiera) y de ahí la proporción financiada con capital ajeno."
+  }
+]

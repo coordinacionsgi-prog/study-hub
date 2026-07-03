@@ -1,0 +1,90 @@
+[
+  {
+    "front": "¿Cómo se clasifican los materiales según su ESTADO en el manejo de materiales?",
+    "back": "Se clasifican en sólidos (a granel o en unidades), fluidos líquidos y fluidos gaseosos, además de residuos y materiales comunes o peligrosos según su tipo."
+  },
+  {
+    "front": "¿Qué equipos se asocian típicamente al manejo de materiales en unidades sólidas?",
+    "back": "Transportadores, grúas y elevadores, y vehículos industriales, a diferencia de los materiales a granel (sólidos, líquidos o gases) que suelen requerir ductos o sistemas específicos como cintas, roscas o bombeo."
+  },
+  {
+    "front": "¿Qué es una unidad de carga?",
+    "back": "Es la agrupación de productos, envases o empaques para formar un elemento individual que facilite su manejo y transporte, reduciendo el número de movimientos y por lo tanto los costos de transporte y almacenaje."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre envase, empaque y embalaje?",
+    "back": "El envase contiene y protege directamente el producto y ayuda a diferenciarlo comercialmente; el empaque contiene al envase; el embalaje resguarda el producto o la unidad de carga con fines esencialmente logísticos, sin buscar diferenciación de imagen."
+  },
+  {
+    "front": "¿Cuáles son las dos características clave de una unidad de carga bien conformada?",
+    "back": "Resistencia (capacidad de soportar el apilamiento sin deformarse) y estabilidad (lograda mediante retractilado con film plástico o flejado con nylon o acero)."
+  },
+  {
+    "front": "¿Qué es el retractilado?",
+    "back": "Es un proceso por el cual se envuelve la unidad de carga con un film plástico que la fija al pallet, aportando estabilidad y protección contra daños de transporte, humedad y agentes ambientales."
+  },
+  {
+    "front": "¿Qué norma ISO estandariza las dimensiones de embalajes para transporte?",
+    "back": "La norma ISO 3394, desarrollada por el comité técnico 122 de ISO, que fija el módulo de embalaje normalizado en 600 x 400 mm, del cual derivan múltiplos y submúltiplos."
+  },
+  {
+    "front": "¿Cuáles son las medidas de pallet más usadas internacionalmente?",
+    "back": "El pallet ARLOG de 1.200 x 1.000 mm (normado por IRAM 10.011 e ISO 3.676) y el Europallet de 1.200 x 800 mm."
+  },
+  {
+    "front": "¿Qué norma IRAM define las cargas máximas de trabajo de los pallets?",
+    "back": "La norma IRAM 10.014, que establece cargas máximas según el tipo (concentrada, no trabada uniformemente distribuida, trabada uniformemente distribuida y carga sólida) y el modo de aplicación (almacenamiento, apilamiento, elevación, apoyo)."
+  },
+  {
+    "front": "¿Qué es la NIMF 15?",
+    "back": "Es la Norma Internacional para Medidas Fitosanitarias que describe las medidas para reducir el riesgo de introducción y dispersión de plagas relacionadas con el embalaje de madera usado en el comercio internacional (tratamiento térmico HT o bromuro de metilo MB)."
+  },
+  {
+    "front": "¿Qué es el manejo manual de cargas según la Ley/Convenio de la OIT?",
+    "back": "Es todo transporte en que el peso de la carga es totalmente soportado por un trabajador, incluyendo el levantamiento y la colocación de la misma (Convenio C127 de la OIT)."
+  },
+  {
+    "front": "¿Cuál es el peso máximo permitido para el transporte manual de carga según el Convenio C128 de la OIT?",
+    "back": "55 kg para trabajadores adultos varones, considerablemente menor (menos de 20 kg) para mujeres y jóvenes trabajadores, y 0 kg para menores en actividades no permitidas."
+  },
+  {
+    "front": "¿Qué peso máximo establece la SRT argentina para bolsas de cemento (Resolución 42/2018)?",
+    "back": "25 kg, como medida específica para reducir el riesgo de lesiones en el transporte manual de bolsas de cemento."
+  },
+  {
+    "front": "¿Qué diferencia hay entre movimiento manual, mecanizado y por gravedad?",
+    "back": "Manual: lo realiza el trabajador con su propia energía. Mecanizado: se realiza mediante máquinas operadas por el trabajador o de forma automatizada. Por gravedad: se usan dispositivos que aprovechan la fuerza gravitatoria."
+  },
+  {
+    "front": "¿Con qué norma se determina la carga física de un trabajo manual?",
+    "back": "Con la norma IRAM 3755, que expresa el consumo de energía en Kcal/h del trabajo muscular realizado."
+  },
+  {
+    "front": "¿Qué diferencia hay entre trabajo muscular dinámico y estático en términos de consumo energético?",
+    "back": "El trabajo muscular dinámico consume aproximadamente entre 10 y 15 veces más energía que el trabajo estático."
+  },
+  {
+    "front": "¿Qué es el método Spitzer, Hettinger y Guelaud?",
+    "back": "Es un método para calcular el Metabolismo Total por Trabajo (MTT), que considera la energía por trabajo estático (Ee) según posturas, y la energía por trabajo dinámico (Ed1 y Ed2) según el tipo de actividad, frecuencia, distancias e intensidad del esfuerzo."
+  },
+  {
+    "front": "¿Cuáles son los tres niveles de tareas laborales según el gasto energético?",
+    "back": "Trabajo Ligero (oficina, poco movimiento), Trabajo Moderado (caminar, levantar objetos ligeros, comercio) y Trabajo Pesado (construcción, carga y descarga, levantamiento de cajas medianamente pesadas)."
+  },
+  {
+    "front": "¿Qué buenas prácticas se recomiendan antes de levantar una carga a mano?",
+    "back": "Estimar su peso aproximado y el estado del embalaje, revisar partes salientes peligrosas (clavos, alambres), quitar objetos sobre la carga, asegurar que el trayecto esté libre de obstáculos y pedir ayuda si la carga es pesada, voluminosa o irregular."
+  },
+  {
+    "front": "¿Qué es la Cadena de Valor según Porter, en el contexto del material a mover?",
+    "back": "Es un modelo que clasifica las actividades de una organización que generan valor al cliente final; el éxito se logra cuando el valor del producto supera los costos de generarlo, siendo esa diferencia el margen."
+  },
+  {
+    "front": "¿Qué diferencia hay entre el enfoque de gestión de stocks tipo Push y tipo Pull (Just in Time)?",
+    "back": "El sistema Push produce el bien antes de la venta, requiriendo alta precisión en la demanda y mayor capacidad de almacenamiento; el sistema Pull (Just in Time) produce en función de la demanda real ya generada, enfocándose en el Lean Logistic para reducir costos que no agregan valor."
+  },
+  {
+    "front": "¿Por qué es tan importante optimizar el costo del manejo de materiales?",
+    "back": "Porque el manejo de materiales es una actividad de soporte que no agrega valor al producto pero sí genera costos; por lo tanto, optimizar ese costo es optimizar directamente la cadena de valor del producto."
+  }
+]

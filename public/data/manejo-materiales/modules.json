@@ -1,0 +1,44 @@
+[
+  {
+    "id": "unidad-1",
+    "title": "Unidad 1 · Introducción a la Intralogística",
+    "unidad": "Unidad 1",
+    "description": "Qué es la intralogística, su alcance y objetivos, y los procesos básicos de un almacén."
+  },
+  {
+    "id": "unidad-2",
+    "title": "Unidad 2 · El Material a Mover y Manejo Manual de Cargas",
+    "unidad": "Unidad 2",
+    "description": "Clasificación de los materiales a mover, propiedades físicas, unidades de carga y normas de manejo manual (ergonomía, límites de peso)."
+  },
+  {
+    "id": "unidad-7",
+    "title": "Unidad 7 · Almacenes y Supply Chain",
+    "unidad": "Unidad 7",
+    "description": "Supply chain y abastecimiento, operación de almacenes, unidades de carga, diseño y dimensionamiento de almacenes, sistemas de almacenaje, equipamiento y principio de mínimo recorrido."
+  },
+  {
+    "id": "unidad-8",
+    "title": "Unidad 8 · Localización de Plantas y Edificios Industriales",
+    "unidad": "Unidad 8",
+    "description": "Métodos de localización de plantas (factores cualitativos, centro de gravedad, transporte), códigos urbanísticos, gestión ambiental y diseño de edificios industriales."
+  },
+  {
+    "id": "unidad-9-10",
+    "title": "Unidad 9 y 10 · Distribución en Planta y Diseño de Lay-out",
+    "unidad": "Unidad 9 y 10",
+    "description": "Tipos de distribución en planta (por producto, proceso, posición fija, celular) y la metodología SLP (Systematic Layout Planning) de Richard Muther."
+  },
+  {
+    "id": "clases-grabadas",
+    "title": "Clases grabadas (transcripciones)",
+    "unidad": "Clases 1 a 6",
+    "description": "Transcripciones de las 6 clases grabadas por Zoom (31/3 a 2/6). Cubren Unidad 1, 2, 7 y 8 con las palabras del profesor."
+  },
+  {
+    "id": "parciales-y-repaso",
+    "title": "Parciales y repaso",
+    "unidad": "—",
+    "description": "Preguntas reales de parciales anteriores (teoría y práctica), con respuestas propias y correcciones del docente."
+  }
+]

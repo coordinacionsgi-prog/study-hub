@@ -1,0 +1,163 @@
+[
+  {
+    "question": "¿Quién publicó en 1909 el primer trabajo relevante sobre localización de plantas basado en el concepto de centro de gravedad?",
+    "options": ["Richard Muther", "Alfred Weber", "Masood Badri", "P. Brown y D. Gibson"],
+    "answerIndex": 1,
+    "explanation": "Alfred Weber, en 1909, desarrolló el modelo del centroide basado en recursos, mercado y fuerzas de aglomeración, minimizando el costo de transporte."
+  },
+  {
+    "question": "Según Weber, ¿cuáles son los tres factores centrales de su modelo de localización?",
+    "options": [
+      "Transporte, mano de obra y clima",
+      "Recursos, mercado y fuerzas de aglomeración",
+      "Costos fijos, costos variables y demanda",
+      "Zonificación, código urbanístico y uso del suelo"
+    ],
+    "answerIndex": 1,
+    "explanation": "Weber definió recursos, mercado y economía o fuerzas de aglomeración como los tres factores determinantes de su modelo centroide."
+  },
+  {
+    "question": "¿Qué diferencia principal existe entre macro localización y micro localización?",
+    "options": [
+      "La macro localización es siempre internacional y la micro siempre nacional",
+      "La macro localización define el área geográfica general y la micro el emplazamiento físico específico",
+      "No hay diferencia, son sinónimos",
+      "La micro localización se hace antes que la macro localización"
+    ],
+    "answerIndex": 1,
+    "explanation": "La macro localización acota la región, país o zona, mientras que la micro localización define el sitio puntual dentro de esa área ya seleccionada."
+  },
+  {
+    "question": "¿Cuál de los siguientes es un método NO cuantificable de localización de plantas?",
+    "options": ["Método de Brown-Gibson", "Método cualitativo de puntos", "Antecedentes industriales", "Método de análisis dimensional"],
+    "answerIndex": 2,
+    "explanation": "Antecedentes industriales, factor preferencial y factor dominante son los métodos no cuantificables; los otros tres pertenecen al grupo de métodos cuantificables por matrices de decisión."
+  },
+  {
+    "question": "En el método cualitativo de puntos, ¿cómo se determina la locación óptima?",
+    "options": [
+      "Es la que tiene el mayor valor de Lj, ya que representa beneficios",
+      "Es la que tiene el menor valor de Lj, ya que los factores representan costos",
+      "Es la que tiene ponderación igual a 1 en todos los factores",
+      "Se determina exclusivamente por votación del equipo de proyecto"
+    ],
+    "answerIndex": 1,
+    "explanation": "Dado que los valores de los factores representan costos, la función objetivo Lj = Σ Pi·Vfi debe minimizarse para hallar la locación óptima."
+  },
+  {
+    "question": "¿Qué distingue al método de Brown-Gibson de los demás métodos de ponderación de factores?",
+    "options": [
+      "Solo usa factores objetivos, ignorando los cualitativos",
+      "Integra en una misma fórmula factores objetivos (cuantificables) y factores subjetivos (cualitativos)",
+      "Solo se aplica a centros de servicios de salud",
+      "No requiere ponderación de factores, solo ranking"
+    ],
+    "answerIndex": 1,
+    "explanation": "Brown-Gibson calcula la Media de Preferencia de Localización combinando factores objetivos y subjetivos ponderados mediante el índice K."
+  },
+  {
+    "question": "En el método de cribado, ¿qué representa la superposición de los mapas de cada factor crítico?",
+    "options": [
+      "El costo total de transporte de cada locación",
+      "Las zonas que resultan viables (no sombreadas) para el conjunto de factores críticos evaluados",
+      "La cantidad de empleados necesarios en cada zona",
+      "El nivel de complejidad ambiental de cada zona"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cada mapa marca en negro las zonas no deseables por cada factor; al superponerlos, las zonas que quedan sin sombrear en todos los mapas son las candidatas viables."
+  },
+  {
+    "question": "¿En qué situación conviene aplicar el modelo de costo/volumen para decidir la localización?",
+    "options": [
+      "Cuando los factores críticos cualitativos son determinantes",
+      "Cuando las locaciones no presentan diferencias significativas en sus factores críticos y se puede recurrir a costos fijos y variables según el volumen de producción",
+      "Cuando el proyecto es de tipo minero con factor dominante",
+      "Cuando se requiere evaluar exclusivamente factores ambientales"
+    ],
+    "answerIndex": 1,
+    "explanation": "El modelo de costo/volumen se aplica cuando los factores críticos no difieren mucho entre locaciones y se puede comparar el costo total (fijo + variable × volumen) de cada una."
+  },
+  {
+    "question": "¿Qué diferencia al modelo en ambiente de riesgo del modelo en ambiente de incertidumbre?",
+    "options": [
+      "En riesgo se conoce la probabilidad de ocurrencia de los escenarios; en incertidumbre no",
+      "Son exactamente el mismo modelo con distinto nombre",
+      "El modelo de riesgo solo aplica a centros de salud",
+      "En incertidumbre siempre se elige la opción de mayor costo"
+    ],
+    "answerIndex": 0,
+    "explanation": "El modelo de riesgo pondera los resultados por la probabilidad estimada de cada escenario de demanda; en incertidumbre esa probabilidad es desconocida y se usan criterios como el pesimista u optimista."
+  },
+  {
+    "question": "Según el Código Urbanístico de CABA, si el FOS es 0,6 y el FOT es 3 sobre un terreno de 250 m², ¿cuántas plantas puede tener la construcción?",
+    "options": ["2 plantas", "3 plantas", "5 plantas", "6 plantas"],
+    "answerIndex": 2,
+    "explanation": "La superficie a construir sobre el terreno es FOS×S = 150 m² y la superficie total edificable es FOT×S = 750 m². Dividiendo 750/150 se obtienen 5 plantas (planta baja y 4 pisos)."
+  },
+  {
+    "question": "¿Cuál es el propósito principal de la Evaluación de Impacto Ambiental (EIA)?",
+    "options": [
+      "Determinar el precio del terreno donde se construirá la planta",
+      "Identificar, interpretar y prevenir los efectos que una actividad puede causar al ambiente en el corto, mediano y largo plazo",
+      "Calcular el Factor de Ocupación del Suelo de un predio",
+      "Definir la mano de obra necesaria para la construcción"
+    ],
+    "answerIndex": 1,
+    "explanation": "La EIA es un procedimiento técnico-administrativo que permite al Estado conocer, valorar y prevenir los impactos ambientales de una actividad, proyecto o emprendimiento."
+  },
+  {
+    "question": "En la Provincia de Buenos Aires, ¿qué establecimientos se consideran de Tercera Categoría independientemente de su Nivel de Complejidad Ambiental (N.C.A.)?",
+    "options": [
+      "Los que tienen menos de 10 empleados",
+      "Los que manipulan sustancias inflamables, corrosivas, de alta reactividad, infecciosas, carcinógenas o radioactivas, o generan residuos especiales peligrosos",
+      "Los ubicados en áreas rurales",
+      "Los que están dentro de un Parque Industrial"
+    ],
+    "answerIndex": 1,
+    "explanation": "Según la normativa (Ley 11.720), estos establecimientos son considerados de Tercera Categoría por el riesgo que representan, sin importar el puntaje que arroje la fórmula del N.C.A."
+  },
+  {
+    "question": "¿Qué es el Certificado de Aptitud Ambiental?",
+    "options": [
+      "El documento que autoriza el uso de mano de obra extranjera",
+      "El documento que acredita el cumplimiento de la normativa de Evaluación de Impacto Ambiental, otorgado cuando la autoridad aprueba el proyecto",
+      "El permiso de obra menor para reformas edilicias",
+      "El plano de zonificación municipal"
+    ],
+    "answerIndex": 1,
+    "explanation": "Se extiende a favor del interesado cuando la Autoridad de Aplicación aprueba la actividad, y contiene datos como titular, ubicación, rubro, categoría y plazo de vigencia."
+  },
+  {
+    "question": "¿Qué mide la certificación LEED en un edificio industrial?",
+    "options": [
+      "Únicamente la resistencia estructural del acero",
+      "Localización sostenible, ahorro de agua, eficiencia energética, materiales, calidad ambiental interior e innovación",
+      "Solamente el costo de construcción",
+      "El nivel de complejidad ambiental según la Ley 11.459"
+    ],
+    "answerIndex": 1,
+    "explanation": "LEED es un sistema de certificación de edificios ecológicos que evalúa múltiples dimensiones de sustentabilidad, no solo un aspecto estructural o económico."
+  },
+  {
+    "question": "En una unión roscada correctamente diseñada, ¿qué elemento debe fallar primero ante una sobrecarga?",
+    "options": [
+      "El componente estructural principal que se está uniendo",
+      "El elemento de unión (tornillo o bulón), actuando como fusible",
+      "Ninguno, deben fallar todos simultáneamente",
+      "La arandela exclusivamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "El diseño busca que el elemento de unión (tornillo o bulón) actúe como fusible y rompa antes que los componentes principales, protegiendo la integridad de la estructura."
+  },
+  {
+    "question": "¿Cuál es la diferencia principal entre hormigón armado y hormigón pretensado?",
+    "options": [
+      "El armado no lleva acero y el pretensado sí",
+      "En el armado el acero mejora la resistencia a flexión (armaduras pasivas); en el pretensado el acero está tensado y comprime al hormigón antes de la carga (armaduras activas)",
+      "El pretensado se usa solo en pisos industriales",
+      "No hay diferencia entre ambos"
+    ],
+    "answerIndex": 1,
+    "explanation": "El hormigón armado combina barras de acero pasivas que aportan resistencia a la flexión; el pretensado usa armaduras activas que comprimen previamente el hormigón, reduciendo la fisuración."
+  }
+]

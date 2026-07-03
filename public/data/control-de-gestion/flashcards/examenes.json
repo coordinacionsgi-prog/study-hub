@@ -1,0 +1,82 @@
+[
+  {
+    "front": "¿Cuántos parciales anuales tiene la materia y de qué se compone cada uno?",
+    "back": "Son 2 (dos) parciales anuales, uno por módulo. Cada examen se compone de una parte práctica y una parte teórica, y hay que aprobar ambas secciones para aprobar el parcial."
+  },
+  {
+    "front": "¿Cuál es la escala de notas en los parciales?",
+    "back": "Notas de promoción: 8 a 10. Notas de aprobación: 6 a 7. Notas de aplazo: 1 a 5."
+  },
+  {
+    "front": "Si apruebo la parte práctica y la teórica con 6 o más cada una, ¿cómo se calcula la nota final del parcial?",
+    "back": "Se promedian ambas notas (práctica y teórica) y ese promedio es la nota final del examen."
+  },
+  {
+    "front": "¿Cuántos recuperatorios hay por cada parcial y cómo funcionan?",
+    "back": "Hay 2 recuperatorios por cada parcial. Si se recupera, hay que recuperar el examen completo (no se puede recuperar por partes). El 1er recuperatorio es a fin del cuatrimestre correspondiente, y el 2do se toma en Febrero/Marzo."
+  },
+  {
+    "front": "¿Qué pasa si no me presento a la fecha de recuperatorio asignada?",
+    "back": "Se pierde esa fecha de recuperación y se califica como AUSENTE. Las fechas de recuperatorio son fijas e indefectibles."
+  },
+  {
+    "front": "En la corrección de un examen con parte práctica y teórica, ¿cuál se corrige primero y por qué es excluyente?",
+    "back": "Primero se corrige la parte PRÁCTICA, y es excluyente: la parte TEÓRICA solo se corrige si la práctica está aprobada con 6 o más."
+  },
+  {
+    "front": "¿Qué nota mínima se necesita para acceder a la promoción sin rendir examen final?",
+    "back": "8 (ocho) o más en el 1º y 2º Parcial. Para la promoción, la única recuperación válida es la del 1er recuperatorio con nota 8 o más, y esa nota reemplaza (pisa) a la nota original del parcial."
+  },
+  {
+    "front": "¿Cómo es la estructura y duración del examen final?",
+    "back": "El examen final se divide en dos secciones (práctica y teórica) y dura 2 horas reloj en total para resolver ambas partes. Hay que aprobar ambas partes; primero se corrige la práctica y es excluyente, igual que en los parciales."
+  },
+  {
+    "front": "¿Cuál es la escala de notas del examen final?",
+    "back": "Notas de aprobación: 6 a 10. Notas de aplazo: 1 a 5. No hay categoría de promoción en el final."
+  },
+  {
+    "front": "¿Qué se evalúa especialmente en los exámenes según la aclaración de la cátedra?",
+    "back": "Se evalúa el entendimiento y la comprensión conceptual de los temas. Los errores conceptuales graves restan puntos y pueden significar un aplazo; en algunos casos se puede evaluar el examen (o parte de él) de forma oral."
+  },
+  {
+    "front": "¿Qué es el ROIC y en qué se diferencia del ROCE?",
+    "back": "El ROIC (Return on Invested Capital) mide el rendimiento sobre el capital invertido (deuda + patrimonio neto), mientras que el ROCE (Return on Capital Employed) mide el rendimiento sobre el capital empleado en la operación. Ambos evalúan eficiencia en el uso del capital, pero se aplican en contextos distintos según qué capital se quiera analizar."
+  },
+  {
+    "front": "¿Qué condiciones debe cumplir un modelo de series de tiempo para ser válido?",
+    "back": "Los datos deben ser equidistantes en el tiempo y suficientemente numerosos para identificar un patrón histórico (tendencia, estacionalidad, ciclo, componente aleatorio) que permita proyectar el comportamiento futuro."
+  },
+  {
+    "front": "¿Cuáles son los 4 estados contables básicos de publicación de una empresa?",
+    "back": "Estado de Situación Patrimonial (Balance), Estado de Resultados, Estado de Evolución del Patrimonio Neto y Estado de Flujo de Efectivo. Se interrelacionan porque el resultado del Estado de Resultados impacta en el Patrimonio Neto del Balance, y los movimientos de efectivo del Flujo se reflejan en la Caja del Balance."
+  },
+  {
+    "front": "¿Qué es el Fondo de Maniobra y qué representa desde el punto de vista de decisión empresarial?",
+    "back": "Es el excedente de recursos financieros permanentes (deuda de largo plazo + patrimonio neto) que queda después de financiar el activo inmovilizado. Representa una decisión estratégica de financiamiento de largo plazo tomada por la alta dirección para dar estabilidad al giro operativo de corto plazo."
+  },
+  {
+    "front": "¿Por qué se dice que el enfoque 'Capital de Trabajo = Activo Corriente − Pasivo Corriente' puede inducir a confusión, aunque de el mismo resultado numérico que el Fondo de Maniobra?",
+    "back": "Porque da la falsa sensación de que agrandar el FM significa aumentar el activo circulante (por ejemplo, cuentas a cobrar o inventarios), cuando en realidad el FM es un concepto de largo plazo y estructural, no una variable volátil de corto plazo."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre Necesidades Operativas de Fondos (NOF) y Fondo de Maniobra (FM)?",
+    "back": "El FM es una decisión de financiamiento de largo plazo, relativamente estable durante el ejercicio. Las NOF son un concepto operativo, proporcionales a las ventas y variables en el corto plazo. La diferencia entre ambos (FM − NOF) es la Situación de Tesorería de la empresa."
+  },
+  {
+    "front": "¿Qué son los Recursos Cíclicos (o espontáneos) y de dónde provienen principalmente?",
+    "back": "Son fuentes de financiación ligadas al ciclo de maduración que se renuevan automáticamente con la actividad de la empresa, principalmente el financiamiento de proveedores por la compra de materiales y servicios, y las deudas fiscales y sociales aplazadas."
+  },
+  {
+    "front": "¿Qué es el Cash Ratio o Ratio del Efectivo?",
+    "back": "Cash Ratio = Disponible (caja y bancos) / Pasivo Corriente. Es la medida más estricta de liquidez, porque solo considera el efectivo inmediatamente disponible frente a las deudas de corto plazo."
+  },
+  {
+    "front": "¿Cómo se calcula genéricamente la rotación de un stock respecto a su plazo medio?",
+    "back": "Rotación = Variable Flujo / Variable Stock promedio. El Plazo Medio (en días) es la inversa: Plazo Medio = n / Rotación, donde n es la cantidad de días del período considerado."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre 'variables de flujo' y 'variables de stock'?",
+    "back": "Las variables de flujo se acumulan durante un período (ej: ventas del mes, cargas sociales devengadas). Las variables de stock son una fotografía en un instante determinado (ej: cuentas a cobrar al cierre, PBI en un momento dado no aplicaría, pero saldo de deuda sí)."
+  }
+]

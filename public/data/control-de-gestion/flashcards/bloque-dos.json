@@ -1,0 +1,106 @@
+[
+  {
+    "front": "¿Qué es el análisis marginal y para qué sirve?",
+    "back": "Es una herramienta de la contabilidad gerencial que estudia cómo repercuten sobre la utilidad de la empresa las decisiones que modifican precios, costos variables, costos fijos o volúmenes de venta. Sirve para fijar precios, decidir el mix de ventas, evaluar fabricar o comprar, y decidir si conviene mantener, promocionar o discontinuar un producto."
+  },
+  {
+    "front": "¿Cómo se calcula la contribución marginal unitaria?",
+    "back": "Cmg = Precio de venta unitario (pv) − Costo variable unitario (cv). Representa cuánto aporta cada unidad vendida, primero para cubrir los costos fijos y, una vez cubiertos, para generar utilidad."
+  },
+  {
+    "front": "¿Qué es la contribución marginal total de un producto?",
+    "back": "Es la contribución marginal unitaria multiplicada por la cantidad vendida de ese producto: CMgP = (pv − cv) × Q. Sumando la de todos los productos y restando los costos fijos totales se obtiene la utilidad de la empresa."
+  },
+  {
+    "front": "¿Qué es la tasa de contribución marginal de la empresa (m)?",
+    "back": "Es el cociente entre la contribución marginal total de la empresa y las ventas totales: m = CMgE($) / Ventas($). Indica cuántos pesos de utilidad genera cada peso adicional vendido con la misma mezcla de productos (mix), y sirve para medir la \"calidad de las ventas\"."
+  },
+  {
+    "front": "¿Qué significa que suba o baje la tasa de contribución marginal (m) al cambiar el mix de ventas?",
+    "back": "Si m aumenta, mejora la calidad de las ventas porque cada peso vendido deja más contribución para absorber los gastos fijos. Si m disminuye, empeora la calidad de las ventas aunque las ventas totales en pesos hayan crecido."
+  },
+  {
+    "front": "¿Conviene seguir vendiendo un producto que da pérdida contable?",
+    "back": "Sí, siempre que su contribución marginal sea positiva (el precio cubre el costo variable y deja un excedente para absorber costos fijos), porque discontinuarlo empeoraría el resultado global al perder ese aporte. Solo conviene discontinuarlo cuando la contribución marginal es negativa, es decir, cuando el costo variable supera al precio de venta."
+  },
+  {
+    "front": "¿Qué es el índice de absorción de gastos fijos (IA) de un producto?",
+    "back": "IA = (Ventas del producto − Costo variable del producto) / Gastos fijos del producto = Contribución marginal / Gastos fijos asignados. Si IA > 1 el producto cubre todos sus gastos fijos y deja ganancia neta; si está entre 0 y 1 cubre solo una parte; si es negativo, cuanto más se vende, más pérdida genera."
+  },
+  {
+    "front": "¿Qué es el punto de equilibrio (o umbral de rentabilidad)?",
+    "back": "Es el nivel de ventas en el cual la utilidad es igual a cero, es decir, donde la contribución marginal total iguala exactamente a los costos fijos. Por debajo de ese nivel la empresa pierde y por encima empieza a ganar."
+  },
+  {
+    "front": "¿Cómo se calcula el punto de equilibrio en unidades y en pesos?",
+    "back": "En unidades: Qe = Costos Fijos (F) / Contribución marginal unitaria (cmg). En pesos (ventas de equilibrio): Ve = F / tasa de contribución marginal (m), donde m = cmg / precio de venta."
+  },
+  {
+    "front": "¿Qué ocurre con el punto de equilibrio si aumentan los costos fijos, si sube el costo variable, o si sube el precio de venta?",
+    "back": "Un aumento de los costos fijos o del costo variable unitario eleva el punto de equilibrio (hace falta vender más para no perder). Un aumento del precio de venta, en cambio, reduce el punto de equilibrio porque cada unidad deja más contribución marginal."
+  },
+  {
+    "front": "¿Qué es el margen de seguridad?",
+    "back": "Es la diferencia entre el volumen de ventas real (o esperado) y el volumen de ventas de equilibrio, expresado en unidades, en pesos o como porcentaje. Indica cuánto pueden caer las ventas antes de entrar en zona de pérdida; por eso siempre conviene operar con un margen de seguridad razonable y no muy cerca del punto de equilibrio."
+  },
+  {
+    "front": "¿Qué es el apalancamiento operativo y cómo se relaciona con el punto de equilibrio?",
+    "back": "Es el uso de costos fijos en la estructura de costos de la empresa: a mayor proporción de costos fijos respecto de los variables, mayor apalancamiento operativo. Un mayor apalancamiento eleva el punto de equilibrio y hace que las utilidades sean más sensibles (varíen más que proporcionalmente) ante cambios en el volumen de ventas, para bien o para mal."
+  },
+  {
+    "front": "¿Cuáles son los gastos fijos propios y los gastos fijos prorrateados?",
+    "back": "Los fijos propios son identificables directamente con un producto: si el producto desaparece, ese gasto también desaparece. Los fijos prorrateados no están identificados con ningún producto en particular y se distribuyen con algún criterio; si el producto se discontinúa, estos gastos no desaparecen sino que deben ser absorbidos por los productos restantes."
+  },
+  {
+    "front": "¿Qué es el costo estándar y en qué se diferencia de un costo presupuestado?",
+    "back": "El costo estándar es un costo predeterminado que anticipa lo que \"debería costar\" producir una unidad, en condiciones de eficiencia normal, definido por ingeniería de producto/planta (cantidad física estándar × precio estándar). A diferencia del presupuesto (que solo proyecta la tendencia histórica), el estándar plantea un desafío de eficiencia a alcanzar con esfuerzo, no es un simple promedio del pasado."
+  },
+  {
+    "front": "¿Cómo se construye el costo estándar de materiales y de mano de obra directa?",
+    "back": "Costo estándar de materiales = Cantidad física estándar por unidad × Precio estándar por unidad de medida (por ejemplo, kg/u × $/kg). Costo estándar de mano de obra = Horas estándar por unidad × Tarifa horaria estándar (hs/u × $/h)."
+  },
+  {
+    "front": "¿Qué es un desvío o variación en costos estándar?",
+    "back": "Es la diferencia entre el costo real incurrido y el costo estándar (lo que debería haber costado) para el nivel de producción realmente alcanzado. Sirve para detectar y explicar ineficiencias o ahorros respecto de lo planificado, y se analiza por separado para materiales, mano de obra y costos indirectos de fabricación (CIF)."
+  },
+  {
+    "front": "¿Cómo se calcula la variación en precio de la materia prima (VpMP)?",
+    "back": "VpMP = Cantidad comprada (Qc) × (Precio real − Precio estándar). Mide cuánto más o menos se pagó por unidad comprada respecto de lo estándar; es responsabilidad principalmente del área de compras."
+  },
+  {
+    "front": "¿Cómo se calcula la variación en eficiencia (cantidad) de la materia prima (VeMP)?",
+    "back": "VeMP = Precio estándar × (Cantidad real consumida − Cantidad estándar permitida para la producción real). Mide si se usó más o menos materia prima de la que correspondía según el estándar físico, y es responsabilidad principalmente del área de producción."
+  },
+  {
+    "front": "¿Cómo se calculan las variaciones de precio y de eficiencia de la mano de obra directa?",
+    "back": "Variación precio (tasa) de MO: VpMO = Horas reales × (Tarifa real − Tarifa estándar). Variación eficiencia de MO: VeMO = Tarifa estándar × (Horas reales − Horas estándar permitidas para la producción real)."
+  },
+  {
+    "front": "¿Qué significa que un desvío sea favorable o desfavorable?",
+    "back": "Un desvío es favorable cuando el costo real resulta menor que el estándar (ahorro respecto de lo planificado) y desfavorable cuando el costo real supera al estándar (mayor gasto que el previsto). Los desvíos favorables aumentan la utilidad neta ajustada y los desfavorables la reducen."
+  },
+  {
+    "front": "¿Cómo se ajusta la utilidad neta contable considerando las variaciones de costo estándar?",
+    "back": "Utilidad Neta Ajustada = Utilidad Neta − (Vp materia prima + Ve materia prima + Vp mano de obra + Ve mano de obra + Vp CIF + Ve CIF + Variación de volumen), tomando cada variación con su signo (positivo si es desfavorable, negativo si es favorable), de modo que los desvíos desfavorables restan y los favorables suman a la utilidad."
+  },
+  {
+    "front": "¿Qué son los costos indirectos de fabricación (CIF) y cómo se analizan sus desvíos?",
+    "back": "Son los costos de manufactura que no son materiales directos ni mano de obra directa (mano de obra indirecta, materiales indirectos, servicios, depreciaciones de planta, etc.), y se dividen en variables, fijos y mixtos. Sus variaciones se analizan típicamente en tres componentes: variación de presupuesto/gasto (precio), variación de eficiencia y variación de volumen de producción (capacidad ociosa), a diferencia de materiales y mano de obra que solo tienen precio y eficiencia."
+  },
+  {
+    "front": "¿Qué es la variación de volumen de producción (capacidad ociosa) en los CIF?",
+    "back": "Es la diferencia entre las horas de MOD a capacidad normal presupuestada y las horas estándar realmente permitidas para la producción del período, multiplicada por la tasa de aplicación de los CIF fijos. Refleja el efecto de producir por debajo o por encima del nivel normal usado para calcular la tasa de aplicación de CIF fijos, y es responsabilidad de la alta gerencia porque depende del nivel de ventas y producción decidido."
+  },
+  {
+    "front": "¿Por qué el análisis marginal y los costos estándar se combinan en un análisis integrador?",
+    "back": "El análisis marginal muestra cómo cambian las utilidades ante decisiones de precio, volumen o mezcla de ventas usando contribución marginal y punto de equilibrio; los costos estándar permiten separar, dentro del costo variable real, la parte que corresponde a ineficiencias (desvíos) de la que corresponde al estándar. Al combinarlos, el costeo estándar mantiene la contribución marginal calculada a valores estándar, y los desvíos de materiales, mano de obra y CIF se cargan aparte, por debajo de la contribución marginal, en el período en que se producen."
+  },
+  {
+    "front": "En un enfoque marginalista (costeo directo o variable), ¿cómo se estructura el cuadro de resultados frente al enfoque por absorción?",
+    "back": "En el costeo directo o variable, del total de ventas se restan solo los costos y gastos variables para obtener la contribución marginal, y luego se restan los costos fijos del período para llegar a la utilidad operativa. En el costeo por absorción, en cambio, todos los costos (fijos y variables de fabricación) se incorporan al costo del producto, y ambos enfoques solo coinciden en el resultado cuando lo producido en el período es igual a lo vendido."
+  },
+  {
+    "front": "¿Qué establece la ecuación fundamental del análisis marginal para calcular la variación de utilidades (ΔUo)?",
+    "back": "ΔUo = Σ [CMgPi × (variación % de Qi) + Vi × (variación % de precio) − CVi × (variación % de costo variable unitario) − Fi × (variación % de costos fijos)], sumado para todos los productos. Permite evaluar si una decisión (cambio de precio, volumen, costo o gastos fijos) conviene (ΔUo positivo) o no conviene (ΔUo negativo), o cuánto debe modificarse una variable para compensar el efecto de otra."
+  }
+]

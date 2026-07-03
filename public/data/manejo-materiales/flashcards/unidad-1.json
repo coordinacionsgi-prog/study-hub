@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Qué es la Intralogística?",
+    "back": "Es el conjunto de procesos y movimientos de materias primas, insumos, semielaborados, productos terminados y residuos que ocurren dentro de una planta industrial o centro de servicios, desde el ingreso de los materiales hasta el despacho al cliente."
+  },
+  {
+    "front": "¿Qué procesos comprende la Intralogística?",
+    "back": "Comprende el almacenamiento, la gestión de stocks, los sistemas de automatización y el manejo de materiales, equipos y tecnología de información."
+  },
+  {
+    "front": "¿Qué es la Planeación de Instalaciones?",
+    "back": "Es la actividad que analiza, dimensiona, diseña y selecciona el emplazamiento de la planta, la distribución interna, los equipos de movimiento de materiales y los sistemas de almacenamiento, tanto para una instalación nueva como para la reingeniería de una existente."
+  },
+  {
+    "front": "¿Cómo evolucionó la materia desde los años 90 hasta 2016?",
+    "back": "En los 90 se la definía como Manejo de Materiales; en los 2000 se incorporó la Distribución en Planta; y en 2016 se integraron los conceptos de Intralogística (manejo dentro de planta) y Planeación de Instalaciones (localización, diseño y distribución) para responder a los desafíos de la Cadena de Suministros."
+  },
+  {
+    "front": "Según la Cadena de Valor de Porter, ¿qué actividad central corresponde a la Intralogística?",
+    "back": "La Intralogística comprende la gestión de los insumos desde su recepción y almacenamiento hasta su distribución a las unidades productivas, y el retorno del producto terminado al almacén para su entrega al cliente."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre actividades centrales y de apoyo en la Cadena de Valor de Porter?",
+    "back": "Las actividades centrales generan valor directamente al producto (intralogística, operaciones, logística externa, marketing y ventas, postventa); las de apoyo (abastecimiento, ingeniería, RRHH, infraestructura) no generan valor por sí mismas pero sostienen a las centrales."
+  },
+  {
+    "front": "¿Qué es el margen de un producto?",
+    "back": "Es la diferencia entre el valor monetario que el cliente está dispuesto a pagar por el producto y los costos necesarios para generarlo."
+  },
+  {
+    "front": "¿Qué es una Cadena de Suministros (Supply Chain)?",
+    "back": "Es comprar, contratar y distribuir productos a clientes internos y externos con el mayor nivel de servicio compatible con un buen control de activos, optimización de inventarios y costos de distribución."
+  },
+  {
+    "front": "¿Quién propuso el concepto moderno de Supply Chain Management y cuándo?",
+    "back": "Keith Oliver, consultor de Booz Allen Hamilton, lo propuso a fines de los años 70, integrando diseño, proveedores, abastecimiento, fabricación, distribución y ventas en una cadena en lugar de silos funcionales."
+  },
+  {
+    "front": "¿Qué caracteriza a una organización con estructura de 'silos'?",
+    "back": "Es una organización tradicional con funciones estancas, poco intercambio de información entre áreas, foco en productos y transacciones con el cliente, en contraposición al modelo de cadena de suministros integrada por procesos."
+  },
+  {
+    "front": "¿Qué son los riesgos sistémicos y no sistémicos en la cadena de suministros?",
+    "back": "Los sistémicos son externos a la organización y no se pueden controlar directamente (clima, inflación, ciclos macroeconómicos); los no sistémicos derivan de la propia actividad y sí pueden gestionarse y mitigarse (sincronización oferta-demanda, niveles de inventario, plazos de entrega, tercerizaciones)."
+  },
+  {
+    "front": "¿Qué es la Industria 4.0?",
+    "back": "Es la combinación de técnicas avanzadas de producción y operaciones con tecnologías inteligentes (robótica, IA, IoT, nanotecnología) que se integran en organizaciones, personas y activos, surgida aproximadamente entre 2014 y 2016."
+  },
+  {
+    "front": "¿Qué significa el ciclo PDP en la Industria 4.0?",
+    "back": "Physical-to-Digital-to-Physical: proceso continuo donde se captura información del mundo físico, se digitaliza y analiza, y luego se traducen las decisiones digitales en acciones concretas en el mundo físico."
+  },
+  {
+    "front": "¿Cuáles son los 10 principios del Material Handling Institute?",
+    "back": "Planeamiento, estandarización, trabajo, ergonomía, unidad de carga, utilización del espacio, sistemas, automatización, ambiental y ciclo de vida."
+  },
+  {
+    "front": "Explicá el Principio de Ergonomía en el manejo de materiales.",
+    "back": "Establece que deben reconocerse y respetarse las capacidades y limitaciones humanas al diseñar las tareas, minimizando el trabajo manual y garantizando equipos intrínsecamente seguros para el operador, tanto en el esfuerzo físico como mental."
+  },
+  {
+    "front": "¿Qué diferencia hay entre 'mover materiales' y 'manejar materiales'?",
+    "back": "Manejar materiales es más complejo que moverlos: implica la optimización económica sistemática del movimiento, embalaje y almacenamiento, no solo el traslado físico de un punto a otro."
+  },
+  {
+    "front": "¿Qué porcentaje del costo de colocar un producto en el mercado puede representar el manejo de materiales?",
+    "back": "Puede variar entre el 30% y el 85% del costo total en toda la cadena de suministros, según el modelo de negocio (B2B o B2P)."
+  },
+  {
+    "front": "¿Cuáles son los tres métodos de análisis del manejo de materiales?",
+    "back": "El Método Convencional (foco en el transporte punto A a punto B), el Método Integrado (considera las interrelaciones antes y después del movimiento) y el Método Sistémico (considera toda la cadena de abastecimiento, del proveedor al consumidor final)."
+  },
+  {
+    "front": "¿Qué es la jerarquía normativa aplicable a la actividad industrial en Argentina?",
+    "back": "Va de mayor a menor jerarquía: Leyes (nacionales o provinciales), Cuerpos Normativos o Códigos, Normas Técnicas (IRAM), Normas Internas de cada empresa, y Especificaciones Técnicas."
+  },
+  {
+    "front": "¿Qué establece la Ley 19.587 y su decreto reglamentario 351/79?",
+    "back": "Regulan la Higiene y Seguridad en el Trabajo en Argentina, siendo la normativa base aplicable a la actividad de Intralogística."
+  },
+  {
+    "front": "¿Qué mide el ciclo de planeación de instalaciones en su primer paso?",
+    "back": "Comienza con la definición de los Objetivos Estratégicos de la organización, estableciendo Visión, Misión, Factores Claves de Éxito, Valores e Indicadores Clave de Performance."
+  },
+  {
+    "front": "¿Por qué es importante minimizar las modificaciones durante la ejecución de un proyecto de instalaciones?",
+    "back": "Porque el costo de las modificaciones aumenta exponencialmente a medida que avanza el proyecto, siendo mucho más barato ajustar en la etapa de Planeación que durante la Construcción u Operación."
+  },
+  {
+    "front": "¿Cuáles son las características que debe tener una Planeación de Instalaciones moderna?",
+    "back": "Flexibilidad, modularidad, facilidad de actualización, operatividad selectiva e integración total, además de fronteras eliminadas, consolidación, confiabilidad y mantenimiento en paralelo."
+  },
+  {
+    "front": "¿Qué diferencia hay entre Norma Técnica y Especificación Técnica?",
+    "back": "La Norma Técnica establece por consenso condiciones mínimas para un uso común y repetido (definición IRAM); la Especificación Técnica es un acuerdo entre partes específico para la fabricación de un bien particular."
+  },
+  {
+    "front": "¿Cuál era la misión tradicional de los almacenes antes de los años 70?",
+    "back": "Ser el respaldo a las variaciones de producción y ventas, y preservar los activos (bienes de cambio) de la empresa, con un rol pasivo de apoyo."
+  },
+  {
+    "front": "¿Qué cambio introdujo el Just in Time en los años 70 respecto a los almacenes?",
+    "back": "Los almacenes pasaron a ser considerados un subsistema de producción, y la gestión del dimensionamiento de stocks adquirió gran importancia estratégica."
+  },
+  {
+    "front": "¿Qué es el cross docking?",
+    "back": "Es una estrategia logística que minimiza o elimina el almacenamiento temporal de productos: la mercadería recibida se transfiere rápidamente a la zona de despacho, generalmente dentro de un ciclo de trabajo de 24 horas."
+  },
+  {
+    "front": "¿Qué diferencia hay entre cross docking directo y cross docking con preclasificación?",
+    "back": "El directo transfiere los productos de recepción a despacho casi sin clasificación (ideal para alta rotación, ej. bebidas); el de preclasificación clasifica exhaustivamente antes de transferir, útil para pedidos variados como un centro de e-commerce."
+  },
+  {
+    "front": "¿Qué son los generadores de valor y de costo según Porter?",
+    "back": "Los generadores de valor son factores que aumentan el valor generado (políticas estratégicas, visibilidad, ubicación); los generadores de costo restan rentabilidad (economías de escala, mala capacitación, uso incorrecto de capacidad instalada)."
+  },
+  {
+    "front": "¿Qué es la 'diligencia debida' en el contexto de la gestión de almacenes?",
+    "back": "Es hacer la gestión de acuerdo con los procedimientos establecidos por las leyes y buenas prácticas durante todo el ciclo de vida del proyecto, identificando debilidades y riesgos para corregirlos y mitigarlos."
+  }
+]

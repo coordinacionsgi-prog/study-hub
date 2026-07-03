@@ -1,0 +1,116 @@
+[
+  {
+    "question": "[Clase 1] Según lo explicado en clase, ¿qué son las 'conjeturas calculadas' que produce un pronóstico?",
+    "options": ["Certezas absolutas sobre el futuro", "Previsiones: lo que se espera que ocurra, siempre con un margen de error", "Datos históricos sin procesar", "Un promedio simple de ventas pasadas"],
+    "answerIndex": 1,
+    "explanation": "El profesor aclara que todo pronóstico es una previsión (conjetura calculada), nunca una certeza: siempre existe un error asociado."
+  },
+  {
+    "question": "[Clase 1] Un modelo de regresión lineal simple da un coeficiente de correlación (R) de 0,91. ¿Qué significa esto?",
+    "options": ["Que el 91% de los puntos están representados en la recta", "Que hay una fuerte correlación entre X e Y", "Que la pendiente es negativa", "Que el modelo no sirve"],
+    "answerIndex": 1,
+    "explanation": "R cercano a 1 indica una relación (correlación) fuerte entre X e Y. El porcentaje de puntos representado lo da el R² (0,91²≈0,83, no R directamente)."
+  },
+  {
+    "question": "[Clase 1] Se calcularon 3 pronósticos con promedios móviles de n=2, n=3 y n=4, y el de n=3 dio el menor error (MSE). ¿Por qué el profesor advierte que no hay que quedarse solo con ese criterio?",
+    "options": ["Porque el n=3 es matemáticamente incorrecto", "Porque con n más chico (n=2) se reconocen mejor los picos aunque el error no sea el menor", "Porque el MSE nunca es un buen indicador", "Porque siempre hay que usar el n más grande"],
+    "answerIndex": 1,
+    "explanation": "El menor error no es el único criterio: un n más chico está menos desplazado y conserva mejor la forma real (los picos) de los datos, algo que el analista también debe considerar."
+  },
+  {
+    "question": "[Clase 1] ¿Cuál de estas situaciones favorece el uso de técnicas CUALITATIVAS de pronóstico?",
+    "options": ["Datos históricos consistentes de los últimos 3 años", "Un producto totalmente nuevo sin historia comercial", "Una serie con 36 datos mensuales ordenados cronológicamente", "Un pronóstico de corto plazo con datos estables"],
+    "answerIndex": 1,
+    "explanation": "Sin historia comercial (producto nuevo), los métodos cuantitativos no tienen datos para calcular; se recurre a técnicas cualitativas como analogía histórica u opinión de expertos."
+  },
+  {
+    "question": "[Clase 2] Una empresa arma un balance para el fisco y un accionista externo. ¿Qué formato de costeo se usa para eso?",
+    "options": ["Costeo variable", "Costeo directo", "Costeo absorbente (completo/integral)", "Costeo por actividades"],
+    "answerIndex": 2,
+    "explanation": "La contabilidad patrimonial, orientada a usuarios externos, requiere costeo absorbente para valuar inventarios y calcular el costo de mercadería vendida según normativa."
+  },
+  {
+    "question": "[Clase 2] Una embotelladora que produce en línea continua probablemente use un sistema de costos...",
+    "options": ["Por órdenes o lotes", "Por procesos", "Por proyectos personalizados", "No necesita sistema de costos"],
+    "answerIndex": 1,
+    "explanation": "La producción en línea continua y homogénea (embotelladoras, cemento, alimentos) se costea por procesos, a diferencia de la producción a medida que se costea por órdenes."
+  },
+  {
+    "question": "[Clase 3] Una empresa argentina se llama 'Ejemplo GmbH'. ¿Qué tipo societario tiene según la nomenclatura vista en clase?",
+    "options": ["Es una SA (Sociedad Anónima)", "Es una SRL, usando la nomenclatura alemana", "Es una cooperativa", "No es una forma jurídica válida"],
+    "answerIndex": 1,
+    "explanation": "GmbH es la forma en que Alemania denomina a la SRL (equivalente a la Sociedad de Responsabilidad Limitada)."
+  },
+  {
+    "question": "[Clase 3] Los proveedores y el fisco, que están interesados en la empresa pero no trabajan en ella, se clasifican como:",
+    "options": ["Stakeholders internos", "Stakeholders externos", "Accionistas mayoritarios", "Board of Directors"],
+    "answerIndex": 1,
+    "explanation": "Proveedores, fisco, bancos, accionistas, etc. son terceros interesados que están fuera de la compañía: stakeholders externos."
+  },
+  {
+    "question": "[Clase 4] ¿Qué mirada tiene la contabilidad de gestión respecto a la información, según lo explicado en clase?",
+    "options": ["Global, histórica y con formato rígido regulado", "Segmentada por producto/cliente/área, con proyecciones y formato flexible", "Solo sigue normas contables externas", "Idéntica a la de la contabilidad patrimonial"],
+    "answerIndex": 1,
+    "explanation": "A diferencia de la contabilidad patrimonial (formato rígido, agregado, histórico), la de gestión analiza con apertura analítica, segmentación y proyecciones."
+  },
+  {
+    "question": "[Clase 5] Un producto tiene consumo estándar de 2 kg/unidad y se produjeron realmente 500 unidades. ¿Cuál es el Q estándar a usar para calcular la variación de eficiencia?",
+    "options": ["1000 kg (2 × 500 producción real)", "2 kg (solo el consumo unitario)", "500 kg (la producción real sola)", "Depende de la producción estándar presupuestada, no de la real"],
+    "answerIndex": 0,
+    "explanation": "Q estándar = Consumo estándar unitario × Producción REAL = 2 kg × 500 = 1000 kg. Siempre se usa la producción real, no la presupuestada."
+  },
+  {
+    "question": "[Clase 5] La variación en precio de materia prima dio -22.000. Según el criterio visto en clase, ¿esto es favorable o desfavorable?",
+    "options": ["Desfavorable, porque es negativo", "Favorable, porque el negativo indica que se pagó menos que el estándar", "No se puede saber sin más datos", "Siempre negativo es un error de cálculo"],
+    "answerIndex": 1,
+    "explanation": "Cuando VPmp = Q comprado × (Precio real − Precio estándar) da negativo, quiere decir que el precio real fue menor al estándar: es favorable para la empresa."
+  },
+  {
+    "question": "[Clase 6] Dos empresas tienen el mismo Ra (rendimiento de activos) de 20%, pero una tiene margen alto y rota poco, y la otra margen bajo y rota mucho. ¿Qué concepto explica esto?",
+    "options": ["Apalancamiento financiero", "Fórmula de Dupont: Ra = Margen × Rotación", "Fondo de Maniobra", "Punto de equilibrio"],
+    "answerIndex": 1,
+    "explanation": "La identidad de Dupont descompone el rendimiento de activos en Margen × Rotación, permitiendo llegar al mismo resultado por distintos caminos estratégicos."
+  },
+  {
+    "question": "[Clase 6] ¿Para qué se usan los 'estados contables esquemáticos u homogeneizados' que menciona el profesor?",
+    "options": ["Para reemplazar completamente el balance oficial ante el fisco", "Para resumir y adaptar el balance (separando lo extrafuncional) y así poder calcular ratios de forma consistente", "Solo se usan en empresas que cotizan en bolsa", "Para calcular impuestos"],
+    "answerIndex": 1,
+    "explanation": "Son una versión resumida y reclasificada de los estados contables de publicación, pensada específicamente para el análisis por ratios."
+  },
+  {
+    "question": "[Clase 7] Una deuda con un proveedor que no cobra interés explícito por pagar a 30 días se clasifica como:",
+    "options": ["Deuda financiera onerosa", "Deuda espontánea (no financiera)", "Parte del activo circulante", "Patrimonio neto"],
+    "answerIndex": 1,
+    "explanation": "Las deudas que surgen del giro normal del negocio y no cobran interés explícito (proveedores, impuestos a pagar) son deudas espontáneas u operacionales."
+  },
+  {
+    "question": "[Clase 7] ¿Por qué el efectivo/caja NO se incluye dentro del análisis del 'circulante operativo'?",
+    "options": ["Porque no es un activo", "Porque se analiza aparte, con el criterio percibido, dentro del análisis de tesorería", "Porque siempre vale cero", "Porque solo aplica a empresas industriales"],
+    "answerIndex": 1,
+    "explanation": "El circulante operativo analiza cuánto tardan las partidas en volverse líquidas; el efectivo ya es líquido y se maneja con un análisis de tesorería distinto (criterio percibido)."
+  },
+  {
+    "question": "[Clase 8] Una empresa factura $100.000 en diciembre pero cobra recién en febrero. ¿Bajo qué criterio se reconoce esa venta en el cuadro de resultados de diciembre?",
+    "options": ["Criterio percibido, porque hay que esperar a cobrar", "Criterio devengado, porque se reconoce cuando se genera la venta, se haya cobrado o no", "No se reconoce hasta el cobro efectivo", "Se reconoce por mitades entre diciembre y febrero"],
+    "answerIndex": 1,
+    "explanation": "El cuadro de resultados usa el criterio devengado: la venta se reconoce cuando se genera (factura), independientemente de cuándo se cobra realmente."
+  },
+  {
+    "question": "[Clase 8] ¿Qué estado contable, a diferencia de los demás, se confecciona con el criterio percibido (de caja)?",
+    "options": ["El Estado de Situación Patrimonial (Balance)", "El Estado de Resultados", "El Estado de Flujo de Efectivo", "El Estado de Evolución del Patrimonio Neto"],
+    "answerIndex": 2,
+    "explanation": "De los cuatro estados contables básicos, el único que usa criterio percibido (caja) es el Estado de Flujo de Efectivo; el resto usa el criterio devengado."
+  },
+  {
+    "question": "[Clase 1] Si al analizar 36 meses de ventas aparece un dato claramente fuera de escala por una catástrofe climática puntual, ¿qué se recomienda hacer?",
+    "options": ["Eliminarlo de la serie sin reemplazo", "Dejarlo tal cual está para no alterar los datos reales", "Reemplazarlo por el promedio entre el dato anterior y el posterior", "Duplicar el dato anterior"],
+    "answerIndex": 2,
+    "explanation": "Eliminarlo reduce la cantidad de datos comparables; lo más coherente es reemplazar el valor irregular por el promedio de los datos adyacentes."
+  },
+  {
+    "question": "[Clase 6] ¿Quiénes idearon la fórmula de Dupont y en qué empresa?",
+    "options": ["Alfred Sloan y Donaldson Brown, en General Motors/Dupont", "Warren Buffett, en Berkshire Hathaway", "Henry Ford, en Ford Motor Company", "Peter Drucker, en una consultora"],
+    "answerIndex": 0,
+    "explanation": "Fue ideada por Alfred Sloan y el contador Donaldson Brown al reestructurar General Motors (comprada por Dupont) a principios del siglo XX."
+  }
+]

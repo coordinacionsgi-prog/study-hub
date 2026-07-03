@@ -1,0 +1,12 @@
+[
+  {
+    "id": "control-de-gestion",
+    "title": "Control de Gestión",
+    "description": "Análisis de estados contables, costos estándar, análisis marginal, ratios, NOF, EVA y pronósticos."
+  },
+  {
+    "id": "manejo-materiales",
+    "title": "Manejo de Materiales y Distribución en Planta",
+    "description": "Transportadores, manejo manual de cargas, izaje, distribución en planta, almacenaje y localización de plantas."
+  }
+]

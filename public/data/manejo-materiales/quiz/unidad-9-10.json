@@ -1,0 +1,174 @@
+[
+  {
+    "question": "¿Cuáles son los cuatro tipos básicos de distribución en planta?",
+    "options": [
+      "Por producto, por proceso, por posición fija y por familia de productos",
+      "Por localización, por edificio, por costo y por volumen",
+      "Lineal, celular, matricial y funcional pura",
+      "Por Weber, por Badri, por Muther y por Apple"
+    ],
+    "answerIndex": 0,
+    "explanation": "Los cuatro tipos básicos, según el volumen y variedad del producto, son: por posición fija, por proceso o función, por familia de productos (celular) y por producto o en línea."
+  },
+  {
+    "question": "En la distribución por posición fija, ¿qué elemento permanece inmóvil?",
+    "options": [
+      "Los operarios",
+      "El componente o producto principal, mientras herramientas y mano de obra se trasladan hacia él",
+      "Las máquinas de proceso",
+      "Los pasillos de circulación"
+    ],
+    "answerIndex": 1,
+    "explanation": "En este tipo de distribución, a diferencia de las demás, las estaciones de trabajo llegan al material, típico del montaje de grandes unidades como aeronaves o barcos."
+  },
+  {
+    "question": "¿Cuál es la característica distintiva de la distribución por proceso (o por función)?",
+    "options": [
+      "El producto se mueve siguiendo la secuencia de fabricación",
+      "Se agrupan los procesos similares en departamentos, con alto flujo entre departamentos pero bajo dentro de cada uno",
+      "El componente principal permanece fijo",
+      "Solo se usa para producción en masa con demanda estable"
+    ],
+    "answerIndex": 1,
+    "explanation": "La distribución por proceso agrupa máquinas y procesos similares en departamentos, siendo adecuada para fabricación intermitente o bajo pedido, con itinerarios variables del material."
+  },
+  {
+    "question": "¿Qué evento histórico se asocia a la distribución por producto (en línea)?",
+    "options": [
+      "La publicación de Weber sobre localización industrial en 1909",
+      "La introducción de la línea de montaje móvil por Henry Ford en 1913",
+      "El desarrollo del sistema CRAFT en los años 80",
+      "La creación del método Brown-Gibson en 1972"
+    ],
+    "answerIndex": 1,
+    "explanation": "El 7 de octubre de 1913, Ford introdujo la producción en serie en Highland Park, reduciendo drásticamente el tiempo de fabricación del Modelo T y revolucionando la industria."
+  },
+  {
+    "question": "¿Quién desarrolló el Systematic Layout Planning (SLP) y en qué década?",
+    "options": ["J. M. Apple, en los años 70", "Richard Muther, en los años 60", "Alfred Weber, en 1909", "P. Brown y D. Gibson, en 1972"],
+    "answerIndex": 1,
+    "explanation": "Richard Muther desarrolló el SLP en la década de 1960, siendo el primero en sistematizar el proceso de distribución en planta con un método de cuatro fases."
+  },
+  {
+    "question": "¿Cuáles son las cuatro fases del método SLP?",
+    "options": [
+      "Relevamiento, análisis, planeación y diseño",
+      "Localización, Distribución General, Distribución Detallada e Instalación",
+      "Producto-cantidad, recorrido, relaciones y espacios",
+      "Macro localización, micro localización, edificio y mantenimiento"
+    ],
+    "answerIndex": 1,
+    "explanation": "El SLP consta de Fase I (Localización), Fase II (Distribución General o de Conjunto), Fase III (Distribución Detallada por departamento) y Fase IV (Instalación), que se superponen en el tiempo."
+  },
+  {
+    "question": "En el procedimiento detallado del SLP, ¿qué se determina en el 'Paso 1: Análisis producto-cantidad'?",
+    "options": [
+      "La intensidad de las relaciones entre actividades",
+      "Qué se va a producir y en qué cantidades, para orientar el tipo de distribución adecuado",
+      "El espacio disponible en el edificio existente",
+      "El costo total de las alternativas de distribución"
+    ],
+    "answerIndex": 1,
+    "explanation": "Este primer paso permite, a partir de un gráfico de productos vs. cantidades ordenado en forma decreciente, determinar el tipo de distribución más adecuado para el proceso."
+  },
+  {
+    "question": "¿Qué código de letras se usa en la tabla relacional de actividades del SLP para expresar la necesidad de proximidad?",
+    "options": [
+      "Números del 1 al 5",
+      "Las vocales A, E, I, O, U en orden decreciente de importancia, más X para indeseable",
+      "Colores rojo, amarillo y verde",
+      "Porcentajes de 0% a 100%"
+    ],
+    "answerIndex": 1,
+    "explanation": "El código usa las cinco vocales en escala decreciente: A (absolutamente necesaria), E (especialmente importante), I (importante), O (ordinaria), U (no importante), y X para relación indeseable."
+  },
+  {
+    "question": "¿Qué representan las líneas del Diagrama de Relaciones de Actividades del SLP?",
+    "options": [
+      "El costo de construcción de cada departamento",
+      "La intensidad de la relación entre las actividades unidas, según el código de vocales",
+      "La cantidad de empleados de cada departamento",
+      "La superficie exacta requerida por cada actividad"
+    ],
+    "answerIndex": 1,
+    "explanation": "El diagrama es un grafo simple donde los nodos son las actividades y las líneas representan, mediante un código gráfico, la intensidad de relación (A, E, I, O, U, X) entre ellas."
+  },
+  {
+    "question": "¿Qué diferencia principal tiene el Diagrama Relacional de Espacios respecto al Diagrama Relacional de Actividades?",
+    "options": [
+      "El de espacios no considera las relaciones entre actividades",
+      "El de espacios representa los símbolos de cada actividad a escala, proporcional al área requerida",
+      "El de espacios se hace antes que el de actividades",
+      "Son exactamente el mismo diagrama con distinto nombre"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Diagrama Relacional de Espacios toma la información del Diagrama de Relaciones de Actividades pero dimensiona cada símbolo según el área real necesaria para cada actividad."
+  },
+  {
+    "question": "Según Muther, ¿cuántas propuestas de distribución conviene desarrollar con precisión antes de seleccionar la definitiva?",
+    "options": ["Solo una", "Entre dos y cinco", "Al menos diez", "No hay recomendación específica"],
+    "answerIndex": 1,
+    "explanation": "Muther aconseja desarrollar entre dos y cinco propuestas elaboradas con suficiente precisión, resultado de filtrar un número mayor de alternativas analizadas solo esquemáticamente."
+  },
+  {
+    "question": "¿Cuál es, según el resumen del SLP, el método más sustancial para evaluar y seleccionar entre distribuciones alternativas?",
+    "options": [
+      "La comparación de ventajas y desventajas",
+      "El análisis de factores ponderados",
+      "La comparación de costos",
+      "El sorteo aleatorio entre las alternativas"
+    ],
+    "answerIndex": 2,
+    "explanation": "El texto indica que la comparación de costos es el método más sustancial para evaluar distribuciones, usado tanto para justificar un proyecto como para comparar alternativas."
+  },
+  {
+    "question": "¿Qué busca minimizar el algoritmo de distribución 'basado en distancias'?",
+    "options": [
+      "La calificación de adyacencia entre departamentos",
+      "La sumatoria de los productos de los flujos (fij) por las distancias (dij) entre departamentos",
+      "El número total de departamentos de la planta",
+      "El tiempo de instalación del layout"
+    ],
+    "answerIndex": 1,
+    "explanation": "El algoritmo basado en distancias usa los datos de la tabla Desde-Hacia para minimizar la sumatoria de flujo por distancia entre cada par de departamentos."
+  },
+  {
+    "question": "¿Qué caracteriza al algoritmo de Intercambio Pareado?",
+    "options": [
+      "Requiere que todos los departamentos tengan formas y tamaños distintos",
+      "Parte de una distribución inicial en línea con departamentos de área igual y evalúa el costo de intercambiar pares hasta no poder mejorar más",
+      "Solo puede aplicarse a distribuciones por posición fija",
+      "No requiere ninguna distribución inicial de referencia"
+    ],
+    "answerIndex": 1,
+    "explanation": "El método simplifica el problema asumiendo departamentos de área igual dispuestos en línea, y evalúa iterativamente todos los intercambios pareados posibles hasta que ninguno reduzca más el costo."
+  },
+  {
+    "question": "¿Qué es el sistema CRAFT?",
+    "options": [
+      "Un método manual de matrices de decisión para localización de plantas",
+      "Un sistema informático que optimiza una distribución inicial dada mediante un algoritmo basado en distancias y centroides de departamentos",
+      "Una norma de certificación ambiental de edificios",
+      "El nombre del método de Richard Muther"
+    ],
+    "answerIndex": 1,
+    "explanation": "CRAFT parte de una disposición inicial, calcula los centroides de los departamentos y evalúa intercambios (pareados o de tres) para reducir iterativamente el costo total de la distribución."
+  },
+  {
+    "question": "¿Cuál es el ancho de pasillo recomendado para la circulación de personal sin puertas?",
+    "options": ["0,9 m", "1,8 m", "2,4 m", "3,6 m"],
+    "answerIndex": 0,
+    "explanation": "Según las recomendaciones de ancho de pasillos, la circulación de personal sin puertas requiere 0,9 m, mientras que con puertas a un lado se requieren 1,8 m y con puertas a dos lados 2,4 m."
+  },
+  {
+    "question": "¿Qué establece el principio de la 'circulación o flujo de materiales' en distribución de planta?",
+    "options": [
+      "Que los materiales deben almacenarse siempre en el mismo lugar",
+      "Que las áreas de trabajo deben ordenarse siguiendo la misma secuencia en que se transforman, tratan o montan los materiales",
+      "Que el flujo de materiales debe ser siempre discreto, nunca continuo",
+      "Que los pasillos deben ser lo más angostos posible"
+    ],
+    "answerIndex": 1,
+    "explanation": "Este principio busca que el orden de las áreas de trabajo coincida con la secuencia real del proceso, evitando retrocesos y cruces innecesarios en el flujo de materiales."
+  }
+]

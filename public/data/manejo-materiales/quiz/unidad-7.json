@@ -1,0 +1,137 @@
+[
+  {
+    "question": "¿Cuáles son las cinco actividades principales de la gestión de operación de almacenes?",
+    "options": [
+      "Compras, Ventas, Producción, Marketing y Finanzas",
+      "Recepción, Almacenamiento, Preparación de pedidos, Despacho y Servicios al cliente",
+      "Diseño, Construcción, Operación, Mantenimiento y Cierre",
+      "Transporte, Aduana, Seguros, Facturación y Cobranza"
+    ],
+    "answerIndex": 1,
+    "explanation": "Estas cinco actividades son las áreas funcionales del almacén que manejan el flujo físico de materiales y su información de control asociada."
+  },
+  {
+    "question": "¿Por qué la preparación de pedidos (picking) es considerada la actividad más costosa del proceso de almacenes?",
+    "options": [
+      "Porque requiere maquinaria muy cara exclusivamente",
+      "Porque demanda mayor tiempo y recursos que las demás actividades del almacén",
+      "Porque siempre se tercioriza a otra empresa",
+      "Porque no puede automatizarse bajo ninguna circunstancia"
+    ],
+    "answerIndex": 1,
+    "explanation": "El picking concentra la mayor proporción de tiempo y recursos, por lo que es la actividad a la que más procesos de mejora continua se le aplican."
+  },
+  {
+    "question": "¿Qué diferencia hay entre el sistema Push y el sistema Pull (Just in Time) en la gestión de stocks?",
+    "options": [
+      "El Push produce según la demanda real ya generada",
+      "El Pull requiere alta precisión de demanda y mayor capacidad de almacenamiento",
+      "El Push produce antes de la venta con soporte de MRP; el Pull produce cuando la venta ya está generada, con enfoque Lean Logistic",
+      "Ambos sistemas son idénticos en su enfoque"
+    ],
+    "answerIndex": 2,
+    "explanation": "El sistema Push anticipa la producción a la demanda proyectada; el Pull/JIT produce recién cuando la venta se concreta, reduciendo costos que no agregan valor."
+  },
+  {
+    "question": "¿Qué mide la unidad TEU?",
+    "options": [
+      "El peso máximo de un pallet",
+      "El volumen exterior que ocupa un contenedor estándar de 20 pies",
+      "La cantidad de empleados en un almacén",
+      "El tiempo de ciclo de un cross docking"
+    ],
+    "answerIndex": 1,
+    "explanation": "TEU (Twenty-foot Equivalent Unit) es la unidad adimensional basada en el volumen exterior de un contenedor de 20 pies, usada para dimensionar depósitos y puertos."
+  },
+  {
+    "question": "¿Cuáles son las medidas del pallet ARLOG y qué norma lo regula?",
+    "options": [
+      "1.200 x 800 mm, norma europea exclusivamente",
+      "1.200 x 1.000 mm, normado por IRAM 10.011 e ISO 3.676",
+      "1.000 x 1.000 mm, sin normativa asociada",
+      "800 x 400 mm, medio pallet europeo"
+    ],
+    "answerIndex": 1,
+    "explanation": "El pallet ARLOG (de uso local en Argentina) mide 1.200 x 1.000 mm y está normado por IRAM 10.011 e ISO 3.676."
+  },
+  {
+    "question": "¿Qué es la NIMF 15?",
+    "options": [
+      "Una norma de dimensionamiento de contenedores",
+      "La Norma Internacional para Medidas Fitosanitarias sobre embalajes de madera en comercio internacional",
+      "Un método de cálculo de mínimo recorrido",
+      "Una norma sobre pesos máximos en pallets"
+    ],
+    "answerIndex": 1,
+    "explanation": "La NIMF 15 (IPPC) reduce el riesgo de dispersión de plagas asociadas al embalaje de madera utilizado en el comercio internacional."
+  },
+  {
+    "question": "Según la norma ISO 668 en su revisión de 2020, ¿qué contenedor se incorporó como serie 1?",
+    "options": ["El de 5 pies", "El de 6½ pies", "El de 45 pies", "El de 10 pies"],
+    "answerIndex": 2,
+    "explanation": "La revisión 2020 de la ISO 668 incluyó al contenedor de 45 pies como serie 1 y excluyó (aunque siguen circulando) los de 6½ y 5 pies."
+  },
+  {
+    "question": "¿Cuál es el ancho recomendado de las puertas de ingreso/salida de planta para doble mano de circulación?",
+    "options": ["3,6 m", "4,2 m", "8,5 m", "12 m"],
+    "answerIndex": 2,
+    "explanation": "Se recomienda un ancho de 8,5 m para doble mano de circulación y 4,2 m para mano única."
+  },
+  {
+    "question": "En el dimensionamiento de la zona de carga y descarga, ¿cuál es el factor L para un ángulo de atraque de 45°?",
+    "options": ["0,75", "1,20", "1,50", "2,00"],
+    "answerIndex": 2,
+    "explanation": "El factor L varía según el ángulo de atraque: 0,75 a 10°, 1,20 a 30°, 1,50 a 45° y 2,00 a 90°, determinando el espacio libre delante de los muelles."
+  },
+  {
+    "question": "¿Qué caracteriza al sistema de almacenamiento Push Back?",
+    "options": [
+      "Gestión FIFO con avance por gravedad y canales de hasta 20 m",
+      "Gestión LIFO donde el nuevo pallet empuja al anterior, con profundidad de hasta 4 a 6 pallets por canal",
+      "Requiere transelevadores automáticos exclusivamente",
+      "Solo permite almacenar un pallet por canal"
+    ],
+    "answerIndex": 1,
+    "explanation": "El sistema Push Back funciona con gestión LIFO: al ingresar un nuevo pallet, empuja al anterior en el canal, alcanzando 4 pallets de profundidad con carros o 6 con rodillos."
+  },
+  {
+    "question": "¿Qué sistema de estanterías utiliza gestión FIFO, tiene canales de hasta 20 m con inclinación de 2° y es ideal para pickeo de pallets completos?",
+    "options": ["Sistema Drive-in", "Sistema Push Back", "Sistema Dinámico", "Sistema Cantiliver"],
+    "answerIndex": 2,
+    "explanation": "El sistema Dinámico usa gravedad para desplazar los pallets con gestión FIFO, con canales de hasta 20 m e inclinación de 2°, ideal para pickeo de pallets completos."
+  },
+  {
+    "question": "¿Qué es un almacén autoportante y a partir de qué altura se aplica típicamente?",
+    "options": [
+      "Un almacén sin techo, aplicable a cualquier altura",
+      "Un almacén donde las estanterías actúan como estructura soporte del edificio, aplicable a alturas superiores a 15 m",
+      "Un almacén exclusivo para materiales peligrosos",
+      "Un almacén que no requiere cimientos"
+    ],
+    "answerIndex": 1,
+    "explanation": "En el almacén autoportante las estanterías soportan la cubierta y los esfuerzos del sistema de movimiento; se aplica a alturas mayores a 15 m y ahorra en promedio 30% en construcción."
+  },
+  {
+    "question": "¿Cuál es la altura máxima de elevación aproximada de un autoelevador convencional?",
+    "options": ["3 m", "7,50 m", "15 m", "más de 40 m"],
+    "answerIndex": 1,
+    "explanation": "Los autoelevadores convencionales contrapesados suelen tener una altura de elevación limitada a 7,50 m, con pasillos de 3,2 a 3,5 m."
+  },
+  {
+    "question": "¿Qué equipo de movimiento de materiales no tiene límite práctico de altura y es el sistema típico de los almacenes automáticos y autoportantes?",
+    "options": ["Zorra para pallets", "Apilador telescópico", "Autoelevador convencional", "Transelevador"],
+    "answerIndex": 3,
+    "explanation": "El transelevador opera en un solo pasillo sobre guías de piso y techo, sin limitación práctica de altura, siendo el equipo estándar en almacenes automáticos y autoportantes."
+  },
+  {
+    "question": "En el modelo de Distribución por Mínimo Recorrido, ¿qué representa el cociente vj/qj usado para priorizar referencias?",
+    "options": [
+      "El costo total de la referencia dividido su peso",
+      "El número de viajes de la referencia dividido el número de posiciones de almacenaje que requiere",
+      "La cantidad de empleados asignados a esa referencia",
+      "El volumen del pallet dividido su altura"
+    ],
+    "answerIndex": 1,
+    "explanation": "vj es el número de viajes desde/hacia el muelle para la referencia y qj el número de posiciones que requiere; a mayor cociente, mayor prioridad para ocupar las posiciones más cercanas (menor fk)."
+  }
+]

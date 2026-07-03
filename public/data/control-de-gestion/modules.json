@@ -1,0 +1,107 @@
+[
+  {
+    "id": "pronosticos",
+    "title": "Pronósticos (Forecast)",
+    "unidad": "Unidad 1",
+    "description": "Métodos de pronóstico de demanda: promedios móviles, suavizado exponencial, tabla T, medición de error.",
+    "extracted": ["Forecast Pronost Teoria v26.txt", "Forecast Pronost Ej ilustrativo FOR10.txt", "Pronosticos tabla_t.txt", "TP nro 0 Enunciado v26.txt"]
+  },
+  {
+    "id": "costos-std",
+    "title": "Costos Estándar",
+    "unidad": "Unidad 2 / Bloque UNO",
+    "description": "Costeo estándar, desvíos en cantidad y precio de materiales, mano de obra y carga fabril.",
+    "extracted": ["Costos STD Teoria.txt", "C std 4 ejerc y solu.txt", "v26 C Standard 1c.txt", "Bloque UNO PARTE A C_std.txt", "Bloque UNO C_STD_5 ej c soluc.txt"]
+  },
+  {
+    "id": "analisis-marginal",
+    "title": "Análisis Marginal",
+    "unidad": "Unidad 3 / Bloque DOS",
+    "description": "Costeo variable vs. absorbente, punto de equilibrio, contribución marginal, medición y reporte de costos históricos.",
+    "extracted": ["Análisis Marginal Guia v26.txt", "v26 Análisis Marginal - Problemas c respuesta.txt", "Medic_calc y reporte cost hist  - Análisis Marginal v26.txt", "BLOQUE DOS Ejercicios AMarg y CSTD.txt"]
+  },
+  {
+    "id": "ae1-eecc",
+    "title": "AE1 · Estados Contables (EECC)",
+    "unidad": "Unidad 4",
+    "description": "Lectura y análisis de estados contables: balance, resultados, ejemplos reales (Molinos, La Romana).",
+    "extracted": ["AE1 Teoria v26.txt", "AE1 EECC - La romana de bs as Ej econ nro 15 ilustrativo.txt", "AE1 EECC - Molinos 2018.txt", "AE1_Ej100_Ej_Muestra_Guia_Ilustrativo un periodo.txt"]
+  },
+  {
+    "id": "ae2",
+    "title": "AE2 · Variaciones Patrimoniales",
+    "unidad": "Unidad 5",
+    "description": "Análisis de variaciones patrimoniales y ejercicios guiados de un período.",
+    "extracted": ["AE2_Teoria v26 1c.txt", "AE2 TP Nro 2 enunciado 4 ejerc 221 a 223.txt", "AE2_Ej200 Ej_guia un periodo.txt", "AE2_Ej201 Ej_guia Var patrim.txt", "AE2_Glosario Ingles español Cdg.txt"]
+  },
+  {
+    "id": "ae3-ae4",
+    "title": "AE3 y AE4 · Ratios e Indicadores",
+    "unidad": "Unidad 6 / Unidad 11",
+    "description": "Ratios financieros, comparables por industria, ejercicio integrador Requilsur y Tata del Sur.",
+    "extracted": ["AE3 Teoria y AE4  v26 1c.txt", "AE3 ejercicios con soluc Ae320 a Ae330.txt", "AE331 Requilsur PARTE B nuevo.txt", "AE3_comparable por industrias.txt", "AE3_ej 300 Guia - Tata del Sur 1 mono.txt"]
+  },
+  {
+    "id": "bloque-uno",
+    "title": "Bloque UNO (integrador)",
+    "unidad": "Unidad 7",
+    "description": "Integración de costos estándar, pronósticos y ratios en el caso Requilsur.",
+    "extracted": ["Bloque UNO AE331 Requilsur ej c Soluc.txt", "Bloque UNO PARTE B Pronost y Ratios.txt"]
+  },
+  {
+    "id": "ae5-ciclos-rotacion",
+    "title": "AE5 · Ciclos de Rotación",
+    "unidad": "Unidad 8",
+    "description": "Ciclo operativo y de conversión de efectivo, ratios de rotación, casos a dos períodos.",
+    "extracted": ["AE5_Teoria_v26_Ciclos Rotac 1c.txt", "AE5_ej 500 Guia - Tata del Sur DOS-2 periodos COMERCIAL.txt", "AE5_ej 501 Guia -CHICHE NOROESTE-2 periodos INDUSTRIAL.txt", "AE5_ej 502 Guia -Rotaveloz - 2 periodos INDUSTRIAL.txt"]
+  },
+  {
+    "id": "ae6-nof-tesoreria",
+    "title": "AE6 · NOF y Tesorería",
+    "unidad": "Unidad 9 / Unidad 10",
+    "description": "Necesidades operativas de fondos (NOF), gestión de tesorería.",
+    "extracted": ["AE6_Teoria_v26_NOF Tesoreria 1c.txt", "AE612.txt", "AE613.txt", "AE616 corregido.txt", "Ae615 version corregida ok.txt", "AE519, 614, 615, 617 Ejercicios resueltos.txt"]
+  },
+  {
+    "id": "ae7-eva",
+    "title": "AE7 · EVA (Valor Económico Agregado)",
+    "unidad": "Unidad 10 / Unidad 11",
+    "description": "Cálculo e interpretación del EVA como medida de creación de valor.",
+    "extracted": ["AE7_Teoria_v26_EVA 1c.txt", "AE700 con solucion.txt", "AE721 con solucion.txt"]
+  },
+  {
+    "id": "bloque-dos",
+    "title": "Bloque DOS (integrador)",
+    "unidad": "Unidad 11",
+    "description": "Integración de análisis marginal y costos estándar en ejercicios combinados.",
+    "extracted": ["Bloque DOS - ejercicios y teoria.txt", "Bloque DOS AE710_711_712_719_AE556.txt"]
+  },
+  {
+    "id": "tps",
+    "title": "Trabajos Prácticos",
+    "unidad": "Varias",
+    "description": "Enunciados de TP1 a TP4 y respuestas de autochequeo.",
+    "extracted": ["TP0 TP1 TP2 TP3 TP4 Respuest p auto chequeo.txt", "Ejercicios practicos con respuesta.txt"]
+  },
+  {
+    "id": "examenes",
+    "title": "Exámenes y repaso",
+    "unidad": "Unidad 11",
+    "description": "Consignas de parciales y recuperatorios, modelo de preguntas de teoría, sesión post-parcial.",
+    "extracted": ["Consignas examenes parciales y recuperatorios.txt", "Modelo preguntas Teoria.txt", "Sesion post parcial v26 1c.txt"]
+  },
+  {
+    "id": "referencia-anio-anterior",
+    "title": "Referencia (año anterior)",
+    "unidad": "—",
+    "description": "Resumen general de la materia y preguntas teóricas respondidas de un cursado anterior. Útil para repaso rápido, pero puede no reflejar el programa v26 exacto.",
+    "extracted": ["RESUMEN DE CONTROL DE GESTIÓN.txt", "PREGUNTAS TEÓRICAS RESPONDIDAS CDG GATTI.txt"]
+  },
+  {
+    "id": "clases-grabadas",
+    "title": "Clases grabadas (transcripciones)",
+    "unidad": "Clases 1 a 8",
+    "description": "Transcripciones de las 8 clases grabadas por Zoom (31/3 a 9/6). Útil para preguntarle al chat cómo se explicó algo en clase, con las palabras del profesor.",
+    "extracted": ["Clase 1 - 31-3.txt", "Clase 2 - 14-4.txt", "Clase 3 - 21-4.txt", "Clase 4 - 28-4.txt", "Clase 5 - 12-5.txt", "Clase 6 - 26-5.txt", "Clase 7 - 2-6.txt", "Clase 8 - 9-6.txt"]
+  }
+]

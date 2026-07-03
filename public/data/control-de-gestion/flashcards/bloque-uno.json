@@ -1,0 +1,102 @@
+[
+  {
+    "front": "¿Qué son las Cinco Masas Patrimoniales?",
+    "back": "Es la forma de agrupar el balance en 5 bloques: Activo Circulante, Activo Inmovilizado (a la izquierda) y Exigible de Corto Plazo, Exigible de Largo Plazo, Capital Propio (a la derecha), para poder analizar el equilibrio patrimonial de la empresa."
+  },
+  {
+    "front": "Fórmula del Índice de Liquidez Corriente",
+    "back": "Índice de Liquidez = Activo Corriente / Pasivo Corriente. Mide la capacidad de la empresa de cancelar sus pasivos de corto plazo con sus activos de corto plazo. Un valor cercano a 1,5-2 se suele considerar razonable."
+  },
+  {
+    "front": "Fórmula del Test Ácido (liquidez ácida)",
+    "back": "Test Ácido = (Activo Corriente − Bienes de Cambio) / Pasivo Corriente. Es una medida más estricta de liquidez porque excluye el inventario, que es el activo corriente menos líquido."
+  },
+  {
+    "front": "Fórmula del Fondo de Maniobra (Working Capital)",
+    "back": "FM = Capital Permanente (Capital Propio + Deuda de Largo Plazo) − Activo Inmovilizado. Indica si los recursos de largo plazo alcanzan para financiar el activo fijo y dejar un remanente para el capital de trabajo."
+  },
+  {
+    "front": "Fórmula del Ratio de Solvencia",
+    "back": "Solvencia = Activo Total / Pasivo Total (Capital Ajeno). Mide la capacidad de la empresa de afrontar la totalidad de sus deudas con sus activos. Un valor óptimo de referencia ronda 1,5."
+  },
+  {
+    "front": "¿Qué es la Razón de Deuda Total y su ratio complementario?",
+    "back": "Razón de Deuda Total = Capital Ajeno / Activo Total (proporción de activos financiada por terceros). Su complemento es la Proporción de Capital Propio / Activo Total (autonomía financiera): cuanto mayor sea, mejor preparada está la empresa para atravesar dificultades."
+  },
+  {
+    "front": "¿Qué es la Palanca Financiera (multiplicador del capital)?",
+    "back": "Palanca Financiera = Activo Total / Patrimonio Neto = 1 + (Deuda Total/Patrimonio Neto). Muestra cuántas veces el capital propio está 'multiplicado' por el uso de deuda de terceros."
+  },
+  {
+    "front": "¿Cómo se mide la Carga Financiera sobre el resultado operativo?",
+    "back": "Carga Financiera / EBIT = Gastos por intereses / BAII. Indica qué proporción de la utilidad operativa se destina a pagar intereses de la deuda."
+  },
+  {
+    "front": "Fórmula del Rendimiento de los Activos (Ra) y de Ra''",
+    "back": "Ra = Utilidad Neta / Activo Total promedio (rendimiento neto de los activos). Ra'' = BAII (EBIT) / Activo Total promedio (rendimiento operativo antes de intereses e impuestos, no afectado por la estructura de financiamiento)."
+  },
+  {
+    "front": "¿Qué es el Índice DUPONT?",
+    "back": "Descompone el Ra como el producto de dos factores: Ra = Margen Neto × Rotación de Activos = (Utilidad Neta/Ventas) × (Ventas/Activo Total promedio)."
+  },
+  {
+    "front": "Fórmula del ROE (Return on Equity / Rentabilidad Financiera)",
+    "back": "ROE = Utilidad Neta / Capital Propio promedio. Mide la rentabilidad que obtienen los dueños sobre su inversión (capital propio)."
+  },
+  {
+    "front": "¿Cómo se desagrega el ROE por DUPONT ampliado?",
+    "back": "ROE = (UN/BAI) × (BAI/BAII) × (BAII/Ventas) × (Ventas/Activos) × (Activo/Patrimonio Neto), es decir: Efecto Fiscal × Efecto Interés × Margen Operativo × Rotación de Activos × Palanca Financiera."
+  },
+  {
+    "front": "¿Qué es la Tasa de Crecimiento Sostenible (G) en su forma simple?",
+    "back": "G = ROE × p, donde p es la tasa de retención de utilidades (1 − tasa de reparto de dividendos d). Indica cuánto puede crecer la empresa sosteniblemente usando solo fondos propios, sin cambiar su estructura de financiamiento."
+  },
+  {
+    "front": "¿Cómo se descompone el Crecimiento Sostenible (G) en versión extendida?",
+    "back": "G = Crecimiento Extrínseco + Crecimiento Intrínseco = [(Dt/E)×(Ra''−i_Dt)×p×(1−tx)] + [Ra''×p×(1−tx)]. El extrínseco depende del apalancamiento y la diferencia entre rendimiento operativo y tasa de interés de la deuda; el intrínseco depende solo del rendimiento operativo propio."
+  },
+  {
+    "front": "¿Qué es la Tasa de Interés de la Deuda Total (i_Dt)?",
+    "back": "i_Dt = Gastos en intereses / Exigible Total (Pasivo Total). Es la tasa promedio que la empresa paga por el uso de todo su capital ajeno."
+  },
+  {
+    "front": "¿Qué diferencia hay entre EBIT, EBITDA y EBT?",
+    "back": "EBIT (BAII): utilidad antes de intereses e impuestos (resultado operativo puro). EBITDA: EBIT + depreciaciones y amortizaciones del período. EBT (BAI): utilidad antes de impuestos, después de restar los gastos financieros al EBIT."
+  },
+  {
+    "front": "¿Por qué la Depreciación y Amortización se consideran gastos 'no erogables'?",
+    "back": "Porque representan el desgaste contable del activo fijo en el período, pero no implican una salida de caja en ese momento (el efectivo ya se pagó cuando se adquirió el bien, o se financia por otra vía)."
+  },
+  {
+    "front": "¿Qué información brinda el Margen Bruto vs el Margen Neto?",
+    "back": "Margen Bruto = Utilidad Bruta/Ventas (rentabilidad después de descontar solo el costo de ventas). Margen Neto = Utilidad Neta/Ventas (rentabilidad final después de todos los gastos, intereses e impuestos)."
+  },
+  {
+    "front": "En el caso integrador Requilsur, ¿qué tipo de ejercicio combina el 'Bloque UNO'?",
+    "back": "Integra el análisis de ratios económico-financieros (liquidez, solvencia, endeudamiento, rentabilidad, DUPONT, crecimiento sostenible) junto con los conceptos de Costeo Estándar y de Pronósticos, aplicados sobre un caso empresarial real con balance y estado de resultados."
+  },
+  {
+    "front": "¿Qué relación matemática vincula el ROE con el Ra cuando el ratio deuda/patrimonio se simplifica?",
+    "back": "ROE = Ra × (1 + Dt/E), es decir, el ROE crece con el apalancamiento financiero (a mayor proporción de deuda sobre el patrimonio, mayor el efecto multiplicador sobre la rentabilidad del capital propio, siempre que el rendimiento de los activos supere la tasa de interés de la deuda)."
+  },
+  {
+    "front": "¿Qué significa el criterio de lo devengado en el Balance y Cuadro de Resultados?",
+    "back": "Que tanto los ingresos como los gastos se registran en el momento en que se generan/conocen, independientemente de si ya fueron efectivamente cobrados o pagados en efectivo."
+  },
+  {
+    "front": "En el análisis de una serie de tiempo integrada al Bloque UNO, ¿qué hipótesis de trabajo se asume al proyectar la tendencia hacia el futuro?",
+    "back": "Que el patrón de comportamiento de los datos históricos y su contexto se mantendrá en el futuro; si el contexto cambia sustancialmente (recesión, nueva tecnología), el modelo pierde validez y requiere un ajuste subjetivo."
+  },
+  {
+    "front": "¿Qué es el componente Cíclico en la descomposición de una serie de tiempo?",
+    "back": "Es la tendencia de largo plazo asociada al ciclo macroeconómico (semiciclos de expansión y recesión), que se distingue de la tendencia de mediano plazo observada dentro del período de análisis puntual."
+  },
+  {
+    "front": "En un ejercicio de ratios donde solo se conocen algunas relaciones (Solvencia, Ra, Liquidez corriente, Pasivo Corto Plazo, Utilidad Neta), ¿cómo se despeja el Activo Corriente?",
+    "back": "Se usa la fórmula de Liquidez Corriente = Activo Corriente/Pasivo Corriente, despejando Activo Corriente = Pasivo Corriente × Liquidez Corriente (siempre que se conozca el Pasivo Corriente como dato)."
+  },
+  {
+    "front": "¿Qué relación existe entre el Rendimiento de Activos (Ra) y el Activo Total cuando se conoce la Utilidad Neta?",
+    "back": "Ra = Utilidad Neta / Activo Total, por lo tanto Activo Total = Utilidad Neta / Ra. Esta relación permite despejar el Activo Total cuando se conocen la utilidad neta y el rendimiento porcentual."
+  }
+]

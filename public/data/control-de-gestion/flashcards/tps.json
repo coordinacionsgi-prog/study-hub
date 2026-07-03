@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Qué es el promedio móvil de n períodos y para qué se usa?",
+    "back": "Es un método de pronóstico que promedia los últimos n valores observados para estimar el próximo período. Cuanto más chico es n, más sensible es el pronóstico a los últimos datos; cuanto más grande, más estable pero más desfasado queda respecto de la tendencia real."
+  },
+  {
+    "front": "¿Cómo se calcula el MAD (Desviación Media Absoluta)?",
+    "back": "MAD = Σ|Error| / n, es decir el promedio de los valores absolutos de los errores (real menos pronosticado). Sirve para medir la precisión de un pronóstico en las mismas unidades que la variable original."
+  },
+  {
+    "front": "¿Cómo se calcula el EMC o MSE (Error Cuadrático Medio)?",
+    "back": "EMC = Σ(Error)² / n, el promedio de los errores al cuadrado. Penaliza más los errores grandes que el MAD, porque los eleva al cuadrado."
+  },
+  {
+    "front": "¿Cómo se calcula el MAPE (Error Porcentual Medio Absoluto)?",
+    "back": "MAPE = Σ(|Error| / Valor real) / n × 100. Expresa el error como porcentaje del valor real, lo que permite comparar la precisión de pronósticos entre series de distinta escala."
+  },
+  {
+    "front": "En un ejercicio de costo estándar, ¿cómo se calcula la Variación Precio de la Materia Prima (VPmp)?",
+    "back": "VPmp = (Precio real − Precio estándar) × Cantidad real comprada. Si da negativo, es favorable (se pagó menos de lo estándar); si da positivo, es desfavorable."
+  },
+  {
+    "front": "¿Cómo se calcula la Variación Eficiencia de la Mano de Obra (VEmo)?",
+    "back": "VEmo = (Horas reales − Horas estándar para la producción real) × Tasa estándar por hora. Siempre se usa la producción real para calcular las horas estándar permitidas. Si da positivo, es desfavorable (se usaron más horas de las estándar)."
+  },
+  {
+    "front": "¿Cuáles son las 5 masas patrimoniales de un balance?",
+    "back": "Activo Circulante, Activo Inmovilizado (o Fijo), Exigible de Corto Plazo (Pasivo Corriente), Exigible de Largo Plazo, y Capital Propio (Patrimonio Neto). Se ordenan según criterios de liquidez (activo) y exigibilidad (pasivo)."
+  },
+  {
+    "front": "¿Cómo se calcula el Fondo de Maniobra (FM) desde el enfoque de recursos permanentes?",
+    "back": "FM = Recursos Permanentes (Deuda Largo Plazo + Patrimonio Neto) − Activo Inmovilizado. Es el enfoque correcto porque el FM es una decisión de financiamiento de largo plazo."
+  },
+  {
+    "front": "¿Cómo se calcula el Fondo de Maniobra desde el enfoque de activo circulante?",
+    "back": "FM = Activo Corriente − Pasivo Corriente. Da el mismo resultado numérico que el otro enfoque, pero conceptualmente es menos correcto porque parece un concepto de corto plazo cuando en realidad es estructural."
+  },
+  {
+    "front": "¿Qué es el índice de Liquidez Corriente (Current Ratio)?",
+    "back": "Liquidez Corriente = Activo Corriente / Pasivo Corriente. Mide la capacidad de la empresa de afrontar sus deudas de corto plazo con sus activos de corto plazo."
+  },
+  {
+    "front": "¿Qué es el Test Ácido o Liquidez Ácida?",
+    "back": "Test Ácido = (Activo Corriente − Bienes de Cambio) / Pasivo Corriente. Es una medida más estricta de liquidez porque excluye los inventarios, que son el activo corriente menos líquido."
+  },
+  {
+    "front": "¿Cómo se calcula la Palanca Financiera (Financial Leverage)?",
+    "back": "Palanca Financiera = 1 + (Deuda Total / Capital Propio) = 1 + (Dt/E). Muestra cuánto se multiplica el capital propio por el uso de deuda; a mayor Dt/E, mayor palanca."
+  },
+  {
+    "front": "¿Cómo se calcula el ROE (Rentabilidad del Capital Propio)?",
+    "back": "ROE = Utilidad Neta / Capital Propio (promedio). Mide la rentabilidad que obtienen los accionistas sobre su inversión en la empresa."
+  },
+  {
+    "front": "¿Cómo se calcula el Ra'' (Rendimiento Económico de la Operación)?",
+    "back": "Ra'' = BAII (Beneficio Antes de Intereses e Impuestos) / Activo Total promedio. Mide el rendimiento operativo de los activos, sin considerar el efecto de la estructura de financiamiento ni impuestos."
+  },
+  {
+    "front": "¿Qué es el Ciclo del Efectivo (o Ciclo de Caja)?",
+    "back": "Ciclo del Efectivo = Plazo Medio de Maduración (PMM) − Plazo Medio de Pago a Proveedores (PMprov). Representa cuántos días la empresa financia el ciclo operativo con recursos propios antes de que le paguen los proveedores compensen el gasto."
+  },
+  {
+    "front": "¿Cómo se calcula el Plazo Medio de Maduración (PMM) o Ciclo Operativo del negocio?",
+    "back": "Es la suma de todos los subciclos operativos (por ejemplo, en una industrial: Plazo Medio de Materia Prima + Plazo Medio de Producción en Proceso + Plazo Medio de Productos Terminados + Plazo Medio de Cobranza). Indica cuántos días pasan desde que se compra materia prima hasta que se cobra la venta."
+  },
+  {
+    "front": "¿Cómo se calcula genéricamente cualquier plazo medio (rotación en días) a partir de una rotación?",
+    "back": "Plazo Medio = n / Rotación, donde Rotación = Variable Flujo / Variable Stock promedio, y n es la cantidad de días del período (365 anual, 90 trimestral, 30 mensual)."
+  },
+  {
+    "front": "¿Qué son las Necesidades Operativas de Fondos (NOF)?",
+    "back": "NOF = Activo Circulante Operativo − Pasivo Circulante Operativo (aproximadamente: Existencias + Cuentas a Cobrar − Cuentas a Pagar). Es la inversión neta en circulante que necesita el negocio para operar, descontando la financiación espontánea de proveedores."
+  },
+  {
+    "front": "¿Qué diferencia hay entre el Fondo de Maniobra (FM) y las NOF?",
+    "back": "El FM es una decisión estructural de largo plazo (cuánto recurso permanente sobra después de financiar el activo fijo), mientras que las NOF son un concepto operativo de corto plazo, proporcional a las ventas. La diferencia entre FM y NOF es la Situación de Tesorería."
+  },
+  {
+    "front": "En análisis de series de tiempo, ¿cuáles son los 4 componentes que se descomponen?",
+    "back": "Tendencia (T), Estacionalidad (S), Ciclo (C) y componente Aleatorio o Irregular (E, error). Se combinan multiplicativa o aditivamente para explicar el comportamiento histórico de la serie."
+  },
+  {
+    "front": "¿Qué mide el coeficiente de determinación R² en una regresión lineal?",
+    "back": "Mide qué porcentaje de la variación de la variable Y es explicado por el comportamiento de la variable X a través del modelo lineal. Un R² de 0,832 indica que el modelo explica el 83,2% de la variación de Y."
+  },
+  {
+    "front": "¿Qué mide el coeficiente de correlación de Pearson (R)?",
+    "back": "Mide el grado de asociación lineal entre dos variables cuantitativas. Va de -1 a 1; cuanto más cerca de los extremos, más fuerte la asociación lineal (positiva o negativa)."
+  },
+  {
+    "front": "En una recta de regresión Y = a + bX, ¿qué representan 'a' y 'b' en un ejemplo de costo de producción?",
+    "back": "'a' es la ordenada al origen y representa el Costo Fijo Total; 'b' es la pendiente y representa el Costo Variable Unitario (cuánto aumenta el costo total por cada unidad adicional producida)."
+  },
+  {
+    "front": "¿Cómo se calcula el Equilibrio Patrimonial de Largo Plazo?",
+    "back": "Equilibrio Patrimonial LP = (Capital Propio + Pasivo No Corriente) / Activo Fijo. Si es mayor a 1, indica que los recursos de largo plazo alcanzan para cubrir el activo fijo y sobra para financiar parte del corto plazo."
+  },
+  {
+    "front": "¿Qué son las variables de Flujo (VF) y las variables de Stock (VS)? Dá un ejemplo de cada una.",
+    "back": "Las variables de Flujo se miden durante un período (por ejemplo, Ventas del mes, Cobros realizados). Las variables de Stock se miden en un momento puntual, como una foto (por ejemplo, Saldo de Caja al 31/12, Cuentas a Cobrar a fin de mes)."
+  },
+  {
+    "front": "¿Cómo se calcula la Rotación de Inventarios en una empresa comercial?",
+    "back": "Rotación de Inventarios = Costo de Ventas del período / Saldo Medio de Bienes de Cambio. Indica cuántas veces en el período se renueva completamente el inventario."
+  },
+  {
+    "front": "¿Qué es el Mark Up y en qué se diferencia del Margen Bruto?",
+    "back": "El Mark Up es la utilidad sobre el costo (Utilidad / Costo), mientras que el Margen es la utilidad sobre el precio de venta (Utilidad / Ventas). Por ejemplo, si algo cuesta $90 y se vende a $100, el margen es 10% pero el mark up es 11,11% (10/90)."
+  },
+  {
+    "front": "¿Cómo se calcula la Tasa de Crecimiento Sostenible (Gs)?",
+    "back": "Gs = ROE × P, donde P es la tasa de reinversión (1 − tasa de dividendos repartidos). Es la tasa a la que la empresa puede crecer sin cambiar su estructura de capital ni endeudarse más."
+  },
+  {
+    "front": "En el análisis de transacciones patrimoniales, ¿qué diferencia hay entre variación permutativa y modificativa?",
+    "back": "Las permutativas no cambian el Patrimonio Neto (por ejemplo, comprar un bien pagando en efectivo). Las modificativas sí cambian el PN: pueden ser propias (por operaciones de la empresa, como una venta con ganancia) o impropias (originadas por los propietarios, como aportes o retiros de capital)."
+  },
+  {
+    "front": "¿Cómo se calcula la Cobertura de Intereses (Interest Coverage Ratio)?",
+    "back": "Cobertura de Intereses = BAII (o BAII + Amortizaciones) / Gastos en Intereses. Indica cuántas veces la utilidad operativa cubre el pago de intereses de la deuda; a mayor valor, menor riesgo financiero."
+  }
+]
