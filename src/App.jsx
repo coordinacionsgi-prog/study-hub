@@ -4,6 +4,7 @@ import FlashcardView from "./components/FlashcardView";
 import QuizView from "./components/QuizView";
 import TheoryView from "./components/TheoryView";
 import ConceptMapView from "./components/ConceptMapView";
+import DiagramsView from "./components/DiagramsView";
 import "./index.css";
 
 const TABS = [
@@ -18,7 +19,7 @@ export default function App() {
   const [modules, setModules] = useState(null);
   const [error, setError] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
-  const [showMap, setShowMap] = useState(false);
+  const [view, setView] = useState(null); // "map" | "diagrams" | null
   const [tab, setTab] = useState("teoria");
 
   useEffect(() => {
@@ -29,7 +30,7 @@ export default function App() {
     if (!subjectId) return;
     setModules(null);
     setSelectedId(null);
-    setShowMap(false);
+    setView(null);
     getModules(subjectId).then(setModules).catch((e) => setError(e.message));
   }, [subjectId]);
 
@@ -50,7 +51,7 @@ export default function App() {
         <main className="main-content" style={{ width: "100%" }}>
           <div className="home-view">
             <h2>¿Qué materia querés estudiar?</h2>
-            <p>Elegí una materia para ver su mapa conceptual, teoría, flashcards y quizzes.</p>
+            <p>Elegí una materia para ver su mapa conceptual, diagramas, teoría, flashcards y quizzes.</p>
             <div className="home-grid">
               {subjects?.map((s) => (
                 <button key={s.id} className="home-card" onClick={() => setSubjectId(s.id)}>
@@ -75,25 +76,37 @@ export default function App() {
         <h1 className="app-title">{subject?.title}</h1>
         <p className="app-subtitle">Repaso de la materia</p>
 
-        <button
-          className={`module-item map-item ${showMap ? "active" : ""}`}
-          onClick={() => {
-            setShowMap(true);
-            setSelectedId(null);
-          }}
-        >
-          <span className="module-item-title">🗺 Mapa conceptual</span>
-          <span className="module-item-unidad">Toda la materia</span>
-        </button>
+        <div className="subject-views">
+          <button
+            className={`module-item map-item ${view === "map" ? "active" : ""}`}
+            onClick={() => {
+              setView("map");
+              setSelectedId(null);
+            }}
+          >
+            <span className="module-item-title">🗺 Mapa conceptual</span>
+            <span className="module-item-unidad">Toda la materia</span>
+          </button>
+          <button
+            className={`module-item map-item ${view === "diagrams" ? "active" : ""}`}
+            onClick={() => {
+              setView("diagrams");
+              setSelectedId(null);
+            }}
+          >
+            <span className="module-item-title">🧭 Diagramas</span>
+            <span className="module-item-unidad">Procesos paso a paso</span>
+          </button>
+        </div>
 
         <nav className="module-nav">
           {modules?.map((m) => (
             <button
               key={m.id}
-              className={`module-item ${!showMap && m.id === selectedId ? "active" : ""}`}
+              className={`module-item ${!view && m.id === selectedId ? "active" : ""}`}
               onClick={() => {
                 setSelectedId(m.id);
-                setShowMap(false);
+                setView(null);
                 setTab("teoria");
               }}
             >
@@ -106,13 +119,19 @@ export default function App() {
       </aside>
 
       <main className="main-content">
-        {showMap && (
+        {view === "map" && (
           <div className="content-body">
             <ConceptMapView subjectId={subjectId} />
           </div>
         )}
 
-        {!showMap && !selected && (
+        {view === "diagrams" && (
+          <div className="content-body">
+            <DiagramsView subjectId={subjectId} />
+          </div>
+        )}
+
+        {!view && !selected && (
           <div className="home-view">
             <h2>¡Bienvenido!</h2>
             <p>Elegí un módulo de la izquierda para estudiar la teoría, o repasar con flashcards y quizzes.</p>
@@ -127,7 +146,7 @@ export default function App() {
           </div>
         )}
 
-        {!showMap && selected && (
+        {!view && selected && (
           <>
             <header className="content-header">
               <div>

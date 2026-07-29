@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Cómo se calculan las variaciones en costeo estándar",
+    "description": "Para saber si un desvío en costos vino del precio o del uso ineficiente de recursos, primero hay que fijar el estándar y después compararlo contra lo real: siempre precio antes que eficiencia.",
+    "viewBoxW": 800,
+    "viewBoxH": 220,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 70, "w": 140, "h": 80, "title": "Fijar costo estándar", "subtitle": "cuánto debería costar", "color": "#5b8def" },
+      { "id": "s2", "x": 180, "y": 70, "w": 140, "h": 80, "title": "Datos reales del período", "subtitle": "comprado, consumido, pagado", "color": "#5b8def" },
+      { "id": "s3", "x": 340, "y": 70, "w": 140, "h": 80, "title": "Variación en precio", "subtitle": "cant. real x (precio real-std)", "color": "#5b8def" },
+      { "id": "s4", "x": 500, "y": 70, "w": 140, "h": 80, "title": "Variación en eficiencia", "subtitle": "precio std x (cant. real-std)", "color": "#5b8def" },
+      { "id": "s5", "x": 660, "y": 70, "w": 140, "h": 80, "title": "Favorable o desfavorable", "subtitle": "según si suma o resta utilidad", "color": "#f2a33d" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "El ciclo de conversión de efectivo",
+    "description": "Muestra cuánto tarda la empresa en transformar la plata invertida en materia prima o mercadería de nuevo en efectivo, y qué parte de ese tiempo la terminan financiando los proveedores.",
+    "viewBoxW": 800,
+    "viewBoxH": 270,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 30, "w": 140, "h": 80, "title": "Compra de materia prima", "subtitle": "empieza el plazo de inventario", "color": "#3fbf7f" },
+      { "id": "s2", "x": 180, "y": 30, "w": 140, "h": 80, "title": "Producción y stock", "subtitle": "fabricación y almacenamiento", "color": "#3fbf7f" },
+      { "id": "s3", "x": 340, "y": 30, "w": 140, "h": 80, "title": "Producto terminado", "subtitle": "listo para vender", "color": "#3fbf7f" },
+      { "id": "s4", "x": 500, "y": 30, "w": 140, "h": 80, "title": "Venta a crédito", "subtitle": "empieza el plazo de cobro", "color": "#3fbf7f" },
+      { "id": "s5", "x": 660, "y": 30, "w": 140, "h": 80, "title": "Cobro al cliente", "subtitle": "la plata vuelve a caja", "color": "#3fbf7f" },
+      { "id": "s6", "x": 200, "y": 160, "w": 400, "h": 80, "title": "Ciclo de conversión de efectivo", "subtitle": "CCE = ciclo operativo - plazo de pago", "color": "#f2a33d" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"], ["s5", "s6"] ]
+  },
+  {
+    "title": "Del resultado operativo al EVA",
+    "description": "El EVA compara lo que realmente rinde el negocio (ROIC) contra lo que cuesta financiar todo el capital usado (WACC), para saber si de verdad se está creando valor o solo hay ganancia contable.",
+    "viewBoxW": 860,
+    "viewBoxH": 280,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 30, "w": 150, "h": 80, "title": "NOPAT", "subtitle": "ganancia operativa neta de impuestos", "color": "#a78bfa" },
+      { "id": "s2", "x": 20, "y": 170, "w": 150, "h": 80, "title": "Capital invertido", "subtitle": "deuda financiera + patrimonio neto", "color": "#a78bfa" },
+      { "id": "s3", "x": 210, "y": 100, "w": 160, "h": 90, "title": "ROIC", "subtitle": "NOPAT / capital invertido", "color": "#a78bfa" },
+      { "id": "s4", "x": 410, "y": 100, "w": 150, "h": 90, "title": "WACC", "subtitle": "costo promedio del capital", "color": "#a78bfa" },
+      { "id": "s5", "x": 600, "y": 95, "w": 180, "h": 100, "title": "EVA", "subtitle": "(ROIC - WACC) x capital invertido", "color": "#f2a33d" }
+    ],
+    "edges": [ ["s1", "s3"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "Cómo se descompone el ROE con la fórmula de Dupont",
+    "description": "El ROE se explica combinando tres piezas: qué margen dejás vendiendo, qué tan rápido rotás los activos y cuánto apalancamiento financiero usás.",
+    "viewBoxW": 860,
+    "viewBoxH": 280,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 30, "w": 150, "h": 80, "title": "Margen neto", "subtitle": "utilidad neta / ventas", "color": "#22d3ee" },
+      { "id": "s2", "x": 20, "y": 170, "w": 150, "h": 80, "title": "Rotación de activos", "subtitle": "ventas / activo total", "color": "#22d3ee" },
+      { "id": "s3", "x": 210, "y": 100, "w": 150, "h": 90, "title": "ROA", "subtitle": "margen x rotación", "color": "#22d3ee" },
+      { "id": "s4", "x": 400, "y": 100, "w": 150, "h": 90, "title": "Apalancamiento", "subtitle": "activo / patrimonio neto", "color": "#22d3ee" },
+      { "id": "s5", "x": 590, "y": 95, "w": 170, "h": 100, "title": "ROE", "subtitle": "ROA x apalancamiento", "color": "#f2a33d" }
+    ],
+    "edges": [ ["s1", "s3"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "Los pasos de un pronóstico con series de tiempo",
+    "description": "Antes de proyectar ventas futuras hay que separar los patrones que se repiten (tendencia y estación) del ruido random, para no confundir un pico raro con una tendencia real.",
+    "viewBoxW": 800,
+    "viewBoxH": 220,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 70, "w": 140, "h": 80, "title": "Serie histórica", "subtitle": "ventas reales mes a mes", "color": "#5b8def" },
+      { "id": "s2", "x": 180, "y": 70, "w": 140, "h": 80, "title": "Índice estacional", "subtitle": "efecto mes bueno o malo", "color": "#5b8def" },
+      { "id": "s3", "x": 340, "y": 70, "w": 140, "h": 80, "title": "Desestacionalizar", "subtitle": "sacar el efecto estación", "color": "#5b8def" },
+      { "id": "s4", "x": 500, "y": 70, "w": 140, "h": 80, "title": "Tendencia lineal", "subtitle": "regresión sobre serie limpia", "color": "#5b8def" },
+      { "id": "s5", "x": 660, "y": 70, "w": 140, "h": 80, "title": "Pronóstico final", "subtitle": "tendencia x índice estacional", "color": "#f2a33d" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "Cómo se arma la Situación de Tesorería (FM vs. NOF)",
+    "description": "Compara la plata de largo plazo que dejaste como colchón (FM) contra la plata que el día a día del negocio realmente necesita (NOF), para saber si sobra o falta caja.",
+    "viewBoxW": 740,
+    "viewBoxH": 300,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 30, "w": 170, "h": 80, "title": "Fondo de Maniobra", "subtitle": "recursos permanentes - activo fijo", "color": "#e5555a" },
+      { "id": "s2", "x": 20, "y": 170, "w": 170, "h": 80, "title": "Necesidades Operativas", "subtitle": "clientes + inventario - proveedores", "color": "#e5555a" },
+      { "id": "s3", "x": 250, "y": 105, "w": 170, "h": 80, "title": "Situación de Tesorería", "subtitle": "ST = FM - NOF", "color": "#e5555a" },
+      { "id": "s4a", "x": 470, "y": 15, "w": 160, "h": 75, "title": "ST positiva", "subtitle": "el colchón alcanza y sobra", "color": "#3fbf7f" },
+      { "id": "s4b", "x": 470, "y": 200, "w": 160, "h": 75, "title": "ST negativa", "subtitle": "falta financiar el corto plazo", "color": "#e5555a" }
+    ],
+    "edges": [ ["s1", "s3"], ["s2", "s3"], ["s3", "s4a"], ["s3", "s4b"] ]
+  },
+  {
+    "title": "Los pasos del análisis vertical y horizontal de un balance",
+    "description": "Sirve para leer rápido un balance: qué peso tiene cada rubro dentro del total y cómo evolucionó ese mismo rubro de un período a otro.",
+    "viewBoxW": 800,
+    "viewBoxH": 220,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 70, "w": 140, "h": 80, "title": "Balance comparado", "subtitle": "mismo formato, distintas fechas", "color": "#a78bfa" },
+      { "id": "s2", "x": 180, "y": 70, "w": 140, "h": 80, "title": "Análisis vertical", "subtitle": "% de cada rubro sobre el total", "color": "#a78bfa" },
+      { "id": "s3", "x": 340, "y": 70, "w": 140, "h": 80, "title": "Análisis horizontal", "subtitle": "variación $ y % entre períodos", "color": "#a78bfa" },
+      { "id": "s4", "x": 500, "y": 70, "w": 140, "h": 80, "title": "Comparar con industria", "subtitle": "o con años anteriores", "color": "#a78bfa" },
+      { "id": "s5", "x": 660, "y": 70, "w": 140, "h": 80, "title": "Conclusiones", "subtitle": "qué cambió y por qué", "color": "#f2a33d" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "¿Conviene discontinuar un producto con pérdida contable?",
+    "description": "Antes de sacar un producto del catálogo hay que mirar su contribución marginal, no solo la utilidad contable que muestra el costeo por absorción.",
+    "viewBoxW": 800,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 90, "w": 170, "h": 80, "title": "Producto con pérdida", "subtitle": "según costeo por absorción", "color": "#22d3ee" },
+      { "id": "s2", "x": 230, "y": 90, "w": 170, "h": 80, "title": "Contribución marginal", "subtitle": "Cmg = precio - costo variable", "color": "#22d3ee" },
+      { "id": "s3a", "x": 440, "y": 10, "w": 160, "h": 75, "title": "Cmg positiva", "subtitle": "cubre el variable y algo más", "color": "#22d3ee" },
+      { "id": "s3b", "x": 440, "y": 175, "w": 160, "h": 75, "title": "Cmg negativa", "subtitle": "no cubre el costo variable", "color": "#22d3ee" },
+      { "id": "s4a", "x": 620, "y": 10, "w": 160, "h": 75, "title": "Mantener el producto", "subtitle": "sigue aportando a los fijos", "color": "#3fbf7f" },
+      { "id": "s4b", "x": 620, "y": 175, "w": 160, "h": 75, "title": "Discontinuar", "subtitle": "cada unidad agranda la pérdida", "color": "#e5555a" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3a"], ["s2", "s3b"], ["s3a", "s4a"], ["s3b", "s4b"] ]
+  }
+]

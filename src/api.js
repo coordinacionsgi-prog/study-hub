@@ -28,3 +28,7 @@ export async function getTheory(subjectId, moduleId) {
 export async function getConceptMap(subjectId) {
   return jsonOrThrow(await fetch(`${BASE}/${subjectId}/conceptmap.json`));
 }
+
+export async function getDiagrams(subjectId) {
+  return jsonOrThrow(await fetch(`${BASE}/${subjectId}/diagrams.json`));
+}

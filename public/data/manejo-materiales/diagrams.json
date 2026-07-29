@@ -1,0 +1,610 @@
+[
+  {
+    "title": "El método SLP de Muther, paso a paso",
+    "description": "La Planeación Sistemática de Layout (SLP) de Richard Muther es la receta ordenada para diseñar la distribución de una planta, desde entender qué se produce hasta elegir el layout definitivo.",
+    "viewBoxW": 560,
+    "viewBoxH": 290,
+    "nodes": [
+      {
+        "id": "s1",
+        "x": 20,
+        "y": 30,
+        "w": 150,
+        "h": 90,
+        "title": "Análisis P-Q",
+        "subtitle": "Qué se produce y cuánto",
+        "color": "#5b8def"
+      },
+      {
+        "id": "s2",
+        "x": 190,
+        "y": 30,
+        "w": 150,
+        "h": 90,
+        "title": "Análisis de recorrido",
+        "subtitle": "Diagramas de flujo y cursogramas",
+        "color": "#5b8def"
+      },
+      {
+        "id": "s3",
+        "x": 360,
+        "y": 30,
+        "w": 150,
+        "h": 90,
+        "title": "Tabla relacional",
+        "subtitle": "Código A-E-I-O-U-X entre áreas",
+        "color": "#5b8def"
+      },
+      {
+        "id": "s4",
+        "x": 360,
+        "y": 170,
+        "w": 150,
+        "h": 90,
+        "title": "Diagrama relacional",
+        "subtitle": "Grafo de actividades, mínimos cruces",
+        "color": "#5b8def"
+      },
+      {
+        "id": "s5",
+        "x": 190,
+        "y": 170,
+        "w": 150,
+        "h": 90,
+        "title": "Propuestas de layout",
+        "subtitle": "2 o 3 alternativas a comparar",
+        "color": "#5b8def"
+      },
+      {
+        "id": "s6",
+        "x": 20,
+        "y": 170,
+        "w": 150,
+        "h": 90,
+        "title": "Selección final",
+        "subtitle": "Intercambio pareado o CRAFT",
+        "color": "#5b8def"
+      }
+    ],
+    "edges": [
+      [
+        "s1",
+        "s2"
+      ],
+      [
+        "s2",
+        "s3"
+      ],
+      [
+        "s3",
+        "s4"
+      ],
+      [
+        "s4",
+        "s5"
+      ],
+      [
+        "s5",
+        "s6"
+      ]
+    ]
+  },
+  {
+    "title": "Ciclo de actividades de un almacén",
+    "description": "Todo depósito, sin importar el rubro, repite el mismo ciclo operativo desde que entra la mercadería hasta que sale hacia el cliente.",
+    "viewBoxW": 840,
+    "viewBoxH": 200,
+    "nodes": [
+      {
+        "id": "r1",
+        "x": 20,
+        "y": 60,
+        "w": 140,
+        "h": 80,
+        "title": "Recepción",
+        "subtitle": "Registrar lo que entra",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "r2",
+        "x": 180,
+        "y": 60,
+        "w": 140,
+        "h": 80,
+        "title": "Almacenamiento",
+        "subtitle": "Guardar en su ubicación",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "r3",
+        "x": 340,
+        "y": 60,
+        "w": 140,
+        "h": 80,
+        "title": "Picking",
+        "subtitle": "Preparación de pedidos",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "r4",
+        "x": 500,
+        "y": 60,
+        "w": 140,
+        "h": 80,
+        "title": "Despacho",
+        "subtitle": "Registrar y sacar lo que se va",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "r5",
+        "x": 660,
+        "y": 60,
+        "w": 140,
+        "h": 80,
+        "title": "Postventa",
+        "subtitle": "Reclamos y devoluciones",
+        "color": "#3fbf7f"
+      }
+    ],
+    "edges": [
+      [
+        "r1",
+        "r2"
+      ],
+      [
+        "r2",
+        "r3"
+      ],
+      [
+        "r3",
+        "r4"
+      ],
+      [
+        "r4",
+        "r5"
+      ]
+    ]
+  },
+  {
+    "title": "Ciclo de planeación de instalaciones",
+    "description": "Antes de construir o rediseñar una planta conviene seguir un ciclo ordenado: cambiar de idea sale cada vez más caro cuanto más avanzado está el proyecto.",
+    "viewBoxW": 560,
+    "viewBoxH": 290,
+    "nodes": [
+      {
+        "id": "p1",
+        "x": 20,
+        "y": 30,
+        "w": 150,
+        "h": 90,
+        "title": "Objetivos estratégicos",
+        "subtitle": "Qué se quiere lograr",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p2",
+        "x": 190,
+        "y": 30,
+        "w": 150,
+        "h": 90,
+        "title": "Compromiso y equipo",
+        "subtitle": "Dirección + equipo multidisciplinario",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p3",
+        "x": 360,
+        "y": 30,
+        "w": 150,
+        "h": 90,
+        "title": "Relevamiento",
+        "subtitle": "Actividades, tareas y criterios",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p4",
+        "x": 360,
+        "y": 170,
+        "w": 150,
+        "h": 90,
+        "title": "Plan con alternativas",
+        "subtitle": "Se generan varias opciones",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p5",
+        "x": 190,
+        "y": 170,
+        "w": 150,
+        "h": 90,
+        "title": "Revisión y aprobación",
+        "subtitle": "La dirección lo valida",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p6",
+        "x": 20,
+        "y": 170,
+        "w": 150,
+        "h": 90,
+        "title": "Implementación",
+        "subtitle": "Monitoreo y mejora continua",
+        "color": "#f2a33d"
+      }
+    ],
+    "edges": [
+      [
+        "p1",
+        "p2"
+      ],
+      [
+        "p2",
+        "p3"
+      ],
+      [
+        "p3",
+        "p4"
+      ],
+      [
+        "p4",
+        "p5"
+      ],
+      [
+        "p5",
+        "p6"
+      ]
+    ]
+  },
+  {
+    "title": "Cómo elegir la localización de una planta",
+    "description": "Decidir dónde construir una planta es una decisión cara de revertir: primero se filtra la zona amplia y después el terreno puntual, comparando opciones con factores medibles.",
+    "viewBoxW": 900,
+    "viewBoxH": 210,
+    "nodes": [
+      {
+        "id": "l1",
+        "x": 20,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Macro localización",
+        "subtitle": "Región o zona amplia",
+        "color": "#e5555a"
+      },
+      {
+        "id": "l2",
+        "x": 190,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Micro localización",
+        "subtitle": "Terreno puntual dentro de la zona",
+        "color": "#e5555a"
+      },
+      {
+        "id": "l3",
+        "x": 360,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Definir factores",
+        "subtitle": "Costos, mano de obra, mercado",
+        "color": "#e5555a"
+      },
+      {
+        "id": "l4",
+        "x": 530,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Ponderar y puntuar",
+        "subtitle": "Método de puntos o Brown-Gibson",
+        "color": "#e5555a"
+      },
+      {
+        "id": "l5",
+        "x": 700,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Seleccionar opción",
+        "subtitle": "Gana la de mayor puntaje",
+        "color": "#e5555a"
+      }
+    ],
+    "edges": [
+      [
+        "l1",
+        "l2"
+      ],
+      [
+        "l2",
+        "l3"
+      ],
+      [
+        "l3",
+        "l4"
+      ],
+      [
+        "l4",
+        "l5"
+      ]
+    ]
+  },
+  {
+    "title": "Secuencia de manejo manual seguro de cargas",
+    "description": "Antes de levantar un peso con el cuerpo hay pasos concretos para evitar lesiones, respetando los límites que fijan la OIT y la SRT.",
+    "viewBoxW": 900,
+    "viewBoxH": 210,
+    "nodes": [
+      {
+        "id": "m1",
+        "x": 20,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Evaluar la carga",
+        "subtitle": "Peso aproximado y embalaje",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "m2",
+        "x": 190,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Revisar el entorno",
+        "subtitle": "Camino libre, sin obstáculos",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "m3",
+        "x": 360,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Pedir ayuda",
+        "subtitle": "Si la carga es pesada o irregular",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "m4",
+        "x": 530,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Levantar con técnica",
+        "subtitle": "Respetando límites (55 kg máx.)",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "m5",
+        "x": 700,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Descansar",
+        "subtitle": "Según el esfuerzo en Kcal/hora",
+        "color": "#a78bfa"
+      }
+    ],
+    "edges": [
+      [
+        "m1",
+        "m2"
+      ],
+      [
+        "m2",
+        "m3"
+      ],
+      [
+        "m3",
+        "m4"
+      ],
+      [
+        "m4",
+        "m5"
+      ]
+    ]
+  },
+  {
+    "title": "Cadena de suministro: del proveedor al cliente",
+    "description": "La Supply Chain moderna busca romper los silos entre áreas e integrar de punta a punta el flujo de materiales e información.",
+    "viewBoxW": 900,
+    "viewBoxH": 210,
+    "nodes": [
+      {
+        "id": "c1",
+        "x": 20,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Proveedores",
+        "subtitle": "Materias primas e insumos",
+        "color": "#22d3ee"
+      },
+      {
+        "id": "c2",
+        "x": 190,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Abastecimiento",
+        "subtitle": "Compras y logística de entrada",
+        "color": "#22d3ee"
+      },
+      {
+        "id": "c3",
+        "x": 360,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Producción",
+        "subtitle": "Transformación del material",
+        "color": "#22d3ee"
+      },
+      {
+        "id": "c4",
+        "x": 530,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Almacén y distribución",
+        "subtitle": "Guardar y despachar",
+        "color": "#22d3ee"
+      },
+      {
+        "id": "c5",
+        "x": 700,
+        "y": 60,
+        "w": 150,
+        "h": 85,
+        "title": "Cliente final",
+        "subtitle": "Mejor nivel de servicio posible",
+        "color": "#22d3ee"
+      }
+    ],
+    "edges": [
+      [
+        "c1",
+        "c2"
+      ],
+      [
+        "c2",
+        "c3"
+      ],
+      [
+        "c3",
+        "c4"
+      ],
+      [
+        "c4",
+        "c5"
+      ]
+    ]
+  },
+  {
+    "title": "Modelo de mínimo recorrido en el depósito",
+    "description": "Para decidir en qué posición del almacén guardar cada producto y caminar lo menos posible, se sigue un procedimiento de cálculo simple.",
+    "viewBoxW": 760,
+    "viewBoxH": 220,
+    "nodes": [
+      {
+        "id": "d1",
+        "x": 20,
+        "y": 60,
+        "w": 160,
+        "h": 90,
+        "title": "Calcular vj/qj",
+        "subtitle": "Viajes sobre posiciones necesarias",
+        "color": "#5b8def"
+      },
+      {
+        "id": "d2",
+        "x": 200,
+        "y": 60,
+        "w": 160,
+        "h": 90,
+        "title": "Ordenar por cociente",
+        "subtitle": "De mayor a menor vj/qj",
+        "color": "#5b8def"
+      },
+      {
+        "id": "d3",
+        "x": 380,
+        "y": 60,
+        "w": 160,
+        "h": 90,
+        "title": "Ordenar posiciones",
+        "subtitle": "Por costo de recorrido (fk)",
+        "color": "#5b8def"
+      },
+      {
+        "id": "d4",
+        "x": 560,
+        "y": 60,
+        "w": 160,
+        "h": 90,
+        "title": "Asignar y repetir",
+        "subtitle": "Mayor cociente, menor costo",
+        "color": "#5b8def"
+      }
+    ],
+    "edges": [
+      [
+        "d1",
+        "d2"
+      ],
+      [
+        "d2",
+        "d3"
+      ],
+      [
+        "d3",
+        "d4"
+      ]
+    ]
+  },
+  {
+    "title": "Industria 4.0: el ciclo PDP",
+    "description": "La Intralogística 4.0 combina sensores, inteligencia artificial y automatización en un ciclo que va del mundo físico al digital y otra vez al físico.",
+    "viewBoxW": 760,
+    "viewBoxH": 220,
+    "nodes": [
+      {
+        "id": "i1",
+        "x": 20,
+        "y": 60,
+        "w": 160,
+        "h": 90,
+        "title": "Mundo físico",
+        "subtitle": "Planta, materiales, movimientos",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "i2",
+        "x": 200,
+        "y": 60,
+        "w": 160,
+        "h": 90,
+        "title": "Captura de datos",
+        "subtitle": "Sensores e IoT",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "i3",
+        "x": 380,
+        "y": 60,
+        "w": 160,
+        "h": 90,
+        "title": "Análisis con IA",
+        "subtitle": "De digital a digital",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "i4",
+        "x": 560,
+        "y": 60,
+        "w": 160,
+        "h": 90,
+        "title": "Acción automática",
+        "subtitle": "Vuelta al mundo físico",
+        "color": "#3fbf7f"
+      }
+    ],
+    "edges": [
+      [
+        "i1",
+        "i2"
+      ],
+      [
+        "i2",
+        "i3"
+      ],
+      [
+        "i3",
+        "i4"
+      ]
+    ]
+  }
+]

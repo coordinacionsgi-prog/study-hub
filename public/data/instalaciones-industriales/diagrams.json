@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Cómo funciona una bomba centrífuga",
+    "description": "Así mueve el líquido la bomba más usada en la industria: primero lo acelera con un rotor y después convierte esa velocidad en presión antes de mandarlo a la cañería.",
+    "viewBoxW": 720,
+    "viewBoxH": 220,
+    "nodes": [
+      { "id": "s1", "x": 20, "y": 65, "w": 150, "h": 90, "title": "Succión", "subtitle": "líquido entra a baja presión", "color": "#5b8def" },
+      { "id": "s2", "x": 190, "y": 65, "w": 150, "h": 90, "title": "Impulsor", "subtitle": "el rotor le da velocidad", "color": "#5b8def" },
+      { "id": "s3", "x": 360, "y": 65, "w": 150, "h": 90, "title": "Voluta / difusor", "subtitle": "la velocidad se hace presión", "color": "#5b8def" },
+      { "id": "s4", "x": 530, "y": 65, "w": 150, "h": 90, "title": "Descarga", "subtitle": "sale a mayor presión", "color": "#5b8def" }
+    ],
+    "edges": [["s1", "s2"], ["s2", "s3"], ["s3", "s4"]]
+  },
+  {
+    "title": "Cómo se produce la cavitación en una bomba",
+    "description": "Cuando el ANPA disponible no alcanza al requerido por el fabricante, se forman burbujas de vapor en la aspiración que después colapsan de golpe adentro de la bomba y le comen el rotor.",
+    "viewBoxW": 820,
+    "viewBoxH": 240,
+    "nodes": [
+      { "id": "c1", "x": 15, "y": 77, "w": 140, "h": 85, "title": "ANPA insuficiente", "subtitle": "disponible menor al requerido", "color": "#e5555a" },
+      { "id": "c2", "x": 173, "y": 77, "w": 140, "h": 85, "title": "Presión cae", "subtitle": "baja de la presión de vapor", "color": "#e5555a" },
+      { "id": "c3", "x": 331, "y": 77, "w": 140, "h": 85, "title": "Burbujas de vapor", "subtitle": "se forman en la aspiración", "color": "#e5555a" },
+      { "id": "c4", "x": 489, "y": 77, "w": 140, "h": 85, "title": "Viajan al rotor", "subtitle": "llegan a zona de más presión", "color": "#e5555a" },
+      { "id": "c5", "x": 647, "y": 77, "w": 140, "h": 85, "title": "Colapso e implosión", "subtitle": "erosiona el metal y hace ruido", "color": "#e5555a" }
+    ],
+    "edges": [["c1", "c2"], ["c2", "c3"], ["c3", "c4"], ["c4", "c5"]]
+  },
+  {
+    "title": "Cómo se calcula la pérdida de carga total de una cañería",
+    "description": "Para saber cuánta energía hay que darle al fluido primero se suman las pérdidas del tramo recto y de los accesorios, y ese total es el que define qué bomba hace falta.",
+    "viewBoxW": 820,
+    "viewBoxH": 240,
+    "nodes": [
+      { "id": "p1", "x": 15, "y": 77, "w": 140, "h": 85, "title": "Tramo recto", "subtitle": "pérdida primaria (Darcy-Weisbach)", "color": "#f2a33d" },
+      { "id": "p2", "x": 173, "y": 77, "w": 140, "h": 85, "title": "Accesorios", "subtitle": "pérdida secundaria (long. equiv.)", "color": "#f2a33d" },
+      { "id": "p3", "x": 331, "y": 77, "w": 140, "h": 85, "title": "Suma de pérdidas", "subtitle": "primarias + secundarias", "color": "#f2a33d" },
+      { "id": "p4", "x": 489, "y": 77, "w": 140, "h": 85, "title": "Pérdida de carga total", "subtitle": "energía total a vencer", "color": "#f2a33d" },
+      { "id": "p5", "x": 647, "y": 77, "w": 140, "h": 85, "title": "Altura manométrica", "subtitle": "define qué bomba hace falta", "color": "#f2a33d" }
+    ],
+    "edges": [["p1", "p2"], ["p2", "p3"], ["p3", "p4"], ["p4", "p5"]]
+  },
+  {
+    "title": "Cómo funciona un intercambiador a contracorriente",
+    "description": "Los dos fluidos entran por extremos opuestos y viajan en sentidos contrarios: eso mantiene una diferencia de temperatura más pareja y logra transferir más calor que en flujo paralelo.",
+    "viewBoxW": 740,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "h1", "x": 20, "y": 20, "w": 160, "h": 80, "title": "Fluido caliente entra", "subtitle": "entra por un extremo", "color": "#22d3ee" },
+      { "id": "h2", "x": 20, "y": 160, "w": 160, "h": 80, "title": "Fluido frío entra", "subtitle": "entra por el extremo opuesto", "color": "#22d3ee" },
+      { "id": "h3", "x": 280, "y": 90, "w": 170, "h": 90, "title": "Intercambio de calor", "subtitle": "a través de la pared (U y DTLM)", "color": "#22d3ee" },
+      { "id": "h4", "x": 550, "y": 90, "w": 170, "h": 90, "title": "Salida de ambos fluidos", "subtitle": "frío sale caliente, caliente sale frío", "color": "#22d3ee" }
+    ],
+    "edges": [["h1", "h3"], ["h2", "h3"], ["h3", "h4"]]
+  },
+  {
+    "title": "Cómo se genera y usa el vapor en una caldera",
+    "description": "El circuito del vapor se cierra en loop: se genera calentando agua en la caldera, viaja hasta donde hace falta calor, entrega su energía y el condensado vuelve para arrancar de nuevo.",
+    "viewBoxW": 820,
+    "viewBoxH": 240,
+    "nodes": [
+      { "id": "v1", "x": 15, "y": 77, "w": 140, "h": 85, "title": "Combustión en el hogar", "subtitle": "se quema el combustible", "color": "#3fbf7f" },
+      { "id": "v2", "x": 173, "y": 77, "w": 140, "h": 85, "title": "Agua se calienta", "subtitle": "circula por los tubos", "color": "#3fbf7f" },
+      { "id": "v3", "x": 331, "y": 77, "w": 140, "h": 85, "title": "Se genera vapor", "subtitle": "a la presión de trabajo", "color": "#3fbf7f" },
+      { "id": "v4", "x": 489, "y": 77, "w": 140, "h": 85, "title": "Vapor va al proceso", "subtitle": "cede calor (turbina, intercambiador)", "color": "#3fbf7f" },
+      { "id": "v5", "x": 647, "y": 77, "w": 140, "h": 85, "title": "Condensado retorna", "subtitle": "vuelve a alimentar la caldera", "color": "#3fbf7f" }
+    ],
+    "edges": [["v1", "v2"], ["v2", "v3"], ["v3", "v4"], ["v4", "v5"]]
+  },
+  {
+    "title": "Cómo llega la electricidad hasta un motor o una luminaria",
+    "description": "El recorrido completo de la energía eléctrica industrial: se genera en una central, viaja en alta tensión, se distribuye, entra al tablero de la planta y pasa por las protecciones antes de llegar al consumo final.",
+    "viewBoxW": 900,
+    "viewBoxH": 200,
+    "nodes": [
+      { "id": "e1", "x": 15, "y": 60, "w": 130, "h": 80, "title": "Generación", "subtitle": "la central produce energía", "color": "#a78bfa" },
+      { "id": "e2", "x": 160, "y": 60, "w": 130, "h": 80, "title": "Transporte", "subtitle": "alta tensión por el SADI", "color": "#a78bfa" },
+      { "id": "e3", "x": 305, "y": 60, "w": 130, "h": 80, "title": "Distribución", "subtitle": "el transformador baja tensión", "color": "#a78bfa" },
+      { "id": "e4", "x": 450, "y": 60, "w": 130, "h": 80, "title": "Tablero de planta", "subtitle": "reparte a cada circuito", "color": "#a78bfa" },
+      { "id": "e5", "x": 595, "y": 60, "w": 130, "h": 80, "title": "Protecciones", "subtitle": "termomagnético y diferencial", "color": "#a78bfa" },
+      { "id": "e6", "x": 740, "y": 60, "w": 130, "h": 80, "title": "Motor o luminaria", "subtitle": "consumen la energía final", "color": "#a78bfa" }
+    ],
+    "edges": [["e1", "e2"], ["e2", "e3"], ["e3", "e4"], ["e4", "e5"], ["e5", "e6"]]
+  },
+  {
+    "title": "Cómo se especifica un caño sin ambigüedad",
+    "description": "En la industria no se pide 'un caño' como quien compra una lata de tomates: hay que definir estos 6 datos, porque si falta alguno el proveedor completa por vos, y no siempre con lo que necesitás.",
+    "viewBoxW": 900,
+    "viewBoxH": 200,
+    "nodes": [
+      { "id": "n1", "x": 15, "y": 60, "w": 130, "h": 80, "title": "Norma", "subtitle": "ASTM, API, ASME, etc.", "color": "#5b8def" },
+      { "id": "n2", "x": 160, "y": 60, "w": 130, "h": 80, "title": "Material", "subtitle": "acero, inox, PVC...", "color": "#5b8def" },
+      { "id": "n3", "x": 305, "y": 60, "w": 130, "h": 80, "title": "Diámetro nominal", "subtitle": "nombre comercial, no real", "color": "#5b8def" },
+      { "id": "n4", "x": 450, "y": 60, "w": 130, "h": 80, "title": "Schedule", "subtitle": "espesor de pared", "color": "#5b8def" },
+      { "id": "n5", "x": 595, "y": 60, "w": 130, "h": 80, "title": "Con/sin costura", "subtitle": "soldado o sin soldadura", "color": "#5b8def" },
+      { "id": "n6", "x": 740, "y": 60, "w": 130, "h": 80, "title": "Acabado", "subtitle": "extremos y superficie", "color": "#5b8def" }
+    ],
+    "edges": [["n1", "n2"], ["n2", "n3"], ["n3", "n4"], ["n4", "n5"], ["n5", "n6"]]
+  },
+  {
+    "title": "Cómo funciona el arranque estrella-triángulo",
+    "description": "Un motor asíncrono grande conectado directo a la red consume de 5 a 7 veces la corriente normal; el arranque estrella-triángulo evita ese pico arrancando suave y conmutando recién cuando ya tomó velocidad.",
+    "viewBoxW": 720,
+    "viewBoxH": 220,
+    "nodes": [
+      { "id": "m1", "x": 20, "y": 65, "w": 150, "h": 90, "title": "Arranca en estrella", "subtitle": "menor tensión y corriente", "color": "#f2a33d" },
+      { "id": "m2", "x": 190, "y": 65, "w": 150, "h": 90, "title": "Motor acelera", "subtitle": "toma velocidad de a poco", "color": "#f2a33d" },
+      { "id": "m3", "x": 360, "y": 65, "w": 150, "h": 90, "title": "Temporizador conmuta", "subtitle": "cambia la conexión solo", "color": "#f2a33d" },
+      { "id": "m4", "x": 530, "y": 65, "w": 150, "h": 90, "title": "Pasa a triángulo", "subtitle": "trabaja a tensión plena", "color": "#f2a33d" }
+    ],
+    "edges": [["m1", "m2"], ["m2", "m3"], ["m3", "m4"]]
+  },
+  {
+    "title": "Cómo se suelda un caño crítico paso a paso",
+    "description": "En tuberías exigentes (como las de petróleo) no alcanza con soldar cualquier cosa: se prepara la unión, se hace una primera pasada de altísima calidad, se rellena más rápido y se controla todo antes de habilitarlo.",
+    "viewBoxW": 820,
+    "viewBoxH": 240,
+    "nodes": [
+      { "id": "w1", "x": 15, "y": 77, "w": 140, "h": 85, "title": "Preparación de bordes", "subtitle": "bisel y limpieza de la unión", "color": "#a78bfa" },
+      { "id": "w2", "x": 173, "y": 77, "w": 140, "h": 85, "title": "Pasada de raíz (TIG)", "subtitle": "alta calidad, primera capa", "color": "#a78bfa" },
+      { "id": "w3", "x": 331, "y": 77, "w": 140, "h": 85, "title": "Relleno (SMAW/MIG)", "subtitle": "completa el espesor, más rápido", "color": "#a78bfa" },
+      { "id": "w4", "x": 489, "y": 77, "w": 140, "h": 85, "title": "Ensayos no destructivos", "subtitle": "controlan la calidad final", "color": "#a78bfa" },
+      { "id": "w5", "x": 647, "y": 77, "w": 140, "h": 85, "title": "Caño habilitado", "subtitle": "listo para entrar en servicio", "color": "#a78bfa" }
+    ],
+    "edges": [["w1", "w2"], ["w2", "w3"], ["w3", "w4"], ["w4", "w5"]]
+  }
+]

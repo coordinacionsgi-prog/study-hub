@@ -1,0 +1,112 @@
+[
+  {
+    "title": "De FOB a CIF, paso a paso",
+    "description": "Así se arma el valor CIF a partir del FOB cuando no hay seguro contratado: se suma el flete para llegar al CFR y, como el seguro mínimo (1%) se calcula sobre el CIF y no sobre el CFR, hay que despejarlo con CIF = CFR / (1 - 0,01).",
+    "viewBoxW": 730,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "s1", "x": 8, "y": 90, "w": 130, "h": 80, "title": "FOB", "subtitle": "USD 10.000 (mercadería)", "color": "#5b8def" },
+      { "id": "s2", "x": 154, "y": 90, "w": 130, "h": 80, "title": "+ Flete", "subtitle": "USD 1.000 (transporte)", "color": "#5b8def" },
+      { "id": "s3", "x": 300, "y": 90, "w": 130, "h": 80, "title": "CFR", "subtitle": "USD 11.000 (FOB + flete)", "color": "#5b8def" },
+      { "id": "s4", "x": 446, "y": 90, "w": 130, "h": 80, "title": "+ Seguro mínimo", "subtitle": "1% s/CIF ≈ USD 111,11", "color": "#5b8def" },
+      { "id": "s5", "x": 592, "y": 90, "w": 130, "h": 80, "title": "CIF", "subtitle": "USD 11.111,11 final", "color": "#3fbf7f" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "Los 4 grupos de Incoterms",
+    "description": "Los 11 Incoterms se ordenan según cuánta responsabilidad asume el vendedor: de entregar la mercadería en su propia fábrica (grupo E) a hacerse cargo de todo hasta destino (grupo D).",
+    "viewBoxW": 720,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "s1", "x": 10, "y": 85, "w": 160, "h": 90, "title": "Grupo E", "subtitle": "EXW · hace lo mínimo", "color": "#a78bfa" },
+      { "id": "s2", "x": 190, "y": 85, "w": 160, "h": 90, "title": "Grupo F", "subtitle": "FAS, FCA, FOB · entrega en origen", "color": "#a78bfa" },
+      { "id": "s3", "x": 370, "y": 85, "w": 160, "h": 90, "title": "Grupo C", "subtitle": "CFR, CIF, CPT, CIP · paga el flete", "color": "#a78bfa" },
+      { "id": "s4", "x": 550, "y": 85, "w": 160, "h": 90, "title": "Grupo D", "subtitle": "DAP, DPU, DDP · todo hasta destino", "color": "#a78bfa" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"] ]
+  },
+  {
+    "title": "Del CIF a la Base Imponible",
+    "description": "Ejemplo real (3.500 sillas importadas de China): sobre el valor CIF se suman los derechos de importación (acá DIE, no AEC, por ser un producto sensible) y la tasa de estadística para llegar a la Base Imponible.",
+    "viewBoxW": 730,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "s1", "x": 8, "y": 85, "w": 160, "h": 90, "title": "CIF (valor aduana)", "subtitle": "USD 36.562", "color": "#f2a33d" },
+      { "id": "s2", "x": 188, "y": 85, "w": 160, "h": 90, "title": "+ DIE 15%", "subtitle": "USD 5.484,30 (reemplaza al AEC)", "color": "#f2a33d" },
+      { "id": "s3", "x": 368, "y": 85, "w": 160, "h": 90, "title": "+ Tasa estadística", "subtitle": "3% = USD 1.096,86", "color": "#f2a33d" },
+      { "id": "s4", "x": 548, "y": 85, "w": 160, "h": 90, "title": "Base Imponible", "subtitle": "USD 43.143,16", "color": "#3fbf7f" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"] ]
+  },
+  {
+    "title": "Costo vs Presupuesto de importación",
+    "description": "Desde la misma Base Imponible salen dos números distintos: el Costo (lo que queda pegado al precio del producto) solo suma gastos locales; el Presupuesto (la plata que hay que desembolsar) además suma los impuestos y percepciones que después se recuperan.",
+    "viewBoxW": 760,
+    "viewBoxH": 360,
+    "nodes": [
+      { "id": "s1", "x": 10, "y": 140, "w": 140, "h": 80, "title": "Base Imponible", "subtitle": "USD 43.143,16", "color": "#3fbf7f" },
+      { "id": "s2", "x": 210, "y": 40, "w": 150, "h": 80, "title": "+ Gastos locales", "subtitle": "despacho, bancos, flete interno", "color": "#3fbf7f" },
+      { "id": "s3", "x": 420, "y": 40, "w": 150, "h": 80, "title": "Costo de importación", "subtitle": "USD 46.848,78", "color": "#5b8def" },
+      { "id": "s4", "x": 210, "y": 240, "w": 150, "h": 80, "title": "+ IVA y percepciones", "subtitle": "IVA, IIBB, Ganancias (recuperables)", "color": "#3fbf7f" },
+      { "id": "s5", "x": 420, "y": 240, "w": 150, "h": 80, "title": "Presupuesto", "subtitle": "USD 68.420,36 (a desembolsar)", "color": "#f2a33d" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s1", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "Circuito de un seguro de transporte internacional",
+    "description": "El seguro de carga cubre desde que la mercadería se embarca hasta que se descarga en destino: si ocurre un siniestro cubierto por la póliza, hay que reclamarlo para cobrar la indemnización.",
+    "viewBoxW": 730,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "s1", "x": 8, "y": 90, "w": 130, "h": 80, "title": "Contratación", "subtitle": "se paga la prima", "color": "#e5555a" },
+      { "id": "s2", "x": 154, "y": 90, "w": 130, "h": 80, "title": "Embarque", "subtitle": "arranca la cobertura", "color": "#e5555a" },
+      { "id": "s3", "x": 300, "y": 90, "w": 130, "h": 80, "title": "Siniestro", "subtitle": "daño previsto en la póliza", "color": "#e5555a" },
+      { "id": "s4", "x": 446, "y": 90, "w": 130, "h": 80, "title": "Reclamo", "subtitle": "aviso y denuncia a la aseguradora", "color": "#e5555a" },
+      { "id": "s5", "x": 592, "y": 90, "w": 130, "h": 80, "title": "Indemnización", "subtitle": "pago al asegurado/beneficiario", "color": "#e5555a" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "Una importación de punta a punta",
+    "description": "El camino típico de una importación para consumo: desde que se hace el pedido hasta que la mercadería queda nacionalizada y se puede retirar y vender libremente.",
+    "viewBoxW": 750,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "s1", "x": 10, "y": 90, "w": 110, "h": 80, "title": "Pedido y compra", "subtitle": "contrato + Incoterm pactado", "color": "#22d3ee" },
+      { "id": "s2", "x": 134, "y": 90, "w": 110, "h": 80, "title": "Embarque", "subtitle": "sale desde origen", "color": "#22d3ee" },
+      { "id": "s3", "x": 258, "y": 90, "w": 110, "h": 80, "title": "Documentación", "subtitle": "factura, B/L, certificado origen", "color": "#22d3ee" },
+      { "id": "s4", "x": 382, "y": 90, "w": 110, "h": 80, "title": "Destinación", "subtitle": "declarás destino en 15 días", "color": "#22d3ee" },
+      { "id": "s5", "x": 506, "y": 90, "w": 110, "h": 80, "title": "Canal aduanero", "subtitle": "verde, naranja, rojo o morado", "color": "#22d3ee" },
+      { "id": "s6", "x": 630, "y": 90, "w": 110, "h": 80, "title": "Despacho a plaza", "subtitle": "pagás tributos y retirás", "color": "#3fbf7f" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"], ["s5", "s6"] ]
+  },
+  {
+    "title": "Cadena logística de una exportación",
+    "description": "El recorrido físico típico de una exportación, desde que el producto sale de la fábrica hasta que llega a manos del cliente en el exterior.",
+    "viewBoxW": 750,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "s1", "x": 10, "y": 90, "w": 130, "h": 80, "title": "Fábrica", "subtitle": "producto terminado listo", "color": "#5b8def" },
+      { "id": "s2", "x": 160, "y": 90, "w": 130, "h": 80, "title": "Puerto de origen", "subtitle": "trámite de exportación", "color": "#5b8def" },
+      { "id": "s3", "x": 310, "y": 90, "w": 130, "h": 80, "title": "Transporte internacional", "subtitle": "marítimo, aéreo o terrestre", "color": "#5b8def" },
+      { "id": "s4", "x": 460, "y": 90, "w": 130, "h": 80, "title": "Puerto de destino", "subtitle": "desaduanamiento del comprador", "color": "#5b8def" },
+      { "id": "s5", "x": 610, "y": 90, "w": 130, "h": 80, "title": "Cliente final", "subtitle": "recibe la mercadería", "color": "#3fbf7f" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"], ["s4", "s5"] ]
+  },
+  {
+    "title": "Canales de control aduanero",
+    "description": "Cuando declarás una importación o exportación en el sistema, te asigna un canal según qué tan riguroso va a ser el control: de 'pasás derecho' (verde) a revisión completa por sospecha de subvaluación (morado).",
+    "viewBoxW": 720,
+    "viewBoxH": 260,
+    "nodes": [
+      { "id": "s1", "x": 10, "y": 85, "w": 160, "h": 90, "title": "Canal verde", "subtitle": "sin trámite extra, retirás directo", "color": "#3fbf7f" },
+      { "id": "s2", "x": 190, "y": 85, "w": 160, "h": 90, "title": "Canal naranja", "subtitle": "revisan solo la documentación", "color": "#f2a33d" },
+      { "id": "s3", "x": 370, "y": 85, "w": 160, "h": 90, "title": "Canal rojo", "subtitle": "revisan papeles y mercadería", "color": "#e5555a" },
+      { "id": "s4", "x": 550, "y": 85, "w": 160, "h": 90, "title": "Canal morado", "subtitle": "control profundo, dudas de valor", "color": "#a78bfa" }
+    ],
+    "edges": [ ["s1", "s2"], ["s2", "s3"], ["s3", "s4"] ]
+  }
+]
