@@ -1,0 +1,55 @@
+{
+  "thesis": "Esta unidad es sobre cómo llevar un líquido de un punto a otro por una cañería usando una bomba: hay que vencer la altura y el rozamiento, y para armar esa instalación necesitás elegir bien los caños, las uniones (soldadura, bridas, roscas) y las válvulas correctas.",
+  "examTip": "Suelen tomar: el cálculo conceptual de pérdidas de carga primarias y secundarias (Darcy-Weisbach y longitud equivalente), qué es el ANPA y por qué se produce la cavitación, la diferencia entre caño y tubo con sus 6 parámetros de especificación, los tipos de válvulas y cuándo usar cada una, y los métodos de soldadura (SMAW, TIG, MIG/MAG, arco sumergido) con sus diferencias.",
+  "concepts": [
+    "Pérdida de carga primaria",
+    "Pérdida de carga secundaria",
+    "Ecuación de Darcy-Weisbach",
+    "Diámetro económico (Camerer)",
+    "Caño vs. tubo",
+    "Número de Schedule",
+    "ANPA (NPSH)",
+    "Cavitación",
+    "Bomba centrífuga",
+    "Bomba de desplazamiento positivo",
+    "Válvula de compuerta",
+    "Válvula esférica",
+    "Válvula globo",
+    "Bridas",
+    "Soldadura (SMAW/TIG/MIG/SAW)"
+  ],
+  "sections": [
+    {
+      "h": "De qué se trata todo esto",
+      "p": "Conducir un fluido es simplemente llevarlo de un punto a otro por una cañería cerrada, casi siempre empujado por una bomba. Para lograrlo hay que vencer dos cosas: la altura geométrica (si el líquido tiene que subir, cuesta energía; si baja, la energía la regala gratis) y el rozamiento del líquido contra la cañería y sus accesorios. Toda la unidad gira alrededor de esto: cuánta energía necesito darle al fluido y con qué piezas armo el camino por el que va a viajar. Pensalo como una autopista: la bomba es el motor del auto, la altura es una cuesta, y cada codo, válvula o angostamiento es un pozo que te frena."
+    },
+    {
+      "h": "Pérdidas de carga: primarias y secundarias",
+      "p": "Las pérdidas primarias son el rozamiento del líquido contra las paredes rectas del caño (como cuando frenás un poco al rozar contra una pared al caminar pegado a ella). Se calculan con la fórmula de Darcy-Weisbach, que dice que cuanto más larga y angosta es la cañería, y cuanto más rápido va el líquido, más energía se pierde. Las pérdidas secundarias son las que se producen en los accesorios: codos, válvulas, filtros, ensanchamientos, tes, cualquier cosa que no sea un tramo recto. Se pueden calcular de dos formas: con un coeficiente propio de cada accesorio, o con el método de la 'longitud equivalente', que es un truco práctico: le sumás a la cañería real unos metros extra ficticios que representarían la misma pérdida que genera ese accesorio."
+    },
+    {
+      "h": "El diámetro más económico",
+      "p": "Elegir un caño más grueso reduce las pérdidas de carga (menos rozamiento) pero sale más caro de comprar e instalar. Elegir uno más fino es más barato de instalar pero te hace gastar más energía toda la vida útil de la planta, porque la bomba tiene que trabajar más. El diagrama de Camerer es simplemente el gráfico que suma el costo de instalación (que crece con el diámetro) y el costo de la energía perdida (que baja con el diámetro), y busca el punto mínimo de esa suma: ese es el diámetro más conveniente a largo plazo, ni el más barato de comprar ni el que menos gasta, sino el que sale más barato en total."
+    },
+    {
+      "h": "Caño vs. tubo, y cómo se especifican sin ambigüedad",
+      "p": "Un caño (pipe) sirve para transportar fluidos: su diámetro 'nominal' es un nombre comercial que no coincide con ninguna medida física real (hasta las 12 pulgadas). Un tubo (tube) se usa para estructuras o para intercambiar calor (como en calderas): su diámetro nominal sí es el diámetro exterior real. En la industria no se puede pedir 'un caño' así nomás, como comprar una lata de tomates: hace falta definir 6 cosas para que no haya dudas: la norma (ASTM, API, etc.), el material, el diámetro nominal, el espesor de pared (el 'número de Schedule', que relaciona la presión de trabajo con la resistencia del material: a mayor Schedule, pared más gruesa), si tiene costura (soldado) o no, y el acabado de los extremos y la superficie. Si no especificás si querés con o sin costura, te van a mandar el más barato (con costura), y en aplicaciones críticas como petróleo eso puede ser un problema de seguridad."
+    },
+    {
+      "h": "Cómo se unen los caños: soldadura, bridas y roscas",
+      "p": "Hay uniones permanentes (soldadura) y desarmables (roscas, bridas y clamps). La soldadura funde de verdad el metal base de las dos piezas; si solo se calienta y se pega sin fundir el metal base, eso es 'brazing', no soldadura. Los métodos más comunes son: SMAW (con electrodo revestido, manual, el más barato y versátil), GMAW o MIG/MAG (con alambre continuo, mucho más rápido), GTAW o TIG (con electrodo de tungsteno, lentísimo pero de altísima calidad, ideal para la primera pasada en tuberías críticas) y SAW o arco sumergido (totalmente automático, el de mayor producción). Las bridas son discos con agujeros que se atornillan entre sí con una junta en el medio para que no haya fugas; la más común es la de cara con resalte (RF), que tiene unos surcos que ayudan a que la junta 'muerda' y selle mejor. Las roscas cónicas (NPT/BSPT) son el estándar en caños chicos porque sellan por la presión entre los filetes, sin necesitar una junta aparte."
+    },
+    {
+      "h": "Válvulas: no son todas iguales",
+      "p": "Una válvula sirve para controlar el paso del fluido, y elegir el tipo correcto depende de para qué la vas a usar. La válvula de compuerta y la esférica (de bola) son para abrir o cerrar del todo (tipo interruptor de luz: prendido o apagado), no para regular caudal, porque si las dejás a medio camino se dañan rápido. La válvula globo y la mariposa sí sirven para regular el caudal de a poco, como la canilla de tu casa. Las válvulas de retención (check) dejan pasar el fluido en un solo sentido, para que no vuelva para atrás. Y las válvulas de seguridad y alivio se abren solas cuando la presión sube demasiado, para evitar que algo explote."
+    },
+    {
+      "h": "Bombas: dos formas de mover el líquido",
+      "p": "Existen dos grandes familias de bombas. Las de desplazamiento positivo (a pistón, a diafragma, de engranajes) empujan el líquido físicamente reduciendo el volumen de una cámara, como una jeringa: entregan siempre el mismo caudal por vuelta, sin importar la presión que tengan que vencer. Las bombas rotodinámicas, y la más común de todas, la centrífuga, funcionan distinto: un rotor con paletas le da velocidad al líquido, y después esa velocidad se transforma en presión al pasar por una zona que se va agrandando (como una tobera al revés). La centrífuga es barata, tiene pocas piezas móviles y es la reina absoluta en la industria para mover agua y líquidos poco viscosos, aunque no da tanta presión por etapa como las de desplazamiento positivo."
+    },
+    {
+      "h": "ANPA y cavitación: por qué una bomba 'se rompe sola'",
+      "p": "El ANPA (o NPSH en inglés) es la presión mínima que necesita tener el líquido justo antes de entrar a la bomba para que no le pase algo malo. Si la presión cae por debajo de la presión de vapor del líquido en ese punto y esa temperatura, se forman burbujitas de vapor que después, al llegar a una zona de más presión dentro de la bomba, colapsan de golpe: eso es la cavitación, y literalmente va comiendo el metal del rotor a los golpes, además de hacer un ruido característico y bajar el rendimiento. Para que no pase, el 'ANPA disponible' (lo que realmente tiene el sistema, según la altura y las pérdidas de la aspiración) siempre tiene que ser mayor que el 'ANPA requerido' (el que pide el fabricante de la bomba). Por eso, cuanto más caliente está el líquido (más presión de vapor) o más alto está instalado el equipo respecto del tanque, más fácil es que cavite."
+    }
+  ]
+}

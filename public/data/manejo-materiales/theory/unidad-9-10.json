@@ -1,0 +1,49 @@
+{
+  "thesis": "La distribución en planta es organizar el espacio físico (máquinas, gente, materiales) para que todo fluya con el menor recorrido y costo posible. Según cuánta variedad de productos hacés y en qué volumen, existe un tipo de distribución que te conviene más, y el método SLP de Richard Muther es la receta paso a paso para diseñarla de forma ordenada.",
+  "examTip": "Van a pedirte diferenciar los 4 tipos de distribución (posición fija, proceso, producto, células) según volumen/variedad, nombrar los principios clásicos y los 8 factores de distribución, y sobre todo las 4 fases del SLP y sus pasos (producto-cantidad, recorrido, tabla relacional de actividades con el código A-E-I-O-U-X, diagrama relacional). También suelen preguntar sobre el cálculo de combinaciones posibles (intercambio pareado) y qué es CRAFT.",
+  "concepts": [
+    "Distribución en planta (layout)",
+    "Principios de distribución",
+    "Distribución por posición fija",
+    "Distribución por proceso",
+    "Distribución por producto (en línea)",
+    "Células de producción / familias",
+    "Factores de distribución",
+    "SLP (Systematic Layout Planning)",
+    "Fases del SLP",
+    "Tabla relacional de actividades (A-E-I-O-U-X)",
+    "Diagrama relacional de actividades",
+    "Intercambio pareado",
+    "CRAFT"
+  ],
+  "sections": [
+    {
+      "h": "Qué es la distribución en planta",
+      "p": "Es organizar físicamente todo lo que hay en una planta (máquinas, personas, materiales, almacenes, oficinas) buscando: integrar todos los factores de producción, minimizar el movimiento de materiales, aprovechar bien el espacio, dar seguridad a la gente, y ser flexible ante cambios futuros. No es un fin en sí mismo, sino una herramienta para bajar costos y mejorar el servicio al cliente."
+    },
+    {
+      "h": "Los 4 tipos básicos, según volumen y variedad",
+      "p": "POSICIÓN FIJA: el producto no se mueve (por ejemplo un avión o un barco), y son las herramientas, máquinas y trabajadores los que van hacia él. Se usa para productos muy grandes y bajo volumen. PROCESO (o por función): se agrupan máquinas similares en un mismo sector (todos los tornos juntos, todas las prensas juntas); conviene cuando hacés mucha variedad de productos en volúmenes bajos o variables, porque da flexibilidad. POR FAMILIAS (células de producción): se agrupan piezas parecidas que usan las mismas máquinas, formando 'células' de trabajo; es un punto intermedio entre proceso y producto. POR PRODUCTO (en línea): las máquinas se ordenan según la secuencia exacta del proceso, como la línea de montaje que inventó Henry Ford en 1913; conviene con alto volumen, producto estandarizado y demanda estable, pero es poco flexible: si se rompe una máquina, se para toda la línea (a menos que haya redundancia)."
+    },
+    {
+      "h": "Los principios clásicos de la distribución",
+      "p": "Son reglas generales para evaluar si una distribución es buena: Integración de conjunto (integrar hombres, máquinas y materiales como un sistema), Mínima distancia recorrida (cuanto menos camine el material, mejor), Circulación o flujo de materiales (las áreas deben seguir el mismo orden en que se procesa el material), Espacio cúbico (aprovechar también la altura, no solo el piso), Satisfacción y seguridad (la mejor distribución es la más segura y cómoda para la gente), y Flexibilidad (la que se puede reajustar más fácil ante cambios)."
+    },
+    {
+      "h": "Los 8 factores que condicionan una distribución",
+      "p": "Al diseñar un layout hay que tener en cuenta: Material (qué se mueve), Máquina (qué equipos hacen falta y su nivel de ocupación, que debería ser mayor al 80%), Hombre (seguridad, confort, calificación del personal), Movimiento (que no agrega valor, hay que minimizarlo), Espera (almacenamiento temporal, que tiene costos de espacio, financieros y de oportunidad), Servicio (mantenimiento, control de calidad, accesos), Edificio (forma, niveles, pisos, ya que a veces limita la distribución posible) y Cambio (diseñar con flexibilidad pensando en futuros cambios de proceso)."
+    },
+    {
+      "h": "El método SLP de Richard Muther: las 4 fases",
+      "p": "Richard Muther, en los años 60, creó el SLP (Systematic Layout Planning), el método más usado para diseñar una distribución en planta de forma ordenada. Tiene 4 fases que se van solapando: Fase I - Localización (decidir en qué lugar/edificio va la planta), Fase II - Plan de Distribución General (definir el patrón de flujo general y el espacio de cada área grande, sin entrar en detalle), Fase III - Plan de Distribución Detallada (ubicar exactamente cada puesto de trabajo y máquina), y Fase IV - Instalación (ejecutar los movimientos físicos reales)."
+    },
+    {
+      "h": "Los pasos del procedimiento SLP en detalle",
+      "p": "Dentro de las fases, el SLP sigue pasos concretos: 1) Análisis producto-cantidad (qué se produce y en qué cantidad, para saber qué tipo de distribución conviene). 2) Análisis del recorrido de los productos (con diagramas de flujo, cursogramas, diagramas de hilos, etc.). 3) Análisis de relaciones entre actividades, usando la TABLA RELACIONAL DE ACTIVIDADES, que califica la necesidad de cercanía entre cada par de áreas con un código de letras: A (absolutamente necesaria), E (especialmente importante), I (importante), O (importancia ordinaria), U (no importante) y X (indeseable, no deben estar cerca). 4) Diagrama Relacional de Actividades: se dibuja un grafo donde cada actividad es un nodo, y se van acomodando a prueba y error para minimizar cruces entre las relaciones más fuertes, respetando el principio de mínima distancia recorrida."
+    },
+    {
+      "h": "Cómo elegir entre varias propuestas de layout",
+      "p": "Muther recomienda armar 2 o 3 propuestas de distribución y compararlas antes de elegir la definitiva. Para evaluarlas se usan métodos como el INTERCAMBIO PAREADO (un método numérico que va probando intercambiar de a pares la posición de los departamentos, buscando reducir el costo total de recorrido; el número de combinaciones posibles crece muchísimo con la cantidad de departamentos, por eso a mano solo es práctico con pocos), métodos gráfico-numéricos por adyacencias, y programas de computadora como CRAFT, que optimiza el layout minimizando el costo total de manejo de materiales (distancia x volumen x costo por unidad) probando distintos intercambios entre departamentos de forma automática."
+    }
+  ]
+}

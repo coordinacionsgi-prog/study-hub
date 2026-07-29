@@ -1,0 +1,35 @@
+{
+  "thesis": "Bloque UNO no trae temas nuevos: es la sesión donde se junta todo lo del primer parcial (Pronósticos, Costos Estándar y Ratios) en un solo caso integrador (Requilsur), para practicar combinando las herramientas en un ejercicio grande, como va a venir en el parcial.",
+  "examTip": "El parcial de Bloque UNO suele traer un ejercicio integrador tipo Requilsur, donde en un mismo enunciado te piden aplicar pronósticos, variaciones de costo estándar y ratios de rendimiento a la vez. La clave es no perder el hilo de qué dato corresponde a qué parte del ejercicio, y resolver por partes en el orden que te lo piden.",
+  "concepts": [
+    "Caso integrador",
+    "Serie de tiempo (repaso)",
+    "Costeo estándar (repaso)",
+    "Ratios de rendimiento (repaso)",
+    "Requilsur",
+    "Datos irregulares en la serie",
+    "Cambio de escala"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué es Bloque UNO?",
+      "p": "Es una sesión de repaso e integración antes del primer parcial. No hay teoría nueva: se trabaja un caso grande (Requilsur) que mezcla ejercicios de pronósticos (armar una serie de tiempo, detectar datos irregulares o cambios de escala), de costos estándar (calcular variaciones de precio y eficiencia) y de ratios financieros (calcular rendimientos y compararlos), todo en un mismo enunciado. La idea es entrenar la cabeza para resolver un ejercicio integrador como el que aparece en el examen real."
+    },
+    {
+      "h": "Series de tiempo: lo que hay que tener frescos",
+      "p": "Repasá bien: una serie de tiempo necesita datos históricos confiables y equidistantes para que el modelo tenga sentido; el objetivo es descubrir un patrón (tendencia + estacionalidad) y proyectarlo. Si hay un dato irregular puntual (muy por encima o por debajo de lo normal), se reemplaza por el promedio entre el dato anterior y el posterior antes de seguir. Si hay un cambio de escala abrupto y permanente (por ejemplo, la empresa abrió una nueva línea de negocio), hay que separar los datos viejos de los nuevos y analizar el período nuevo aparte, sin mezclar escalas distintas."
+    },
+    {
+      "h": "Costos estándar: lo que hay que tener fresco",
+      "p": "Repasá las 4 variaciones: Precio y Eficiencia de Materia Prima, Precio y Eficiencia de Mano de Obra. Recordá la trampa clásica: la Variación Precio de MP usa la cantidad COMPRADA, mientras que la Variación Eficiencia de MP usa la cantidad CONSUMIDA -no confundirlas. Y siempre definir primero si el resultado es Favorable (ahorro real vs. lo esperado) o Desfavorable (gasto de más vs. lo esperado) antes de sumarlo o restarlo a la utilidad."
+    },
+    {
+      "h": "Ratios: lo que hay que tener fresco",
+      "p": "Repasá la Identidad de Dupont (ROA = Margen Neto × Rotación de Activos) y las diferencias entre Ra, Ra' y Ra'' según si incluís o no el efecto de intereses e impuestos. Tené clara la diferencia entre ROA (mide el uso de TODOS los activos) y ROE (mide el rendimiento que le queda a los DUEÑOS), y cuándo el endeudamiento ayuda o perjudica al ROE (según si la tasa de la deuda es menor o mayor al rendimiento operativo del negocio)."
+    },
+    {
+      "h": "Cómo encarar el ejercicio integrador",
+      "p": "En un caso como Requilsur, lo más importante es leer el enunciado completo primero e identificar qué parte de los datos corresponde a cada bloque temático (a veces un mismo dato -como el volumen de producción- sirve para más de una sección del ejercicio). Resolvé en orden: primero armá lo que sea de pronósticos (si hay que proyectar ventas), después las variaciones de costo estándar (si hay datos de producción real vs. estándar), y al final los ratios (que suelen necesitar los resultados de los pasos anteriores, como la utilidad neta ya calculada). No te adelantes a calcular un ratio si todavía te falta un dato que sale de otra parte del ejercicio."
+    }
+  ]
+}

@@ -8,6 +8,9 @@
   --accent: #5b8def;
   --good: #3fbf7f;
   --bad: #e5555a;
+  --map-edge: #636b75;
+  --map-node-bg: #1f232c;
+  --map-subtitle: #9aa1ac;
   font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
   color-scheme: dark;
 }
@@ -421,4 +424,173 @@ button {
   border-radius: 8px;
   padding: 10px 20px;
   font-size: 14px;
+}
+
+/* Theory */
+.theory-view {
+  max-width: 760px;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.theory-label {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.theory-thesis {
+  background: var(--panel);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+
+.theory-thesis p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.callout-info {
+  background: rgba(91, 141, 239, 0.1);
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+
+.callout-info p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.theory-pillrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.pill {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.theory-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.theory-section {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 18px;
+}
+
+.theory-section:last-child {
+  border-bottom: none;
+}
+
+.theory-section h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: var(--accent);
+}
+
+.theory-section p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* Concept map */
+.conceptmap-view {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.conceptmap-view h2 {
+  margin: 0 0 8px;
+}
+
+.conceptmap-intro {
+  color: var(--text-dim);
+  max-width: 70ch;
+  margin: 0 0 20px;
+}
+
+.conceptmap-diagram {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  overflow-x: auto;
+  margin-bottom: 28px;
+}
+
+.conceptmap-diagram svg {
+  width: 100%;
+  min-width: 700px;
+  height: auto;
+  display: block;
+}
+
+.conceptmap-comparisons h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.matrix {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.matrix th,
+.matrix td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+  font-size: 13.5px;
+}
+
+.matrix th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  background: var(--panel-2);
+}
+
+.matrix td {
+  color: var(--text-dim);
+}
+
+.matrix-title {
+  color: var(--text) !important;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.map-item {
+  margin-bottom: 14px;
+  border: 1px solid var(--border) !important;
 }

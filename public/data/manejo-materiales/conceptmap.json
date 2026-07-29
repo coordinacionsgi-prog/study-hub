@@ -1,0 +1,233 @@
+{
+  "intro": "La materia arranca definiendo qué es la intralogística y cómo encaja en la cadena de suministros; desde ahí se abre en dos caminos que se apoyan uno en el otro: entender el material que se mueve y cómo se opera un almacén (Unidades 2 y 7), y decidir dónde y cómo construir la planta (Unidad 8), para terminar uniendo todo en el diseño del layout con el método SLP (Unidades 9 y 10).",
+  "nodes": [
+    {
+      "id": "n1",
+      "x": 30,
+      "y": 30,
+      "w": 190,
+      "h": 90,
+      "title": "Introducción a la Intralogística",
+      "subtitle": "Manejo de materiales vs. Planeación de instalaciones",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n2",
+      "x": 30,
+      "y": 150,
+      "w": 190,
+      "h": 90,
+      "title": "Cadena de Valor y Supply Chain",
+      "subtitle": "Dónde encaja la intralogística en el negocio",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n3",
+      "x": 260,
+      "y": 30,
+      "w": 190,
+      "h": 90,
+      "title": "El material a mover",
+      "subtitle": "Sólidos, a granel, líquidos y gases",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n4",
+      "x": 260,
+      "y": 150,
+      "w": 190,
+      "h": 90,
+      "title": "Manejo manual de cargas",
+      "subtitle": "Ergonomía y límites de peso (OIT/SRT)",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n5",
+      "x": 260,
+      "y": 270,
+      "w": 190,
+      "h": 90,
+      "title": "Unidades de carga y embalaje",
+      "subtitle": "Pallets, contenedores, TEU",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n6",
+      "x": 490,
+      "y": 30,
+      "w": 200,
+      "h": 90,
+      "title": "Operación y diseño de almacenes",
+      "subtitle": "Recepción, picking, despacho, layout",
+      "color": "#f2a33d"
+    },
+    {
+      "id": "n7",
+      "x": 490,
+      "y": 150,
+      "w": 200,
+      "h": 90,
+      "title": "Sistemas de almacenaje y equipos",
+      "subtitle": "Estanterías, autoelevadores, transelevadores",
+      "color": "#f2a33d"
+    },
+    {
+      "id": "n8",
+      "x": 730,
+      "y": 30,
+      "w": 210,
+      "h": 90,
+      "title": "Localización de plantas",
+      "subtitle": "Métodos: puntos, Brown-Gibson, cribado",
+      "color": "#e5555a"
+    },
+    {
+      "id": "n9",
+      "x": 730,
+      "y": 150,
+      "w": 210,
+      "h": 90,
+      "title": "Normativa urbanística y ambiental",
+      "subtitle": "FOS/FOT, categorización, EIA",
+      "color": "#e5555a"
+    },
+    {
+      "id": "n10",
+      "x": 730,
+      "y": 270,
+      "w": 210,
+      "h": 90,
+      "title": "Edificios industriales",
+      "subtitle": "Hormigón, acero, cabreadas, LEED",
+      "color": "#a78bfa"
+    },
+    {
+      "id": "n11",
+      "x": 350,
+      "y": 400,
+      "w": 210,
+      "h": 90,
+      "title": "Distribución en planta (tipos)",
+      "subtitle": "Posición fija, proceso, producto, células",
+      "color": "#22d3ee"
+    },
+    {
+      "id": "n12",
+      "x": 600,
+      "y": 400,
+      "w": 220,
+      "h": 90,
+      "title": "SLP: diseño sistemático del layout",
+      "subtitle": "Método de Richard Muther, paso a paso",
+      "color": "#22d3ee"
+    }
+  ],
+  "edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n2",
+      "n3"
+    ],
+    [
+      "n3",
+      "n4"
+    ],
+    [
+      "n3",
+      "n5"
+    ],
+    [
+      "n5",
+      "n6"
+    ],
+    [
+      "n6",
+      "n7"
+    ],
+    [
+      "n2",
+      "n8"
+    ],
+    [
+      "n8",
+      "n9"
+    ],
+    [
+      "n9",
+      "n10"
+    ],
+    [
+      "n7",
+      "n11"
+    ],
+    [
+      "n10",
+      "n11"
+    ],
+    [
+      "n11",
+      "n12"
+    ]
+  ],
+  "comparisons": [
+    [
+      "Intralogística vs Planeación de Instalaciones",
+      "La intralogística es el movimiento de materiales día a día dentro de la planta; la planeación de instalaciones es decidir dónde y cómo construir esa planta (ubicación, edificio, layout)."
+    ],
+    [
+      "Envase vs Embalaje",
+      "El envase contiene el producto y también cumple una función comercial (vender, diferenciar); el embalaje solo protege durante el transporte y almacenamiento, sin función comercial."
+    ],
+    [
+      "Sistema Push vs Sistema Pull",
+      "Push produce antes de vender, apostando al pronóstico de demanda; Pull (Just in Time) produce recién cuando hay una venta real, minimizando el stock."
+    ],
+    [
+      "WMS vs ERP",
+      "El ERP gestiona toda la empresa (finanzas, compras, producción); el WMS es el sistema específico que controla la operación diaria del almacén (recepción, picking, despacho)."
+    ],
+    [
+      "Macro localización vs Micro localización",
+      "La macro localización elige la región o zona amplia (país, provincia); la micro localización elige el terreno puntual dentro de esa zona ya decidida."
+    ],
+    [
+      "FOS vs FOT",
+      "El FOS limita qué porcentaje del terreno se puede cubrir en planta baja; el FOT limita los metros cuadrados totales construibles sumando todos los pisos."
+    ],
+    [
+      "Distribución por producto vs por proceso",
+      "Por producto, las máquinas se ordenan según la secuencia del proceso (alto volumen, poca variedad); por proceso, se agrupan máquinas similares en sectores (demanda baja o variable, mucha variedad)."
+    ],
+    [
+      "Sistema Drive-in vs Sistema Dinámico",
+      "El Drive-in es más económico y funciona en LIFO (el autoelevador entra al pasillo interno); el Dinámico usa gravedad y funciona en FIFO, ideal para alta rotación."
+    ],
+    [
+      "Autoelevador convencional vs Transelevador",
+      "El autoelevador convencional es manual y llega hasta 7,5m; el transelevador es una máquina automática de recorrido fijo, sin límite práctico de altura, típica de almacenes autoportantes."
+    ],
+    [
+      "Hormigón armado vs Hormigón pretensado",
+      "El armado suma barras de acero adentro para resistir la tracción que el hormigón solo no aguanta; el pretensado tensa esos cables ANTES de que fragüe el hormigón, permitiendo estructuras más livianas y de mayor luz."
+    ],
+    [
+      "Ley vs Norma técnica",
+      "La ley es de cumplimiento obligatorio, dictada por el Estado; la norma técnica (IRAM, ISO) surge por consenso entre partes y fija condiciones mínimas de un producto o servicio."
+    ],
+    [
+      "Cross docking directo vs con preclasificación",
+      "El directo llega ya armado para cada destino (ej. distribución de bebidas); el de preclasificación llega mezclado y se separa en el mismo depósito (ej. e-commerce)."
+    ],
+    [
+      "Contenedor Reefer vs Porthole/Aislado",
+      "El Reefer trae su propio equipo de frío incorporado; el Porthole (aislado) no genera frío por sí mismo, necesita que se lo inyecten desde afuera."
+    ],
+    [
+      "Ponderación de puntos vs Brown-Gibson",
+      "Ponderación de puntos mezcla factores medibles y calificaciones subjetivas en una sola escala; Brown-Gibson separa los factores objetivos (en plata) de los subjetivos y los combina con un coeficiente K."
+    ]
+  ]
+}

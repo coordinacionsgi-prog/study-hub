@@ -20,3 +20,11 @@ export async function getFlashcards(subjectId, moduleId) {
 export async function getQuiz(subjectId, moduleId) {
   return jsonOrThrow(await fetch(`${BASE}/${subjectId}/quiz/${moduleId}.json`));
 }
+
+export async function getTheory(subjectId, moduleId) {
+  return jsonOrThrow(await fetch(`${BASE}/${subjectId}/theory/${moduleId}.json`));
+}
+
+export async function getConceptMap(subjectId) {
+  return jsonOrThrow(await fetch(`${BASE}/${subjectId}/conceptmap.json`));
+}

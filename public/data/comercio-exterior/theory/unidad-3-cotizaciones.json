@@ -1,0 +1,50 @@
+{
+  "thesis": "Los Incoterms son 11 códigos de 3 letras que reparten, de forma estandarizada en todo el mundo, quién paga cada gasto y hasta dónde asume el riesgo cada parte en una compraventa internacional — no son un contrato, pero son la cláusula más importante de uno.",
+  "examTip": "Te van a pedir que expliques o compares Incoterms puntuales (sobre todo FOB vs CIF, EXW vs DDP, FCA vs FOB): quién paga el transporte, quién contrata el seguro y en qué momento exacto pasa el riesgo del vendedor al comprador. También puede haber un ejercicio numérico simple: te dan un valor FOB, un flete y un seguro (o el % de seguro) y tenés que calcular el CIF, o armar correctamente una cotización con el formato Moneda + Monto + Término + Lugar + Revisión.",
+  "concepts": [
+    "EXW",
+    "FCA",
+    "FAS",
+    "FOB",
+    "CFR",
+    "CIF",
+    "CPT",
+    "CIP",
+    "DAP",
+    "DPU",
+    "DDP",
+    "Grupo E / F / C / D",
+    "Transmisión del riesgo",
+    "Cámara de Comercio Internacional (CCI)"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué son los Incoterms y para qué sirven?",
+      "p": "INCOTERMS significa International Commerce Terms. Son siglas de 3 letras creadas por la Cámara de Comercio Internacional (CCI, con sede en París) desde 1936, para que un vendedor y un comprador de distintos países, que no comparten idioma ni leyes ni costumbres, se entiendan sin discutir. Cada Incoterm define tres cosas: qué tarea le toca hacer a cada uno (obligaciones), quién paga cada gasto (costos) y en qué punto exacto el riesgo de que algo le pase a la mercadería pasa del vendedor al comprador (riesgo). Ojo: los Incoterms NO son un contrato de compraventa en sí mismos, son solo una cláusula dentro de ese contrato, pero una cláusula clave. Se actualizan cada 10 años más o menos; la versión vigente hoy es INCOTERMS 2020."
+    },
+    {
+      "h": "Los 4 grupos: la lógica detrás de las siglas",
+      "p": "Los 11 Incoterms se ordenan en 4 grupos según cuánto hace el vendedor. Grupo E (solo EXW): el vendedor hace lo mínimo posible, pone la mercadería a disposición en su propia fábrica/depósito. Grupo F (FAS, FCA, FOB): el vendedor entrega la mercadería al transportista internacional que contrató el comprador, en el país de origen. Grupo C (CFR, CIF, CPT, CIP): el vendedor contrata y paga el transporte internacional (y a veces el seguro) hasta destino, pero el riesgo ya pasó al comprador desde que la carga salió de origen — o sea, paga el flete pero no se hace responsable del viaje. Grupo D (DAP, DPU, DDP): el vendedor se hace cargo de los gastos Y los riesgos hasta un punto convenido en destino, es el que más responsabilidad asume."
+    },
+    {
+      "h": "Grupo E y F: el vendedor hace poco (EXW, FCA, FAS, FOB)",
+      "p": "EXW (Ex-Works, 'en fábrica'): el precio no incluye nada de flete, seguro ni trámite de exportación. El comprador tiene que ir a buscar la mercadería a la fábrica del vendedor y hacerse cargo de todo el resto, incluso del trámite de exportación en el país de origen. Es el Incoterm que menos conviene a un comprador sin experiencia. FCA (Free Carrier, 'libre al transportista'): el vendedor entrega la mercadería al transportista elegido por el comprador (puede ser un camión, un avión, cualquier medio) e incluye el trámite de exportación. FAS (Free Alongside Ship, 'libre al costado del buque'): solo para transporte marítimo/fluvial, el vendedor deja la mercadería al lado del barco (útil para cargas a granel). FOB (Free on Board, 'libre a bordo'): también solo marítimo/fluvial, el vendedor es responsable hasta que la mercadería está subida y estibada en el barco; ahí recién pasa el riesgo al comprador."
+    },
+    {
+      "h": "Grupo C: el vendedor paga el flete pero no el riesgo (CFR, CIF, CPT, CIP)",
+      "p": "En este grupo el vendedor contrata y paga el transporte internacional hasta un punto de destino, pero el riesgo se transmite al comprador antes, cuando la mercadería se entrega al primer transportista en origen (esto confunde mucho: 'paga hasta destino' no significa 'es responsable hasta destino'). CFR (Cost and Freight): incluye flete marítimo pero NO seguro. CIF (Cost, Insurance and Freight): igual que CFR pero además el vendedor contrata un seguro internacional (mínimo cláusula ICC C, por el 110% del valor CIF). CPT y CIP son los equivalentes a CFR y CIF pero para cualquier medio de transporte, no solo marítimo — y en CIP el seguro exigido es más completo (cláusula ICC A, todo riesgo)."
+    },
+    {
+      "h": "Grupo D: el vendedor se banca todo hasta destino (DAP, DPU, DDP)",
+      "p": "Acá el vendedor asume gastos Y riesgos hasta un punto convenido en el país de destino. DAP (Delivered At Place, 'entregada en lugar'): el vendedor entrega la mercadería sin descargar en el punto convenido; el comprador se encarga de descargarla y de importarla. DPU (Delivered Place Unloaded, 'entregada en terminal'): igual que DAP pero el vendedor también se encarga de descargarla. DDP (Delivered Duty Paid, 'entregada con derechos pagados'): es el Incoterm donde el vendedor hace absolutamente todo, incluso el trámite y pago de la importación en el país de destino; para el comprador es como comprar en su propio mercado local, sin ningún trámite de comercio exterior que hacer."
+    },
+    {
+      "h": "Cómo armar correctamente una cotización",
+      "p": "Una cotización con Incoterms siempre sigue esta estructura: Moneda + Monto + Término + Lugar + Revisión + Comentario. Por ejemplo: 'USD 2.750.000 FOB Puerto de Buenos Aires INCOTERMS 2020, se incluye costo del certificado de origen'. Es importante siempre aclarar la revisión (2020, 2010, etc.) porque las versiones viejas siguen siendo válidas y pueden tener reglas distintas, y especificar bien el lugar (no alcanza con decir 'FOB', hay que decir FOB de qué puerto)."
+    },
+    {
+      "h": "Ejemplo numérico: de FOB a CIF, paso a paso",
+      "p": "Supongamos que compraste mercadería FOB por USD 10.000. El flete internacional cuesta USD 1.000. Como no se pactó un seguro explícito, hay que calcular un 'seguro mínimo de referencia' del 1% sobre el valor CFR (que es FOB + flete). Paso 1: CFR = FOB + Flete = 10.000 + 1.000 = USD 11.000. Paso 2: como la alícuota del seguro (1%) se aplica sobre el CIF y no sobre el CFR, hay que despejarlo así: CIF = CFR / (1 - 0,01) = 11.000 / 0,99 = USD 11.111,11. Paso 3: el seguro es la diferencia: CIF - CFR = 11.111,11 - 11.000 = USD 111,11. Esa cuenta (CIF = CFR / (1 - tasa)) es la que suele pedirse en el parcial cuando no hay un seguro real contratado (solo obligatorio en CIF y CIP)."
+    }
+  ]
+}

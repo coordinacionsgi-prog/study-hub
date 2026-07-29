@@ -1,0 +1,52 @@
+{
+  "thesis": "Este bloque es todo sobre almacenes: cómo funciona la cadena de abastecimiento (empujar producción o tirar de la demanda), qué actividades hace un depósito día a día, cómo se arma y dimensiona el espacio, qué sistemas de estanterías existen, qué máquinas se usan para mover pallets, y cómo decidir en qué posición guardar cada producto para caminar lo menos posible.",
+  "examTip": "Es la unidad con más contenido de cálculo y de memoria de datos técnicos. Te van a pedir: las 5 actividades de la operación de un almacén, la diferencia entre WMS y ERP, medidas de pallets y contenedores (TEU), las zonas del layout de un almacén con sus anchos mínimos, diferenciar los sistemas de estanterías (drive-in, push-back, dinámico, pallet shuttle) por su lógica FIFO/LIFO, y el modelo de mínimo recorrido con el cociente viajes/posiciones (vj/qj).",
+  "concepts": [
+    "Supply Chain y Push/Pull",
+    "5 actividades de la operación de almacenes",
+    "WMS vs ERP",
+    "Picking (preparación de pedidos)",
+    "Unidad de carga y contenedores (TEU)",
+    "Zonas del layout de un almacén",
+    "Cross docking",
+    "Sistemas de almacenaje en bloque",
+    "Estanterías de acceso directo",
+    "Almacén autoportante",
+    "Equipos de movimiento (zorra, apilador, autoelevador, transelevador)",
+    "Modelo de mínimo recorrido"
+  ],
+  "sections": [
+    {
+      "h": "Push vs Pull: dos formas de abastecerse",
+      "p": "En el sistema PUSH (empujar) se produce ANTES de que se venda, apostando a que la demanda estimada sea correcta. Necesita mucha precisión al pronosticar, mucha capacidad de almacenamiento y suele apoyarse en un sistema MRP. En el sistema PULL (tirar, o Just in Time) se produce solo cuando ya hay una venta real, buscando eliminar desperdicios (Lean Logistics). El Pull exige una cadena de suministros muy integrada y confiable, porque no hay stock de respaldo para cubrir errores."
+    },
+    {
+      "h": "Las 5 actividades de un almacén",
+      "p": "Todo almacén, sin importar el rubro, hace lo mismo en el fondo: RECEPCIÓN (registrar lo que entra), ALMACENAMIENTO (guardarlo), PREPARACIÓN DE PEDIDOS o PICKING (juntar lo que pidió cada cliente), DESPACHO (registrar y sacar lo que se va) y SERVICIO AL CLIENTE/POSTVENTA (reclamos, devoluciones). El picking es, casi siempre, la actividad más cara y la que más tiempo consume, por eso es la que más se optimiza. Un ERP (sistema de gestión de toda la empresa: finanzas, compras, producción) le manda órdenes al WMS (Warehouse Management System), que es el sistema específico que controla la operación diaria del depósito: recepción, picking, despacho e inventarios."
+    },
+    {
+      "h": "Unidades de carga: pallets y contenedores",
+      "p": "Ya vimos los pallets en la Unidad 2. Acá se suma el contenedor ISO, la caja metálica estandarizada para transporte marítimo, terrestre y multimodal. Las medidas más usadas son el de 20 y 40 pies. Para medir capacidad de puertos y depósitos se usa el TEU (Twenty-foot Equivalent Unit): el volumen que ocupa un contenedor estándar de 20 pies. Hay tipos especiales: Reefer (refrigerado, con equipo propio de frío), Aislado o Porthole (sin generador propio de frío), Open Top (sin techo), Flat Rack (para cargas muy anchas) y contenedores tanque (para líquidos o gases)."
+    },
+    {
+      "h": "El layout de un almacén: las zonas",
+      "p": "Para diseñar el espacio de un depósito se lo divide en zonas funcionales: 1) carga y descarga (muelles para camiones), 2) recepción y devoluciones, 3) almacenaje (en estantería o sobre piso), 4) preparación de pedidos, 5) expedición/despacho y 6) oficinas y servicios. Hay medidas estándar a memorizar: puertas de 8,5m para doble mano de circulación (o 4,2m para mano única), pasillos de 3,6 a 4m de ancho, radios de giro de 30m, y 1,5 m² por empleado administrativo en las oficinas. En los muelles, el espacio libre depende del ángulo de atraque del camión: a mayor ángulo (90°), más espacio hace falta."
+    },
+    {
+      "h": "Cross docking: cuando el producto casi ni se guarda",
+      "p": "El cross docking es un sistema donde la mercadería que llega prácticamente no se almacena: se reclasifica y sale directo hacia el destino final. Hay dos variantes: cross docking directo o predistribuido (llega ya armado para cada destino, como un centro de distribución de bebidas) y cross docking con preclasificación (llega mezclado y se separa ahí mismo, como en un centro de e-commerce)."
+    },
+    {
+      "h": "Sistemas de almacenaje: bloque vs estanterías de acceso directo",
+      "p": "Los sistemas en BLOQUE amontonan pallets sin pasillos individuales entre cada uno; dentro de este grupo están los sistemas Drive-in (el autoelevador entra dentro de la estructura, el más económico), Push Back (se empuja el pallet nuevo contra el anterior, funciona en LIFO -el último que entra es el primero que sale-), Dinámico (los pallets se deslizan por gravedad sobre rodillos, funciona en FIFO -el primero que entra es el primero que sale-, ideal para rotación alta) y Pallet Shuttle (un carrito motorizado mueve los pallets, puede trabajar FIFO o LIFO). Las ESTANTERÍAS DE ACCESO DIRECTO en cambio dan acceso individual a cada pallet (más selectividad, pero más pasillos). Para alturas mayores a 15m se usa el almacén autoportante, donde la propia estantería es la estructura del edificio."
+    },
+    {
+      "h": "Los equipos: de la zorra manual al transelevador",
+      "p": "Hay una escala de equipos según cuánta altura necesitás y cuánto automatizás: la zorra para pallets (manual, solo desplaza, no eleva) es lo más básico; el apilador eleva hasta 3-6,5m; el autoelevador convencional (el clásico, contrapesado) llega hasta 7,5m; el elevador trilateral trabaja en pasillos angostos (1,5 a 1,8m) y llega a 15m; y el transelevador es una máquina automática de recorrido fijo, sin límite práctico de altura, que se usa en los almacenes autoportantes y totalmente automáticos."
+    },
+    {
+      "h": "El modelo de mínimo recorrido: dónde ubicar cada producto",
+      "p": "Este modelo responde una pregunta muy concreta: ¿en qué posición del depósito conviene guardar cada referencia para caminar lo menos posible? La lógica es simple: a los productos que más se mueven (más viajes) hay que ponerlos en las posiciones más cercanas a la entrada/salida. Se calcula el cociente vj/qj (viajes sobre posiciones necesarias) para cada referencia, se ordena de mayor a menor, y se le asignan las posiciones con menor 'costo de recorrido' (fk) a la referencia con mayor cociente, así hasta terminar."
+    }
+  ]
+}

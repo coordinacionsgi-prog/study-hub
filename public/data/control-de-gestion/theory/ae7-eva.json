@@ -1,0 +1,46 @@
+{
+  "thesis": "AE7 responde la pregunta más importante para un inversor: ¿la empresa está REALMENTE creando valor, o solo dando ganancia contable? El EVA compara el rendimiento del negocio contra el costo de todo el capital invertido (propio + prestado): si el rendimiento no le gana a ese costo, en realidad se está destruyendo valor aunque el balance muestre 'ganancia'.",
+  "examTip": "Te van a pedir calcular EVA = (ROIC - WACC) × Capital Invertido, y explicar qué significa que dé positivo o negativo. También suele preguntarse por qué una empresa 'contablemente rentable' puede tener EVA negativo (porque no está considerando el costo del capital propio, solo el de la deuda).",
+  "concepts": [
+    "EVA (Valor Económico Agregado)",
+    "NOPAT",
+    "ROIC",
+    "WACC (Costo de Capital)",
+    "Capital Invertido",
+    "Ke (costo del capital propio)",
+    "Kd (costo de la deuda)",
+    "Valor de mercado vs. valor libros",
+    "Intangibles / capital intelectual",
+    "Creación de valor"
+  ],
+  "sections": [
+    {
+      "h": "El problema con las métricas contables tradicionales",
+      "p": "La Utilidad Neta que muestra el balance solo descuenta el costo EXPLÍCITO de la deuda (los intereses que se pagan al banco), pero NO descuenta el costo de que los dueños hayan puesto su plata en ESTA empresa en vez de en otra alternativa igual de riesgosa. Ese costo 'invisible' del capital propio se llama costo de oportunidad, y aunque no aparece en ningún asiento contable, es igual de real: si los dueños hubieran ganado más poniendo la plata en otro lado con el mismo riesgo, la empresa en el fondo les está destruyendo valor, aunque el balance diga que 'ganó plata'."
+    },
+    {
+      "h": "NOPAT: la ganancia operativa 'pura'",
+      "p": "NOPAT (Net Operating Profit After Tax) es la ganancia que genera el NEGOCIO en sí, antes de pagar intereses de deuda pero después de impuestos. Se calcula así para poder comparar la rentabilidad del negocio sin que la ensucie la forma en que se financió (con más o menos deuda). Es el punto de partida para calcular el ROIC."
+    },
+    {
+      "h": "ROIC: el rendimiento sobre TODO el capital invertido",
+      "p": "ROIC (Return on Invested Capital) = NOPAT / Capital Invertido, donde el Capital Invertido es toda la plata que financia la operación del negocio (deuda financiera + patrimonio neto, sin importar de dónde vino). Mide qué tan bien el negocio transforma en ganancia CADA peso invertido, sea de deuda o de los dueños."
+    },
+    {
+      "h": "WACC: cuánto cuesta TODO ese capital",
+      "p": "El WACC (Weighted Average Cost of Capital, o Costo Promedio Ponderado de Capital) es el costo promedio de financiarse, pesando cuánto viene de deuda y cuánto de capital propio: WACC = Kd × (1-tx) × (D/(D+E)) + Ke × (E/(D+E)). Kd es la tasa de interés de la deuda (se le resta el efecto del ahorro fiscal, por eso ×(1-tx)); Ke es el rendimiento que exigen los accionistas por poner su plata en un negocio de ese riesgo (el costo de oportunidad de los dueños); D y E son deuda y patrimonio. El WACC es la 'vara' mínima que el negocio tiene que superar para que valga la pena haber invertido esa plata ahí."
+    },
+    {
+      "h": "EVA: la fórmula que junta todo",
+      "p": "EVA = (ROIC - WACC) × Capital Invertido. Si el ROIC (lo que realmente rinde el negocio) es MAYOR al WACC (lo que cuesta financiarlo), el EVA da positivo: la empresa está creando valor de verdad, generando más de lo que le cuesta el capital que usa. Si el ROIC es MENOR al WACC, el EVA da negativo: aunque haya ganancia contable positiva, en el fondo se está destruyendo valor, porque no le alcanza ni para cubrir lo que le cuesta el capital invertido (sobre todo el costo invisible del capital propio)."
+    },
+    {
+      "h": "Cómo mejorar el EVA",
+      "p": "Hay 3 caminos básicos: 1) aumentar el ROIC mejorando la eficiencia operativa (vender más rentable, gastar menos) sin agregar más capital; 2) crecer invirtiendo en proyectos NUEVOS solo si su rendimiento esperado supera al WACC (si no, mejor no invertir ahí); y 3) desinvertir en actividades donde el capital invertido rinde menos que el WACC (sacar plata de negocios que destruyen valor y ponerla en otro lado que sí rinda)."
+    },
+    {
+      "h": "Valor de mercado vs. valor libros y los intangibles",
+      "p": "El Valor Libros de una empresa es lo que dice el balance (Patrimonio Neto contable). El Valor de Mercado (lo que realmente pagaría alguien por comprarla, o su valor bursátil) casi siempre es distinto, muchas veces mayor, porque incluye activos INTANGIBLES que la contabilidad tradicional no valora bien: la marca, el capital humano (el know-how de la gente), el capital estructural (procesos, sistemas) y el capital relacional (la cartera de clientes, la relación con proveedores). Modelos como el Balanced Scorecard intentan justamente medir y gestionar estos intangibles que el balance oficial no capta, pero que sí explican gran parte del valor real de una empresa exitosa."
+    }
+  ]
+}

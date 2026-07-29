@@ -1,0 +1,35 @@
+{
+  "thesis": "Bloque DOS es la sesión de repaso e integración antes del segundo parcial: junta Análisis Marginal, Costos Estándar, Variaciones Patrimoniales y ratios (Dupont, Mark-up, Crecimiento sostenible) en ejercicios combinados, tal como va a venir el examen.",
+  "examTip": "El segundo parcial mezcla ejercicios de Análisis Marginal (ecuación de ΔU) con Costeo Estándar (variaciones) y a veces con ratios de rendimiento o EVA. Repasá bien la Identidad de Dupont y el Mark-up, que suelen aparecer como 'gancho' para conectar los temas del bloque dos entre sí.",
+  "concepts": [
+    "Variaciones patrimoniales (repaso)",
+    "Análisis marginal (repaso)",
+    "Costeo estándar (repaso)",
+    "Mark-up",
+    "Identidad de Dupont",
+    "Crecimiento sostenible",
+    "Ejercicio integrador"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué es Bloque DOS?",
+      "p": "Es la sesión de cierre antes del segundo parcial (que cubre Análisis Marginal, Costos Estándar y las Sesiones AE5 a AE7). No trae teoría nueva, sino que combina ejercicios de varios temas para practicar el tipo de consigna integradora que suele aparecer en el examen real, mezclando dos o tres herramientas en un mismo caso."
+    },
+    {
+      "h": "Repaso rápido: variaciones patrimoniales",
+      "p": "Recordá la clasificación: Permutativas (no cambian el Patrimonio Neto total, solo cambian la composición de activos/pasivos) vs. Modificativas (sí cambian el PN), y dentro de las Modificativas: Propias (por la operación normal del negocio: ventas, gastos) vs. Impropias (por decisión de los dueños: aportes, retiros de capital). Este tema suele aparecer mezclado con ejercicios de armar un balance paso a paso a partir de una lista de operaciones."
+    },
+    {
+      "h": "Repaso rápido: Mark-up",
+      "p": "Mark-up = Utilidad Bruta / Costo de Mercadería Vendida. Es distinto del Margen Bruto (que se calcula sobre Ventas, no sobre el Costo). El Mark-up te dice qué porcentaje le 'agregaste' al costo para llegar al precio de venta; el Margen Bruto te dice qué porcentaje de cada venta es ganancia bruta. Son dos formas de mirar la misma rentabilidad desde bases distintas (costo vs. venta), y es común que un ejercicio te dé uno y te pida calcular el otro."
+    },
+    {
+      "h": "Repaso rápido: Identidad de Dupont y crecimiento sostenible",
+      "p": "ROA = Margen Neto × Rotación de Activos (Utilidad Neta/Ventas × Ventas/Activo Total). Esta identidad te permite diagnosticar SI el problema de rentabilidad de una empresa viene de un margen bajo o de una rotación lenta, aunque el ROA final sea el mismo número. El Crecimiento Sostenible (G = ROE × tasa de retención de utilidades) suele aparecer conectado: una empresa con buen ROE pero que reparte toda la ganancia como dividendos (retención = 0) no puede crecer con fondos propios, por más rentable que sea en el papel."
+    },
+    {
+      "h": "Cómo encarar un ejercicio combinado de Bloque DOS",
+      "p": "Primero identificá qué te está pidiendo cada parte del enunciado y de qué tema depende (¿es una variación de costo estándar? ¿es un cambio de precio/volumen para análisis marginal? ¿es un ratio?). Resolvé cada parte por separado con la fórmula correspondiente, prestando atención a si un resultado de una parte lo vas a necesitar como dato de entrada en otra parte del mismo ejercicio (por ejemplo, la utilidad después de variaciones de costo estándar puede ser el punto de partida para calcular después un ratio de rendimiento)."
+    }
+  ]
+}

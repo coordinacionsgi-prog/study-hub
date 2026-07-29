@@ -1,0 +1,44 @@
+{
+  "thesis": "Estas son las 6 clases grabadas del profe, que repasan las Unidades 1, 2, 7 y 8 pero con ejemplos numéricos concretos y anécdotas reales, justo el tipo de cosas que después aparecen calcadas en los parciales.",
+  "examTip": "Prestá atención a los ejemplos numéricos resueltos en clase: el cálculo de FOS/FOT, el cálculo de nodos de una cabreada según la carga a colgar, y el cálculo de tiempos de trabajo/descanso con Lehmann-Spitzer. Son el tipo de ejercicio que se repite en los parciales casi con los mismos números.",
+  "concepts": [
+    "Redundancia en el diseño",
+    "Ley vs norma técnica vs regla del buen arte",
+    "Accidente de trabajo vs in itínere",
+    "Metabolismo basal, de ocio y laboral",
+    "Cálculo de tiempo de descanso (Lehmann-Spitzer)",
+    "FOS y FOT (ejemplo numérico)",
+    "Zona industrial vs parque industrial",
+    "Hormigón H30",
+    "Nodos de una cabreada",
+    "Junta de dilatación",
+    "Push vs Pull (repaso)",
+    "WMS vs ERP (repaso)"
+  ],
+  "sections": [
+    {
+      "h": "Clase 1: por qué mover materiales nunca agrega valor",
+      "p": "El profe insiste en esta idea central: mover material es siempre un costo, nunca agrega valor al producto (nadie paga más por una pieza porque 'viajó mucho' dentro de la fábrica). Por eso toda la materia gira en torno a minimizar ese movimiento. También explica la diferencia entre ley (obligatoria, del Estado), norma técnica (consenso, como IRAM/ISO) y regla del buen arte (una buena práctica aceptada pero no necesariamente escrita en ninguna norma). Y remarca que 'redundancia' en el diseño de instalaciones significa tener sistemas de respaldo (por ejemplo, dos máquinas en vez de una) para que una falla no pare toda la producción."
+    },
+    {
+      "h": "Clase 2: accidentes, metabolismo y localización con números",
+      "p": "Se distingue con precisión: Accidente de Trabajo (ocurre durante la tarea), Enfermedad Profesional (por exposición prolongada a un riesgo) y Accidente In Itínere (en el trayecto entre el trabajo y la casa, o el lugar donde se come o se cobra). Sobre el esfuerzo físico: el metabolismo basal es el gasto de energía mínimo para vivir, el de ocio es en el tiempo libre, y el laboral es el que suma el trabajo. Con el método Lehmann-Spitzer se calcula cuántos minutos de descanso corresponden por cada hora de trabajo según el gasto energético de la tarea (si da 25% de descanso, son 45 minutos de trabajo y 15 de descanso por hora, por ejemplo). También se resuelven ejemplos completos de Ponderación de Puntos, Brown-Gibson y Cribado para localización de plantas."
+    },
+    {
+      "h": "Clase 3: FOS, FOT y categorización ambiental con ejemplo",
+      "p": "Ejemplo típico de clase: un terreno de 100 m² con FOS 0,8 y FOT 5 permite construir hasta 80 m² cubiertos en planta baja, y hasta 500 m² totales sumando todos los pisos. Una ZONA INDUSTRIAL es simplemente un área del código urbanístico habilitada para industria; un PARQUE INDUSTRIAL es un desarrollo planificado con infraestructura común (servicios, seguridad, gestión compartida) pensado específicamente para alojar industrias. También se repasa el circuito para conseguir el certificado de aptitud ambiental y que la audiencia pública en una Evaluación de Impacto Ambiental no es vinculante (se escucha a la comunidad, pero la autoridad puede decidir distinto)."
+    },
+    {
+      "h": "Clase 4: hormigón, cabreadas y LEED con cálculo",
+      "p": "El hormigón H30 indica su resistencia a la compresión (30 MPa aproximadamente). El hormigón pretensado (se tensan los cables antes de que fragüe) aguanta más que el postensado (se tensan después). En zonas sísmicas como Salta se usa mucho más acero de refuerzo que en CABA, porque hay que resistir esfuerzos horizontales del sismo, no solo el peso vertical. Los NODOS de una cabreada son los únicos puntos donde se puede colgar peso (nunca en el medio de una barra). Ejemplo de clase: si cada nodo soporta 100 kg y hay que colgar 800 kg de forma centrada y equidistante, hacen falta como mínimo 8 nodos. La junta de dilatación en un piso industrial es un corte que permite que el hormigón se expanda y contraiga con la temperatura sin agrietarse."
+    },
+    {
+      "h": "Clase 5: los tipos de distribución explicados con ejemplos cotidianos",
+      "p": "Se repasan los 6 principios clásicos de distribución (integración, mínima distancia, flujo, espacio cúbico, satisfacción/seguridad, flexibilidad) y los 4 tipos de distribución con ejemplos concretos: posición fija para un barco o un avión, proceso cuando conviene agrupar por tipo de máquina (ej. un taller mecánico chico), familias de producto para agrupar piezas parecidas, y producto (línea) para fabricación en serie de algo estandarizado, como la línea de Ford. Se explica por qué la distribución por producto tiene poca flexibilidad: si cambia el producto, hay que rediseñar toda la línea."
+    },
+    {
+      "h": "Clase 6: cómo funciona un almacén en la práctica",
+      "p": "Se compara el enfoque tradicional (departamentos que no se hablan entre sí) contra una cadena de suministros integrada (todos comparten información). Se repasa Push (producir antes de vender) vs Pull (producir según demanda real), y ERP (gestión de toda la empresa) vs WMS (gestión específica del depósito). Un dato práctico: un almacén nunca se diseña para trabajar al 100% de ocupación de sus posiciones, porque siempre hace falta margen para reacomodar mercadería, recibir picos de stock y hacer mantenimiento. También explica por qué el sistema de gestión ubica cerca de la zona de picking los productos que más se piden: para que el operario camine menos (la misma lógica del modelo de mínimo recorrido de la Unidad 7)."
+    }
+  ]
+}

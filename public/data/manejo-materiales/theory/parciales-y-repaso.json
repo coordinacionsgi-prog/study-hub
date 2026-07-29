@@ -1,0 +1,45 @@
+{
+  "thesis": "Este módulo no trae contenido nuevo: es la data extraída de parciales reales tomados en cuatrimestres anteriores, con las respuestas corregidas por el docente. Es tu 'lo que realmente preguntan', organizado como resumen final de toda la materia.",
+  "examTip": "Repasá esto último, ya con las 5 unidades frescas: acá están las preguntas reales, casi textuales, que van a aparecer en tu parcial. Prestá especial atención a los ejercicios de cálculo (combinaciones de layout, FOS/FOT, Brown-Gibson) porque suelen repetirse con números apenas distintos de un cuatrimestre a otro.",
+  "concepts": [
+    "Principios de Material Handling (repaso)",
+    "Costo de modificaciones por etapa",
+    "FOS y FOT",
+    "Categorización ambiental CABA/PBA",
+    "Greenwashing y desarrollo sostenible",
+    "LEED (prerrequisitos)",
+    "Métodos de localización (repaso)",
+    "Combinaciones de layout (intercambio pareado)",
+    "CRAFT",
+    "Hormigón armado y pretensado",
+    "Edificio industrial (parámetros básicos)",
+    "Uniones roscadas y soldadas",
+    "TEU y contenedores"
+  ],
+  "sections": [
+    {
+      "h": "Manejo de materiales: lo que siempre preguntan",
+      "p": "Mover vs manejar sigue siendo la pregunta más repetida (mover es solo trasladar; manejar es optimizar económicamente todo el proceso). De los 10 principios del Material Handling Institute, los que más caen son Ergonomía (minimizar trabajo manual, equipos intrínsecamente seguros), Automatización (mecanizar tareas repetitivas o inseguras, integrando con el ERP) y Unidad de Carga (agrupar cargas individuales en unidades consistentes con la estrategia de manufactura y abastecimiento). También preguntan en qué etapa de un proyecto una modificación sale más cara: siempre en las etapas más avanzadas (operación), nunca en la planeación inicial."
+    },
+    {
+      "h": "Normativa urbanística y ambiental: los cálculos clásicos",
+      "p": "El FOS y FOT vuelven a aparecer con ejercicios de cálculo de superficie construible. Sobre categorización ambiental: memorizá que tanto CABA como la Provincia de Buenos Aires categorizan las actividades según su impacto (a mayor impacto, trámite más exigente, pudiendo requerir Evaluación de Impacto Ambiental). El GREENWASHING es cuando una empresa aparenta ser sustentable sin serlo realmente (maquillaje ambiental sin cambios de fondo), y el DESARROLLO SOSTENIBLE es satisfacer las necesidades del presente sin comprometer la capacidad de las generaciones futuras de satisfacer las suyas. Un PARQUE INDUSTRIAL es una zona planificada con infraestructura y servicios compartidos para alojar industrias de forma ordenada. En LEED, los PRERREQUISITOS son requisitos obligatorios que no otorgan puntaje pero son condición para poder certificar; los puntos se ganan con los créditos adicionales."
+    },
+    {
+      "h": "Localización de plantas: métodos y combinación",
+      "p": "Repasá los métodos no cuantificables (antecedentes industriales, factor dominante, factor preferencial) versus los cuantificables (ponderación de puntos, análisis dimensional/funcional, Brown-Gibson, cribado, costo/volumen). En Brown-Gibson recordá la fórmula MPL = K·FOi + (1-K)·FSi, que combina factores objetivos (medibles en plata) y subjetivos (calificaciones comparativas) ponderados por K."
+    },
+    {
+      "h": "Distribución en planta: combinaciones y CRAFT",
+      "p": "Un tipo de pregunta clásica: dado un número de departamentos a distribuir, calcular cuántas combinaciones de layout son posibles (usando factorial, n!), y si hay departamentos que no se pueden mover (como Recepción y Despacho, que suelen quedar fijos por los muelles), el cálculo se ajusta dividiendo por esas posiciones fijas. CRAFT es el software clásico que prueba automáticamente intercambios entre departamentos para minimizar el costo total de manejo de materiales (una versión computarizada del intercambio pareado)."
+    },
+    {
+      "h": "Edificios industriales: hormigón, cabreadas y uniones",
+      "p": "El hormigón ARMADO mejora sobre todo la resistencia a la TRACCIÓN (el hormigón solo es fuerte a compresión; el acero adentro cubre la debilidad a tracción). El PRETENSADO tiene como ventaja principal permitir mayores luces (distancias entre apoyos) con estructuras más livianas, porque el acero ya viene tensado antes de cargarse. Los 4 parámetros básicos para definir un edificio industrial son: luz entre columnas, altura libre, capacidad de carga de las cabreadas y calidad/resistencia del piso. La altura libre estándar suele rondar los 8-10m para permitir el uso de autoelevadores y estanterías en altura. Sobre uniones: las UNIONES ROSCADAS (abulonadas) se pueden desarmar y son ideales para mantenimiento; las UNIONES SOLDADAS son permanentes. Un tornillo marcado '10.9' indica su calidad/resistencia según norma."
+    },
+    {
+      "h": "Unidades de carga y contenedores: los datos que se olvidan",
+      "p": "El TEU (Twenty-foot Equivalent Unit) es la unidad de medida estándar para capacidad de contenedores en puertos y depósitos, basada en el contenedor de 20 pies. Un Reefer tiene su propio sistema de refrigeración incorporado; un Conair (o Porthole/aislado) necesita que le inyecten aire frío desde afuera del contenedor. Las funciones técnicas del embalaje son: proteger el producto durante el transporte y almacenamiento, y facilitar su manejo (a diferencia del envase, que además cumple una función comercial/de imagen)."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "thesis": "AE3 y AE4 enseñan a medir qué tan bien le está yendo a una empresa con 3 preguntas: ¿gana buena plata vendiendo (rendimiento comercial)?, ¿usa bien sus activos para generar esa plata (rendimiento de los activos)?, y ¿le está devolviendo buena plata a los dueños (rendimiento de los accionistas)? Todo conectado con la Identidad de Dupont.",
+  "examTip": "Vas a tener que calcular ROS/margen, ROA (con sus variantes Ra, Ra', Ra''), ROE y descomponer todo con la Identidad de Dupont (Margen × Rotación). También puede pedirte comparar los ratios de una empresa contra el promedio de su industria, y calcular el potencial de crecimiento sostenible (G = ROE × tasa de retención).",
+  "concepts": [
+    "ROS (rendimiento comercial)",
+    "Margen Bruto",
+    "Margen Neto",
+    "Mark-up",
+    "ROA / Rendimiento de los Activos",
+    "Ra, Ra', Ra'' (variantes del ROA)",
+    "ROE / Rendimiento del Patrimonio",
+    "Identidad de Dupont",
+    "Rotación de Activos",
+    "Apalancamiento financiero",
+    "Crecimiento sostenible (G)",
+    "Tasa de retención de utilidades",
+    "Comparables por industria"
+  ],
+  "sections": [
+    {
+      "h": "ROS: el rendimiento comercial (¿ganás bien vendiendo?)",
+      "p": "El ROS (Return on Sales) mide cuánta ganancia te queda por cada peso de venta. Hay varios niveles: el Margen Bruto = Utilidad Bruta / Ventas (lo que queda después de descontar el Costo de Ventas), y el Margen Neto = Utilidad Neta / Ventas (lo que queda después de TODOS los gastos e impuestos). También existe el Mark-up = Utilidad Bruta / Costo de Ventas (te dice qué porcentaje le agregaste al costo para llegar al precio de venta). Si el margen es bajo, las medidas para mejorarlo son: subir precios, bajar costos variables, o bajar costos fijos -en ese orden de impacto directo sobre la rentabilidad comercial."
+    },
+    {
+      "h": "ROA: el rendimiento de los activos (¿usás bien lo que tenés invertido?)",
+      "p": "El ROA mide cuánta ganancia generás con los activos que tiene la empresa, sin importar cómo se financiaron (con deuda o con capital propio). Hay 3 variantes que se usan según qué tan 'depurada' quieras la medida: Ra'' es el Rendimiento de Explotación (antes de intereses y antes de impuestos, mide solo la eficiencia operativa pura); Ra' es después de pagar impuestos pero todavía antes de intereses; y Ra es el Rendimiento Neto final de los Activos, con todo descontado. Usar una u otra variante depende de si querés aislar el efecto de cómo se financió la empresa (deuda) del efecto de cómo opera de bien o mal el negocio en sí."
+    },
+    {
+      "h": "Identidad de Dupont: el ROA explicado en 2 partes",
+      "p": "Esta es la fórmula más importante del bloque: ROA = Margen Neto × Rotación de Activos, es decir, (Utilidad Neta / Ventas) × (Ventas / Activo Total). Lo genial de esta identidad es que te muestra que hay DOS caminos distintos para mejorar tu rendimiento de activos: podés tener un margen chico pero rotar mucho (vender rápido y seguido, típico de un supermercado) o tener un margen grande pero rotar poco (vender caro y con calma, típico de una joyería). Ambos caminos pueden llegar al mismo ROA final, pero el diagnóstico de qué mejorar es distinto en cada caso: si tu margen es bueno pero rotás poco, el problema está en la eficiencia de uso de los activos, no en el precio."
+    },
+    {
+      "h": "ROE: el rendimiento para los accionistas (¿le conviene a los dueños?)",
+      "p": "El ROE (Return on Equity) = Utilidad Neta / Patrimonio Neto, mide cuánto le rinde a los DUEÑOS la plata que ellos pusieron en la empresa (a diferencia del ROA que mira TODOS los activos, financiados con deuda o capital propio). El ROE suele ser mayor al ROA cuando la empresa usa 'apalancamiento financiero' de forma favorable: si el costo de la deuda (la tasa de interés que paga) es menor al rendimiento que genera esa plata prestada trabajando en el negocio (Ra''), entonces endeudarse le conviene a los dueños porque amplifica su rendimiento propio. Si el costo de la deuda es mayor al rendimiento del negocio, el apalancamiento juega en contra y hunde el ROE."
+    },
+    {
+      "h": "Potencial de crecimiento sostenible (G)",
+      "p": "Es la velocidad máxima a la que una empresa puede crecer SIN necesitar plata nueva de afuera (ni pedir más deuda de la habitual, ni que los dueños pongan más capital), usando solo la ganancia que decide no repartir. La fórmula base es G = ROE × p, donde 'p' es la tasa de retención de utilidades (el % de la ganancia que NO se reparte como dividendos y se queda reinvertida en el negocio). Si una empresa reparte todas sus ganancias como dividendos (p=0), su crecimiento sostenible con fondos propios es cero: para crecer necesitaría plata externa sí o sí."
+    },
+    {
+      "h": "Comparar contra la industria",
+      "p": "Un ratio aislado dice poco: un margen del 10% puede ser excelente en un supermercado (que rota mucho) y pésimo en una farmacéutica (que debería tener márgenes mucho más altos). Por eso se usan tablas de comparables por industria (por ejemplo del sector 'Food Processing' o 'Retail'), que muestran el margen operativo, ROE y ROC promedio de ese rubro, para poder decir si la empresa que estás analizando está por encima o por debajo de lo esperable para SU tipo de negocio, no en términos absolutos."
+    },
+    {
+      "h": "El equilibrio y el fondo de maniobra: base para entender rendimiento",
+      "p": "Antes de calcular rendimientos hay que tener claro (viene de AE2) si la empresa está en equilibrio patrimonial: que sus Recursos Permanentes financien el Activo Fijo y que el Activo Corriente sea mayor a la Deuda de Corto Plazo (Fondo de Maniobra positivo). Una empresa puede tener ratios de rendimiento buenos pero estar en una situación financiera de corto plazo frágil (FM negativo), así que el análisis de rendimiento (AE3-AE4) siempre se complementa con el análisis de equilibrio financiero visto antes."
+    }
+  ]
+}

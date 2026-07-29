@@ -1,0 +1,53 @@
+{
+  "thesis": "Esta materia estudia dos cosas que van de la mano: cómo se mueven los materiales adentro de la planta (intralogística) y cómo se planifica el edificio, la ubicación y el layout para que ese movimiento sea lo más barato y fluido posible (planeación de instalaciones). Todo esto existe porque mover materiales cuesta plata y no le agrega ni un peso de valor al producto.",
+  "examTip": "Te van a pedir que definas intralogística vs. planeación de instalaciones, que ubiques la intralogística dentro de la Cadena de Valor de Porter (es una actividad central), y que expliques por qué modificar un proyecto sale cada vez más caro cuanto más avanzado está (curva de costo de modificaciones). También cae seguido la jerarquía legal (ley > norma técnica > especificación técnica) y los principios del Material Handling Institute.",
+  "concepts": [
+    "Intralogística",
+    "Planeación de Instalaciones",
+    "Cadena de Valor de Porter",
+    "Cadena de Suministros (Supply Chain)",
+    "Margen",
+    "Manejo de Materiales",
+    "Principios del Material Handling",
+    "Industria 4.0",
+    "Ciclo de Planeación de Instalaciones",
+    "Jerarquía legal (ley, norma, especificación)",
+    "Cross docking",
+    "Sistema Push vs Pull",
+    "WMS y ERP"
+  ],
+  "sections": [
+    {
+      "h": "De qué se trata la materia",
+      "p": "Pensá en una fábrica como un cuerpo: la producción es el corazón, pero los materiales tienen que circular como la sangre para que todo funcione. Esta materia se divide en dos grandes bloques. Uno es la Intralogística: todo lo que pasa con los materiales DENTRO de la planta, desde que entra la materia prima hasta que sale el producto terminado. El otro es la Planeación de Instalaciones: dónde poner la planta, cómo diseñar el edificio y cómo distribuir todo adentro (el layout). Son dos temas separados pero están pegados: no podés diseñar bien el edificio sin saber cómo se van a mover los materiales, y viceversa."
+    },
+    {
+      "h": "Intralogística: la definición que te van a pedir",
+      "p": "Intralogística es todo el movimiento de materias primas, insumos, productos en proceso, productos terminados y hasta residuos, DENTRO de la planta: desde que entran por el portón hasta que salen hacia el cliente. Incluye almacenar, gestionar el stock, automatizar procesos y manejar los equipos de transporte interno. Ojo con la palabra clave: es todo lo que pasa 'adentro'. Lo que pasa afuera (camiones, barcos, aviones) es transporte externo, un tema aparte."
+    },
+    {
+      "h": "Dónde entra esto en la Cadena de Valor de Porter",
+      "p": "Michael Porter dice que toda empresa genera valor a través de actividades centrales (las que agregan valor directo: intralogística, operaciones/producción, logística externa, marketing y ventas, postventa) y actividades de apoyo (abastecimiento, ingeniería, RRHH, infraestructura), que no generan valor por sí solas pero sostienen a las centrales. La intralogística es una actividad CENTRAL: cuanto más eficiente sea, más aumenta el margen (la diferencia entre lo que el cliente paga y lo que cuesta producir). Ojo: mover materiales no le agrega valor al producto en sí, pero si no lo hacés bien, le hacés perder plata a la empresa."
+    },
+    {
+      "h": "Supply Chain: la cadena completa",
+      "p": "La Cadena de Suministros (Supply Chain) es comprar, contratar y distribuir productos a clientes internos y externos, con el mejor nivel de servicio posible, controlando bien los activos, el stock y los costos de distribución. Antes las empresas trabajaban en 'silos' (cada área por su lado, sin compartir información). El concepto moderno de Supply Chain busca romper esos silos e integrar todo: proveedores, producción, almacenes, distribución y cliente, compartiendo información en tiempo real. El objetivo final es la 'Síntesis': una cadena totalmente sincronizada de punta a punta."
+    },
+    {
+      "h": "Manejo de Materiales: mover no es lo mismo que manejar",
+      "p": "'Mover' materiales es simplemente trasladarlos de un punto A a un punto B. 'Manejar' materiales es mucho más: es estudiar de forma sistémica el movimiento, embalaje y almacenamiento buscando el resultado más económico posible. El costo de manejo de materiales puede representar entre el 30% y el 85% del costo total de poner un producto en el mercado, así que optimizarlo es clave. El Material Handling Institute (EEUU) armó 10 principios guía para diseñar bien estos procesos: planeamiento, estandarización, trabajo (minimizar movimientos), ergonomía, unidad de carga, uso del espacio, sistemas (todo integrado), automatización, cuidado ambiental y análisis de ciclo de vida del equipo."
+    },
+    {
+      "h": "El marco legal: leyes, normas y especificaciones",
+      "p": "Hay una jerarquía clara: primero está la LEY (dictada por el Estado, nacional o provincial, de cumplimiento obligatorio). Después vienen las NORMAS TÉCNICAS (como las de IRAM o ISO), que establecen condiciones mínimas para un producto o servicio, acordadas por consenso. Más abajo están las NORMAS INTERNAS de cada empresa (pueden exigir más que la norma técnica, pero solo aplican ahí adentro). Y por separado está la ESPECIFICACIÓN TÉCNICA, que es un acuerdo puntual entre dos partes para fabricar algo en particular. En Argentina, las leyes clave para esta materia son la 19.587 (Higiene y Seguridad en el Trabajo) y la 24.557 (Riesgos del Trabajo)."
+    },
+    {
+      "h": "El ciclo de planeación de instalaciones (y por qué cambiar de idea sale cada vez más caro)",
+      "p": "Planificar una instalación nueva sigue un ciclo de 9 pasos: definir objetivos estratégicos, conseguir el compromiso de la dirección, armar un equipo multidisciplinario, relevar actividades y tareas, definir criterios de diseño, generar el plan (con alternativas), someterlo a revisión, hacer que la dirección lo apruebe, e implementarlo con monitoreo y mejora continua. Un dato clave para el parcial: el costo de hacer una modificación crece muchísimo cuanto más avanzado está el proyecto. Es barato cambiar algo en la etapa de planeación y carísimo cambiarlo una vez que la planta ya está operando. Por eso conviene invertir tiempo en planificar bien antes de construir."
+    },
+    {
+      "h": "Industria 4.0 e Intralogística 4.0",
+      "p": "La Industria 4.0 (desde ~2014) combina tecnologías inteligentes (robótica, inteligencia artificial, IoT, big data) con la producción. Funciona con un ciclo llamado PDP: del mundo físico al digital (se capturan datos con sensores), de digital a digital (se analizan con IA), y de digital al físico (se ejecutan acciones automáticas). La Intralogística 4.0 usa estas tecnologías para depósitos automáticos (WMS avanzados), robots colaborativos (cobots) y análisis de big data para predecir y mejorar la operación del almacén en tiempo real."
+    }
+  ]
+}

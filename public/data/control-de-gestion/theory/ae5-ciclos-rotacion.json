@@ -1,0 +1,42 @@
+{
+  "thesis": "AE5 mide la velocidad a la que una empresa transforma plata en mercadería y de vuelta en plata: cuánto tarda en cobrar, cuánto tarda en vender el stock, cuánto tarda en pagarle a sus proveedores. De esos plazos sale el Ciclo Operativo y el Ciclo de Conversión de Efectivo.",
+  "examTip": "Te van a dar datos de Balance (saldos de Clientes, Bienes de Cambio, Proveedores) y del Estado de Resultados (Ventas, Costo de Ventas, Compras) de una empresa comercial o industrial, y vas a tener que calcular los plazos promedio (de cobro, de inventario, de pago) y armar el Ciclo Operativo y el Ciclo de Conversión de Efectivo. Prestá atención a si es empresa COMERCIAL (un solo tipo de inventario) o INDUSTRIAL (3 subciclos de inventario: materia prima, fabricación y producto terminado).",
+  "concepts": [
+    "Ciclo operativo / período de maduración",
+    "Ciclo de conversión de efectivo",
+    "Plazo Medio de Cobro (PMC)",
+    "Plazo Medio de Inventario (PMI)",
+    "Plazo Medio de Pago (PMP)",
+    "Rotación",
+    "Empresa comercial vs. industrial",
+    "Circulante operativo",
+    "Saldo promedio",
+    "Subciclos: MP, fabricación, venta"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué es el ciclo operativo?",
+      "p": "Es el tiempo que tarda la empresa en dar una 'vuelta completa': desde que gasta plata comprando materia prima o mercadería, hasta que esa plata vuelve a la caja después de fabricar (si aplica), vender y cobrar. Cuanto más rápido gira esta rueda, más veces por año la empresa 'repite' su margen de ganancia, así que más plata genera con la misma inversión. Por eso analizar y achicar estos plazos es tan importante para la gestión financiera del día a día."
+    },
+    {
+      "h": "Empresa comercial vs. industrial: no es lo mismo",
+      "p": "Una empresa COMERCIAL (compra y revende) tiene un ciclo más simple: Compra mercadería → la tiene en stock → la vende → cobra. Una empresa INDUSTRIAL (fabrica) tiene un ciclo más largo con más pasos: Compra materia prima → la tiene en stock → la transforma (producción en proceso) → tiene productos terminados en stock → vende → cobra. Por eso en la industrial el 'inventario' no es un solo número: hay que calcular por separado el plazo de materia prima, el de fabricación y el de producto terminado, y sumarlos (no se puede calcular el ciclo de inventario industrial de forma directa, siempre por subciclos)."
+    },
+    {
+      "h": "Los 3 plazos clave",
+      "p": "Plazo Medio de Cobro (PMC) = (Saldo promedio de Clientes / Ventas) × 365: cuántos días tarda en promedio la empresa en cobrarle a sus clientes desde que vendió. Plazo Medio de Inventario (PMI) = (Saldo promedio de Bienes de Cambio / Costo de Ventas) × 365: cuántos días en promedio la mercadería queda 'guardada' antes de venderse. Plazo Medio de Pago (PMP) = (Saldo promedio de Proveedores / Compras) × 365: cuántos días tarda la empresa en pagarle a sus proveedores desde que compró. Regla importante de coherencia: si el numerador (el saldo) incluye IVA, el denominador (ventas/compras) también debería incluir IVA, para no mezclar peras con manzanas."
+    },
+    {
+      "h": "Ciclo Operativo y Ciclo de Conversión de Efectivo",
+      "p": "El Ciclo Operativo = Plazo de Inventario + Plazo de Cobro: es el tiempo total desde que entra la mercadería/materia prima hasta que se cobra la venta. Pero una parte de ese tiempo la financian los proveedores (porque no les pagás al contado), así que el Ciclo de Conversión de Efectivo = Ciclo Operativo - Plazo de Pago: es el tiempo que la empresa tiene que financiar CON PLATA PROPIA (o pedida), porque los proveedores ya no te están bancando ese tramo. Cuanto más chico (o incluso negativo) sea este ciclo, menos plata necesita la empresa para operar día a día."
+    },
+    {
+      "h": "Rotaciones: la otra cara de la misma moneda",
+      "p": "En vez de medir en días, se puede medir en 'cuántas veces por año' rota cada rubro: Rotación de Inventario = Costo de Ventas / Saldo promedio de Bienes de Cambio (cuántas veces en el año se 'da vuelta' el stock completo). Rotación de Clientes = Ventas / Saldo promedio de Clientes. A más rotación, menos días de plazo (son inversamente proporcionales: Rotación ≈ 365 / Plazo en días). Usar plazos (días) o rotaciones (veces) es solo una cuestión de qué forma te resulta más intuitiva para comunicar el resultado, dicen lo mismo."
+    },
+    {
+      "h": "Detalles que suelen hacer perder puntos",
+      "p": "Usar siempre 365 días como año calendario, salvo que el enunciado diga explícitamente 'año comercial' (ahí se usa 360). El 'n' del período (30, 90, 180 o 365 días) depende de si estás analizando un mes, un trimestre, un semestre o el año completo -no uses 365 si el dato que tenés es de un solo trimestre. Y recordá que para calcular estos plazos en una empresa industrial necesitás información EXTRA de la contabilidad de costos (cuánto es materia prima, cuánto producción en proceso, cuánto producto terminado), porque el balance publicado a veces solo muestra el total de 'Bienes de Cambio' sin discriminar."
+    }
+  ]
+}

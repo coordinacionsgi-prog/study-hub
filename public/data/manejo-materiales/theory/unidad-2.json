@@ -1,0 +1,48 @@
+{
+  "thesis": "Antes de elegir CÓMO transportar algo, tenés que entender QUÉ es lo que estás moviendo: si es sólido, a granel, líquido o peligroso, y cómo se agrupa en una 'unidad de carga' para moverlo de forma eficiente. Y cuando quien levanta la carga es una persona (no una máquina), hay reglas de seguridad y límites de peso muy concretos para no lastimarla.",
+  "examTip": "Suele caer la clasificación de materiales por estado (sólido en unidades, sólido a granel, líquido, gas), la diferencia entre envase/empaque/embalaje, las medidas de pallet (ARLOG 1200x1000 y Europallet 1200x800), y sobre todo el tema de manejo manual de cargas: los pesos máximos según el Convenio OIT y la normativa argentina (SRT), y cómo se calcula el gasto energético de una tarea (trabajo ligero/moderado/pesado, método Spitzer-Hettinger-Guelaud).",
+  "concepts": [
+    "Estado del material (sólido, granel, líquido, gas)",
+    "Unidad de carga",
+    "Envase, empaque y embalaje",
+    "Retractilado y flejado",
+    "Pallet (ARLOG / Europallet)",
+    "NIMF 15",
+    "Manejo manual de cargas",
+    "Convenio OIT 127/128",
+    "Carga física y metabolismo",
+    "Trabajo ligero, moderado y pesado",
+    "Ergonomía",
+    "Accidente de trabajo / in itinere"
+  ],
+  "sections": [
+    {
+      "h": "Primer paso: clasificar qué material vas a mover",
+      "p": "Antes de elegir un equipo de transporte tenés que saber con qué material estás lidiando. Se clasifican según su ESTADO: sólidos en unidades (cajas, pallets, piezas sueltas), sólidos a granel (arena, cereales), líquidos y gases (agua, aire comprimido), y un caso aparte son los peligrosos y los residuos. Cada tipo necesita equipos distintos: los sólidos en unidad usan transportadores, grúas y vehículos industriales; los graneles usan cintas, tolvas y silos; los líquidos y gases usan bombas y ductos. Elegir mal el equipo para el tipo de material es un error clásico de examen."
+    },
+    {
+      "h": "Envase, empaque y embalaje: no son lo mismo",
+      "p": "El ENVASE contiene directamente el producto y también lo diferencia comercialmente (por ejemplo, la botella de una gaseosa). El EMPAQUE contiene al envase. El EMBALAJE es la capa que protege todo eso durante el transporte y el almacenamiento: su función es puramente logística, no vende nada, solo protege. Pensalo como capas de una cebolla: el producto, después el envase, después el empaque, y por fuera el embalaje que lo cuida en el viaje."
+    },
+    {
+      "h": "La unidad de carga: agrupar para mover menos veces",
+      "p": "Una unidad de carga es agrupar varios productos, envases o empaques en un solo bloque para moverlos juntos (el ejemplo típico es un pallet con cajas encima). El objetivo es reducir la cantidad de movimientos, porque cada movimiento cuesta plata y tiempo. Para que una unidad de carga funcione bien necesita dos cosas: RESISTENCIA (que aguante apilarse sin romperse) y ESTABILIDAD (que no se caiga ni se desarme). La estabilidad se logra con retractilado (envolver con film plástico) o flejado (sujetar con flejes de nylon o acero cuando la carga es más pesada o inestable)."
+    },
+    {
+      "h": "El pallet: la unidad de carga más usada",
+      "p": "El pallet de madera representa el 90-95% de los pallets que circulan en el mundo, por barato y resistente. Las medidas más importantes para el parcial son: 1200x1000mm (ARLOG, el estándar argentino/IRAM) y 1200x800mm (Europallet). Como la madera puede transmitir plagas, la que se usa para exportación debe tratarse según la norma NIMF 15 (una norma internacional de la ONU), y el pallet queda marcado con un código que indica el país de origen y el tratamiento aplicado (por ejemplo HT de tratamiento térmico)."
+    },
+    {
+      "h": "Manejo manual de cargas: cuando la máquina sos vos",
+      "p": "Cuando una persona levanta y transporta una carga con su propia fuerza, hablamos de manejo MANUAL (distinto de mecanizado, que usa máquinas, o por gravedad). Esto tiene un riesgo real de lesión, por eso hay convenios internacionales de la OIT que ponen límites. El Convenio 127/128 de la OIT fija un peso máximo de 55 kg para hombres adultos, bastante menos para mujeres y jóvenes, y en Argentina la SRT bajó ese límite para casos específicos: 25 kg para bolsas de cemento (Resolución 42/2018) y reglas particulares para productos cárnicos (Resolución 13/2020)."
+    },
+    {
+      "h": "Cuánto esfuerzo hace tu cuerpo: metabolismo y carga física",
+      "p": "La carga física de un trabajo se mide en Kcal/hora de consumo de energía (norma IRAM 3755). Las tareas se clasifican en Ligero (oficina, poco movimiento), Moderado (caminar, levantar objetos livianos) y Pesado (construcción, cargar y descargar cajas pesadas). Un dato interesante: el trabajo muscular dinámico (moverse) gasta entre 10 y 15 veces más energía que el trabajo estático (sostener algo quieto). El método de Spitzer, Hettinger y Guelaud permite calcular el 'Metabolismo Total por Trabajo' sumando la energía estática, la dinámica por movimiento y la dinámica por esfuerzo muscular, y a partir de ahí se calculan los tiempos de descanso necesarios."
+    },
+    {
+      "h": "Buenas prácticas antes de levantar una carga",
+      "p": "Antes de levantar algo a mano hay que: estimar el peso aproximado y el estado del embalaje, revisar que no tenga clavos o partes salientes peligrosas, sacar objetos sueltos de encima, asegurarse de que el camino esté libre de obstáculos, y NUNCA intentar solo con cargas pesadas, voluminosas o irregulares (ahí hay que pedir ayuda). Estas reglas simples son las que previenen la mayoría de los accidentes por manejo manual."
+    }
+  ]
+}

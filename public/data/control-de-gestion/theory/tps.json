@@ -1,0 +1,27 @@
+{
+  "thesis": "Los Trabajos Prácticos (TP0 a TP4) son los ejercicios grupales que hay que entregar a lo largo del cuatrimestre, uno por cada bloque temático. No son teoría nueva: son la forma de practicar y consolidar cada tema apenas se da en clase, y son la mejor preparación real para el estilo de los parciales.",
+  "examTip": "Los parciales suelen tener el mismo 'formato de consigna' que los TPs, así que resolver bien los TPs (y entender por qué está mal si algo salió mal) es la preparación más directa para el examen. Prestá atención al formato de entrega pedido (excel con fórmulas funcionando + PDF imprimible), no tanto para el parcial sino porque refleja el nivel de prolijidad que se espera en los cálculos.",
+  "concepts": [
+    "TP0: Pronósticos",
+    "TP1: Estados Contables / AE1",
+    "TP2: Variaciones patrimoniales / AE2",
+    "TP3: Ratios de rendimiento / AE3-AE4",
+    "TP4: Ciclos y rotación / AE5",
+    "Autochequeo",
+    "Trabajo grupal"
+  ],
+  "sections": [
+    {
+      "h": "Para qué sirven los TPs",
+      "p": "Cada TP está diseñado para practicar el tema recién visto en la sesión teórica correspondiente: TP0 es de Pronósticos, TP1 de AE1 (Estados Contables), TP2 de AE2 (variaciones patrimoniales y equilibrio), TP3 de AE3-AE4 (ratios de rendimiento) y TP4 de AE5 (ciclos y rotación). Se entregan en grupo a lo largo del cuatrimestre y sirven como la primera vuelta de práctica antes de llegar al parcial, que va a tener ejercicios del mismo estilo pero individuales y contra reloj."
+    },
+    {
+      "h": "Usar las respuestas de autochequeo para aprender, no solo para copiar",
+      "p": "Existe un archivo con las respuestas de TP0 a TP4 para autochequeo. La forma más útil de usarlo es resolver primero el ejercicio solo, comparar contra la respuesta, y si no coincide, entender EN QUÉ PASO específico del cálculo te desviaste (¿usaste la cantidad comprada en vez de la consumida? ¿te olvidaste de desestacionalizar antes de sacar la tendencia?). Copiar la respuesta sin entender el error no prepara para el parcial, donde vas a tener que resolver ejercicios parecidos pero con números distintos y sin la respuesta a mano."
+    },
+    {
+      "h": "Por qué el orden de los TPs importa",
+      "p": "Los TPs siguen exactamente el orden en que se dan los temas en clase (Pronósticos → AE1 → AE2 → AE3/AE4 → AE5), y cada uno suele apoyarse en conceptos del anterior (por ejemplo, para calcular ratios en TP3 necesitás entender bien los Estados Contables de TP1). Si te atrasaste con algún TP, conviene repasarlo igual antes de seguir, porque los bloques integradores (Bloque UNO y Bloque DOS) y los parciales dan por sentado que ya tenés esos temas resueltos y entendidos."
+    }
+  ]
+}

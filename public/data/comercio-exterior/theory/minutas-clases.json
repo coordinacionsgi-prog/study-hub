@@ -1,0 +1,36 @@
+{
+  "thesis": "Las minutas son el resumen de lo que se dijo en cada clase en vivo: sirven para entender el hilo conductor de la materia, el trabajo práctico que hay que entregar, y algunas aclaraciones de la cátedra que no aparecen escritas en los módulos.",
+  "examTip": "No suelen tomar examen directamente sobre 'lo que dijo el profesor', pero prestá atención a aclaraciones puntuales (fechas, ejemplos, matices) porque a veces terminan siendo la base de alguna pregunta de parcial que no está tan clara en el material escrito. Esta unidad no tiene cálculos.",
+  "concepts": [
+    "Trabajo Práctico Integrador (TPI)",
+    "Ventaja absoluta (Adam Smith)",
+    "Ventaja comparativa (David Ricardo)",
+    "Balanza comercial",
+    "Déficit / Superávit comercial",
+    "SIRA / SIMI",
+    "Costeo combinado",
+    "Mercosur"
+  ],
+  "sections": [
+    {
+      "h": "De qué se trata la materia (estructura general)",
+      "p": "La materia está armada en 7 módulos divididos en dos etapas. La primera etapa (módulos 1 a 4, que son los que estás estudiando ahora) cubre los conceptos introductorios, la logística internacional (transporte y seguros), los Incoterms y la operatoria de importación. La segunda etapa (módulos 5 a 7) va a cubrir la operatoria de exportación, los contratos internacionales y los organismos de cooperación (acuerdos y tratados entre países). Es una materia que la cátedra describe como 'dinámica': lo que pasaba el año pasado puede no aplicar este año, porque el escenario internacional cambia todo el tiempo (conflictos geopolíticos, tipo de cambio, restricciones a la importación, etc.)."
+    },
+    {
+      "h": "Comercio exterior vs comercio internacional, y por qué ningún país se autoabastece",
+      "p": "La clase arranca aclarando que comercio exterior (la relación comercial de UN país con el resto del mundo) no es exactamente lo mismo que comercio internacional (el fenómeno global entre todos los países). La base teórica de todo esto son dos ideas económicas clásicas: Adam Smith habla de ventaja absoluta (cada país se especializa en lo que produce mejor que los demás) y David Ricardo habla de ventaja comparativa (aunque un país sea mejor en todo, igual conviene que se especialice en lo que hace relativamente mejor, y comercie el resto). La idea de fondo, que repite la cátedra, es que 'no existe la teoría del autoabastecimiento 100%': ningún país puede producir absolutamente todo lo que necesita por sí solo."
+    },
+    {
+      "h": "Balanza comercial y el contexto argentino",
+      "p": "La balanza comercial es la diferencia entre lo que un país exporta y lo que importa: si exporta más de lo que importa hay superávit (entran más divisas de las que salen), si importa más de lo que exporta hay déficit. Tener divisas (dólares, u otras monedas fuertes) es importante porque sirven para pagar deudas externas y sostener las reservas del Banco Central. En el contexto argentino reciente se mencionan herramientas como el cepo cambiario y sistemas de licencias para controlar las importaciones, como el SIRA y el SIMI (sistemas que el gobierno usa para autorizar o restringir el ingreso de mercadería según la disponibilidad de dólares)."
+    },
+    {
+      "h": "El Trabajo Práctico Integrador (TPI)",
+      "p": "El TPI es el trabajo final de la materia: cada grupo actúa como si fuera una PyME argentina real y tiene que armar un proyecto de exportación de un producto con valor agregado industrial hacia un mercado 'no tradicional' (África, Asia o Europa del Este, en vez de los destinos clásicos como Brasil o la Unión Europea). Una condición obligatoria es que el proyecto incluya algún insumo o repuesto importado, para poder aplicar lo que la cátedra llama 'costeo combinado' (calcular a la vez el costo de lo que se importa como insumo y el precio de lo que se exporta como producto terminado). Importante: si la conclusión del grupo es que el mercado elegido NO es rentable, eso no está mal — al contrario, significa que hicieron bien la investigación de mercado."
+    },
+    {
+      "h": "Aclaraciones útiles de la cátedra",
+      "p": "Dos aclaraciones que vale la pena recordar: primero, en comercio exterior no todo se llama 'impuesto' — existen derechos, aranceles, tasas y contribuciones, y cada uno tiene una función y una lógica distinta (esto se profundiza en la Unidad 1). Segundo, sobre la calidad de un producto que se quiere exportar: la competencia internacional es muy dura, así que la calidad tiene que ser constante o creciente, y usar insumos nacionales de menor calidad como reemplazo de insumos importados (para ahorrar costos) puede arruinar un proyecto de exportación entero."
+    }
+  ]
+}

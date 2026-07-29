@@ -1,0 +1,46 @@
+{
+  "thesis": "Las minutas son el resumen de lo que se dio en cada clase en vivo: no reemplazan al apunte, sino que aclaran con otras palabras y ejemplos los mismos temas de Unidad 1 (piping), sobre todo la especificación de caños, la soldadura y las uniones desarmables.",
+  "examTip": "El profesor insiste mucho en dos ideas: que un producto industrial hay que especificarlo sin ninguna ambigüedad (los 6 parámetros de un caño), y que la soldadura de verdad funde el metal base (a diferencia del brazing). También repite la diferencia entre AMPA disponible y requerido, y por qué las roscas cónicas dominan en caños chicos.",
+  "concepts": [
+    "6 parámetros de un caño",
+    "Costura vs. sin costura",
+    "Memoria descriptiva",
+    "Memoria de cálculo",
+    "SMAW",
+    "GMAW / MIG-MAG",
+    "GTAW / TIG",
+    "SAW (arco sumergido)",
+    "Brazing vs. soldadura",
+    "Rosca cónica NPT/BSPT",
+    "Brida ASME B16.5",
+    "Cara RF (resalte)",
+    "Número de Schedule",
+    "ANPA disponible vs. requerido"
+  ],
+  "sections": [
+    {
+      "h": "Qué son las minutas y para qué sirven",
+      "p": "Las minutas son la transcripción resumida de lo que se explicó clase por clase, tomada por la cátedra. Sirven para repasar con las palabras exactas y los ejemplos que dio el profesor en vivo, que a veces bajan mejor una idea que el apunte teórico. Hasta ahora cubren el arranque de la cursada: el repaso de mecánica de fluidos y el comienzo de la Unidad 1 (piping), con foco en cómo se especifica correctamente una cañería y cómo se sueldan y se unen los caños."
+    },
+    {
+      "h": "Repaso de Bernoulli, altura manométrica y cavitación",
+      "p": "En la primera clase se repasó gráficamente la ecuación de Bernoulli: cualquier partícula de fluido tiene tres tipos de energía (de posición, de presión y de velocidad), y en conducciones de agua la energía de velocidad casi siempre se puede despreciar frente a la de presión. La altura manométrica es, en criollo, toda la energía que le da la bomba al fluido: se puede medir simplemente poniendo un manómetro justo antes y justo después de la bomba y viendo la diferencia. Sobre cavitación, la clave para el parcial es entender que el 'ANPA disponible' depende de cómo está instalado el sistema (y siempre tiene que ser mayor que el 'ANPA requerido', que es un dato fijo que da el fabricante de la bomba); si no se cumple esa condición, la bomba cavita."
+    },
+    {
+      "h": "Los 6 parámetros para especificar un caño sin ambigüedad",
+      "p": "El profesor lo repite con la misma frase en varias clases: 'no estás comprando una lata de tomates', en la industria un caño se tiene que definir sin dejar nada librado a la interpretación. Los 6 datos son: la norma de fabricación (ASTM, API, etc.), el material, el diámetro nominal, el espesor o número de Schedule (que no es una medida directa sino una relación entre la presión de trabajo y la resistencia del material: a más Schedule, pared más gruesa), si el caño tiene costura (fue soldado en su fabricación) o no, y el acabado de sus extremos y superficie. Si te olvidás de aclarar 'con o sin costura', el proveedor por defecto manda el más barato (con costura), y en aplicaciones exigentes como la industria petrolera eso puede ser un problema serio de seguridad."
+    },
+    {
+      "h": "La documentación de un proyecto de piping",
+      "p": "Para diseñar un sistema de cañerías industrial hace falta más que un plano: la memoria descriptiva explica qué necesita el sistema y bajo qué normativas se diseñó; la memoria de cálculo es el respaldo matemático (las presiones, las pérdidas de carga calculadas); y el diagrama de flujo (o diagramático) es un esquema de la lógica del sistema, sin escala real, mostrando bombas, válvulas e intercambiadores como si fuera un mapa conceptual. Un detalle práctico que se mencionó: en el diseño de una planta conviene ubicar primero los sistemas más voluminosos (como la ventilación) y recién después los caños chicos, para que estos últimos no terminen bloqueando a los grandes."
+    },
+    {
+      "h": "Soldadura eléctrica: los métodos y sus diferencias",
+      "p": "Para que técnicamente exista 'soldadura', los dos metales base tienen que fundirse; si solo hay pegado por calor sin fundir el metal base, eso es brazing o soldering, no soldadura. Los cuatro métodos que se comparan en clase: SMAW (electrodo revestido, manual, el más barato y versátil, pero lento: alrededor de 1 kg de material depositado por hora); GMAW o MIG/MAG (alambre continuo semiautomático, mucho más productivo, hasta 3,5 kg/h); GTAW o TIG (electrodo de tungsteno no consumible, altísima calidad pero muy lento, se usa para la 'pasada de raíz' en tuberías críticas); y SAW o arco sumergido (totalmente automático, el arco ocurre tapado por un fundente granulado, solo sirve en posición plana pero es el que más material deposita por hora, hasta 7 veces más que el electrodo manual). Un soldador tiene que estar calificado con ensayos destructivos y no destructivos: o pasa esos exámenes o no está habilitado, no hay término medio."
+    },
+    {
+      "h": "Roscas y bridas: cómo sellan",
+      "p": "Las roscas cónicas (NPT en Estados Unidos, BSPT o 'rosca gas' en el resto del mundo) son el estándar en el 90% de las tuberías chicas (hasta 3 o 4 pulgadas) porque sellan por interferencia entre los filetes, sin necesitar una junta aparte; en diámetros mayores no se recomienda roscar porque haría falta demasiado torque para lograr el sellado. Las bridas, normalizadas según ASME B16.5, se clasifican en 'series' según la presión que soportan (por ejemplo, serie 150 soporta 150 psi a temperatura elevada, y más a temperatura ambiente); el tipo de cara más común es la RF (raised face, cara con resalte), que tiene un rayado en espiral o concéntrico que ayuda a que la junta se 'clave' un poco y selle mejor, evitando fugas."
+    }
+  ]
+}

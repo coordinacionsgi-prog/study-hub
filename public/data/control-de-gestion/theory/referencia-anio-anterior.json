@@ -1,0 +1,41 @@
+{
+  "thesis": "Este módulo es un resumen general de un cursado anterior de la materia: sirve como repaso rápido de la 'foto completa' del programa (desde el contexto de la empresa hasta pronósticos), pero OJO: puede no calzar 100% con el programa actual (v26), así que usalo para repasar ideas generales, no como fuente única para una fórmula puntual.",
+  "examTip": "Usá este resumen para repasar la lógica general de la materia de un tirón antes del parcial (para no perder el hilo de cómo se conecta todo), y para tener contexto extra sobre el análisis estratégico de la empresa (FODA, stakeholders, formatos societarios), que no está tan desarrollado en las teorías específicas de cada AE.",
+  "concepts": [
+    "Análisis FODA",
+    "Contexto interno vs. externo",
+    "Stakeholders",
+    "5 fuerzas de Porter",
+    "PESTLE",
+    "Formatos legales de empresa",
+    "Responsabilidad limitada vs. ilimitada",
+    "Integración vertical y horizontal",
+    "Contabilidad patrimonial vs. gerencial (repaso)"
+  ],
+  "sections": [
+    {
+      "h": "El contexto de la empresa: mirar para adentro y para afuera",
+      "p": "Antes de meterse en números, Control de Gestión arranca ubicando a la empresa dentro de su contexto. Hay variables INTERNAS (lo que pasa adentro: la gente, la cultura, los recursos) y EXTERNAS (lo que pasa afuera y la empresa no controla). Con esto se arma el clásico análisis FODA (Fortalezas, Oportunidades, Debilidades, Amenazas): las Fortalezas y Debilidades salen de mirar adentro, las Oportunidades y Amenazas de mirar afuera."
+    },
+    {
+      "h": "Las herramientas para mirar 'afuera'",
+      "p": "Para el análisis externo se usan marcos como las 5 Fuerzas de Porter (analiza qué tan competido está el mercado: rivalidad entre competidores, poder de negociación de clientes y proveedores, amenaza de nuevos entrantes y de productos sustitutos) y el PESTLE (analiza el contexto más amplio: factores Políticos, Económicos, Sociales, Tecnológicos, Legales y Ecológicos/ambientales). También se habla de Stakeholders: todos los terceros interesados en la empresa (empleados, sindicatos, clientes, proveedores, gobierno), algunos con más poder de influencia que otros."
+    },
+    {
+      "h": "Contextos en capas: interno, cercano, general y global",
+      "p": "Se puede pensar el entorno de una empresa como capas concéntricas: Contexto Interno (la propia empresa, sus empleados y cultura), Contexto Cercano o microentorno (clientes, competidores, proveedores directos), Contexto General o macroentorno (factores tecnológicos, políticos, económicos de todo un país o industria) y Contexto Global o metaentorno (megatendencias mundiales, como la digitalización, que afectan a todos los sectores). Cuanto más lejana la capa, menos control tiene la empresa sobre ella, pero igual la puede impactar fuerte."
+    },
+    {
+      "h": "Formatos legales de las empresas",
+      "p": "Las empresas con fines de lucro se organizan según cómo responden legalmente sus dueños. Con Responsabilidad ILIMITADA: el Unipersonal (una sola persona responde con TODO su patrimonio personal por las deudas del negocio) y la Sociedad de Hecho (dos o más personas, también responden con su patrimonio personal). Con Responsabilidad LIMITADA (la persona jurídica es distinta de las personas físicas, y si la empresa quiebra los dueños solo pierden lo que aportaron): la SRL (Sociedad de Responsabilidad Limitada, el capital se divide en cuotas entre socios) y la SA (Sociedad Anónima, el capital se divide en acciones, que pueden ser de Capital Cerrado -no cotiza en bolsa- o Capital Abierto -sus acciones se compran y venden públicamente-)."
+    },
+    {
+      "h": "Integración vertical y horizontal",
+      "p": "Cuando una empresa (o grupo de empresas bajo una misma casa matriz) crece abarcando distintas partes de la cadena de producción, puede hacerlo de dos formas: Integración Horizontal (entra a OTRO mercado, con productos distintos pero del mismo tipo de negocio) o Integración Vertical (absorbe el trabajo de sus propios proveedores o de sus propios clientes -por ejemplo, una empresa de cartón que también fabrica los productos que después empaqueta con ese cartón)."
+    },
+    {
+      "h": "Contabilidad patrimonial vs. gerencial: el repaso de siempre",
+      "p": "Este resumen refuerza la idea central que atraviesa toda la materia: la Contabilidad Patrimonial registra el pasado con normas fijas para uso EXTERNO (reguladores, bancos, accionistas), mientras que la Contabilidad Gerencial toma esa misma información, la adapta y la reprocesa con formato libre para tomar decisiones INTERNAS, mirando también hacia el futuro (presupuestos, proyecciones). Todo lo que se ve en los módulos AE1 a AE7 es, en el fondo, aplicar contabilidad gerencial sobre la base de la contabilidad patrimonial."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "thesis": "La logística internacional es cómo la mercadería viaja de verdad desde la fábrica del vendedor hasta las manos del comprador (qué medio de transporte usar, cómo embalarla, cómo asegurarla) — es la parte 'física' del comercio exterior, tan importante como el papeleo.",
+  "examTip": "Te van a preguntar características de cada medio de transporte (ventajas/desventajas, documento que lo representa), tipos de contenedores, la diferencia entre transporte multimodal e intermodal, y sobre seguros: qué cubre cada cláusula (ICC A/B/C), qué es avería gruesa vs particular, y los plazos para reclamar un siniestro. Puede aparecer alguna cuenta simple de flete (comparar peso vs volumen), pero el grueso es conceptual, no numérico.",
+  "concepts": [
+    "Modos y medios de transporte",
+    "Conocimiento de Embarque (B/L)",
+    "Guía Aérea (AWB)",
+    "Carta de Porte",
+    "Contenedor (FCL / LCL)",
+    "Transporte multimodal vs intermodal",
+    "Embalaje y marcas",
+    "Póliza de seguro",
+    "Cláusulas ICC (A, B, C)",
+    "Avería gruesa vs particular",
+    "Seguro de Crédito a la Exportación",
+    "Carga peligrosa"
+  ],
+  "sections": [
+    {
+      "h": "Los modos y medios de transporte",
+      "p": "Modo es la categoría general (acuático, terrestre, aéreo) y medio es el vehículo concreto (buque, camión, avión, tren). El transporte acuático (marítimo/fluvial) es el más usado en volumen porque es el más barato para grandes cantidades, pero es lento. El aéreo es rápido y seguro pero caro, ideal para cosas urgentes, frágiles o de mucho valor y poco peso. El terrestre carretero (camión) es el único que hace 'puerta a puerta' y es el más flexible para distancias cortas/medias. El ferroviario es barato para grandes volúmenes a granel pero poco desarrollado en Argentina por falta de vías conectadas. Elegir el medio depende del tipo de mercadería, la urgencia y el costo que estés dispuesto a pagar."
+    },
+    {
+      "h": "El documento de cada transporte",
+      "p": "Cada medio de transporte tiene su propio 'papel' que prueba que la mercadería fue entregada al transportista y quién es su dueño. En el marítimo es el B/L (Conocimiento de Embarque o Bill of Lading): sirve como prueba del contrato, recibo de la carga y título negociable (se puede vender o usar para financiarse). En el aéreo es el AWB (Air Way Bill o Guía Aérea). En el terrestre y ferroviario es la Carta de Porte. Todos cumplen la misma función: decir qué se transportó, quién lo mandó, quién lo recibe y en qué condiciones llegó (si dice 'clean' está en buen estado, si dice 'dirty' el capitán encontró algún problema)."
+    },
+    {
+      "h": "Contenedores: la unidad que cambió todo",
+      "p": "Desde 1956 la mercadería se mete en cajas metálicas estandarizadas (contenedores) que se pueden subir a un barco, un tren o un camión sin tener que desarmar la carga en cada cambio de medio. Si un solo cliente llena todo el contenedor se llama FCL (full container load); si varios clientes comparten el mismo contenedor se llama LCL (less than container load) y ahí se dice que la carga está consolidada. Hay contenedores especiales: reefer (con frío, para perecederos), open top (techo abierto, para cargas muy altas), flat rack (sin paredes, para cargas muy grandes) e iso tank (para líquidos o gases a granel)."
+    },
+    {
+      "h": "Multimodal vs intermodal: no es lo mismo",
+      "p": "Cuando un envío usa dos o más medios de transporte para llegar a destino, puede organizarse de dos formas. En el transporte multimodal hay un solo responsable, el Operador de Transporte Multimodal (OTM), que firma un único contrato y responde por toda la travesía sin importar qué medio falló. En el transporte intermodal, en cambio, cada transportista (el que hizo el tramo marítimo, el que hizo el tramo terrestre, etc.) responde solo por su propio tramo, y hay un contrato distinto por cada uno. La diferencia clave para el examen: multimodal = un solo responsable y un solo contrato; intermodal = varios responsables y varios contratos."
+    },
+    {
+      "h": "Embalaje, envase y marcas",
+      "p": "El envase es lo que está en contacto directo con el producto (lo identifica y lo hace atractivo, por eso se lo llama 'el vendedor silencioso'). El embalaje es la protección extra para que aguante el viaje (golpes, apilamiento, cambios de clima). Las marcas son los símbolos e información pintados afuera de los bultos (peso, destinatario, cómo manipularlo: frágil, este lado arriba, etc.) y siguen un estándar internacional (ISO 780) para que cualquier estibador del mundo los entienda sin traducción."
+    },
+    {
+      "h": "Cómo funciona un seguro de transporte",
+      "p": "Un seguro es un contrato: el tomador le paga una prima a una compañía aseguradora, y si pasa un siniestro (algo malo previsto en la póliza) la aseguradora le paga una indemnización al asegurado o beneficiario. En comercio internacional la póliza puede ser individual (cubre un solo viaje), flotante (cubre varios viajes a distintos clientes, avisando cada uno) o abierta (varios viajes al mismo cliente). El seguro arranca a correr desde que la mercadería se embarca y termina cuando se descarga en destino, y normalmente se asegura por el valor CIF más un porcentaje extra de ganancia esperada."
+    },
+    {
+      "h": "Las cláusulas ICC: cuánto te cubre el seguro",
+      "p": "Las cláusulas ICC (Institute Cargo Clauses, de Londres) definen el nivel de cobertura de una póliza de transporte marítimo, de menor a mayor: ICC 'C' (o LAP, Libre de Avería Particular) es la cobertura mínima, solo cubre grandes accidentes como incendio, naufragio o colisión; ICC 'B' (o CA, Con Avería) suma los riesgos de que entre agua al barco; ICC 'A' (o AR, Todo Riesgo) cubre prácticamente cualquier daño salvo excepciones puntuales (como mal embalaje o dolo del asegurado). Cuanta más letra hacia atrás en el abecedario, más cobertura y más cara la prima. Además hay que distinguir avería gruesa (daño causado a propósito por el capitán para salvar el resto del barco, y el costo se reparte entre todos los beneficiados) de avería particular (daño accidental que solo perjudica al dueño de esa carga puntual)."
+    },
+    {
+      "h": "Otros seguros del comercio internacional",
+      "p": "Además del seguro de la carga en viaje, existen otros dos seguros típicos del comercio exterior. El Seguro de Crédito a la Exportación protege al exportador si el comprador extranjero no le paga (por insolvencia, guerra, o que el país le prohíba sacar divisas): cubre un porcentaje de la deuda, nunca el 100%, para que el exportador se preocupe por elegir bien a sus clientes. El Seguro de Caución sirve como garantía de que se va a cumplir una obligación (por ejemplo, garantizar ante la Aduana el pago de tributos suspendidos en una importación temporaria)."
+    }
+  ]
+}

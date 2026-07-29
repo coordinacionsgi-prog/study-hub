@@ -1,0 +1,54 @@
+{
+  "thesis": "El Costeo Estándar es fijar de antemano cuánto DEBERÍA costar producir una unidad (el 'std'), y después comparar contra lo que costó en la realidad, para encontrar dónde se gastó de más o de menos, en qué (precio o cantidad) y de quién es la culpa.",
+  "examTip": "Te van a dar un costo estándar unitario (materia prima y mano de obra) y datos reales de un período (unidades producidas, horas trabajadas, kilos comprados y consumidos, sueldos pagados). Vas a tener que calcular las 4 variaciones clásicas: Variación Precio y Variación Eficiencia, tanto para Materia Prima como para Mano de Obra, y decir si cada una es Favorable o Desfavorable. Prestá mucha atención a qué cantidad va en cada fórmula (comprada vs. consumida).",
+  "concepts": [
+    "Costo estándar (STD)",
+    "Costo histórico o real",
+    "Costo presupuestado",
+    "Variación en precio (VPMP / VPMO)",
+    "Variación en eficiencia (VEMP / VEMO)",
+    "Favorable / Desfavorable",
+    "Costeo por absorción",
+    "Costeo variable o directo",
+    "Materia Prima (MP)",
+    "Mano de Obra Directa (MOD)",
+    "Mano de Obra Indirecta (MOI)",
+    "Gastos Indirectos de Fabricación (GIF)",
+    "Centro de costos",
+    "Plan de cuentas de costos"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué es el costo, en criollo?",
+      "p": "Costo es la plata (o el esfuerzo medido en plata) que cuesta fabricar algo. Importante: el costo NUNCA es un número exacto ni absoluto (dos empresas pueden calcular costos distintos para el mismo producto según la técnica que usen) y tampoco es constante en el tiempo por la inflación. Y algo clave que se repite en los parciales: el costo no sirve para fijar el precio de venta poniéndole un margen arriba ('costo plus'); lo correcto es al revés, partir del precio que acepta el mercado y de ahí bajar hasta el costo que te tenés que fijar como objetivo para ser competitivo."
+    },
+    {
+      "h": "Costo vs. gasto vs. pérdida",
+      "p": "Un COSTO es un sacrificio de plata que sí agrega valor al producto (por ejemplo, la mano de obra de un operario que fabrica una pieza buena) y por eso se puede 'activar' (quedar como valor de inventario hasta que se vende). Una PÉRDIDA es un desembolso que no agrega nada, generalmente por ineficiencia (por ejemplo, el sueldo de un operario que estuvo parado sin materia prima): eso no se puede activar, va directo al Cuadro de Resultados. Distinguir esto importa porque el primer lugar donde hay que buscar para reducir costos es atacando las pérdidas (el mal uso de recursos), que es más fácil que rediseñar toda la estructura de costos de la empresa."
+    },
+    {
+      "h": "Tres formas de calcular costos: histórico, presupuestado y estándar",
+      "p": "El Costo Histórico o Real se calcula DESPUÉS de que pasó el hecho (ex-post): es la foto de lo que realmente pasó. El Costo Presupuestado es una proyección basada en tendencias históricas, un anticipo simple de la realidad. El Costo Estándar (STD) también se calcula antes, pero no es un promedio de lo que veníamos gastando: es un DESAFÍO, cuánto DEBERÍA costar si todo se hace bien y con eficiencia. Por eso el STD es mucho más exigente que un presupuesto: cuestiona cuánta materia prima y cuántas horas de mano de obra hacen falta realmente, no solo repite el pasado."
+    },
+    {
+      "h": "Costeo por absorción vs. costeo directo (variable)",
+      "p": "Esta distinción es sobre qué hacer con los Gastos Fijos (los que no dependen del nivel de producción, como el alquiler o el sueldo del gerente general). En el Costeo por Absorción (o integral), TODOS los costos —fijos y variables— se cargan al producto. En el Costeo Directo o Variable, solo los costos variables se cargan al producto, y los fijos se mandan directo al resultado del período, sin repartirlos entre unidades. La contabilidad patrimonial (para terceros, balances) usa absorción por norma; la contabilidad gerencial (para tomar decisiones internas) usa costeo variable, que es la base del Análisis Marginal."
+    },
+    {
+      "h": "Los ingredientes del costo estándar: MP y MOD",
+      "p": "El costo estándar unitario de un producto se arma con: Materia Prima (cantidad estándar de kilos por unidad × precio estándar por kilo) y Mano de Obra Directa (horas estándar por unidad × tarifa estándar por hora). Por ejemplo, si el estándar dice 13,8 kg/unidad a $10/kg, el costo estándar de MP por unidad es $138. Todo lo que sea mano de obra que agrega valor directamente al producto se llama MOD (Mano de Obra Directa); la que da soporte (mantenimiento, limpieza, supervisión) es MOI (Mano de Obra Indirecta) y se trata distinto."
+    },
+    {
+      "h": "Las 4 variaciones: dónde se fue la plata",
+      "p": "Al final del período comparás lo estándar contra lo real y aparecen 4 variaciones. Variación PRECIO de Materia Prima = Cantidad COMPRADA real × (Precio real - Precio estándar): mide si pagaste más o menos caro el kilo de lo esperado. Variación EFICIENCIA de Materia Prima = Precio estándar × (Cantidad CONSUMIDA real - Cantidad estándar que debería haberse usado para lo producido): mide si gastaste más o menos material del que correspondía por lo que realmente se fabricó (desperdicio o ahorro). Las de Mano de Obra son análogas: Variación Precio de MO = Horas reales × (Tarifa real - Tarifa estándar), y Variación Eficiencia de MO = Tarifa estándar × (Horas reales - Horas estándar que correspondían). Ojo con un detalle que confunde mucho: en Precio de MP usás la cantidad COMPRADA, pero en Eficiencia de MP usás la cantidad CONSUMIDA — no son lo mismo si hubo diferencia entre lo que se compró y lo que se gastó ese mes."
+    },
+    {
+      "h": "¿Favorable o Desfavorable?",
+      "p": "Si el número de la variación da negativo (el real salió más barato o se usó menos de lo esperado) es FAVORABLE para la empresa, porque gastó menos de lo previsto. Si da positivo (real más caro o más cantidad usada de la esperada) es DESFAVORABLE. Un truco simple: pensá si esa variación le sumó o le restó plata a la utilidad. Al final, la Utilidad Neta después de considerar las variaciones estándar se calcula: Utilidad antes de variaciones menos la suma de todas las variaciones desfavorables, más las favorables (o, dicho más simple: Utilidad final = Utilidad antes - suma algebraica de todas las variaciones, donde las desfavorables restan)."
+    },
+    {
+      "h": "¿Para qué sirve todo esto en la práctica?",
+      "p": "El costeo estándar sirve para dormir tranquilo como jefe de producción: si fijaste bien tus estándares de MP, MOD y Gastos Indirectos de Fabricación (GIF), sabés exactamente qué se espera de tu gestión, y cualquier desvío te avisa rápido dónde está el problema (¿fue el precio que subió, o se usó más material del debido?). Funciona mejor en empresas grandes con producción en serie (donde tiene sentido fijar un estándar repetible); para empresas que fabrican a pedido, calcular un estándar para un producto que se hace una sola vez no vale la pena."
+    }
+  ]
+}

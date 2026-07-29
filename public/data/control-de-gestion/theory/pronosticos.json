@@ -1,0 +1,54 @@
+{
+  "thesis": "Pronosticar es usar los datos de ventas de los meses/años anteriores para adivinar, con matemática (no con corazonada), cuánto se va a vender en el futuro. Se busca un patrón en el pasado (tendencia + estacionalidad) y se lo proyecta hacia adelante.",
+  "examTip": "Te van a dar una serie de ventas mensuales y te van a pedir: calcular un promedio móvil, desestacionalizar la serie (sacarle el efecto \"mes bueno/mes malo\"), calcular la tendencia lineal y armar el pronóstico final combinando tendencia + estacionalidad. También puede aparecer una pregunta de teoría tipo \"¿qué es un método cualitativo y cuándo se usa?\" o \"¿qué componentes tiene una serie de tiempo?\".",
+  "concepts": [
+    "Serie de tiempo",
+    "Tendencia",
+    "Estacionalidad",
+    "Componente cíclico",
+    "Componente irregular/aleatorio",
+    "Promedio móvil",
+    "Suavizado exponencial",
+    "Desestacionalizar",
+    "Índice estacional",
+    "Regresión lineal",
+    "Error de pronóstico (MAD/MSE)",
+    "Métodos cualitativos",
+    "Método Delphi",
+    "Dato atípico"
+  ],
+  "sections": [
+    {
+      "h": "¿Para qué sirve pronosticar?",
+      "p": "Una empresa necesita saber más o menos cuánto va a vender el mes que viene para poder comprar materia prima, planificar la producción y no quedarse ni corta ni pasada de stock. El pronóstico no es adivinar de onda: es agarrar los datos históricos (por ejemplo, ventas de los últimos 36 meses) y buscarles un patrón que se repita, para proyectarlo hacia adelante. Ojo: ningún pronóstico es perfecto, siempre hay que revisarlo cada tanto y corregirlo con la realidad."
+    },
+    {
+      "h": "Los 4 componentes de una serie de tiempo",
+      "p": "Cuando mirás una serie de ventas mes a mes, en realidad esos números son la mezcla de 4 cosas: la Tendencia (T, si el negocio va creciendo o cayendo de fondo, en línea general), la Estacionalidad (S, el patrón que se repite todos los años en los mismos meses, como que en diciembre siempre se vende más por las fiestas), el Ciclo (C, subidas y bajadas más largas ligadas a la macroeconomía, tipo 'la economía está en recesión') y lo Irregular o Aleatorio (E, ruido random que no se explica, un pico raro por un evento puntual). Separar estos 4 componentes es la base de todo el tema."
+    },
+    {
+      "h": "Promedios móviles y suavizado",
+      "p": "Es la técnica más simple para 'limpiar' una serie de datos que salta mucho: en vez de mirar el dato de un solo mes, promediás los últimos n meses (por ejemplo n=4 o n=12) y ese promedio se va 'moviendo' mes a mes. Cuanto más grande el n, más suave y estable queda la curva pero más lenta para reaccionar a cambios reales; cuanto más chico el n, más sensible pero más nerviosa. El suavizado exponencial hace algo parecido pero le da más peso a los datos más recientes. Para elegir qué n usar, se calcula el error de cada opción (con MAD o MSE) y te quedás con el que menos error tuvo."
+    },
+    {
+      "h": "Desestacionalizar y calcular el índice estacional",
+      "p": "Si un producto se vende mucho en diciembre y poco en junio, no podés comparar esos meses directamente: hay que 'sacarles' el efecto estación. Para eso se calcula un promedio móvil centrado (por ejemplo con n=12 si es mensual) y se compara cada mes real contra ese promedio: si diciembre da 1,50 significa que ese mes vende 50% más que el promedio del año. Ese número (1,50) es el índice estacional de diciembre. Dividiendo las ventas reales por el índice estacional de cada mes obtenés la serie 'desestacionalizada', es decir, cómo hubiera sido la venta sin el efecto de la época del año. Con esa serie limpia podés calcular mejor la tendencia."
+    },
+    {
+      "h": "Tendencia lineal y el pronóstico final",
+      "p": "Una vez que tenés la serie desestacionalizada, le buscás una recta (regresión lineal: Ventas = pendiente × mes + ordenada al origen) que represente el crecimiento o caída de fondo del negocio. Esa recta te da la proyección 'neutra' para cualquier mes futuro. El pronóstico final se arma multiplicando esa proyección de tendencia por el índice estacional de cada mes: así el pronóstico de diciembre del año que viene sale más alto que el de junio, respetando el patrón estacional que siempre se repitió."
+    },
+    {
+      "h": "Medir el error del pronóstico",
+      "p": "Ningún modelo es mágico, así que siempre hay que chequear qué tan bien predijo comparando el valor pronosticado (F) contra el valor real (Y) de cada mes ya pasado. El error de cada punto es Y-F. Para resumir todos los errores en un solo número se usa el MAD (promedio del valor absoluto de los errores) o más común el MSE (promedio de los errores al cuadrado, penaliza más los errores grandes). El modelo con menor error es el que más confianza te da para seguir usando."
+    },
+    {
+      "h": "Métodos cuantitativos vs. cualitativos",
+      "p": "Todo lo anterior (series de tiempo, regresión) son métodos cuantitativos: necesitan números históricos confiables y sirven mejor para el corto plazo. Cuando no hay datos históricos (un producto nuevo) o el horizonte es muy largo (¿qué va a pasar en 10 años?), se usan métodos cualitativos, basados en opinión de expertos: el método Delphi (encuestas a especialistas en rondas sucesivas, sin que se conozcan entre sí, hasta converger en una respuesta), el consenso de panel (parecido pero en una reunión presencial, más rápido), la analogía histórica (mirar cómo le fue a un producto parecido) y la investigación de mercado. La regla general: a corto plazo mandan los métodos cuantitativos, a largo plazo pesa más el juicio cualitativo."
+    },
+    {
+      "h": "Cuándo el modelo deja de servir",
+      "p": "Los métodos de series de tiempo asumen que 'lo que pasó en el pasado se va a repetir'. Si aparece un dato irregular puntual (por ejemplo una pandemia que disparó la venta de alcohol en gel), no hay que dejarlo tal cual porque distorsiona el modelo: se reemplaza por un valor más razonable (el promedio entre el mes anterior y el posterior). Y si hay un cambio de escala abrupto y permanente (por ejemplo la empresa abrió un mercado de exportación nuevo), lo correcto es separar los datos viejos de los nuevos y analizar el período nuevo aparte, porque mezclar todo con la escala vieja arruina el pronóstico."
+    }
+  ]
+}

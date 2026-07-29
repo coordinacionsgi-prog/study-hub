@@ -1,0 +1,55 @@
+{
+  "thesis": "Esta unidad tiene dos partes que se conectan: primero cómo se genera vapor en una caldera de forma segura, y después cómo se usa ese vapor (o cualquier fluido caliente) para calentar otra cosa en un intercambiador de calor.",
+  "examTip": "Suelen preguntar: diferencia entre caldera humotubular y acuotubular, los elementos de seguridad obligatorios de una caldera y por qué existen (válvula de seguridad, tubo de nivel, detector de llama), los tipos constructivos de intercambiadores de calor (doble tubo, carcasa y tubos, placas), la diferencia entre flujo en paralelo y en contracorriente y por qué contracorriente es más eficiente, y qué es la DTLM y el coeficiente global de transferencia U.",
+  "concepts": [
+    "Caldera humotubular",
+    "Caldera acuotubular",
+    "Presión de trabajo (baja/media/alta)",
+    "Válvula de seguridad",
+    "Tubo de nivel",
+    "Detector de llama",
+    "Foguista",
+    "Intercambiador de carcasa y tubos",
+    "Intercambiador de placas",
+    "Flujo en contracorriente",
+    "Flujo en paralelo (equicorriente)",
+    "DTLM",
+    "Coeficiente global U",
+    "Factor de ensuciamiento",
+    "Steam tracing / trampa de vapor"
+  ],
+  "sections": [
+    {
+      "h": "De qué se trata todo esto",
+      "p": "El vapor es una forma muy práctica de transportar energía térmica: se genera en una caldera quemando algún combustible, viaja por cañerías y entrega su calor donde se lo necesita, ya sea para mover una turbina, calentar un proceso o calefaccionar un ambiente. La segunda mitad de la unidad se mete con los intercambiadores de calor, que son los aparatos que agarran ese calor (del vapor o de cualquier fluido caliente) y se lo pasan a otro fluido sin que se mezclen entre sí. Es la misma idea de fondo en las dos partes: hacer que la energía térmica pase de un lugar a otro de forma controlada y segura."
+    },
+    {
+      "h": "Qué es una caldera y sus dos grandes tipos",
+      "p": "Una caldera es un recipiente cerrado a presión donde se calienta agua hasta convertirla en vapor, usando el calor de una combustión (o electricidad o energía nuclear). Hay dos grandes familias según por dónde circula qué: en la caldera humotubular, los gases calientes de la combustión circulan por dentro de tubos, y el agua está afuera de esos tubos, rodeándolos; es la más común en la industria para calefacción y procesos, porque es más simple y barata. En la caldera acuotubular es al revés: el agua y el vapor circulan por dentro de los tubos, y los gases calientes están afuera; estas son las que se usan en centrales eléctricas grandes porque soportan presiones mucho mayores y producen muchísimo más vapor por hora."
+    },
+    {
+      "h": "Los elementos de seguridad de una caldera, y por qué son obligatorios",
+      "p": "Una caldera guarda una enorme cantidad de energía (agua a alta presión y temperatura), así que si algo falla puede explotar con consecuencias catastróficas; por eso tiene varios elementos de seguridad obligatorios por norma. La válvula de seguridad se abre sola si la presión sube demasiado, para desahogar el exceso antes de que reviente algo. El tubo de nivel (con mirilla de vidrio) le muestra al operador cuánta agua líquida queda adentro: si el nivel baja demasiado, los tubos quedan sin agua que los refrigere y se pueden colapsar por el calor. El detector de llama corta el combustible automáticamente si la llama se apaga, para que no se siga cargando el hogar de combustible sin quemar (lo que podría causar una explosión al reencenderlo). Por lo peligroso de esta tarea, quien opera una caldera necesita una matrícula habilitante: es el oficio de 'foguista'."
+    },
+    {
+      "h": "Cómo se clasifican las calderas",
+      "p": "Además de humotubular o acuotubular, las calderas se clasifican según su presión de trabajo (de baja presión, hasta unos 5 kg/cm², usadas sobre todo para agua caliente; de media presión, hasta 20 kg/cm², para procesos industriales; y de alta presión, para generación eléctrica), según cuánto vapor producen por hora (chicas, medianas o grandes) y según el combustible que usan (líquido, gaseoso o sólido). También se distinguen por cómo circula el agua adentro: por circulación natural (el agua caliente sube sola porque pesa menos, como en una pava), asistida (con bombas que ayudan) o forzada (una bomba empuja todo el caudal, sin la cual la caldera directamente se para)."
+    },
+    {
+      "h": "Intercambiadores de calor: los tipos más comunes",
+      "p": "Un intercambiador de calor es un equipo que transfiere calor de un fluido a otro sin que se mezclen físicamente. El de doble tubo es el más simple: un caño adentro de otro caño, un fluido va por el interior y el otro por el espacio entre los dos caños. El de carcasa y tubos es el más usado en la industria: un montón de tubos delgados metidos dentro de una carcasa (un caño grande); un fluido circula por dentro de los tubos y el otro por fuera de ellos, dentro de la carcasa. El de placas usa muchas láminas metálicas onduladas apiladas, con los fluidos circulando alternadamente entre placa y placa; es muy compacto y fácil de desarmar para limpiar, ideal cuando hay poco espacio. También existen los de flujo cruzado y los de superficie aleteada (con aletas para aumentar el área de contacto), típicos en radiadores y equipos de aire."
+    },
+    {
+      "h": "Equicorriente, contracorriente y cruzado: cómo se cruzan los fluidos",
+      "p": "Dentro de un intercambiador, los dos fluidos se pueden hacer circular de distintas formas. En equicorriente (o paralelo), ambos fluidos entran por el mismo lado y viajan en la misma dirección; al principio la diferencia de temperatura entre ambos es grande y va achicándose rápido a medida que avanzan. En contracorriente, entran por lados opuestos y viajan en direcciones contrarias; esto mantiene una diferencia de temperatura más pareja a lo largo de todo el recorrido, y por eso logra transferir más calor con la misma superficie, siendo casi siempre la disposición más eficiente. En flujo cruzado, los fluidos se cruzan en ángulo recto, como en un radiador de auto."
+    },
+    {
+      "h": "La cuenta que hace andar todo: DTLM y coeficiente U",
+      "p": "Para calcular cuánta superficie de intercambio se necesita, hace falta saber dos cosas: qué tan bien 'pasa' el calor a través de las paredes de los tubos (eso lo mide el coeficiente global de transferencia, U, que depende de los materiales y de si hay suciedad pegada adentro o afuera de los tubos: cuanto más ensuciado, peor transfiere calor) y cuál es la diferencia de temperatura efectiva entre los dos fluidos a lo largo de todo el intercambiador. Como esa diferencia de temperatura va cambiando de la entrada a la salida, se usa un promedio especial llamado diferencia de temperatura logarítmica media (DTLM), que resume todo el recorrido en un solo número representativo. Con esos dos datos (U y DTLM) y la cantidad de calor que hay que transferir, se calcula el área de tubos o placas que necesita el equipo."
+    },
+    {
+      "h": "Acompañando al vapor: steam tracing y trampas",
+      "p": "El steam tracing (traceado de vapor) es un truco simple: se pone una cañería fina de vapor pegada a la cañería del producto, para reponerle el calor que va perdiendo por el camino y evitar que se enfríe o se solidifique (muy usado con combustibles pesados o productos viscosos). Las trampas de vapor son válvulas especiales que dejan salir el agua condensada (el vapor que ya se enfrió y volvió a ser líquido) sin dejar escapar vapor útil todavía; son claves para no desperdiciar energía y para que no se acumule agua donde no corresponde."
+    }
+  ]
+}

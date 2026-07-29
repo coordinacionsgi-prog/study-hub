@@ -1,0 +1,48 @@
+{
+  "thesis": "Importar no es solo 'comprar afuera y traer': primero hay que elegir qué 'destino aduanero' le vas a dar a la mercadería (¿se queda para siempre? ¿es solo de paso?) y después calcular con precisión cuánto vas a terminar pagando en total entre aranceles, impuestos y gastos.",
+  "examTip": "Esta unidad tiene la parte más 'numérica' de la materia: con altísima probabilidad te van a dar un ejercicio para calcular el costo o presupuesto de una importación. El orden a memorizar es: FOB → sumás flete y seguro → CIF (valor en aduana) → sumás derechos de importación (AEC/DIE) y tasa de estadística → Base Imponible → sobre esa base aplicás IVA, percepción de IVA, adelanto de Ganancias e Ingresos Brutos → sumás gastos locales (despacho, honorarios, bancarios, almacenaje) → Costo o Presupuesto final. Ojo con la diferencia entre costo y presupuesto: el presupuesto incluye el IVA y las percepciones (porque hay que desembolsarlas), el costo no (porque después se recuperan).",
+  "concepts": [
+    "Destinación definitiva",
+    "Destinación suspensiva",
+    "Importación temporaria",
+    "Despacho directo a plaza (DAP)",
+    "Valor en aduana (CIF aduanero)",
+    "AEC (Arancel Externo Común)",
+    "DIE / DII",
+    "Tasa de estadística",
+    "Base Imponible",
+    "Percepciones (IVA, Ganancias, IIBB)",
+    "Costo de importación",
+    "Presupuesto de importación"
+  ],
+  "sections": [
+    {
+      "h": "Por qué (y para qué) se importa",
+      "p": "Se importa para conseguir cosas que no se producen en el país, para no depender de un solo proveedor local (monopolio/oligopolio), para conseguir mejor calidad o precio, o para aprovechar oportunidades puntuales. Pero importar nunca debería ser una decisión improvisada: hay que hacer un 'estudio de factibilidad' antes, para chequear que no haya prohibiciones, cupos o licencias que compliquen la operación, y calcular bien todos los costos antes de comprometerse, porque muchas pymes se equivocan justamente por no calcular bien la carga impositiva total."
+    },
+    {
+      "h": "Destinar la mercadería: el primer paso obligatorio",
+      "p": "Cuando la mercadería llega al país, no podés simplemente 'retirarla': primero tenés que declararle a la Aduana qué vas a hacer con ella, eso se llama 'destinar' la mercadería, y tenés 15 días desde que llega el medio de transporte para hacerlo (si no, te multan). Hay dos grandes familias de destinaciones. Las definitivas: la mercadería se queda en el país sin límite de tiempo, se puede vender libremente, y ahí sí hay que pagar todos los tributos (es la más común, se llama 'importación para consumo'). Las suspensivas: la mercadería está de paso, tiene un objetivo y un plazo determinado (por ejemplo 'importación temporaria' para reparar algo o exponerlo en una feria), no se pagan tributos pero hay que dejar una garantía, y no se puede vender ni circular libremente. Al vencer el plazo de una suspensiva, tiene que convertirse en una definitiva (quedarse y pagar) o volver a salir del país."
+    },
+    {
+      "h": "Armar el valor en aduana: de la factura al CIF",
+      "p": "Antes de calcular cualquier impuesto hay que saber sobre qué monto se calcula: el valor en aduana (o CIF aduanero). Se parte del valor FOB de la factura comercial, se le suma el flete internacional y el seguro internacional (si no hay seguro contratado, la ley obliga a usar un seguro mínimo de referencia del 1% sobre el CIF), y se le aplican ajustes que exige la aduana (algunos gastos se suman, como comisiones de venta o regalías; otros se restan, como intereses por pago diferido). El resultado es el 'valor CIF aduanero', que puede ser distinto del 'CIF comercial' de la factura real."
+    },
+    {
+      "h": "Los aranceles de importación: AEC, DIE, DII y tasa de estadística",
+      "p": "Sobre el valor en aduana se aplican los derechos de importación (aranceles), que en general son 'ad-valorem' (un porcentaje sobre el CIF). El Arancel Externo Común (AEC) es el porcentaje que Argentina, Brasil, Paraguay y Uruguay acordaron cobrarle a la mercadería que viene de FUERA del Mercosur (por eso 'externo común': es igual en los 4 países). El DIE (Derecho de Importación Extrazona) es una excepción: para ciertos productos 'sensibles' (como azúcar o autos) cada país del Mercosur puede cobrar un arancel distinto al AEC — cuando existe DIE para un producto, se usa el DIE en vez del AEC. El DII (Derecho de Importación Intrazona) es el arancel para mercadería que viene DE ADENTRO del Mercosur, y hoy es 0%. Además, casi todas las importaciones pagan una tasa de estadística (normalmente 3% del CIF, con un tope en dólares según el monto de la operación), que no aplica a mercadería del Mercosur."
+    },
+    {
+      "h": "Los impuestos sobre la Base Imponible",
+      "p": "Una vez que tenés el CIF más los derechos de importación más la tasa de estadística, llegás a la Base Imponible (también llamada 'base IVA'). Sobre esa base se cobran varios impuestos y percepciones a cuenta de otros impuestos futuros: el IVA (21% general, o 10,5% para ciertos productos), la percepción adicional de IVA (20% o 10%), el adelanto de Impuesto a las Ganancias (6% en general, o 11% si es para uso personal), y el adelanto de Ingresos Brutos (según la provincia, entre 2% y 3,5%). La clave para entender esto: no son 'impuestos nuevos' sino anticipos de impuestos que la empresa va a tener que pagar igual más adelante por sus ventas, así que se pueden descontar después — por eso NO forman parte del 'costo' final del producto, solo del 'presupuesto' (porque hay que desembolsarlos igual)."
+    },
+    {
+      "h": "Gastos locales y la diferencia entre costo y presupuesto",
+      "p": "Además de los tributos, hay gastos que se pagan en el país para poder terminar de nacionalizar la mercadería: honorarios del despachante (suelen calcularse sobre el CIF), gastos y comisiones bancarias (suelen calcularse sobre el valor FOB de la factura), transporte interno desde el puerto, seguro interno, almacenaje y gastos de despacho. El presupuesto de importación es la plata total que vas a necesitar desembolsar (incluye los impuestos/percepciones, aunque después se recuperen) y sirve para planificar ANTES de importar. El costo de importación es lo que realmente queda pegado al precio del producto (sin los impuestos recuperables) y se calcula DESPUÉS, para saber a qué precio conviene vender."
+    },
+    {
+      "h": "Ejemplo numérico resuelto paso a paso",
+      "p": "Importás 3.500 sillas a USD 10 FOB c/u, origen China. Flete marítimo: USD 1.200. No se contrató seguro (hay que calcular el mínimo de referencia). Aranceles: AEC 25%, DIE 15% (como hay DIE, se usa el DIE y no el AEC), tasa de estadística 3%. Paso 1 — CFR: 3.500 × 10 = USD 35.000 (FOB) + USD 1.200 (flete) = USD 36.200. Paso 2 — Seguro mínimo (1% sobre CIF) y CIF: CIF = CFR / (1 - 0,01) = 36.200 / 0,99 = USD 36.562 (el seguro fue esa diferencia, USD 362). Paso 3 — Base Imponible: CIF 36.562 + DIE 15% (5.484,30) + tasa de estadística 3% (1.096,86) = USD 43.143,16. Paso 4 — Impuestos sobre esa base (van al presupuesto, no al costo): IVA 21% = 9.060,06; percepción IVA 20% = 8.628,63; percepción Ingresos Brutos 3% = 1.294,29; percepción Ganancias 6% = 2.588,59. Paso 5 — Gastos locales (van tanto al costo como al presupuesto): transporte local 400 + seguro interno 100 + despacho 1.200 + honorarios despachante (1% del CIF = 365,62) + comisiones bancarias (2% del FOB = 700) + gastos bancarios 90 + almacenaje 850 = USD 3.705,62. Resultado: Costo de importación = Base Imponible + Gastos = 43.143,16 + 3.705,62 ≈ USD 46.848,78. Presupuesto de importación = Costo + todos los impuestos/percepciones ≈ USD 68.420,36."
+    }
+  ]
+}

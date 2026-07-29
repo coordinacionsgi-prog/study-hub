@@ -1,0 +1,54 @@
+{
+  "intro": "La materia va de lo general a lo concreto: primero entendés las reglas del juego y quiénes participan (Unidad 1), después cómo viaja físicamente la mercadería (Unidad 2, logística y seguros), después cómo se reparten costos y riesgos entre vendedor y comprador con los Incoterms (Unidad 3), y todo eso desemboca en el momento de importar de verdad y calcular cuánto sale (Unidad 4), donde se combinan el Incoterm elegido, el seguro contratado y los aranceles vigentes.",
+  "nodes": [
+    { "id": "n1",  "x": 40,  "y": 40,  "w": 180, "h": 90, "title": "Introducción al Comex",       "subtitle": "Código Aduanero, operadores, mercadería", "color": "#5b8def" },
+    { "id": "n2",  "x": 280, "y": 40,  "w": 180, "h": 90, "title": "Logística internacional",     "subtitle": "Cómo viaja la mercadería",               "color": "#3fbf7f" },
+    { "id": "n3",  "x": 520, "y": 40,  "w": 180, "h": 90, "title": "Incoterms",                   "subtitle": "Quién paga y arriesga qué",              "color": "#a78bfa" },
+    { "id": "n4",  "x": 760, "y": 40,  "w": 180, "h": 90, "title": "Régimen de importación",      "subtitle": "Traer mercadería y calcular costos",     "color": "#f2a33d" },
+
+    { "id": "n5",  "x": 40,  "y": 200, "w": 180, "h": 90, "title": "Políticas comerciales",       "subtitle": "Monetaria, comercial, promocional",      "color": "#f2a33d" },
+    { "id": "n6",  "x": 280, "y": 200, "w": 180, "h": 90, "title": "Seguros de transporte",       "subtitle": "Pólizas y cláusulas ICC",                "color": "#22d3ee" },
+    { "id": "n7",  "x": 520, "y": 200, "w": 180, "h": 90, "title": "Grupos E / F / C / D",        "subtitle": "Cómo se organizan los Incoterms",        "color": "#a78bfa" },
+    { "id": "n8",  "x": 760, "y": 200, "w": 180, "h": 90, "title": "Aranceles y tributos",        "subtitle": "AEC, DIE, tasa de estadística, IVA",     "color": "#e5555a" },
+
+    { "id": "n9",  "x": 40,  "y": 360, "w": 180, "h": 90, "title": "Prácticas desleales",         "subtitle": "Dumping y subvenciones",                 "color": "#e5555a" },
+    { "id": "n10", "x": 280, "y": 360, "w": 180, "h": 90, "title": "Documentos y carga",          "subtitle": "B/L, AWB, contenedores",                 "color": "#3fbf7f" },
+    { "id": "n11", "x": 520, "y": 360, "w": 180, "h": 90, "title": "Armado de la cotización",     "subtitle": "Moneda + Monto + Término + Lugar",       "color": "#a78bfa" },
+    { "id": "n12", "x": 760, "y": 360, "w": 180, "h": 90, "title": "Costo y presupuesto",         "subtitle": "FOB → CIF → Base Imponible → Costo",     "color": "#f2a33d" }
+  ],
+  "edges": [
+    ["n1", "n2"],
+    ["n2", "n3"],
+    ["n3", "n4"],
+    ["n1", "n5"],
+    ["n1", "n9"],
+    ["n2", "n6"],
+    ["n2", "n10"],
+    ["n3", "n7"],
+    ["n3", "n11"],
+    ["n4", "n8"],
+    ["n4", "n12"],
+    ["n8", "n12"],
+    ["n11", "n12"],
+    ["n6", "n12"]
+  ],
+  "comparisons": [
+    ["FOB vs CIF", "En FOB el vendedor solo paga hasta subir la mercadería al barco; en CIF el vendedor además paga el flete y el seguro hasta destino, aunque el riesgo pasa al comprador en el mismo momento que en FOB (al cargar a bordo)."],
+    ["EXW vs DDP", "Son los extremos opuestos: en EXW el vendedor casi no hace nada (el comprador retira de la fábrica y se ocupa de todo lo demás); en DDP el vendedor hace y paga todo, incluso los impuestos de importación, hasta entregarla en la puerta del comprador."],
+    ["FCA vs FOB", "Ambos entregan la mercadería al transportista elegido por el comprador, pero FOB es solo para transporte marítimo/fluvial (a bordo de un buque) mientras que FCA sirve para cualquier medio de transporte."],
+    ["CFR vs CIF", "Son iguales (flete pagado hasta destino) excepto que en CIF el vendedor además contrata y paga un seguro internacional obligatorio; en CFR el seguro queda a criterio del comprador."],
+    ["CPT vs CIP", "Es la misma lógica que CFR/CIF pero para cualquier medio de transporte: CPT no incluye seguro, CIP sí lo incluye y además exige una cobertura más amplia (cláusula todo riesgo)."],
+    ["DAP vs DPU", "En ambos el vendedor lleva la mercadería hasta destino asumiendo flete y riesgo, pero en DPU el vendedor también la descarga; en DAP la entrega sin descargar."],
+    ["DAP vs DDP", "En DAP el comprador se encarga y paga el trámite de importación; en DDP eso también lo hace y paga el vendedor, así que para el comprador es como comprar en el mercado local."],
+    ["Origen vs Procedencia", "Origen es el país donde la mercadería fue realmente fabricada o transformada; procedencia es solo el último lugar geográfico desde donde se embarcó, aunque se haya producido en otro país."],
+    ["Dumping vs Subvención", "El dumping lo hace una empresa privada vendiendo más barato afuera que en su propio país; la subvención la otorga un gobierno (plata, créditos o beneficios) para que sus empresas exporten más barato."],
+    ["Derecho antidumping vs Derecho compensatorio", "Ambos son un arancel extra para 'emparejar la cancha', pero el antidumping responde a dumping (decisión de una empresa) y el compensatorio responde a una subvención (decisión de un gobierno)."],
+    ["Destinación definitiva vs suspensiva", "La definitiva es para quedarse en el país sin límite de tiempo y paga todos los tributos; la suspensiva es temporal, no paga tributos (solo los garantiza) y tiene que volver a salir o convertirse en definitiva."],
+    ["AEC vs DIE", "El AEC es el arancel común que Argentina, Brasil, Paraguay y Uruguay acordaron cobrarle a la mercadería de fuera del Mercosur; el DIE es una excepción para productos 'sensibles' donde cada país cobra un arancel distinto al AEC."],
+    ["Valor CIF comercial vs Valor CIF aduanero", "El comercial es el que figura en la factura real; el aduanero (valor en aduana) es el que usa la Aduana para cobrar impuestos, con ajustes propios (y un seguro mínimo de referencia si no hay seguro contratado)."],
+    ["Costo vs Presupuesto de importación", "El presupuesto se calcula antes de importar e incluye el IVA y las percepciones (porque hay que desembolsarlos); el costo se calcula después y solo incluye lo que queda pegado al precio del producto, sin los impuestos que se recuperan."],
+    ["Transporte multimodal vs intermodal", "En el multimodal hay un solo operador (OTM) responsable de todo el viaje con un único contrato; en el intermodal cada transportista responde solo por su propio tramo, con contratos separados."],
+    ["Avería gruesa vs Avería particular", "La gruesa es un daño causado a propósito por el capitán para salvar el resto del barco o la carga (el costo se reparte entre todos los beneficiados); la particular es un daño accidental que solo afecta al dueño de esa carga."],
+    ["Cláusula ICC C vs ICC A", "La C es la cobertura mínima de seguro (solo grandes accidentes tipo incendio o naufragio); la A es 'todo riesgo', cubre casi cualquier daño salvo excepciones puntuales como mal embalaje o dolo del asegurado."]
+  ]
+}

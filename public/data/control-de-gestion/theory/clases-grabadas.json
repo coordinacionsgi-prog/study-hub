@@ -1,0 +1,35 @@
+{
+  "thesis": "Estas son las transcripciones de las 8 clases grabadas por Zoom. No traen temas nuevos: son la MISMA teoría de los módulos AE1 a AE7 y Pronósticos, pero explicada en vivo por el profesor con sus propias palabras, ejemplos cotidianos y anécdotas -útil cuando algo del apunte no te cerró y querés 'escucharlo' explicado distinto.",
+  "examTip": "Usá este módulo para preguntarle al chat cómo se explicó tal o cual tema EN CLASE (con las palabras del profesor), sobre todo si el apunte en PDF te quedó confuso. No hace falta leerlas enteras: es mejor buscar puntualmente el tema que te trabó.",
+  "concepts": [
+    "Mercado bursátil argentino",
+    "Sociedad Anónima y Consejo de Administración",
+    "Corporación vs. holding",
+    "Contabilidad patrimonial vs. gerencial (explicado en vivo)",
+    "FODA y análisis de contexto",
+    "Series de tiempo (explicado en vivo)",
+    "Ejemplos con casos reales de clase"
+  ],
+  "sections": [
+    {
+      "h": "Para qué sirve este módulo",
+      "p": "A lo largo del cuatrimestre se grabaron 8 clases por Zoom (31/3 al 9/6), y acá están transcriptas. La ventaja de este material es que el profesor explica los mismos conceptos de la teoría escrita pero de forma más conversacional, con ejemplos y comparaciones que no siempre están en el apunte formal (por ejemplo, comparar el mercado bursátil con un mercado de frutas y verduras para explicar oferta y demanda de acciones). Si un tema teórico no te cerró leyendo el PDF, buscarlo en la clase correspondiente suele ayudar a entenderlo con otras palabras."
+    },
+    {
+      "h": "Cómo está organizado el contenido de las clases",
+      "p": "Las primeras clases (1 y 2) arrancan con el contexto general de la empresa y repaso de conceptos: contabilidad patrimonial vs. gerencial, análisis FODA, tipos de sociedades. Las clases siguientes van avanzando en paralelo con los módulos AE (Estados Contables, variaciones patrimoniales, ratios, ciclos, NOF, EVA) y con Pronósticos, más o menos en el mismo orden que aparecen en los TPs. Como son clases en vivo, a veces el profesor retoma un tema de la clase anterior antes de avanzar, así que no siempre hay una correspondencia 100% exacta '1 clase = 1 tema'."
+    },
+    {
+      "h": "Ejemplo de cómo el profesor explica las cosas 'para bobos'",
+      "p": "Un buen ejemplo del estilo de las clases: para explicar por qué una empresa de capital abierto puede vender acciones a cualquiera sin conocerlo, el profesor lo compara con comprar en un mercado de frutas y verduras -es un lugar de oferta y demanda donde no hace falta conocer personalmente al vendedor para poder comprarle. También explica con números simples (por ejemplo, imaginar un millón de accionistas con una acción cada uno) cómo funciona el Consejo de Administración de una Sociedad Anónima: los accionistas eligen a los miembros del Consejo, el Consejo elige al CEO, y el CEO arma su equipo de gerentes -y si el CEO se manda una macana grande, el propio Consejo lo puede reemplazar. Es el mismo concepto de 'gobierno corporativo' que aparece en la teoría escrita, pero contado como una cadena de mando fácil de visualizar."
+    },
+    {
+      "h": "Un dato de color que aparece en clase: el tamaño de la bolsa argentina",
+      "p": "En una de las clases el profesor menciona un dato útil para entender el contexto financiero argentino: el mercado bursátil argentino representa apenas entre el 9% y el 11% del PBI real del país, mientras que en economías más desarrolladas ese número puede llegar al 50%, 80% o incluso 100%. Esto explica por qué en Argentina las empresas recurren mucho menos a emitir acciones o bonos en la bolsa para financiarse, comparado con el sistema bancario tradicional -un contexto que ayuda a entender por qué ciertos temas de financiamiento se explican distinto acá que en un libro de finanzas escrito para otro país."
+    },
+    {
+      "h": "Cómo aprovechar mejor este material para el parcial",
+      "p": "No conviene leer las 8 clases completas de punta a punta como si fueran un apunte más: son transcripciones literales de audio, con las repeticiones y desvíos normales de una charla en vivo. Lo más eficiente es usarlas como 'consulta puntual': cuando un concepto de otro módulo (por ejemplo NOF, EVA, o análisis marginal) no te cerró del todo, buscar en qué clase se dio ese tema y leer esa sección específica, aprovechando que en vivo el profesor suele agregar un ejemplo o una aclaración que no está en el PDF de teoría."
+    }
+  ]
+}

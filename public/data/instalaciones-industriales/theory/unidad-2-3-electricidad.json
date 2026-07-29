@@ -1,0 +1,59 @@
+{
+  "thesis": "Esta unidad explica todo el camino de la electricidad: cómo se genera, transporta y distribuye en Argentina, y después cómo se arma una instalación eléctrica industrial adentro de la planta (cables, tableros, protecciones, puesta a tierra, motores) y cómo se diseña la iluminación (luminotecnia).",
+  "examTip": "Suelen preguntar: quiénes son los actores del mercado eléctrico argentino y qué hace CAMMESA, para qué sirve un esquema unifilar, la diferencia entre fusible, interruptor termomagnético y disyuntor diferencial (y por qué el diferencial no reemplaza a los otros), para qué sirve la puesta a tierra, motor síncrono vs. asíncrono y el arranque estrella-triángulo, y las magnitudes básicas de luminotecnia (lumen, lux, candela) con los tipos de lámparas.",
+  "concepts": [
+    "CAMMESA",
+    "Generador / Transportista / Distribuidor",
+    "Esquema unifilar",
+    "Cable vs. alambre",
+    "Tablero eléctrico",
+    "Fusible",
+    "Interruptor termomagnético",
+    "Disyuntor diferencial",
+    "Puesta a tierra",
+    "Motor síncrono",
+    "Motor asíncrono",
+    "Arranque estrella-triángulo",
+    "Flujo luminoso (lumen)",
+    "Iluminancia (lux)",
+    "Lámparas de descarga"
+  ],
+  "sections": [
+    {
+      "h": "El negocio eléctrico en Argentina",
+      "p": "Desde 1991 el sistema eléctrico argentino está dividido en tres partes independientes: generadores (producen la energía), transportistas (la llevan por las líneas de alta tensión, la red que en conjunto se llama SADI) y distribuidores (la reparten a los usuarios finales dentro de su zona). CAMMESA es la empresa que administra todo el 'mercado eléctrico mayorista': hace de intermediaria, coordina quién genera cuánto y a qué precio, y reparte los pagos entre todos los actores. También existen los 'grandes usuarios', que son consumidores tan grandes (fábricas, por ejemplo) que pueden negociar su propio contrato de energía directamente con un generador, en vez de comprarle solo a la distribuidora."
+    },
+    {
+      "h": "Cómo se documenta una instalación eléctrica",
+      "p": "El esquema unifilar es el plano principal de cualquier instalación eléctrica: dibuja cada línea (aunque tenga varios cables adentro) como una sola raya, mostrando qué cargas están conectadas a cada tablero y qué protecciones tiene cada una. Es como el mapa del subte de una instalación eléctrica: no importa la distancia real, importa mostrar claramente las conexiones y protecciones. El balance de fases es otro documento clave: es una planilla que lista todos los consumidores (motores, luces, tomas) y reparte la carga entre las tres fases de la manera más pareja posible, para que ninguna fase quede más recargada que las otras."
+    },
+    {
+      "h": "Los cables: de qué están hechos y cómo se eligen",
+      "p": "Un conductor eléctrico tiene tres partes: el alma conductora (el metal, casi siempre cobre porque conduce mejor y es más fácil de trabajar que el aluminio), el aislamiento (para que la corriente no se escape ni toque a nadie, hecho de PVC, XLPE u otros plásticos) y a veces una cubierta protectora extra contra golpes. Un alambre tiene un solo hilo conductor; un cable está formado por varios hilos finitos trenzados juntos, lo que lo hace mucho más flexible. Para elegir un cable hay que definir la tensión de trabajo, la corriente que va a circular, la temperatura ambiente y el tipo de instalación (aérea, enterrada, dentro de un caño), porque todo eso afecta cuánto calor puede disipar el cable sin dañarse."
+    },
+    {
+      "h": "El tablero eléctrico y sus partes",
+      "p": "Un tablero eléctrico es la caja o gabinete donde se agrupan todos los dispositivos de conexión, maniobra, medición y protección de un circuito. Tiene una zona frontal, accesible y segura para el usuario, y una zona trasera con las barras y bornes, que está bajo tensión y solo puede tocar personal autorizado. Adentro conviven los aparatos de maniobra (para prender y apagar, como contactores), los de protección (fusibles, térmicos, diferenciales), los de medición (amperímetros, voltímetros) y los de señalización (luces piloto de colores: rojo para emergencia, amarillo para anomalía, verde para funcionamiento normal)."
+    },
+    {
+      "h": "Protecciones: fusibles, térmicos, magnéticos y diferenciales",
+      "p": "El fusible es el más viejo y simple: un hilo metálico que se funde cuando pasa demasiada corriente, cortando el circuito, pero hay que reemplazarlo cada vez que actúa. El interruptor térmico reacciona ante sobrecargas (corriente algo más alta que la normal, mantenida en el tiempo) usando una lámina bimetálica que se curva con el calor. El interruptor magnético reacciona rapidísimo ante cortocircuitos (corrientes enormes) usando un electroimán. El termomagnético combina ambos en un solo aparato y es el más usado hoy porque es más seguro y no hay que comprar repuestos. El disyuntor diferencial es distinto a todos estos: no protege al circuito, protege a las personas, comparando la corriente que entra y la que sale; si hay una fuga a tierra (por ejemplo, alguien tocando un cable pelado), detecta el desequilibrio y corta en milisegundos. Por eso el diferencial no reemplaza al termomagnético: cada uno cuida de un peligro distinto."
+    },
+    {
+      "h": "Puesta a tierra: por qué salva vidas",
+      "p": "Cuando un artefacto pierde su aislación, su carcasa metálica puede quedar energizada sin que se note a simple vista, y si alguien la toca, la corriente puede pasar por su cuerpo. La puesta a tierra conecta esas partes metálicas a un electrodo enterrado (jabalinas o mallas), de forma que si aparece esa fuga, la corriente se va por el camino de menor resistencia (la tierra) en lugar de por la persona, y además hace que las protecciones automáticas actúen mucho más rápido. La resistencia del cuerpo humano baja muchísimo con la piel mojada, así que el riesgo de electrocución es mucho mayor en ambientes húmedos; por eso las corrientes de fuga que puede tolerar una persona sin morir son de apenas decenas de miliamperios."
+    },
+    {
+      "h": "Motores eléctricos: síncronos y asíncronos",
+      "p": "Los motores transforman energía eléctrica en movimiento mecánico. En un motor síncrono, el rotor gira exactamente a la misma velocidad que el campo magnético giratorio del estator (van sincronizados), pero necesita alimentación de corriente continua en el rotor y sistemas especiales para arrancar. En el motor asíncrono (el más usado en la industria por simple, barato y de bajo mantenimiento), el rotor gira siempre un poquito más lento que el campo magnético giratorio; esa diferencia de velocidad (el 'deslizamiento') es justamente lo que genera la corriente que hace girar al rotor, con el llamado rotor 'jaula de ardilla'. Al arrancar, un motor asíncrono conectado directo a la red consume de 5 a 7 veces la corriente normal, por eso en motores grandes se usan sistemas de arranque suave, como el arranque estrella-triángulo (arranca en estrella, con menos tensión y corriente, y después conmuta a triángulo para trabajar a plena tensión) o el arranque con autotransformador."
+    },
+    {
+      "h": "Luminotecnia: las magnitudes básicas de la luz",
+      "p": "El flujo luminoso (en lúmenes) es toda la luz que emite una fuente en todas direcciones. La iluminancia (en lux) es cuánta de esa luz llega efectivamente a una superficie, por eso una misma lámpara ilumina distinto según qué tan lejos esté la superficie: la iluminación cae con el cuadrado de la distancia. La intensidad luminosa (en candelas) es la luz que sale en una dirección puntual. Y la luminancia es el 'brillo' que percibe el ojo al mirar una superficie iluminada o luminosa. Cada tipo de actividad tiene un nivel de lux recomendado por normativa: un depósito necesita poca luz (100 lux), una oficina necesita más (300 a 750 lux) y un quirófano necesita muchísima (5000 a 10000 lux)."
+    },
+    {
+      "h": "Tipos de lámparas",
+      "p": "Las lámparas incandescentes (y las halógenas, una versión mejorada) producen luz calentando un filamento hasta que brilla; son baratas y con buen color, pero gastan mucha energía en forma de calor y duran poco (unas 1000 a 2000 horas). Las lámparas de descarga (fluorescentes, vapor de mercurio, vapor de sodio) producen luz haciendo pasar corriente a través de un gas, sin filamento; son mucho más eficientes y duran muchísimo más (hasta 20000 horas), pero necesitan un balasto para arrancar y limitar la corriente, y algunas (como el sodio de baja presión) dan una luz amarilla con muy mal rendimiento de color. Las lámparas de sodio de alta presión son las típicas de alumbrado público por su gran eficiencia. Los LED son la tecnología más moderna: altísima eficiencia, larguísima vida útil y encendido instantáneo, por lo que hoy reemplazan a casi todas las anteriores."
+    }
+  ]
+}

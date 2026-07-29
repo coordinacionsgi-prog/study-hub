@@ -2,9 +2,12 @@ import { useEffect, useState } from "react";
 import { getSubjects, getModules } from "./api";
 import FlashcardView from "./components/FlashcardView";
 import QuizView from "./components/QuizView";
+import TheoryView from "./components/TheoryView";
+import ConceptMapView from "./components/ConceptMapView";
 import "./index.css";
 
 const TABS = [
+  { id: "teoria", label: "Teoría" },
   { id: "flashcards", label: "Flashcards" },
   { id: "quiz", label: "Quiz" },
 ];
@@ -15,7 +18,8 @@ export default function App() {
   const [modules, setModules] = useState(null);
   const [error, setError] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
-  const [tab, setTab] = useState("flashcards");
+  const [showMap, setShowMap] = useState(false);
+  const [tab, setTab] = useState("teoria");
 
   useEffect(() => {
     getSubjects().then(setSubjects).catch((e) => setError(e.message));
@@ -25,6 +29,7 @@ export default function App() {
     if (!subjectId) return;
     setModules(null);
     setSelectedId(null);
+    setShowMap(false);
     getModules(subjectId).then(setModules).catch((e) => setError(e.message));
   }, [subjectId]);
 
@@ -45,7 +50,7 @@ export default function App() {
         <main className="main-content" style={{ width: "100%" }}>
           <div className="home-view">
             <h2>¿Qué materia querés estudiar?</h2>
-            <p>Elegí una materia para ver sus módulos, flashcards y quizzes.</p>
+            <p>Elegí una materia para ver su mapa conceptual, teoría, flashcards y quizzes.</p>
             <div className="home-grid">
               {subjects?.map((s) => (
                 <button key={s.id} className="home-card" onClick={() => setSubjectId(s.id)}>
@@ -69,14 +74,27 @@ export default function App() {
         </button>
         <h1 className="app-title">{subject?.title}</h1>
         <p className="app-subtitle">Repaso de la materia</p>
+
+        <button
+          className={`module-item map-item ${showMap ? "active" : ""}`}
+          onClick={() => {
+            setShowMap(true);
+            setSelectedId(null);
+          }}
+        >
+          <span className="module-item-title">🗺 Mapa conceptual</span>
+          <span className="module-item-unidad">Toda la materia</span>
+        </button>
+
         <nav className="module-nav">
           {modules?.map((m) => (
             <button
               key={m.id}
-              className={`module-item ${m.id === selectedId ? "active" : ""}`}
+              className={`module-item ${!showMap && m.id === selectedId ? "active" : ""}`}
               onClick={() => {
                 setSelectedId(m.id);
-                setTab("flashcards");
+                setShowMap(false);
+                setTab("teoria");
               }}
             >
               <span className="module-item-title">{m.title}</span>
@@ -88,10 +106,16 @@ export default function App() {
       </aside>
 
       <main className="main-content">
-        {!selected && (
+        {showMap && (
+          <div className="content-body">
+            <ConceptMapView subjectId={subjectId} />
+          </div>
+        )}
+
+        {!showMap && !selected && (
           <div className="home-view">
             <h2>¡Bienvenido!</h2>
-            <p>Elegí un módulo de la izquierda para empezar a repasar con flashcards y quizzes.</p>
+            <p>Elegí un módulo de la izquierda para estudiar la teoría, o repasar con flashcards y quizzes.</p>
             <div className="home-grid">
               {modules?.map((m) => (
                 <button key={m.id} className="home-card" onClick={() => setSelectedId(m.id)}>
@@ -103,7 +127,7 @@ export default function App() {
           </div>
         )}
 
-        {selected && (
+        {!showMap && selected && (
           <>
             <header className="content-header">
               <div>
@@ -124,6 +148,7 @@ export default function App() {
             </header>
 
             <div className="content-body">
+              {tab === "teoria" && <TheoryView subjectId={subjectId} moduleId={selected.id} />}
               {tab === "flashcards" && <FlashcardView subjectId={subjectId} moduleId={selected.id} />}
               {tab === "quiz" && <QuizView subjectId={subjectId} moduleId={selected.id} />}
             </div>

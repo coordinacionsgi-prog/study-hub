@@ -1,0 +1,55 @@
+{
+  "thesis": "El comercio exterior es cuando un país (o una empresa de ese país) compra cosas de afuera (importa) o vende cosas para afuera (exporta), y el Estado pone reglas (leyes, aranceles, controles) para que eso le convenga al país y no lo perjudique.",
+  "examTip": "Esta unidad es toda teoría y definiciones, no hay cálculos. Te van a preguntar: qué es mercadería/territorio aduanero, quién es cada operador (importador, despachante, ATA), la diferencia entre origen y procedencia, y sobre todo la diferencia entre dumping y subvención, y entre las tres subpolíticas (monetaria, comercial, promocional). Estudiá bien esas comparaciones porque son las preguntas más típicas del parcial.",
+  "concepts": [
+    "Código Aduanero",
+    "Territorio aduanero",
+    "Zona franca",
+    "Importador / Exportador",
+    "Despachante de aduana",
+    "Clasificación arancelaria (NCM)",
+    "Valoración aduanera (CIF/FOB)",
+    "Origen vs Procedencia",
+    "Dumping",
+    "Subvención",
+    "Derecho antidumping",
+    "Salvaguardia",
+    "Subpolítica monetaria",
+    "Subpolítica comercial",
+    "Subpolítica promocional"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué es el comercio exterior y por qué existe?",
+      "p": "Ningún país produce todo lo que necesita, entonces los países se compran y se venden cosas entre sí: eso es comercio exterior. Cuando un país trae mercadería de afuera, importa; cuando manda mercadería para afuera, exporta. A nivel país (macro) esto sirve para conseguir cosas que no se producen localmente o que salen más caras acá, y para generar divisas (dólares) que después sirven para pagar deudas o comprar más importaciones. A nivel empresa (micro) exportar te permite vender más, no depender solo del mercado interno, y mejorar tu producto para competir afuera. Ojo: esto no es un juego de todos ganan siempre, cada política que se toma (por ejemplo bajar un arancel) tiene un efecto positivo para un sector y negativo para otro."
+    },
+    {
+      "h": "El Código Aduanero y el territorio aduanero",
+      "p": "En Argentina la ley madre que regula todo esto es el Código Aduanero (Ley 22.415, de 1981). Define cosas básicas como qué es mercadería (cualquier objeto que se pueda importar o exportar, incluso algunos servicios), qué es importar (meter algo al territorio aduanero) y exportar (sacarlo). El territorio aduanero no es lo mismo que el territorio del país: Argentina tiene un Territorio Aduanero General (el continente) y uno Especial (Tierra del Fuego, con reglas de impuestos distintas). También existen las zonas francas: son como una 'burbuja' dentro del país donde entrar mercadería se trata como importación y sacarla se trata como exportación, aunque geográficamente sigas en el mismo país."
+    },
+    {
+      "h": "Quién participa en una operación: operadores y auxiliares",
+      "p": "El importador es quien trae mercadería a su nombre, el exportador quien la saca. Después están los 'auxiliares', gente con conocimientos técnicos que ayudan porque el trámite aduanero es complicado: el despachante de aduana es el que hace todo el papeleo ante la Aduana en nombre del importador/exportador (es como un abogado de aduana); el agente de transporte aduanero (ATA) presenta el medio de transporte y su carga ante la aduana; el agente marítimo representa al buque en cada puerto; y el freight forwarder (agente de embarque) arma toda la logística del viaje (retira la carga, contrata seguros, junta cargas de varios clientes, etc.)."
+    },
+    {
+      "h": "Clasificar y valorar la mercadería",
+      "p": "Antes de cobrar cualquier impuesto, la Aduana necesita saber exactamente qué es lo que entra o sale (clasificación arancelaria) y cuánto vale (valoración aduanera). Clasificar es ponerle a cada producto un código numérico llamado posición arancelaria dentro del Nomenclador Común del Mercosur (NCM): ese código dice qué impuestos le corresponden. Valorar es fijar el precio en aduana (la base sobre la que se cobran los impuestos): para importaciones se usa el valor CIF (costo + seguro + flete) y para exportaciones se usa el valor FOB (el precio de la mercadería puesta a bordo del barco, sin flete ni seguro)."
+    },
+    {
+      "h": "Origen vs procedencia: no es lo mismo",
+      "p": "Origen es el país donde la mercadería realmente se fabricó, cosechó o se le hizo la transformación más importante. Procedencia es simplemente el último lugar geográfico desde donde salió embarcada rumbo a destino, sin importar dónde se fabricó. Ejemplo clásico: una máquina hecha en Alemania pero embarcada desde un depósito en Holanda tiene origen Alemania y procedencia Holanda. Esto importa porque los acuerdos comerciales (como el Mercosur) dan beneficios según el origen, no según la procedencia."
+    },
+    {
+      "h": "Prácticas desleales: dumping y subvenciones",
+      "p": "Existen dos formas de 'jugar sucio' en el comercio internacional. Dumping es cuando una empresa exporta un producto más barato de lo que lo vende en su propio país, para sacar del medio a la competencia local del país importador. Subvención es cuando un gobierno le da plata, créditos baratos o beneficios impositivos a sus empresas para que puedan exportar más barato de lo normal. La diferencia clave: el dumping lo decide una empresa privada, la subvención la decide un gobierno. Para defenderse, el país perjudicado puede aplicar un derecho antidumping (si es dumping) o un derecho compensatorio (si es subvención): en ambos casos es un arancel extra para 'emparejar la cancha'. Aparte existe la salvaguardia, una medida de urgencia que se aplica cuando las importaciones aumentan tanto y tan rápido que amenazan con dañar a la industria local, sin que haya necesariamente nada 'desleal' de por medio."
+    },
+    {
+      "h": "Las 3 políticas de comercio exterior",
+      "p": "El Estado maneja el comercio exterior con tres 'palancas' que deberían moverse juntas y coordinadas: la subpolítica monetaria (maneja el Banco Central: tasa de interés, tipo de cambio, devaluar o no) afecta si importar/exportar sale más caro o más barato; la subpolítica comercial (aranceles, cupos, prohibiciones) regula directamente cuánto entra y sale de mercadería, para proteger la industria local o darle equilibrio a la balanza de pagos; y la subpolítica promocional (drawback, reintegros, créditos baratos) busca específicamente incentivar que se exporte más. Ejemplo típico de examen: una devaluación (monetaria) ayuda a exportar pero encarece importar, entonces conviene acompañarla con líneas de crédito para exportadores (promocional) y bajar aranceles a insumos clave (comercial), si no se descoordinan y generan problemas."
+    },
+    {
+      "h": "El paso a paso operativo: canales de control",
+      "p": "Cuando se hace una importación o exportación, todo se declara en un sistema informático (hoy Sistema Malvina) y aparece un 'canal' que indica cuánto te va a revisar la Aduana: canal verde (retirás/embarcás sin ningún trámite extra), canal naranja (revisan la documentación antes de dejarte pasar), canal rojo (revisan documentación Y la mercadería físicamente) y canal morado (control más profundo, sobre todo por dudas de valor declarado). Cuanto más 'raro' o riesgoso parece el trámite, más oscuro es el canal que te toca."
+    }
+  ]
+}

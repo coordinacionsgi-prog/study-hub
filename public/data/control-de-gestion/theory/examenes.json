@@ -1,0 +1,36 @@
+{
+  "thesis": "Este módulo no es teoría de contenido, es la 'letra chica' del examen: cómo se arma el parcial, cómo se corrige, y qué tipo de preguntas de teoría aparecen. Saber esto de memoria te ahorra sorpresas el día del examen.",
+  "examTip": "La parte PRÁCTICA se corrige primero y es excluyente: si no aprobás la práctica con 6 o más, ni te corrigen la teórica. Para promocionar sin final necesitás 8 o más en ambos parciales (o en el primer recuperatorio, que 'pisa' la nota original).",
+  "concepts": [
+    "Parte práctica vs. teórica",
+    "Corrección excluyente",
+    "Recuperatorios",
+    "Promoción (8 o más)",
+    "Nota de aprobación (6-7)",
+    "Nota de aplazo (1-5)",
+    "Examen final",
+    "Preguntas teóricas tipo"
+  ],
+  "sections": [
+    {
+      "h": "Estructura del examen",
+      "p": "Cada parcial (son 2 en el año, uno por módulo) tiene dos partes: una PRÁCTICA (resolver ejercicios numéricos) y una TEÓRICA (preguntas conceptuales). Hay que aprobar las DOS partes por separado. Y hay una regla clave: la parte PRÁCTICA se corrige primero y es EXCLUYENTE -si no llegás a 6 en la práctica, directamente no te corrigen la teórica, sea cual sea. Si ambas partes dan 6 o más, se promedian para sacar la nota final de ese parcial."
+    },
+    {
+      "h": "Escala de notas",
+      "p": "Aplazo: 1 a 5. Aprobado: 6 a 7. Promoción: 8 a 10. Para promocionar la materia SIN rendir final, hace falta sacar 8 o más en AMBOS parciales (1° y 2°). Importante: se pueden recuperar los parciales, pero para efectos de promoción solo cuenta la nota del PRIMER recuperatorio (si sale 8 o más), y esa nota reemplaza (pisa) a la nota original del parcial -no se promedian entre sí."
+    },
+    {
+      "h": "Recuperatorios: reglas que hay que respetar",
+      "p": "Hay 2 recuperatorios posibles por cada parcial. Si vas a recuperatorio, hay que recuperar el examen COMPLETO (no se puede recuperar solo la parte que salió mal, práctica o teórica por separado). Las fechas de recuperatorio son fijas: si faltás ese día, perdés la instancia y te califican Ausente, no hay reprogramación. El primer recuperatorio de cada parcial es a fin del cuatrimestre correspondiente; el segundo recuperatorio (última chance) es en Febrero/Marzo."
+    },
+    {
+      "h": "Examen final (si no promocionaste)",
+      "p": "Es de 2 horas reloj, también dividido en práctica y teórica, con el mismo criterio: la práctica se corrige primero y es excluyente, hay que aprobar ambas partes con 6 o más (no hay escala de promoción en el final, solo aprobado 6-10 o aplazo 1-5)."
+    },
+    {
+      "h": "Qué evalúan realmente en la teoría",
+      "p": "La consigna del profesor es clara: se evalúa el ENTENDIMIENTO y la comprensión conceptual, no la memoria de fórmulas sueltas. Un error conceptual grave (por ejemplo, confundir Fondo de Maniobra con NOF, o no entender por qué un producto con pérdida contable puede convenir seguir vendiéndolo) resta puntos fuerte y puede directamente significar un aplazo, incluso si la cuenta numérica dio bien. En algunos casos el profesor puede pedir defender oralmente parte del examen. Las preguntas de teoría tipo suelen pedir: definir variables como stock o flujo, explicar y dar fórmula de ratios (ROIC, ROCE, ROE), explicar componentes de una serie de tiempo, o nombrar y relacionar los 4 estados contables básicos."
+    }
+  ]
+}

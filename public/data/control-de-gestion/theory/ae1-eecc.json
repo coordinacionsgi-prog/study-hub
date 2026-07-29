@@ -1,0 +1,49 @@
+{
+  "thesis": "AE1 es el punto de partida: entender qué es un Estado Contable (el 'resumen oficial' de cómo está parada una empresa) y la diferencia entre la contabilidad que mira 'para afuera' (patrimonial, obligatoria, rígida) y la que mira 'para adentro' (gerencial, para decidir, flexible).",
+  "examTip": "Suelen preguntar teoría conceptual: diferencias entre contabilidad patrimonial y gerencial, qué son los 4 estados contables básicos y cómo se relacionan entre sí, y la diferencia entre costeo por absorción y costeo directo/variable (costo del producto vs. costo del período). También puede aparecer análisis vertical/horizontal sobre un balance real.",
+  "concepts": [
+    "Contabilidad patrimonial",
+    "Contabilidad gerencial",
+    "Estados contables de publicación",
+    "Balance / Estado de Situación Patrimonial",
+    "Estado de Resultados",
+    "Estado de Flujo de Efectivo",
+    "Estado de Evolución del Patrimonio Neto",
+    "Costo del producto vs. costo del período",
+    "Costeo por absorción",
+    "Costeo variable o directo",
+    "Análisis vertical",
+    "Análisis horizontal",
+    "Variables stock vs. variables flujo"
+  ],
+  "sections": [
+    {
+      "h": "Contabilidad patrimonial vs. contabilidad gerencial",
+      "p": "Son dos 'ramas' que usan la misma información base pero para cosas distintas. La Contabilidad Patrimonial (o financiera) produce reportes para AFUERA de la empresa: accionistas, bancos, proveedores, organismos de control. Es obligatoria, sigue normas rígidas y estándar, y mira el pasado (una foto de una fecha puntual). La Contabilidad Gerencial es un sistema interno, pensado para tomar decisiones, planificar y controlar: no tiene formato fijo, se puede segmentar por producto, cliente, zona o lo que haga falta, y mira tanto el pasado como el futuro (presupuestos, proyecciones). Ninguna reemplaza a la otra: la gerencial se apoya en los datos de la patrimonial pero los reprocesa para que sirvan para decidir."
+    },
+    {
+      "h": "Los 4 estados contables básicos",
+      "p": "Toda empresa que publica balance emite, como mínimo: 1) el Balance o Estado de Situación Patrimonial (la foto: qué tiene la empresa -Activo-, qué debe -Pasivo- y qué es de los dueños -Patrimonio Neto- en una fecha puntual); 2) el Estado de Resultados (la película del período: cuánto ganó o perdió); 3) el Estado de Flujo de Efectivo (por dónde entró y salió realmente la plata, distinto de la ganancia contable); y 4) el Estado de Evolución del Patrimonio Neto (cómo cambió el capital de los dueños en el período: aportes, retiros, resultado del ejercicio). Estos 4 están conectados entre sí: el resultado del Estado de Resultados impacta en el Patrimonio Neto del Balance, por ejemplo."
+    },
+    {
+      "h": "Variables stock vs. variables flujo",
+      "p": "Una variable STOCK es una foto en un instante (por ejemplo, el saldo de caja al 31/12, o el total de Activos): tiene sentido preguntarse 'cuánto hay HOY'. Una variable FLUJO es una película, se mide durante un período (por ejemplo, las Ventas del año, o el sueldo pagado en el mes): no tiene sentido preguntar 'cuánto hay hoy de ventas', sino 'cuánto se vendió ENTRE tal fecha y tal fecha'. El Balance está lleno de variables stock; el Estado de Resultados está lleno de variables flujo. Distinguirlas bien evita errores groseros en fórmulas de ratios más adelante."
+    },
+    {
+      "h": "Costo del producto vs. costo del período (inventariable o no)",
+      "p": "Cuando una empresa fabrica, no todos los gastos van directo al Cuadro de Resultados: los que están ligados a FABRICAR (materia prima, mano de obra de fábrica, gastos de fábrica) se consideran Costo del Producto, y quedan 'guardados' dentro del valor de los inventarios (Materia Prima, Producción en Proceso, Productos Terminados) hasta que ese producto se vende; recién ahí pasan al Estado de Resultados como Costo de Mercadería Vendida. En cambio, los gastos que NO son de fabricación (administración, comercialización) son Costo del Período: van directo al resultado del mes en que se generan, no se 'guardan' en ningún inventario."
+    },
+    {
+      "h": "Costeo por absorción vs. costeo directo (repaso desde el balance)",
+      "p": "El Costeo por Absorción (el que usa la contabilidad patrimonial oficial) mete TODOS los costos de fabricación -fijos y variables- adentro del valor de los inventarios. El Costeo Directo o Variable (el que usa la contabilidad gerencial para el Análisis Marginal) solo mete los costos VARIABLES adentro del inventario, y manda los costos fijos de fabricación directo al resultado del período en que se incurren, sin importar si se vendió o no lo producido. Esto genera que, si la empresa produce más de lo que vende en un mes, el costeo por absorción muestra más utilidad que el variable (porque 'esconde' fijos dentro del stock que todavía no se vendió)."
+    },
+    {
+      "h": "Análisis vertical, horizontal y de tendencias",
+      "p": "Son formas simples de leer un balance para sacar conclusiones rápidas. El Análisis Vertical calcula qué porcentaje representa cada rubro sobre un total (por ejemplo, cuánto % del Activo Total es Bienes de Cambio), y sirve para comparar la 'forma' de la empresa contra otra de distinto tamaño. El Análisis Horizontal compara la evolución de un mismo rubro entre dos períodos (cuánto creció o cayó en pesos y en %), y sirve para ver tendencias en el tiempo dentro de la misma empresa. Combinados, te permiten detectar rápido si algo cambió de forma llamativa de un año a otro."
+    },
+    {
+      "h": "Ejemplos reales: por qué se usan casos como Molinos o La Romana",
+      "p": "En esta parte de la materia se trabaja con balances de empresas reales (como Molinos) o casos ilustrativos armados por la cátedra (como La Romana de Buenos Aires), justamente para practicar leer un balance real: identificar las masas patrimoniales, calcular los primeros ratios y empezar a acostumbrar el ojo a la jerga contable real (que en la vida real no viene ordenada como en el pizarrón). Es la base sobre la que se construyen todos los análisis más avanzados de los módulos siguientes (AE2 en adelante)."
+    }
+  ]
+}

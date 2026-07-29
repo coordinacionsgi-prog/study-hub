@@ -1,0 +1,49 @@
+{
+  "thesis": "Antes de construir una planta hay que decidir DÓNDE ponerla (localización, con métodos que comparan varias opciones con números y factores) y bajo qué reglas se puede construir ahí (normas urbanísticas y ambientales), y después diseñar el edificio en sí (materiales, estructura, sustentabilidad).",
+  "examTip": "Los métodos de localización (ponderación de factores, Brown-Gibson, cribado) casi siempre traen un ejercicio numérico para resolver. También cae mucho FOS y FOT con cálculo de superficie construible, la categorización ambiental de actividades (CABA y Provincia de Buenos Aires) y qué es una Evaluación de Impacto Ambiental. De edificios, memorizá LEED y la diferencia entre hormigón armado y pretensado.",
+  "concepts": [
+    "Macro y micro localización",
+    "Factor de localización",
+    "Método del centro de gravedad (Weber)",
+    "Método de ponderación de puntos",
+    "Método Brown-Gibson",
+    "Método de cribado",
+    "FOS y FOT",
+    "Código urbanístico",
+    "Categorización ambiental / EIA",
+    "Certificación LEED",
+    "Edificio industrial",
+    "Hormigón armado y pretensado",
+    "Cabreada (cercha)"
+  ],
+  "sections": [
+    {
+      "h": "Por qué la localización es una decisión tan importante",
+      "p": "Elegir dónde poner una planta es una decisión de largo plazo: una vez construida, mudarla es carísimo. Un estudio de localización mal hecho puede arruinar la rentabilidad de todo el proyecto. Por eso se analiza con FACTORES: variables medibles que influyen en la decisión, como el costo de transporte de materia prima, la mano de obra disponible, la cercanía al mercado, la energía, el clima, y hasta cuestiones políticas y ambientales."
+    },
+    {
+      "h": "Macro localización vs micro localización",
+      "p": "Primero se decide la MACRO localización: la región o zona amplia (por ejemplo, ¿Argentina, Brasil, o el AMBA?). Después, dentro de esa zona ya elegida, se decide la MICRO localización: el terreno puntual (¿qué parque industrial, qué lote?). Es como primero elegir el barrio y después elegir la casa."
+    },
+    {
+      "h": "Métodos para decidir: comparar opciones con números",
+      "p": "Hay métodos no cuantificables (cualitativos, como antecedentes industriales o factor dominante) y métodos cuantificables que sí se calculan. Los tres que más caen en el parcial son: el MÉTODO DE PONDERACIÓN DE PUNTOS (a cada factor se le pone un peso o importancia, se puntúa cada locación posible, y gana la que suma más puntos ponderados); BROWN-GIBSON (combina factores objetivos, medibles en plata, con factores subjetivos, como calidad ambiental, ponderados según preferencia); y CRIBADO (se van descartando ubicaciones que no cumplen ciertos requisitos mínimos, como colar arena hasta quedarte con las mejores)."
+    },
+    {
+      "h": "FOS y FOT: cuánto podés construir en un terreno",
+      "p": "El Código Urbanístico define cuánto se puede construir en cada terreno mediante dos índices: el FOS (Factor de Ocupación del Suelo) indica qué porcentaje del terreno puede estar cubierto por construcción en planta baja, y el FOT (Factor de Ocupación Total) indica cuántos metros cuadrados totales se pueden construir en relación a la superficie del terreno (sumando todos los pisos). Ejemplo típico de examen: un terreno de 100 m² con FOS 0,8 y FOT 5 permite cubrir hasta 80 m² en planta baja, y construir hasta 500 m² totales entre todos los niveles."
+    },
+    {
+      "h": "Gestión ambiental: categorizar antes de habilitar",
+      "p": "Antes de habilitar una actividad industrial, hay que categorizarla según su impacto ambiental (en CABA y en la Provincia de Buenos Aires existen sistemas propios de categorías, de menor a mayor impacto). Cuanto mayor el impacto potencial, más exigente es el trámite, y en los casos más complejos se requiere una Evaluación de Impacto Ambiental (EIA): un proceso que analiza los efectos del proyecto sobre el ambiente, que puede incluir una audiencia pública (que opina, pero no es vinculante, es decir, no obliga a la autoridad a seguir esa opinión)."
+    },
+    {
+      "h": "LEED: la certificación de construcción sustentable",
+      "p": "LEED (Leadership in Energy & Environmental Design) es el sistema de certificación de edificios sustentables más usado en el mundo, y el que se usa en Argentina. Mide localización sostenible, ahorro de agua, eficiencia energética, materiales, calidad ambiental interior e innovación. Aplicar buenas prácticas de construcción sustentable puede reducir hasta un 40% las emisiones de un edificio."
+    },
+    {
+      "h": "El edificio industrial: estructura y materiales",
+      "p": "Un edificio industrial puede ser de acero, de hormigón o híbrido, y debe durar como mínimo 20 años cumpliendo su función, resistiendo el clima y siendo seguro para quienes trabajan adentro. El HORMIGÓN ARMADO combina hormigón (que resiste bien la compresión pero mal la tracción) con barras de acero adentro (que sí resisten tracción), dando una estructura mucho más resistente. El HORMIGÓN PRETENSADO va un paso más allá: se tensan los cables de acero ANTES de que fragüe el hormigón, lo que permite estructuras más livianas y con mayor luz (distancia entre apoyos) sin flexionarse. La CABREADA (o cercha) es la estructura triangulada que sostiene el techo de una nave industrial; solo se puede cargar peso sobre sus nodos (los puntos donde se cruzan las barras), nunca en el medio de una barra, porque no está diseñada para soportar esfuerzo ahí."
+    }
+  ]
+}

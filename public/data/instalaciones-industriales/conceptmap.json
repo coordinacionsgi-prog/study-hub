@@ -1,0 +1,56 @@
+{
+  "intro": "La materia arranca con Unidad 1 (cómo mover líquidos por cañerías: pérdidas de carga, caños, uniones, válvulas y bombas), sigue con Unidad 2 y 3 (cómo llega y se instala la electricidad, y cómo se ilumina un ambiente) y cierra con Unidad 4 (cómo se genera vapor en una caldera y cómo se aprovecha ese calor en un intercambiador); las tres unidades comparten la misma lógica de fondo: transportar energía (hidráulica, eléctrica o térmica) de un punto a otro de forma segura y bien documentada.",
+  "nodes": [
+    { "id": "n3", "x": 40, "y": 30, "w": 200, "h": 80, "title": "Documentación y normas", "subtitle": "planos, memorias, ASTM/API/ASME", "color": "#a78bfa" },
+    { "id": "n2", "x": 270, "y": 30, "w": 200, "h": 80, "title": "Caños y tubos", "subtitle": "cómo se especifican sin ambigüedad", "color": "#5b8def" },
+    { "id": "n4", "x": 500, "y": 30, "w": 200, "h": 80, "title": "Uniones", "subtitle": "soldadura, bridas y roscas", "color": "#5b8def" },
+    { "id": "n5", "x": 730, "y": 30, "w": 200, "h": 80, "title": "Válvulas", "subtitle": "interceptoras vs. reguladoras", "color": "#5b8def" },
+
+    { "id": "n1", "x": 270, "y": 150, "w": 200, "h": 80, "title": "Pérdidas de carga", "subtitle": "fricción en caños y accesorios", "color": "#5b8def" },
+    { "id": "n6", "x": 500, "y": 150, "w": 200, "h": 80, "title": "Bombas y cavitación", "subtitle": "centrífugas, positivas, ANPA/NPSH", "color": "#5b8def" },
+    { "id": "n7", "x": 730, "y": 150, "w": 220, "h": 80, "title": "Sistema eléctrico AR", "subtitle": "generación, transporte, CAMMESA", "color": "#3fbf7f" },
+
+    { "id": "n9", "x": 270, "y": 270, "w": 200, "h": 80, "title": "Motores eléctricos", "subtitle": "síncronos y asíncronos", "color": "#3fbf7f" },
+    { "id": "n8", "x": 500, "y": 270, "w": 220, "h": 80, "title": "Instalación eléctrica", "subtitle": "cables, tableros, protecciones, tierra", "color": "#3fbf7f" },
+    { "id": "n10", "x": 730, "y": 270, "w": 200, "h": 90, "title": "Luminotecnia", "subtitle": "lumen, lux, tipos de lámparas", "color": "#22d3ee" },
+
+    { "id": "n11", "x": 270, "y": 390, "w": 220, "h": 90, "title": "Generación de vapor", "subtitle": "calderas humo/acuotubulares", "color": "#f2a33d" },
+    { "id": "n12", "x": 520, "y": 390, "w": 220, "h": 90, "title": "Intercambiadores de calor", "subtitle": "carcasa-tubos, placas, DTLM", "color": "#f2a33d" }
+  ],
+  "edges": [
+    ["n3", "n2"],
+    ["n2", "n4"],
+    ["n2", "n5"],
+    ["n2", "n1"],
+    ["n5", "n1"],
+    ["n1", "n6"],
+    ["n6", "n9"],
+    ["n7", "n8"],
+    ["n8", "n9"],
+    ["n8", "n10"],
+    ["n6", "n11"],
+    ["n9", "n11"],
+    ["n11", "n12"],
+    ["n12", "n1"]
+  ],
+  "comparisons": [
+    ["Bomba centrífuga vs. bomba de desplazamiento positivo", "La centrífuga da velocidad al líquido con un rotor y después la convierte en presión; es barata y anda bien con caudales grandes. La de desplazamiento positivo empuja el líquido físicamente reduciendo el volumen de una cámara, y entrega siempre el mismo caudal por vuelta sin importar la presión."],
+    ["Caño (pipe) vs. tubo (tube)", "El caño se usa para transportar fluidos y su diámetro nominal no coincide con ninguna medida física real (hasta 12 pulgadas). El tubo se usa para estructuras o intercambio de calor y su diámetro nominal sí es el diámetro exterior real."],
+    ["Válvula de compuerta vs. válvula de globo", "La de compuerta es para abrir o cerrar del todo (tipo interruptor), con mínima pérdida de carga cuando está abierta. La de globo sirve para regular el caudal de a poco, como una canilla, pero siempre genera algo más de pérdida de carga."],
+    ["Válvula esférica (bola) vs. válvula mariposa", "Ambas son de un cuarto de vuelta y sirven para on/off. La esférica sella mejor con una bola perforada y admite líquidos viscosos; la mariposa ocupa mucho menos espacio axial y es más liviana, ideal cuando el lugar es chico."],
+    ["Pérdida de carga primaria vs. secundaria", "La primaria es el rozamiento del fluido contra las paredes rectas de la cañería. La secundaria es la que generan los accesorios (codos, válvulas, tes, cambios de sección); se puede calcular con coeficientes propios o con el método de longitud equivalente."],
+    ["Brida slip-on vs. brida welding neck", "La slip-on es más barata y fácil de alinear, pero más débil ante fatiga. La welding neck tiene un cuello cónico que refuerza la unión y aguanta mejor la alta presión y los esfuerzos, aunque cuesta más y exige un corte más preciso del caño."],
+    ["Soldadura SMAW vs. soldadura TIG (GTAW)", "SMAW usa un electrodo revestido, es manual, barata y versátil, ideal para trabajo de taller. TIG usa un electrodo de tungsteno no consumible, es mucho más lenta pero de altísima calidad, y se usa para la primera pasada en tuberías críticas."],
+    ["Soldadura vs. brazing (soldeo blando/fuerte)", "En la soldadura de verdad se funden los dos metales base entre sí. En el brazing solo se calienta y se pega con un material de aporte que funde a menor temperatura, sin fundir las piezas originales."],
+    ["Rosca cilíndrica vs. rosca cónica", "La cilíndrica sella por la cara frontal contra una arandela, y casi no se usa en cañerías porque no hay espesor de pared suficiente. La cónica (NPT/BSPT) sella por la interferencia entre los filetes, y es el estándar en caños chicos (hasta 3-4 pulgadas)."],
+    ["ANPA disponible vs. ANPA requerido", "El requerido es un valor fijo que da el fabricante según el diseño de la bomba. El disponible depende de cómo está instalado el sistema (altura, pérdidas de aspiración). Para que no cavite, el disponible siempre tiene que ser mayor que el requerido."],
+    ["Motor síncrono vs. motor asíncrono", "En el síncrono el rotor gira exactamente a la velocidad del campo magnético del estator, pero necesita corriente continua en el rotor y arranque especial. En el asíncrono el rotor siempre gira un poco más lento (desliza), y esa diferencia es justo lo que genera la corriente que lo hace girar; es más simple y el más usado en la industria."],
+    ["Fusible vs. interruptor termomagnético", "El fusible es un hilo que se funde y hay que reemplazar cada vez que actúa. El termomagnético combina protección térmica (sobrecargas) y magnética (cortocircuitos) en un aparato reutilizable, por eso hoy lo reemplazó casi por completo."],
+    ["Interruptor termomagnético vs. disyuntor diferencial", "El termomagnético protege la instalación y los equipos de sobrecargas y cortocircuitos. El diferencial protege a las personas, detectando fugas de corriente a tierra; uno no reemplaza al otro, cada uno cuida un peligro distinto."],
+    ["Caldera humotubular vs. caldera acuotubular", "En la humotubular los gases calientes van por dentro de los tubos y el agua está afuera; es más simple y la más usada en la industria. En la acuotubular el agua va por dentro de los tubos y los gases por fuera; soporta presiones mucho más altas y se usa en centrales de generación eléctrica."],
+    ["Intercambiador en equicorriente vs. en contracorriente", "En equicorriente los dos fluidos entran por el mismo lado y viajan igual; la diferencia de temperatura se achica rápido. En contracorriente entran por lados opuestos, mantienen una diferencia de temperatura más pareja en todo el recorrido y por eso transfieren más calor con la misma superficie."],
+    ["Intercambiador de carcasa y tubos vs. de placas", "El de carcasa y tubos es el más usado en la industria pesada: muchos tubos delgados dentro de un caño grande. El de placas usa láminas onduladas apiladas, es mucho más compacto y fácil de desarmar para limpiar, pero soporta menos presión."],
+    ["Flujo luminoso (lumen) vs. iluminancia (lux)", "El flujo luminoso es toda la luz que emite una lámpara en todas direcciones. La iluminancia es cuánta de esa luz llega realmente a una superficie determinada; una misma lámpara da menos lux cuanto más lejos está la superficie."],
+    ["Lámpara incandescente vs. lámpara de descarga", "La incandescente calienta un filamento hasta que brilla: buen color pero muy poco eficiente y de vida corta. La de descarga excita un gas con electricidad, sin filamento: mucho más eficiente y de vida más larga, pero necesita un balasto para funcionar."]
+  ]
+}

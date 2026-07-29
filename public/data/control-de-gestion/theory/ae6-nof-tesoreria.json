@@ -1,0 +1,40 @@
+{
+  "thesis": "AE6 compara dos números clave: cuánta plata NECESITÁS para el día a día del negocio (NOF) contra cuánta plata TENÉS disponible de largo plazo para eso (FM). La diferencia entre ambos te dice si te sobra o te falta caja (Situación de Tesorería).",
+  "examTip": "Te van a pedir calcular NOF, FM y la Situación de Tesorería (ST = FM - NOF) a partir de un balance, y explicar qué significa que ST dé positivo o negativo. También puede aparecer una pregunta conceptual pidiendo diferenciar NOF de FM (uno es una decisión de financiamiento de largo plazo, el otro refleja las características del negocio del día a día).",
+  "concepts": [
+    "Necesidades Operativas de Fondos (NOF)",
+    "Fondo de Maniobra (FM)",
+    "Situación de Tesorería (ST)",
+    "Recursos espontáneos / cíclicos",
+    "Recursos negociados",
+    "Deuda operacional vs. deuda financiera",
+    "Circulante operativo",
+    "Gestión de tesorería"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué son las NOF?",
+      "p": "Las Necesidades Operativas de Fondos son la plata que el negocio necesita, sí o sí, para poder operar en el día a día: financiar lo que tenés en Clientes (todavía no cobrado) más lo que tenés en Inventarios (mercadería o materia prima todavía no vendida), descontando lo que tus propios Proveedores ya te están financiando gratis (deuda operativa, sin interés explícito). NOF = (Clientes + Inventarios) - Proveedores y deudas operativas espontáneas. Es un concepto FINANCIERO: refleja las características propias del negocio (cuánto tarda en cobrar, cuánto stock necesita) y varía todo el tiempo según el nivel de actividad."
+    },
+    {
+      "h": "Recursos espontáneos vs. recursos negociados",
+      "p": "Los Recursos Espontáneos (o Cíclicos) son financiamiento que conseguís 'gratis' solo por operar normalmente: los Proveedores que te dan plazo para pagar, las deudas sociales o impuestos que se devengan y se pagan después. No tienen costo financiero explícito (no pagás interés por eso). Los Recursos Negociados (o Expresos) son los que sí tenés que salir a pedir activamente y tienen costo explícito: préstamos bancarios, descuento de cheques, etc. Cuanto más financiamiento espontáneo consigas de tus proveedores, menos necesitás salir a pedir plata prestada para cubrir tus NOF."
+    },
+    {
+      "h": "FM vs. NOF: no son lo mismo aunque se parezcan",
+      "p": "El Fondo de Maniobra (FM = Recursos Permanentes - Activo Fijo) es una decisión ESTRATÉGICA de financiamiento de largo plazo: cuánta plata de largo plazo dejás disponible como colchón para el corto plazo. Es relativamente ESTABLE en el tiempo, y solo cambia bruscamente si hay una decisión grande de largo plazo (un aumento de capital, un préstamo nuevo). Las NOF, en cambio, son una consecuencia OPERATIVA del negocio del día a día (cuánto tardás en cobrar, cuánto stock manejás), y son mucho más VARIABLES, cambian todo el tiempo según cómo va el ciclo del negocio. No hay que confundir 'cuánto colchón de largo plazo tengo' (FM) con 'cuánto necesito realmente para operar' (NOF)."
+    },
+    {
+      "h": "Situación de Tesorería: ST = FM - NOF",
+      "p": "Acá está la fórmula clave que junta todo: Situación de Tesorería (ST) = FM - NOF. Si ST > 0 (superavitaria): el colchón de largo plazo (FM) alcanza y sobra para cubrir lo que necesita el negocio (NOF), la empresa tiene caja disponible de más. Si ST < 0 (deficitaria): las NOF son mayores a lo que el FM puede cubrir, y ahí la empresa tiene que salir a buscar recursos de corto plazo adicionales (un descubierto bancario, por ejemplo) para tapar ese agujero. Si ST = 0, el FM cubre exactamente las NOF, sin sobrante ni faltante."
+    },
+    {
+      "h": "Por qué una empresa que crece puede quedarse sin efectivo",
+      "p": "Esta es una de las paradojas más importantes de las finanzas: una empresa puede estar creciendo en ventas (¡algo bueno!) y aun así quedarse sin plata, porque al vender más también crecen sus NOF (más clientes por cobrar, más stock que mantener) más rápido de lo que crece su capacidad de generar recursos propios. Si el FM no se ajusta (no consigue más financiamiento de largo plazo a la par del crecimiento), la Situación de Tesorería se vuelve cada vez más negativa. Por eso una empresa en expansión rápida necesita planificar activamente cómo va a financiar el crecimiento de sus NOF, no alcanza con 'vender más y ya'."
+    },
+    {
+      "h": "Gestión de tesorería en la práctica",
+      "p": "Más allá de la teoría, la gestión de tesorería del día a día trabaja con el criterio de lo efectivamente PERCIBIDO (cuándo entra o sale realmente la plata) más que lo DEVENGADO (cuándo se generó contablemente el derecho u obligación). Se arma un presupuesto de flujo de caja proyectando cobros y pagos reales mes a mes (o semana a semana), para anticipar en qué momento del año la empresa va a necesitar salir a buscar financiamiento de corto plazo y en qué momento va a tener excedentes para, por ejemplo, colocar en una inversión de corto plazo."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "thesis": "AE2 enseña a mirar el balance en bloques (las 5 masas patrimoniales) para juzgar si la empresa está parada en una posición financiera sana o al borde de no poder pagar sus deudas. El indicador estrella es el Fondo de Maniobra (FM).",
+  "examTip": "Es muy común que te den un balance esquemático y te pidan calcular el Fondo de Maniobra, decir si la empresa está en equilibrio financiero, y clasificar variaciones patrimoniales (compra, venta, pago de sueldos, aporte de capital, etc.) en Permutativas o Modificativas (y dentro de estas, Propias o Impropias).",
+  "concepts": [
+    "Masas patrimoniales",
+    "Activo Corriente / No Corriente",
+    "Pasivo Corriente / No Corriente",
+    "Patrimonio Neto",
+    "Fondo de Maniobra (FM)",
+    "Recursos Permanentes",
+    "Equilibrio patrimonial",
+    "Cesación de pagos / quiebra",
+    "Variaciones patrimoniales",
+    "Permutativas vs. Modificativas",
+    "Modificativas Propias vs. Impropias"
+  ],
+  "sections": [
+    {
+      "h": "Las 5 masas patrimoniales",
+      "p": "Para analizar un balance rápido, se lo agrupa en 5 grandes bloques: Activo No Corriente o Fijo (bienes que la empresa usa por más de un año: maquinaria, edificios), Activo Corriente (todo lo que se puede volver plata en menos de un año: caja, clientes, mercadería), Deudas de Corto Plazo (D.C.P., lo que hay que pagar antes del año: proveedores, sueldos a pagar), Deudas de Largo Plazo (D.L.P., préstamos a más de un año) y Patrimonio Neto (lo que es de los dueños: capital, reservas, resultados acumulados). La regla de oro que siempre se cumple: Activo = Pasivo + Patrimonio Neto."
+    },
+    {
+      "h": "El Fondo de Maniobra (FM): el número que dice si estás parado bien",
+      "p": "El Fondo de Maniobra se calcula de dos formas que dan lo mismo: FM = Activo Corriente - Deuda Corto Plazo, o FM = Recursos Permanentes (Patrimonio Neto + Deuda Largo Plazo) - Activo Fijo. La idea es simple: los 'recursos permanentes' (plata que no hay que devolver rápido) deberían alcanzar para financiar todo el Activo Fijo, y lo que sobre financia parte del Activo Corriente. Si eso pasa, FM es positivo y es la situación sana. Si el FM da cero o negativo, significa que parte del Activo Fijo se está financiando con deuda de corto plazo, lo cual es peligroso porque en cualquier momento te pueden pedir esa plata y no vas a tener con qué pagar (activo fijo no se vende rápido)."
+    },
+    {
+      "h": "FM positivo, cero y negativo: las 3 situaciones",
+      "p": "FM > 0 (positivo): el Activo Corriente es bien mayor a la Deuda de Corto Plazo, la empresa tiene margen para pagar sus obligaciones inmediatas sin sobresaltos. Es la situación deseable y estable. FM = 0 (neutro): en teoría 'cierra' matemáticamente, pero es una situación inestable porque el Activo Corriente no siempre se convierte en efectivo tan rápido como se necesita (podrían fallar cobranzas), así que hay que mirarla con precaución. FM < 0 (negativo): la Deuda de Corto Plazo supera al Activo Corriente; aunque la empresa liquidara todo lo que puede convertir rápido en efectivo, no le alcanzaría para pagar sus deudas inmediatas. Si esto persiste, el camino es la cesación de pagos o directamente la quiebra."
+    },
+    {
+      "h": "Los dos extremos teóricos",
+      "p": "En un extremo está la Máxima Estabilidad: la empresa se financia 100% con capital propio, sin ninguna deuda ni de corto ni de largo plazo. Es súper seguro desde el punto de vista del riesgo, pero en la práctica casi no existe (solo al momento de fundar la empresa) porque limita mucho el crecimiento (no usás apalancamiento). En el otro extremo está el Máximo Desequilibrio: el tamaño de las deudas supera al de los activos, hay déficit patrimonial, el Patrimonio Neto es NEGATIVO. Eso es directamente una situación de quiebra o bancarrota."
+    },
+    {
+      "h": "Variaciones patrimoniales: qué le pasa al Patrimonio Neto con cada operación",
+      "p": "Cada vez que la empresa hace una operación (comprar, vender, cobrar, pagar), el patrimonio se mueve. Se clasifican en dos grandes grupos. Las Permutativas NO cambian el total del Patrimonio Neto: solo se cambia un activo por otro de igual valor, o un pasivo por otro (ejemplo: comprar una máquina de contado, cambiás caja por bienes de uso, el total no se mueve). Las Modificativas SÍ cambian el Patrimonio Neto, y se dividen en Propias (por operaciones normales del negocio: vender con ganancia aumenta el PN, tener una pérdida lo reduce) e Impropias (originadas por decisión de los dueños, no por la operación del negocio: un aporte de capital aumenta el PN, un retiro de dividendos lo reduce)."
+    },
+    {
+      "h": "Ejemplos para fijar la clasificación",
+      "p": "Comprar un equipo informático al contado: Permutativa (cambia caja por bien de uso, incluso a veces ni siquiera cambia el activo total). Comprar materia prima a crédito: Permutativa (aumenta activo -materia prima- y aumenta pasivo -deuda con proveedor- en la misma medida). Facturar y cobrar un servicio: Modificativa Propia positiva (entra plata y aumenta el resultado, sube el PN). Pagar sueldos: Modificativa Propia negativa (sale plata, es un gasto, baja el PN). Un aporte extra de los socios: Modificativa Impropia positiva (sube el PN pero no por la operación del negocio, sino por decisión de los dueños). Un retiro o pago de dividendos: Modificativa Impropia negativa."
+    }
+  ]
+}

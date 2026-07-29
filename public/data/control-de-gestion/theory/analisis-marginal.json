@@ -1,0 +1,51 @@
+{
+  "thesis": "El Análisis Marginal es la herramienta para decidir cosas como 'qué pasa con mi ganancia si cambio el precio, vendo más o menos, o me suben un costo'. La clave de todo es la Contribución Marginal: lo que te queda de cada unidad vendida después de pagar sus costos variables, para primero cubrir los costos fijos y después generar ganancia.",
+  "examTip": "Te van a dar un escenario de cambio (sube un costo, baja el volumen, cambia el precio, cambia el mix entre productos) y vas a tener que calcular cómo varía la Utilidad (ΔU) usando la ecuación del análisis marginal, y decir si conviene o no. También puede pedirte calcular a la inversa: cuánto tiene que subir el precio para compensar un aumento de costos sin perder plata.",
+  "concepts": [
+    "Contribución marginal (CMg)",
+    "Costeo variable vs. absorción",
+    "Costos fijos vs. variables",
+    "Punto de equilibrio / umbral de rentabilidad",
+    "Tasa de contribución marginal (m)",
+    "Mix de ventas",
+    "Ecuación del análisis marginal (ΔU)",
+    "Elasticidad precio de la demanda",
+    "Gastos fijos propios vs. prorrateados",
+    "Rango relevante",
+    "Producto con pérdida contable"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué es 'marginal' y para qué sirve?",
+      "p": "Marginal significa 'lo que cambia' cuando tomás una decisión puntual: producir una unidad más, aceptar un pedido especial, discontinuar una línea. No importa el costo histórico total, importa qué ingreso y qué costo ADICIONAL genera esa decisión puntual. El Análisis Marginal es una herramienta de la contabilidad gerencial (para decidir, no para el balance oficial) que sirve para: fijar precios, decidir qué mix de productos vender, decidir si fabricar o comprar afuera, y decidir si conviene sacar o meter un producto al catálogo."
+    },
+    {
+      "h": "Contribución marginal: el concepto estrella",
+      "p": "La Contribución Marginal Unitaria (Cmg) de un producto es Precio de venta menos Costo Variable unitario: Cmg = pv - cv. Es la plata que te deja CADA unidad vendida para, primero, ayudar a cubrir los costos fijos de la empresa (alquiler, sueldos administrativos, etc.) y, una vez cubiertos, empezar a generar ganancia real. Cuando la empresa vende varios productos, se usa la Tasa de Contribución Marginal de la Empresa (m) = Contribución Marginal total en $ / Ventas totales en $. Ese m te dice: de cada peso adicional que entra por ventas (manteniendo el mismo mix), cuántos pesos van a la utilidad."
+    },
+    {
+      "h": "Costos fijos y variables (según el nivel de actividad, no según el mes)",
+      "p": "Un costo es variable si se mueve junto con el nivel de producción/venta (la materia prima es el ejemplo de manual: hacés el doble de unidades, gastás el doble de MP). Un costo es fijo si no depende de cuánto producís, aunque cambie mes a mes por otras razones (por ejemplo, un premio por puntualidad que varía según asistencia NO es variable, porque no depende del nivel de actividad). Los gastos fijos se dividen en Propios (identificables con un producto puntual: si el producto desaparece, ese gasto desaparece) y Prorrateados (repartidos con un criterio, pero que siguen existiendo aunque el producto se discontinúe, porque los absorbe el resto). Esta distinción es clave para decidir si conviene sacar un producto del catálogo."
+    },
+    {
+      "h": "¿Conviene vender un producto que da pérdida?",
+      "p": "Acá está la pregunta trampa clásica del parcial. Un producto puede tener 'pérdida contable' (según el costeo por absorción, que le carga una parte de los gastos fijos) y aun así CONVENIR seguir vendiéndolo, siempre que su Contribución Marginal sea POSITIVA (el precio cubre al menos el costo variable). ¿Por qué? Porque aunque no cubra el 100% de los gastos fijos que le asignaron, sí está aportando una parte para cubrirlos, y si dejás de venderlo esos gastos fijos no desaparecen (siguen ahí) y ahora los tiene que absorber el resto de los productos, empeorando todo. La regla es: si Contribución Marginal es positiva, conviene seguir (salvo excepciones estratégicas); si es NEGATIVA (ni siquiera cubre el costo variable), ahí sí hay que discontinuarlo, porque cada unidad vendida agranda la pérdida."
+    },
+    {
+      "h": "La ecuación del análisis marginal (ΔU)",
+      "p": "Esta es LA fórmula del tema: la variación de utilidad (ΔU) que provoca una decisión es la suma, para cada producto, de: (Contribución Marginal inicial × variación % del volumen) + (Ventas iniciales × variación % del precio) - (Costo Variable inicial × variación % del costo variable unitario) - (Costos Fijos iniciales × variación % de los costos fijos). Cada 'variación %' se calcula siempre sobre el valor INICIAL (antes del cambio): variación % = (valor nuevo - valor viejo) / valor viejo. Si el resultado de ΔU da positivo, la decisión convino; si da negativo, no convino. También se puede usar al revés: fijar ΔU=0 y despejar cuánto tendría que subir el precio (o el volumen) para compensar exactamente un aumento de costos, sin que cambie la utilidad."
+    },
+    {
+      "h": "Elasticidad precio de la demanda",
+      "p": "Mide qué tan sensibles son tus clientes a un cambio de precio: e = (variación % de la cantidad demandada) / (variación % del precio). Si e>1 la demanda es elástica (sube poco el precio y la gente deja de comprar mucho, típico de productos con sustitutos fáciles). Si e<1 es inelástica (aunque subas el precio, la gente sigue comprando casi igual, típico de productos necesarios sin reemplazo). Esto importa porque si querés compensar un aumento de costos subiendo el precio, primero tenés que saber si tus clientes te lo van a aceptar sin bajar mucho el volumen."
+    },
+    {
+      "h": "Punto de equilibrio (umbral de rentabilidad)",
+      "p": "Es el nivel de ventas donde la utilidad da exactamente cero: ahí la Contribución Marginal total generada alcanza justo para cubrir los Costos Fijos, ni más ni menos. Por debajo de ese punto la empresa pierde plata, por encima empieza a ganar. Se calcula como Costos Fijos / Contribución Marginal unitaria (en unidades) o Costos Fijos / Tasa de contribución marginal m (en pesos de venta). Es el número mágico que responde '¿a partir de cuánto empiezo a ganar plata de verdad?'."
+    },
+    {
+      "h": "Costeo por absorción vs. costeo marginalista: el Cuadro de Resultados",
+      "p": "En el enfoque por Absorción, el Cuadro de Resultados resta primero el Costo de Ventas (que incluye fijos y variables mezclados) para llegar a la Utilidad Bruta, y después los gastos de administración/comercialización. En el enfoque Marginalista, primero se restan solo los Costos y Gastos Variables para llegar a la Contribución Marginal, y recién después se restan TODOS los costos fijos juntos para llegar al resultado operativo. Ambos enfoques dan el mismo resultado final SOLO si lo producido en el período coincide con lo vendido en ese mismo período; si hay diferencia de stock, los resultados intermedios difieren porque la absorción 'esconde' parte de los fijos dentro del inventario."
+    }
+  ]
+}
