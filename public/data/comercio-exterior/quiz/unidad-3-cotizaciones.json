@@ -1,0 +1,233 @@
+[
+  {
+    "question": "¿Qué significa la sigla INCOTERMS?",
+    "options": [
+      "International Commerce Terms",
+      "International Contract Terms",
+      "Internal Commerce Trade System",
+      "International Customs Terms"
+    ],
+    "answerIndex": 0,
+    "explanation": "INCOTERMS proviene de 'International Commerce Terms', los términos del comercio internacional creados por la CCI."
+  },
+  {
+    "question": "¿Qué organismo creó los INCOTERMS y en qué año?",
+    "options": [
+      "La OMC en 1994",
+      "La Cámara de Comercio Internacional (CCI) en 1936",
+      "La Organización Mundial de Aduanas en 1953",
+      "Las Naciones Unidas en 1980"
+    ],
+    "answerIndex": 1,
+    "explanation": "La CCI, con sede en París, creó los INCOTERMS en 1936, publicando por primera vez 6 términos que recopilaban usos y costumbres del comercio internacional."
+  },
+  {
+    "question": "¿Cuál fue el principal antecedente estadounidense de los INCOTERMS?",
+    "options": [
+      "El GATT de 1947",
+      "Las RAFTD (Revised American Foreign Trade Definitions) de 1919",
+      "El Acuerdo de Bretton Woods",
+      "La Convención de Bruselas de 1950"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las RAFTD, creadas por la Cámara de Comercio de EE.UU. en 1919, establecían reglas sobre derechos y obligaciones del vendedor y comprador, y son antecesoras directas de los INCOTERMS."
+  },
+  {
+    "question": "¿Los INCOTERMS constituyen por sí mismos un contrato de compraventa internacional?",
+    "options": [
+      "Sí, siempre reemplazan al contrato",
+      "No, son una cláusula del contrato de compraventa pero no lo sustituyen",
+      "Solo en el caso de DDP",
+      "Solo si están registrados ante la CCI"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los INCOTERMS no son en sí mismos un contrato de compraventa; están concebidos para reflejar la práctica comercial general y funcionan como una cláusula dentro del contrato."
+  },
+  {
+    "question": "¿Cuáles son los tres aspectos centrales que regulan las reglas INCOTERMS?",
+    "options": [
+      "Precio, calidad y plazo de entrega",
+      "Obligaciones, riesgo y costos",
+      "Moneda, impuestos y aranceles",
+      "Seguro, flete y embalaje únicamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las reglas INCOTERMS describen quién se ocupa de qué (obligaciones), dónde y cuándo se transmite el riesgo, y de qué costos es responsable cada parte."
+  },
+  {
+    "question": "¿Cómo se identifican las obligaciones del vendedor y del comprador dentro de cada INCOTERM?",
+    "options": [
+      "Con los artículos A (vendedor) y B (comprador), numerados del 1 al 10",
+      "Con números romanos del I al X",
+      "Con las letras E, F, C y D",
+      "No existe una estructura formal, cada CCI lo define distinto"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cada INCOTERM se estructura en diez artículos A1/B1 a A10/B10, donde los artículos A son obligaciones del vendedor y los B las del comprador."
+  },
+  {
+    "question": "¿Qué INCOTERM conforma por sí solo el Grupo E?",
+    "options": [
+      "FOB",
+      "FCA",
+      "EXW",
+      "DDP"
+    ],
+    "answerIndex": 2,
+    "explanation": "El Grupo E incluye únicamente el término EXW (Ex-Works), donde el vendedor solo pone la mercadería a disposición en su propio local."
+  },
+  {
+    "question": "¿Qué términos integran el Grupo F de los INCOTERMS 2020?",
+    "options": [
+      "CFR, CIF, CPT y CIP",
+      "FAS, FCA y FOB",
+      "DAP, DPU y DDP",
+      "EXW y FCA"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Grupo F agrupa FAS, FCA y FOB, en los cuales el vendedor entrega la mercadería al porteador seleccionado por el comprador en el país de origen."
+  },
+  {
+    "question": "En los términos del Grupo C, ¿cuándo transfiere el vendedor el riesgo al comprador?",
+    "options": [
+      "Cuando la mercadería llega a destino",
+      "Cuando se entrega la mercadería al porteador en origen",
+      "Cuando se paga la factura comercial",
+      "Cuando se descarga en el depósito del importador"
+    ],
+    "answerIndex": 1,
+    "explanation": "En el Grupo C (CFR, CIF, CPT, CIP) el vendedor contrata el transporte por cuenta del comprador, pero transfiere el riesgo al entregar la mercadería al porteador en origen, no en destino."
+  },
+  {
+    "question": "¿Cuál de los siguientes INCOTERMS NO puede usarse para transporte aéreo, ya que está reservado al transporte marítimo?",
+    "options": [
+      "FCA",
+      "CIP",
+      "FOB",
+      "DAP"
+    ],
+    "answerIndex": 2,
+    "explanation": "FOB, junto con FAS, CFR y CIF, está reservado exclusivamente al transporte marítimo y por vías navegables interiores; los demás pueden usarse con cualquier medio de transporte."
+  },
+  {
+    "question": "Bajo la cláusula EXW, ¿quién se hace cargo del trámite de exportación?",
+    "options": [
+      "El vendedor, siempre",
+      "El comprador",
+      "Un despachante designado por la CCI",
+      "Se reparte entre ambas partes por igual"
+    ],
+    "answerIndex": 1,
+    "explanation": "En EXW el vendedor solo pone la mercadería a disposición en su local; el comprador asume el retiro, el transporte internacional y los trámites de exportación e importación."
+  },
+  {
+    "question": "¿Qué cobertura de seguro debe contratar el exportador bajo la cláusula CIF?",
+    "options": [
+      "Una póliza ICC (A) por el 100% del valor FOB",
+      "Una póliza ICC (C) por el 110% del valor CIF",
+      "No es obligatorio contratar seguro en CIF",
+      "Una póliza ICC (B) por el 90% del valor CFR"
+    ],
+    "answerIndex": 1,
+    "explanation": "En CIF el vendedor debe contratar una póliza ICC (C) que cubra el 110% del valor CIF de la mercadería."
+  },
+  {
+    "question": "¿Cuál es la diferencia principal entre CIF y CIP en materia de seguro?",
+    "options": [
+      "CIF exige ICC (C) al 110% del valor CIF, mientras que CIP exige ICC (A) al 110% del valor CIP",
+      "No hay diferencia, ambos exigen la misma póliza",
+      "CIP no exige seguro en ningún caso",
+      "CIF es para transporte aéreo y CIP para marítimo"
+    ],
+    "answerIndex": 0,
+    "explanation": "CIF (uso marítimo) exige cobertura ICC (C), más limitada, mientras que CIP (cualquier medio de transporte) exige cobertura ICC (A), de todo riesgo, ambas al 110% del valor de la mercadería."
+  },
+  {
+    "question": "¿Qué caracteriza específicamente al término DPU frente a los demás términos del Grupo D?",
+    "options": [
+      "Es el único que no incluye el flete internacional",
+      "Es el único INCOTERM que obliga al vendedor a descargar la mercadería en destino",
+      "Es el único que no puede usarse para transporte marítimo",
+      "Es el único que traslada el trámite de importación al vendedor"
+    ],
+    "answerIndex": 1,
+    "explanation": "DPU (Delivered Place Unloaded) es el único INCOTERM en el que el vendedor asume también los gastos y riesgos de la descarga en el punto convenido de destino."
+  },
+  {
+    "question": "¿Qué INCOTERM implica, para el importador, una operación equivalente a una compraventa local?",
+    "options": [
+      "EXW",
+      "FOB",
+      "DDP",
+      "FCA"
+    ],
+    "answerIndex": 2,
+    "explanation": "En DDP el vendedor asume todos los costos y riesgos, incluido el despacho de importación, por lo que para el importador la operación es prácticamente como comprar en el mercado local."
+  },
+  {
+    "question": "¿Cuál es el orden correcto de los campos recomendados para redactar una cotización internacional con INCOTERMS?",
+    "options": [
+      "Lugar, Moneda, Monto, Termino, Comentario",
+      "Moneda, Monto, Termino, Lugar, INCOTERMS® Revisión, Comentario",
+      "Termino, INCOTERMS®, Monto, Lugar, Moneda",
+      "Monto, Comentario, Termino, Lugar, Moneda"
+    ],
+    "answerIndex": 1,
+    "explanation": "La estructura recomendada es Moneda, Monto, Termino, Lugar, INCOTERMS® con su Revisión y un Comentario aclaratorio, como en el ejemplo USD 2.750.000 FOB Puerto de Buenos Aires INCOTERMS 2020."
+  },
+  {
+    "question": "¿Por qué es riesgoso omitir el año de revisión de los INCOTERMS al cotizar?",
+    "options": [
+      "Porque no afecta en nada a la operación",
+      "Porque distintas revisiones conviven vigentes y las obligaciones pueden diferir entre versiones",
+      "Porque la CCI multa a quien no lo indique",
+      "Porque solo la revisión 2020 es legalmente válida"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cada revisión de los INCOTERMS sigue vigente, por lo que omitir el año puede generar ambigüedad sobre qué reglas exactas aplican a la operación."
+  },
+  {
+    "question": "¿Qué cambio se introdujo en la revisión INCOTERMS 2010 respecto de versiones anteriores?",
+    "options": [
+      "Se incorporó por primera vez el término FOB",
+      "Se eliminaron DAF, DES, DEQ y DDU, y se incorporaron DAT y DAP",
+      "Se eliminó totalmente el Grupo D",
+      "Se sustituyó el DPU por el DAT"
+    ],
+    "answerIndex": 1,
+    "explanation": "La revisión 2010 eliminó las cláusulas DAF, DES, DEQ y DDU e incorporó DAT y DAP, además de exigir cooperación en el intercambio de información entre las partes."
+  },
+  {
+    "question": "¿Con qué frecuencia se actualizan las revisiones de los INCOTERMS desde 1980?",
+    "options": [
+      "Cada 5 años",
+      "Cada 10 años",
+      "Cada 20 años",
+      "No tienen una frecuencia fija"
+    ],
+    "answerIndex": 1,
+    "explanation": "A partir de 1980 las revisiones de los INCOTERMS se realizan cada 10 años para adaptarse a los cambios en el comercio, la tecnología y el transporte internacional."
+  },
+  {
+    "question": "En el término FCA, ¿qué novedad incorporó la revisión 2020 vinculada a la carta de crédito?",
+    "options": [
+      "Se eliminó la posibilidad de usar carta de crédito en FCA",
+      "El comprador puede instruir al transportista para emitir al vendedor un documento de embarque 'a bordo'",
+      "Se exige que el vendedor pague la carta de crédito por adelantado",
+      "El seguro pasa a ser obligatorio para el vendedor"
+    ],
+    "answerIndex": 1,
+    "explanation": "La revisión 2020 permite que, ante el uso de carta de crédito, el comprador instruya al transportista para entregar al vendedor un documento 'a bordo' que le permita certificar la entrega y cobrar la carta de crédito."
+  },
+  {
+    "question": "¿Cuál de estos INCOTERMS es el que exige la mínima obligación posible para el vendedor?",
+    "options": [
+      "DDP",
+      "CIF",
+      "EXW",
+      "CIP"
+    ],
+    "answerIndex": 2,
+    "explanation": "EXW (Ex-Works) es el INCOTERM de mínima obligación para el vendedor, quien solo debe poner la mercadería a disposición en su propio local o depósito."
+  }
+]

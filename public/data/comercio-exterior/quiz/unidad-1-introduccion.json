@@ -1,0 +1,142 @@
+[
+  {
+    "question": "¿Qué ley aprobó el Código Aduanero argentino?",
+    "options": ["Ley 24.331", "Ley 22.415", "Ley 25.063", "Ley 19.640"],
+    "answerIndex": 1,
+    "explanation": "El Código Aduanero fue aprobado por la Ley 22.415 el 2 de marzo de 1981."
+  },
+  {
+    "question": "¿Cómo se relacionan territorio aduanero y territorio soberano en Argentina?",
+    "options": [
+      "Son exactamente lo mismo",
+      "El territorio aduanero siempre es más grande que el soberano",
+      "Pueden no coincidir: en el territorio soberano argentino hay dos territorios aduaneros (TAG y TAE)",
+      "El territorio soberano es un concepto exclusivo de la Unión Europea"
+    ],
+    "answerIndex": 2,
+    "explanation": "En Argentina el territorio soberano contiene dos territorios aduaneros distintos (general y especial), lo que muestra que ambos conceptos no siempre coinciden."
+  },
+  {
+    "question": "En Argentina, el Territorio Aduanero Especial (TAE) corresponde a:",
+    "options": ["Ciudad de Buenos Aires", "Isla Grande de Tierra del Fuego", "Zona franca de La Plata", "Provincia de Misiones"],
+    "answerIndex": 1,
+    "explanation": "La Ley 19.640 de 1972 estableció el TAE en el territorio de la Isla Grande de Tierra del Fuego."
+  },
+  {
+    "question": "¿Cómo se trata aduaneramente la introducción de mercadería a una zona franca?",
+    "options": ["Como un tránsito sin efectos aduaneros", "Como una importación", "Como una exportación", "No tiene tratamiento aduanero"],
+    "answerIndex": 1,
+    "explanation": "Según el Código Aduanero, la introducción de mercadería al área franca se considera como si se tratara de una importación."
+  },
+  {
+    "question": "¿Cuál es la función principal del despachante de aduana?",
+    "options": ["Fijar el tipo de cambio", "Realizar en nombre de terceros los trámites aduaneros", "Fabricar contenedores", "Emitir pólizas de seguro"],
+    "answerIndex": 1,
+    "explanation": "El despachante de aduana realiza en nombre de otros, ante el servicio aduanero, los trámites relativos a importación y exportación."
+  },
+  {
+    "question": "Un exportador que compra mercadería a un productor local y la exporta por cuenta propia se clasifica como:",
+    "options": ["Exportador productor", "Exportador no productor por cuenta propia", "Exportador no productor por cuenta de terceros", "Importador de reventa"],
+    "answerIndex": 1,
+    "explanation": "Es un exportador no productor por cuenta propia: no fabrica la mercadería, pero la compra y exporta a nombre propio."
+  },
+  {
+    "question": "El valor en aduana de una mercadería importada se determina sobre base:",
+    "options": ["FOB", "CIF", "EXW", "FCA"],
+    "answerIndex": 1,
+    "explanation": "En importación, el valor en aduana se determina sobre la base CIF (costo, seguro y flete), cualquiera sea la forma en que se pactó la operación."
+  },
+  {
+    "question": "El valor en aduana de una exportación se determina sobre base:",
+    "options": ["CIF siempre", "FOB, independientemente de la cláusula pactada", "El precio de lista del fabricante", "El costo de producción"],
+    "answerIndex": 1,
+    "explanation": "En exportación el valor en aduana se determina sobre base FOB, sin importar la cláusula de compraventa pactada."
+  },
+  {
+    "question": "¿Qué acuerdo internacional establece los métodos de valoración aduanera aplicados en Argentina?",
+    "options": ["FMI", "OMC-GATT", "Banco Mundial", "ONU"],
+    "answerIndex": 1,
+    "explanation": "Los procedimientos de valoración aduanera respetan los preceptos del Acuerdo de la OMC-GATT sobre Valoración."
+  },
+  {
+    "question": "Una mercadería fabricada en Alemania pero embarcada desde depósitos en Holanda tiene:",
+    "options": ["Origen y procedencia alemanes", "Origen alemán y procedencia holandesa", "Origen holandés y procedencia alemana", "Origen y procedencia holandeses"],
+    "answerIndex": 1,
+    "explanation": "El origen es el país donde se fabricó (Alemania) y la procedencia es el lugar geográfico desde donde se despachó (Holanda)."
+  },
+  {
+    "question": "El dumping se determina comparando el precio de exportación con:",
+    "options": ["El costo de producción", "El valor normal en el mercado interno del país de origen o procedencia", "El precio promedio mundial del producto", "El tipo de cambio oficial"],
+    "answerIndex": 1,
+    "explanation": "Existe dumping cuando el precio de exportación es menor al precio comparable de venta en el mercado interno del país de origen o procedencia."
+  },
+  {
+    "question": "¿Cuál de las siguientes es una práctica desleal de comercio internacional reconocida internacionalmente?",
+    "options": ["Cupo arancelario", "Licencia automática", "Dumping", "Reintegro impositivo"],
+    "answerIndex": 2,
+    "explanation": "El dumping, junto con la subvención, es una de las principales prácticas desleales de comercio internacional; los cupos, licencias y reintegros son instrumentos lícitos de política comercial."
+  },
+  {
+    "question": "Una medida de salvaguardia se aplica cuando:",
+    "options": [
+      "Existe dumping comprobado",
+      "Las importaciones aumentan y causan o amenazan un daño grave a la industria nacional, sin necesidad de práctica desleal",
+      "El gobierno decide subsidiar sus exportaciones",
+      "Se devalúa el tipo de cambio"
+    ],
+    "answerIndex": 1,
+    "explanation": "A diferencia del antidumping y el derecho compensatorio, la salvaguardia no requiere que exista una práctica desleal, solo el aumento perjudicial de importaciones."
+  },
+  {
+    "question": "En Argentina, la subpolítica monetaria es instrumentada por:",
+    "options": ["AFIP", "Ministerio de Hacienda", "BCRA", "Secretaría de Comercio"],
+    "answerIndex": 2,
+    "explanation": "El Banco Central de la República Argentina (BCRA) es la autoridad de instrumentación de la subpolítica monetaria."
+  },
+  {
+    "question": "Reducir aranceles de importación para bienes de capital es un instrumento de la subpolítica:",
+    "options": ["Monetaria", "Comercial", "Promocional", "Cambiaria"],
+    "answerIndex": 1,
+    "explanation": "Los aranceles son un instrumento de la subpolítica comercial, que regula el ingreso y egreso de mercancías."
+  },
+  {
+    "question": "El drawback es un instrumento de:",
+    "options": ["Subpolítica monetaria", "Subpolítica comercial", "Subpolítica promocional (incentivo directo)", "Política fiscal general sin relación con exportaciones"],
+    "answerIndex": 2,
+    "explanation": "El drawback es un incentivo directo de la subpolítica promocional que restituye tributos de importación cuando la mercadería resultante se exporta."
+  },
+  {
+    "question": "¿Qué canal de verificación aduanera permite retirar o embarcar la mercadería sin trámite ni revisión adicional?",
+    "options": ["Canal rojo", "Canal naranja", "Canal verde", "Canal morado"],
+    "answerIndex": 2,
+    "explanation": "El canal verde permite retirar o embarcar la mercadería sin más trámite ni revisión."
+  },
+  {
+    "question": "¿Cuál es un requisito indispensable para inscribirse como importador/exportador ante la Aduana?",
+    "options": ["Tener título universitario", "Poseer CUIT y estar inscripto ante DGI", "Ser mayor de 25 años", "Contar con un despachante de aduana propio en forma exclusiva"],
+    "answerIndex": 1,
+    "explanation": "Antes de solicitar la inscripción como importador/exportador es necesario estar inscripto ante DGI y poseer CUIT."
+  },
+  {
+    "question": "Un cupo arancelario se caracteriza por:",
+    "options": [
+      "Prohibir totalmente la importación del producto",
+      "Fijar una tasa arancelaria preferencial hasta alcanzar cierto monto, luego se aplica una tasa muy elevada",
+      "Aplicar siempre la misma tasa sin ningún límite de cantidad",
+      "Ser exclusivo de las operaciones de exportación"
+    ],
+    "answerIndex": 1,
+    "explanation": "El cupo arancelario fija una tasa preferencial hasta cierto monto; superado ese monto, la tasa aplicable suele ser prohibitiva o disuasiva."
+  },
+  {
+    "question": "Las prohibiciones no económicas del Código Aduanero tienen como finalidad principal:",
+    "options": [
+      "Proteger la industria nacional de la competencia externa",
+      "Proteger la salud pública, el medio ambiente o la seguridad",
+      "Aumentar la recaudación fiscal",
+      "Fomentar la sustitución de importaciones"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las prohibiciones no económicas buscan proteger la salud pública, el medio ambiente, la seguridad, la flora y la fauna, entre otros fines no comerciales."
+  }
+]

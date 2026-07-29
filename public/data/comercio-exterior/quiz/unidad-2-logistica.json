@@ -1,0 +1,192 @@
+[
+  {
+    "question": "¿Cuál es la \"regla de oro\" de la Distribución Física Internacional?",
+    "options": [
+      "Minimizar siempre el flete marítimo",
+      "Entregar el producto adecuado, en la cantidad requerida, en el lugar acordado y al menor costo total",
+      "Priorizar siempre el transporte aéreo",
+      "Contratar un único operador logístico en todos los casos"
+    ],
+    "answerIndex": 1,
+    "explanation": "La regla de oro de la DFI busca satisfacer al consumidor entregando lo pactado, en la cantidad correcta, en el lugar acordado y al menor costo total, aplicando JIT y TQ."
+  },
+  {
+    "question": "Los tres pilares de un sistema de distribución logística son:",
+    "options": [
+      "Transporte, embalaje y seguro",
+      "Transporte, infraestructura y organización",
+      "Aduana, banco y despachante",
+      "Exportador, importador y transportista"
+    ],
+    "answerIndex": 1,
+    "explanation": "El transporte, la infraestructura y la organización deben coordinarse entre sí para que el sistema de distribución funcione correctamente."
+  },
+  {
+    "question": "¿Qué documento representa el contrato de transporte marítimo y es negociable como título de crédito?",
+    "options": ["El AWB", "La Carta de Porte", "El B/L (Conocimiento de Embarque)", "El Packing List"],
+    "answerIndex": 2,
+    "explanation": "El B/L sirve como prueba del contrato, acreditación de la carga y su titularidad, y es negociable como título de crédito."
+  },
+  {
+    "question": "Un B/L calificado como \"dirty\" o sucio indica que:",
+    "options": [
+      "La mercadería viajó en un contenedor sin higienizar",
+      "El capitán dejó constancia de deficiencias en la mercadería recibida",
+      "El flete se pagará en destino",
+      "El B/L se extravió durante el viaje"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cuando se detectan deficiencias en las condiciones de la mercancía al recibirla, el capitán expresa reservas y el B/L queda calificado como \"dirty\" o sucio."
+  },
+  {
+    "question": "En la contratación de transporte marítimo, el fletamento \"a casco desnudo\" (bareboat charter) implica que:",
+    "options": [
+      "El armador entrega el buque con tripulación y combustible incluidos",
+      "El armador solo entrega el buque, sin tripulación ni insumos",
+      "Se trata de un servicio Liner con itinerario fijo",
+      "El flete se paga siempre en destino"
+    ],
+    "answerIndex": 1,
+    "explanation": "En la explotación a casco desnudo, el armador entrega la nave en condiciones óptimas pero sin hacerse cargo de la tripulación ni de los insumos para el viaje."
+  },
+  {
+    "question": "¿Qué documento identifica y ampara al transporte aéreo de carga?",
+    "options": ["El B/L", "El AWB (Air Way Bill)", "La Carta de Porte", "El Packing List"],
+    "answerIndex": 1,
+    "explanation": "El AWB o Guía Aérea es prueba suficiente de que la mercadería fue entregada para su transporte por vía aérea."
+  },
+  {
+    "question": "Un contenedor consolidado con mercadería de distintos cargadores se identifica con la sigla:",
+    "options": ["FCL", "TEU", "LCL", "FEU"],
+    "answerIndex": 2,
+    "explanation": "LCL (less than container load) es un contenedor consolidado con carga de distintos cargadores o destinada a distintos consignatarios."
+  },
+  {
+    "question": "¿Quién asume la responsabilidad total frente al cliente en un transporte multimodal?",
+    "options": [
+      "Cada transportista responde solo por su tramo",
+      "El Operador de Transporte Multimodal (OTM)",
+      "El despachante de aduana",
+      "La compañía aseguradora del cargador"
+    ],
+    "answerIndex": 1,
+    "explanation": "En el transporte multimodal existe un único contrato y un único responsable, el OTM, que responde por daños, pérdidas o retrasos durante todo el trayecto."
+  },
+  {
+    "question": "¿Quién popularizó el uso del contenedor y en qué año?",
+    "options": ["El GATT, en 1947", "El empresario Malcolm McLean, en 1956", "El Comité Marítimo Internacional, en 1968", "La OMC, en 1994"],
+    "answerIndex": 1,
+    "explanation": "Malcolm McLean cargó por primera vez la caja de un camión directamente en un buque en 1956, dando origen a la contenedorización."
+  },
+  {
+    "question": "La carga a granel se caracteriza por:",
+    "options": [
+      "Viajar siempre en contenedores refrigerados",
+      "Ser voluminosa, tipo commodity, líquida o sólida, sin unitarizar",
+      "Requerir siempre transporte aéreo",
+      "Estar exenta de todo tipo de seguro"
+    ],
+    "answerIndex": 1,
+    "explanation": "La carga a granel refiere a cargas voluminosas, generalmente commodities, que pueden ser líquidas o sólidas/secas, sin acondicionarse en unidades individuales."
+  },
+  {
+    "question": "¿Qué exige la reglamentación de la FAO (2002) sobre los pallets de madera usados en comercio internacional?",
+    "options": [
+      "Que cumplan la norma ISO 9001",
+      "Que sean tratados química o térmicamente y certificados libres de plagas",
+      "Que respeten las Reglas de York y Amberes",
+      "Que se registren ante el Convenio de Varsovia"
+    ],
+    "answerIndex": 1,
+    "explanation": "La reglamentación de embalajes de madera de la FAO exige demostrar que el pallet fue tratado y se encuentra libre de plagas."
+  },
+  {
+    "question": "La clasificación de mercancías peligrosas de la ONU divide los materiales en:",
+    "options": ["3 clases", "5 clases", "9 clases", "12 clases"],
+    "answerIndex": 2,
+    "explanation": "La ONU clasifica las mercancías peligrosas en 9 clases según el grado de riesgo que representan."
+  },
+  {
+    "question": "En un contrato de seguro, ¿quién es el \"tomador\"?",
+    "options": [
+      "Quien recibe la indemnización en caso de siniestro",
+      "La persona física o jurídica que contrata el seguro",
+      "La entidad que asume el riesgo mediante una prima",
+      "La compañía reaseguradora"
+    ],
+    "answerIndex": 1,
+    "explanation": "El tomador es quien contrata el seguro; puede coincidir o no con el asegurado y el beneficiario."
+  },
+  {
+    "question": "La avería gruesa se caracteriza porque:",
+    "options": [
+      "Es un daño accidental que solo afecta al dueño de la carga dañada",
+      "Es un daño intencional del capitán para salvar el buque y el resto de la carga, cuyo costo se reparte entre los beneficiados",
+      "Nunca se indemniza",
+      "Solo aplica al transporte aéreo"
+    ],
+    "answerIndex": 1,
+    "explanation": "La avería gruesa implica un sacrificio deliberado del capitán para preservar la seguridad común, y su costo se distribuye proporcionalmente entre los beneficiados."
+  },
+  {
+    "question": "La cláusula ICC \"C\" o LAP (Libre de Avería Particular) ofrece:",
+    "options": [
+      "La cobertura máxima, todo riesgo",
+      "La cobertura mínima, excluyendo dolo, embalaje incorrecto y riesgos políticos",
+      "Cobertura exclusiva para riesgos cambiarios",
+      "Cobertura solo para transporte aéreo"
+    ],
+    "answerIndex": 1,
+    "explanation": "La ICC \"C\" es la cobertura mínima entre las cláusulas del Institute Cargo Clauses, y excluye expresamente dolo, embalaje incorrecto, demoras y riesgos políticos o sociales."
+  },
+  {
+    "question": "¿Cuándo comienza y cuándo termina la cobertura de una póliza de seguro de transporte internacional?",
+    "options": [
+      "Desde la firma del contrato de compraventa hasta el pago total",
+      "Desde el embarque de la mercadería hasta su descarga en destino",
+      "Solo durante el almacenamiento en depósito fiscal",
+      "Desde la fabricación hasta la venta minorista"
+    ],
+    "answerIndex": 1,
+    "explanation": "La cobertura de transporte corre desde el momento del embarque a bordo del medio de transporte hasta el momento de la descarga."
+  },
+  {
+    "question": "El Seguro de Crédito a la Exportación cubre principalmente:",
+    "options": [
+      "Daños físicos a la mercadería durante el transporte",
+      "El riesgo de no cobro de una venta al exterior por motivos comerciales o extraordinarios",
+      "El valor de la póliza de casco del buque",
+      "Los gastos de despacho aduanero"
+    ],
+    "answerIndex": 1,
+    "explanation": "Este seguro protege al exportador ante la imposibilidad de cobrar sus ventas al exterior por riesgos comerciales (insolvencia) o extraordinarios (guerra, expropiación)."
+  },
+  {
+    "question": "El Índice de Desempeño Logístico (LPI) del Banco Mundial evalúa, entre otras, las siguientes dimensiones:",
+    "options": [
+      "Solo el costo del flete marítimo",
+      "Aduanas, infraestructura, envíos internacionales, capacidad logística, trazabilidad y puntualidad",
+      "Exclusivamente la seguridad vial",
+      "El tipo de cambio de cada país"
+    ],
+    "answerIndex": 1,
+    "explanation": "El LPI combina seis dimensiones vinculadas al desempeño logístico de un país, entre ellas aduanas, infraestructura y puntualidad de los envíos."
+  },
+  {
+    "question": "Según el informe de la CAC sobre logística argentina, ¿cuál es un factor limitante del transporte ferroviario?",
+    "options": [
+      "Exceso de inversión privada en material rodante",
+      "La discontinuidad de tramos, distintas trochas y deterioro de la infraestructura",
+      "Demasiada velocidad permitida en las vías",
+      "Sobreoferta de locomotoras disponibles"
+    ],
+    "answerIndex": 1,
+    "explanation": "El informe identifica la discontinuidad de la red, la diversidad de trochas y el estado deficiente de la infraestructura como limitantes clave del ferrocarril argentino."
+  },
+  {
+    "question": "¿Qué plazo se menciona para reclamar por daños en mercaderías (no equipaje) recibidas por vía aérea?",
+    "options": ["24 horas", "2 días", "7 días corridos", "30 días"],
+    "answerIndex": 2,
+    "explanation": "Para mercaderías transportadas por vía aérea, el plazo habitual de reclamo es de 7 días corridos (3 días para equipaje y 10 días si falta la entrega total)."
+  }
+]

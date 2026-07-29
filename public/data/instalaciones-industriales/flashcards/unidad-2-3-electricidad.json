@@ -1,0 +1,142 @@
+[
+  {
+    "front": "¿Qué estableció la Ley Nacional 24.065 de 1991?",
+    "back": "Estableció el marco regulatorio vigente del sector eléctrico argentino, separando la actividad en tres segmentos independientes: generación, transporte y distribución, dejando atrás el viejo esquema de integración vertical."
+  },
+  {
+    "front": "¿Qué es el ENRE y cuándo se creó?",
+    "back": "El Ente Nacional Regulador de la Electricidad es un organismo autárquico creado en 1993 por la Ley 24.065, encargado de regular y controlar que generadoras, transportistas y distribuidoras cumplan el Marco Regulatorio y los Contratos de Concesión."
+  },
+  {
+    "front": "¿Por qué el transporte y la distribución eléctrica se consideran servicios públicos monopólicos?",
+    "back": "Porque no resulta viable económicamente que compitan varias empresas tendiendo redes en paralelo en una misma zona; por eso operan en condiciones de monopolio natural y requieren la presencia del Estado como regulador."
+  },
+  {
+    "front": "¿Qué es CAMMESA?",
+    "back": "Es la Compañía Administradora del Mercado Mayorista Eléctrico, una sociedad civil sin fines de lucro cuyas acciones se reparten entre el Estado, generadores, distribuidores, transportistas y grandes usuarios. Administra el despacho del Mercado Eléctrico Mayorista (MEM)."
+  },
+  {
+    "front": "¿Qué es el SADI?",
+    "back": "El Sistema Argentino de Interconexión es la red de líneas de alta tensión (500 kV y 220 kV) que conecta a las empresas transportistas en todo el país. Antes se llamaba SIN (Sistema Argentino Interconectado)."
+  },
+  {
+    "front": "¿Cuáles son los actores del Mercado Eléctrico Mayorista según el artículo 4 de la Ley 24.065?",
+    "back": "Generadores (o autogeneradores y cogeneradores), transportistas, distribuidores, grandes usuarios y comercializadores."
+  },
+  {
+    "front": "¿Qué diferencia hay entre GUMA y GUME dentro del MEM?",
+    "back": "El GUMA (Gran Usuario Mayor) debe contratar al menos el 50% de su demanda con un generador o comercializador e instalar un SMEC con lectura remota; el GUME (Gran Usuario Menor) debe contratar el 100% de su demanda con un generador y recibe tres facturas separadas."
+  },
+  {
+    "front": "¿Qué es el factor de potencia (cos φ) y por qué lo controlan las distribuidoras?",
+    "back": "Es la relación entre la componente resistiva y la componente reactiva de la impedancia de una instalación. Cuanto más se acerca a 1, más eficiente es el consumo. Las distribuidoras aplican recargos tarifarios cuando cae por debajo de 0,85."
+  },
+  {
+    "front": "¿Cómo se corrige un cos φ bajo en una instalación industrial?",
+    "back": "Instalando un banco de capacitores que compensa la componente reactiva inductiva generada por motores y otras cargas inductivas."
+  },
+  {
+    "front": "¿Qué elementos llegan hasta el \"pilar\" en una instalación eléctrica y de quién son responsabilidad?",
+    "back": "Hasta el pilar (fusibles, medidor e interruptor general) es responsabilidad de la empresa distribuidora. Todo lo que sigue después (tableros, conductores, protecciones, puesta a tierra) es responsabilidad del usuario."
+  },
+  {
+    "front": "¿Qué diferencia hay entre alambre y cable?",
+    "back": "El alambre es un conductor formado por un solo hilo o elemento conductor. El cable está formado por varios hilos o alambres retorcidos entre sí, lo que le da mayor flexibilidad."
+  },
+  {
+    "front": "¿Por qué se prefiere el cobre al aluminio para fabricar conductores eléctricos?",
+    "back": "Porque, aunque ambos metales tienen buena conductividad eléctrica, el cobre ofrece mejores ventajas mecánicas y eléctricas. Se usa cobre electrolítico de alta pureza (99,99%), en temple duro (para líneas aéreas) o blando (para conductores aislados)."
+  },
+  {
+    "front": "¿Qué es un esquema o diagrama unifilar?",
+    "back": "Es un diagrama de un solo trazo que representa cualquier tipo de línea (mono o trifásica), independientemente del número de conductores, mostrando las cargas, protecciones y llaves de maniobra conectadas a un tablero."
+  },
+  {
+    "front": "¿Qué diferencia hay entre un fusible tipo \"gl\" y uno tipo \"aM\"?",
+    "back": "El fusible gl (empleo general) protege líneas con respuesta lenta a sobrecargas y rápida a cortocircuitos. El fusible aM (acompañamiento de motor) tiene respuesta extremadamente lenta a sobrecargas (para permitir el arranque) y rápida a cortocircuitos."
+  },
+  {
+    "front": "¿Cuál es la sensibilidad recomendada de un interruptor diferencial para proteger la vida humana?",
+    "back": "Según la norma IEC 60479, la protección de las personas se logra con sensibilidades menores o iguales a 30 mA; también existen diferenciales de 10 mA y de 300 mA para otros usos."
+  },
+  {
+    "front": "¿Qué ventaja tiene un interruptor termomagnético frente a un fusible?",
+    "back": "Combina protección térmica (sobrecargas) y magnética (cortocircuitos) en un mismo aparato reutilizable con desconexión libre, mientras que el fusible es de un solo uso y su curva de fusión es menos precisa."
+  },
+  {
+    "front": "¿Cuáles son los dos métodos más usados en la Argentina para la puesta a tierra?",
+    "back": "Los electrodos verticales (jabalinas), uno o varios en paralelo, y las mallas horizontales enterradas."
+  },
+  {
+    "front": "¿Qué método se usa habitualmente para medir la resistencia de una puesta a tierra existente?",
+    "back": "El método del 62%, que consiste en usar un telurómetro junto con dos electrodos auxiliares colocados a distancias específicas."
+  },
+  {
+    "front": "¿Qué diferencia hay entre un motor sincrónico y uno asincrónico?",
+    "back": "En el motor sincrónico el rotor gira exactamente a la misma velocidad que el campo magnético giratorio del estator. En el asincrónico (de inducción) el rotor gira a una velocidad distinta, con un deslizamiento respecto al campo giratorio."
+  },
+  {
+    "front": "¿De qué depende la velocidad de sincronismo de un motor de corriente alterna?",
+    "back": "Depende de la frecuencia de la red (f) y del número de pares de polos de la máquina (p): a mayor cantidad de polos, menor velocidad de sincronismo para una misma frecuencia."
+  },
+  {
+    "front": "¿Para qué sirve el devanado amortiguador en un motor sincrónico?",
+    "back": "Permite que el motor arranque como un motor de inducción (sin necesidad de otro motor auxiliar) y evita el \"penduleo\", es decir, la oscilación de velocidad del rotor respecto al campo giratorio del estator."
+  },
+  {
+    "front": "¿Cómo funciona el arranque estrella-triángulo de un motor asincrónico trifásico?",
+    "back": "El motor arranca conectado en estrella, con una tensión √3 veces menor que la nominal (y corriente reducida en la misma proporción); una vez lanzado, se conmuta a triángulo para quedar alimentado a la tensión nominal."
+  },
+  {
+    "front": "¿Qué es el deslizamiento en un motor asincrónico?",
+    "back": "Es la diferencia entre la velocidad del campo magnético giratorio (velocidad de sincronismo) y la velocidad real del rotor. Ese movimiento relativo es necesario para que se induzcan corrientes en los conductores del rotor."
+  },
+  {
+    "front": "¿Qué unidad mide el flujo luminoso y cuál mide la iluminancia?",
+    "back": "El flujo luminoso se mide en lúmenes (lm). La iluminancia, que es la densidad de flujo luminoso por unidad de superficie, se mide en lux (lx = lm/m²)."
+  },
+  {
+    "front": "¿Qué es el IRC (Índice de Reproducción Cromática)?",
+    "back": "Es un valor de 0 a 100 que indica qué tan fielmente una fuente de luz reproduce los colores de un objeto, comparado con una fuente de referencia (luz natural o incandescente, que tienen IRC = 100)."
+  },
+  {
+    "front": "¿Qué diferencia hay entre luminarias directas e indirectas?",
+    "back": "Las directas emiten del 90 al 100% del flujo luminoso hacia el plano de trabajo, siendo más eficientes pero con más deslumbramiento y sombras. Las indirectas dirigen del 90 al 100% del flujo hacia el techo, logrando una iluminación difusa y uniforme."
+  },
+  {
+    "front": "¿Qué mide la eficacia o rendimiento luminoso de una lámpara?",
+    "back": "La relación entre el flujo luminoso emitido (en lúmenes) y la potencia eléctrica consumida (en watts), expresada en lm/W."
+  },
+  {
+    "front": "¿Por qué las lámparas incandescentes tienen tan bajo rendimiento?",
+    "back": "Porque solo transforman alrededor del 10% de la energía eléctrica en luz visible; el 90% restante se disipa como calor, dando un rendimiento del orden de 10 lm/W."
+  },
+  {
+    "front": "¿Qué ventaja aporta el ciclo del halógeno en las lámparas halógenas?",
+    "back": "Evita el ennegrecimiento de la ampolla, porque el tungsteno evaporado del filamento se combina con el halógeno y luego se redeposita sobre el filamento, aumentando la vida útil y manteniendo el flujo luminoso."
+  },
+  {
+    "front": "¿Por qué las lámparas de vapor de sodio de baja presión tienen tan alta eficacia luminosa?",
+    "back": "Porque su radiación monocromática amarilla (589 nm) está muy próxima al pico de sensibilidad del ojo humano (555 nm), logrando eficacias de 160 a 180 lm/W, aunque con muy mala reproducción del color (IRC bajísimo)."
+  },
+  {
+    "front": "¿Qué es el coeficiente de utilización (Cu) en un cálculo de iluminación?",
+    "back": "Es el cociente entre el flujo luminoso que llega al plano de trabajo (flujo útil) y el flujo total emitido por las lámparas instaladas. Depende del tipo de luminaria, la reflectancia de las paredes y las dimensiones del local."
+  },
+  {
+    "front": "¿Qué es el factor de mantenimiento (fm) en un proyecto de alumbrado?",
+    "back": "Es un coeficiente que tiene en cuenta la depreciación del flujo luminoso con el tiempo, por envejecimiento de lámparas y acumulación de suciedad. Suele estar comprendido entre el 50% y el 80%."
+  },
+  {
+    "front": "¿Qué método de cálculo de iluminación se usa habitualmente en la Argentina para análisis fotométricos de luminarias?",
+    "back": "El método de cavidades zonales, que divide el local en cavidad de techo, cavidad de local (habitación) y cavidad de piso para determinar el coeficiente de utilización a partir de tablas."
+  },
+  {
+    "front": "¿Qué significan los dos dígitos de un grado de protección IP en un tablero eléctrico?",
+    "back": "El primer dígito indica el grado de protección contra el ingreso de sólidos (polvo, objetos); el segundo indica la protección contra el ingreso de agua y humedad."
+  },
+  {
+    "front": "¿Qué categorías de matriculados pueden firmar un proyecto eléctrico en la Argentina según la potencia de la obra?",
+    "back": "Categoría 3ª (monofásico hasta 5 kW, trifásico hasta 15 kW, instaladores con certificado), categoría 2ª (técnicos y maestros mayores de obra, trifásico hasta 160 kW) y categoría 1ª (profesionales, según su título habilitante)."
+  }
+]

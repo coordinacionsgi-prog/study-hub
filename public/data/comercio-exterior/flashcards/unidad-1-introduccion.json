@@ -1,0 +1,138 @@
+[
+  {
+    "front": "¿Qué es el comercio exterior?",
+    "back": "Es el intercambio de bienes y servicios entre distintos países, mediante operaciones de importación (ingreso de mercadería) y exportación (egreso de mercadería), reguladas por normas aduaneras y políticas comerciales de cada Estado."
+  },
+  {
+    "front": "¿Qué ley aprobó el Código Aduanero argentino y cuándo?",
+    "back": "La Ley 22.415, aprobada el 2 de marzo de 1981 y publicada el 23 de marzo del mismo año. Regula todo el ordenamiento aduanero: definiciones, ámbito de aplicación, derechos y obligaciones, control aduanero y delitos."
+  },
+  {
+    "front": "¿Qué es el territorio aduanero?",
+    "back": "La parte del ámbito terrestre, acuático y aéreo sometida a la soberanía nacional en la que se aplica un mismo sistema arancelario y de prohibiciones económicas a las importaciones y exportaciones."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre Territorio Aduanero General (TAG) y Territorio Aduanero Especial (TAE)?",
+    "back": "El TAG es el ámbito donde rige el sistema arancelario general (la mayor parte del territorio continental argentino). El TAE tiene un sistema arancelario especial y en Argentina corresponde a la Isla Grande de Tierra del Fuego (Ley 19.640)."
+  },
+  {
+    "front": "¿Por qué no hay que confundir territorio aduanero con territorio soberano?",
+    "back": "Porque pueden no coincidir: en el territorio soberano argentino existen dos territorios aduaneros (TAG y TAE), mientras que la Unión Europea es un único territorio aduanero integrado por varios territorios soberanos."
+  },
+  {
+    "front": "¿Qué es una zona franca (área franca aduanera)?",
+    "back": "Un ámbito donde la mercadería no está sometida al control aduanero habitual y su introducción o extracción no paga tributos (salvo tasas retributivas de servicios), ni está alcanzada por prohibiciones económicas."
+  },
+  {
+    "front": "¿Cómo se tratan aduaneramente los movimientos hacia y desde una zona franca?",
+    "back": "La introducción de mercadería al área franca se considera una importación, y la extracción desde el área franca hacia el territorio aduanero general o especial se considera una exportación."
+  },
+  {
+    "front": "¿Qué diferencia hay entre zona franca comercial y zona franca industrial?",
+    "back": "La comercial permite descargar, almacenar y manipular mercadería sin formalidades arancelarias en espera de su reexportación o importación; la industrial permite introducir, elaborar y exportar bienes manufacturados sin pagar derechos aduaneros."
+  },
+  {
+    "front": "¿Qué es un enclave y qué es un exclave según el Código Aduanero?",
+    "back": "Enclave es un ámbito de otro Estado donde se aplica la legislación aduanera argentina (Argentina no tiene ninguno); exclave es un ámbito argentino donde se aplica la legislación aduanera de otro país (existieron cerca de Rosario, de Paraguay y Bolivia)."
+  },
+  {
+    "front": "Según el Código Aduanero, ¿qué es importar y qué es exportar?",
+    "back": "Importar es introducir cualquier mercadería a un territorio aduanero; exportar es extraerla de él."
+  },
+  {
+    "front": "¿Qué se considera \"mercadería\" a efectos aduaneros?",
+    "back": "Todo objeto susceptible de ser importado o exportado. Desde 1998 (Ley 25.063) también se consideran mercadería ciertas prestaciones de servicios entre el país y el exterior, y los derechos de autor y de propiedad intelectual."
+  },
+  {
+    "front": "Nombrá los tres tipos de importadores según su función.",
+    "back": "Importadores directos o usuarios (importan para uso propio), importadores de reventa (importan para revender en el mercado local) e importadores por cuenta de terceros (gestionan el trámite por cuenta del verdadero comprador)."
+  },
+  {
+    "front": "¿Qué diferencia hay entre exportador productor y exportador no productor?",
+    "back": "El exportador productor fabrica la mercadería que exporta. El no productor no la fabrica: puede exportar por cuenta propia (comprándola en el mercado local) o por cuenta de terceros (gestionando el trámite por el verdadero vendedor)."
+  },
+  {
+    "front": "¿Qué es el despachante de aduana?",
+    "back": "Es la persona humana habilitada que realiza en nombre de otros, ante el servicio aduanero, los trámites y diligencias relativos a importación, exportación y demás operaciones aduaneras."
+  },
+  {
+    "front": "¿Qué función cumple el Agente de Transporte Aduanero (ATA)?",
+    "back": "Representa a los transportistas y gestiona la presentación del medio de transporte y su carga ante el servicio aduanero."
+  },
+  {
+    "front": "¿Qué hace un freight forwarder o agente de embarque?",
+    "back": "Actúa como intermediario entre su cliente (comprador o vendedor) y los servicios de transporte, brindando soluciones logísticas: pick-up de mercadería, consolidación de carga, gestión aduanera, contratación de seguros y emisión de documentos de transporte, entre otras."
+  },
+  {
+    "front": "¿Para qué sirve la clasificación arancelaria de una mercadería?",
+    "back": "Para determinar su posición arancelaria y así saber qué tributos debe pagar o qué beneficios puede recibir en una operación de importación o exportación."
+  },
+  {
+    "front": "¿Qué nomenclador arancelario usa Argentina y desde cuándo?",
+    "back": "El Nomenclador Común del Mercosur (NCM), vigente desde el 1/1/1995, basado en el Sistema Armonizado de Designación y Codificación de Mercancías (SADCM)."
+  },
+  {
+    "front": "¿Qué significa \"valorar aduaneramente\" una mercadería?",
+    "back": "Determinar su precio en aduana (Valor en Aduana o Base Imponible) para establecer sobre qué monto se aplicarán los gravámenes o beneficios fiscales correspondientes."
+  },
+  {
+    "front": "¿Sobre qué base se calcula el valor en aduana en importación y en exportación?",
+    "back": "En importación, sobre base CIF (costo, seguro y flete), sea cual sea la forma en que se pactó la venta. En exportación, sobre base FOB, independientemente de la cláusula pactada en la compraventa."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre origen y procedencia de una mercadería?",
+    "back": "El origen es el país donde la mercadería fue producida, elaborada o sufrió la última transformación sustancial. La procedencia es el país geográfico desde el que fue despachada hacia su destino final, aunque no sea donde se produjo."
+  },
+  {
+    "front": "¿Qué es el dumping?",
+    "back": "Una práctica desleal de comercio internacional que existe cuando el precio de exportación de una mercadería es menor al precio comparable de venta en el mercado interno del país de origen o procedencia, en operaciones comerciales normales."
+  },
+  {
+    "front": "¿Qué es una subvención o subsidio en comercio internacional?",
+    "back": "Una contribución financiera de un gobierno u organismo público (transferencias directas, exenciones fiscales, provisión de bienes o servicios, etc.) que otorga un beneficio a la producción o exportación de una mercadería."
+  },
+  {
+    "front": "¿Qué es un derecho antidumping?",
+    "back": "Un derecho de importación adicional aplicado a un producto para acercar su precio al \"valor normal\" o para suprimir el daño que el dumping causa a la producción nacional del país importador."
+  },
+  {
+    "front": "¿Qué es un derecho compensatorio?",
+    "back": "Un derecho adicional aplicado por los países importadores para compensar un subsidio otorgado en el exterior a la producción o exportación de un bien, cuando ese subsidio causa o amenaza causar un daño a la industria doméstica."
+  },
+  {
+    "front": "¿Qué es una medida de salvaguardia y en qué se diferencia del antidumping?",
+    "back": "Es una medida de urgencia ante un aumento de importaciones que causa o amenaza causar un daño grave a la producción nacional. A diferencia del antidumping, no requiere que exista una práctica desleal, solo el efecto perjudicial del aumento de importaciones."
+  },
+  {
+    "front": "¿Cuáles son las tres subpolíticas que integran la política de comercio exterior?",
+    "back": "La subpolítica monetaria, la subpolítica comercial y la subpolítica promocional, que deben coordinarse entre sí para lograr resultados económicos coherentes."
+  },
+  {
+    "front": "¿Qué busca la subpolítica monetaria y quién la aplica en Argentina?",
+    "back": "Monitorear e intervenir en el mercado de dinero (masa monetaria, tasas de interés, tipo de cambio) para alcanzar objetivos macroeconómicos. En Argentina la aplica el BCRA (Banco Central de la República Argentina)."
+  },
+  {
+    "front": "¿Qué instrumentos utiliza la subpolítica comercial?",
+    "back": "Aranceles, cupos, prohibiciones, licencias previas y acuerdos comerciales, entre otros, para regular el ingreso y egreso de mercancías y equilibrar apertura comercial con protección del mercado doméstico."
+  },
+  {
+    "front": "¿Qué busca la subpolítica promocional y qué es el drawback?",
+    "back": "Busca incrementar y diversificar las exportaciones mediante incentivos. El drawback es un régimen que restituye total o parcialmente los tributos pagados al importar insumos, cuando la mercadería resultante de su transformación se exporta."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre un arancel ad-valorem y uno específico?",
+    "back": "El ad-valorem se calcula aplicando un porcentaje sobre el valor imponible de la mercadería; el específico es una suma fija de dinero por cada unidad de medida, independiente del valor del bien."
+  },
+  {
+    "front": "¿Qué es un cupo o cuota en comercio exterior?",
+    "back": "Una cantidad máxima que se permite importar o exportar de un producto determinado durante un período de tiempo, usada habitualmente para proteger un sector de la industria local."
+  },
+  {
+    "front": "¿Qué son los canales de selectividad (verde, naranja, rojo, morado) en el despacho aduanero?",
+    "back": "Determinan el nivel de control que ejercerá la aduana sobre una operación: verde permite retirar/embarcar sin trámite, naranja implica control documental previo, rojo suma verificación física, y morado agrega un control exhaustivo por temas de valoración."
+  },
+  {
+    "front": "¿Qué requisitos básicos se necesitan para inscribirse como importador/exportador en Argentina?",
+    "back": "Poseer CUIT, estar habilitado para ejercer el comercio y acreditar solvencia económica; la inscripción se tramita ante AFIP mediante la Declaración Jurada N.° 420/R."
+  }
+]

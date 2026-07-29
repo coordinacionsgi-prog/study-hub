@@ -1,0 +1,74 @@
+[
+  {
+    "front": "Según las minutas de Clase 1, ¿qué es la altura manométrica (H) de una bomba, explicada de forma gráfica?",
+    "back": "Es toda la energía que la bomba le imprime al fluido. Gráficamente es la suma de la altura geométrica (desnivel entre tanques) más todas las pérdidas por fricción, primarias y secundarias, de la conducción."
+  },
+  {
+    "front": "En una conducción de agua, ¿por qué suele despreciarse el término de energía de velocidad (v²/2g) en la ecuación de Bernoulli?",
+    "back": "Porque frente a los términos de posición (Z) y de presión (P/γ), la energía de velocidad es comparativamente muy pequeña en la mayoría de las conducciones de agua, según se remarcó en el repaso gráfico de la Clase 1."
+  },
+  {
+    "front": "¿Qué diferencia hay entre el AMPA (NPSH) requerido y el AMPA disponible?",
+    "back": "El AMPA requerido es un valor fijo dado por el fabricante según el diseño de la bomba. El AMPA disponible depende de la instalación (altura de la bomba respecto del líquido). Para evitar cavitación, el disponible siempre debe ser mayor que el requerido."
+  },
+  {
+    "front": "¿Qué es la 'altura límite de succión' de una bomba?",
+    "back": "Es la máxima altura vertical a la que se puede instalar una bomba (respecto del nivel del líquido a aspirar) sin que la misma llegue a cavitar."
+  },
+  {
+    "front": "Según la Clase 1, ¿por qué el agua caliente (por ejemplo a 90°C en la alimentación de calderas) complica la succión de una bomba?",
+    "back": "Porque a mayor temperatura del fluido, mayor es su presión de vapor, lo que facilita que la presión local caiga por debajo de ese valor y se produzca cavitación. Esto muchas veces obliga a instalar la bomba por debajo del nivel del tanque (altura de succión negativa)."
+  },
+  {
+    "front": "¿Qué balance económico resuelve el Diagrama de Cameron/Camerer visto en Clase 1?",
+    "back": "Balancea la inversión inicial (un caño más grande es más caro) contra el costo de operación (un caño más chico genera más pérdidas de energía por rozamiento). La solución óptima es el diámetro que minimiza la suma de ambos costos anualizados."
+  },
+  {
+    "front": "¿Cuáles son los seis parámetros necesarios para especificar técnicamente un caño sin ambigüedades?",
+    "back": "Norma (ej. ASTM A53), diámetro nominal, espesor (Schedule o PN), tipo de construcción (con o sin costura), material y acabado superficial (pintado, cincado, decapado, pulido)."
+  },
+  {
+    "front": "Según la Clase 2, ¿por qué es peligroso no especificar si un caño debe ser con o sin costura?",
+    "back": "Porque el mayorista suele entregar por defecto el caño con costura (más barato). En industrias como la del petróleo (norma API), el uso de caños con costura está prohibido en muchas aplicaciones por razones de seguridad, y usarlo por error puede causar un accidente."
+  },
+  {
+    "front": "¿Qué tipos de documentos conforman la documentación técnica de un proyecto de piping, según lo visto en Clase 2?",
+    "back": "La memoria descriptiva (define necesidades y normativas), la memoria de cálculo (respaldo matemático de presiones y pérdidas de carga) y el diagrama de flujo o diagramático (representación esquemática de la lógica del sistema, sin escala física)."
+  },
+  {
+    "front": "¿Qué es un 'spool' en el contexto del diseño y montaje de cañerías?",
+    "back": "Es una subdivisión de la conducción, un tramo prefabricado, que se usa para organizar cómo se fabrica y monta una instalación de piping por partes."
+  },
+  {
+    "front": "En Clase 3, ¿qué diferencia metalúrgica hay entre soldadura y brazing (soldering)?",
+    "back": "En la soldadura verdadera, los dos metales base se funden. En el brazing o soldering, solo hay calentamiento y unión por capilaridad, sin fundir el metal base: es un 'pegado', no una soldadura técnicamente hablando."
+  },
+  {
+    "front": "¿Qué caracteriza al proceso de soldadura por Arco Sumergido (SAW) según las minutas?",
+    "back": "Es totalmente automático, y el arco ocurre bajo un fundente granulado (tipo 'sal gruesa'). Solo permite soldar en posición plana, pero logra la máxima tasa de deposición, multiplicando hasta por 7 la productividad de la soldadura manual."
+  },
+  {
+    "front": "¿Por qué el proceso TIG (GTAW) se usa especialmente para la 'pasada de raíz' en tuberías críticas?",
+    "back": "Porque usa un electrodo de tungsteno no consumible y logra altísima calidad de soldadura, aunque con baja productividad (mucho más lento que MIG/MAG o electrodo revestido)."
+  },
+  {
+    "front": "¿Por qué 'picar' el electrodo fuera de la pieza (cebar el arco sobre el metal base) es un defecto grave en soldaduras de alta exigencia?",
+    "back": "Porque genera microfisuras en el metal base que invalidan la integridad estructural de la pieza. Por eso el soldador debe cebar el arco en una placa de sacrificio ('masa') y nunca directamente sobre la pieza, especialmente en aplicaciones nucleares o espaciales."
+  },
+  {
+    "front": "¿Por qué se usan roscas cónicas (NPT/BSPT) en el 90% de las tuberías, según lo remarcado en Clase 3?",
+    "back": "Porque el espesor del caño no permite hacer un sellado frontal efectivo (como sí se puede con roscas cilíndricas y una arandela), y las roscas cónicas sellan por interferencia de flancos sin necesitar ese espacio adicional."
+  },
+  {
+    "front": "¿Qué significa que una brida sea de 'Serie 150' según la norma ASME B16.5?",
+    "back": "Que soporta hasta 150 psi de presión a temperaturas elevadas, pudiendo soportar más presión a temperatura ambiente. Es una de las series de presión normalizadas para bridas."
+  },
+  {
+    "front": "¿Qué es el 'rayado fonográfico' de una brida con cara RF (raised face)?",
+    "back": "Son los surcos concéntricos tallados en el resalte de la brida que permiten que la junta se 'clave' o machimbre, dificultando las fugas del sistema."
+  },
+  {
+    "front": "¿Por qué no se recomienda usar roscas en diámetros de cañería mayores a 3-4 pulgadas?",
+    "back": "Porque a esos diámetros se necesitaría un torque excesivo para deformar los flancos y lograr un buen sellado, lo que vuelve poco práctico el roscado en grandes diámetros."
+  }
+]

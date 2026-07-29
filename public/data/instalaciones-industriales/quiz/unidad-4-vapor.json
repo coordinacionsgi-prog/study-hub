@@ -1,0 +1,203 @@
+[
+  {
+    "question": "¿Cuál es la presión límite que distingue a una caldera de \"alta presión\" según el código ASME?",
+    "options": ["15 psig", "5 psig", "50 psig", "100 psig"],
+    "answerIndex": 0,
+    "explanation": "Por encima de 15 psig (aproximadamente 1,05 kg/cm²) una caldera se clasifica como de alta presión; por debajo, de baja presión."
+  },
+  {
+    "question": "¿En qué tipo de caldera el agua circula dentro de los tubos y los gases de combustión pasan por fuera?",
+    "options": ["Humotubular", "Acuotubular", "Caldera eléctrica de resistencias", "Caldera de calor perdido"],
+    "answerIndex": 1,
+    "explanation": "En las calderas acuotubulares el agua y la mezcla agua-vapor circulan dentro de los tubos, mientras que los humos de combustión pasan por el exterior."
+  },
+  {
+    "question": "¿Por qué las calderas acuotubulares admiten presiones de trabajo más altas que las humotubulares?",
+    "options": [
+      "Porque consumen menos combustible",
+      "Porque el agua dentro de tubos de pequeño diámetro soporta mejor la presión que el gran cuerpo cilíndrico de una humotubular",
+      "Porque no requieren válvula de seguridad",
+      "Porque siempre trabajan a baja temperatura"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un tubo de pequeño diámetro desarrolla menores tensiones en su pared para una misma presión interna que un gran recipiente cilíndrico, lo que permite trabajar a presiones mucho mayores."
+  },
+  {
+    "question": "Según la clasificación por producción de vapor del apunte, ¿qué caracteriza a una caldera \"grande\"?",
+    "options": [
+      "Produce menos de 1 tonelada de vapor por hora",
+      "Produce entre 1 y 20 toneladas de vapor por hora",
+      "Produce desde 20 toneladas de vapor por hora, hasta 500-600 ton/h, y es siempre acuotubular",
+      "Solo se aplica a calderas eléctricas de resistencias"
+    ],
+    "answerIndex": 2,
+    "explanation": "Las calderas grandes producen 20 toneladas de vapor por hora o más, llegando a 500-600 ton/h, y son de manera excluyente calderas acuotubulares."
+  },
+  {
+    "question": "¿Qué dispositivo detecta la presencia de llama en el quemador de una caldera para evitar explosiones por reencendido accidental?",
+    "options": ["Manómetro", "Detector de llama (infrarrojo)", "Tubo de nivel", "Válvula de seguridad"],
+    "answerIndex": 1,
+    "explanation": "El detector de llama, generalmente infrarrojo, censa si hay llama encendida y estable, y dispara el apagado seguro del quemador si se pierde."
+  },
+  {
+    "question": "Según el Decreto 977/74 (MCBA), ¿qué límite de superficie de calefacción y presión tiene un foguista de 3ra categoría?",
+    "options": [
+      "Sin límite de superficie ni presión",
+      "Hasta 70 m² de superficie de calefacción y 8 kg/cm²",
+      "Hasta 30 m² de superficie de calefacción y 6 kg/cm²",
+      "Hasta 10 m² de superficie de calefacción y 5 kg/cm²"
+    ],
+    "answerIndex": 2,
+    "explanation": "El foguista de 3ra categoría está habilitado para calderas de hasta 30 m² de superficie de calefacción y presiones no mayores a 6 kg/cm²."
+  },
+  {
+    "question": "¿Qué problema principal provoca la acumulación de sarro en los tubos de una caldera?",
+    "options": [
+      "Mejora la transferencia de calor",
+      "Actúa como aislante térmico y puede provocar el sobrecalentamiento y colapso de los tubos",
+      "No tiene efecto relevante sobre el rendimiento",
+      "Reduce automáticamente la presión de trabajo de la caldera"
+    ],
+    "answerIndex": 1,
+    "explanation": "El sarro forma una capa aislante que impide la refrigeración adecuada del metal por el lado del agua, pudiendo provocar recalentamiento, colapso de tubos y explosión."
+  },
+  {
+    "question": "En la fórmula de capacidad de caldera Q = Ġv·(hv − ha), ¿qué representa \"ha\"?",
+    "options": [
+      "La entalpía del vapor producido",
+      "La entalpía del agua de alimentación",
+      "La altura del domo de la caldera",
+      "El caudal de aire de combustión"
+    ],
+    "answerIndex": 1,
+    "explanation": "ha es la entalpía de 1 kg de agua de alimentación en las condiciones en que ingresa a la caldera; hv es la entalpía del vapor generado."
+  },
+  {
+    "question": "¿Qué tipo de circulación de agua caracteriza a las calderas de \"evaporación rápida\"?",
+    "options": [
+      "Circulación natural por efecto sifón",
+      "Circulación forzada por bomba en un serpentín helicoidal",
+      "No poseen circulación de agua",
+      "Circulación exclusivamente por gravedad, sin bomba"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las calderas de evaporación rápida usan un serpentín helicoidal de circulación forzada, lo que les permite alcanzar régimen de trabajo en pocos minutos."
+  },
+  {
+    "question": "Respecto a la válvula de seguridad de una caldera, ¿qué exige el código ASME (sección I, PG67.2) sobre la sobrepresión de disparo?",
+    "options": [
+      "No debe superar el 3% de la presión de timbre en válvulas individuales (6% en sistemas múltiples)",
+      "Debe ser al menos el 50% de la presión de timbre",
+      "No existe ningún límite normado",
+      "Debe activarse siempre a presión atmosférica"
+    ],
+    "answerIndex": 0,
+    "explanation": "El ASME limita la sobrepresión máxima alcanzada durante el disparo al 3% de la presión de regulación para válvulas individuales, o 6% para sistemas múltiples."
+  },
+  {
+    "question": "¿Cuál es la función principal de un intercambiador de calor de casco y tubo?",
+    "options": [
+      "Generar energía eléctrica",
+      "Transferir calor entre dos fluidos separados por una pared metálica, sin mezclarlos",
+      "Comprimir un gas",
+      "Filtrar impurezas sólidas de un líquido"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un intercambiador transfiere calor de un fluido caliente a uno frío a través de la pared de los tubos, manteniéndolos separados."
+  },
+  {
+    "question": "En la nomenclatura TEMA, ¿qué tipo de cabezal posterior es el más económico pero requiere mayor variedad de tubos en stock para el mantenimiento?",
+    "options": ["Tipo S", "Tipo T", "Tipo U (haz de tubo en U)", "Tipo K"],
+    "answerIndex": 2,
+    "explanation": "El cabezal tipo U (haz de tubos en U) es el más económico de construir, pero exige tener en stock una gran variedad de tubos curvados para reposición."
+  },
+  {
+    "question": "Según las reglas generales de diseño, ¿cuál de estos fluidos conviene ubicar dentro de los tubos de un intercambiador de casco y tubo?",
+    "options": [
+      "El fluido más limpio y de menor presión",
+      "El fluido a mayor presión, más corrosivo o más sucio",
+      "El fluido que se va a condensar",
+      "Siempre el agua de enfriamiento, sin excepción"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las reglas generales indican que el fluido de mayor presión, más corrosivo o más sucio debe circular por los tubos, mientras que el que se condensa suele ir por el casco."
+  },
+  {
+    "question": "¿Qué mide la diferencia de temperatura media logarítmica (DTLM)?",
+    "options": [
+      "La temperatura máxima alcanzada por el fluido caliente",
+      "La diferencia de temperatura representativa usada para calcular la transferencia de calor en el intercambiador",
+      "La presión de trabajo del intercambiador",
+      "El caudal másico de los fluidos"
+    ],
+    "answerIndex": 1,
+    "explanation": "La DTLM es la diferencia de temperatura equivalente que se usa en la ecuación Q = U·A·DTLM para calcular el calor transferido."
+  },
+  {
+    "question": "¿Qué indica un factor de corrección F menor a 0,8 en el diseño de un intercambiador de casco y tubo?",
+    "options": [
+      "Que el diseño es aceptable sin cambios",
+      "Que se debe replantear el diseño, por ejemplo aumentando el número de pasos o cambiando la configuración",
+      "Que el intercambiador está sobredimensionado y puede achicarse",
+      "Que no hace falta calcular la DTLM"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un valor de F inferior a 0,8 no es admisible por diseño; obliga a modificar la configuración (por ejemplo, número de pasos) hasta lograr un valor superior a 0,8."
+  },
+  {
+    "question": "¿Qué es el \"fouling factor\" o factor de ensuciamiento de un intercambiador de calor?",
+    "options": [
+      "La eficiencia térmica ideal del equipo",
+      "La resistencia térmica adicional generada por depósitos o incrustaciones en las superficies de intercambio",
+      "El caudal de purga del sistema de agua de alimentación",
+      "La velocidad del fluido dentro de los tubos"
+    ],
+    "answerIndex": 1,
+    "explanation": "El factor de ensuciamiento representa la resistencia térmica extra que aportan los depósitos acumulados con el tiempo sobre las superficies interior y exterior de los tubos."
+  },
+  {
+    "question": "En el ejemplo de cálculo del Basco Type 500, ¿cuál es aproximadamente el calor a transferir (Q) para enfriar 20 GPM de aceite SAE 10 de 140°F a 120°F con agua a 85°F?",
+    "options": ["8.160 Btu/h", "81.600 Btu/h", "816.000 Btu/h", "20.000 Btu/h"],
+    "answerIndex": 1,
+    "explanation": "Q se calcula como ΔT (20°F) multiplicado por el factor térmico del aceite (204) y el caudal (20 GPM), dando aproximadamente 81.600 Btu/h."
+  },
+  {
+    "question": "¿Para qué se usan las líneas de \"steam tracing\" (acompañamiento de vapor)?",
+    "options": [
+      "Para medir el caudal de vapor generado por la caldera",
+      "Para compensar las pérdidas de calor de una tubería de producto y mantener su temperatura",
+      "Para purgar el aire acumulado dentro de la caldera",
+      "Para aumentar artificialmente la presión del vapor generado"
+    ],
+    "answerIndex": 1,
+    "explanation": "El traceado de vapor consiste en tuberías paralelas de pequeño diámetro que aportan calor a la línea de producto, compensando las pérdidas hacia el ambiente."
+  },
+  {
+    "question": "¿Cuál de las siguientes opciones NO es un tipo constructivo habitual de intercambiador de calor?",
+    "options": ["Casco y tubo", "De placas", "De tubo doble (horquilla)", "De vapor de sodio a baja presión"],
+    "answerIndex": 3,
+    "explanation": "\"Vapor de sodio a baja presión\" es un tipo de lámpara de descarga usada en luminotecnia, no un tipo de intercambiador de calor."
+  },
+  {
+    "question": "¿Por qué se prefiere el flujo en contracorriente frente al flujo paralelo (equicorriente) en muchos intercambiadores de calor?",
+    "options": [
+      "Porque resulta más barato de construir",
+      "Porque logra una DTLM mayor y una transferencia de calor más eficiente para las mismas temperaturas",
+      "Porque no requiere el uso de bombas",
+      "Porque evita por completo el uso de deflectores"
+    ],
+    "answerIndex": 1,
+    "explanation": "El flujo en contracorriente mantiene una diferencia de temperatura más uniforme a lo largo del intercambiador, dando una DTLM mayor que el flujo paralelo."
+  },
+  {
+    "question": "¿Qué significa que un intercambiador tenga un diseño de \"4 pasos\" por tubo?",
+    "options": [
+      "Que hay cuatro intercambiadores conectados en paralelo",
+      "Que el fluido recorre el interior de los tubos cuatro veces antes de salir, aumentando la velocidad y el coeficiente de película",
+      "Que se usan cuatro tipos distintos de fluido en el proceso",
+      "Que la caldera tiene cuatro quemadores"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un diseño de 4 pasos hace que el fluido recorra el haz de tubos cuatro veces, aumentando la velocidad de circulación (y el coeficiente de película) a costa de mayor caída de presión."
+  }
+]

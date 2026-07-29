@@ -1,0 +1,26 @@
+[
+  {
+    "id": "unidad-1-fluidos",
+    "title": "Unidad 1 · Conducción de Fluidos Incompresibles",
+    "unidad": "Unidad 1",
+    "description": "Bombas, válvulas, bridas y soldadura en sistemas de cañerías industriales."
+  },
+  {
+    "id": "unidad-2-3-electricidad",
+    "title": "Unidad 2 y 3 · Luminotecnia e Instalaciones Eléctricas",
+    "unidad": "Unidad 2 y 3",
+    "description": "Luminotecnia, instalaciones eléctricas, motores y generadores eléctricos."
+  },
+  {
+    "id": "unidad-4-vapor",
+    "title": "Unidad 4 · Vapor e Intercambiadores de Calor",
+    "unidad": "Unidad 4",
+    "description": "Generación de vapor, calderas y diseño de intercambiadores de calor."
+  },
+  {
+    "id": "minutas-clases",
+    "title": "Minutas de clases",
+    "unidad": "—",
+    "description": "Resumen de lo tratado en cada clase, tomado por la cátedra."
+  }
+]

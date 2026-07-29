@@ -1,0 +1,134 @@
+[
+  {
+    "front": "¿Qué es una caldera según la definición técnica del apunte?",
+    "back": "Es un recipiente a presión cerrado en el que se calienta un fluido para uso externo, por aplicación directa del calor de la combustión de combustibles sólidos, líquidos o gaseosos, o por energía nuclear o eléctrica."
+  },
+  {
+    "front": "¿A partir de qué presión se considera que una caldera es de \"alta presión\" según el código ASME?",
+    "back": "A partir de 15 psig (aproximadamente 1,05 kg/cm² o 1,03 bar) manométricos; por debajo de ese valor se clasifica como caldera de vapor de baja presión."
+  },
+  {
+    "front": "¿Qué diferencia hay entre una caldera humotubular y una acuotubular?",
+    "back": "En la humotubular (pirotubular) los gases de combustión circulan dentro de tubos rodeados de agua exterior. En la acuotubular el agua y la mezcla agua-vapor circulan dentro de los tubos, mientras los gases pasan por fuera."
+  },
+  {
+    "front": "¿Por qué las calderas acuotubulares admiten presiones y capacidades mucho mayores que las humotubulares?",
+    "back": "Porque al circular el agua dentro de tubos de pequeño diámetro, la tensión en la pared es menor para una misma presión que en el gran cuerpo cilíndrico de una humotubular; además la superficie de calefacción puede aumentarse agregando más tubos."
+  },
+  {
+    "front": "¿Cómo se clasifican las calderas según su producción de vapor?",
+    "back": "Chicas (hasta 1-2 toneladas de vapor por hora), medianas (hasta unas 20 ton/h, casi siempre humotubulares) y grandes (desde 20 ton/h hasta 500-600 ton/h, siempre acuotubulares)."
+  },
+  {
+    "front": "¿Qué elementos de seguridad son obligatorios en toda caldera humotubular?",
+    "back": "Válvula de seguridad (mínimo dos), indicador o tubo de nivel de agua, detector de llama, manómetro y un procedimiento seguro de encendido y apagado del quemador."
+  },
+  {
+    "front": "¿Qué riesgo genera un nivel de agua bajo en el cuerpo cilíndrico de una caldera?",
+    "back": "Los tubos de humo ubicados en la parte más alta quedan sin la refrigeración del agua, se sobrecalientan y pueden colapsar por la presión, provocando una vaporización instantánea y una posible explosión."
+  },
+  {
+    "front": "¿Por qué es peligroso reencender el quemador de una caldera tras un apagón de llama prolongado?",
+    "back": "Porque durante el tiempo sin llama el hogar puede haberse llenado de gases o vapores de combustible sin quemar; al reencender, la ignición de esa mezcla acumulada puede provocar una explosión que destruya la caldera."
+  },
+  {
+    "front": "¿Qué es el \"foguista\" y cómo se clasifican sus categorías según el Decreto 977/74 (MCBA)?",
+    "back": "Es la persona matriculada habilitada para poner en marcha y operar una caldera de vapor. Existen tres categorías profesionales (1ª sin límite, 2ª hasta 70 m² de superficie de calefacción y 8 kg/cm², 3ª hasta 30 m² y 6 kg/cm²) más una categoría \"no profesional\" muy limitada."
+  },
+  {
+    "front": "¿Qué es el sarro y qué problema genera en una caldera?",
+    "back": "Es el depósito de sales y sólidos disueltos en el agua que se acumula en la superficie exterior de los tubos de humo, actuando como aislante térmico. Reduce la producción de vapor y puede sobrecalentar el metal, provocando su colapso y una posible explosión."
+  },
+  {
+    "front": "¿Cómo se calcula la capacidad de una caldera?",
+    "back": "Con Q = Ġv·(hv − ha), donde Q es la capacidad en kcal/h, Ġv el caudal de vapor producido en kg/h, hv la entalpía del vapor generado y ha la entalpía del agua de alimentación."
+  },
+  {
+    "front": "¿Qué tipos de circulación de agua existen en las calderas acuotubulares?",
+    "back": "Circulación natural (por diferencia de densidades entre agua fría y la mezcla agua-vapor, efecto sifón), circulación asistida (bombas complementan la circulación natural) y circulación forzada (circuito abierto, toda el agua es impulsada por bomba)."
+  },
+  {
+    "front": "¿Qué distingue a una caldera de evaporación rápida?",
+    "back": "Está formada por un serpentín helicoidal de circulación forzada con el hogar en su parte inferior, lo que permite alcanzar condiciones de trabajo en apenas unos 5 minutos, frente a las 5-6 horas que necesita una caldera tradicional."
+  },
+  {
+    "front": "¿Cuál es la función de la válvula de seguridad de una caldera y qué exige el código ASME sobre su sobrepresión?",
+    "back": "Libera el exceso de presión cuando la caldera supera los valores normales de operación. El ASME (sección I, párrafo PG67.2) exige que la sobrepresión de disparo no supere el 3% de la presión de timbre en válvulas individuales, o el 6% en sistemas múltiples."
+  },
+  {
+    "front": "¿Qué es un intercambiador de calor?",
+    "back": "Es un equipo que transfiere calor de un fluido más caliente a otro más frío a través de una pared metálica o un tubo que los separa, sin que ambos fluidos se mezclen."
+  },
+  {
+    "front": "¿Cuáles son los principales tipos constructivos de intercambiadores de calor?",
+    "back": "De tubo doble (u horquilla), de placas, de casco y tubo (los más usados en la industria química), de flujo cruzado y en espiral, entre otros."
+  },
+  {
+    "front": "¿Qué normaliza la TEMA en los intercambiadores de casco y tubo?",
+    "back": "La Tubular Exchanger Manufacturers Association estandariza el diseño, identificando cada intercambiador con tres letras (tipo de cabezal frontal, tipo de casco y tipo de cabezal posterior), más el diámetro del casco y la longitud de los tubos en pulgadas."
+  },
+  {
+    "front": "¿Qué significan los tipos de cabezal posterior S, T y U en la nomenclatura TEMA?",
+    "back": "S es cabezal flotante con dispositivo de apoyo (mayor diámetro, hay que desmontarlo para sacarlo); T es cabezal flotante sin contrabrida (se saca sin desmontar pero necesita mayor diámetro de casco); U es haz de tubo en U (el más económico pero requiere mayor variedad de tubos en stock para mantenimiento)."
+  },
+  {
+    "front": "¿Qué reglas generales determinan qué fluido va por los tubos y cuál por el casco en un intercambiador de casco y tubo?",
+    "back": "El fluido a mayor presión, más corrosivo o más sucio va por los tubos; el de menor pérdida de carga y el que se va a condensar van por el casco. Un fluido muy viscoso en régimen laminar conviene ponerlo en el casco, para volverse turbulento con los deflectores."
+  },
+  {
+    "front": "¿Qué es la diferencia de temperatura media logarítmica (DTLM o LMTD)?",
+    "back": "Es la diferencia de temperatura representativa de un intercambiador, calculada a partir de las diferencias de temperatura en cada extremo (ΔTA y ΔTB): DTLM = (ΔTA − ΔTB) / ln(ΔTA/ΔTB)."
+  },
+  {
+    "front": "¿Por qué en un intercambiador de casco y tubo se usa un factor de corrección F junto con la DTLM?",
+    "back": "Porque el flujo no es puramente equicorriente ni contracorriente, sino una mezcla, según el número de pasos por tubo y por casco. F corrige la DTLM calculada como si fuera contracorriente pura; un valor de F menor a 0,8 obliga a replantear el diseño."
+  },
+  {
+    "front": "¿Qué es el coeficiente global de transferencia de calor (U)?",
+    "back": "Es el parámetro que combina todas las resistencias térmicas al flujo de calor entre los dos fluidos: película interna, suciedad interna, pared metálica, suciedad externa y película externa."
+  },
+  {
+    "front": "¿Qué es el factor de ensuciamiento (fouling factor) en un intercambiador?",
+    "back": "Es la resistencia térmica adicional que aportan los depósitos o incrustaciones que se acumulan con el tiempo en las superficies de intercambio, reduciendo el coeficiente global de transferencia."
+  },
+  {
+    "front": "¿Qué es el método ε-NTU (efectividad - Número de Unidades de Transferencia)?",
+    "back": "Es un método de diseño y verificación de intercambiadores que relaciona la efectividad (ε) del equipo con el NTU = U·A/Cmín y la razón de capacidades caloríficas R = Cmín/Cmáx; es útil cuando no se conocen todas las temperaturas de salida."
+  },
+  {
+    "front": "¿Qué tipo de intercambiador se recomienda cuando el área de transferencia requerida es pequeña?",
+    "back": "El intercambiador de tubo doble (u horquilla), formado por dos tubos concéntricos donde un fluido circula por el tubo interior y el otro por el ánulo entre ambos tubos."
+  },
+  {
+    "front": "¿Qué ventaja tiene el flujo en contracorriente frente al flujo paralelo (equicorriente) en un intercambiador?",
+    "back": "Permite obtener una DTLM mayor para las mismas temperaturas de entrada y salida, logrando una transferencia de calor más eficiente, e incluso puede calentar el fluido frío por encima de la temperatura de salida del fluido caliente."
+  },
+  {
+    "front": "¿Qué función cumple el \"steam tracing\" o traceado de vapor?",
+    "back": "Mantener la temperatura de un producto dentro de una tubería mediante líneas paralelas de vapor de pequeño diámetro que compensan las pérdidas de calor hacia el ambiente, evitando que el producto se enfríe, solidifique o aumente su viscosidad de bombeo."
+  },
+  {
+    "front": "¿Qué es una marmita industrial y para qué se usa?",
+    "back": "Es una olla de metal con una tapa totalmente ajustada, calentada con vapor, llama directa o resistencias eléctricas, usada para procesar alimentos (mermeladas, dulces, salsas) y en la industria química y farmacéutica."
+  },
+  {
+    "front": "En el hogar de combustibles líquidos de una caldera, ¿por qué es necesario precalentar el fueloil antes de quemarlo?",
+    "back": "Porque su alta viscosidad dificulta el bombeo y la atomización; se precalienta a 30-40°C para poder bombearlo, y luego a 80-130°C cerca del quemador para lograr una correcta pulverización y combustión."
+  },
+  {
+    "front": "En el ejemplo de diseño del Basco Type 500, ¿qué caudal de calor (Q) hace falta para enfriar 20 GPM de aceite SAE 10 de 140°F a 120°F usando agua como medio de enfriamiento?",
+    "back": "Aproximadamente 81.600 Btu/h, calculado como Q = ΔT (140-120=20°F) × factor térmico del aceite (204) × caudal (20 GPM)."
+  },
+  {
+    "front": "¿Qué significa que un intercambiador de calor tenga un diseño \"4-pass\" (cuatro pasos)?",
+    "back": "Que el fluido dentro de los tubos recorre el intercambiador cuatro veces (cuatro pasos) antes de salir, lo que aumenta la velocidad y el coeficiente de película, ahorrando agua y energía a costa de mayor caída de presión."
+  },
+  {
+    "front": "¿Qué tamaño nominal de tubo y separación típica se usa en un intercambiador de casco y tubo, según una primera aproximación de diseño?",
+    "back": "Tubo de 3/4 de pulgada, separación triangular de 1 pulgada, largo de 16 pies y espesor 14 BWG (Birmingham Wire Gauge)."
+  },
+  {
+    "front": "¿Por qué los deflectores (baffles) son importantes dentro del casco de un intercambiador de casco y tubo?",
+    "back": "Porque obligan al fluido del lado del casco a seguir una trayectoria en zigzag transversal a los tubos, aumentando la turbulencia y el coeficiente de película, aunque también incrementan la pérdida de presión."
+  }
+]

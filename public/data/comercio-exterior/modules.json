@@ -1,0 +1,32 @@
+[
+  {
+    "id": "unidad-1-introduccion",
+    "title": "Unidad 1 · Introducción al Comercio Exterior",
+    "unidad": "Unidad 1",
+    "description": "Conceptos básicos de comercio exterior y políticas comerciales."
+  },
+  {
+    "id": "unidad-2-logistica",
+    "title": "Unidad 2 · Logística Internacional",
+    "unidad": "Unidad 2",
+    "description": "Transporte internacional, seguros y logística de comercio exterior."
+  },
+  {
+    "id": "unidad-3-cotizaciones",
+    "title": "Unidad 3 · Cotizaciones Internacionales",
+    "unidad": "Unidad 3",
+    "description": "Incoterms y armado de cotizaciones para operaciones internacionales."
+  },
+  {
+    "id": "unidad-4-importaciones",
+    "title": "Unidad 4 · Importaciones",
+    "unidad": "Unidad 4",
+    "description": "Régimen de importaciones, aranceles y cálculo de costos de importación."
+  },
+  {
+    "id": "minutas-clases",
+    "title": "Minutas de clases",
+    "unidad": "—",
+    "description": "Resumen de lo tratado en cada clase, tomado por la cátedra."
+  }
+]

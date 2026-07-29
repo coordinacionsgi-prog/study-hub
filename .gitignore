@@ -28,4 +28,6 @@ dist-ssr
 material/
 extracted/
 drive-raw-manejo/
+drive-raw-comex/
+drive-raw-instalaciones/
 *.zip

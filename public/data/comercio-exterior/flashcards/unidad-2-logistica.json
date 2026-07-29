@@ -1,0 +1,134 @@
+[
+  {
+    "front": "¿Cuáles son los tres pilares de un sistema de distribución logística?",
+    "back": "El transporte, la infraestructura (rutas, puertos, aeropuertos, vías navegables) y la organización (instituciones que regulan la circulación). Los tres deben coordinarse para que el sistema funcione."
+  },
+  {
+    "front": "¿Cuál es la \"regla de oro\" de la Distribución Física Internacional (DFI)?",
+    "back": "Entregar el producto solicitado, en la cantidad requerida, en el lugar establecido y al menor costo total, satisfaciendo al consumidor y aplicando los conceptos JIT (justo a tiempo) y TQ (calidad total)."
+  },
+  {
+    "front": "¿Cuáles son los modos de transporte internacional de cargas?",
+    "back": "Acuático (marítimo y fluvial), terrestre (carretero y ferroviario), aéreo y por ductos."
+  },
+  {
+    "front": "¿Qué diferencia hay entre modo y medio de transporte?",
+    "back": "El modo es el sistema utilizado para trasladar mercaderías (por ejemplo, acuático o terrestre); el medio es el vehículo concreto empleado dentro de ese modo (por ejemplo, un buque o un camión)."
+  },
+  {
+    "front": "¿Qué es el B/L (Bill of Lading o Conocimiento de Embarque)?",
+    "back": "El documento representativo del transporte marítimo: prueba el contrato de transporte, acredita la carga de la mercadería y su titularidad, y funciona como comprobante negociable como título de crédito."
+  },
+  {
+    "front": "¿Qué diferencia hay entre un B/L \"limpio\" (clean) y uno \"sucio\" (dirty)?",
+    "back": "El B/L limpio certifica que la mercadería fue recibida a bordo en perfectas condiciones; el sucio indica que el capitán dejó constancia de deficiencias detectadas en la carga."
+  },
+  {
+    "front": "¿Qué es el fletamento \"a casco desnudo\" (bareboat charter)?",
+    "back": "Una modalidad en la que el armador entrega el buque en condiciones óptimas pero sin tripulación ni insumos, a diferencia del fletamento por viaje o por tiempo, donde el armador sí los provee."
+  },
+  {
+    "front": "¿Qué diferencia hay entre un servicio Liner y uno Tramp?",
+    "back": "El servicio Liner es regular, con tarifas, itinerarios y rutas fijas preestablecidas; el Tramp es un fletamento sin regularidad, contratado según la necesidad puntual de cada envío."
+  },
+  {
+    "front": "¿Qué documento identifica el transporte aéreo de carga?",
+    "back": "El AWB (Air Way Bill) o Guía Aérea, que es prueba suficiente de que la mercadería fue entregada para su transporte; se emite en 3 originales y 9 copias."
+  },
+  {
+    "front": "¿Qué es el Courier en el transporte aéreo?",
+    "back": "El servicio de transporte aéreo \"puerta a puerta\" de envíos pequeños y livianos: correspondencia, cartas o paquetes."
+  },
+  {
+    "front": "¿Qué documento representa el contrato en el transporte ferroviario y en el carretero?",
+    "back": "La Carta de Porte (ferroviaria o carretera), que es transferible y prueba tanto la entrega de la carga al transportista como la titularidad sobre la mercadería."
+  },
+  {
+    "front": "¿Qué es el transporte multimodal y quién responde por él?",
+    "back": "Es el uso de dos o más medios de transporte para completar un envío, bajo un único contrato. Responde por todo el trayecto el Operador de Transporte Multimodal (OTM), incluso por daños, pérdidas o retrasos."
+  },
+  {
+    "front": "¿En qué se diferencia el transporte multimodal del intermodal?",
+    "back": "En el multimodal hay un solo operador (OTM) y un solo contrato que asume toda la responsabilidad del trayecto. En el intermodal, cada transportista responde solo por su tramo, y existen tantos documentos como medios de transporte contratados."
+  },
+  {
+    "front": "¿Qué diferencia hay entre un contenedor FCL y uno LCL?",
+    "back": "FCL (full container load) es un contenedor completo con mercadería de un solo cargador; LCL (less than container load) es un contenedor consolidado con carga de distintos cargadores o destinada a distintos consignatarios."
+  },
+  {
+    "front": "¿Qué medidas tienen los contenedores TEU y FEU?",
+    "back": "El TEU (Twenty Feet Equivalent Unit) mide 20 pies de largo (6,05 m); el FEU (Forty Feet Equivalent Unit) duplica el largo del TEU (40 pies) manteniendo el mismo ancho y alto."
+  },
+  {
+    "front": "¿Quién popularizó el uso del contenedor y en qué año?",
+    "back": "El empresario transportista Malcolm McLean, en 1956, al cargar la caja de un camión directamente en un buque, dando origen a la contenedorización de cargas."
+  },
+  {
+    "front": "¿Qué diferencia hay entre carga general y carga a granel?",
+    "back": "La carga general son productos enviados en forma individual o unitarizados (fardos, cajas, pallets, contenedores); la carga a granel son cargas voluminosas tipo commodity, líquidas o sólidas, sin empaque individual."
+  },
+  {
+    "front": "¿Qué riesgos debe considerar el embalaje de una mercadería según su origen?",
+    "back": "Riesgos mecánicos (movimientos, colisiones y frenadas en tránsito), riesgos físicos (apilamiento y almacenamiento) y riesgos climáticos (variaciones de temperatura a lo largo del trayecto)."
+  },
+  {
+    "front": "¿Para qué sirve el Packing List?",
+    "back": "Es un documento internacional preparado por el dador de carga que detalla cantidades, pesos y dimensiones de los bultos, junto con el detalle del contenido de la mercadería embalada."
+  },
+  {
+    "front": "¿Qué es un pallet y qué normas existen para su fabricación?",
+    "back": "Es una plataforma que unitariza la carga para facilitar su manipulación. Existen los Isopallets bajo norma ISO (1000 x 1200 mm) y los Europallets bajo norma europea (800 x 1200 mm), usados especialmente en transporte ferroviario."
+  },
+  {
+    "front": "¿Qué exige la reglamentación de la FAO (2002) para los pallets de madera en comercio internacional?",
+    "back": "Que sean tratados mediante procedimientos químicos o térmicos y certificados como libres de plagas antes de ser utilizados en operaciones internacionales."
+  },
+  {
+    "front": "¿En cuántas clases divide la ONU a las mercancías peligrosas?",
+    "back": "En 9 clases según el grado de riesgo: explosivos, gases, líquidos inflamables, sólidos inflamables, sustancias oxidantes y peróxidos, sustancias tóxicas e infecciosas, materiales radiactivos, sustancias corrosivas y sustancias peligrosas diversas."
+  },
+  {
+    "front": "¿Qué es un seguro y quiénes son sus sujetos principales?",
+    "back": "Es un contrato por el cual el asegurador se obliga, mediante el cobro de una prima, a resarcir un daño o cumplir una prestación si ocurre el evento previsto. Sus sujetos son el tomador, el asegurador, el asegurado y el beneficiario."
+  },
+  {
+    "front": "¿Qué es la póliza y qué es la prima en un contrato de seguro?",
+    "back": "La póliza es el documento que formaliza el contrato de seguro y establece sus condiciones. La prima es el valor técnico del riesgo, que sumado a impuestos y sellados compone el premio total que se abona."
+  },
+  {
+    "front": "¿Qué diferencia hay entre avería gruesa y avería particular?",
+    "back": "La avería gruesa es un daño o sacrificio intencional del capitán para preservar el buque y el resto de la carga de un peligro mayor, y su costo se reparte entre todos los beneficiados. La avería particular es un daño accidental que solo afecta al propietario del bien dañado."
+  },
+  {
+    "front": "¿Qué cobertura ofrece la cláusula ICC \"C\" o LAP (Libre de Avería Particular)?",
+    "back": "La cobertura mínima: cubre incendio, varada, naufragio, vuelco, descarrilamiento, colisión y avería gruesa, pero excluye dolo del asegurado, embalaje incorrecto, demoras y riesgos políticos o sociales."
+  },
+  {
+    "front": "¿Qué diferencia hay entre las cláusulas ICC \"B\" (con avería) e ICC \"A\" (todo riesgo)?",
+    "back": "La \"B\" agrega a la cobertura mínima los riesgos del mar (por ejemplo, ingreso de agua a las bodegas); la \"A\" cubre todos los riesgos posibles, dejando solo las exclusiones expresamente indicadas."
+  },
+  {
+    "front": "¿Desde y hasta cuándo corre la cobertura de una póliza de seguro de transporte internacional?",
+    "back": "Desde el momento del embarque de la mercadería a bordo del medio de transporte hasta el momento de su descarga en destino."
+  },
+  {
+    "front": "¿Qué es el Seguro de Crédito a la Exportación?",
+    "back": "Un instrumento que protege al exportador contra riesgos comerciales (insolvencia, mora, quiebra del comprador) y riesgos extraordinarios o políticos (guerra, expropiación, embargos) que puedan impedir el cobro de una venta al exterior."
+  },
+  {
+    "front": "¿Qué porcentaje de cobertura ofrece en Argentina el Seguro de Crédito a la Exportación?",
+    "back": "Hasta el 85% de los riesgos comerciales y entre el 90% y el 99% de los riesgos extraordinarios, según el comprador sea privado o público, con plazos de cobertura de hasta 5 y 12 años respectivamente."
+  },
+  {
+    "front": "¿Qué mide el Índice de Desempeño Logístico (LPI) del Banco Mundial?",
+    "back": "El desempeño logístico de un país en seis dimensiones: eficiencia aduanera, calidad de infraestructura, facilitación de envíos internacionales, capacidad logística, seguimiento y trazabilidad, y puntualidad de las entregas."
+  },
+  {
+    "front": "Según el informe de la CAC sobre logística argentina, ¿qué factores limitan la infraestructura ferroviaria?",
+    "back": "La discontinuidad de tramos en servicio, la diversidad de trochas, el estado deficiente de la infraestructura, la escasez de locomotoras y la falta de inversión de largo plazo por parte de los concesionarios."
+  },
+  {
+    "front": "¿Qué normativa regula el transporte internacional de mercancías peligrosas por carretera?",
+    "back": "El Acuerdo ADR (transporte internacional de productos peligrosos por carretera), que exige colocar en el vehículo un panel de seguridad con el número de riesgo, la sustancia transportada y el número ONU."
+  }
+]

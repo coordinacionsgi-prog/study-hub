@@ -1,0 +1,174 @@
+[
+  {
+    "question": "¿Qué ley estableció el marco regulatorio actual del sector eléctrico argentino?",
+    "options": ["Ley 24.065 (1991)", "Ley 19.587", "Ley 26.473", "Ley 15.336"],
+    "answerIndex": 0,
+    "explanation": "La Ley 24.065 de 1991 separó al sector en generación, transporte y distribución, y creó el ENRE como organismo de control."
+  },
+  {
+    "question": "¿Cuál de los siguientes NO es uno de los tres segmentos en que se dividió el sector eléctrico argentino tras la reforma de los '90?",
+    "options": ["Generación", "Transporte", "Distribución", "Comercialización minorista"],
+    "answerIndex": 3,
+    "explanation": "Los tres segmentos independientes definidos por la reforma son generación, transporte y distribución. Los comercializadores son un actor adicional del MEM, no uno de esos tres segmentos estructurales."
+  },
+  {
+    "question": "¿Qué organismo administra el Mercado Eléctrico Mayorista (MEM) en la Argentina?",
+    "options": ["CAMMESA", "ENRE", "ENARGAS", "ADEERA"],
+    "answerIndex": 0,
+    "explanation": "CAMMESA es la compañía administradora del MEM, encargada del despacho de generadores, transportistas, distribuidores y grandes usuarios."
+  },
+  {
+    "question": "Según la resolución de la Secretaría de Energía citada en el apunte, ¿qué recargo tarifario se aplica cuando el cos φ de una instalación es inferior a 0,75?",
+    "options": ["10%", "20%", "30%", "5%"],
+    "answerIndex": 1,
+    "explanation": "La resolución establece un recargo del 10% para cos φ entre 0,85 y 0,75, y del 20% cuando el cos φ cae por debajo de 0,75."
+  },
+  {
+    "question": "¿Qué elemento se usa habitualmente para corregir un factor de potencia bajo en una instalación industrial?",
+    "options": ["Banco de capacitores", "Transformador de aislación", "Reactor de núcleo saturable", "Variador de frecuencia"],
+    "answerIndex": 0,
+    "explanation": "Un banco de capacitores compensa la componente reactiva inductiva de la instalación, mejorando el cos φ."
+  },
+  {
+    "question": "¿Cuál es la sensibilidad máxima recomendada de un interruptor diferencial para proteger la vida humana, según la norma IEC 60479?",
+    "options": ["300 mA", "100 mA", "30 mA", "10 A"],
+    "answerIndex": 2,
+    "explanation": "La norma IEC 60479 indica que la protección de las personas se logra con diferenciales de sensibilidad menor o igual a 30 mA."
+  },
+  {
+    "question": "En un fusible de tipo \"aM\" (acompañamiento de motor), ¿para qué está diseñada su curva de disparo?",
+    "options": [
+      "Respuesta rápida a sobrecargas y lenta a cortocircuitos",
+      "Respuesta lenta a sobrecargas (para permitir el arranque) y rápida a cortocircuitos",
+      "Solo protección contra contactos indirectos",
+      "Disparo instantáneo ante cualquier corriente superior a la nominal"
+    ],
+    "answerIndex": 1,
+    "explanation": "El fusible aM tolera la corriente de arranque del motor (respuesta lenta a sobrecargas) pero actúa rápido ante cortocircuitos."
+  },
+  {
+    "question": "¿Qué tipo de conductor eléctrico tiene mayor flexibilidad?",
+    "options": ["Alambre", "Cable", "Blindobarra", "Pletina"],
+    "answerIndex": 1,
+    "explanation": "El cable está formado por varios hilos o alambres retorcidos entre sí, lo que le da mucha más flexibilidad que el alambre (un solo hilo)."
+  },
+  {
+    "question": "¿Qué representa un diagrama o esquema unifilar?",
+    "options": [
+      "Un plano de cañerías de fluidos",
+      "Un diagrama de un solo trazo que muestra cargas, protecciones y llaves de un tablero",
+      "La disposición física de los cables dentro de una bandeja",
+      "El plano de puesta a tierra únicamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "El esquema unifilar identifica con un solo trazo cualquier línea (mono o trifásica) y muestra las cargas, protecciones y llaves de maniobra de un tablero."
+  },
+  {
+    "question": "¿Qué diferencia hay entre un motor sincrónico y uno asincrónico?",
+    "options": [
+      "El sincrónico gira a la misma velocidad que el campo del estator; el asincrónico gira más lento (con deslizamiento)",
+      "El sincrónico solo funciona con corriente continua",
+      "El asincrónico no tiene rotor",
+      "No hay diferencia práctica entre ambos"
+    ],
+    "answerIndex": 0,
+    "explanation": "En el motor sincrónico el rotor está \"enganchado\" al campo giratorio del estator; en el asincrónico el rotor gira más lento, con un deslizamiento necesario para inducir corriente en él."
+  },
+  {
+    "question": "¿Cuál es el objetivo del devanado amortiguador en un motor sincrónico?",
+    "options": [
+      "Aumentar el factor de potencia del sistema",
+      "Permitir el arranque como motor de inducción y evitar el penduleo",
+      "Reducir el consumo de energía reactiva",
+      "Generar el campo de excitación de corriente continua"
+    ],
+    "answerIndex": 1,
+    "explanation": "El devanado amortiguador permite que el motor arranque como uno de inducción y evita oscilaciones (penduleo) de la velocidad del rotor respecto al campo giratorio."
+  },
+  {
+    "question": "En el arranque estrella-triángulo de un motor asincrónico trifásico, ¿qué ocurre con la tensión aplicada al bobinado durante la fase de arranque en estrella?",
+    "options": [
+      "Es √3 veces menor que la tensión nominal",
+      "Es igual a la tensión nominal",
+      "Es el doble de la tensión nominal",
+      "Es cero"
+    ],
+    "answerIndex": 0,
+    "explanation": "En estrella la tensión por bobina es √3 veces menor que en triángulo, lo que reduce proporcionalmente la corriente de arranque."
+  },
+  {
+    "question": "¿Qué unidad se usa para medir la iluminancia (cantidad de luz recibida sobre una superficie)?",
+    "options": ["Lumen", "Candela", "Lux", "Vatio"],
+    "answerIndex": 2,
+    "explanation": "La iluminancia se mide en lux (lx), definido como lumen por metro cuadrado."
+  },
+  {
+    "question": "¿Qué significa que una lámpara tenga un IRC cercano a 100?",
+    "options": [
+      "Que tiene muy baja eficacia luminosa",
+      "Que reproduce los colores de forma muy fiel respecto a la luz natural",
+      "Que su vida útil es muy corta",
+      "Que consume mucha energía reactiva"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Índice de Reproducción Cromática cercano a 100 indica que la fuente de luz reproduce los colores casi tan bien como la luz natural de referencia."
+  },
+  {
+    "question": "¿Por qué las lámparas de vapor de sodio de baja presión son muy eficaces pero de mala reproducción cromática?",
+    "options": [
+      "Porque tienen una temperatura de color muy baja únicamente",
+      "Porque emiten luz prácticamente monocromática (amarilla) cercana al pico de sensibilidad del ojo",
+      "Porque usan un filamento de tungsteno igual que las incandescentes",
+      "Porque trabajan con corriente continua"
+    ],
+    "answerIndex": 1,
+    "explanation": "Su radiación es casi monocromática (589 nm), muy próxima al máximo de sensibilidad del ojo humano, lo que da alta eficacia pero pésima reproducción de colores."
+  },
+  {
+    "question": "Según la Ley 26.473, ¿desde cuándo quedó prohibida la comercialización de lámparas incandescentes de uso residencial general en la Argentina?",
+    "options": ["Desde el 31 de mayo de 2011", "Desde 1990", "Nunca se prohibieron", "Desde 2020"],
+    "answerIndex": 0,
+    "explanation": "La ley, sancionada en 2008 y publicada en 2010, permitió comercializar el stock existente hasta el 31 de mayo de 2011."
+  },
+  {
+    "question": "¿Qué método de cálculo de iluminación divide al local en cavidad de techo, cavidad de local y cavidad de piso?",
+    "options": ["Método del punto por punto", "Método de cavidades zonales", "Método isocandela", "Método de curvas isolux"],
+    "answerIndex": 1,
+    "explanation": "El método de cavidades zonales es el utilizado en la Argentina por los laboratorios para los análisis fotométricos de luminarias."
+  },
+  {
+    "question": "Un local necesita un flujo luminoso total de 45.000 lm y se van a instalar luminarias de 1.500 lm cada una. Usando N = Φt / Φ, ¿cuántas luminarias se necesitan?",
+    "options": ["15", "30", "45", "20"],
+    "answerIndex": 1,
+    "explanation": "N = 45.000 / 1.500 = 30 luminarias."
+  },
+  {
+    "question": "¿Qué grado de protección NEMA/IP conviene para un tablero instalado a la intemperie, expuesto a lluvia y polvo?",
+    "options": ["NEMA 1 (IP-20)", "NEMA 3 (IP-54)", "NEMA 12 (IP-52), sin excepciones", "No requiere protección especial"],
+    "answerIndex": 1,
+    "explanation": "NEMA 3 está pensado para uso exterior, con protección contra polvo soplado por viento, lluvia y resistencia a la corrosión (equivalente a IP-54)."
+  },
+  {
+    "question": "¿Qué categoría de matriculado puede firmar una instalación eléctrica trifásica de hasta 160 kW en la Argentina?",
+    "options": ["Categoría 3ª", "Categoría 2ª", "Categoría 1ª exclusivamente", "Cualquier electricista sin matrícula"],
+    "answerIndex": 1,
+    "explanation": "La categoría 2ª (técnicos y maestros mayores de obra) está habilitada para suministros trifásicos de hasta 160 kW."
+  },
+  {
+    "question": "¿Qué diferencia hay entre GUMA y GUME dentro del Mercado Eléctrico Mayorista?",
+    "options": [
+      "El GUMA contrata al menos el 50% de su demanda e instala un SMEC; el GUME contrata el 100% con un solo generador",
+      "No hay ninguna diferencia entre ambos",
+      "El GUME es exclusivamente para uso residencial",
+      "El GUMA no paga peaje a la distribuidora"
+    ],
+    "answerIndex": 0,
+    "explanation": "El GUMA (Gran Usuario Mayor) contrata como mínimo el 50% de su demanda prevista e instala un sistema de medición comercial (SMEC); el GUME (Gran Usuario Menor) contrata el 100% de su demanda con un generador."
+  },
+  {
+    "question": "¿Qué material se usa como aislación en cables de tipo XLPE?",
+    "options": ["Policloruro de vinilo (PVC)", "Polietileno reticulado", "Neopreno", "Papel impregnado"],
+    "answerIndex": 1,
+    "explanation": "XLPE significa polietileno reticulado (cross-linked polyethylene), uno de los materiales aislantes más usados junto al PVC y el EPR."
+  }
+]

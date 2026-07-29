@@ -1,0 +1,122 @@
+[
+  {
+    "front": "¿Qué diferencia hay entre pérdidas de carga primarias y secundarias?",
+    "back": "Las primarias son las pérdidas por rozamiento del fluido con la pared de la tubería en tramos rectos de sección constante. Las secundarias son pérdidas de forma que se producen en accesorios: codos, válvulas, ensanchamientos, contracciones y tes."
+  },
+  {
+    "front": "¿Qué establece la ecuación de Darcy-Weisbach?",
+    "back": "Que la pérdida de carga primaria (hf) es directamente proporcional al cuadrado de la velocidad media y a la longitud de la tubería, e inversamente proporcional al diámetro. Requiere conocer el factor de fricción f."
+  },
+  {
+    "front": "¿Para qué sirve el diagrama de Moody?",
+    "back": "Para determinar gráficamente el factor de fricción f de la ecuación de Darcy, en función del número de Reynolds y de la rugosidad relativa (k/D) de la tubería, evitando resolver la ecuación de Colebrook-White por iteración."
+  },
+  {
+    "front": "¿Qué es el diámetro económico de una tubería (diagrama de Camerer)?",
+    "back": "Es el diámetro que minimiza la suma de dos costos anualizados: el costo de instalación (crece aproximadamente con el cuadrado del diámetro) y el costo de energía por rozamiento (crece con la inversa del diámetro a la quinta potencia)."
+  },
+  {
+    "front": "¿Cuál es la diferencia técnica entre un caño (pipe) y un tubo (tube)?",
+    "back": "El caño está destinado a conducir fluidos; su diámetro nominal no coincide con ninguna medida física real hasta 12\". El tubo se usa para fines estructurales o intercambio de calor; su diámetro nominal coincide con el diámetro exterior real."
+  },
+  {
+    "front": "¿Qué significan las siglas NPS y DN de una cañería?",
+    "back": "NPS (Nominal Pipe Size) es el tamaño nominal expresado en pulgadas; DN (Nominal Diameter) es el mismo tamaño nominal expresado en milímetros. Ninguno de los dos coincide con una medida física real para diámetros de hasta 12\"."
+  },
+  {
+    "front": "¿Qué es el Número de Schedule de una cañería?",
+    "back": "Es la designación del espesor de pared, calculado aproximadamente como Schedule ≈ 1000 x (Presión admisible de trabajo / Esfuerzo admisible del material). A mayor Schedule, mayor espesor y mayor presión soportada para un mismo diámetro exterior."
+  },
+  {
+    "front": "¿Por qué en la industria petrolera (norma API) suele exigirse caño sin costura?",
+    "back": "Porque la costura (soldadura longitudinal de fabricación) es un punto de concentración de tensiones y mayor riesgo de falla. El caño sin costura es más caro pero más seguro para fluidos peligrosos o de alta exigencia."
+  },
+  {
+    "front": "¿Por qué la mayoría de las cañerías usan roscas cónicas (NPT/BSPT) y no cilíndricas?",
+    "back": "Porque las roscas cónicas sellan por interferencia de flancos (metal contra metal) al deformarse elastoplásticamente. Las cilíndricas necesitan un sellado frontal adicional con una arandela de metal dúctil, y el espesor de pared de una cañería no suele alcanzar para eso."
+  },
+  {
+    "front": "Nombrá al menos cuatro tipos de bridas según su forma de unión al caño.",
+    "back": "Welding neck (cuello para soldar a tope), slip-on (deslizable), lap-joint (de traslape, con stub end), threaded (roscada), socket weld (de enchufe para soldar) y blind (ciega, para tapar un extremo)."
+  },
+  {
+    "front": "¿Cuál es el tipo de cara de brida más común y qué función cumple el 'rayado fonográfico'?",
+    "back": "La cara con resalte (RF, raised face) es la más común. Los surcos concéntricos o en espiral del resalte ('rayado fonográfico') permiten que la junta se clave o machimbre en la cara, dificultando las fugas."
+  },
+  {
+    "front": "¿Cómo se clasifican las válvulas según su función de control de flujo?",
+    "back": "Interceptoras (ON/OFF, sin regulación), reguladoras de caudal (regulan de forma continua), reguladoras de presión, uni-direccionales o anti-retorno, y orientadoras de flujo (de 3 o más vías)."
+  },
+  {
+    "front": "¿Qué es el coeficiente de caudal (Cv o Kv) de una válvula?",
+    "back": "Es un factor de diseño que relaciona el caudal que circula con la caída de presión que produce la válvula. A mayor coeficiente de caudal, menor pérdida de carga para un mismo caudal; cada válvula y grado de apertura tiene su propio valor."
+  },
+  {
+    "front": "¿Por qué la válvula esférica (de bola) no es apta para regular caudal?",
+    "back": "Porque al usarla en posiciones intermedias se resiente el asiento y aparecen fugas rápidamente. Por eso se clasifica como válvula ON/OFF de un cuarto de vuelta, ideal para apertura y cierre rápido y frecuente."
+  },
+  {
+    "front": "¿Qué caracteriza a la válvula de compuerta?",
+    "back": "Está pensada para operar totalmente abierta o totalmente cerrada (no para regular), con pérdida de carga mínima cuando está abierta y sin un sentido de flujo determinado."
+  },
+  {
+    "front": "¿Qué caracteriza a la válvula globo y por qué introduce más pérdida de carga que la de compuerta?",
+    "back": "Su asiento es paralelo a la dirección del fluido, lo que genera turbulencia y mayor caída de presión. A cambio, permite buena regulación de caudal, cierre hermético y tiene un sentido de flujo determinado marcado en el cuerpo."
+  },
+  {
+    "front": "¿Cuál es la función de una válvula de retención (check)?",
+    "back": "Evitar el retorno de fluido en la línea, permitiendo la circulación en un solo sentido mediante un disco que pivotea (swing check), se desplaza como un pistón (lift check) o pivotea en un punto excéntrico (tilting disc)."
+  },
+  {
+    "front": "¿Cuándo conviene usar una válvula de diafragma?",
+    "back": "Para abrir, cerrar o regular flujo de gases y líquidos corrosivos o con sólidos en suspensión, en líneas de baja presión, ya que el elemento de control es una membrana elástica sin partes metálicas en contacto directo con el fluido."
+  },
+  {
+    "front": "¿Qué diferencia hay entre una válvula de alivio y una de seguridad?",
+    "back": "La de alivio se abre de forma proporcional al incremento de presión y se usa principalmente en servicio con líquidos. La de seguridad tiene apertura rápida (acción de disparo) y se usa principalmente en vapores y gases."
+  },
+  {
+    "front": "¿Cuáles son los dos grandes grupos de bombas según su principio de funcionamiento?",
+    "back": "Bombas de desplazamiento positivo (alternativas como las de pistón/diafragma, y rotoestáticas como engranajes/tornillo/paletas), que desplazan el fluido variando mecánicamente el volumen de una cámara; y bombas rotodinámicas (centrífugas, axiales), que aumentan la presión al variar la velocidad del fluido."
+  },
+  {
+    "front": "¿Por qué las bombas de pistón no son recomendables para bombear agua?",
+    "back": "Porque necesitan un fluido con capacidad de lubricación (características oleosas); se usan típicamente con hidrocarburos y derivados del petróleo, salvo aplicaciones especiales de altísima presión con materiales cerámicos (hidrolavadoras, corte por chorro de agua)."
+  },
+  {
+    "front": "¿Por qué se usan bombas peristálticas para fluidos limpios, estériles o agresivos?",
+    "back": "Porque el único contacto del fluido es con el interior del tubo flexible: no hay válvulas, sellos ni partes móviles en contacto con el líquido, lo que evita contaminación cruzada y facilita la esterilización."
+  },
+  {
+    "front": "¿Cómo genera presión una bomba centrífuga a nivel físico?",
+    "back": "El fluido recorre canales divergentes entre los álabes del rodete y luego en la voluta. Al ser toberas divergentes, la velocidad disminuye a medida que el fluido avanza, y por Bernoulli la presión aumenta."
+  },
+  {
+    "front": "¿Qué es el ANPA (o NPSH) requerido y qué es el ANPA disponible?",
+    "back": "El ANPA requerido es un valor fijo que informa el fabricante según el diseño interno de la bomba. El ANPA disponible depende de la instalación (altura de la bomba, pérdidas, presión atmosférica). Para evitar cavitación debe cumplirse ANPA disponible > 1,1 x ANPA requerido."
+  },
+  {
+    "front": "¿Qué es la cavitación en una bomba y cómo se manifiesta?",
+    "back": "Es la formación y colapso violento de burbujas de vapor cuando la presión local cae por debajo de la presión de vapor del líquido. Erosiona los álabes del rotor (pitting), reduce el rendimiento y se percibe como un ruido sordo característico."
+  },
+  {
+    "front": "¿Qué es la altura manométrica (Hm) de una bomba?",
+    "back": "Es la energía total que la bomba le entrega al fluido; equivale a la diferencia de presión entre la salida y la entrada de la bomba, y siempre es mayor que la altura geométrica de la instalación."
+  },
+  {
+    "front": "¿Cómo se determina el punto de funcionamiento de una bomba centrífuga?",
+    "back": "Es la intersección, en un gráfico H-Q, entre la curva característica de la bomba (dada por el fabricante) y la curva de la instalación (altura geométrica más pérdidas de carga totales en función del caudal)."
+  },
+  {
+    "front": "¿Cuáles son los tres niveles de documentación técnica en un proyecto de piping?",
+    "back": "1) Esquemas o diagramas (P&ID): la lógica del sistema, sin escala ni dimensiones reales ('qué hace' el sistema). 2) Planificados (isométricos, plantas y elevaciones): a escala, con especificaciones técnicas, para compras y construcción ('cómo se hace'). 3) Croquis (planos constructivos): máximo detalle de cada tramo de cañería."
+  },
+  {
+    "front": "En la simbología de válvulas de un P&ID, ¿qué diferencia hay entre NC/NO, SC/SA y FC/FO?",
+    "back": "NC/NO indican el estado normal de operación (normalmente cerrada / normalmente abierta). SC/SA indican que la válvula está cerrada o abierta con sello, operada bajo un procedimiento especial. FC/FO indican la posición de seguridad ante una falla del aire de comando (cierra o abre a falla de aire)."
+  },
+  {
+    "front": "¿Qué diferencia hay entre soldadura SMAW, GMAW (MIG/MAG), GTAW (TIG) y SAW?",
+    "back": "SMAW usa electrodo revestido y es manual, versátil y de bajo costo. GMAW usa alambre continuo con gas de protección y es más productiva. GTAW usa electrodo de tungsteno no consumible, logra la mejor calidad pero es lenta (ideal para pasadas de raíz). SAW es totalmente automática, con el arco bajo un fundente granulado, y logra la mayor tasa de depósito."
+  }
+]

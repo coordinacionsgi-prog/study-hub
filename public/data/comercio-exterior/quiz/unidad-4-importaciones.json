@@ -1,0 +1,244 @@
+[
+  {
+    "question": "Según el INDEC, ¿cuál de las siguientes NO es una categoría de clasificación de las importaciones por uso económico?",
+    "options": [
+      "Bienes de capital",
+      "Bienes intermedios",
+      "Servicios profesionales",
+      "Vehículos automotores de pasajeros"
+    ],
+    "answerIndex": 2,
+    "explanation": "El INDEC clasifica las importaciones en bienes de capital, bienes intermedios, combustibles, piezas y accesorios, bienes de consumo, vehículos automotores de pasajeros y resto; los servicios profesionales no forman parte de esta clasificación de mercaderías."
+  },
+  {
+    "question": "¿En qué plazo debe el importador dar destino a la mercadería desde el arribo del medio de transporte?",
+    "options": [
+      "5 días",
+      "10 días",
+      "15 días",
+      "30 días"
+    ],
+    "answerIndex": 2,
+    "explanation": "El artículo 217 de la Ley 22.415 fija un plazo de 15 días desde el arribo del medio transportador para solicitar destinación aduanera."
+  },
+  {
+    "question": "¿Qué sanción corresponde si el importador no destina la mercadería dentro del plazo legal?",
+    "options": [
+      "Decomiso automático de la mercadería",
+      "Multa del 1% del valor en aduana de la mercadería",
+      "Suspensión del registro de importadores por un año",
+      "No existe sanción, solo un apercibimiento"
+    ],
+    "answerIndex": 1,
+    "explanation": "El artículo 218 de la Ley 22.415 establece una multa automática equivalente al 1% del valor en aduana de la mercadería por no cumplir el plazo de destinación."
+  },
+  {
+    "question": "¿Dentro de qué plazo puede presentarse la declaración de 'ignorando contenido'?",
+    "options": [
+      "Los primeros 10 días de arribado el medio de transporte",
+      "Los primeros 30 días de arribado el medio de transporte",
+      "Solo antes del arribo del medio de transporte",
+      "En cualquier momento antes del libramiento"
+    ],
+    "answerIndex": 0,
+    "explanation": "El artículo 221 de la Ley 22.415 permite presentar la declaración de 'ignorando contenido' dentro de los primeros 10 días de arribado el medio de transporte."
+  },
+  {
+    "question": "¿Cuál es la diferencia tributaria fundamental entre destinaciones definitivas y suspensivas?",
+    "options": [
+      "Las suspensivas siempre pagan más tributos que las definitivas",
+      "Las definitivas generan hecho imponible y corresponde pagar tributos; las suspensivas no generan hecho imponible pero deben garantizarlos",
+      "Solo las definitivas permiten circulación libre y las suspensivas están prohibidas",
+      "No existe diferencia tributaria entre ambas"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las destinaciones definitivas generan hecho imponible (se pagan tributos), mientras que las suspensivas no generan hecho imponible pero exigen garantizar los tributos dispensados hasta que se resuelva su situación."
+  },
+  {
+    "question": "¿Qué tipos de destinaciones se agrupan dentro de las 'suspensivas'?",
+    "options": [
+      "Para consumo y directo a plaza",
+      "Depósito de almacenamiento, tránsito, importación temporaria y admisión temporal",
+      "Exportación definitiva y exportación temporaria",
+      "Reimportación y reexportación"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las destinaciones suspensivas incluyen depósito de almacenamiento, tránsito de importación, importación temporaria y admisión temporal; para consumo y directo a plaza son destinaciones definitivas."
+  },
+  {
+    "question": "¿Dentro de qué plazo debe presentarse la solicitud de destinación bajo el procedimiento de Despacho a Plaza (DAP)?",
+    "options": [
+      "Entre 5 y 2 días antes del arribo del medio de transporte",
+      "Hasta 15 días después del arribo",
+      "Solo el mismo día del arribo",
+      "Entre 30 y 15 días antes del arribo"
+    ],
+    "answerIndex": 0,
+    "explanation": "Según los artículos 278 y 279 de la Ley 22.415, la solicitud de DAP debe presentarse entre 5 y 2 días antes del arribo del medio de transporte."
+  },
+  {
+    "question": "¿Cuál es el plazo de la destinación suspensiva de depósito de almacenamiento para la vía terrestre o aérea?",
+    "options": [
+      "3 meses",
+      "6 meses",
+      "1 mes",
+      "1 año"
+    ],
+    "answerIndex": 2,
+    "explanation": "El Decreto 1508/2007 establece 1 mes para la vía terrestre o aérea y 3 meses para la vía marítima o fluvial."
+  },
+  {
+    "question": "¿Qué caracteriza a la destinación suspensiva de importación temporaria?",
+    "options": [
+      "La mercadería queda nacionalizada de forma permanente",
+      "La mercadería debe reexportarse antes del vencimiento de un plazo determinado, en el mismo estado o luego de un perfeccionamiento",
+      "Solo aplica a bienes de consumo masivo",
+      "Siempre exige el pago íntegro de los tributos de importación"
+    ],
+    "answerIndex": 1,
+    "explanation": "En la importación temporaria la mercadería permanece con una finalidad y plazo determinados, con obligación de reexportarla, ya sea en el mismo estado o transformada."
+  },
+  {
+    "question": "¿Sobre qué base se determina el valor en aduana de una importación en Argentina?",
+    "options": [
+      "Sobre el valor FOB exclusivamente",
+      "Sobre la base costo, seguro y flete (CIF)",
+      "Sobre el precio de venta al público en el mercado local",
+      "Sobre el valor declarado por el importador sin ajustes"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Servicio Aduanero argentino determina el valor en aduana sobre la base CIF (costo, seguro y flete), cualquiera fuera la forma en que se pactó la operación."
+  },
+  {
+    "question": "¿Cuál es el orden jerárquico correcto de los métodos de valoración aduanera?",
+    "options": [
+      "Valor reconstruido, valor deductivo, transacción, idénticas, similares",
+      "Valor de transacción, mercancías idénticas, mercancías similares, valor deductivo, valor reconstruido",
+      "Mercancías similares, mercancías idénticas, transacción, deductivo, reconstruido",
+      "El orden es indistinto, la aduana elige libremente"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Acuerdo de Valoración de la OMC establece un orden jerárquico estricto: transacción, idénticas, similares, deductivo y reconstruido; la aduana no puede elegir discrecionalmente."
+  },
+  {
+    "question": "Si no se contrató un seguro de transporte internacional, ¿cómo se calcula el 'seguro mínimo de referencia' para declarar el valor en aduana?",
+    "options": [
+      "Aplicando una alícuota efectiva (AES) del 1,01% sobre el valor CFR",
+      "Tomando siempre un monto fijo de USD 500",
+      "No es necesario declarar ningún seguro en ese caso",
+      "Aplicando el 10% sobre el valor FOB"
+    ],
+    "answerIndex": 0,
+    "explanation": "La legislación exige usar un seguro mínimo de referencia calculado como AES = 1,01% del CFR, de modo que CIF = CFR × 1,01."
+  },
+  {
+    "question": "¿Qué es el Arancel Externo Común (AEC)?",
+    "options": [
+      "Un impuesto interno argentino sobre bienes de lujo",
+      "El derecho ad-valorem negociado en el marco del MERCOSUR para mercancías de origen extra-MERCOSUR",
+      "La tasa que se cobra únicamente en el transporte aéreo",
+      "Un beneficio impositivo exclusivo para bienes de capital"
+    ],
+    "answerIndex": 1,
+    "explanation": "El AEC es el arancel ad-valorem común acordado entre los países del MERCOSUR para gravar de forma uniforme las mercancías provenientes de fuera del bloque."
+  },
+  {
+    "question": "¿Cuál es el tope máximo que puede alcanzar un derecho de importación ad-valorem según lo negociado en la OMC?",
+    "options": [
+      "15%",
+      "21%",
+      "35%",
+      "50%"
+    ],
+    "answerIndex": 2,
+    "explanation": "El derecho ad-valorem no puede superar el 35% del valor en aduana, tope máximo negociado por Argentina en el marco de la OMC."
+  },
+  {
+    "question": "¿Cuál era la alícuota de la Tasa de Estadística fijada por el Decreto 99/2019 para destinaciones definitivas de importación para consumo?",
+    "options": [
+      "0,5%",
+      "1%",
+      "3%",
+      "6%"
+    ],
+    "answerIndex": 2,
+    "explanation": "El Decreto 99/2019, reglamentario de la Ley 27.541, fijó la Tasa de Estadística en 3% para las destinaciones definitivas de importación para consumo, con ciertas excepciones."
+  },
+  {
+    "question": "¿Cuál es la alícuota general del IVA aplicable a una importación definitiva para consumo de mercaderías no promocionadas?",
+    "options": [
+      "10,5%",
+      "21%",
+      "27%",
+      "35%"
+    ],
+    "answerIndex": 1,
+    "explanation": "La alícuota general del IVA para importaciones definitivas a consumo es del 21%, con una alícuota reducida del 10,5% para mercaderías promocionadas."
+  },
+  {
+    "question": "Según el Rubro 3, ¿cómo se calcula la Base Imponible de Impuestos Internos (BII)?",
+    "options": [
+      "BII = BI × TN",
+      "BII = BI × 1,3 × (1 + TE/100), con TE = 100×TN/(100-TN)",
+      "BII = CIF × 21%",
+      "BII = FOB + Flete + Seguro únicamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "La fórmula establecida en el módulo es BII = BI × 1,3 × (1 + TE/100), donde la tasa efectiva TE se obtiene de TE = 100 × TN / (100 - TN)."
+  },
+  {
+    "question": "¿Cuál es la fórmula correcta para calcular la inmovilización financiera (IF) de un capital inmovilizado durante la operación de importación?",
+    "options": [
+      "IF = C / (1 + i)^n",
+      "IF = C × [(1 + i)^n − 1]",
+      "IF = C × i × n",
+      "IF = C + i − n"
+    ],
+    "answerIndex": 1,
+    "explanation": "La incidencia financiera por inmovilización de capital (costo financiero impuro) se calcula como IF = C × [(1 + i)^n − 1], usando el capital, la tasa de referencia y el plazo."
+  },
+  {
+    "question": "Un importador compra mercadería con FOB de USD 10.000, flete internacional de USD 1.000 y seguro del 1% sobre el valor CFR. ¿Cuál es el valor CIF resultante?",
+    "options": [
+      "USD 11.000",
+      "USD 11.100",
+      "USD 11.110",
+      "USD 12.100"
+    ],
+    "answerIndex": 2,
+    "explanation": "CFR = FOB + Flete = USD 11.000. Seguro = 1% × 11.000 = USD 110. CIF = CFR + Seguro = USD 11.110."
+  },
+  {
+    "question": "Tomando el ejemplo anterior (CIF USD 11.110) y aplicando un derecho de importación del 35% sobre el CIF y una tasa de estadística del 0,5% sobre el CIF, ¿cuál es la Base Imponible del IVA?",
+    "options": [
+      "USD 11.110",
+      "USD 14.998,50",
+      "USD 15.054,05",
+      "USD 18.215,40"
+    ],
+    "answerIndex": 2,
+    "explanation": "Derechos = 35% × 11.110 = USD 3.888,50. Tasa de estadística = 0,5% × 11.110 = USD 55,55. Base Imponible = CIF + Derechos + Tasa = 11.110 + 3.888,50 + 55,55 = USD 15.054,05."
+  },
+  {
+    "question": "¿Cuál es la diferencia principal entre 'presupuesto de importación' y 'costo de importación'?",
+    "options": [
+      "Son sinónimos, se usan indistintamente",
+      "El presupuesto se elabora antes de importar para estimar erogaciones; el costo se elabora después, con datos ciertos",
+      "El costo solo incluye el valor FOB",
+      "El presupuesto nunca incluye tributos aduaneros"
+    ],
+    "answerIndex": 1,
+    "explanation": "El presupuesto de importación es una herramienta de estimación previa a la decisión de importar, mientras que el costo de importación se calcula posteriormente con datos reales de la operación."
+  },
+  {
+    "question": "¿Por qué el IVA pagado en una importación generalmente no se considera parte del 'costo' de importación?",
+    "options": [
+      "Porque el IVA nunca se paga en las importaciones",
+      "Porque es un crédito fiscal recuperable/trasladable en la cadena de comercialización",
+      "Porque el IVA solo se aplica a exportaciones",
+      "Porque el IVA se descuenta directamente del valor FOB"
+    ],
+    "answerIndex": 1,
+    "explanation": "El IVA pagado en la importación constituye un crédito fiscal que el responsable inscripto puede recuperar o trasladar en la venta posterior, por lo que no es una erogación definitiva imputable al costo."
+  }
+]

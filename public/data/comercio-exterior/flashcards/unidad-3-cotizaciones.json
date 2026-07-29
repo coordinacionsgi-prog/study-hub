@@ -1,0 +1,142 @@
+[
+  {
+    "front": "¿Qué significa la sigla INCOTERMS?",
+    "back": "International Commerce Terms: términos del comercio internacional. Son siglas de tres letras creadas por la Cámara de Comercio Internacional (CCI) que reflejan los derechos y obligaciones del vendedor y el comprador en una operación de compraventa internacional."
+  },
+  {
+    "front": "¿Quién creó los INCOTERMS y en qué año?",
+    "back": "La Cámara de Comercio Internacional (CCI), con sede en París, los creó en 1936, tomando como antecedentes el término FOB usado en las Cortes Británicas y las RAFTD (Revised American Foreign Trade Definitions) de Estados Unidos."
+  },
+  {
+    "front": "¿Qué son las RAFTD?",
+    "back": "Revised American Foreign Trade Definitions: definiciones americanas de comercio exterior creadas por la Cámara de Comercio de Estados Unidos en 1919. Son el principal antecedente de los INCOTERMS actuales, aunque no están vigentes desde 1985."
+  },
+  {
+    "front": "¿Los INCOTERMS constituyen un contrato de compraventa?",
+    "back": "No. Los INCOTERMS no son en sí mismos un contrato, pero son una cláusula fundamental del contrato de compraventa que puede tener implicancias legales en caso de controversia."
+  },
+  {
+    "front": "¿Qué tres aspectos regulan las reglas INCOTERMS?",
+    "back": "Regulan las tareas a cumplir (obligaciones), los gastos a erogar (costos) y los riesgos a cubrir (transferencia del riesgo) entre vendedor y comprador."
+  },
+  {
+    "front": "¿Cómo están organizados los artículos dentro de cada INCOTERM?",
+    "back": "En diez artículos numerados A1/B1 a A10/B10. Los artículos A representan las obligaciones del vendedor y los artículos B las obligaciones del comprador."
+  },
+  {
+    "front": "¿Cuáles son los cuatro grupos en que se organizan los INCOTERMS 2020?",
+    "back": "Grupo E (EXW), Grupo F (FAS, FCA, FOB), Grupo C (CFR, CIF, CPT, CIP) y Grupo D (DAP, DPU, DDP)."
+  },
+  {
+    "front": "¿Qué caracteriza al Grupo F de los INCOTERMS?",
+    "back": "El vendedor entrega la mercadería al porteador internacional seleccionado por el comprador en el país de origen. Incluye FAS, FCA y FOB."
+  },
+  {
+    "front": "¿Qué caracteriza al Grupo C de los INCOTERMS?",
+    "back": "El vendedor contrata el transporte internacional por orden, cuenta y riesgo del comprador, pero transfiere el riesgo al entregar la mercadería al porteador en origen (no asume riesgos posteriores a la carga). Incluye CFR, CIF, CPT y CIP."
+  },
+  {
+    "front": "¿Qué caracteriza al Grupo D de los INCOTERMS?",
+    "back": "El vendedor asume los gastos y riesgos del transporte internacional hasta un punto de entrega convenido en destino. Incluye DAP, DPU y DDP."
+  },
+  {
+    "front": "¿Qué INCOTERMS se usan exclusivamente para transporte marítimo y vías navegables interiores?",
+    "back": "FAS, FOB, CFR y CIF. El resto de los INCOTERMS (EXW, FCA, CPT, CIP, DAP, DPU, DDP) puede usarse con cualquier medio de transporte."
+  },
+  {
+    "front": "Explicá el término EXW (Ex-Works).",
+    "back": "El vendedor pone la mercadería a disposición en su local/depósito. El precio no incluye flete, seguro ni trámite de exportación. El comprador asume todo: retiro, transporte internacional, trámite de exportación e importación."
+  },
+  {
+    "front": "¿Por qué EXW no es recomendable para compradores inexpertos?",
+    "back": "Porque el comprador asume la totalidad de las responsabilidades de la operación de inicio a fin (transporte, seguros, trámites de exportación e importación), lo cual exige gran experiencia operativa."
+  },
+  {
+    "front": "Explicá el término FAS (Free Alongside Ship).",
+    "back": "El precio incluye flete y seguro en origen hasta dejar la mercadería al costado del buque, además del trámite de exportación. No incluye la carga al buque. Se usa típicamente para mercadería a granel (carbón, granos) o de estiba especial (turbinas, generadores)."
+  },
+  {
+    "front": "Explicá el término FOB (Free on Board).",
+    "back": "El vendedor entrega la mercadería estibada a bordo del buque contratado por el comprador, incluyendo el costo de carga y el trámite de exportación. El comprador contrata el flete y, si quiere, el seguro internacional, y hace el trámite de importación."
+  },
+  {
+    "front": "¿En qué momento se transfiere el riesgo en FOB?",
+    "back": "El riesgo se transfiere cuando la mercadería se encuentra correctamente estibada a bordo del buque internacional contratado por el comprador."
+  },
+  {
+    "front": "Explicá el término CFR (Cost and Freight).",
+    "back": "El precio incluye el flete marítimo internacional hasta un punto convenido en destino y las maniobras de carga, pero no el seguro ni la descarga en destino. El riesgo se transmite al entregar la mercadería al primer transportista en origen."
+  },
+  {
+    "front": "Explicá el término CIF (Cost, Insurance and Freight).",
+    "back": "Igual que CFR pero el vendedor además contrata el seguro internacional. El exportador debe contratar una póliza ICC (C) que cubra el 110% del valor CIF. El riesgo pasa al comprador cuando la mercadería está cargada en el buque."
+  },
+  {
+    "front": "¿Qué cobertura otorga la cláusula ICC (C) usada en CIF?",
+    "back": "Cubre incendios, explosiones, colisiones, abordajes, vuelcos, descarrilamientos, sacrificio en avería gruesa y sus contribuciones, arrastre por las olas y gastos de salvamento."
+  },
+  {
+    "front": "Explicá el término FCA (Free Carrier).",
+    "back": "El vendedor entrega la mercadería en el local del transportista contratado por el comprador o en el lugar convenido, incluyendo maniobras y trámite de exportación. El comprador contrata el flete, el seguro (si quiere) y el trámite de importación."
+  },
+  {
+    "front": "¿Qué novedad incorporó FCA en la revisión INCOTERMS 2020 respecto de la carta de crédito?",
+    "back": "El comprador puede instruir al transportista para que entregue al vendedor un documento de embarque 'a bordo', de modo que el vendedor pueda certificar la entrega ante el banco y cobrar la carta de crédito."
+  },
+  {
+    "front": "Explicá el término CPT (Carrier Paid To).",
+    "back": "El precio incluye el flete internacional hasta un punto convenido en destino y las maniobras de carga y despacho de exportación, pero no el seguro ni la descarga en destino. El riesgo se transmite al entregar la mercadería al primer transportista."
+  },
+  {
+    "front": "Explicá el término CIP (Carrier and Insurance Paid To).",
+    "back": "Igual que CPT pero el vendedor también contrata el seguro internacional, con póliza ICC (A) que cubre el 110% del valor CIP. El riesgo se transmite al entregar la mercadería al primer transportista."
+  },
+  {
+    "front": "¿Qué diferencia a la cláusula ICC (A) de la ICC (C)?",
+    "back": "La ICC (A), usada en CIP, cubre todo riesgo de pérdida o daño salvo exclusiones expresas (dolo, desgaste normal, embalaje inadecuado, guerra, huelgas, etc.), mientras que la ICC (C), usada en CIF, cubre solo riesgos específicos listados."
+  },
+  {
+    "front": "Explicá el término DAP (Delivered At Place).",
+    "back": "El precio incluye el flete internacional; el vendedor asume los riesgos hasta un punto convenido en destino, incluyendo carga y despacho de exportación, pero no la descarga en destino. El comprador hace el trámite de importación."
+  },
+  {
+    "front": "Explicá el término DPU (Delivered Place Unloaded).",
+    "back": "Es el único INCOTERM en que el vendedor asume también la descarga en destino, en el punto convenido, además del flete, la carga y el despacho de exportación. El comprador realiza el trámite de importación."
+  },
+  {
+    "front": "Explicá el término DDP (Delivered Duty Paid).",
+    "back": "El vendedor asume el flete internacional y todos los riesgos y trámites, incluido el despacho de importación, hasta entregar la mercadería sin descargar en destino. Para el importador es como una compraventa local."
+  },
+  {
+    "front": "¿Qué INCOTERM implica la máxima obligación para el vendedor?",
+    "back": "DDP (Delivered Duty Paid), ya que el vendedor se hace cargo de todos los costos y riesgos, incluido el despacho de importación en destino."
+  },
+  {
+    "front": "¿Qué INCOTERM implica la mínima obligación para el vendedor?",
+    "back": "EXW (Ex-Works), ya que el vendedor solo pone la mercadería a disposición en su propio local."
+  },
+  {
+    "front": "¿Cuál es la estructura recomendada para redactar una cotización internacional con INCOTERMS?",
+    "back": "Moneda, Monto, Término, Lugar, INCOTERMS® (con su revisión/año) y Comentario. Por ejemplo: USD 2.750.000 FOB Puerto de Buenos Aires INCOTERMS 2020, incluye costo del certificado de origen."
+  },
+  {
+    "front": "¿Por qué es importante indicar la revisión (año) del INCOTERM en una cotización?",
+    "back": "Porque distintas revisiones de los INCOTERMS conviven vigentes al mismo tiempo y las obligaciones pueden variar entre versiones, por lo que omitir el año genera ambigüedad e inseguridad jurídica."
+  },
+  {
+    "front": "¿En qué año se publicaron por primera vez los INCOTERMS y cuántos términos incluía esa primera versión?",
+    "back": "En 1936 la CCI publicó 6 INCOTERMS, siendo la primera vez que se volcaron en reglas los usos y costumbres del comercio internacional."
+  },
+  {
+    "front": "¿Qué cambio importante trajo la revisión INCOTERMS 2010?",
+    "back": "Se eliminaron las cláusulas DAF, DES, DEQ y DDU, y se incorporaron DAT y DAP. Además se obligó a comprador y vendedor a cooperar en el intercambio de información como medida de seguridad."
+  },
+  {
+    "front": "¿Qué cambio trajo la revisión INCOTERMS 2020?",
+    "back": "El DAT se sustituyó por el DPU y se establecieron nuevas condiciones para FCA, CIP y CIF (por ejemplo, el nivel de cobertura de seguro exigido en CIP)."
+  },
+  {
+    "front": "¿Cada cuánto se actualizan las revisiones de los INCOTERMS desde 1980?",
+    "back": "Desde 1980 las revisiones se realizan cada 10 años para no quedar desactualizadas frente a los cambios en el transporte, la tecnología y las necesidades comerciales."
+  }
+]

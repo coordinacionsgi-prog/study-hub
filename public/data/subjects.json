@@ -8,5 +8,15 @@
     "id": "manejo-materiales",
     "title": "Manejo de Materiales y Distribución en Planta",
     "description": "Transportadores, manejo manual de cargas, izaje, distribución en planta, almacenaje y localización de plantas."
+  },
+  {
+    "id": "instalaciones-industriales",
+    "title": "Instalaciones Industriales",
+    "description": "Conducción de fluidos (bombas, válvulas, soldadura), instalaciones eléctricas y luminotecnia, vapor e intercambiadores de calor."
+  },
+  {
+    "id": "comercio-exterior",
+    "title": "Comercio Exterior",
+    "description": "Introducción al comercio exterior, logística internacional, cotizaciones e importaciones."
   }
 ]

@@ -1,0 +1,79 @@
+[
+  {
+    "question": "¿Qué proyecto deben desarrollar los alumnos como Trabajo Práctico Integrador (TPI)?",
+    "options": [
+      "Un plan de importación de bienes de consumo masivo",
+      "Un proyecto de exportación de un producto industrializado hacia mercados no tradicionales, con un insumo importado",
+      "Un análisis de la balanza de pagos argentina de los últimos 10 años",
+      "Una comparación entre distintos Incoterms sin caso aplicado"
+    ],
+    "answerIndex": 1,
+    "explanation": "El TPI consiste en simular una PYME argentina que exporta un producto de alto valor agregado a mercados no tradicionales, incorporando obligatoriamente un insumo importado para aplicar el 'costeo combinado'."
+  },
+  {
+    "question": "¿Cuál es la norma que constituye la base regulatoria del comercio exterior argentino y desde qué año está vigente?",
+    "options": [
+      "Ley 27.541, desde 2019",
+      "Ley 22.415 (Código Aduanero), desde 1982",
+      "Decreto 99/2019, desde 2019",
+      "Ley 23.311, desde 1986"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Código Aduanero, Ley 22.415, es la base regulatoria vigente en Argentina desde 1982 según lo señalado en la clase introductoria."
+  },
+  {
+    "question": "¿A qué autor se asocia la teoría de la ventaja comparativa mencionada en la clase?",
+    "options": [
+      "Adam Smith",
+      "David Ricardo",
+      "John Maynard Keynes",
+      "Milton Friedman"
+    ],
+    "answerIndex": 1,
+    "explanation": "David Ricardo desarrolló la teoría de la ventaja comparativa, mientras que Adam Smith es asociado a la teoría de la ventaja absoluta."
+  },
+  {
+    "question": "Según lo discutido en clase sobre la carga impositiva en comercio exterior, ¿qué error suelen cometer las PyMEs?",
+    "options": [
+      "Pagar de más porque desconocen las exenciones",
+      "Tratar todo como un único 'impuesto' sin diferenciar derechos, aranceles, tasas y contribuciones",
+      "Contratar siempre un despachante de aduana innecesariamente",
+      "Sobreestimar los plazos de importación"
+    ],
+    "answerIndex": 1,
+    "explanation": "En clase se aclaró que en comercio exterior no todo es 'impuesto': existen derechos, aranceles, tasas y contribuciones con funciones distintas, y confundirlos es un error común de análisis."
+  },
+  {
+    "question": "¿Qué instrumentos se mencionaron como parte de las restricciones actuales a la importación en Argentina?",
+    "options": [
+      "El cepo cambiario y las licencias SIRA/SIMI",
+      "El Arancel Externo Común únicamente",
+      "Los Incoterms 2020",
+      "El Código Aduanero de Brasil"
+    ],
+    "answerIndex": 0,
+    "explanation": "La clase señaló el cepo cambiario y las licencias no automáticas (SIRA/SIMI) como los instrumentos actuales de restricción a las importaciones en Argentina."
+  },
+  {
+    "question": "¿Qué módulos de la materia corresponden a la 'primera etapa' según lo explicado en la clase introductoria?",
+    "options": [
+      "Módulos 5 a 7",
+      "Módulos 1 a 4: introducción, logística, Incoterms y operativa de importación",
+      "Solo el Módulo 1",
+      "Todos los módulos por igual"
+    ],
+    "answerIndex": 1,
+    "explanation": "La primera etapa comprende los Módulos 1 a 4, cubriendo conceptos introductorios, logística internacional, Incoterms y operativa de importación; la segunda etapa (Módulos 5 a 7) cubre exportación, contratos y organismos de cooperación."
+  },
+  {
+    "question": "¿Qué destacaron los docentes sobre un TPI cuya conclusión es que el mercado meta no es rentable?",
+    "options": [
+      "Que automáticamente reprueba el trabajo",
+      "Que no significa que el trabajo esté mal si hubo una buena investigación de mercado",
+      "Que deben cambiar de docente para su corrección",
+      "Que ese resultado nunca puede darse en un TPI bien hecho"
+    ],
+    "answerIndex": 1,
+    "explanation": "Se citó textualmente que un proyecto bien analizado puede concluir que el mercado no es rentable, y eso no invalida el trabajo si la investigación de mercado fue rigurosa."
+  }
+]

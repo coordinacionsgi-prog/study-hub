@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Según la Clase 1, ¿cómo se define gráficamente la altura manométrica de una bomba?",
+    "options": [
+      "Como la diferencia de presión entre la entrada y salida de la bomba, o la suma de la altura geométrica más las pérdidas de fricción totales",
+      "Como la altura física del cuerpo de la bomba",
+      "Como el caudal máximo que puede entregar la bomba",
+      "Como la distancia entre la bomba y el tanque de aspiración únicamente"
+    ],
+    "answerIndex": 0,
+    "explanation": "El docente explicó que la altura manométrica es la diferencia de presión entre salida y entrada de la bomba, y gráficamente equivale a la altura geométrica más todas las pérdidas primarias y secundarias."
+  },
+  {
+    "question": "¿Qué condición debe cumplirse entre el AMPA disponible y el AMPA requerido para que una bomba no cavite?",
+    "options": [
+      "El disponible debe ser menor que el requerido",
+      "Ambos deben ser iguales exactamente",
+      "El disponible debe ser mayor que el requerido",
+      "El requerido no depende del fabricante"
+    ],
+    "answerIndex": 2,
+    "explanation": "Las minutas indican que para evitar cavitación, el AMPA disponible siempre debe ser mayor que el AMPA requerido (el requerido lo fija el fabricante según el diseño de la bomba)."
+  },
+  {
+    "question": "¿Por qué el agua caliente en la alimentación de calderas complica la operación de succión de una bomba?",
+    "options": [
+      "Porque el agua caliente es más viscosa",
+      "Porque a mayor temperatura, mayor presión de vapor, facilitando la cavitación",
+      "Porque el agua caliente pesa menos y flota",
+      "Porque no se puede bombear agua por encima de los 50°C"
+    ],
+    "answerIndex": 1,
+    "explanation": "A mayor temperatura, mayor presión de vapor del fluido, lo que facilita que la presión local caiga por debajo de ese valor y se produzca cavitación, a veces obligando a instalar la bomba con altura de succión negativa."
+  },
+  {
+    "question": "En el Diagrama de Cameron/Camerer, ¿qué relación de costos se busca optimizar al elegir el diámetro de cañería?",
+    "options": [
+      "El costo del material de la bomba contra el costo del motor",
+      "La inversión inicial en cañería contra el costo de operación por pérdidas de energía",
+      "El costo de mano de obra contra el costo de los planos",
+      "El costo de las válvulas contra el costo de las bridas"
+    ],
+    "answerIndex": 1,
+    "explanation": "El diagrama balancea la inversión inicial (caño más grande = más caro) contra el costo de operación (caño más chico = más pérdidas de energía), buscando el diámetro que minimiza la suma de ambos."
+  },
+  {
+    "question": "¿Cuántos parámetros se requieren para especificar técnicamente un caño sin ambigüedades, según lo explicado en clase?",
+    "options": [
+      "Tres: norma, diámetro y material",
+      "Cuatro: norma, material, diámetro y presión",
+      "Seis: norma, diámetro nominal, espesor, tipo de construcción, material y acabado superficial",
+      "Ocho, incluyendo el color de pintura obligatorio"
+    ],
+    "answerIndex": 2,
+    "explanation": "Las minutas listan seis parámetros: norma, diámetro nominal, espesor (Schedule/PN), tipo de construcción (con o sin costura), material y acabado superficial."
+  },
+  {
+    "question": "¿Por qué es riesgoso no aclarar si un caño debe pedirse con o sin costura?",
+    "options": [
+      "Porque no afecta el precio final",
+      "Porque el mayorista entrega por defecto el caño con costura, que en aplicaciones API puede estar prohibido por seguridad",
+      "Porque los caños sin costura no existen en el mercado",
+      "Porque solo se usa un tipo de costura en toda la industria"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un error común es no especificar la costura: el mayorista suele mandar el caño con costura (más barato), pero en industrias como la del petróleo esto puede estar prohibido por norma y generar un accidente."
+  },
+  {
+    "question": "¿Cuáles son los tres documentos principales de la documentación técnica de un proyecto de piping mencionados en Clase 2?",
+    "options": [
+      "Memoria descriptiva, memoria de cálculo y diagrama de flujo",
+      "Factura, remito y garantía",
+      "Plano eléctrico, plano civil y plano de ventilación",
+      "Manual de usuario, catálogo y lista de precios"
+    ],
+    "answerIndex": 0,
+    "explanation": "La documentación de un proyecto de piping incluye la memoria descriptiva (necesidades y normativas), la memoria de cálculo (presiones y pérdidas de carga) y el diagrama de flujo o diagramático (lógica del sistema)."
+  },
+  {
+    "question": "¿Qué es un 'spool' en el diseño de una instalación de cañerías?",
+    "options": [
+      "Un tipo de válvula reguladora",
+      "Un tramo prefabricado en que se subdivide una conducción para su fabricación y montaje",
+      "Un instrumento de medición de caudal",
+      "El nombre comercial de una brida ciega"
+    ],
+    "answerIndex": 1,
+    "explanation": "Un spool es una subdivisión de la conducción utilizada para organizar la fabricación y el montaje de la instalación por partes."
+  },
+  {
+    "question": "Según Clase 3, ¿cuál es la diferencia metalúrgica entre soldar y hacer brazing (soldering)?",
+    "options": [
+      "No hay ninguna diferencia real",
+      "En la soldadura se funden ambos metales base; en el brazing solo hay calentamiento y unión por capilaridad, sin fundir el metal base",
+      "El brazing solo se usa en soldadura subacuática",
+      "La soldadura siempre usa gas y el brazing siempre usa electricidad"
+    ],
+    "answerIndex": 1,
+    "explanation": "Para que exista soldadura técnicamente, los dos metales base deben fundirse; si solo hay calentamiento y unión por capilaridad sin fusión, es brazing o soldering (pegado)."
+  },
+  {
+    "question": "¿Qué caracteriza al proceso de soldadura por Arco Sumergido (SAW)?",
+    "options": [
+      "Es manual y de baja productividad",
+      "Es totalmente automático, con el arco bajo un fundente granulado, y logra la máxima tasa de deposición",
+      "Usa electrodo de tungsteno no consumible",
+      "Solo se puede usar en posición vertical"
+    ],
+    "answerIndex": 1,
+    "explanation": "El SAW es completamente automático, con el arco ocurriendo bajo un fundente granulado; solo permite posición plana pero alcanza la mayor tasa de deposición de material, multiplicando por 7 la productividad manual."
+  },
+  {
+    "question": "¿Por qué es grave 'picar' el electrodo directamente sobre la pieza en soldaduras de alta exigencia (nuclear/espacial)?",
+    "options": [
+      "Porque ensucia la superficie de forma estética",
+      "Porque genera microfisuras que invalidan la integridad estructural de la pieza",
+      "Porque consume más electrodos de lo normal",
+      "Porque hace que la soldadura tarde más tiempo"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cebar el arco sobre el metal base de la pieza (en vez de una placa de sacrificio) genera microfisuras que comprometen la integridad estructural, algo inaceptable en aplicaciones críticas."
+  },
+  {
+    "question": "¿Por qué se usan roscas cónicas en aproximadamente el 90% de las tuberías, según lo remarcado en clase?",
+    "options": [
+      "Porque son más baratas de fabricar que las cilíndricas",
+      "Porque el espesor del caño no permite un sellado frontal efectivo como el de las roscas cilíndricas",
+      "Porque solo existen en medidas métricas",
+      "Porque no requieren ningún tipo de mantenimiento"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las roscas cónicas sellan por interferencia de flancos sin necesitar el espacio de un sellado frontal con arandela, algo que el espesor de pared de un caño normalmente no permite."
+  }
+]

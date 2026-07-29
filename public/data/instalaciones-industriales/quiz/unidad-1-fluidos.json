@@ -1,0 +1,189 @@
+[
+  {
+    "question": "¿En qué tipo de tramo de cañería se originan principalmente las pérdidas de carga primarias?",
+    "options": [
+      "En los tramos rectos de sección constante",
+      "En los codos y cambios de dirección",
+      "En las válvulas parcialmente cerradas",
+      "En los ensanchamientos bruscos"
+    ],
+    "answerIndex": 0,
+    "explanation": "Las pérdidas primarias son de superficie (rozamiento del fluido con la pared), y ocurren en flujo uniforme, es decir en los tramos rectos de sección constante."
+  },
+  {
+    "question": "Según la ecuación de Darcy-Weisbach, la pérdida de carga primaria es...",
+    "options": [
+      "Inversamente proporcional al cuadrado de la velocidad",
+      "Directamente proporcional al diámetro de la tubería",
+      "Directamente proporcional al cuadrado de la velocidad e inversamente proporcional al diámetro",
+      "Independiente de la longitud de la tubería"
+    ],
+    "answerIndex": 2,
+    "explanation": "La ecuación de Darcy-Weisbach establece que hf es proporcional al cuadrado de la velocidad y a la longitud, e inversamente proporcional al diámetro de la tubería."
+  },
+  {
+    "question": "¿Qué variables relaciona el diagrama de Moody para obtener el factor de fricción f?",
+    "options": [
+      "Presión y temperatura del fluido",
+      "Número de Reynolds y rugosidad relativa de la tubería",
+      "Caudal y diámetro nominal",
+      "Viscosidad y densidad del fluido únicamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "El diagrama de Moody grafica el factor de fricción f en función del número de Reynolds y de la rugosidad relativa (k/D), evitando resolver la ecuación de Colebrook-White de forma iterativa."
+  },
+  {
+    "question": "En el diagrama de Camerer (diámetro económico), ¿qué ocurre al aumentar el diámetro de la tubería?",
+    "options": [
+      "Sube el costo de instalación y sube el costo de energía",
+      "Baja el costo de instalación y baja el costo de energía",
+      "Sube el costo de instalación y baja el costo de energía por rozamiento",
+      "El diámetro no afecta ninguno de los dos costos"
+    ],
+    "answerIndex": 2,
+    "explanation": "A mayor diámetro, aumenta el costo inicial de instalación (aprox. con D²), pero disminuyen las pérdidas de carga y por lo tanto el costo de energía (aprox. con 1/D⁵). El óptimo minimiza la suma de ambos."
+  },
+  {
+    "question": "¿Cuál es la diferencia clave entre un caño (pipe) y un tubo (tube)?",
+    "options": [
+      "El caño siempre es de plástico y el tubo de acero",
+      "El diámetro nominal del caño no coincide con ninguna medida física real hasta 12\"; el del tubo sí coincide con el diámetro exterior",
+      "El tubo se usa exclusivamente para agua potable",
+      "No hay diferencia técnica, son sinónimos"
+    ],
+    "answerIndex": 1,
+    "explanation": "El caño (pipe) tiene un diámetro nominal comercial que no coincide con sus medidas físicas reales (hasta 12\"), mientras que el tubo (tube) tiene un diámetro nominal igual a su diámetro exterior real."
+  },
+  {
+    "question": "¿Qué representa el Número de Schedule de una cañería?",
+    "options": [
+      "La longitud estándar de fabricación del caño",
+      "El tipo de rosca utilizada en los extremos",
+      "Una relación entre la presión de trabajo y el esfuerzo admisible del material, vinculada al espesor de pared",
+      "El material de construcción del caño"
+    ],
+    "answerIndex": 2,
+    "explanation": "El Schedule se calcula aproximadamente como 1000 x (P/S), donde P es la presión admisible y S el esfuerzo admisible del material; a mayor Schedule, mayor espesor de pared."
+  },
+  {
+    "question": "¿Por qué se prefieren las roscas cónicas (NPT/BSPT) sobre las cilíndricas en la mayoría de las cañerías?",
+    "options": [
+      "Porque son más económicas de fabricar",
+      "Porque sellan por interferencia de flancos metal contra metal, sin necesitar sellado frontal adicional",
+      "Porque permiten mayor diámetro nominal",
+      "Porque no requieren ningún tipo de ajuste"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las roscas cónicas logran el sellado por la interferencia y deformación elastoplástica de los flancos, mientras que las cilíndricas necesitan una arandela para el sellado frontal, algo poco práctico en cañerías."
+  },
+  {
+    "question": "¿Cuál de las siguientes NO es una forma constructiva estándar de brida mencionada en el apunte?",
+    "options": [
+      "Welding neck",
+      "Slip-on",
+      "Lap-joint",
+      "Cross-flow"
+    ],
+    "answerIndex": 3,
+    "explanation": "Las formas de brida descriptas son welding neck, slip-on, lap-joint, ring-joint, threaded, socket weld y blind. 'Cross-flow' no es un tipo de brida reconocido en el apunte."
+  },
+  {
+    "question": "¿Cuál es el tipo de cara de brida más común en la industria?",
+    "options": [
+      "Cara plana (flat face)",
+      "Cara con resalte (raised face, RF)",
+      "Unión ring-joint (o-ring)",
+      "Unión macho-hembra"
+    ],
+    "answerIndex": 1,
+    "explanation": "La cara con resalte (RF) es la más común; tiene surcos concéntricos o en espiral que ayudan a fijar la junta y mejorar el sello."
+  },
+  {
+    "question": "Una válvula que puede regular el caudal de forma continua desde el cierre total hasta la apertura absoluta se clasifica como:",
+    "options": [
+      "Válvula interceptora",
+      "Válvula reguladora de caudal",
+      "Válvula orientadora de flujo",
+      "Válvula anti-retorno"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las válvulas reguladoras de caudal permiten modificar el flujo de manera continua entre el cierre y la apertura total, además de cumplir la función de las interceptoras."
+  },
+  {
+    "question": "¿Por qué la válvula esférica (de bola) se usa como ON/OFF y no para regular caudal?",
+    "options": [
+      "Porque no puede cerrar completamente",
+      "Porque en posiciones intermedias se resiente el asiento y aparecen fugas rápidamente",
+      "Porque solo existe en diámetros muy pequeños",
+      "Porque necesita un actuador eléctrico obligatoriamente"
+    ],
+    "answerIndex": 1,
+    "explanation": "El uso intermedio de la válvula esférica desgasta el asiento y genera fugas, por lo que se prefiere para operación de todo/nada (además de ser de un cuarto de vuelta, rápida de accionar)."
+  },
+  {
+    "question": "¿Cuál es la principal desventaja de la válvula globo frente a la de compuerta?",
+    "options": [
+      "No tiene sentido de flujo determinado",
+      "Introduce mayor pérdida de carga por la disposición de su asiento",
+      "No puede repararse sin sacarla de la línea",
+      "Solo puede montarse en posición vertical"
+    ],
+    "answerIndex": 1,
+    "explanation": "El asiento de la válvula globo es paralelo a la dirección del flujo, generando turbulencia y mayor caída de presión, aunque a cambio ofrece muy buena regulación y cierre hermético."
+  },
+  {
+    "question": "¿Cuál es la diferencia principal entre una válvula de seguridad y una de alivio?",
+    "options": [
+      "La de seguridad se usa en líquidos y la de alivio en gases",
+      "La de seguridad tiene apertura rápida tipo disparo y se usa en gases/vapores; la de alivio abre proporcionalmente y se usa en líquidos",
+      "No hay diferencia, son sinónimos exactos",
+      "La de alivio solo existe en tamaños grandes"
+    ],
+    "answerIndex": 1,
+    "explanation": "La válvula de seguridad tiene una acción de disparo (apertura rápida) típica de vapores y gases; la de alivio abre de forma proporcional al incremento de presión y se usa principalmente con líquidos."
+  },
+  {
+    "question": "¿Qué condición debe cumplirse entre el ANPA disponible y el ANPA requerido para evitar cavitación?",
+    "options": [
+      "ANPA disponible debe ser menor al requerido",
+      "ANPA disponible debe ser igual al requerido",
+      "ANPA disponible debe ser mayor a 1,1 veces el requerido",
+      "El ANPA requerido no depende de la bomba"
+    ],
+    "answerIndex": 2,
+    "explanation": "La condición de diseño para evitar cavitación es ANPA disponible > 1,1 x ANPA requerido, dejando un margen de seguridad."
+  },
+  {
+    "question": "¿Cómo se define el punto de funcionamiento de una bomba centrífuga en un sistema dado?",
+    "options": [
+      "Es el caudal máximo que puede entregar la bomba a válvula cerrada",
+      "Es la intersección entre la curva característica de la bomba y la curva de la instalación en un gráfico H-Q",
+      "Es el valor de ANPA requerido informado por el fabricante",
+      "Es el punto de máxima eficiencia mecánica del motor"
+    ],
+    "answerIndex": 1,
+    "explanation": "El punto de funcionamiento surge de graficar juntas la curva H-Q de la bomba y la curva de la instalación (altura geométrica más pérdidas); donde se cruzan, opera el sistema."
+  },
+  {
+    "question": "¿Cuál de las siguientes bombas pertenece al grupo de las rotodinámicas?",
+    "options": [
+      "Bomba a pistón",
+      "Bomba de diafragma",
+      "Bomba centrífuga",
+      "Bomba de engranajes"
+    ],
+    "answerIndex": 2,
+    "explanation": "La bomba centrífuga es dinámica (rotodinámica): genera presión variando la velocidad del fluido. Las otras tres son de desplazamiento positivo."
+  },
+  {
+    "question": "¿Qué proceso de soldadura usa un electrodo de tungsteno no consumible y ofrece la mayor calidad de cordón?",
+    "options": [
+      "SMAW",
+      "GMAW (MIG/MAG)",
+      "GTAW (TIG)",
+      "SAW"
+    ],
+    "answerIndex": 2,
+    "explanation": "GTAW (TIG) usa un electrodo de tungsteno no consumible bajo gas inerte, logrando cordones de altísima calidad, aunque con baja productividad."
+  }
+]

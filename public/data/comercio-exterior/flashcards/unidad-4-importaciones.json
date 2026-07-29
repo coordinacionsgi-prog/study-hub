@@ -1,0 +1,130 @@
+[
+  {
+    "front": "Según el INDEC, ¿en qué categorías de uso económico se clasifican las importaciones?",
+    "back": "Bienes de capital, bienes intermedios, combustibles, piezas y accesorios para bienes de capital, bienes de consumo, vehículos automotores de pasajeros y resto."
+  },
+  {
+    "front": "¿Qué significa 'destinar' una mercadería?",
+    "back": "Es la declaración mediante la cual el importador expresa el régimen aduanero al que someterá la mercadería. Esa elección determina la legislación aplicable, la documentación, los aranceles, los plazos y las obligaciones del importador."
+  },
+  {
+    "front": "¿En qué plazo debe el importador dar destino a la mercadería y qué pasa si no lo hace?",
+    "back": "Tiene 15 días desde el arribo del medio transportador (Ley 22.415, art. 217). Si no cumple, se le aplica automáticamente una multa del 1% del valor en aduana de la mercadería (art. 218)."
+  },
+  {
+    "front": "¿Qué es la declaración de 'ignorando contenido' y qué plazo tiene?",
+    "back": "Es la declaración que puede presentar el importador dentro de los primeros 10 días de arribado el medio de transporte cuando desconoce el contenido de la carga, para poder inspeccionarla en depósito fiscal antes de declarar (Ley 22.415, art. 221)."
+  },
+  {
+    "front": "¿Qué plazo total tiene el importador para hacer la toma de contenido y presentar la solicitud de destinación?",
+    "back": "25 días contados desde el arribo del medio de transporte. El incumplimiento genera multas del 1% del valor en aduana por cada obligación no cumplida (toma de contenido y/o solicitud de destinación)."
+  },
+  {
+    "front": "¿En qué dos grandes grupos se dividen las destinaciones aduaneras de importación?",
+    "back": "Definitivas (para consumo y directo a plaza) y suspensivas (depósito de almacenamiento, tránsito, importación temporaria y admisión temporal)."
+  },
+  {
+    "front": "¿Cuál es la diferencia tributaria clave entre destinaciones definitivas y suspensivas?",
+    "back": "Las definitivas generan hecho imponible y corresponde pagar tributos. Las suspensivas no generan hecho imponible (no se pagan tributos) pero exigen garantizar los tributos dispensados."
+  },
+  {
+    "front": "¿Qué es la destinación definitiva de importación 'para consumo'?",
+    "back": "Aquella por la cual la mercadería importada puede permanecer por tiempo indeterminado dentro del territorio aduanero (Ley 22.415, art. 233), con circulación libre y posibilidad de comercialización local."
+  },
+  {
+    "front": "¿Qué es el procedimiento de Despacho a Plaza (DAP) y cuándo se presenta la solicitud?",
+    "back": "No es una destinación en sí misma, sino un procedimiento que permite despachar la mercadería directamente a plaza sin pasar por depósito fiscal, presentando la solicitud entre 5 y 2 días antes del arribo del medio de transporte (Ley 22.415, arts. 278-279)."
+  },
+  {
+    "front": "¿Qué plazo tiene la destinación suspensiva de depósito de almacenamiento?",
+    "back": "3 meses para vía marítima o fluvial y 1 mes para vía terrestre o aérea, contados desde el arribo del medio de transporte (Decreto 1508/2007). La DGA puede autorizar una única prórroga por un lapso igual al original."
+  },
+  {
+    "front": "¿Qué es la destinación suspensiva de tránsito de importación y qué tipos existen?",
+    "back": "Es el traslado de mercadería sin libre circulación desde la aduana de arribo hasta otra aduana para someterla a otra destinación (Ley 22.415, art. 296). Puede ser de tránsito directo (hacia una aduana de salida para exportar) o hacia el interior (para otra destinación suspensiva o consumo)."
+  },
+  {
+    "front": "¿Qué es la destinación suspensiva de importación temporaria?",
+    "back": "Permite que la mercadería permanezca con una finalidad y plazo determinado en el territorio aduanero, con obligación de reexportarla antes del vencimiento del plazo, ya sea en el mismo estado o luego de un perfeccionamiento (Ley 22.415, arts. 250-251)."
+  },
+  {
+    "front": "¿Sobre qué base se determina el valor en aduana en la Argentina?",
+    "back": "Sobre la base costo, seguro y flete (CIF), cualquiera sea la forma en que se haya pactado la operación. Se parte del valor FOB de la factura comercial, se aplican ajustes a incluir/deducir y se suman flete y seguro internacional."
+  },
+  {
+    "front": "¿Cuáles son los cinco métodos de valoración aduanera y en qué orden se aplican?",
+    "back": "Se aplican en orden jerárquico estricto: 1) valor de transacción, 2) valor de transacción de mercancías idénticas, 3) valor de transacción de mercancías similares, 4) valor deductivo, 5) valor reconstruido. Solo el importador (no la aduana) puede pedir invertir el orden entre el método 4 y el 5."
+  },
+  {
+    "front": "Mencioná tres ejemplos de ajustes positivos (a incluir) al valor CIF comercial.",
+    "back": "Comisiones y gastos de corretaje (salvo comisión de compra), gastos de documentación de exportación, y el costo de envases/embalajes o de herramientas, moldes y matrices incorporados a la mercadería importada."
+  },
+  {
+    "front": "Mencioná dos ejemplos de ajustes negativos (a deducir) del valor CIF comercial.",
+    "back": "Los intereses por cobro diferido (financiación) y los gastos incurridos por servicios posteriores a la importación (montaje, entrenamiento, asistencia técnica, calibración, etc.)."
+  },
+  {
+    "front": "¿Cómo se calcula el 'seguro mínimo de referencia' cuando no se contrató seguro de transporte internacional?",
+    "back": "Se usa una alícuota efectiva del seguro (AES) del 1,01% sobre el CFR: CIF = CFR × 1,01 (ya que AES = 1/(1-0,01)). Aplica cuando el INCOTERM pactado no obliga a contratar seguro (es decir, cualquiera salvo CIF/CIP)."
+  },
+  {
+    "front": "¿Qué es el Arancel Externo Común (AEC)?",
+    "back": "Es el derecho ad-valorem negociado en el marco del MERCOSUR que grava a una mercancía de origen extra-MERCOSUR con la misma tasa en Argentina, Brasil, Paraguay y Uruguay (salvo excepciones nacionales)."
+  },
+  {
+    "front": "¿Qué es la Tasa de Estadística y cuál era su alícuota vigente según el decreto 99/2019?",
+    "back": "Es una tasa que grava las importaciones para financiar actividades aduaneras; el decreto 99/2019 fijó su alícuota en 3% para destinaciones definitivas de importación para consumo (con excepciones para mercadería del MERCOSUR y otras exenciones), sujeta a montos máximos según el valor de la operación."
+  },
+  {
+    "front": "¿Qué componentes integran la Base Imponible (BI) o 'Base IVA'?",
+    "back": "FOB + Seguro + Flete +/- Ajustes = CIF (valor en aduana); a eso se le suma el Derecho de Importación y la Tasa de Estadística, obteniendo la Base Imponible."
+  },
+  {
+    "front": "¿Cuáles son las alícuotas del IVA general aplicable a importaciones definitivas para consumo?",
+    "back": "21% para mercaderías alcanzadas por la alícuota general y 10,5% para las alcanzadas por la alícuota reducida (equivalente al 50% de la general)."
+  },
+  {
+    "front": "¿Qué es el 'Adelanto de Impuesto a las Ganancias' en una importación y qué alícuotas tiene?",
+    "back": "Es una percepción a cuenta aplicada a toda importación definitiva. La alícuota general es del 6% sobre el precio normal para derechos de importación; sube al 11% si el bien se destina al uso o consumo particular del importador."
+  },
+  {
+    "front": "¿Cómo se calcula la Base Imponible de Impuestos Internos (BII)?",
+    "back": "BII = BI × 1,3 × (1 + TE/100), donde TE (tasa efectiva) = 100 × TN / (100 - TN), siendo TN la tasa nominal del tributo aplicable."
+  },
+  {
+    "front": "Mencioná tres ejemplos de 'gastos de importación' (Rubro 4).",
+    "back": "Gastos de puerto y despacho, arancel SIM, honorarios del despachante de aduana, transporte interno, gastos y comisiones bancarias, y gastos por certificaciones o intervenciones de organismos oficiales, entre otros."
+  },
+  {
+    "front": "¿Qué diferencia hay entre costos financieros 'puros' e 'impuros' en el Rubro 6 (incidencia financiera)?",
+    "back": "Los puros son intereses reales pagados por préstamos o financiamiento de proveedor. Los impuros representan el costo de oportunidad por la inmovilización de capital entre el pago de cada concepto y el momento en que la mercadería está lista para su uso o venta."
+  },
+  {
+    "front": "¿Cuál es la fórmula para calcular la inmovilización financiera (IF)?",
+    "back": "IF = C × [(1 + i)^n − 1], donde C es el capital inmovilizado, i la tasa de interés de referencia y n el plazo (en la unidad de tiempo de la tasa)."
+  },
+  {
+    "front": "¿Cuál es la fórmula para calcular una deducción diferida (DD)?",
+    "back": "DD = C / (1 + i)^n, donde C es el capital de la bonificación o devolución a recibir, i la tasa de interés de referencia y n el plazo hasta que se hace efectiva."
+  },
+  {
+    "front": "¿En qué se diferencian el 'presupuesto de importación' y el 'costo de importación'?",
+    "back": "El presupuesto se elabora antes de decidir importar, para estimar todas las erogaciones necesarias (sirve de referencia para fijar precios). El costo se elabora después de concretada la operación, con datos ciertos, y se usa para medir desempeño y costear productos."
+  },
+  {
+    "front": "¿Por qué el IVA y el adelanto de Ingresos Brutos no forman parte del 'costo' de importación aunque sí del 'presupuesto'?",
+    "back": "Porque son montos recuperables o trasladables a etapas posteriores de comercialización (créditos fiscales), por lo que no constituyen una erogación definitiva imputable al costo, aunque sí deben preverse como desembolso en el presupuesto financiero."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre 'desembolso' y 'costo' de importación?",
+    "back": "El desembolso es el monto total pagado al proveedor extranjero y a la aduana (FOB + flete + seguro + tributos aduaneros). El costo de importación es el desembolso más los gastos adicionales generados en el país de destino (logísticos, bancarios, comerciales, etc.)."
+  },
+  {
+    "front": "Con FOB USD 10.000, flete USD 1.000 y seguro del 1% sobre el valor CFR, ¿cuál es el valor CIF?",
+    "back": "CFR = FOB + Flete = USD 11.000. Seguro = 1% × 11.000 = USD 110. CIF = CFR + Seguro = USD 11.110."
+  },
+  {
+    "front": "¿Qué establece la Decisión CMC N.º 26/2015 del Mercosur sobre el AEC?",
+    "back": "Modifica los plazos de la Lista Nacional de Excepciones al Arancel Externo Común: Argentina y Brasil hasta 100 códigos NCM (hasta el 31/12/2021), Paraguay hasta 649 códigos (hasta 2023), y Uruguay y Venezuela hasta 225 códigos (hasta 2022)."
+  }
+]
