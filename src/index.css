@@ -1,18 +1,21 @@
 :root {
-  --bg: #0f1115;
-  --panel: #171a21;
-  --panel-2: #1f232c;
-  --border: #2a2f3a;
-  --text: #e8eaed;
-  --text-dim: #9aa1ac;
-  --accent: #5b8def;
-  --good: #3fbf7f;
-  --bad: #e5555a;
-  --map-edge: #636b75;
-  --map-node-bg: #1f232c;
-  --map-subtitle: #9aa1ac;
-  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
-  color-scheme: dark;
+  --bg: #f4f1e8;
+  --panel: #fffaf0;
+  --panel-2: #ebe4d7;
+  --border: #d8d0c2;
+  --text: #1b1d1f;
+  --text-dim: #68707a;
+  --accent: #0f766e;
+  --accent-2: #b45309;
+  --good: #15803d;
+  --bad: #b91c1c;
+  --map-edge: #8a8378;
+  --map-node-bg: #fffaf0;
+  --map-subtitle: #68707a;
+  --sans: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  font-family: var(--sans);
+  color-scheme: light;
 }
 
 * {
@@ -32,6 +35,11 @@ body {
 button {
   font-family: inherit;
   cursor: pointer;
+}
+
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 400;
 }
 
 .app-shell {
@@ -303,7 +311,8 @@ button {
 }
 
 .flip-card-face p {
-  font-size: 17px;
+  font-family: var(--serif);
+  font-size: 19px;
   line-height: 1.5;
   margin: 0;
 }
@@ -353,7 +362,8 @@ button {
 }
 
 .quiz-question {
-  font-size: 18px;
+  font-family: var(--serif);
+  font-size: 22px;
   margin: 12px 0 20px;
 }
 
@@ -379,12 +389,12 @@ button {
 
 .quiz-option.correct {
   border-color: var(--good);
-  background: rgba(63, 191, 127, 0.12);
+  background: #ebf8ee;
 }
 
 .quiz-option.incorrect {
   border-color: var(--bad);
-  background: rgba(229, 85, 90, 0.12);
+  background: #fff0ef;
 }
 
 .quiz-explanation {
@@ -458,8 +468,8 @@ button {
 }
 
 .callout-info {
-  background: rgba(91, 141, 239, 0.1);
-  border: 1px solid var(--accent);
+  background: #e8f5f2;
+  border: 1px solid #9ec8c2;
   border-radius: 10px;
   padding: 14px 16px;
   margin-bottom: 20px;
@@ -468,7 +478,7 @@ button {
 .callout-info p {
   margin: 0;
   font-size: 14px;
-  color: var(--text);
+  color: #164e49;
 }
 
 .theory-pillrow {
