@@ -1,0 +1,158 @@
+[
+  {
+    "question": "El ANPA disponible de una instalación es de 6 metros y el ANPA requerido por la bomba (dato del fabricante) es de 7 metros. ¿Qué va a pasar?",
+    "options": ["Nada, la bomba funciona normalmente", "La bomba va a cavitar", "La bomba va a dar más caudal del esperado", "Hay que aumentar la altura de succión"],
+    "answerIndex": 1,
+    "explanation": "Cuando el ANPA disponible es menor al requerido, la presión en la succión cae por debajo de lo que la bomba necesita para no vaporizar el líquido: se produce cavitación."
+  },
+  {
+    "question": "Si aumento la altura de emplazamiento de una bomba (con tubo de aspiración e impulsión de igual diámetro), ¿qué pasa con la pérdida de carga por fricción?",
+    "options": ["Aumenta proporcionalmente", "Disminuye", "No se modifica", "Se anula"],
+    "answerIndex": 2,
+    "explanation": "La pérdida de carga por fricción depende del caudal, diámetro y longitud de cañería recorrida — no de la altura geométrica. Lo que cambia con la altura es la energía geométrica a vencer, no la fricción."
+  },
+  {
+    "question": "¿Para qué sirve principalmente el diagrama de Camerer?",
+    "options": ["Para calcular el factor de fricción de Darcy", "Para determinar rápido el diámetro económico de una cañería", "Para seleccionar el tipo de válvula", "Para calcular el ANPA requerido"],
+    "answerIndex": 1,
+    "explanation": "El diagrama de Camerer da una estimación rápida del diámetro económico a partir del caudal, sin necesidad de hacer el cálculo completo de pérdida de carga."
+  },
+  {
+    "question": "Para usar el diagrama de Moody, ¿qué dos datos necesito como mínimo?",
+    "options": ["Caudal y diámetro económico", "Número de Reynolds y rugosidad relativa", "ANPA disponible y ANPA requerido", "Presión de entrada y de salida"],
+    "answerIndex": 1,
+    "explanation": "El diagrama de Moody entrega el factor de fricción (f) en función del número de Reynolds (régimen de flujo) y la rugosidad relativa de la cañería."
+  },
+  {
+    "question": "En la ecuación de Darcy-Weisbach, ¿de dónde sale el factor de fricción (f)?",
+    "options": ["Es siempre 1", "Se calcula con el diagrama de Camerer", "Se obtiene del diagrama de Moody", "Es un dato fijo por norma ASTM"],
+    "answerIndex": 2,
+    "explanation": "El factor de fricción f se obtiene del diagrama de Moody a partir del número de Reynolds y la rugosidad relativa."
+  },
+  {
+    "question": "En un flujo laminar dentro de una cañería, ¿cómo es el perfil de velocidades?",
+    "options": ["Plano en todo el diámetro", "Parabólico, máximo en el centro", "Parabólico, máximo en la pared", "No tiene un patrón definido"],
+    "answerIndex": 1,
+    "explanation": "En flujo laminar el perfil es parabólico, con velocidad máxima en el centro de la cañería y cero en las paredes (por la condición de no deslizamiento)."
+  },
+  {
+    "question": "¿Qué indica un mayor número de Schedule en un caño?",
+    "options": ["Mayor diámetro nominal", "Mayor espesor de pared", "Mayor longitud del tramo", "Menor presión admisible"],
+    "answerIndex": 1,
+    "explanation": "El Schedule es un número normalizado que indica el espesor de pared del caño: a mayor Schedule, mayor espesor y mayor presión que puede soportar."
+  },
+  {
+    "question": "¿Cuál es la principal ventaja de una brida Welding Neck frente a una Slip-On?",
+    "options": ["Es más barata", "Se instala sin soldadura", "Tiene mejor resistencia mecánica por la transición cónica soldada al caño", "No necesita bulones"],
+    "answerIndex": 2,
+    "explanation": "La Welding Neck se suelda directamente al caño con una transición cónica que reduce la concentración de tensiones, dándole mayor resistencia que la Slip-On, que se desliza sobre el caño y se suelda solo por fuera."
+  },
+  {
+    "question": "¿Por qué una rosca cilíndrica sola no sirve para sellar el extremo de un caño a presión?",
+    "options": ["Porque se oxida más rápido", "Porque no genera presión de ajuste entre los filetes, no sella por sí sola", "Porque es más cara de fabricar", "Porque solo se usa en cañerías de gas"],
+    "answerIndex": 1,
+    "explanation": "A diferencia de la rosca cónica (que sella por interferencia mecánica al ajustar), la rosca cilíndrica no genera presión de sellado y necesita un sellador adicional."
+  },
+  {
+    "question": "¿Cuál es el principio de funcionamiento de una bomba de desplazamiento positivo?",
+    "options": ["Acelera el líquido con un rodete y luego convierte esa velocidad en presión", "Desplaza un volumen fijo de líquido por ciclo, entregando caudal casi constante", "Usa la gravedad para mover el líquido", "Comprime un gas para empujar el líquido"],
+    "answerIndex": 1,
+    "explanation": "Las bombas de desplazamiento positivo atrapan y desplazan mecánicamente un volumen fijo de líquido en cada ciclo, por eso el caudal entregado es prácticamente independiente de la presión del sistema."
+  },
+  {
+    "question": "Se necesita generar 340 kg/cm² de presión de aceite para un cilindro hidráulico. ¿Qué tipo de bomba conviene?",
+    "options": ["Centrífuga de un escalón", "Centrífuga multietapa", "De desplazamiento positivo (ej. pistones)", "Bomba de vacío"],
+    "answerIndex": 2,
+    "explanation": "Para presiones muy altas con caudales relativamente chicos, las bombas de desplazamiento positivo (como las de pistones) son la elección correcta — las centrífugas no rinden bien a presiones tan elevadas."
+  },
+  {
+    "question": "Se necesita bombear 350 m³/hr de agua con alto contenido de sólidos (líquido cloacal). ¿Qué tipo de bomba es la más adecuada?",
+    "options": ["De desplazamiento positivo de engranajes", "Centrífuga especial para sólidos (tipo vórtice)", "De diafragma", "Peristáltica de laboratorio"],
+    "answerIndex": 1,
+    "explanation": "Para caudales grandes con sólidos en suspensión se usa una bomba centrífuga diseñada especialmente para pasar sólidos (tipo vórtice o de paso libre), ya que una bomba de desplazamiento positivo convencional se taponaría."
+  },
+  {
+    "question": "¿Es posible seleccionar una bomba con ANPA negativo?",
+    "options": ["Sí, siempre que el caudal sea bajo", "No, es físicamente inviable, indicaría presión por debajo de la de vapor del líquido", "Sí, pero solo en bombas de desplazamiento positivo", "Depende de la temperatura del líquido"],
+    "answerIndex": 1,
+    "explanation": "El ANPA es una altura de presión que por definición debe ser positiva; un valor negativo significaría que la presión disponible ya está por debajo de la presión de vapor, lo que no permite operación estable."
+  },
+  {
+    "question": "¿Cuáles son los parámetros clave para determinar el diámetro económico de una cañería?",
+    "options": ["Solo el caudal a transportar", "El balance entre costo de inversión (material) y costo operativo (energía de bombeo)", "Solo la longitud de la cañería", "El color de la cañería según norma"],
+    "answerIndex": 1,
+    "explanation": "El diámetro económico surge de balancear el mayor costo de material de una cañería más grande contra el menor costo energético de bombeo (menor velocidad, menor pérdida de carga)."
+  },
+  {
+    "question": "¿Qué protege una válvula de seguridad?",
+    "options": ["Contra fugas de corriente eléctrica", "Contra sobrepresión, abriéndose automáticamente al superar un límite", "Contra cavitación en bombas", "Contra bajas temperaturas"],
+    "answerIndex": 1,
+    "explanation": "La válvula de seguridad se abre automáticamente cuando la presión supera un valor límite preestablecido, aliviando el exceso de presión y protegiendo el equipo."
+  },
+  {
+    "question": "¿Qué es el SADI?",
+    "options": ["Un tipo de fusible industrial", "El Sistema Argentino de Interconexión (red de alta tensión)", "El ente que fija los cuadros tarifarios", "Una norma de construcción de cañerías"],
+    "answerIndex": 1,
+    "explanation": "El SADI es el Sistema Argentino de Interconexión, la red de líneas de alta tensión que conecta generadores, transportistas y distribuidoras en casi todo el país."
+  },
+  {
+    "question": "¿Qué función cumple CAMMESA en el sistema eléctrico argentino?",
+    "options": ["Fabrica los tableros eléctricos", "Administra y coordina el despacho y las transacciones del mercado eléctrico mayorista", "Aprueba las instalaciones eléctricas domiciliarias", "Regula la temperatura de color de las lámparas"],
+    "answerIndex": 1,
+    "explanation": "CAMMESA (Compañía Administradora del Mercado Mayorista Eléctrico) coordina el despacho de energía y las transacciones económicas del mercado eléctrico mayorista."
+  },
+  {
+    "question": "En la curva de disparo de una protección termomagnética, ¿qué representa la zona magnética?",
+    "options": ["Disparo lento ante sobrecargas leves", "Disparo instantáneo ante corrientes muy altas (cortocircuito)", "Ninguna acción, solo indica temperatura", "Disparo solo ante fugas a tierra"],
+    "answerIndex": 1,
+    "explanation": "La zona magnética de la curva es de disparo instantáneo (casi vertical), diseñada para actuar rápidamente ante las corrientes muy altas típicas de un cortocircuito. La zona térmica, en cambio, es de disparo más lento (curva inversa) para sobrecargas sostenidas."
+  },
+  {
+    "question": "¿Qué detecta y protege un disyuntor diferencial?",
+    "options": ["Sobrecargas térmicas del cableado", "Fugas de corriente a tierra, protegiendo a las personas", "Caídas de tensión en la red", "Sobrevelocidad de motores"],
+    "answerIndex": 1,
+    "explanation": "El disyuntor diferencial compara la corriente de entrada y salida de un circuito; si detecta una diferencia (fuga a tierra, por ejemplo por contacto de una persona), corta el circuito en milisegundos para evitar electrocución."
+  },
+  {
+    "question": "¿Por qué se dice que la puesta a tierra y el disyuntor diferencial son elementos complementarios?",
+    "options": ["Porque ambos miden la misma variable", "Porque la puesta a tierra da el camino de baja resistencia que el diferencial necesita para detectar la fuga eficazmente", "Porque uno reemplaza al otro en instalaciones nuevas", "Porque los dos protegen contra sobrecarga térmica"],
+    "answerIndex": 1,
+    "explanation": "Sin una buena puesta a tierra, la corriente de fuga puede no circular de forma efectiva, reduciendo la capacidad del diferencial de detectarla y actuar a tiempo."
+  },
+  {
+    "question": "En el arranque estrella-triángulo de un motor trifásico, ¿qué ocurre primero?",
+    "options": ["Arranca en triángulo y pasa a estrella", "Arranca en estrella (menor corriente) y un temporizador conmuta a triángulo", "Arranca a velocidad nominal directamente", "Se usa solo un contactor sin temporizador"],
+    "answerIndex": 1,
+    "explanation": "El motor arranca conectado en estrella para reducir la corriente de arranque, y luego de unos segundos un temporizador conmuta la conexión a triángulo para el funcionamiento normal."
+  },
+  {
+    "question": "¿Qué es el resbalamiento en un motor asincrónico?",
+    "options": ["La diferencia entre la velocidad sincrónica del campo giratorio y la velocidad real del rotor", "La pérdida de aislación del bobinado", "El desgaste de los rodamientos", "La caída de tensión en el arranque"],
+    "answerIndex": 0,
+    "explanation": "El resbalamiento es la diferencia relativa entre la velocidad sincrónica (del campo magnético del estator) y la velocidad real del rotor; es necesario para que se induzca corriente en el rotor y se genere torque."
+  },
+  {
+    "question": "Una lámpara con temperatura de color de 2700K, ¿qué tipo de luz da?",
+    "options": ["Luz fría, blanco azulado", "Luz cálida, tono amarillento", "Luz ultravioleta", "No emite en el espectro visible"],
+    "answerIndex": 1,
+    "explanation": "Las temperaturas de color bajas (alrededor de 2700-3000K) corresponden a luz cálida, de tono amarillento/anaranjado."
+  },
+  {
+    "question": "¿Qué mide el IRC (Índice de Reproducción de Color) de una lámpara?",
+    "options": ["La cantidad de lux que entrega", "Qué tan fielmente reproduce los colores reales comparado con luz natural", "La vida útil de la lámpara", "El consumo eléctrico por hora"],
+    "answerIndex": 1,
+    "explanation": "El IRC mide la fidelidad con la que una fuente de luz reproduce los colores de los objetos respecto a la luz natural, en una escala de hasta 100."
+  },
+  {
+    "question": "¿Qué es una curva isolux en un plano de trabajo?",
+    "options": ["Una curva que muestra el consumo eléctrico en el tiempo", "Una línea que une puntos de igual nivel de iluminancia (lux)", "El límite de resistencia de un cable", "La curva de disparo de una protección"],
+    "answerIndex": 1,
+    "explanation": "Una curva isolux une puntos del plano de trabajo que tienen el mismo nivel de iluminancia, de forma similar a una curva de nivel topográfica."
+  },
+  {
+    "question": "¿Las lámparas de descarga (como los tubos fluorescentes) producen un espectro continuo de luz?",
+    "options": ["Sí, igual que una lámpara incandescente", "No, emiten un espectro discontinuo con picos en ciertas longitudes de onda", "Solo si tienen alta potencia", "Solo las de última generación"],
+    "answerIndex": 1,
+    "explanation": "Las lámparas de descarga emiten un espectro discontinuo, lo que suele darles un IRC menor al de las lámparas incandescentes, que sí tienen espectro continuo."
+  }
+]

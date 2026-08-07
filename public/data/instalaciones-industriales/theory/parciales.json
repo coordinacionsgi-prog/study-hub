@@ -1,0 +1,61 @@
+{
+  "thesis": "Esto no es teoría nueva: es un repaso armado con preguntas reales de 1er parcial de años anteriores (2018 a 2023), filtradas para que solo queden las de Unidad 1 (fluidos) y Unidad 2 y 3 (eléctrica/luminotecnia) — las de Unidad 4 (vapor/calderas/frigorífico) son de 2do parcial y quedaron afuera.",
+  "examTip": "Los mismos temas se repiten parcial tras parcial casi textuales: ANPA/altura de succión, diagramas de Camerer y Moody, clasificación de bombas y válvulas, Schedule y bridas, y del lado eléctrico: tableros, protecciones (termomagnética y diferencial), y luminotecnia (temperatura de color, IRC, nivel de iluminación). Si te sabés bien estos temas, tenés cubierto casi todo el examen.",
+  "concepts": [
+    "ANPA disponible vs requerido",
+    "Altura límite de succión",
+    "Cavitación",
+    "Diagrama de Camerer",
+    "Diagrama de Moody",
+    "Ecuación de Darcy",
+    "Schedule de un caño",
+    "Tipos de bridas",
+    "Clasificación de bombas",
+    "Clasificación de válvulas",
+    "Cuadros tarifarios / SADI / CAMMESA",
+    "Tableros eléctricos",
+    "Protección termomagnética",
+    "Disyuntor diferencial",
+    "Arranque de motor trifásico",
+    "Temperatura de color e IRC",
+    "Nivel de iluminación media"
+  ],
+  "sections": [
+    {
+      "h": "El bloque de bombas (ANPA, cavitación, altura de succión)",
+      "p": "Es EL tema más preguntado de todo el primer parcial, aparece en casi todos los años. Te van a pedir: qué es el ANPA disponible (lo que te da la instalación) vs el ANPA requerido (lo que pide la bomba, dato del fabricante) — si el disponible es menor al requerido, cavita. También te preguntan la altura límite de succión (hasta dónde puede subir el líquido antes de la bomba sin que cavite) y si cambia la pérdida de carga al modificar la altura de emplazamiento (no cambia la pérdida de carga por fricción, pero sí cambia la altura geométrica a vencer)."
+    },
+    {
+      "h": "Diagrama de Camerer y diagrama de Moody",
+      "p": "Los confunden seguido, así que aprendé bien la diferencia. El diagrama de Camerer se usa para elegir rápido el diámetro económico de una cañería a partir del caudal, sin hacer cuentas de pérdida de carga. El diagrama de Moody, en cambio, te da el factor de fricción (f) de la ecuación de Darcy a partir del número de Reynolds y la rugosidad relativa de la cañería — se originó de ensayos experimentales con distintas rugosidades. Te van a pedir en ambos casos: qué información dan, cómo se armaron, y qué datos necesitás para usarlos."
+    },
+    {
+      "h": "Ecuación de Darcy y pérdida de carga",
+      "p": "La ecuación de Darcy-Weisbach calcula la pérdida de carga por fricción en un tramo de cañería, en función de la longitud, el diámetro, la velocidad del fluido y el factor de fricción (que sacás del Moody). También te piden los perfiles de velocidad según el tipo de flujo: en flujo laminar el perfil es parabólico (más rápido en el centro), y en flujo turbulento es más plano/uniforme en el centro con caída brusca cerca de la pared."
+    },
+    {
+      "h": "Caños: Schedule, bridas y roscas",
+      "p": "El Schedule es un número que indica el espesor de pared de un caño según norma ASTM (a mayor Schedule, más espesor, para mayor presión). Las bridas son los elementos que unen dos tramos de cañería con bulones — hay varios tipos según la cara de sellado (ej: Welding Neck, que se suelda directo al caño) y según la clase de presión. En roscas: la rosca cónica sella por ajuste (se puede usar sola), la cilíndrica necesita un sellador adicional porque no genera presión de sellado por sí sola — por eso no se talla rosca cilíndrica en el extremo libre de un caño."
+    },
+    {
+      "h": "Clasificación de bombas y válvulas",
+      "p": "Bombas: se dividen en dinámicas (centrífugas — usan un rotor que acelera el líquido y después esa velocidad se convierte en presión) y de desplazamiento positivo (empujan un volumen fijo de líquido en cada ciclo, dan caudal constante casi sin importar la presión — se usan para caudales chicos, alta presión, o líquidos viscosos/con sólidos). Para elegir bomba en un ejercicio: si piden alta presión con caudal chico (ej. hidráulico), es de desplazamiento positivo; si piden caudal grande con sólidos en suspensión, hay que buscar una bomba centrífuga robusta que tolere sólidos (ej. tipo vórtice). Válvulas: se clasifican en interceptoras (todo/nada, ej. esférica y compuerta) y reguladoras (regulan caudal, ej. válvula globo)."
+    },
+    {
+      "h": "El bloque eléctrico: aprobación, tableros y CAMMESA",
+      "p": "Para aprobar una instalación eléctrica industrial nueva hay que seguir pasos formales ante la empresa distribuidora (proyecto, inspección, habilitación), y el usuario queda sujeto a penalidades si incumple sus obligaciones (ej. superar la potencia contratada). El 'Negocio Eléctrico' argentino tiene distintos actores: generadoras, transportistas, distribuidoras y grandes usuarios. CAMMESA administra el mercado eléctrico mayorista, y el SADI es el Sistema Argentino de Interconexión (la red de alta tensión que conecta todo el país). Los tableros eléctricos son los que agrupan y protegen los circuitos de una instalación, y se simbolizan en los planos unifilares."
+    },
+    {
+      "h": "Protecciones eléctricas",
+      "p": "La protección termomagnética combina un elemento térmico (dispara ante sobrecargas lentas, por calentamiento) y uno magnético (dispara rápido ante cortocircuitos). El disyuntor diferencial protege a las PERSONAS: detecta una fuga de corriente a tierra (por ejemplo si alguien toca un cable vivo) y corta el circuito. Por eso se dice que la puesta a tierra y el disyuntor diferencial son complementarios: la puesta a tierra da un camino de baja resistencia para que circule la corriente de fuga, y el diferencial la detecta y corta — sin tierra, el diferencial es mucho menos efectivo."
+    },
+    {
+      "h": "Motores trifásicos y arranque",
+      "p": "El motor trifásico asincrónico (o de inducción) es el más usado en la industria. Para arrancarlo hay varios métodos según su potencia: arranque directo (para motores chicos), arranque estrella-triángulo (arranca conectado en estrella, con menor corriente, y después de unos segundos un temporizador conmuta a triángulo para el funcionamiento normal), y arrancadores suaves o variadores de frecuencia (para motores grandes, arrancan de forma gradual y controlada)."
+    },
+    {
+      "h": "Luminotecnia: temperatura de color, IRC y nivel de iluminación",
+      "p": "La temperatura de color (en Kelvin) describe el tono de la luz: valores bajos (~2700K) dan una luz cálida (amarillenta), valores altos (~6500K) dan una luz fría (blanco azulado) — no tiene que ver con cuánta luz da, sino con el tono. El IRC (Índice de Reproducción de Color) mide qué tan bien una fuente de luz muestra los colores reales de los objetos comparado con luz natural (máximo 100). Las lámparas de descarga (como los tubos fluorescentes) no producen un espectro continuo, por eso suelen tener menor IRC que una lámpara incandescente. El nivel de iluminación media (Emed) de un local es el promedio de lux medidos en el plano de trabajo."
+    }
+  ]
+}

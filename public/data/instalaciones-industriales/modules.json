@@ -22,5 +22,11 @@
     "title": "Minutas de clases",
     "unidad": "—",
     "description": "Resumen de lo tratado en cada clase, tomado por la cátedra."
+  },
+  {
+    "id": "parciales",
+    "title": "Parciales (1er parcial)",
+    "unidad": "—",
+    "description": "Preguntas reales de primeros parciales de años anteriores (Unidad 1 y Unidad 2 y 3), filtradas y sin repetidos."
   }
 ]
