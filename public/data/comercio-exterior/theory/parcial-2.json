@@ -1,5 +1,5 @@
 {
-  "thesis": "Este módulo es un repaso armado con preguntas reales de exámenes de 2do parcial (verdadero/falso, opción múltiple y respuesta corta ya resueltas por el alumno) más ejercicios numéricos reales de costeo. Cubre sobre todo exportaciones (Módulo 5), aspectos estratégicos empresariales como contratos, documentación, pagos y financiamiento (Módulo 6), y relaciones económicas internacionales (Módulo 7).",
+  "thesis": "Repaso pregunta por pregunta del 2do parcial: cada pregunta real de examen sobre exportaciones, contratos/documentos/pagos y relaciones económicas internacionales, más los ejercicios numéricos de costeo, con su respuesta completa ya explicada.",
   "examTip": "Los parciales repiten mucho el mismo esqueleto: preguntas de verdadero/falso conceptuales (muchas trampas donde invierten endógeno por exógeno, o definitiva por suspensiva), opción múltiple con \"seleccione una o más de una\", y casi siempre un ejercicio numérico combinado: costeo de una exportación que incluye como insumo una pieza importada, para la cual hay que resolver primero un mini-costeo de importación (FCA/FOB → CIF → Base Imponible → impuestos) antes de poder terminar el costeo de exportación (CX → FOB).",
   "concepts": [
     "Beneficios micro y macroeconómicos de exportar",
@@ -20,40 +20,176 @@
   ],
   "sections": [
     {
-      "h": "Por qué exportamos: beneficios y factores previos",
-      "p": "Antes de exportar conviene distinguir los beneficios macroeconómicos, que son para el país en su conjunto (la exportación es un factor dinámico del crecimiento económico y ayuda, junto con créditos e inversiones, a afrontar el pago de importaciones y de la deuda externa), de los microeconómicos, que son para la empresa que tiene un excedente (diversificar riesgos, aumentar ventas, reducir capacidad ociosa). También hay que analizar condicionantes: los endógenos son internos a la empresa y ella puede modificarlos (capacidad de producción, capacidad financiera, conocimiento de mercados, personal especializado), mientras que los exógenos son externos y muestran las características del mercado de destino (usos, costumbres, comportamiento de la competencia, disponibilidad de transporte). Ojo con el parcial: suelen invertir esta clasificación a propósito para confundir endógeno con exógeno."
+      "h": "¿Qué diferencia hay entre los beneficios macroeconómicos y los microeconómicos de exportar?",
+      "p": "Los macroeconómicos son para el país en su conjunto: la exportación es un factor dinámico del crecimiento y ayuda, junto con créditos e inversiones, a afrontar el pago de importaciones y de la deuda externa. Los microeconómicos son para la empresa que tiene un excedente: diversificar riesgos, aumentar ventas y reducir capacidad ociosa."
     },
     {
-      "h": "Destinaciones de exportación: definitiva vs. suspensiva",
-      "p": "Toda exportación necesita una destinación declarada ante la aduana. La destinación definitiva de exportación para consumo es la más común: la mercadería sale del país por tiempo indeterminado, se puede comercializar libremente en destino, genera hecho imponible (por eso corresponden derechos de exportación y reintegros) y se le aplican tanto prohibiciones económicas como no económicas. Las destinaciones suspensivas (tránsito, removido, temporaria) en cambio garantizan tributos en vez de pagarlos y tienen un plazo determinado: el tránsito de exportación es cuando la mercadería se declara en una aduana pero sale por otra; la temporaria obliga a reimportarla para consumo antes de que venza el plazo. El egreso hacia una zona franca se trata como exportación suspensiva, mientras que el egreso desde la zona franca hacia un tercer país se considera exportación definitiva. También se puede rectificar la destinación ya oficializada: antes del libramiento sin problema, y después del libramiento solo hasta que la mercadería se cargue a bordo (marítimo/aéreo) o hasta el último control de frontera (terrestre)."
+      "h": "¿Qué son los condicionantes endógenos que hay que analizar antes de exportar?",
+      "p": "Son los factores internos de la empresa, sobre los cuales ella puede incidir o tomar medidas: capacidad de producción, capacidad financiera, conocimiento de los mercados, disponibilidad de personal especializado, y capacidad de dar financiamiento y servicio posventa."
     },
     {
-      "h": "El procedimiento aduanero, la verificación y el régimen de muestras",
-      "p": "Aduaneramente, el procedimiento de exportación arranca cuando el declarante ingresa los datos requeridos al Sistema Informático Malvina (SIM), no cuando 'presenta' documentación en la aduana (una trampa típica de examen). La verificación de la mercadería que hace el servicio aduanero antes del embarque no sirve para fijar aranceles: sirve para controlar, clasificar y valorar la mercadería, determinar el régimen legal aplicable y comparar lo declarado contra lo real. El canal naranja es el que exige presentar la documentación de la operación. El régimen de muestras tiene reglas propias: están exentas de prohibiciones económicas (no de las no económicas), igual tienen que pagar tasas retributivas de servicios, el tope de valor de exportación es USD 20.000 (USD 100 si es una muestra importada), tienen que estar inutilizadas para la venta y no ser enajenables."
+      "h": "¿Qué son los condicionantes exógenos, y por qué suele ser una trampa típica del parcial?",
+      "p": "Son externos a la empresa y muestran las características del mercado de destino: usos y costumbres de los consumidores, comportamiento de la competencia, disponibilidad de transporte. El parcial suele invertir a propósito la definición, atribuyéndole al endógeno lo que en realidad es del exógeno (o viceversa)."
     },
     {
-      "h": "Costeo de una exportación y política de precios",
-      "p": "El costo de exportación (CX) suma todo lo necesario para producir y colocar la mercadería en el exterior: materia prima, mano de obra, carga fabril, gastos administrativos, comerciales y financieros, más los gastos directos e indirectos de exportación. A partir del CX se llega al FOB aplicando la utilidad esperada y el reintegro, y restando el drawback. La utilidad puede pensarse como Utilidad Bruta (UB) o Utilidad Neta (UN), relacionadas por UB = UN / (1 - alícuota del Impuesto a las Ganancias). En cuanto a políticas de precios: la orientada al mercado mira el precio de la competencia considerando todos los costos (no solo los variables, eso es propio de la política orientada a la empresa, que busca el costo marginal); y la orientada al beneficio máximo toma el precio de venta de la competencia en destino y le resta los costos de comercialización, nacionalización y transporte para encontrar el FOB máximo conveniente."
+      "h": "¿Qué características tiene la destinación definitiva de exportación para consumo?",
+      "p": "Es el régimen más común: la mercadería sale por tiempo indeterminado, se puede comercializar libremente en destino, genera hecho imponible (corresponden derechos de exportación y reintegros), y se le aplican tanto prohibiciones económicas como no económicas."
     },
     {
-      "h": "Contratos y documentos de la operación",
-      "p": "El contrato de compraventa internacional es el documento más importante porque plasma la voluntad de las partes y sus obligaciones. Puede ser 'puro' (las partes lo firman estando presentes, en el mismo acto) o 'impuro' (una parte lo redacta y lo envía para que la otra lo acepte, por ejemplo con una orden de compra o una oferta en firme). La Convención de Viena de 1980 aplica cuando las partes tienen sus establecimientos en distintos Estados, y en Argentina la aceptación siempre debe hacerse por escrito. Entre los documentos que respaldan la operación: la factura comercial es la que usa la aduana para determinar el valor FOB o CIF; el certificado de origen (emitido por las Cámaras de Comercio) permite saber qué tributo corresponde según la posición arancelaria; y los documentos de transporte (B/L, guía aérea, MIC/DTA, carta de porte, DTM) prueban el contrato de transporte y, en el caso del B/L, funcionan como título de propiedad de la carga."
+      "h": "¿Qué tienen en común las destinaciones suspensivas de exportación (tránsito, removido, temporaria)?",
+      "p": "En lugar de pagar los tributos, los garantizan, y la mercadería permanece fuera del territorio aduanero por un plazo determinado, a diferencia de la destinación definitiva que no tiene plazo."
     },
     {
-      "h": "Instrumentos de pago",
-      "p": "Hay cuatro instrumentos típicos. La orden de pago (transferencia) es simple y barata, pero el banco no garantiza el cobro: por defecto es revocable, intransferible y puede ser divisible o no. La cobranza (simple o documentaria) tampoco la garantiza el banco, que solo gestiona el cobro; requiere confianza entre las partes porque el exportador ya despachó la mercadería antes de cobrar. La carta de crédito se usa cuando no hay confianza entre comprador y vendedor, porque un banco garantiza el pago si se cumplen los documentos pactados: si no se aclara nada, se considera irrevocable, no confirmada, intransferible y no divisible. La letra de cambio es un documento financiero que recién tiene validez cuando el comprador (deudor) la acepta, y se usa mucho en cobranzas a plazo."
+      "h": "¿Qué diferencia hay entre la destinación de removido y la de temporaria, dentro de las suspensivas?",
+      "p": "El removido no genera hecho imponible, por lo que no corresponde el pago de incentivos promocionales como el reintegro. La temporaria permite que la mercadería quede en el exterior con una finalidad y un plazo determinado, pero obliga a reimportarla para consumo antes de que venza ese plazo."
     },
     {
-      "h": "Garantías, seguros y financiamiento",
-      "p": "No hay que confundir las garantías aduaneras (póliza de caución, garantía bancaria, efectivo), que protegen al Estado/la Aduana, con el seguro de crédito a la exportación, que protege al exportador cubriendo riesgos comerciales como quiebra, mora prolongada e insolvencia del comprador (no cubre guerra civil ni robo en tránsito, eso lo cubre el seguro de transporte internacional). En cuanto al financiamiento, el tradicional sale de fondos propios o líneas de crédito bancarias; el no tradicional incluye instrumentos como el warrant (crédito bancario usando mercadería depositada como garantía real), el factoring (una entidad compra los créditos por cobrar de corto plazo, con cualquier título de crédito) y el forfaiting (similar pero de largo plazo, con letras de cambio o pagarés)."
+      "h": "¿Cómo se clasifica el egreso de mercadería hacia una zona franca, y el egreso desde la zona franca hacia un tercer país?",
+      "p": "El egreso hacia zona franca se considera operativamente una exportación suspensiva. El egreso desde la zona franca hacia un tercer país, en cambio, se considera una exportación definitiva."
     },
     {
-      "h": "Relaciones económicas internacionales: mercados, balanza de pagos e integración",
-      "p": "La Balanza de Pagos registra todos los ingresos y egresos de bienes, servicios, capital y transferencias entre un país y el resto del mundo (no solo mercaderías), y se divide en cuenta corriente, cuenta de capital, cuenta financiera y errores y omisiones; la balanza comercial es la sub-cuenta que registra específicamente la compra y venta de mercaderías a valor FOB. Los procesos de integración, a diferencia de los de cooperación (que están abiertos a cualquier país), restringen el ingreso a países de una región y avanzan por etapas: área de preferencias arancelarias, zona de libre comercio (sin aranceles internos, cada uno mantiene el propio hacia afuera), unión aduanera (agrega el Arancel Externo Común), mercado común (agrega libre circulación de personas, capital y trabajo) y unión económica (agrega políticas económicas coordinadas, a veces moneda común). Organismos como la OMC, el FMI o la ONU son de cooperación: buscan ordenar el comercio o ayudar al desarrollo, pero no restringen su membresía a una región."
+      "h": "¿Hasta qué momento se puede rectificar una destinación de exportación ya oficializada?",
+      "p": "Antes del libramiento se puede rectificar sin problema, siempre que la aduana no haya iniciado control documental ni verificación. Después del libramiento, solo hasta que la mercadería se cargue a bordo (transporte marítimo o aéreo) o hasta el último control de la aduana de frontera (transporte terrestre)."
     },
     {
-      "h": "Ejercicio numérico resuelto: exportación combinada con un insumo importado",
-      "p": "Un caso típico de parcial combina el costeo de una exportación con la importación de una pieza que se usa como insumo. Ejemplo real: se exportan 100 paneles de calefacción a Bolivia, y para fabricarlos hay que importar 100 placas electrónicas desde India por USD 1.330 FCA. Primero se resuelve el lado importador: FCA 1.330 + flete aéreo 250 = CPT 1.580; con un seguro del 1% se llega a un CIF de USD 1.595,80; sobre esa CIF se aplican el AEC (9% = 143,62) y la tasa de estadística (3% = 47,87), dando una Base Imponible de USD 1.787,30; sobre esa base se calculan IVA (21%), IVA adicional (20%), Ganancias (6%) e Ingresos Brutos (3%), que junto con gastos locales (bancarios, despacho, derecho de aduana, comisión bancaria, flete interno) arman un Presupuesto total de USD 3.014,93, mientras que el Costo (que excluye las percepciones e IVA recuperables) queda en USD 2.121,29. Ese mismo CIF de USD 1.595,80 se usa después como 'CIF MPI' (materia prima importada) dentro del costeo de exportación: sumando costos de producción, mano de obra, gastos administrativos, financieros, comerciales, gastos directos e indirectos de exportación, gravámenes e incentivos, se llega a un Costo de Exportación (CX) de USD 10.187,29, que al aplicar la utilidad y el reintegro y restar el drawback da un FOB final (precio de exportación) de USD 12.803,24, es decir, USD 128,03 por unidad."
+      "h": "¿Qué reglas particulares tiene el régimen de muestras en una exportación?",
+      "p": "Están exentas de prohibiciones económicas (no de las no económicas), igual tienen que pagar tasas retributivas de servicios, el tope de exportación es USD 20.000 (USD 100 si es una muestra importada), deben estar inutilizadas para la venta y no ser enajenables."
+    },
+    {
+      "h": "¿Cuándo comienza, aduaneramente, el procedimiento de exportación?",
+      "p": "Cuando el declarante ingresa al Sistema Informático Malvina (SIM) los datos requeridos según el régimen de destinación elegido, no cuando 'presenta' documentación físicamente ante la aduana (una trampa clásica de examen)."
+    },
+    {
+      "h": "¿Para qué sirve la verificación de mercadería que hace el servicio aduanero antes del embarque, y qué canal la exige?",
+      "p": "Sirve para controlar, clasificar y valorar la mercadería, determinar el régimen legal aplicable y comparar lo declarado contra lo real; no sirve para fijar aranceles. El canal de selectividad que exige presentar la documentación de la operación es el canal naranja."
+    },
+    {
+      "h": "¿Qué es el drawback y cuándo se aplica?",
+      "p": "Es un incentivo directo a la exportación que restituye, total o parcialmente, los tributos de importación que el exportador pagó por una mercadería, siempre que esa mercadería importada sea luego exportada para consumo después de un proceso de transformación, o se use para acondicionar o envasar lo exportado."
+    },
+    {
+      "h": "Cuando se concreta la venta bajo el régimen de exportación en consignación, ¿qué presenta el despachante ante la aduana?",
+      "p": "No presenta la garantía (póliza de caución), sino la documentación de venta definitiva (factura final), con la cual la aduana realiza la liquidación final de los tributos: si corresponde pagar más se ejecuta la garantía, si el valor fue menor o igual, se libera."
+    },
+    {
+      "h": "¿Qué diferencia hay entre el Costo de Exportación (CX) y el valor FOB?",
+      "p": "El CX suma todo lo necesario para producir y colocar la mercadería lista para exportar: materia prima, mano de obra, carga fabril, gastos administrativos, comerciales y financieros, más los gastos directos e indirectos de exportación. El FOB se obtiene a partir del CX aplicando la utilidad esperada y el reintegro, y restando el drawback."
+    },
+    {
+      "h": "¿Por qué es falso decir que el riesgo y los gastos del canal de distribución se incluyen en el valor FOB de exportación?",
+      "p": "Porque en FOB el vendedor asume costos y riesgos solo hasta que la mercadería está cargada a bordo del medio de transporte en el puerto de embarque. Los costos y riesgos posteriores (transporte internacional, seguro) corresponden a los Incoterms de los grupos C y D."
+    },
+    {
+      "h": "¿Qué mira la política de precios orientada al mercado, y qué costos considera?",
+      "p": "Mira el precio de la competencia en el mercado de destino, pero considerando todos los costos, fijos y variables, no solo los variables."
+    },
+    {
+      "h": "¿Qué política de precios considera solo los costos variables, dejando los fijos para el mercado local?",
+      "p": "La política orientada a la empresa, que busca llegar al costo marginal para fijar el precio de exportación."
+    },
+    {
+      "h": "¿Cómo se calcula el FOB máximo según la política de precios orientada al beneficio máximo?",
+      "p": "Se toma el precio de venta de la competencia en el mercado de destino y se le restan los costos de comercialización, nacionalización y transporte, para encontrar el valor FOB máximo conveniente."
+    },
+    {
+      "h": "¿Qué diferencia hay entre un contrato de compraventa internacional puro y uno impuro?",
+      "p": "El puro es 'entre presentes': las partes lo firman estando presentes, en el mismo acto. El impuro es 'entre ausentes': una parte lo redacta y lo envía para que la otra lo acepte, por ejemplo con una orden de compra o una oferta en firme."
+    },
+    {
+      "h": "¿Cuándo se aplica la Convención de Viena de 1980, y qué exige en Argentina?",
+      "p": "Se aplica cuando las partes contratantes tienen sus establecimientos en distintos Estados. En Argentina, la aceptación (o cualquier otra manifestación de voluntad) del contrato siempre debe hacerse por escrito."
+    },
+    {
+      "h": "¿Qué documento usa la aduana para determinar el valor FOB o CIF de una operación, y qué documento emiten las Cámaras de Comercio?",
+      "p": "La factura comercial es el documento que usa la aduana para determinar el valor en aduana. El certificado de origen lo emiten las Cámaras de Comercio de cada país y permite saber qué tributo corresponde según la posición arancelaria."
+    },
+    {
+      "h": "¿Por qué el Conocimiento de Embarque (B/L) es más que un simple comprobante de transporte marítimo?",
+      "p": "Porque, además de probar el contrato de transporte, funciona como título de propiedad de la carga: quien tiene el B/L original es el dueño de la mercadería."
+    },
+    {
+      "h": "¿Cuáles son las características por defecto de una orden de pago (transferencia)?",
+      "p": "Es revocable por defecto (se puede cancelar mientras no haya sido cobrada, salvo que se pacte irrevocable) e intransferible (solo la cobra el beneficiario designado); puede ser divisible o indivisible según lo que se acuerde. El banco solo actúa como intermediario y no garantiza el pago."
+    },
+    {
+      "h": "¿Por qué la cobranza documentaria requiere confianza entre exportador e importador?",
+      "p": "Porque el banco solo gestiona el cobro, no lo garantiza, y el exportador ya despachó la mercadería antes de cobrar."
+    },
+    {
+      "h": "Si no se aclara nada, ¿qué características tiene por defecto una carta de crédito?",
+      "p": "Se considera irrevocable, no confirmada, intransferible y no divisible, salvo que se pacte expresamente lo contrario."
+    },
+    {
+      "h": "¿Cuándo empieza a tener validez una letra de cambio?",
+      "p": "Recién cuando el comprador (deudor) la acepta. Se usa mucho en las cobranzas a plazo."
+    },
+    {
+      "h": "¿Qué riesgos cubre el seguro de crédito a la exportación, cuáles no cubre, y en qué se diferencia de una garantía aduanera?",
+      "p": "Cubre riesgos comerciales del comprador como quiebra, mora prolongada e insolvencia. No cubre guerra civil ni robo en tránsito, eso lo cubre el seguro de transporte internacional de carga. Además, protege al exportador, mientras que las garantías aduaneras (póliza de caución, garantía bancaria, efectivo) protegen al Estado/la Aduana."
+    },
+    {
+      "h": "¿Qué es el warrant como instrumento de financiamiento no tradicional?",
+      "p": "Es un crédito que se obtiene usando mercadería depositada en un almacén autorizado como garantía real: la almacenadora emite un certificado de depósito y un warrant, y el dueño endosa ese warrant a un banco para conseguir el préstamo."
+    },
+    {
+      "h": "¿Qué diferencia hay entre factoring y forfaiting?",
+      "p": "El factoring es de corto plazo: una entidad compra los créditos por cobrar de la empresa usando cualquier tipo de título de crédito. El forfaiting es similar pero de largo plazo, y se instrumenta con letras de cambio o pagarés."
+    },
+    {
+      "h": "¿Qué registra la Balanza de Pagos, en qué se divide, y qué es específicamente la Balanza Comercial?",
+      "p": "La Balanza de Pagos registra los ingresos y egresos de bienes, servicios, capital y transferencias entre un país y el resto del mundo, y se divide en cuenta corriente, cuenta de capital, cuenta financiera y errores y omisiones. La Balanza Comercial es la sub-cuenta que registra específicamente la compra y venta de mercaderías a valor FOB."
+    },
+    {
+      "h": "¿Cuáles son las etapas progresivas de un proceso de integración económica?",
+      "p": "Área de preferencias arancelarias, zona de libre comercio (sin aranceles internos, cada país mantiene el propio hacia afuera), unión aduanera (agrega el Arancel Externo Común), mercado común (agrega libre circulación de personas, capital y trabajo) y unión económica (agrega políticas económicas coordinadas, a veces con moneda común)."
+    },
+    {
+      "h": "¿Qué diferencia a los procesos de integración de los organismos de cooperación internacional?",
+      "p": "Los procesos de integración restringen el ingreso a países de una región determinada (por ejemplo CARICOM, NAFTA, la Unión Europea). Los organismos de cooperación están abiertos a cualquier país y buscan ordenar el comercio o ayudar al desarrollo (por ejemplo OMC, FMI, ONU)."
+    },
+    {
+      "h": "En la importación de las placas electrónicas para los paneles de calefacción (FCA USD 1.330, flete aéreo USD 250, seguro 1% del CPT), ¿cuánto da el CIF?",
+      "p": "CPT = FCA + flete = 1.330 + 250 = USD 1.580. Seguro = 1% de 1.580 = USD 15,80. CIF = 1.580 + 15,80 = USD 1.595,80."
+    },
+    {
+      "h": "Con ese CIF de USD 1.595,80, aplicando AEC 9% y tasa de estadística 3%, ¿cuánto da la Base Imponible de la importación?",
+      "p": "AEC = 9% de 1.595,80 = USD 143,62. Tasa de estadística = 3% de 1.595,80 = USD 47,87. Base Imponible = CIF + AEC + TE = 1.595,80 + 143,62 + 47,87 = USD 1.787,30."
+    },
+    {
+      "h": "Sobre esa Base Imponible de USD 1.787,30 se calculan IVA (21%), IVA adicional (20%), Ganancias (6%) e Ingresos Brutos (3%). ¿Cuánto suma el subtotal (Base Imponible + esos cuatro impuestos)?",
+      "p": "IVA = 375,33; IVA adicional = 357,46; Ganancias = 107,24; Ingresos Brutos = 53,62 (suman USD 893,65). Sumados a la Base Imponible dan un subtotal de USD 2.680,94."
+    },
+    {
+      "h": "En esa importación, el derecho de aduana (DA) se pactó en 2% del CIF con un mínimo de USD 100. ¿Cuánto se termina pagando de DA?",
+      "p": "2% de USD 1.595,80 = USD 31,92, que es menor al mínimo pactado. Como hay un piso de USD 100, se paga ese mínimo."
+    },
+    {
+      "h": "Sumando los gastos locales (bancarios, DA, despacho, comisión bancaria, flete interno y corte de guía, que totalizan USD 333,99) al subtotal de impuestos (USD 2.680,94), ¿cuál es el Presupuesto total de esa importación, y por qué el 'Costo' final es más bajo?",
+      "p": "El Presupuesto total da USD 3.014,93. El 'Costo' (USD 2.121,29) es más bajo porque excluye las percepciones y el IVA que son recuperables como crédito fiscal, mientras que el Presupuesto incluye todo lo que hay que desembolsar en el momento."
+    },
+    {
+      "h": "Ese mismo CIF de USD 1.595,80 (de la placa importada) se reutiliza en el costeo de exportación del producto final. ¿Bajo qué rubro entra ahí?",
+      "p": "Entra como 'CIF MPI' (materia prima importada), uno de los rubros que se usan para calcular el reintegro y armar el Costo de Exportación (CX) del producto terminado."
+    },
+    {
+      "h": "En el costeo de exportación de los 100 paneles de calefacción a Bolivia, sumando costos de producción, gastos administrativos, financieros, directos e indirectos de exportación y gravámenes, ¿cuánto da el Costo de Exportación (CX)?",
+      "p": "El CX de esa exportación da USD 10.187,29."
+    },
+    {
+      "h": "A partir de ese CX de USD 10.187,29, aplicando la utilidad y el reintegro y restando el drawback, ¿cuál es el FOB final (precio de exportación) de los 100 paneles, total y por unidad?",
+      "p": "El FOB final da USD 12.803,24 en total, es decir USD 128,03 por unidad."
+    },
+    {
+      "h": "En el ejercicio resuelto de 850 protectores auditivos (MP nacional $120.000, embalaje $50.000, MO $2.700 por unidad, TC 348, utilidad neta 21%), ¿qué CX y qué FOB final da el costeo?",
+      "p": "El Costo de Exportación (CX) da USD 8.504,52 y el FOB final (precio de exportación) da USD 12.984,61."
+    },
+    {
+      "h": "En el ejercicio resuelto de 750 latas (MP nacional $720.000, embalaje $150.000, MO $3.700 por unidad, TC 348, derechos de exportación 6%, reintegro 4%), ¿qué CX y FOB final da el costeo?",
+      "p": "El CX da USD 12.577,07 y el FOB final da USD 19.210,08, es decir USD 25,61 por unidad."
+    },
+    {
+      "h": "En el ejercicio de los compresores para Honduras vendidos en condición CIF, el FOB (precio de exportación) da USD 35.547,22. ¿Qué pasos hay que dar para llegar al CIF final?",
+      "p": "Como la venta es CIF, hay que sumarle al FOB el flete internacional (USD 4.600) para obtener el CFR (USD 40.147,22), y después el seguro (1% del CFR, unos USD 401,47) para llegar al CIF final de USD 40.548,69."
     }
   ]
 }
