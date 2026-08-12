@@ -154,5 +154,35 @@
     "options": ["Sí, igual que una lámpara incandescente", "No, emiten un espectro discontinuo con picos en ciertas longitudes de onda", "Solo si tienen alta potencia", "Solo las de última generación"],
     "answerIndex": 1,
     "explanation": "Las lámparas de descarga emiten un espectro discontinuo, lo que suele darles un IRC menor al de las lámparas incandescentes, que sí tienen espectro continuo."
+  },
+  {
+    "question": "¿Cuáles son los dos grandes grupos en que se clasifican las válvulas según su función?",
+    "options": ["Manuales y automáticas", "Interceptoras (todo/nada) y reguladoras de caudal", "De alta y baja presión", "Metálicas y plásticas"],
+    "answerIndex": 1,
+    "explanation": "Las interceptoras cortan o dejan pasar el flujo completo (ej. esférica, compuerta); las reguladoras admiten posiciones intermedias para estrangular el caudal (ej. globo)."
+  },
+  {
+    "question": "¿Qué caracteriza a una válvula de ¼ de vuelta como la esférica?",
+    "options": ["Necesita muchas vueltas de volante para abrir del todo", "Abre o cierra totalmente con un giro de 90°, ideal para corte rápido todo/nada", "Solo sirve para regular caudal con precisión", "Se usa exclusivamente en circuitos de vapor"],
+    "answerIndex": 1,
+    "explanation": "La válvula esférica tiene una bola perforada que con un giro de 90° alinea o bloquea el paso — corte rápido y hermético, no pensada para regular caudal."
+  },
+  {
+    "question": "¿Por qué se elige una válvula globo para regular caudal y no una esférica?",
+    "options": ["Porque es más barata", "Porque su obturador permite posiciones intermedias estables sin el desgaste que sufriría una esférica a medio abrir", "Porque pesa menos", "Porque no necesita mantenimiento"],
+    "answerIndex": 1,
+    "explanation": "El obturador de la válvula globo estrangula el paso en forma gradual y estable; una válvula de ¼ de vuelta como la esférica no está diseñada para trabajar en posiciones intermedias sin desgastarse."
+  },
+  {
+    "question": "En una unión de caños por soldadura a tope (butt weld), ¿cómo se preparan los extremos?",
+    "options": ["Se insertan uno dentro del otro sin biselar", "Se biselan y se sueldan enfrentados, con el cordón atravesando todo el espesor de pared", "Se unen con bulones sin soldadura", "Se roscan entre sí"],
+    "answerIndex": 1,
+    "explanation": "La soldadura a tope bisela los extremos y suelda a través de todo el espesor, ideal para diámetros grandes y servicios críticos — a diferencia del socket weld, donde el caño se inserta en un accesorio."
+  },
+  {
+    "question": "¿Cuál es la diferencia entre un fusible gL y un fusible aM?",
+    "options": ["Son el mismo fusible con distinto nombre comercial", "El gL protege sobrecarga y cortocircuito; el aM protege solo cortocircuito y soporta la corriente de arranque del motor", "El aM es solo para uso residencial de baja tensión", "El gL se usa únicamente en circuitos de motores"],
+    "answerIndex": 1,
+    "explanation": "El gL (uso general) cubre todo el rango de corriente. El aM (acompañamiento de motor) solo corta ante cortocircuito, dejando pasar sin fundirse el pico de arranque del motor — la sobrecarga la cubre el relé térmico aparte."
   }
 ]

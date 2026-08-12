@@ -18,7 +18,9 @@
     "Disyuntor diferencial",
     "Arranque de motor trifásico",
     "Temperatura de color e IRC",
-    "Nivel de iluminación media"
+    "Nivel de iluminación media",
+    "Clasificación de válvulas (interceptoras vs reguladoras)",
+    "Fusible gL vs aM"
   ],
   "sections": [
     {
@@ -35,11 +37,11 @@
     },
     {
       "h": "Caños: Schedule, bridas y roscas",
-      "p": "El Schedule es un número que indica el espesor de pared de un caño según norma ASTM (a mayor Schedule, más espesor, para mayor presión). Las bridas son los elementos que unen dos tramos de cañería con bulones — hay varios tipos según la cara de sellado (ej: Welding Neck, que se suelda directo al caño) y según la clase de presión. En roscas: la rosca cónica sella por ajuste (se puede usar sola), la cilíndrica necesita un sellador adicional porque no genera presión de sellado por sí sola — por eso no se talla rosca cilíndrica en el extremo libre de un caño."
+      "p": "El Schedule es un número que indica el espesor de pared de un caño según norma ASTM (a mayor Schedule, más espesor, para mayor presión). Las bridas son los elementos que unen dos tramos de cañería con bulones — hay varios tipos según la cara de sellado (ej: Welding Neck, que se suelda directo al caño) y según la clase de presión. En roscas: la rosca cónica sella por ajuste (se puede usar sola), la cilíndrica necesita un sellador adicional porque no genera presión de sellado por sí sola — por eso no se talla rosca cilíndrica en el extremo libre de un caño. Para uniones soldadas, los dos procesos típicos son: soldadura a tope (butt weld), que bisela los extremos y suelda a través de todo el espesor de pared (diámetros grandes, servicios críticos), y soldadura de filete o socket weld, donde el caño se inserta en un accesorio y se suelda por fuera (más rápida, para diámetros chicos, pero deja una pequeña zona muerta donde puede acumularse producto)."
     },
     {
       "h": "Clasificación de bombas y válvulas",
-      "p": "Bombas: se dividen en dinámicas (centrífugas — usan un rotor que acelera el líquido y después esa velocidad se convierte en presión) y de desplazamiento positivo (empujan un volumen fijo de líquido en cada ciclo, dan caudal constante casi sin importar la presión — se usan para caudales chicos, alta presión, o líquidos viscosos/con sólidos). Para elegir bomba en un ejercicio: si piden alta presión con caudal chico (ej. hidráulico), es de desplazamiento positivo; si piden caudal grande con sólidos en suspensión, hay que buscar una bomba centrífuga robusta que tolere sólidos (ej. tipo vórtice). Válvulas: se clasifican en interceptoras (todo/nada, ej. esférica y compuerta) y reguladoras (regulan caudal, ej. válvula globo)."
+      "p": "Bombas: se dividen en dinámicas (centrífugas — usan un rotor que acelera el líquido y después esa velocidad se convierte en presión) y de desplazamiento positivo (empujan un volumen fijo de líquido en cada ciclo, dan caudal constante casi sin importar la presión — se usan para caudales chicos, alta presión, o líquidos viscosos/con sólidos). Para elegir bomba en un ejercicio: si piden alta presión con caudal chico (ej. hidráulico), es de desplazamiento positivo; si piden caudal grande con sólidos en suspensión, hay que buscar una bomba centrífuga robusta que tolere sólidos (ej. tipo vórtice). Válvulas: se clasifican en interceptoras, de todo/nada (ej. esférica, compuerta, mariposa) y reguladoras de caudal (ej. globo). Las de ¼ de vuelta (esférica, mariposa) abren/cierran del todo con un giro de 90° — rápidas pero no aptas para regular. La válvula globo, en cambio, estrangula el paso gradualmente con su obturador y vástago roscado, por eso es la elegida cuando hay que regular caudal sin desgastarse en posiciones intermedias."
     },
     {
       "h": "El bloque eléctrico: aprobación, tableros y CAMMESA",
@@ -47,7 +49,7 @@
     },
     {
       "h": "Protecciones eléctricas",
-      "p": "La protección termomagnética combina un elemento térmico (dispara ante sobrecargas lentas, por calentamiento) y uno magnético (dispara rápido ante cortocircuitos). El disyuntor diferencial protege a las PERSONAS: detecta una fuga de corriente a tierra (por ejemplo si alguien toca un cable vivo) y corta el circuito. Por eso se dice que la puesta a tierra y el disyuntor diferencial son complementarios: la puesta a tierra da un camino de baja resistencia para que circule la corriente de fuga, y el diferencial la detecta y corta — sin tierra, el diferencial es mucho menos efectivo."
+      "p": "La protección termomagnética combina un elemento térmico (dispara ante sobrecargas lentas, por calentamiento) y uno magnético (dispara rápido ante cortocircuitos). El disyuntor diferencial protege a las PERSONAS: detecta una fuga de corriente a tierra (por ejemplo si alguien toca un cable vivo) y corta el circuito. Por eso se dice que la puesta a tierra y el disyuntor diferencial son complementarios: la puesta a tierra da un camino de baja resistencia para que circule la corriente de fuga, y el diferencial la detecta y corta — sin tierra, el diferencial es mucho menos efectivo. En fusibles: el gL (uso general) protege sobrecarga y cortocircuito; el aM (acompañamiento de motor) solo corta ante cortocircuito, dejando pasar sin fundirse el pico de arranque del motor — la sobrecarga la cubre el relé térmico del motor aparte. El fusible NH es un fusible industrial de cuchillas de alta capacidad de ruptura."
     },
     {
       "h": "Motores trifásicos y arranque",
