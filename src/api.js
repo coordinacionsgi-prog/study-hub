@@ -13,14 +13,6 @@ export async function getModules(subjectId) {
   return jsonOrThrow(await fetch(`${BASE}/${subjectId}/modules.json`));
 }
 
-export async function getFlashcards(subjectId, moduleId) {
-  return jsonOrThrow(await fetch(`${BASE}/${subjectId}/flashcards/${moduleId}.json`));
-}
-
-export async function getQuiz(subjectId, moduleId) {
-  return jsonOrThrow(await fetch(`${BASE}/${subjectId}/quiz/${moduleId}.json`));
-}
-
 export async function getTheory(subjectId, moduleId) {
   return jsonOrThrow(await fetch(`${BASE}/${subjectId}/theory/${moduleId}.json`));
 }

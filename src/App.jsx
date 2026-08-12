@@ -1,17 +1,9 @@
 import { useEffect, useState } from "react";
 import { getSubjects, getModules } from "./api";
-import FlashcardView from "./components/FlashcardView";
-import QuizView from "./components/QuizView";
 import TheoryView from "./components/TheoryView";
 import ConceptMapView from "./components/ConceptMapView";
 import DiagramsView from "./components/DiagramsView";
 import "./index.css";
-
-const TABS = [
-  { id: "teoria", label: "Teoría" },
-  { id: "flashcards", label: "Flashcards" },
-  { id: "quiz", label: "Quiz" },
-];
 
 export default function App() {
   const [subjects, setSubjects] = useState(null);
@@ -20,7 +12,6 @@ export default function App() {
   const [error, setError] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
   const [view, setView] = useState(null); // "map" | "diagrams" | null
-  const [tab, setTab] = useState("teoria");
 
   useEffect(() => {
     getSubjects().then(setSubjects).catch((e) => setError(e.message));
@@ -51,7 +42,7 @@ export default function App() {
         <main className="main-content" style={{ width: "100%" }}>
           <div className="home-view">
             <h2>¿Qué materia querés estudiar?</h2>
-            <p>Elegí una materia para ver su mapa conceptual, diagramas, teoría, flashcards y quizzes.</p>
+            <p>Elegí una materia para ver su mapa conceptual, diagramas y teoría resumida.</p>
             <div className="home-grid">
               {subjects?.map((s) => (
                 <button key={s.id} className="home-card" onClick={() => setSubjectId(s.id)}>
@@ -107,7 +98,6 @@ export default function App() {
               onClick={() => {
                 setSelectedId(m.id);
                 setView(null);
-                setTab("teoria");
               }}
             >
               <span className="module-item-title">{m.title}</span>
@@ -134,7 +124,7 @@ export default function App() {
         {!view && !selected && (
           <div className="home-view">
             <h2>¡Bienvenido!</h2>
-            <p>Elegí un módulo de la izquierda para estudiar la teoría, o repasar con flashcards y quizzes.</p>
+            <p>Elegí un módulo de la izquierda para estudiar la teoría resumida.</p>
             <div className="home-grid">
               {modules?.map((m) => (
                 <button key={m.id} className="home-card" onClick={() => setSelectedId(m.id)}>
@@ -153,23 +143,10 @@ export default function App() {
                 <h2>{selected.title}</h2>
                 <p className="content-description">{selected.description}</p>
               </div>
-              <div className="tab-bar">
-                {TABS.map((t) => (
-                  <button
-                    key={t.id}
-                    className={`tab-button ${tab === t.id ? "active" : ""}`}
-                    onClick={() => setTab(t.id)}
-                  >
-                    {t.label}
-                  </button>
-                ))}
-              </div>
             </header>
 
             <div className="content-body">
-              {tab === "teoria" && <TheoryView subjectId={subjectId} moduleId={selected.id} />}
-              {tab === "flashcards" && <FlashcardView subjectId={subjectId} moduleId={selected.id} />}
-              {tab === "quiz" && <QuizView subjectId={subjectId} moduleId={selected.id} />}
+              <TheoryView subjectId={subjectId} moduleId={selected.id} />
             </div>
           </>
         )}
