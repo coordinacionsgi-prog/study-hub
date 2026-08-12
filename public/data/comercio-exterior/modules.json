@@ -28,5 +28,17 @@
     "title": "Minutas de clases",
     "unidad": "—",
     "description": "Resumen de lo tratado en cada clase, tomado por la cátedra."
+  },
+  {
+    "id": "parcial-1",
+    "title": "1er Parcial (repaso + práctica)",
+    "unidad": "—",
+    "description": "Preguntas teóricas reales del primer parcial con respuesta, más ejercicios numéricos de cotización e importación resueltos."
+  },
+  {
+    "id": "parcial-2",
+    "title": "2do Parcial (repaso + práctica)",
+    "unidad": "—",
+    "description": "Preguntas teóricas reales del segundo parcial con respuesta, más ejercicios numéricos de exportación e importación resueltos."
   }
 ]

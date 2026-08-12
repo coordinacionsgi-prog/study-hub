@@ -1,0 +1,158 @@
+[
+  {
+    "front": "¿Qué diferencia hay entre una destinación suspensiva y una definitiva?",
+    "back": "En la suspensiva la mercadería entra por un plazo y un objetivo determinado, no paga tributos (pero los garantiza), no circula libremente ni se puede vender, y solo rigen las prohibiciones no económicas. En la definitiva el ingreso es por tiempo indeterminado, se pagan todos los tributos, y hay libre circulación y comercialización."
+  },
+  {
+    "front": "¿Cuáles son los plazos del depósito de almacenamiento según la vía de ingreso?",
+    "back": "Tres meses si la mercadería llegó por vía marítima o fluvial, y un mes si llegó por vía terrestre o aérea."
+  },
+  {
+    "front": "¿Qué diferencia hay entre tránsito directo y tránsito hacia el interior?",
+    "back": "En el tránsito directo la mercadería va de una aduana de entrada a una de salida para ser exportada, sin someterse a otra destinación en el país. En el tránsito hacia el interior va de una aduana de entrada a otra aduana dentro del territorio, para someterse ahí a otra destinación."
+  },
+  {
+    "front": "Verdadero o falso: la valoración aduanera determina en qué posición del nomenclador se ubica la mercadería.",
+    "back": "Falso. Eso lo determina la posición o clasificación arancelaria. La valoración aduanera solo fija el precio de la mercadería en aduana para calcular la base imponible de los aranceles."
+  },
+  {
+    "front": "¿Sobre qué base se calcula el valor en aduana en una importación, y sobre cuál en una exportación?",
+    "back": "En importación siempre sobre base CIF, sin importar el Incoterm pactado. En exportación siempre sobre base FOB."
+  },
+  {
+    "front": "Mencioná tres formas de clasificar las exportaciones por su uso económico.",
+    "back": "Productos primarios, manufacturas de origen industrial (MOI) y manufacturas de origen agropecuario (MOA); también suele agregarse combustibles y energía."
+  },
+  {
+    "front": "Mencioná tres formas de clasificar las importaciones por su uso económico.",
+    "back": "Bienes de capital, bienes intermedios y combustibles (también piezas y accesorios para bienes de capital, vehículos automotores de pasajeros, y 'resto')."
+  },
+  {
+    "front": "De no decir lo contrario, ¿cómo se asume que es una carta de crédito?",
+    "back": "Irrevocable, confirmada, transferible y divisible."
+  },
+  {
+    "front": "¿Y una cobranza, si no se aclara nada al respecto?",
+    "back": "No tiene por defecto ninguna de esas características (no es irrevocable, ni confirmada, ni transferible, ni divisible); esos rasgos son propios de la carta de crédito, no de la cobranza."
+  },
+  {
+    "front": "¿Cuándo se dice que una carta de crédito es 'confirmada'?",
+    "back": "Cuando un tercer banco, distinto del emisor y del banco del importador, se compromete a pagarle al exportador si el banco emisor no cumple."
+  },
+  {
+    "front": "¿Qué instrumentos son de política promocional?",
+    "back": "Recupero del IVA, reintegro impositivo y seguro de crédito a la exportación, entre otros. El depósito de almacenamiento NO es promocional (es una destinación suspensiva) y los cupos tampoco (son de política comercial)."
+  },
+  {
+    "front": "¿Qué instrumentos son de política comercial y no promocional?",
+    "back": "Los cupos, los derechos ad valorem o específicos, las tasas, las contribuciones y los derechos antidumping/compensatorios: en general, todo lo que protege el mercado interno con medidas arancelarias o para-arancelarias."
+  },
+  {
+    "front": "¿Qué es el derecho antidumping y cuál es su tope?",
+    "back": "Es un derecho de importación adicional que se aplica a un producto de un país exportador determinado para acercar su precio al valor normal. No puede ser mayor al margen de dumping detectado."
+  },
+  {
+    "front": "¿Qué es el derecho compensatorio y cuál es su tope?",
+    "back": "Es un derecho de importación que se aplica para compensar un subsidio otorgado por el país exportador a la producción, fabricación o exportación de un bien. No puede superar el monto del subsidio otorgado."
+  },
+  {
+    "front": "¿Qué es una salvaguardia y qué la diferencia de las otras prácticas desleales?",
+    "back": "Es una medida de urgencia ante un aumento de importaciones que daña o amenaza dañar a la producción nacional. A diferencia del antidumping y el compensatorio, no requiere demostrar una práctica desleal, y puede consistir en restricciones cuantitativas temporales."
+  },
+  {
+    "front": "¿Qué acciones caracterizan a una subpolítica monetaria expansiva?",
+    "back": "Reducir la tasa de interés, reducir el encaje bancario, aumentar la emisión monetaria, devaluar la moneda, y rescatar títulos propios o adquirir bonos."
+  },
+  {
+    "front": "¿Y a una subpolítica monetaria restrictiva?",
+    "back": "Aumentar la tasa de interés, aumentar el encaje bancario, vender títulos, cortar la emisión monetaria y revaluar la moneda."
+  },
+  {
+    "front": "Ante un escenario de inflación con superávit, ¿qué política conviene aplicar?",
+    "back": "Una política monetaria restrictiva combinada con una revaluación de la moneda, no una expansiva con devaluación."
+  },
+  {
+    "front": "¿Qué registra la Balanza de Pagos?",
+    "back": "Todas las transacciones económicas entre los residentes de un país y el resto del mundo, sin importar la nacionalidad de las personas involucradas."
+  },
+  {
+    "front": "¿Qué diferencia hay entre origen y procedencia de una mercadería?",
+    "back": "La procedencia es el país desde donde se envió (un dato geográfico del embarque). El origen es el país donde fue producida íntegramente o sufrió una transformación sustancial, y es lo que determina el tratamiento arancelario."
+  },
+  {
+    "front": "Según el Código Aduanero, ¿cuándo es originaria de un país una mercadería fabricada con insumos de otro país?",
+    "back": "Cuando en ese país se realizó la transformación que produjo un cambio en su posición arancelaria (una transformación sustancial)."
+  },
+  {
+    "front": "¿Para qué se usan las normas de origen?",
+    "back": "Para aplicar medidas de política comercial (como antidumping o cupos), en la contratación pública, en el etiquetado y marcado de productos, y para elaborar estadísticas de comercio exterior."
+  },
+  {
+    "front": "¿Qué espacios quedan fuera del territorio aduanero?",
+    "back": "Las zonas francas, los exclaves, el mar territorial argentino y los ríos internacionales, el lecho y subsuelo submarino nacional, y determinados espacios aéreos."
+  },
+  {
+    "front": "¿Qué pasa con los tributos y el control aduanero dentro de una zona franca?",
+    "back": "No se aplican derechos de importación ni exportación (salvo tasas retributivas de servicios), y solo rigen las prohibiciones no económicas; la mercadería conserva su origen pero pierde la procedencia."
+  },
+  {
+    "front": "¿Qué es un enclave, según la teoría del Código Aduanero?",
+    "back": "Un ámbito bajo la soberanía de otro Estado donde, por un convenio internacional, se permite aplicar la legislación aduanera nacional. Hoy la Argentina no tiene enclaves."
+  },
+  {
+    "front": "¿Cuándo se puede pedir un Despacho Directo a Plaza, y cuándo es obligatorio?",
+    "back": "Se puede solicitar entre 5 y 2 días antes del arribo del medio de transporte, para llevar la mercadería directo a destino sin pasar por el depósito fiscal. Es obligatorio cuando la mercadería es riesgosa o difícil de almacenar."
+  },
+  {
+    "front": "¿Qué documento representa la carga al arribar el medio de transporte, y quién lo presenta?",
+    "back": "El MANI (Manifiesto de Ingreso), que presenta el ATA (Agente de Transporte Aduanero) ante la DGA."
+  },
+  {
+    "front": "¿Qué es el 'packing list' y con qué documento se lo suele confundir?",
+    "back": "Es la lista de empaque: detalla cantidades, pesos, dimensiones de los bultos y contenido de cada uno. Se lo suele confundir con el remito, que es un documento distinto."
+  },
+  {
+    "front": "¿Cuáles son los cuatro grupos de Incoterms 2020 y qué caracteriza a cada uno?",
+    "back": "Grupo E (EXW: entrega en fábrica), Grupo F (FCA/FAS/FOB: entrega en origen, el comprador contrata el transporte), Grupo C (CFR/CIF/CPT/CIP: el vendedor paga el transporte pero el riesgo pasa en origen) y Grupo D (DAP/DPU/DDP: el vendedor asume costos y riesgo hasta destino)."
+  },
+  {
+    "front": "¿Qué Incoterm 2020 es el único que incluye la descarga en destino? ¿Y cuál es el único que incluye los trámites de importación?",
+    "back": "DPU es el único que incluye la descarga en destino. DDP es el único que incluye los trámites de importación en destino."
+  },
+  {
+    "front": "¿Cuál es la diferencia entre buques liner y buques tramp?",
+    "back": "Los liner operan con itinerario y tarifas fijas (líneas regulares, conferenciados u outsiders). Los tramp se contratan a medida (por viaje, por tiempo o a casco desnudo), típicamente para cargas a granel como cereales."
+  },
+  {
+    "front": "¿Qué significa el término de embarque LIFO en el transporte marítimo?",
+    "back": "Liner In, Free Out: la naviera paga la carga, pero el dueño de la mercadería paga la descarga."
+  },
+  {
+    "front": "En un ejercicio de importación con FOB USD 28.125, flete USD 2.500 y seguro USD 306,25, ¿cuál es el valor CIF?",
+    "back": "USD 30.931,25 (FOB + flete + seguro: 28.125 + 2.500 + 306,25)."
+  },
+  {
+    "front": "Con ese CIF de USD 30.931,25, si el arancel de importación es del 21% y la tasa de estadística del 3%, ¿cuál es la Base Imponible?",
+    "back": "USD 38.354,75, que sale de sumar el CIF (30.931,25) más el arancel (6.495,5625) más la tasa de estadística (927,9375)."
+  },
+  {
+    "front": "Sobre esa Base Imponible de USD 38.354,75, ¿cuánto suman el IVA general (21%), la percepción de IVA (20%), el adelanto de Ganancias (6%) y el adelanto de Ingresos Brutos (3%)?",
+    "back": "USD 19.177,375 en total (IVA 21% = 8.054,4975; IVA 20% = 7.670,95; adelanto Ganancias = 2.301,285; adelanto Ingresos Brutos = 1.150,6425)."
+  },
+  {
+    "front": "En un ejercicio con CPT USD 80.000 y seguro del 1% (USD 800), da un CIF de USD 80.800. Con un arancel de importación de USD 18.630 y una tasa de estadística del 3% (USD 2.424), ¿cuál es la Base Imponible?",
+    "back": "USD 101.854 (80.800 + 18.630 + 2.424)."
+  },
+  {
+    "front": "En ese mismo ejercicio, si el Total de Gastos en destino fue USD 3.152,43 y el Total de Impuestos fue USD 50.927, ¿cuáles son el Costo y el Presupuesto de importación?",
+    "back": "Costo = Base Imponible + Gastos = USD 105.006,43. Presupuesto = Costo + Impuestos = USD 155.933,43."
+  },
+  {
+    "front": "Un ejercicio parte de FCA USD 30.000, flete USD 1.850 y seguro del 1% (USD 318,50), con un arancel del 15% sobre el CIF. ¿Cuánto dan el CIF y el arancel de importación?",
+    "back": "CIF = USD 32.168,50. Arancel de importación (15% del CIF) = USD 4.825,275."
+  },
+  {
+    "front": "En un ejercicio con mercadería procedente de Paraguay (intrazona Mercosur) y un CIF de USD 254.901, ¿cuánto se paga de arancel de importación (DII) y de tasa de estadística?",
+    "back": "Cero en ambos casos: el arancel intrazona Mercosur (DII) es 0%, y la mercadería del Mercosur no paga tasa de estadística."
+  }
+]

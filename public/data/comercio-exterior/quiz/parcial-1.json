@@ -1,0 +1,354 @@
+[
+  {
+    "question": "¿Cuál de las siguientes características corresponde a una destinación aduanera suspensiva de importación?",
+    "options": [
+      "No genera el pago de tributos al momento del ingreso, pero corresponde garantizarlos",
+      "Paga todos los tributos correspondientes y permite la libre circulación",
+      "Es por tiempo indeterminado y permite comercializar la mercadería",
+      "Solo aplica a la importación para consumo"
+    ],
+    "answerIndex": 0,
+    "explanation": "En las destinaciones suspensivas no se paga el tributo al momento del ingreso porque no se genera el hecho imponible, pero hay que garantizarlo; tampoco hay libre circulación ni comercialización."
+  },
+  {
+    "question": "Una partida de mercadería queda en depósito de almacenamiento bajo control aduanero. ¿Cuáles son los plazos máximos según la vía de ingreso?",
+    "options": [
+      "3 meses sin importar la vía de ingreso",
+      "3 meses si ingresó por vía marítima o fluvial, 1 mes si fue terrestre o aérea",
+      "1 mes si ingresó por vía marítima, 3 meses si fue terrestre",
+      "15 días hábiles sin importar la vía"
+    ],
+    "answerIndex": 1,
+    "explanation": "El Código Aduanero fija 3 meses para la vía marítima o fluvial y 1 mes para la vía terrestre o aérea."
+  },
+  {
+    "question": "¿Qué diferencia al tránsito directo del tránsito hacia el interior?",
+    "options": [
+      "El tránsito directo aplica solo a mercadería del Mercosur",
+      "No hay diferencia entre ambos tipos de tránsito",
+      "En el tránsito directo la mercadería va de una aduana de entrada a una de salida para exportarse; en el de interior va de una aduana de entrada a otra dentro del país",
+      "En el tránsito hacia el interior la mercadería siempre termina siendo reexportada"
+    ],
+    "answerIndex": 2,
+    "explanation": "El tránsito directo conecta una aduana de entrada con una de salida para exportar la mercadería sin someterla a otra destinación en el país; el tránsito hacia el interior la lleva de una aduana a otra dentro del territorio."
+  },
+  {
+    "question": "En la destinación suspensiva de importación temporaria, la mercadería...",
+    "options": [
+      "Ingresa por tiempo indeterminado sin obligación de reexportar",
+      "Solo se usa para mercadería que se va a vender en el mercado interno",
+      "Paga todos los tributos de la importación para consumo",
+      "Ingresa con un fin y un plazo determinado, con obligación de reexportarla"
+    ],
+    "answerIndex": 3,
+    "explanation": "La importación temporaria supone un objetivo y un plazo fijados de antemano, y la mercadería queda sujeta a la obligación de reexportarse dentro de ese plazo."
+  },
+  {
+    "question": "Un compañero de estudio afirma: 'la valoración aduanera determina en qué posición del nomenclador se clasifica la mercadería'. ¿Es correcta esa afirmación?",
+    "options": [
+      "No, eso lo determina la posición arancelaria (NCM); la valoración aduanera solo fija el precio en aduana para calcular la base imponible",
+      "Sí, porque valoración aduanera y posición arancelaria son sinónimos",
+      "Sí, pero solo se aplica en las exportaciones",
+      "No, porque la valoración aduanera no se usa en Argentina"
+    ],
+    "answerIndex": 0,
+    "explanation": "Esta es la trampa clásica de los parciales: la posición arancelaria (NCM) define el tratamiento arancelario, mientras que la valoración aduanera solo pone precio a la mercadería para calcular la base imponible."
+  },
+  {
+    "question": "Un importador pactó la compra en términos FOB. ¿Sobre qué base se calcula el valor en aduana de esa importación?",
+    "options": [
+      "Sobre base FOB, porque así se pactó la operación",
+      "Sobre base CIF, sin importar el Incoterm pactado",
+      "Sobre base EXW",
+      "Depende del banco interviniente"
+    ],
+    "answerIndex": 1,
+    "explanation": "En importación el valor en aduana siempre se calcula sobre base CIF, sea cual sea el Incoterm pactado entre las partes."
+  },
+  {
+    "question": "¿Cuál de los siguientes espacios NO forma parte del territorio aduanero?",
+    "options": [
+      "Las provincias del interior del país",
+      "Los puertos fluviales de uso público",
+      "La zona franca",
+      "Las rutas nacionales"
+    ],
+    "answerIndex": 2,
+    "explanation": "La zona franca, junto con los exclaves, el mar territorial argentino, los ríos internacionales y ciertos espacios aéreos, queda fuera del territorio aduanero."
+  },
+  {
+    "question": "Dentro de una zona franca, ¿qué ocurre con los tributos al ingresar o retirar mercadería?",
+    "options": [
+      "Se pagan todos los derechos de importación y exportación",
+      "Se paga únicamente el IVA",
+      "Se paga solamente la tasa de estadística",
+      "No se pagan tributos, salvo las tasas retributivas de servicios"
+    ],
+    "answerIndex": 3,
+    "explanation": "En la zona franca no rigen los derechos de importación ni exportación (solo las tasas retributivas de servicios), y solo aplican las prohibiciones no económicas."
+  },
+  {
+    "question": "Según el Código Aduanero, ¿qué es un enclave?",
+    "options": [
+      "Un ámbito bajo soberanía de otro Estado donde, por convenio, se aplica la legislación aduanera argentina",
+      "Un depósito fiscal habilitado dentro del territorio aduanero argentino",
+      "Otro nombre para la zona franca",
+      "Un puerto exclusivo para operaciones intra-Mercosur"
+    ],
+    "answerIndex": 0,
+    "explanation": "El enclave requiere un convenio internacional que permita aplicar la legislación aduanera nacional en territorio de otro Estado; actualmente Argentina no tiene ninguno."
+  },
+  {
+    "question": "Una heladera fabricada en Brasil se compra a un distribuidor de Paraguay y se importa a la Argentina. ¿Cuál es el origen de esa mercadería?",
+    "options": [
+      "Paraguay, porque es el país desde donde se envía",
+      "Brasil, porque ahí fue fabricada",
+      "Argentina, porque ahí se va a usar",
+      "Depende de la moneda en que se facturó"
+    ],
+    "answerIndex": 1,
+    "explanation": "El origen es el país donde la mercadería fue producida o sufrió una transformación sustancial (Brasil); Paraguay es solo la procedencia, el dato geográfico del embarque."
+  },
+  {
+    "question": "Según el Código Aduanero, si una mercadería se fabricó con insumos de más de un país y no se puede aplicar ningún otro criterio de origen, ¿de qué país se la considera originaria?",
+    "options": [
+      "Del país donde se vendió por última vez antes de exportarse",
+      "Del país del comprador final",
+      "Del país que más valor le agregó a la mercadería",
+      "Del país donde se emitió la factura comercial"
+    ],
+    "answerIndex": 2,
+    "explanation": "Cuando intervinieron varios países y no corresponde aplicar el criterio de transformación sustancial, se toma como origen el país que más valor agregó."
+  },
+  {
+    "question": "¿Cuál de las siguientes opciones es un instrumento de política promocional de exportaciones?",
+    "options": [
+      "Los cupos de importación",
+      "El derecho antidumping",
+      "El depósito de almacenamiento",
+      "El recupero del IVA"
+    ],
+    "answerIndex": 3,
+    "explanation": "El recupero de saldos a favor del IVA es un incentivo directo de política promocional; los cupos y el antidumping son de política comercial, y el depósito de almacenamiento es una destinación suspensiva."
+  },
+  {
+    "question": "¿Cuál es el tope del derecho antidumping que se le puede aplicar a una mercadería?",
+    "options": [
+      "El margen de dumping detectado",
+      "El monto del subsidio otorgado por el país exportador",
+      "El 21% del valor CIF de la mercadería",
+      "No tiene ningún tope legal"
+    ],
+    "answerIndex": 0,
+    "explanation": "El derecho antidumping busca acercar el precio al valor normal y no puede superar el margen de dumping detectado."
+  },
+  {
+    "question": "¿Cuál es el tope del derecho compensatorio?",
+    "options": [
+      "El margen de dumping detectado",
+      "El monto del subsidio otorgado por el país exportador",
+      "El valor FOB total de la operación",
+      "El 3% de la tasa de estadística"
+    ],
+    "answerIndex": 1,
+    "explanation": "El derecho compensatorio neutraliza un subsidio del país exportador y no puede superar el monto de ese subsidio."
+  },
+  {
+    "question": "¿Qué distingue a la salvaguardia del derecho antidumping y del derecho compensatorio?",
+    "options": [
+      "Requiere probar una práctica desleal específica del país exportador",
+      "Solo puede aplicarse a servicios, no a bienes",
+      "No requiere probar una práctica desleal, solo el daño por el aumento de importaciones",
+      "Es un instrumento exclusivamente de política promocional"
+    ],
+    "answerIndex": 2,
+    "explanation": "La salvaguardia es una medida de urgencia frente a un aumento de importaciones que daña la producción nacional, y a diferencia de las otras dos, no exige demostrar una práctica desleal."
+  },
+  {
+    "question": "¿Cuál de las siguientes es una acción típica de una subpolítica monetaria expansiva?",
+    "options": [
+      "Subir la tasa de interés",
+      "Aumentar el encaje bancario",
+      "Vender títulos públicos",
+      "Devaluar la moneda"
+    ],
+    "answerIndex": 3,
+    "explanation": "La subpolítica expansiva busca aumentar la oferta monetaria: baja la tasa de interés y el encaje, aumenta la emisión y devalúa la moneda."
+  },
+  {
+    "question": "En un escenario de inflación alta combinada con superávit, ¿qué combinación de medidas es la más adecuada?",
+    "options": [
+      "Política monetaria restrictiva y revaluación",
+      "Política monetaria expansiva y devaluación",
+      "Política monetaria expansiva y revaluación",
+      "Eliminar la tasa de estadística"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ante inflación con superávit corresponde enfriar la economía con una política restrictiva y revaluar la moneda, no aplicar una expansiva con devaluación."
+  },
+  {
+    "question": "¿Qué registra la Balanza de Pagos de un país?",
+    "options": [
+      "Solo las exportaciones de bienes de un país",
+      "Todas las transacciones económicas entre los residentes de un país y el resto del mundo, sin importar la nacionalidad de las personas",
+      "Únicamente el tipo de cambio oficial",
+      "Solo la deuda pública externa"
+    ],
+    "answerIndex": 1,
+    "explanation": "La Balanza de Pagos registra toda transacción económica entre residentes de un país y el resto del mundo, independientemente de la nacionalidad de quienes intervienen."
+  },
+  {
+    "question": "Un exportador vende una maquinaria y se compromete a entregarla descargada en el depósito del comprador en destino, pero es el comprador quien realiza el trámite de importación. ¿Qué Incoterm 2020 corresponde?",
+    "options": [
+      "DDP",
+      "FCA",
+      "DPU",
+      "CIP"
+    ],
+    "answerIndex": 2,
+    "explanation": "DPU es el único Incoterm que incluye la descarga en destino; como el comprador hace el trámite de importación, no puede tratarse de DDP."
+  },
+  {
+    "question": "En el término de embarque LIFO del transporte marítimo, ¿quién paga la descarga en destino?",
+    "options": [
+      "La naviera",
+      "El despachante de aduana",
+      "Nadie, va siempre incluida en el flete",
+      "El dueño de la carga"
+    ],
+    "answerIndex": 3,
+    "explanation": "LIFO significa Liner In, Free Out: la naviera paga la carga, pero el dueño de la mercadería paga la descarga."
+  },
+  {
+    "question": "¿Cuál de los siguientes auxiliares del comercio exterior representa a los transportistas ante la Aduana y presenta el MANI (Manifiesto de Ingreso)?",
+    "options": [
+      "El ATA (Agente de Transporte Aduanero)",
+      "El despachante de aduana",
+      "El forwarder",
+      "El surveyor"
+    ],
+    "answerIndex": 0,
+    "explanation": "El ATA gestiona la presentación de los medios de transporte y cargas ante la DGA, y es quien presenta el MANI."
+  },
+  {
+    "question": "De no aclararse explícitamente lo contrario, ¿cómo se asume que es una carta de crédito?",
+    "options": [
+      "Revocable, no confirmada y no transferible",
+      "Irrevocable, confirmada, transferible y divisible",
+      "Solamente irrevocable, nada más",
+      "Exactamente igual que una cobranza"
+    ],
+    "answerIndex": 1,
+    "explanation": "Por defecto una carta de crédito se asume irrevocable, confirmada, transferible y divisible; la cobranza, en cambio, no tiene por defecto ninguna de esas características."
+  },
+  {
+    "question": "¿Cuándo se dice que una carta de crédito es 'confirmada'?",
+    "options": [
+      "Cuando el banco emisor garantiza directamente el pago",
+      "Cuando el importador paga por adelantado la totalidad de la operación",
+      "Cuando un tercer banco, distinto del emisor y del banco del importador, se compromete a pagar si el emisor no cumple",
+      "Cuando el exportador acepta pagarés en lugar de efectivo"
+    ],
+    "answerIndex": 2,
+    "explanation": "La confirmación agrega la garantía de un tercer banco, ajeno al emisor y al banco del importador, que paga si el emisor no cumple."
+  },
+  {
+    "question": "¿En qué plazo se puede solicitar un Despacho Directo a Plaza, y cuándo es obligatorio?",
+    "options": [
+      "Se solicita dentro de los 15 días de arribado el medio de transporte y es siempre obligatorio",
+      "Solo puede pedirse después de que la mercadería pasó por el depósito fiscal",
+      "Nunca es obligatorio, es puramente optativo",
+      "Se solicita entre 5 y 2 días antes del arribo del medio de transporte; es obligatorio si la mercadería es riesgosa o difícil de almacenar"
+    ],
+    "answerIndex": 3,
+    "explanation": "El Despacho Directo a Plaza permite saltear el depósito fiscal si se pide entre 5 y 2 días antes del arribo, y es obligatorio cuando la mercadería es riesgosa o difícil de almacenar."
+  },
+  {
+    "question": "En un ejercicio de costeo de importación, FOB USD 150.000, flete USD 3.400 y seguro (1% del CFR) USD 1.534. ¿Cuál es el valor CIF (valor en aduana)?",
+    "options": [
+      "USD 154.934",
+      "USD 153.400",
+      "USD 156.468",
+      "USD 150.000"
+    ],
+    "answerIndex": 0,
+    "explanation": "CIF = FOB + flete + seguro: 150.000 + 3.400 + 1.534 = USD 154.934."
+  },
+  {
+    "question": "Una importación se pactó en CPT por USD 80.000, con un seguro de USD 800 (CIF = USD 80.800). Si el arancel de importación fue de USD 18.630 y la tasa de estadística de USD 2.424, ¿cuál es la Base Imponible?",
+    "options": [
+      "USD 83.224",
+      "USD 101.854",
+      "USD 99.430",
+      "USD 80.800"
+    ],
+    "answerIndex": 1,
+    "explanation": "Base Imponible = CIF + arancel + tasa de estadística: 80.800 + 18.630 + 2.424 = USD 101.854."
+  },
+  {
+    "question": "Siguiendo con ese mismo ejercicio (Base Imponible USD 101.854), si el Total de Gastos en destino fue USD 3.152,43 y el Total de Impuestos fue USD 50.927, ¿cuál es el Presupuesto de importación?",
+    "options": [
+      "USD 105.006,43",
+      "USD 152.781,00",
+      "USD 155.933,43",
+      "USD 108.158,86"
+    ],
+    "answerIndex": 2,
+    "explanation": "Costo = BI + Gastos = 101.854 + 3.152,43 = USD 105.006,43; Presupuesto = Costo + Impuestos = 105.006,43 + 50.927 = USD 155.933,43."
+  },
+  {
+    "question": "Un ejercicio parte de FCA USD 30.000, flete USD 1.850 y seguro USD 318,50, lo que da un CIF de USD 32.168,50. Si el arancel de importación es del 15% sobre el CIF, ¿a cuánto asciende?",
+    "options": [
+      "USD 4.500,00",
+      "USD 32.168,50",
+      "USD 965,06",
+      "USD 4.825,28"
+    ],
+    "answerIndex": 3,
+    "explanation": "El arancel se calcula sobre el CIF, no sobre el FCA: 32.168,50 × 15% = USD 4.825,28 (aprox.)."
+  },
+  {
+    "question": "Una importación procede de Paraguay (intrazona Mercosur) y su CIF es de USD 254.901. Como el arancel (DII) y la tasa de estadística son 0% para mercadería intrazona, ¿cuál es la Base Imponible?",
+    "options": [
+      "USD 254.901",
+      "USD 262.548,03",
+      "USD 308.430,21",
+      "USD 316.077,24"
+    ],
+    "answerIndex": 0,
+    "explanation": "Si el arancel intrazona (DII) y la tasa de estadística son 0%, la Base Imponible queda igual al CIF: USD 254.901."
+  },
+  {
+    "question": "Un ejercicio parte de CPT USD 175.000 con un seguro de USD 1.750 (1% del CPT). ¿Cuál es el CIF resultante?",
+    "options": [
+      "USD 173.250",
+      "USD 176.750",
+      "USD 178.500",
+      "USD 175.000"
+    ],
+    "answerIndex": 1,
+    "explanation": "CIF = CPT + seguro: 175.000 + 1.750 = USD 176.750."
+  },
+  {
+    "question": "Un ejercicio parte de FOB USD 70.000, flete USD 5.000 y seguro USD 750, lo que da un CIF de USD 75.750. Si el arancel de importación es del 20% sobre el CIF, ¿a cuánto asciende?",
+    "options": [
+      "USD 11.362,50",
+      "USD 2.272,50",
+      "USD 15.150",
+      "USD 75.750"
+    ],
+    "answerIndex": 2,
+    "explanation": "Arancel = CIF × 20% = 75.750 × 0,20 = USD 15.150."
+  },
+  {
+    "question": "Un ejercicio parte de FOB USD 125.000, flete USD 1.000 y seguro (1%) USD 1.260, lo que da un CIF de USD 127.260. Con una tasa de estadística del 3%, ¿a cuánto asciende esa tasa?",
+    "options": [
+      "USD 13.500",
+      "USD 25.452",
+      "USD 1.272,60",
+      "USD 3.817,80"
+    ],
+    "answerIndex": 3,
+    "explanation": "Tasa de estadística = CIF × 3% = 127.260 × 0,03 = USD 3.817,80. La opción de USD 13.500 corresponde en realidad al derecho de importación (DIEM) de ese mismo ejercicio, no a la tasa de estadística."
+  }
+]

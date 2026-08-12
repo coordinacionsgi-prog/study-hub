@@ -1,0 +1,59 @@
+{
+  "thesis": "Este módulo es un repaso armado con preguntas reales de exámenes de 2do parcial (verdadero/falso, opción múltiple y respuesta corta ya resueltas por el alumno) más ejercicios numéricos reales de costeo. Cubre sobre todo exportaciones (Módulo 5), aspectos estratégicos empresariales como contratos, documentación, pagos y financiamiento (Módulo 6), y relaciones económicas internacionales (Módulo 7).",
+  "examTip": "Los parciales repiten mucho el mismo esqueleto: preguntas de verdadero/falso conceptuales (muchas trampas donde invierten endógeno por exógeno, o definitiva por suspensiva), opción múltiple con \"seleccione una o más de una\", y casi siempre un ejercicio numérico combinado: costeo de una exportación que incluye como insumo una pieza importada, para la cual hay que resolver primero un mini-costeo de importación (FCA/FOB → CIF → Base Imponible → impuestos) antes de poder terminar el costeo de exportación (CX → FOB).",
+  "concepts": [
+    "Beneficios micro y macroeconómicos de exportar",
+    "Condicionantes endógenos y exógenos",
+    "Destinación definitiva de exportación",
+    "Destinación suspensiva de exportación (tránsito, removido, temporaria)",
+    "Rectificación de la destinación de exportación",
+    "Régimen de muestras",
+    "Costo de exportación (CX) y valor FOB",
+    "Política de precios (mercado, empresa, beneficio)",
+    "Convención de Viena de 1980",
+    "Contratos puros e impuros",
+    "Documentos comerciales y de transporte",
+    "Instrumentos de pago (orden de pago, cobranza, carta de crédito, letra de cambio)",
+    "Seguro de crédito a la exportación vs. garantías aduaneras",
+    "Financiamiento no tradicional (warrant, factoring, forfaiting)",
+    "Balanza de pagos e integración económica"
+  ],
+  "sections": [
+    {
+      "h": "Por qué exportamos: beneficios y factores previos",
+      "p": "Antes de exportar conviene distinguir los beneficios macroeconómicos, que son para el país en su conjunto (la exportación es un factor dinámico del crecimiento económico y ayuda, junto con créditos e inversiones, a afrontar el pago de importaciones y de la deuda externa), de los microeconómicos, que son para la empresa que tiene un excedente (diversificar riesgos, aumentar ventas, reducir capacidad ociosa). También hay que analizar condicionantes: los endógenos son internos a la empresa y ella puede modificarlos (capacidad de producción, capacidad financiera, conocimiento de mercados, personal especializado), mientras que los exógenos son externos y muestran las características del mercado de destino (usos, costumbres, comportamiento de la competencia, disponibilidad de transporte). Ojo con el parcial: suelen invertir esta clasificación a propósito para confundir endógeno con exógeno."
+    },
+    {
+      "h": "Destinaciones de exportación: definitiva vs. suspensiva",
+      "p": "Toda exportación necesita una destinación declarada ante la aduana. La destinación definitiva de exportación para consumo es la más común: la mercadería sale del país por tiempo indeterminado, se puede comercializar libremente en destino, genera hecho imponible (por eso corresponden derechos de exportación y reintegros) y se le aplican tanto prohibiciones económicas como no económicas. Las destinaciones suspensivas (tránsito, removido, temporaria) en cambio garantizan tributos en vez de pagarlos y tienen un plazo determinado: el tránsito de exportación es cuando la mercadería se declara en una aduana pero sale por otra; la temporaria obliga a reimportarla para consumo antes de que venza el plazo. El egreso hacia una zona franca se trata como exportación suspensiva, mientras que el egreso desde la zona franca hacia un tercer país se considera exportación definitiva. También se puede rectificar la destinación ya oficializada: antes del libramiento sin problema, y después del libramiento solo hasta que la mercadería se cargue a bordo (marítimo/aéreo) o hasta el último control de frontera (terrestre)."
+    },
+    {
+      "h": "El procedimiento aduanero, la verificación y el régimen de muestras",
+      "p": "Aduaneramente, el procedimiento de exportación arranca cuando el declarante ingresa los datos requeridos al Sistema Informático Malvina (SIM), no cuando 'presenta' documentación en la aduana (una trampa típica de examen). La verificación de la mercadería que hace el servicio aduanero antes del embarque no sirve para fijar aranceles: sirve para controlar, clasificar y valorar la mercadería, determinar el régimen legal aplicable y comparar lo declarado contra lo real. El canal naranja es el que exige presentar la documentación de la operación. El régimen de muestras tiene reglas propias: están exentas de prohibiciones económicas (no de las no económicas), igual tienen que pagar tasas retributivas de servicios, el tope de valor de exportación es USD 20.000 (USD 100 si es una muestra importada), tienen que estar inutilizadas para la venta y no ser enajenables."
+    },
+    {
+      "h": "Costeo de una exportación y política de precios",
+      "p": "El costo de exportación (CX) suma todo lo necesario para producir y colocar la mercadería en el exterior: materia prima, mano de obra, carga fabril, gastos administrativos, comerciales y financieros, más los gastos directos e indirectos de exportación. A partir del CX se llega al FOB aplicando la utilidad esperada y el reintegro, y restando el drawback. La utilidad puede pensarse como Utilidad Bruta (UB) o Utilidad Neta (UN), relacionadas por UB = UN / (1 - alícuota del Impuesto a las Ganancias). En cuanto a políticas de precios: la orientada al mercado mira el precio de la competencia considerando todos los costos (no solo los variables, eso es propio de la política orientada a la empresa, que busca el costo marginal); y la orientada al beneficio máximo toma el precio de venta de la competencia en destino y le resta los costos de comercialización, nacionalización y transporte para encontrar el FOB máximo conveniente."
+    },
+    {
+      "h": "Contratos y documentos de la operación",
+      "p": "El contrato de compraventa internacional es el documento más importante porque plasma la voluntad de las partes y sus obligaciones. Puede ser 'puro' (las partes lo firman estando presentes, en el mismo acto) o 'impuro' (una parte lo redacta y lo envía para que la otra lo acepte, por ejemplo con una orden de compra o una oferta en firme). La Convención de Viena de 1980 aplica cuando las partes tienen sus establecimientos en distintos Estados, y en Argentina la aceptación siempre debe hacerse por escrito. Entre los documentos que respaldan la operación: la factura comercial es la que usa la aduana para determinar el valor FOB o CIF; el certificado de origen (emitido por las Cámaras de Comercio) permite saber qué tributo corresponde según la posición arancelaria; y los documentos de transporte (B/L, guía aérea, MIC/DTA, carta de porte, DTM) prueban el contrato de transporte y, en el caso del B/L, funcionan como título de propiedad de la carga."
+    },
+    {
+      "h": "Instrumentos de pago",
+      "p": "Hay cuatro instrumentos típicos. La orden de pago (transferencia) es simple y barata, pero el banco no garantiza el cobro: por defecto es revocable, intransferible y puede ser divisible o no. La cobranza (simple o documentaria) tampoco la garantiza el banco, que solo gestiona el cobro; requiere confianza entre las partes porque el exportador ya despachó la mercadería antes de cobrar. La carta de crédito se usa cuando no hay confianza entre comprador y vendedor, porque un banco garantiza el pago si se cumplen los documentos pactados: si no se aclara nada, se considera irrevocable, no confirmada, intransferible y no divisible. La letra de cambio es un documento financiero que recién tiene validez cuando el comprador (deudor) la acepta, y se usa mucho en cobranzas a plazo."
+    },
+    {
+      "h": "Garantías, seguros y financiamiento",
+      "p": "No hay que confundir las garantías aduaneras (póliza de caución, garantía bancaria, efectivo), que protegen al Estado/la Aduana, con el seguro de crédito a la exportación, que protege al exportador cubriendo riesgos comerciales como quiebra, mora prolongada e insolvencia del comprador (no cubre guerra civil ni robo en tránsito, eso lo cubre el seguro de transporte internacional). En cuanto al financiamiento, el tradicional sale de fondos propios o líneas de crédito bancarias; el no tradicional incluye instrumentos como el warrant (crédito bancario usando mercadería depositada como garantía real), el factoring (una entidad compra los créditos por cobrar de corto plazo, con cualquier título de crédito) y el forfaiting (similar pero de largo plazo, con letras de cambio o pagarés)."
+    },
+    {
+      "h": "Relaciones económicas internacionales: mercados, balanza de pagos e integración",
+      "p": "La Balanza de Pagos registra todos los ingresos y egresos de bienes, servicios, capital y transferencias entre un país y el resto del mundo (no solo mercaderías), y se divide en cuenta corriente, cuenta de capital, cuenta financiera y errores y omisiones; la balanza comercial es la sub-cuenta que registra específicamente la compra y venta de mercaderías a valor FOB. Los procesos de integración, a diferencia de los de cooperación (que están abiertos a cualquier país), restringen el ingreso a países de una región y avanzan por etapas: área de preferencias arancelarias, zona de libre comercio (sin aranceles internos, cada uno mantiene el propio hacia afuera), unión aduanera (agrega el Arancel Externo Común), mercado común (agrega libre circulación de personas, capital y trabajo) y unión económica (agrega políticas económicas coordinadas, a veces moneda común). Organismos como la OMC, el FMI o la ONU son de cooperación: buscan ordenar el comercio o ayudar al desarrollo, pero no restringen su membresía a una región."
+    },
+    {
+      "h": "Ejercicio numérico resuelto: exportación combinada con un insumo importado",
+      "p": "Un caso típico de parcial combina el costeo de una exportación con la importación de una pieza que se usa como insumo. Ejemplo real: se exportan 100 paneles de calefacción a Bolivia, y para fabricarlos hay que importar 100 placas electrónicas desde India por USD 1.330 FCA. Primero se resuelve el lado importador: FCA 1.330 + flete aéreo 250 = CPT 1.580; con un seguro del 1% se llega a un CIF de USD 1.595,80; sobre esa CIF se aplican el AEC (9% = 143,62) y la tasa de estadística (3% = 47,87), dando una Base Imponible de USD 1.787,30; sobre esa base se calculan IVA (21%), IVA adicional (20%), Ganancias (6%) e Ingresos Brutos (3%), que junto con gastos locales (bancarios, despacho, derecho de aduana, comisión bancaria, flete interno) arman un Presupuesto total de USD 3.014,93, mientras que el Costo (que excluye las percepciones e IVA recuperables) queda en USD 2.121,29. Ese mismo CIF de USD 1.595,80 se usa después como 'CIF MPI' (materia prima importada) dentro del costeo de exportación: sumando costos de producción, mano de obra, gastos administrativos, financieros, comerciales, gastos directos e indirectos de exportación, gravámenes e incentivos, se llega a un Costo de Exportación (CX) de USD 10.187,29, que al aplicar la utilidad y el reintegro y restar el drawback da un FOB final (precio de exportación) de USD 12.803,24, es decir, USD 128,03 por unidad."
+    }
+  ]
+}

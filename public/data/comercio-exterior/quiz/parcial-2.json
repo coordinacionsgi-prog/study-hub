@@ -1,0 +1,310 @@
+[
+  {
+    "question": "Aduaneramente, ¿cuándo comienza el procedimiento de exportación?",
+    "options": [
+      "Cuando el despachante presenta la documentación físicamente en la aduana",
+      "Cuando el declarante ingresa al Sistema Informático Malvina (SIM) los datos requeridos",
+      "Cuando se paga el derecho de exportación correspondiente",
+      "Cuando se emite el conocimiento de embarque"
+    ],
+    "answerIndex": 1,
+    "explanation": "El procedimiento arranca con la carga de datos en el SIM, no con la presentación física de papeles ante el organismo aduanero."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones sobre el régimen de muestras en exportación es falsa?",
+    "options": [
+      "Están exentas de la aplicación de prohibiciones económicas",
+      "Deben estar inutilizadas para la venta y no ser enajenables",
+      "Están exentas del pago de tasas retributivas de servicios",
+      "El valor máximo de exportación es de USD 20.000"
+    ],
+    "answerIndex": 2,
+    "explanation": "Las muestras sí deben pagar las tasas retributivas de servicios; lo que sí tienen es exención de prohibiciones económicas (no de las no económicas) y un tope de USD 20.000 (USD 100 si son importadas)."
+  },
+  {
+    "question": "¿Qué obligación asume el exportador bajo la destinación de exportación temporaria?",
+    "options": [
+      "Pagar los derechos de exportación al momento de oficializar la destinación",
+      "Reimportar la mercadería para consumo antes de que venza el plazo fijado",
+      "Vender la mercadería exclusivamente en zona franca",
+      "No puede reimportarla nunca, solo venderla en destino"
+    ],
+    "answerIndex": 1,
+    "explanation": "La temporaria permite que la mercadería quede en el exterior con una finalidad y un plazo determinado, pero desde el momento mismo de la exportación queda sometida a la obligación de reimportarla para consumo antes del vencimiento."
+  },
+  {
+    "question": "¿Cuál es la definición correcta del drawback como incentivo a la exportación?",
+    "options": [
+      "Un porcentaje fijo que se cobra sobre el valor FOB de toda exportación",
+      "La restitución de los tributos de importación pagados por una mercadería que luego se exporta para consumo tras un proceso de transformación",
+      "Un descuento que otorga el banco sobre las comisiones de una carta de crédito",
+      "La exención total de derechos de exportación para pymes"
+    ],
+    "answerIndex": 1,
+    "explanation": "El drawback restituye, total o parcialmente, los tributos de importación pagados, siempre que la mercadería importada sea exportada para consumo tras ser transformada, elaborada o usada para acondicionar/envasar lo exportado. No hay que confundirlo con el reintegro."
+  },
+  {
+    "question": "Según la política de precios orientada al mercado, ¿qué costos debe considerar el exportador al mirar el precio de la competencia?",
+    "options": [
+      "Solo los costos variables, dejando los fijos para el mercado local",
+      "Todos los costos, fijos y variables",
+      "Únicamente el costo marginal de producción",
+      "Solo los costos de comercialización internacional"
+    ],
+    "answerIndex": 1,
+    "explanation": "La política orientada al mercado mira el precio de la competencia considerando todos los costos. Tomar solo los variables y dejar los fijos para el mercado local es propio de la política orientada a la empresa, que busca el costo marginal."
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones describe correctamente a los condicionantes exógenos previos a una exportación?",
+    "options": [
+      "Son internos a la empresa y ella puede modificarlos, como su capacidad de producción",
+      "Son externos a la empresa y muestran las características del mercado de destino, como usos y costumbres de los consumidores",
+      "Se refieren únicamente a la capacidad financiera de la empresa exportadora",
+      "Son los mismos que los condicionantes endógenos, solo cambia el nombre"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los exógenos son externos a la empresa y muestran las características del mercado destino. Los endógenos, en cambio, son internos y la empresa puede incidir sobre ellos (capacidad de producción, financiera, etc.). El parcial suele invertir esta clasificación a propósito."
+  },
+  {
+    "question": "¿Cuándo se aplica la Convención de Viena de 1980 a un contrato de compraventa internacional?",
+    "options": [
+      "Cuando la mercadería está físicamente ubicada en un país distinto al de los contratantes",
+      "Cuando las partes contratantes tienen sus establecimientos en distintos Estados",
+      "Cuando el contrato se firma en un tercer país",
+      "Cuando el pago se realiza en una moneda distinta a la de los contratantes"
+    ],
+    "answerIndex": 1,
+    "explanation": "La Convención de Viena aplica cuando las partes tienen sus establecimientos en Estados distintos. Además, en Argentina la aceptación siempre debe hacerse por escrito."
+  },
+  {
+    "question": "¿Cuál es el documento que usa el servicio aduanero para determinar el valor FOB o CIF de una operación de comercio exterior?",
+    "options": [
+      "La factura proforma",
+      "El certificado de origen",
+      "La factura comercial",
+      "La lista de empaque (packing list)"
+    ],
+    "answerIndex": 2,
+    "explanation": "La factura comercial es el documento que usa la aduana para determinar el valor en aduana. El certificado de origen, en cambio, lo emiten las Cámaras de Comercio y sirve para saber qué tributo corresponde según la posición arancelaria."
+  },
+  {
+    "question": "Si en una carta de crédito no se aclara nada al respecto, ¿qué características tiene por defecto?",
+    "options": [
+      "Revocable, confirmada, transferible y divisible",
+      "Irrevocable, no confirmada, intransferible y no divisible",
+      "Revocable, no confirmada, transferible y no divisible",
+      "Irrevocable, confirmada, intransferible y divisible"
+    ],
+    "answerIndex": 1,
+    "explanation": "Salvo que se pacte expresamente lo contrario, toda carta de crédito se considera irrevocable, no confirmada, intransferible y no divisible."
+  },
+  {
+    "question": "¿Cuándo empieza a tener validez una letra de cambio?",
+    "options": [
+      "Cuando la firma el vendedor exportador",
+      "Cuando el comprador (deudor) la acepta",
+      "Cuando la confirma el banco del exportador",
+      "Cuando se protesta ante el incumplimiento"
+    ],
+    "answerIndex": 1,
+    "explanation": "La letra de cambio recién tiene validez cuando el comprador/deudor la acepta. Se usa mucho en cobranzas a plazo."
+  },
+  {
+    "question": "¿Qué diferencia hay entre el seguro de crédito a la exportación y una garantía aduanera como la póliza de caución?",
+    "options": [
+      "Ambos protegen exactamente lo mismo, solo cambia el nombre",
+      "El seguro de crédito protege al exportador contra riesgos comerciales del comprador; la garantía aduanera protege al Estado/la Aduana",
+      "El seguro de crédito protege al Estado y la garantía aduanera protege al exportador",
+      "El seguro de crédito cubre robo y guerra civil, la garantía aduanera cubre la quiebra del comprador"
+    ],
+    "answerIndex": 1,
+    "explanation": "El seguro de crédito a la exportación cubre riesgos comerciales del comprador (quiebra, mora prolongada, insolvencia) y protege al exportador. Las garantías aduaneras protegen al Estado/la Aduana, no cubren guerra civil ni robo en tránsito."
+  },
+  {
+    "question": "¿Cuál es la definición correcta del warrant como instrumento de financiamiento no tradicional?",
+    "options": [
+      "Un crédito bancario obtenido usando mercadería depositada en un almacén autorizado como garantía real",
+      "La compra por parte de una entidad financiera de los créditos por cobrar de corto plazo de una empresa",
+      "Un instrumento de largo plazo que usa letras de cambio o pagarés como garantía",
+      "Un contrato por el cual se transfiere la tenencia de un bien contra el pago de un canon"
+    ],
+    "answerIndex": 0,
+    "explanation": "El warrant permite obtener un crédito usando mercadería almacenada como garantía real: la almacenadora emite un certificado de depósito y un warrant, que se endosa a un banco. Las otras opciones describen factoring, forfaiting y leasing respectivamente."
+  },
+  {
+    "question": "¿Qué diferencia hay entre factoring y forfaiting?",
+    "options": [
+      "El factoring es de largo plazo y usa letras de cambio; el forfaiting es de corto plazo y admite cualquier título de crédito",
+      "El factoring es de corto plazo y admite cualquier título de crédito; el forfaiting es de largo plazo y usa letras de cambio o pagarés",
+      "Son exactamente lo mismo, solo cambia el país donde se usan",
+      "Ambos son formas de financiamiento tradicional basadas en fondos propios"
+    ],
+    "answerIndex": 1,
+    "explanation": "El factoring opera con créditos de corto plazo y cualquier tipo de título de crédito. El forfaiting es similar pero de largo plazo, instrumentado con letras de cambio o pagarés."
+  },
+  {
+    "question": "¿Qué es específicamente la Balanza Comercial dentro de la Balanza de Pagos?",
+    "options": [
+      "La cuenta que registra todos los movimientos de capital y transferencias de un país",
+      "La sub-cuenta que registra la compra y venta de mercaderías a valor FOB",
+      "Un sinónimo de la Balanza de Pagos completa",
+      "La cuenta que registra únicamente los servicios prestados entre países"
+    ],
+    "answerIndex": 1,
+    "explanation": "La Balanza Comercial es la sub-cuenta de la Balanza de Pagos que registra específicamente la compra y venta de mercaderías a valor FOB, reflejando las transacciones 'visibles' de un país."
+  },
+  {
+    "question": "¿Cuál es el orden correcto de las primeras etapas de un proceso de integración económica?",
+    "options": [
+      "Unión aduanera, zona de libre comercio, área de preferencias arancelarias",
+      "Área de preferencias arancelarias, zona de libre comercio, unión aduanera",
+      "Mercado común, unión económica, área de preferencias arancelarias",
+      "Zona de libre comercio, unión económica, mercado común"
+    ],
+    "answerIndex": 1,
+    "explanation": "El proceso avanza por etapas: primero un área de preferencias arancelarias, luego una zona de libre comercio (sin aranceles internos), después una unión aduanera (que agrega el Arancel Externo Común), y más adelante mercado común y unión económica."
+  },
+  {
+    "question": "¿Qué diferencia a los procesos de integración de los organismos de cooperación internacional?",
+    "options": [
+      "Los de integración están abiertos a cualquier país; los de cooperación restringen el ingreso a una región",
+      "Los de integración restringen el ingreso a países de una región; los de cooperación están abiertos a cualquier país",
+      "No hay ninguna diferencia relevante entre ambos",
+      "Los de cooperación siempre implican compartir moneda; los de integración nunca"
+    ],
+    "answerIndex": 1,
+    "explanation": "Los procesos de integración (como CARICOM, NAFTA o la Unión Europea) restringen el acceso a países de una región. Los organismos de cooperación (como la OMC, el FMI o la ONU) están abiertos a cualquier país."
+  },
+  {
+    "question": "¿A qué se denomina Arancel Externo Común (AEC), y en qué etapa de integración aparece?",
+    "options": [
+      "Es el arancel que cada país aplica de forma distinta hacia afuera en una unión aduanera",
+      "Es el derecho ad valorem común que todos los miembros de una unión aduanera aplican a la mercadería de origen extrazona",
+      "Es el arancel que se elimina totalmente en una zona de libre comercio",
+      "Es un impuesto que solo existe en el mercado común, no en la unión aduanera"
+    ],
+    "answerIndex": 1,
+    "explanation": "El AEC es el derecho ad valorem negociado en el marco de una unión aduanera (como el Mercosur), que grava con la misma alícuota a cualquier mercadería de origen extrazona, mientras que entre los miembros se eliminan las barreras comerciales."
+  },
+  {
+    "question": "¿Qué agrega una unión económica respecto de un mercado común?",
+    "options": [
+      "Solo la eliminación de aranceles entre los países miembros",
+      "Políticas económicas coordinadas entre los países miembros, y a veces una moneda común",
+      "La libre circulación de personas y capitales, que el mercado común no tenía",
+      "Nada, son exactamente el mismo nivel de integración"
+    ],
+    "answerIndex": 1,
+    "explanation": "El mercado común ya incorpora la libre circulación de personas, capital y trabajo. La unión económica agrega, además, políticas económicas coordinadas (fiscales, monetarias) y en algunos casos una moneda común, como en la Unión Europea."
+  },
+  {
+    "question": "¿La OMC es un organismo de integración o de cooperación internacional?",
+    "options": [
+      "De integración, porque restringe su membresía a países de una región",
+      "De cooperación, porque está abierta a cualquier país y busca ordenar el comercio internacional con fluidez y libertad",
+      "Ninguna de las dos categorías, es un organismo puramente financiero",
+      "De integración, porque exige un arancel externo común entre sus miembros"
+    ],
+    "answerIndex": 1,
+    "explanation": "La OMC es un organismo de cooperación: busca establecer las normas que rigen el comercio entre países, garantizar el intercambio con fluidez y libertad, y está abierta a cualquier país, sin restringirse a una región."
+  },
+  {
+    "question": "En la importación de las placas electrónicas para los paneles de calefacción (FCA USD 1.330, flete aéreo USD 250, seguro 1% del CPT), ¿cuánto da el valor CIF?",
+    "options": [
+      "USD 1.595,80",
+      "USD 1.580,00",
+      "USD 1.345,80",
+      "USD 1.610,30"
+    ],
+    "answerIndex": 0,
+    "explanation": "CPT = 1.330 + 250 = USD 1.580. Seguro = 1% de 1.580 = USD 15,80. CIF = 1.580 + 15,80 = USD 1.595,80."
+  },
+  {
+    "question": "Sobre el CIF de USD 1.595,80 se aplican el AEC (9%) y la tasa de estadística (3%). ¿Cuánto da la Base Imponible resultante?",
+    "options": [
+      "USD 1.741,30",
+      "USD 1.830,96",
+      "USD 1.787,30",
+      "USD 1.595,80"
+    ],
+    "answerIndex": 2,
+    "explanation": "AEC = 9% de 1.595,80 = USD 143,62. Tasa de estadística = 3% de 1.595,80 = USD 47,87. Base Imponible = 1.595,80 + 143,62 + 47,87 = USD 1.787,30."
+  },
+  {
+    "question": "En esa misma importación, el derecho de aduana (DA) se pactó en 2% del CIF con un mínimo de USD 100. ¿Cuánto se paga finalmente de DA?",
+    "options": [
+      "USD 31,92, que es el 2% exacto del CIF",
+      "USD 150, redondeando hacia arriba",
+      "USD 100, porque se aplica el mínimo pactado",
+      "USD 63,83, el doble del 2% del CIF"
+    ],
+    "answerIndex": 2,
+    "explanation": "El 2% de USD 1.595,80 da USD 31,92, que es menor al mínimo de USD 100 establecido. Como hay un piso, se paga ese mínimo de USD 100."
+  },
+  {
+    "question": "Sumando el subtotal de impuestos (USD 2.680,94) y los gastos locales de esa importación (USD 333,99), ¿cuál es el Presupuesto total de la operación?",
+    "options": [
+      "USD 2.121,29",
+      "USD 3.014,93",
+      "USD 2.680,94",
+      "USD 3.348,92"
+    ],
+    "answerIndex": 1,
+    "explanation": "Presupuesto total = subtotal de impuestos (2.680,94) + gastos locales (333,99) = USD 3.014,93. El 'Costo' de USD 2.121,29 es una cifra distinta, que excluye las percepciones y el IVA recuperable."
+  },
+  {
+    "question": "En el costeo de exportación de los 100 paneles de calefacción a Bolivia, ¿cuánto da el Costo de Exportación (CX)?",
+    "options": [
+      "USD 12.803,24",
+      "USD 9.651,85",
+      "USD 10.187,29",
+      "USD 1.595,80"
+    ],
+    "answerIndex": 2,
+    "explanation": "Sumando costos de producción, gastos administrativos, financieros, directos e indirectos de exportación y gravámenes, el Costo de Exportación de esa operación da USD 10.187,29."
+  },
+  {
+    "question": "A partir de ese CX de USD 10.187,29, aplicando la utilidad y el reintegro y restando el drawback, ¿cuál es el FOB final (precio de exportación) de los 100 paneles?",
+    "options": [
+      "USD 10.617,82",
+      "USD 12.803,24",
+      "USD 128,03",
+      "USD 10.187,29"
+    ],
+    "answerIndex": 1,
+    "explanation": "El FOB final (precio de exportación) da USD 12.803,24 en total. USD 10.617,82 es el FOBo (costo de exportación antes de la utilidad) y USD 128,03 es el valor por unidad, no el total."
+  },
+  {
+    "question": "En el ejercicio resuelto de 850 protectores auditivos (MP nacional $120.000, embalaje $50.000, MO $2.700 por unidad, TC 348, utilidad neta 21%), ¿cuánto da el Costo de Exportación (CX)?",
+    "options": [
+      "USD 12.577,07",
+      "USD 7.527,01",
+      "USD 8.504,52",
+      "USD 10.187,29"
+    ],
+    "answerIndex": 2,
+    "explanation": "El CX de ese ejercicio resuelto da USD 8.504,52. USD 7.527,01 es solo el rubro de costos de producción, y USD 12.577,07 corresponde a otro ejercicio (las 750 latas)."
+  },
+  {
+    "question": "En el ejercicio resuelto de 750 latas (MP nacional $720.000, embalaje $150.000, MO $3.700 por unidad, TC 348, derechos de exportación 6%, reintegro 4%), ¿cuánto da el FOB final (precio de exportación)?",
+    "options": [
+      "USD 13.043,37",
+      "USD 25,61",
+      "USD 19.210,08",
+      "USD 12.577,07"
+    ],
+    "answerIndex": 2,
+    "explanation": "El FOB final de ese ejercicio da USD 19.210,08 en total (USD 25,61 por unidad). USD 13.043,37 es el FOBo antes de aplicar la utilidad, y USD 12.577,07 es el CX."
+  },
+  {
+    "question": "En el ejercicio de los compresores para Honduras vendidos en condición CIF, el FOB da USD 35.547,22. Sumándole el flete internacional (USD 4.600) y luego el seguro (1% del CFR), ¿cuál es el CIF final?",
+    "options": [
+      "USD 40.147,22",
+      "USD 35.547,22",
+      "USD 40.548,69",
+      "USD 4.600,00"
+    ],
+    "answerIndex": 2,
+    "explanation": "FOB (35.547,22) + flete (4.600) = CFR de USD 40.147,22. Sumando el seguro del 1% del CFR (≈ USD 401,47) se llega al CIF final de USD 40.548,69. USD 40.147,22 es el CFR, un paso intermedio, no el CIF."
+  }
+]

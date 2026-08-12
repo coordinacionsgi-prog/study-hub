@@ -1,0 +1,59 @@
+{
+  "thesis": "Este módulo repasa el 1er parcial con preguntas reales de exámenes anteriores (verdadero/falso, opción múltiple y respuesta corta) sobre destinaciones aduaneras, valoración y clasificación, territorio aduanero, origen de la mercadería, políticas comercial/promocional/monetaria, Incoterms, transporte y medios de pago, y lo combina con ejercicios numéricos reales de costeo de importación (de FOB a Costo y Presupuesto).",
+  "examTip": "Los parciales repiten un patrón fijo: varias verdadero/falso conceptuales (valoración aduanera vs. posición arancelaria es la trampa favorita de los profesores), opción múltiple sobre instrumentos de política y destinaciones, ejercicios de 'cotización' donde tenés que deducir el Incoterm 2020 correcto a partir de un relato, y CASI SIEMPRE un ejercicio numérico armando el costeo completo de una importación (FOB → CIF → Base Imponible → Costo y Presupuesto) con tasas reales de arancel, tasa estadística, IVA, IIGG e IIBB.",
+  "concepts": [
+    "Destinación suspensiva",
+    "Destinación definitiva",
+    "Valoración aduanera (valor en aduana)",
+    "Posición arancelaria (NCM)",
+    "Territorio aduanero",
+    "Zona franca",
+    "Origen vs. procedencia",
+    "Derecho antidumping",
+    "Derecho compensatorio",
+    "Salvaguardia",
+    "Incoterms 2020",
+    "Carta de crédito",
+    "Base Imponible",
+    "Tasa de estadística",
+    "AEC / DIE / DII"
+  ],
+  "sections": [
+    {
+      "h": "Destinaciones aduaneras: suspensivas vs. definitivas",
+      "p": "Cuando la mercadería llega al país hay que 'destinarla' dentro de los 15 días de arribado el medio de transporte. Las destinaciones suspensivas son temporales: la mercadería no tiene libre circulación, no se puede vender, no paga tributos pero hay que garantizarlos, y solo rigen las prohibiciones no económicas. Ahí entran el depósito de almacenamiento (queda guardada bajo control aduanero: 3 meses si llegó por vía marítima o fluvial, 1 mes si fue terrestre o aérea), el tránsito (directo, de una aduana de entrada a una de salida para exportar; o hacia el interior, de una aduana a otra dentro del país) y la importación temporaria (entra con un fin y un plazo, con obligación de reexportar). Las definitivas son por tiempo indeterminado, pagan todos los tributos y permiten la libre circulación y comercialización: ahí están la importación para consumo (la más común) y el despacho directo a plaza (se pide entre 5 y 2 días antes del arribo para saltarse el depósito fiscal; es obligatorio si la mercadería es riesgosa o difícil de almacenar)."
+    },
+    {
+      "h": "Valoración aduanera vs. posición arancelaria (la trampa clásica)",
+      "p": "Esta es la confusión que más te van a tender en los parciales. La valoración aduanera es el precio que le pone la Aduana a la mercadería para calcular la base imponible sobre la que se cobran los tributos de importación y exportación, y no tiene nada que ver con ubicarla en un nomenclador. La posición arancelaria (código del NCM) es la que determina el tratamiento arancelario: qué derechos, prohibiciones y requisitos le corresponden a la mercadería según su naturaleza y características objetivas, sin importar su origen. Regla fija para el cálculo: en importación el valor en aduana siempre se calcula sobre base CIF, sea cual sea el Incoterm pactado; en exportación siempre se calcula sobre base FOB."
+    },
+    {
+      "h": "Territorio aduanero, zonas francas y otros espacios especiales",
+      "p": "El territorio aduanero es el ámbito terrestre, acuático y aéreo donde rige el sistema de aranceles y prohibiciones económicas. Quedan afuera: las zonas francas, los exclaves, el mar territorial argentino y los ríos internacionales, el lecho y subsuelo submarino, y ciertos espacios aéreos. La zona franca no está sometida al control aduanero habitual (no se pagan tributos por entrar o salir, salvo tasas retributivas de servicios), solo rigen las prohibiciones no económicas, y la mercadería depositada conserva su origen pero pierde la procedencia. El enclave es distinto: un ámbito bajo soberanía de otro Estado donde, por convenio, se aplica la legislación aduanera argentina (hoy Argentina no tiene ninguno). Y la Zona Marítima Aduanera es la franja del mar territorial y los ríos internacionales bajo soberanía argentina. Un dato que suele aparecer como verdadero/falso: mover mercadería entre el Territorio Aduanero General y un Territorio Aduanero Especial se trata como importación o exportación aunque los dos formen parte del mismo territorio soberano."
+    },
+    {
+      "h": "Origen vs. procedencia de la mercadería",
+      "p": "Procedencia es simplemente el país desde donde se envió la mercadería, un dato geográfico del embarque. Origen es el país donde fue producida íntegramente o sufrió una transformación sustancial. Una mercadería tailandesa comprada en Paraguay no recibe el mismo trato que si fuera producida en Paraguay, porque lo que determina aranceles, preferencias y restricciones es el origen, no la procedencia. Los criterios de origen del Código Aduanero: los productos naturales son originarios de donde fueron cosechados o criados; si la mercadería se fabricó en un solo país sin insumos extranjeros, es originaria de ese país; si tuvo insumos de otro país, es originaria de donde se realizó la transformación que cambió su posición arancelaria; y si intervinieron varios países sin poder aplicar lo anterior, se toma el país que más valor le agregó. Las normas de origen se usan para aplicar política comercial, en compras públicas, en etiquetado y en estadísticas de comercio exterior."
+    },
+    {
+      "h": "Política comercial, política promocional y prácticas desleales",
+      "p": "La política comercial protege el mercado interno con medidas arancelarias (derechos ad valorem o específicos, tasas, contribuciones, derechos antidumping y compensatorios) y para-arancelarias (cupos, prohibiciones, licencias). La política promocional fomenta las exportaciones con incentivos directos (reintegro y reembolso impositivo, recupero de IVA), indirectos (exenciones y desgravaciones impositivas), financieros (prefinanciación y otros créditos) y especiales (admisión temporaria con perfeccionamiento industrial, exportación en consignación, seguro de crédito a la exportación, fletes preferenciales). Frente a prácticas desleales del comercio hay tres derechos posibles: el antidumping (derecho adicional para acercar el precio al valor normal; su tope es el margen de dumping detectado), el compensatorio (para neutralizar un subsidio del país exportador; su tope es el monto del subsidio) y la salvaguardia (medida de urgencia ante un aumento de importaciones que daña la producción nacional; no requiere probar una práctica desleal y puede ser una restricción cuantitativa temporal)."
+    },
+    {
+      "h": "Subpolítica monetaria y Balanza de Pagos",
+      "p": "La subpolítica monetaria interviene el mercado del dinero (en Argentina, a cargo del BCRA junto con el Ministerio de Economía). La expansiva aumenta la oferta monetaria para activar la economía en crisis: baja la tasa de interés, baja el encaje bancario, aumenta la emisión, devalúa la moneda y rescata títulos propios o compra bonos. La restrictiva hace lo contrario para frenar la inflación: sube la tasa de interés, sube el encaje bancario, vende títulos, corta la emisión y revalúa la moneda (por ejemplo, ante una inflación con superávit corresponde aplicar una política restrictiva más una revaluación, no una expansiva con devaluación). La Balanza de Pagos registra todas las transacciones económicas entre los residentes de un país y el resto del mundo, sin importar la nacionalidad de las personas involucradas."
+    },
+    {
+      "h": "Incoterms 2020: cómo deducir la cotización correcta",
+      "p": "En los ejercicios de 'cotización' hay que leer con cuidado quién paga qué y hasta dónde. Grupo E (EXW): el vendedor solo pone la mercadería a disposición en su fábrica. Grupo F (FCA, FAS, FOB): el vendedor entrega en origen y el comprador contrata el transporte principal; FCA es el más flexible (cualquier medio de transporte), mientras que FAS y FOB son exclusivos de vía acuática. Grupo C (CFR, CIF, CPT, CIP): el vendedor contrata y paga el transporte (y en CIF/CIP también el seguro), pero el riesgo pasa al comprador ya en origen. Grupo D (DAP, DPU, DDP): el vendedor asume costos y riesgos hasta destino; DPU es el único que incluye la descarga en destino, y DDP es el único que incluye los trámites de importación. Pistas útiles para descartar opciones: si el precio 'incluye seguro' hay que ir a un término con I (CIF/CIP); si el vendedor no se hace cargo del riesgo de transporte, no puede ser un término D; y si el enunciado no menciona la descarga en destino, se asume que NO está incluida."
+    },
+    {
+      "h": "Transporte marítimo, documentos y seguro de transporte",
+      "p": "Los buques se contratan como liner (líneas regulares, itinerario fijo, operados por outsiders o por conferencias) o tramp (fletamento a medida: por viaje, por tiempo o a casco desnudo; típico de cargas a granel como cereales). Los términos de embarque definen quién paga carga y descarga: liner terms (ambas incluidas en el flete), FI (el dueño de la carga paga cargar, no descargar), FIOS (no incluye nada: ni carga, ni descarga, ni estiba) y LIFO (la naviera paga cargar, pero el dueño de la carga paga descargar). El documento clave del transporte acuático es el B/L (Conocimiento de Embarque); en aéreo es la guía aérea (AWB). El packing list (lista de empaque) detalla cantidades, pesos y contenido de los bultos, y no hay que confundirlo con el remito. En seguros de transporte, las pólizas pueden ser individuales (un solo viaje), flotantes (varios clientes y viajes), abiertas (un solo cliente, varios viajes) o forfait/término (para empresas de transporte, cubre su responsabilidad legal obligatoria). Entre los auxiliares del comercio exterior están el despachante de aduana (gestiona los trámites aduaneros), el ATA o Agente de Transporte Aduanero (representa a los transportistas ante la Aduana y presenta el MANI), el forwarder (consolida cargas y gestiona seguros y documentos), el agente de tally (controla y cuenta los bultos) y los surveyors (verifican que la mercadería cumpla los estándares exigidos)."
+    },
+    {
+      "h": "Medios de pago internacionales y el cálculo del costo de importación",
+      "p": "De no aclararse lo contrario, una carta de crédito se asume irrevocable, confirmada, transferible y divisible; una cobranza, en cambio, no tiene ninguna de esas características por defecto. La carta de crédito es 'confirmada' cuando un tercer banco (no el emisor ni el del importador) garantiza el pago si el banco emisor no cumple. Para el ejercicio numérico, el circuito fijo es: FOB + flete + seguro (si no se contrató, se estima como el 1% del CFR) = CIF/valor en aduana; después se suman los derechos de importación (AEC, o DIE si el producto tiene una alícuota especial, o DII = 0% si es intrazona Mercosur) más la tasa de estadística (3% del CIF, que no aplica a mercadería del Mercosur o países asociados), y se llega a la Base Imponible. Sobre esa base se calculan el IVA general (21% o 10,5% según el producto), la percepción adicional de IVA (20% o 10%), el adelanto de Ganancias (6%) y el adelanto de Ingresos Brutos (3%), que suman el Total de Impuestos. El Costo de importación es la Base Imponible más los gastos locales (honorarios del despachante, comisiones bancarias, transporte interno, gastos de terminal, etc.); el Presupuesto es ese Costo más el Total de Impuestos, porque esa plata hay que desembolsarla igual aunque después se recupere."
+    }
+  ]
+}
