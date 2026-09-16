@@ -1,0 +1,68 @@
+[
+  {
+    "question": "En una red de aire comprimido, ¿para qué sirve el tanque acumulador (pulmón)?",
+    "options": ["Para filtrar el aceite del compresor", "Para amortiguar los golpes de presión del compresor y dar un volumen de reserva ante picos de consumo", "Para elevar la temperatura del aire", "Para medir el caudal consumido"],
+    "answerIndex": 1,
+    "explanation": "El tanque acumulador estabiliza la presión de la red y le da reserva de aire para cuando varios equipos consumen a la vez."
+  },
+  {
+    "question": "¿Cuál es la principal ventaja de tender la red de aire comprimido en anillo en vez de en línea abierta?",
+    "options": ["Usa menos cañería", "Se instala más rápido", "Da presión pareja en toda la planta y permite aislar un tramo para mantenimiento sin cortar el aire a nadie", "No necesita trampas de purga"],
+    "answerIndex": 2,
+    "explanation": "El anillo alimenta cada ramal desde dos direcciones, por eso mantiene una presión más uniforme y tolera aislar un tramo sin dejar sin servicio al resto."
+  },
+  {
+    "question": "¿Cómo debe conectarse una bajada de alimentación a un equipo neumático?",
+    "options": ["Por abajo de la cañería principal", "Por arriba de la cañería principal (cuello de cisne)", "Directamente del compresor sin pasar por la línea principal", "Da igual mientras tenga un filtro"],
+    "answerIndex": 1,
+    "explanation": "Tomarla por arriba evita que el agua condensada que se junta en el fondo del caño llegue al equipo."
+  },
+  {
+    "question": "Una válvula 5/2 se usa típicamente para gobernar:",
+    "options": ["Un cilindro de simple efecto con retorno por resorte", "Un cilindro de doble efecto", "Una bomba centrífuga", "Un motor trifásico"],
+    "answerIndex": 1,
+    "explanation": "Sus dos salidas y dos escapes le permiten mandar presión alternadamente a cada cámara de un cilindro de doble efecto, haciéndolo avanzar o retroceder."
+  },
+  {
+    "question": "¿Qué caracteriza a la caldera humotubular frente a la acuotubular?",
+    "options": ["Los gases calientes circulan por dentro de los tubos y el agua está afuera, rodeándolos", "El agua circula por dentro de los tubos y los gases están afuera", "No tiene chimenea", "Solo funciona con combustible sólido"],
+    "answerIndex": 0,
+    "explanation": "En la humotubular los gases van por dentro de los tubos; en la acuotubular es al revés, el agua/vapor circula por dentro de los tubos."
+  },
+  {
+    "question": "¿Qué tipo de circulación en una caldera acuotubular deja de funcionar la caldera si se para la bomba?",
+    "options": ["Circulación natural", "Circulación asistida", "Circulación forzada", "Ninguna depende de una bomba"],
+    "answerIndex": 2,
+    "explanation": "En la circulación forzada la bomba es obligatoria para mover todo el caudal de agua; sin ella la caldera se detiene. En la natural el agua sube sola por diferencia de densidad."
+  },
+  {
+    "question": "¿Cuál es la función del economizador en una caldera?",
+    "options": ["Genera vapor sobrecalentado", "Precalienta el agua de alimentación usando el calor de los gases de escape", "Saca el oxígeno disuelto del agua", "Enciende el quemador automáticamente"],
+    "answerIndex": 1,
+    "explanation": "El economizador aprovecha el calor residual de los gases antes de que se pierdan por la chimenea para precalentar el agua que entra a la caldera."
+  },
+  {
+    "question": "En el balance térmico de una cámara frigorífica, ¿qué es el 'calor de respiración'?",
+    "options": ["El calor que generan los motores de los ventiladores", "El calor metabólico que siguen generando productos vivos como frutas y verduras", "El calor que entra por las paredes", "El calor que aportan las personas al entrar a la cámara"],
+    "answerIndex": 1,
+    "explanation": "Frutas y verduras siguen respirando y generando calor propio aunque estén almacenadas, y eso hay que sumarlo al balance térmico."
+  },
+  {
+    "question": "En un circuito frigorífico, ¿qué tramo se considera de 'Alta Presión'?",
+    "options": ["Desde el evaporador hasta el compresor", "Desde la válvula de expansión hasta el compresor", "Desde la salida del compresor hasta la entrada de la válvula de expansión", "Todo el circuito por igual"],
+    "answerIndex": 2,
+    "explanation": "El lado de alta presión va del compresor al condensador y hasta la válvula de expansión; de ahí al compresor es el lado de baja presión."
+  },
+  {
+    "question": "¿Qué es la vaporización instantánea (flash gas) en un circuito frigorífico?",
+    "options": ["El vapor que sale del compresor hacia el condensador", "El vapor que se forma de golpe al pasar el líquido por la válvula de expansión, sin haber enfriado nada útil todavía", "El vapor sobrecalentado que sale de una caldera", "Un tipo de refrigerante ecológico"],
+    "answerIndex": 1,
+    "explanation": "Parte del líquido se evapora instantáneamente al caer de presión en la válvula, autoenfriando el resto pero sin aportar capacidad frigorífica útil."
+  },
+  {
+    "question": "¿En qué se diferencia un evaporador seco de uno inundado?",
+    "options": ["El seco siempre está lleno de líquido, el inundado no", "El seco entrega el refrigerante evaporado del todo con un recalentamiento extra, el inundado se mantiene siempre lleno de líquido con mejor coeficiente de transferencia", "No hay diferencia real, son sinónimos", "El inundado se usa solo en calderas, no en frío"],
+    "answerIndex": 1,
+    "explanation": "El seco garantiza que no entre líquido al compresor mediante recalentamiento; el inundado prioriza eficiencia manteniendo toda la superficie mojada por líquido, separando el vapor antes del compresor."
+  }
+]

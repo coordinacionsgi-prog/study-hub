@@ -25,8 +25,14 @@
   },
   {
     "id": "parciales",
-    "title": "Parciales (1er parcial)",
+    "title": "1er Parcial (repaso)",
     "unidad": "—",
     "description": "Preguntas reales de primeros parciales de años anteriores (Unidad 1 y Unidad 2 y 3), filtradas y sin repetidos."
+  },
+  {
+    "id": "parcial-2",
+    "title": "2do Parcial (repaso)",
+    "unidad": "—",
+    "description": "Preguntas reales de 2do parcial (Unidad 4 en adelante: aire comprimido, calderas y frigorífico)."
   }
 ]

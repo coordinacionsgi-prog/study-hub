@@ -1,0 +1,78 @@
+{
+  "thesis": "Este es el arranque del repaso de 2do parcial (Unidad 4 en adelante): son las preguntas reales que aparecieron en un recuperatorio que combinaba 1er y 2do parcial, sobre aire comprimido, calderas y frigorífico. Es un set más chico que el de 1er parcial porque todavía solo hay una foto de examen que toca estos temas — si conseguís más exámenes de 2do parcial, se puede seguir sumando.",
+  "examTip": "Los temas de 2do parcial se organizan en 3 bloques bien separados: aire comprimido (redes, tendido, válvulas neumáticas), generación de vapor (calderas, sus elementos de seguridad y accesorios) y frío industrial (circuito frigorífico, balance térmico de cámaras). Las trampas más típicas: confundir bajada de alimentación con bajada de purga (van en sentidos opuestos de la cañería), no saber separar el circuito frigorífico en lado de alta y lado de baja presión, y confundir evaporador seco con inundado.",
+  "concepts": [
+    "Red de aire comprimido",
+    "Tendido en línea vs. en anillo",
+    "Bajadas de alimentación vs. de purga",
+    "Válvula 5/2",
+    "Caldera humotubular",
+    "Circulación en caldera acuotubular",
+    "Elementos de seguridad de la caldera",
+    "Economizador y sobrecalentador",
+    "Balance térmico de cámara frigorífica",
+    "Circuito frigorífico",
+    "Alta vs. baja presión",
+    "Vaporización instantánea (flash gas)",
+    "Evaporador seco",
+    "Evaporador inundado"
+  ],
+  "sections": [
+    {
+      "h": "Confeccionar un esquema de una red de aire comprimido: partes fundamentales",
+      "p": "Una red de aire comprimido arranca en el compresor, que aspira aire atmosférico y lo comprime. Le sigue un enfriador posterior (after-cooler) que baja la temperatura del aire recién comprimido para condensar buena parte de la humedad que trae. Después está el tanque acumulador o pulmón, que amortigua los golpes de presión del compresor y da un volumen de reserva para los picos de consumo. De ahí sale la línea de distribución principal, tendida con una leve pendiente y con trampas de purga en los puntos bajos para drenar el condensado que se sigue formando en el camino. Antes de cada equipo consumidor va un conjunto FRL (filtro, regulador de presión y a veces lubricador), que le entrega al equipo aire limpio, seco y a la presión justa que necesita. Cuando la aplicación no tolera nada de humedad, se agrega además un secador (refrigerativo o por adsorción) después del tanque."
+    },
+    {
+      "h": "Tendido de distribución de aire en una planta: formas, ventajas y desventajas",
+      "p": "Hay dos formas típicas de tender la cañería principal. En línea abierta (o en peine), la cañería corre en una sola dirección y de ella cuelgan los ramales hacia cada equipo, terminando en un punto muerto: es más barata y simple de instalar, pero si hay que cortar un tramo para repararlo, todo lo que está aguas abajo se queda sin aire, y en el extremo final la presión cae más porque el aire le llega desde un solo lado. En anillo (circuito cerrado), la cañería principal forma un lazo cerrado que rodea la planta y alimenta cada ramal desde las dos direcciones: sale más cara de instalar (usa más caño) pero da una presión mucho más pareja en toda la planta, y permite aislar un tramo para mantenimiento sin dejar sin aire a nadie, porque el resto sigue recibiendo aire por el otro lado del anillo."
+    },
+    {
+      "h": "¿Cómo deben efectuarse las bajadas de alimentación a equipos? ¿Y las bajadas de purga?",
+      "p": "Como el aire comprimido siempre arrastra algo de humedad condensada, la forma de conectar cada bajada es clave. Las bajadas de alimentación a un equipo SIEMPRE se toman por ARRIBA de la cañería principal (con una conexión en 'cuello de cisne', que sube y vuelve a bajar): así el equipo recibe aire seco y no el agua que se junta en el fondo del caño por gravedad. Las bajadas de purga, al revés, se toman por ABAJO de la cañería principal, en los puntos más bajos del recorrido, y terminan en una trampa de purga (manual o automática) que deja salir el agua acumulada sin perder aire útil. Es un error clásico de examen invertir estos dos criterios: si alimentás un equipo por abajo, tarde o temprano le mandás agua de condensado."
+    },
+    {
+      "h": "¿Qué es una válvula 5/2? ¿Para qué se utiliza? ¿Cómo puede estar actuada?",
+      "p": "Es una válvula direccional neumática con 5 vías (conexiones) y 2 posiciones. Las 5 vías son: una entrada de aire a presión, dos salidas hacia el actuador (una para cada cámara de un cilindro de doble efecto) y dos escapes (uno por cada salida, según qué posición esté activa). Al cambiar de posición, la válvula invierte a cuál salida manda presión y por cuál deja escapar el aire, haciendo que el cilindro avance o retroceda. Por eso se usa para gobernar actuadores de doble efecto (a diferencia de una válvula 3/2, que alcanza para un cilindro de simple efecto que vuelve solo por resorte). Puede estar actuada de forma manual (palanca o pulsador), mecánica (rodillo o leva), neumática (con un piloto de aire proveniente de otra parte del circuito) o eléctrica (electroválvula con solenoide); y puede tener retorno por resorte (monoestable: vuelve sola al cortar el comando) o ser biestable (se queda en la última posición hasta recibir el comando contrario)."
+    },
+    {
+      "h": "Confeccionar un esquema de una caldera humotubular horizontal: elementos principales",
+      "p": "Los elementos principales son: el hogar u hornalla, donde ocurre la combustión; el haz tubular, los tubos por donde circulan los gases calientes de la combustión (rodeados de agua, la característica que define a este tipo de caldera); el cuerpo cilíndrico o casco, el recipiente a presión que contiene toda el agua y el espacio de vapor; la cámara de humos o caja de retorno, donde los gases invierten su marcha entre pasadas (en calderas de 2 o 3 pasos, para aprovechar mejor el calor antes de irse por la chimenea); la chimenea, que evacúa los gases ya fríos a la atmósfera; y el quemador, que inyecta y quema el combustible dentro del hogar. En la parte superior del casco queda el domo o espacio de vapor, de donde sale la línea de vapor hacia el proceso."
+    },
+    {
+      "h": "¿Qué tipos de circulación existen en una caldera acuotubular?",
+      "p": "Circulación natural: el agua caliente (menos densa) sube sola por los tubos hacia el domo, mientras el agua más fría baja a reemplazarla, igual que en una pava al fuego — no hace falta ningún equipo mecánico. Circulación asistida: una bomba ayuda a mover el agua, pero no es estrictamente indispensable para que la caldera funcione. Circulación forzada: una bomba empuja obligatoriamente todo el caudal de agua por el circuito, y sin ella la caldera directamente se para; se usa en calderas de alta presión donde la diferencia de densidad natural ya no alcanza para mover el agua con la velocidad necesaria."
+    },
+    {
+      "h": "¿Cuáles son los elementos de seguridad de una caldera?",
+      "p": "Una caldera guarda una enorme cantidad de energía (agua a alta presión y temperatura), así que tiene varios elementos de seguridad obligatorios por norma. La válvula de seguridad se abre sola si la presión sube por encima del límite, para desahogar el exceso antes de que algo reviente. El tubo de nivel (con mirilla de vidrio) le muestra al operador cuánta agua líquida queda adentro, porque si el nivel baja demasiado los tubos quedan sin refrigeración y se pueden colapsar por el calor. El detector de llama corta el combustible automáticamente si la llama se apaga, para evitar que se siga cargando el hogar de combustible sin quemar. A esto se suman el presostato de corte por alta presión (para el quemador antes de llegar a la presión de disparo de la válvula de seguridad), la válvula de purga de fondo (para sacar los lodos y sedimentos que se acumulan abajo) y el manómetro, que muestra la presión en todo momento. Por lo peligrosa que es esta tarea, quien opera una caldera necesita una matrícula habilitante: el oficio de foguista."
+    },
+    {
+      "h": "Enumerar y describir los accesorios que puede poseer una caldera acuotubular para mejorar su eficiencia y rendimiento",
+      "p": "El economizador precalienta el agua de alimentación usando el calor que todavía traen los gases de escape antes de irse por la chimenea, así entra menos fría a la caldera y se gasta menos combustible en calentarla desde cero. El sobrecalentador le agrega calor extra al vapor que ya salió saturado del domo, convirtiéndolo en vapor sobrecalentado: más apto para mover turbinas porque no condensa dentro de los álabes. El precalentador de aire usa ese mismo calor residual de los gases de escape para precalentar el aire de combustión que entra al quemador, mejorando la eficiencia de la quema. Y el desareador (o tanque de alimentación desareador) le saca el oxígeno disuelto al agua de alimentación antes de que entre a la caldera, porque ese oxígeno es una de las causas principales de corrosión interna en tubos y casco."
+    },
+    {
+      "h": "¿Cuáles son los calores intervinientes en el balance térmico de una cámara frigorífica?",
+      "p": "El balance térmico de una cámara suma varios tipos de calor que hay que extraer para mantenerla fría. El calor de transmisión es el que entra por paredes, techo y piso por la diferencia de temperatura entre adentro y afuera. El calor por infiltración de aire es el que entra cada vez que se abre una puerta o por cambios de aire renovado. El calor de producto es el que hay que sacarle a la mercadería que ingresa caliente hasta bajarla a la temperatura de conservación (incluye el calor sensible antes de congelar, el calor latente de congelación si el producto se congela, y el calor sensible después de congelar). El calor de respiración aparece en productos vivos como frutas y verduras, que siguen 'respirando' y generando calor propio aunque estén en la cámara. Y el calor de los equipos internos suma los motores de los ventiladores del evaporador, la iluminación y hasta las personas que entran a trabajar adentro. Sobre la suma de todo esto suele agregarse además un margen de seguridad."
+    },
+    {
+      "h": "Confeccionar un esquema de un circuito frigorífico: sus partes",
+      "p": "El ciclo de compresión de vapor, el más usado en frío industrial, es un circuito cerrado con cuatro componentes principales: el compresor, que aspira el refrigerante en forma de vapor a baja presión y lo comprime elevando su presión y temperatura; el condensador, donde ese vapor a alta presión cede calor al ambiente (aire o agua) y se condensa a líquido; la válvula de expansión (o un tubo capilar en equipos chicos), que deja caer bruscamente la presión del líquido; y el evaporador, donde el refrigerante ya frío absorbe calor del espacio o producto a enfriar y se evapora, volviendo a entrar al compresor para repetir el ciclo."
+    },
+    {
+      "h": "¿Qué parte del circuito frigorífico se conoce como de 'Alta Presión'?",
+      "p": "Es el tramo que va desde la salida del compresor hasta la entrada de la válvula de expansión: compresor → condensador → línea de líquido → válvula de expansión. Ahí el refrigerante está a la presión que le dio el compresor. El resto del circuito, desde la válvula de expansión hasta la entrada del compresor (válvula → evaporador → línea de succión → compresor), es el lado de Baja Presión. Separar mentalmente el circuito en estas dos mitades es clave para entender cualquier diagnóstico de falla frigorífica."
+    },
+    {
+      "h": "¿Qué es la vaporización instantánea?",
+      "p": "Cuando el refrigerante líquido a alta presión atraviesa la válvula de expansión y cae bruscamente a la presión baja del evaporador, una parte de ese líquido se evapora de inmediato (sin absorber calor todavía del producto) para enfriar de golpe el resto del líquido hasta la temperatura de evaporación que corresponde a esa nueva presión más baja. A ese vapor que se forma ya en la entrada del evaporador se lo llama vaporización instantánea o 'flash gas': no aporta capacidad frigorífica útil (no enfrió nada del producto) y le resta superficie disponible al evaporador, por eso conviene minimizarlo, por ejemplo subenfriando el líquido antes de que llegue a la válvula."
+    },
+    {
+      "h": "¿Qué se entiende por evaporador seco?",
+      "p": "Es un evaporador diseñado para que el refrigerante entre como líquido (con algo de flash gas ya formado) y salga completamente evaporado, con un pequeño recalentamiento extra de unos grados por encima de la temperatura de saturación, para garantizar que no entre nada de líquido al compresor. El nombre 'seco' hace referencia justamente a que no queda líquido remanente dentro del evaporador. Se regula típicamente con una válvula de expansión termostática, que ajusta el caudal de refrigerante según el recalentamiento medido a la salida."
+    },
+    {
+      "h": "¿Cómo funciona un evaporador inundado?",
+      "p": "Al revés que el seco: el evaporador se mantiene siempre lleno (inundado) de líquido refrigerante hasta un nivel controlado, generalmente con un flotador o un separador de líquido, de modo que toda la superficie interna de intercambio está mojada por líquido en ebullición. Esto le da un coeficiente de transferencia de calor bastante mejor que el del evaporador seco, porque nunca hay zonas 'secas' con solo vapor de baja conductividad. El vapor generado se separa arriba, en un tanque separador de líquido, antes de ir hacia el compresor — así se asegura que al compresor solo le llegue vapor y ninguna gota de líquido que podría dañarlo."
+    }
+  ]
+}

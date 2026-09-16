@@ -32,22 +32,24 @@ export default function ConceptMapView({ subjectId }) {
       {data.comparisons?.length > 0 && (
         <div className="conceptmap-comparisons">
           <h3>Comparaciones clave</h3>
-          <table className="matrix">
-            <thead>
-              <tr>
-                <th>Comparación</th>
-                <th>Respuesta corta</th>
-              </tr>
-            </thead>
-            <tbody>
-              {data.comparisons.map(([title, detail], i) => (
-                <tr key={i}>
-                  <td className="matrix-title">{title}</td>
-                  <td>{detail}</td>
+          <div className="matrix-wrap">
+            <table className="matrix">
+              <thead>
+                <tr>
+                  <th>Comparación</th>
+                  <th>Respuesta corta</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {data.comparisons.map(([title, detail], i) => (
+                  <tr key={i}>
+                    <td className="matrix-title">{title}</td>
+                    <td>{detail}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       )}
     </div>

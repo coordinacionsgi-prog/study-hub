@@ -12,6 +12,7 @@ export default function App() {
   const [error, setError] = useState(null);
   const [selectedId, setSelectedId] = useState(null);
   const [view, setView] = useState(null); // "map" | "diagrams" | null
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     getSubjects().then(setSubjects).catch((e) => setError(e.message));
@@ -60,7 +61,16 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <aside className="sidebar">
+      <header className="mobile-topbar">
+        <button className="hamburger-btn" onClick={() => setMenuOpen(true)} aria-label="Abrir menú">
+          ☰
+        </button>
+        <span className="mobile-topbar-title">{subject?.title}</span>
+      </header>
+
+      {menuOpen && <div className="sidebar-backdrop" onClick={() => setMenuOpen(false)} />}
+
+      <aside className={`sidebar ${menuOpen ? "open" : ""}`}>
         <button className="back-link" onClick={() => setSubjectId(null)}>
           ← Cambiar de materia
         </button>
@@ -73,6 +83,7 @@ export default function App() {
             onClick={() => {
               setView("map");
               setSelectedId(null);
+              setMenuOpen(false);
             }}
           >
             <span className="module-item-title">🗺 Mapa conceptual</span>
@@ -83,6 +94,7 @@ export default function App() {
             onClick={() => {
               setView("diagrams");
               setSelectedId(null);
+              setMenuOpen(false);
             }}
           >
             <span className="module-item-title">🧭 Diagramas</span>
@@ -98,6 +110,7 @@ export default function App() {
               onClick={() => {
                 setSelectedId(m.id);
                 setView(null);
+                setMenuOpen(false);
               }}
             >
               <span className="module-item-title">{m.title}</span>
