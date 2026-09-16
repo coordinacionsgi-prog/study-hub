@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getDiagrams } from "../api";
 import NodeGraph from "./NodeGraph";
+import CurveChart from "./CurveChart";
 
 export default function DiagramsView({ subjectId }) {
   const [data, setData] = useState(null);
@@ -29,14 +30,30 @@ export default function DiagramsView({ subjectId }) {
             <div className="diagram-caption">{d.title}</div>
             {d.description && <p className="diagram-description">{d.description}</p>}
             <div className="conceptmap-diagram">
-              <NodeGraph
-                nodes={d.nodes}
-                edges={d.edges}
-                viewBoxW={d.viewBoxW || 720}
-                viewBoxH={d.viewBoxH || 260}
-                markerId={`diagram-arrow-${i}`}
-                ariaLabel={d.title}
-              />
+              {d.kind === "curve" ? (
+                <CurveChart
+                  viewBoxW={d.viewBoxW || 620}
+                  viewBoxH={d.viewBoxH || 340}
+                  xAxisLabel={d.xAxisLabel}
+                  yAxisLabel={d.yAxisLabel}
+                  origin={d.origin}
+                  axisEnd={d.axisEnd}
+                  zones={d.zones}
+                  curves={d.curves}
+                  points={d.points}
+                  labels={d.labels}
+                  ariaLabel={d.title}
+                />
+              ) : (
+                <NodeGraph
+                  nodes={d.nodes}
+                  edges={d.edges}
+                  viewBoxW={d.viewBoxW || 720}
+                  viewBoxH={d.viewBoxH || 260}
+                  markerId={`diagram-arrow-${i}`}
+                  ariaLabel={d.title}
+                />
+              )}
             </div>
           </div>
         ))}

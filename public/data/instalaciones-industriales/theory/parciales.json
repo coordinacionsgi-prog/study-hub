@@ -1,6 +1,6 @@
 {
-  "thesis": "Repaso pregunta por pregunta: cada una es una pregunta real de 1er parcial de años anteriores (2018 a 2023, Unidad 1 y Unidad 2 y 3), con su respuesta completa ya explicada — sin repetidos. Las de Unidad 4 (vapor/calderas/frigorífico) son de 2do parcial y quedaron afuera.",
-  "examTip": "Los mismos temas se repiten parcial tras parcial casi textuales: ANPA/altura de succión, diagramas de Camerer y Moody, clasificación de bombas y válvulas, Schedule y bridas, y del lado eléctrico: tableros, protecciones (termomagnética y diferencial), y luminotecnia (temperatura de color, IRC, nivel de iluminación). Si te sabés bien estos temas, tenés cubierto casi todo el examen.",
+  "thesis": "Repaso pregunta por pregunta: cada una es una pregunta real de 1er parcial de años anteriores (2018 a 2023, Unidad 1 y Unidad 2 y 3), con su respuesta completa ya explicada — sin repetidos. Las de Unidad 4 (vapor/calderas/frigorífico) son de 2do parcial y quedaron afuera. Sumado a eso, hay un catálogo con cada tipo de bomba, brida, proceso de soldadura y válvula que suelen pedir por separado ('nombrá y describí cada tipo'), con instrucciones de cómo armar el croquis a mano de cada uno.",
+  "examTip": "Los mismos temas se repiten parcial tras parcial casi textuales: ANPA/altura de succión, diagramas de Camerer y Moody, clasificación de bombas y válvulas, Schedule y bridas, y del lado eléctrico: tableros, protecciones (termomagnética y diferencial), y luminotecnia (temperatura de color, IRC, nivel de iluminación). Una trampa típica es que te pidan 'nombrar y describir CADA tipo' de algo (bombas, bridas, válvulas, soldaduras) en vez de solo la clasificación general — para eso están las secciones de 'Croquis y detalle' de acá abajo. Para practicar cómo dibujar la curva de disparo termomagnética o la curva de una bomba, mirá la sección Diagramas del menú, ahí hay gráficos reales para copiar.",
   "concepts": [
     "ANPA disponible vs requerido",
     "Altura límite de succión",
@@ -20,7 +20,26 @@
     "Temperatura de color e IRC",
     "Nivel de iluminación media",
     "Clasificación de válvulas (interceptoras vs reguladoras)",
-    "Fusible gL vs aM"
+    "Fusible gL vs aM",
+    "Bomba centrífuga multietapa",
+    "Bomba de engranajes",
+    "Bomba a pistón",
+    "Bomba a diafragma",
+    "Brida Welding Neck",
+    "Brida Slip-On",
+    "Brida Roscada",
+    "Brida Socket Weld",
+    "Brida Lap Joint",
+    "Brida Ciega",
+    "Soldadura SMAW",
+    "Soldadura TIG",
+    "Soldadura MIG/MAG",
+    "Soldadura SAW (arco sumergido)",
+    "Válvula de compuerta",
+    "Válvula esférica (croquis)",
+    "Válvula mariposa",
+    "Válvula de retención (check)",
+    "Válvula de seguridad/alivio"
   ],
   "sections": [
     {
@@ -72,6 +91,30 @@
       "p": "Welding Neck (cuello para soldar): se suelda directamente al caño, tiene una transición cónica que reduce la concentración de tensiones, se usa en servicios críticos. Slip-On (deslizante): se desliza sobre el caño y se suelda por fuera, más económica y fácil de montar pero más débil que la Welding Neck."
     },
     {
+      "h": "Croquis y detalle: brida Welding Neck (cuello para soldar)",
+      "p": "Qué es y para qué se usa: se suelda directamente al caño con una transición cónica (el 'cuello') que reduce la concentración de tensiones en la unión; se usa en servicios críticos (alta presión, alta temperatura, fluidos peligrosos) por ser la más resistente. Cómo dibujar el croquis: de frente, un disco con varios agujeritos alrededor del borde (para los bulones) y un agujero grande en el centro. De perfil, el disco con un cuello cónico que se va angostando hacia el caño, y una línea gruesa marcando el bisel de soldadura donde se une al caño."
+    },
+    {
+      "h": "Croquis y detalle: brida Slip-On (deslizante)",
+      "p": "Qué es y para qué se usa: se desliza por fuera del caño (el caño entra un poco dentro de ella) y se suelda con un cordón por dentro y otro por fuera; es más barata y fácil de alinear que la Welding Neck, pero más débil porque no tiene la transición cónica que reparte mejor las tensiones. Cómo dibujar el croquis: de perfil, el disco de la brida con el caño simplemente insertado adentro (sin transición cónica), y dos líneas gruesas cortas marcando los dos cordones de soldadura, uno por dentro y otro por fuera."
+    },
+    {
+      "h": "Croquis y detalle: brida Roscada (Threaded)",
+      "p": "Qué es y para qué se usa: no se suelda, se atornilla directamente a un caño que tiene rosca en su extremo exterior; se usa en caños chicos y de baja presión, o donde no se puede soldar (materiales de mala soldabilidad, o zonas con riesgo de explosión). Cómo dibujar el croquis: el mismo disco con agujeros de bulones, pero en el agujero central, en vez de un cuello liso, dibujá unas líneas paralelas cortitas en espiral representando la rosca donde entra el caño."
+    },
+    {
+      "h": "Croquis y detalle: brida Socket Weld",
+      "p": "Qué es y para qué se usa: el caño se inserta dentro de un rebaje (un 'bolsillo') en la cara interna de la brida y se suelda con un solo cordón de filete por fuera, sin biselar el caño; se usa en diámetros chicos (hasta 2 pulgadas aprox.) y presiones altas donde no conviene roscar. Cómo dibujar el croquis: de perfil, la brida con un escalón interno donde el caño entra y hace tope (dejando una pequeña holgura, sin tocar el fondo), con un solo cordón de soldadura en ángulo por la cara exterior."
+    },
+    {
+      "h": "Croquis y detalle: brida Lap Joint (con anillo suelto)",
+      "p": "Qué es y para qué se usa: son dos piezas, un anillo suelto (la brida en sí, que gira libremente y no está soldada a nada) y un 'stub end' que sí se suelda al caño y tiene un labio que apoya contra el anillo. Se usa cuando hay que desarmar y alinear la unión seguido, porque el anillo gira libre y facilita alinear los agujeros de los bulones sin rotar el caño. Cómo dibujar el croquis: el caño con una pequeña pestaña soldada en la punta (el stub end), y por fuera de esa pestaña un anillo más grande y separado que solo se apoya contra ella (dibujalo con una pequeña separación para mostrar que gira libre)."
+    },
+    {
+      "h": "Croquis y detalle: brida Ciega (Blind)",
+      "p": "Qué es y para qué se usa: es un disco macizo, sin agujero central, que se atornilla en el extremo de una cañería para taparla completamente; se usa para cerrar un ramal, aislar un tramo para mantenimiento, o probar hidráulicamente una cañería. Cómo dibujar el croquis: el mismo disco con agujeros de bulones alrededor, pero completamente sólido y cerrado en el medio, sin agujero central ni caño conectado."
+    },
+    {
       "h": "¿Cómo se produce el sellado en una rosca cónica vs. una rosca cilíndrica?",
       "p": "La rosca cónica sella por interferencia mecánica: al ajustar, los filetes se deforman y generan presión de sellado por sí solos. La rosca cilíndrica no genera esa presión de sellado, necesita un elemento adicional (cinta, sellador) para sellar."
     },
@@ -90,6 +133,26 @@
     {
       "h": "¿Cuál es el principio de funcionamiento de las bombas centrífugas/dinámicas?",
       "p": "Un rodete (impulsor) gira y le da velocidad (energía cinética) al líquido; después, en la voluta o difusor, esa velocidad se convierte en presión (energía de presión). El caudal entregado sí depende de la presión del sistema (a mayor presión, menor caudal)."
+    },
+    {
+      "h": "Croquis y detalle: bomba centrífuga (radial)",
+      "p": "Qué es y para qué se usa: la bomba más común de la industria, mueve el líquido acelerándolo con un rodete y convirtiendo esa velocidad en presión dentro de la voluta. Se usa para caudales grandes, líquidos poco viscosos y presión moderada por etapa. Cómo dibujar el croquis: un círculo grande en espiral (la voluta o carcasa, como un caracol que se va agrandando), con un círculo más chico centrado adentro (el rodete) del que salen líneas curvas cortas (las paletas). La succión entra con una flecha perpendicular al papel, apuntando al centro del rodete; la descarga sale tangencialmente (de costado, no del centro) en la zona donde la espiral es más ancha. Marcá el sentido de giro del rodete con una flecha circular."
+    },
+    {
+      "h": "Croquis y detalle: bomba centrífuga multietapa",
+      "p": "Qué es y para qué se usa: varias bombas centrífugas (etapas) montadas en el mismo eje, una a continuación de la otra, donde la descarga de una alimenta la succión de la siguiente. Se usa cuando hace falta mucha altura manométrica con un caudal moderado, porque cada etapa suma su propio incremento de presión, como subir escalones. Cómo dibujar el croquis: un eje horizontal recto con 3 o 4 cámaras en fila (rectángulos u óvalos), cada una con su propio rodete chico adentro, conectadas por flechas que van de la salida de una a la entrada de la siguiente. Rotulá cada una como 'Etapa 1', 'Etapa 2', etc., y terminá con una flecha de 'Descarga total' mostrando que la presión final es la suma de todas las etapas."
+    },
+    {
+      "h": "Croquis y detalle: bomba de desplazamiento positivo de engranajes",
+      "p": "Qué es y para qué se usa: dos engranajes que giran engranados dentro de una carcasa muy ajustada; el líquido queda atrapado entre los dientes y la carcasa y es arrastrado desde la succión hasta la descarga. Se usa para caudales chicos, líquidos viscosos (aceites) y donde se necesita un caudal muy constante y preciso. Cómo dibujar el croquis: un óvalo (la carcasa) con dos círculos dentados adentro, uno al lado del otro, girando en sentidos opuestos (marcalo con dos flechas circulares, una horaria y otra antihoraria). La succión va por arriba, donde los dientes se separan y crean vacío; la descarga va por abajo, donde los dientes se vuelven a juntar y empujan el líquido."
+    },
+    {
+      "h": "Croquis y detalle: bomba de desplazamiento positivo a pistón",
+      "p": "Qué es y para qué se usa: un pistón que se mueve hacia atrás y adelante dentro de un cilindro, aspirando líquido en la carrera de retroceso y expulsándolo en la de avance, con válvulas de retención que dejan pasar el líquido en un solo sentido en cada momento. Se usa para presiones altísimas (cientos de kg/cm²) con caudales chicos, como en cilindros hidráulicos. Cómo dibujar el croquis: un rectángulo alargado (el cilindro) con un pistón adentro y una flecha de doble sentido mostrando su vaivén. En cada extremo de las líneas de succión y descarga dibujá una válvula de retención chica (un triángulo con una línea, apuntando en el sentido permitido): una que solo deja entrar en la succión, y otra que solo deja salir en la descarga."
+    },
+    {
+      "h": "Croquis y detalle: bomba de desplazamiento positivo a diafragma",
+      "p": "Qué es y para qué se usa: una membrana flexible (diafragma) que se mueve de un lado a otro —por aire comprimido, un pistón mecánico o un electroimán— cambiando el volumen de una cámara y aspirando o expulsando el líquido, con las mismas válvulas de retención que la bomba a pistón. Se usa para líquidos corrosivos, abrasivos o que no pueden tener contacto con partes metálicas móviles, porque el diafragma aísla completamente el líquido del mecanismo de accionamiento. Cómo dibujar el croquis: un rectángulo (la cámara) dividido al medio por una línea ondulada (el diafragma), con una flecha de doble sentido mostrando su vaivén, y las mismas dos válvulas de retención en succión y descarga que en la de pistón."
     },
     {
       "h": "Se necesita generar presión de aceite a 340 kg/cm² para un cilindro hidráulico. ¿Qué tipo de bomba se usa?",
@@ -216,8 +279,44 @@
       "p": "Tiene un obturador (tapón) que se mueve perpendicular al asiento mediante un vástago roscado, estrangulando el paso del fluido en forma gradual. Por eso es el ejemplo típico de válvula reguladora de caudal: admite posiciones intermedias estables sin el desgaste que sufriría una esférica o compuerta trabajando a medio abrir."
     },
     {
+      "h": "Croquis y detalle: válvula de compuerta (gate)",
+      "p": "Qué es y para qué se usa: una placa plana (compuerta) que sube y baja perpendicular al flujo, cortando o abriendo el paso; en posición abierta queda totalmente fuera del paso del fluido (mínima pérdida de carga). Se usa solo para todo/nada, nunca para regular, porque a medio camino la compuerta vibra y se desgasta rápido. Cómo dibujar el croquis: un cuerpo en forma de T o cruz, con el paso horizontal recto de lado a lado, y arriba un vástago vertical con un volante en la punta; dentro del cuerpo vertical, un rectángulo (la compuerta) que puede estar arriba del todo (línea de puntos, 'abierta') o atravesando el conducto ('cerrada')."
+    },
+    {
+      "h": "Croquis y detalle: válvula esférica (ball)",
+      "p": "Qué es y para qué se usa: una bola perforada de lado a lado gira 90° dentro del cuerpo; alineada con el caño deja pasar todo el flujo, girada a 90° lo bloquea del todo. Es de ¼ de vuelta, cierre rápido y hermético, se usa para todo/nada, no para regular. Cómo dibujar el croquis: un cuerpo cilíndrico corto con un círculo grande adentro (la bola) con un agujero que la atraviesa; una palanca corta arriba de la bola, en línea con el caño cuando está abierta y perpendicular al caño cuando está cerrada — así se ve de un vistazo si está abierta o cerrada."
+    },
+    {
+      "h": "Croquis y detalle: válvula mariposa (butterfly)",
+      "p": "Qué es y para qué se usa: un disco delgado montado en un eje central que gira dentro del cuerpo, quedando paralelo al flujo cuando está abierta (casi sin obstrucción) o perpendicular cuando está cerrada (tapa todo el paso). También es de ¼ de vuelta, muy compacta y liviana; se usa en diámetros grandes donde una compuerta o esférica saldría muy pesada y cara. Cómo dibujar el croquis: un cuerpo cilíndrico corto (casi un anillo chato) con una línea vertical en el medio (el eje) y un disco que gira sobre ese eje: de canto (una línea fina) cuando está abierta, de frente (un círculo lleno) cuando está cerrada."
+    },
+    {
+      "h": "Croquis y detalle: válvula de retención (check)",
+      "p": "Qué es y para qué se usa: deja pasar el fluido en un solo sentido y se cierra sola —sin ningún accionamiento manual— si el fluido intenta volver para atrás, usando el peso de un disco/bola o un resorte. Se usa después de una bomba, para que el líquido no retroceda cuando la bomba se para. Cómo dibujar el croquis: un cuerpo con una flecha grande grabada afuera indicando el sentido permitido de flujo; adentro, un disco apoyado sobre un asiento inclinado con una bisagra, que se levanta cuando el flujo va en el sentido correcto y cae tapando el asiento si el flujo se invierte (dibujá las dos posiciones)."
+    },
+    {
+      "h": "Croquis y detalle: válvula de seguridad / alivio",
+      "p": "Qué es y para qué se usa: se abre sola, automáticamente, cuando la presión del sistema supera un valor límite ajustado con un resorte calibrado, para aliviar el exceso de presión y evitar que algo reviente (una caldera, un recipiente a presión); al bajar la presión, se vuelve a cerrar sola. Cómo dibujar el croquis: un cuerpo en T conectado al equipo a proteger, con un disco empujado hacia abajo por un resorte visible (dibujalo como una espiral) y ajustable con un tornillo arriba; cuando la presión interna supera la fuerza del resorte, el disco se levanta con una flecha de escape hacia afuera."
+    },
+    {
       "h": "Uniones de caños: nombrá y describí brevemente 2 procesos de soldadura.",
       "p": "Soldadura a tope (butt weld): une dos extremos de caño biselados enfrentados, con un cordón que atraviesa todo el espesor de pared — se usa en diámetros grandes y servicios críticos. Soldadura de filete o socket weld: el caño se inserta dentro de un accesorio (socket) y se suelda por fuera con un cordón en ángulo — más rápida de ejecutar, pero deja una pequeña zona muerta donde puede acumularse producto; se usa en diámetros chicos."
+    },
+    {
+      "h": "Croquis y detalle: soldadura SMAW (electrodo revestido)",
+      "p": "Qué es y para qué se usa: un electrodo metálico revestido de un material que al fundirse forma un gas protector y una escoria; el arco eléctrico salta entre la punta del electrodo y la pieza, fundiendo ambos y uniendo el metal. Es la más versátil y barata, manual, se usa en taller y a la intemperie (obra, montajes), aunque no es muy rápida. Cómo dibujar el croquis: dos piezas a unir con un espacio en el medio (la junta), un electrodo inclinado (una línea con un óvalo alargado en la punta, el revestimiento) apuntando al hueco, un arco chico (rayitas tipo estrella) entre la punta y la pieza, y una nube pequeña arriba representando el gas protector y la escoria."
+    },
+    {
+      "h": "Croquis y detalle: soldadura GTAW / TIG (electrodo de tungsteno)",
+      "p": "Qué es y para qué se usa: un electrodo de tungsteno que NO se funde (solo genera el arco), protegido por un gas inerte (argón), con una varilla de aporte separada que el soldador va agregando con la otra mano si hace falta. Es la de mayor calidad y control, pero la más lenta; se usa para la pasada de raíz en cañerías críticas y en materiales finos o aceros inoxidables. Cómo dibujar el croquis: una antorcha con el electrodo de tungsteno fijo adentro (una línea recta corta que no se consume), rodeada de una nube de gas protector (círculo punteado alrededor de la punta), y aparte, una varilla de aporte separada entrando desde el costado en ángulo, sin tocar la antorcha."
+    },
+    {
+      "h": "Croquis y detalle: soldadura GMAW / MIG-MAG (alambre continuo)",
+      "p": "Qué es y para qué se usa: un alambre continuo alimentado solo desde una bobina, que actúa a la vez de electrodo y de material de aporte (se funde mientras suelda), con un gas protector que sale por la misma boquilla (inerte = MIG, activo tipo CO2 = MAG). Mucho más rápida que SMAW y TIG, ideal para producción en serie y espesores medianos. Cómo dibujar el croquis: una antorcha con un tubito interno por donde se alimenta el alambre (una línea continua que sale por la punta y se va acortando, mostrando que se consume), rodeada por un cono ancho de la boquilla de gas."
+    },
+    {
+      "h": "Croquis y detalle: soldadura SAW (arco sumergido)",
+      "p": "Qué es y para qué se usa: un alambre continuo igual que en MIG/MAG, pero el arco queda completamente tapado bajo una capa de polvo fundente granulado que cae justo delante de la soldadura, sin necesidad de gas ni de que el soldador vea el arco. Es el proceso de mayor producción, automático o semiautomático, para soldaduras largas y rectas (grandes caños, estructuras) — no sirve para posiciones verticales o complicadas porque el fundente se caería. Cómo dibujar el croquis: el alambre bajando hacia la junta, y por encima un montoncito de polvo granulado (puntitos apilados como arena) cubriendo toda la zona, con el arco escondido debajo (marcalo con una línea punteada, 'acá está el arco, tapado')."
     },
     {
       "h": "¿Qué diferencia hay entre un fusible gL y un fusible aM?",

@@ -111,6 +111,50 @@
     "edges": [["m1", "m2"], ["m2", "m3"], ["m3", "m4"]]
   },
   {
+    "title": "Curva de disparo de una protección termomagnética",
+    "description": "Esto es lo que te piden dibujar cuando dicen 'confeccioná la curva de disparo'. Tiene dos tramos bien distintos: la zona térmica, una curva que desciende suave (a mayor corriente de sobrecarga, dispara más rápido, pero tarda segundos), y la zona magnética, una caída casi vertical a partir de cierta corriente (dispara instantáneo, típico de un cortocircuito). Para copiarlo en el examen: dibujá los dos ejes, la curva que baja suave y, donde se pone casi vertical, marcá el quiebre hacia la zona magnética.",
+    "kind": "curve",
+    "viewBoxW": 620,
+    "viewBoxH": 340,
+    "xAxisLabel": "Corriente (múltiplos de In) →",
+    "yAxisLabel": "Tiempo de disparo (escala logarítmica) →",
+    "zones": [
+      { "x1": 60, "x2": 330, "y1": 300, "y2": 25, "fill": "#e8f5f2", "opacity": 0.5 },
+      { "x1": 330, "x2": 580, "y1": 300, "y2": 25, "fill": "#fdeceb", "opacity": 0.5 }
+    ],
+    "curves": [
+      { "points": "110,60 150,95 190,135 230,175 270,210 300,235 325,250", "color": "#0f766e", "width": 3 },
+      { "points": "325,250 328,270 332,283 340,285 560,283", "color": "#b91c1c", "width": 3 }
+    ],
+    "labels": [
+      { "x": 130, "y": 90, "text": "Zona térmica", "color": "#0f766e", "weight": "600", "size": 12.5 },
+      { "x": 130, "y": 106, "text": "(curva inversa, dispara", "color": "#0f766e", "size": 11 },
+      { "x": 130, "y": 120, "text": "en segundos)", "color": "#0f766e", "size": 11 },
+      { "x": 400, "y": 130, "text": "Zona magnética", "color": "#b91c1c", "weight": "600", "size": 12.5 },
+      { "x": 400, "y": 146, "text": "(disparo instantáneo,", "color": "#b91c1c", "size": 11 },
+      { "x": 400, "y": 160, "text": "típico cortocircuito)", "color": "#b91c1c", "size": 11 },
+      { "x": 260, "y": 305, "text": "↑ corriente de disparo magnético (≈5-10 × In)", "color": "var(--map-subtitle)", "size": 10.5 }
+    ]
+  },
+  {
+    "title": "Curva característica de una bomba centrífuga (H-Q) y punto de funcionamiento",
+    "description": "Otro gráfico clásico para dibujar: la curva de la bomba (cuánta altura entrega según el caudal, siempre descendente) y la curva del sistema o de resistencia de la instalación (cuánta altura pide la cañería según el caudal, siempre ascendente por la fricción). Donde se cruzan las dos curvas está el punto de funcionamiento real: el caudal y la altura en los que la bomba realmente va a trabajar en esa instalación.",
+    "kind": "curve",
+    "viewBoxW": 620,
+    "viewBoxH": 340,
+    "xAxisLabel": "Caudal (Q) →",
+    "yAxisLabel": "Altura (H) →",
+    "curves": [
+      { "points": "90,60 150,80 220,110 300,152 380,195 460,235 540,265", "color": "#0f766e", "width": 3 },
+      { "points": "90,220 150,205 220,182 300,152 380,118 460,85 540,55", "color": "#b45309", "width": 3, "dashed": true }
+    ],
+    "points": [{ "x": 300, "y": 152, "label": "Punto de funcionamiento", "color": "#1b1d1f", "dx": 10, "dy": -12 }],
+    "labels": [
+      { "x": 100, "y": 48, "text": "Curva de la bomba (H disponible)", "color": "#0f766e", "weight": "600", "size": 12 },
+      { "x": 300, "y": 108, "text": "Curva del sistema (H requerida)", "color": "#b45309", "weight": "600", "size": 12 }
+    ]
+  },
+  {
     "title": "Cómo se suelda un caño crítico paso a paso",
     "description": "En tuberías exigentes (como las de petróleo) no alcanza con soldar cualquier cosa: se prepara la unión, se hace una primera pasada de altísima calidad, se rellena más rápido y se controla todo antes de habilitarlo.",
     "viewBoxW": 820,
