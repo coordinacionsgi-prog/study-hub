@@ -3,6 +3,7 @@ import { getSubjects, getModules } from "./api";
 import TheoryView from "./components/TheoryView";
 import ConceptMapView from "./components/ConceptMapView";
 import DiagramsView from "./components/DiagramsView";
+import SearchBox from "./components/SearchBox";
 import "./index.css";
 
 export default function App() {
@@ -13,6 +14,14 @@ export default function App() {
   const [selectedId, setSelectedId] = useState(null);
   const [view, setView] = useState(null); // "map" | "diagrams" | null
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrollRequest, setScrollRequest] = useState(null);
+
+  function handleSearchNavigate(moduleId, sectionIndex) {
+    setSelectedId(moduleId);
+    setView(null);
+    setMenuOpen(false);
+    setScrollRequest({ moduleId, sectionIndex, nonce: Date.now() });
+  }
 
   useEffect(() => {
     getSubjects().then(setSubjects).catch((e) => setError(e.message));
@@ -76,6 +85,8 @@ export default function App() {
         </button>
         <h1 className="app-title">{subject?.title}</h1>
         <p className="app-subtitle">Repaso de la materia</p>
+
+        {modules && <SearchBox subjectId={subjectId} modules={modules} onNavigate={handleSearchNavigate} />}
 
         <div className="subject-views">
           <button
@@ -159,7 +170,7 @@ export default function App() {
             </header>
 
             <div className="content-body">
-              <TheoryView subjectId={subjectId} moduleId={selected.id} />
+              <TheoryView subjectId={subjectId} moduleId={selected.id} scrollRequest={scrollRequest} />
             </div>
           </>
         )}

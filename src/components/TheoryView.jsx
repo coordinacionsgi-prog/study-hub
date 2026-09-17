@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getTheory } from "../api";
 
-export default function TheoryView({ subjectId, moduleId }) {
+export default function TheoryView({ subjectId, moduleId, scrollRequest }) {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -12,6 +12,17 @@ export default function TheoryView({ subjectId, moduleId }) {
       .then(setData)
       .catch((e) => setError(e.message));
   }, [subjectId, moduleId]);
+
+  useEffect(() => {
+    if (!data || !scrollRequest) return;
+    if (scrollRequest.moduleId !== moduleId) return;
+    const el = document.getElementById(`theory-section-${scrollRequest.sectionIndex}`);
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+    el.classList.add("theory-section-highlight");
+    const timer = setTimeout(() => el.classList.remove("theory-section-highlight"), 2200);
+    return () => clearTimeout(timer);
+  }, [data, scrollRequest, moduleId]);
 
   if (error) return <div className="empty-state">Este módulo todavía no tiene teoría resumida. ({error})</div>;
   if (!data) return <div className="empty-state">Cargando teoría…</div>;
@@ -44,7 +55,7 @@ export default function TheoryView({ subjectId, moduleId }) {
 
       <div className="theory-sections">
         {data.sections?.map((s, i) => (
-          <div key={i} className="theory-section">
+          <div key={i} id={`theory-section-${i}`} className="theory-section">
             <h3>{s.h}</h3>
             <p>{s.p}</p>
           </div>
