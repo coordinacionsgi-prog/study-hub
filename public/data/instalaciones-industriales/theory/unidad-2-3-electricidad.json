@@ -30,7 +30,12 @@
     "Temperatura de color",
     "IRC (Índice de Reproducción de Color)",
     "Nivel de iluminación media (Emed)",
-    "Lámparas de descarga"
+    "Lámparas de descarga",
+    "Relux / DIALux",
+    "Reflectancia",
+    "Factor de mantenimiento",
+    "Uniformidad Emin/Emed",
+    "Colores falsos"
   ],
   "sections": [
     {
@@ -120,6 +125,14 @@
     {
       "h": "Tipos de lámparas",
       "p": "Las lámparas incandescentes (y las halógenas, una versión mejorada) producen luz calentando un filamento hasta que brilla; son baratas y reproducen muy bien los colores, pero gastan mucha energía en forma de calor y duran poco (unas 1000 a 2000 horas). Las lámparas de descarga (fluorescentes, vapor de mercurio, vapor de sodio) producen luz haciendo pasar corriente a través de un gas, sin filamento; son mucho más eficientes y duran muchísimo más (hasta 20000 horas), pero necesitan un balasto para arrancar y limitar la corriente, y su espectro no es continuo como el de una incandescente, lo que en algunas (como el sodio de baja presión) se traduce en muy mal rendimiento de color, como vimos al hablar del IRC. Las lámparas de sodio de alta presión son las típicas de alumbrado público por su gran eficiencia, aunque con un color menos fiel. Los LED representan una tercera familia, la de estado sólido: son semiconductores que emiten luz directamente al paso de la corriente, sin filamento ni gas, con altísima eficiencia, larguísima vida útil y encendido instantáneo, por lo que hoy reemplazan a casi todas las tecnologías anteriores en la mayoría de las aplicaciones."
+    },
+    {
+      "h": "Software de cálculo: Relux y DIALux",
+      "p": "En la clase del 20/8 el profe mostró por arriba los dos programas gratuitos más usados, Relux (con su módulo rápido Relux Express) y DIALux, para relacionarlos con la teoría (recomienda registrarse con el mail de la facultad por el spam). Los parámetros que se cargan son los de clase: dimensiones del local, altura del cielorraso, altura del plano de trabajo (0,75 m por defecto), distancia marginal a las paredes (0,5 m) y la reflectancia de cada superficie (por defecto piso 20%, techo 70% y paredes 50%), que es la luz que rebota y suma como iluminación secundaria. La orientación y el emplazamiento sirven para calcular luz natural. Después se elige la luminaria: genérica de demo o real del fabricante, con su ficha (flujo en lúmenes, potencia, temperatura de color, IRC, IP, clase de protección). Se fija el factor de mantenimiento (según norma EN y lo limpio del ambiente y el ciclo de mantenimiento) y la iluminancia objetivo (por ejemplo 500 lux para un aula u oficina). El programa sugiere cantidad y disposición de luminarias y da Emed, la uniformidad Emin/Emed (las zonas de penumbra tienen que quedar por encima de 0,5; algunas normas piden 0,6), la relación Emin/Emax (deslumbramiento), los W/m², las curvas isolux, los colores falsos y la vista 3D de la intensidad como relieve topográfico."
+    },
+    {
+      "h": "El programa es una calculadora: lo que importa es elegir bien la luminaria",
+      "p": "El profe usó la imagen de un mono con una calculadora: si toca números y operadores, la calculadora siempre da un resultado, pero eso no significa que sea correcto. Con el software pasa igual: con cualquier local, luminaria y objetivo, sugiere una solución que cumple la Emed, pero en un ejemplo de clase daba una Emin y una Emax pésimas y no verificaba nada más. La parte jugosa del trabajo es seleccionar el tipo de artefacto correcto para cada local y aplicación; si la luminaria está mal elegida, el programa no hace magia. El problema práctico en Argentina es que la mayoría de los fabricantes cargados en los programas son europeos y acá no se consiguen, así que hay que buscar los plugins de fabricantes o importadores disponibles en el país."
     }
   ]
 }

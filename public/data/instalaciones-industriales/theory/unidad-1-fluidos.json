@@ -1,6 +1,6 @@
 {
   "thesis": "Esta unidad es sobre cómo llevar un líquido de un punto a otro por una cañería usando una bomba: hay que vencer la altura y el rozamiento, y para armar esa instalación necesitás elegir bien los caños, las uniones (soldadura, bridas, roscas) y las válvulas correctas.",
-  "examTip": "Suelen tomar: el cálculo conceptual y numérico de pérdidas de carga primarias y secundarias (Darcy-Weisbach y longitud equivalente), qué es el ANPA y por qué se produce la cavitación, la diferencia entre caño y tubo con sus 6 parámetros de especificación (incluyendo cómo elegir el Schedule según la presión de servicio), los tipos de válvulas y cuándo usar cada una, los métodos de soldadura (SMAW, TIG, MIG/MAG, arco sumergido) con sus diferencias, la diferencia entre bomba centrífuga de una etapa y multietapa, cómo se lee una curva de bomba (caudal vs. altura), y qué es el golpe de ariete y cómo se previene.",
+  "examTip": "Suelen tomar: el cálculo conceptual y numérico de pérdidas de carga primarias y secundarias (Darcy-Weisbach y longitud equivalente), qué es el ANPA y por qué se produce la cavitación, la diferencia entre caño y tubo con sus 6 parámetros de especificación (incluyendo cómo elegir el Schedule según la presión de servicio), los tipos de válvulas y cuándo usar cada una, los métodos de soldadura (SMAW, TIG, MIG/MAG, arco sumergido) con sus diferencias, la diferencia entre bomba centrífuga de una etapa y multietapa, cómo se lee una curva de bomba (caudal vs. altura), y qué es el golpe de ariete y cómo se previene. Ojo con la brida welding neck: la presión la define la serie, no el tipo de brida; la welding neck se elige porque resiste mejor flexiones y esfuerzos mecánicos. Y el croquis tiene que ser técnico: corte, ejes de simetría y aristas ocultas.",
   "concepts": [
     "Pérdida de carga primaria",
     "Pérdida de carga secundaria",
@@ -22,7 +22,9 @@
     "Curva de bomba (caudal vs. altura)",
     "ANPA (NPSH)",
     "Cavitación",
-    "Golpe de ariete"
+    "Golpe de ariete",
+    "Serie de brida (150/300/600/900)",
+    "Brida welding neck"
   ],
   "sections": [
     {
@@ -56,6 +58,10 @@
     {
       "h": "Bridas, roscas y otras uniones desarmables",
       "p": "Cuando una unión tiene que poder desarmarse para mantenimiento (para sacar una bomba, un filtro o una válvula), no se suelda: se usa un sistema desmontable. Las bridas son discos metálicos que se atornillan entre sí con una junta (empaquetadura) en el medio que sella la unión; la más común en la industria es la de cara con resalte (RF, 'raised face'), que tiene unos surcos concéntricos maquinados que ayudan a que la junta 'muerda' contra las dos caras y no se corra ni pierda. Las bridas se clasifican por su 'clase' de presión (150#, 300#, 600#, etc.), que junto con el diámetro nominal define exactamente qué junta y qué bulones corresponden. Las roscas cónicas, como la NPT (norma americana) o la BSPT (norma inglesa/métrica), son el estándar en caños chicos (hasta 2 o 3 pulgadas, típicamente): sellan porque al ajustar, los filetes cónicos se van apretando entre sí y deforman levemente el metal, sin necesitar una junta aparte, aunque en la práctica casi siempre se les agrega cinta de teflón o sellador para asegurar. Por último, en industrias donde la limpieza es crítica (alimenticia, farmacéutica) se usan uniones clamp o tri-clamp: una abrazadera que aprieta dos bridas lisas con una junta sanitaria en el medio, pensada para desarmarse y limpiarse rápido sin dejar recovecos donde se acumule suciedad."
+    },
+    {
+      "h": "Brida welding neck: el error que se repitió en el 95% de los parciales",
+      "p": "En la clase del 20/8 el profe dijo que casi todos contestaron mal lo mismo, probablemente por un resumen que circula. La brida welding neck NO es la que más presión soporta. Igual que los caños tienen Schedule, las bridas tienen series (150, 300, 600, 900...), y la serie es la que define la presión máxima de uso. Welding neck, slip-on, socket, lap joint: todos los tipos existen en todas las series, así que una welding neck no aguanta más presión que una slip-on de la misma serie. Lo que sí tiene la welding neck, por su cuello largo, es que es mucho más robusta frente a esfuerzos mecánicos: flexiones, tracciones y torsiones que la cañería termina recibiendo aunque no debería trabajar como estructura (por peso propio o un mal diseño). Tampoco es cierto que 'va soldada y por eso tiene menos fugas': todas las bridas metálicas van soldadas, salvo las roscadas. Y otra crítica: el croquis. Pocos hicieron un croquis técnico decente de una pieza de revolución, con vista en corte, ejes de simetría y aristas ocultas; no se trata de dibujar lindo, sino de dibujar como ingeniero."
     },
     {
       "h": "Válvula de compuerta y esférica: el interruptor de luz",

@@ -1,6 +1,6 @@
 {
   "thesis": "El aire comprimido es una forma de transportar energía, igual que la electricidad o el vapor: un compresor le mete energía al aire achicándole el volumen, una red de cañerías lo lleva por la planta y los actuadores (cilindros, herramientas) la devuelven como fuerza y movimiento. La segunda mitad de la unidad cambia de tema pero no de lógica: los gases industriales también viajan comprimidos o licuados, y casi todo lo que hay que saber de ellos tiene que ver con cómo se almacenan y se manejan sin que nadie salga lastimado.",
-  "examTip": "Lo más preguntado: hacer el esquema de una red de aire comprimido con sus partes en orden (filtro, compresor, post-enfriador, pulmón, filtros, secador, FRL), las formas de tendido (lineal con pendiente de 2° o anillo cerrado), que las bajadas a consumo se toman por arriba de la cañería y las de purga por abajo, las velocidades máximas (8 m/s en principal y secundarias, 15 m/s en servicio) y la caída de presión admisible. En válvulas neumáticas, saber leer la nomenclatura vías/posiciones (3/2, 5/2, 5/3) y la numeración de vías (1 presión, 2 y 4 salidas, 3 y 5 escapes, 12 y 14 pilotajes). De gases: gases comprimidos vs. licuados vs. criogénicos, por qué el cilindro de acetileno es distinto, la prueba hidrostática a 5/3 de la presión de servicio y los límites de inflamabilidad.",
+  "examTip": "Lo más preguntado: hacer el esquema de una red de aire comprimido con sus partes en orden (filtro, compresor, post-enfriador, pulmón, filtros, secador, FRL), las formas de tendido (lineal con pendiente de 2° o anillo cerrado), que las bajadas a consumo se toman por arriba de la cañería y las de purga por abajo, las velocidades máximas (8 m/s en principal y secundarias, 15 m/s en servicio) y la caída de presión admisible. En válvulas neumáticas, saber leer la nomenclatura vías/posiciones (3/2, 5/2, 5/3) y la numeración de vías (1 presión, 2 y 4 salidas, 3 y 5 escapes, 12 y 14 pilotajes). De gases: gases comprimidos vs. licuados vs. criogénicos, por qué el cilindro de acetileno es distinto, la prueba hidrostática a 5/3 de la presión de servicio y los límites de inflamabilidad. De la clase del 10/9: sobre gases el profe dijo que casi no toma (a lo sumo algo elemental). En aire comprimido sí: velocidades máximas, por qué la velocidad genera condensado y la conversión de caudales a condición FAD antes de sumarlos.",
   "concepts": [
     "Neumática",
     "Ley de Dalton",
@@ -28,12 +28,23 @@
     "Prueba hidrostática",
     "Regulador de una y dos etapas",
     "Tanque criogénico y termo",
-    "Límites de inflamabilidad"
+    "Límites de inflamabilidad",
+    "Cilindro / termo / estanque según consumo",
+    "Alquiler de envases (comodato)",
+    "Disco de ruptura",
+    "Rosca de salida distinta por gas",
+    "Válvula micrométrica",
+    "Condición de red vs. FAD",
+    "Q2 = Q1·p1/p2"
   ],
   "sections": [
     {
       "h": "De qué se trata la neumática",
       "p": "El aire comprimido se usa como vehículo para transmitir energía, y la disciplina que lo estudia se llama neumática. La idea es simple: un compresor agarra aire de la atmósfera, lo comprime (gasta energía mecánica para achicarle el volumen) y ese aire a presión viaja por cañerías hasta donde se necesita. Ahí un actuador, por ejemplo un cilindro, hace el camino inverso: deja que el aire empuje un pistón y recupera esa energía como fuerza. En la mayoría de las plantas el aire comprimido se considera un servicio más, igual que la electricidad, el gas o el agua, y las redes trabajan casi siempre entre 6 y 7 bar (algunas, menos comunes, entre 14 y 16 bar)."
+    },
+    {
+      "h": "El aire comprimido como servicio de planta (enfoque de clase)",
+      "p": "Como en vapor, el aire comprimido se ve como fuerza motriz de servicio: casi toda industria tiene una línea para mover actuadores, herramientas y motores neumáticos. Mecánicamente los compresores son casi la misma máquina que las bombas (un compresor a pistón es como una bomba a pistón, uno a tornillo como una bomba de tornillo), así que no se vuelven a describir: lo que interesa es cómo estimar la demanda de aire y cómo armar la red. Las redes de uso general trabajan entre 6 y 7 bar, a veces 12 a 14 bar; las herramientas neumáticas están pensadas para 5 a 7 bar (6 bar como valor estándar). Al ser presiones bajas, mucho de lo visto para líquidos en la Unidad 1 sigue valiendo: la fórmula de pérdida de presión en cañerías se parece a Darcy, proporcional a la longitud y al caudal elevado a 1,85 e inversamente proporcional al diámetro a la quinta y a la presión."
     },
     {
       "h": "Las leyes de los gases que hay que tener a mano",
@@ -58,6 +69,14 @@
     {
       "h": "Principal, secundarias y de servicio",
       "p": "La tubería principal es la que sale de los compresores y lleva todo el aire de la planta: se dimensiona con el mayor diámetro posible y previendo hasta un 20% de ampliación futura, con una velocidad máxima de 8 m/s. Las secundarias se derivan de la principal y recorren las zonas de trabajo; por ellas pasa la suma de los consumos que alimentan y tampoco deben superar los 8 m/s. Las de servicio son las que llegan a los equipos: llevan acoples rápidos, mangueras y la unidad FRL. Como son tramos cortos, se acepta hasta 15 m/s. Se recomienda no colgar más de tres equipos de una misma tubería de servicio y usar diámetros mayores a 1/2 pulgada para evitar obstrucciones."
+    },
+    {
+      "h": "Por qué se limita la velocidad del aire",
+      "p": "Para líquidos se usaba 1 a 3 m/s; en aire comprimido se admite hasta 8 m/s en líneas principales y secundarias y 15 m/s en la línea de servicio (la bajada al consumidor, generalmente con manguera, de menor diámetro). Además de la erosión, el ruido y las vibraciones de la Unidad 1, hay una razón propia del aire: a más velocidad se forma más condensado. El agua es el gran enemigo: cada litro de aire atmosférico que se comprime se convierte en unos pocos centímetros cúbicos que conservan todos los gramos de humedad, el aire se satura (punto de rocío) y lo que sobra condensa. El profe fue claro: quien trabaje en mantenimiento con aire comprimido va a estar siempre sacando agua de la red; es una lucha perdida desde el día uno, más notoria los días húmedos."
+    },
+    {
+      "h": "Condición de red vs. condición FAD: el balance de caudales",
+      "p": "La misma masa de aire ocupa distinto volumen según la presión, así que no se pueden sumar caudales medidos a presiones distintas (peras con bananas). Por gases ideales, a temperatura ambiente constante, Q2 = Q1 · p1/p2. La condición de red es la presión nominal del compresor (por ejemplo 6 bar) y la condición FAD (Free Air Delivered, aire libre) es a presión atmosférica, alrededor de 1 bar. Entonces el caudal en FAD es unas 6 veces el caudal en condición de red. Para las diferencias entre condición normal y estándar (1 atm y 0 °C, o 1 bar y 20 °C), a fines industriales el profe dice que se redondea todo a 1 bar. El procedimiento del trabajo práctico: llevar el consumo de cada equipo (que trabajan a 3, 4, 5 o 6 bar) a condición FAD, recién ahí sumarlos, aplicar coeficientes de utilización, y con eso dimensionar el compresor, los diámetros de cañería y el pulmón, igual que se hizo el balance eléctrico."
     },
     {
       "h": "Cuánta presión se puede perder",
@@ -106,6 +125,38 @@
     {
       "h": "Gases industriales: comprimidos, licuados y criogénicos",
       "p": "Los gases industriales son gases fabricados (por separación del aire o por síntesis química) que se venden para soldadura y corte, siderurgia, medicina, alimentos, electrónica y más. Como un gas ocupa muchísimo volumen (1 kg de oxígeno son 739 litros a 15 °C y 1 atm), hay que achicarlo para transportarlo, y hay tres formas. Gases comprimidos: tienen punto de ebullición menor a -100 °C, así que siguen siendo gas aunque los comprimas (oxígeno, nitrógeno, argón, helio, hidrógeno); van en cilindros de acero de hasta 220 bar. Gases comprimidos-licuados: hierven cerca de la temperatura ambiente y al presurizarlos en un recipiente cerrado se vuelven líquidos (CO2, propano, óxido nitroso). Gases criogénicos: los que no se licuan con presión se licuan enfriándolos por debajo de -100 °C, como el oxígeno líquido (LOX, -183 °C), el nitrógeno líquido (LIN, -196 °C) y el argón líquido (LAR, -186 °C)."
+    },
+    {
+      "h": "Cilindro, termo o estanque: se elige por consumo",
+      "p": "El enfoque del profe es logístico: cómo contratar y qué conviene comprar. Con la tabla de referencia (para oxígeno, pero parecida para otros gases), hasta unos 36 m³ diarios, es decir 1 a 4 cilindros, conviene trabajar con cilindros. Entre 45 y 90 m³ diarios (5 a 10 cilindros) ya conviene analizar un termo criogénico, porque es más fácil manejar uno o dos termos que diez cilindros. Por encima de 10 cilindros diarios se va a un estanque o tanque estacionario, como los que se ven junto a la vereda de los hospitales grandes. Ojo: los m³ de gas siempre se expresan a presión atmosférica (metros cúbicos normales), no a la presión del envase."
+    },
+    {
+      "h": "Comprar o alquilar los envases",
+      "p": "Casi nadie es dueño de sus cilindros. Si lo fueras, tendrías que hacer vos las inspecciones y pruebas hidráulicas, y además el proveedor tendría que devolverte siempre tu mismo cilindro por número de serie, lo cual es casi inviable. El contrato estándar es comprar el gas (metros cúbicos o kilos) y pagar un alquiler diario por cada envase que tenés en tu poder, todos los días del año, incluidos feriados; para una pyme no es un costo menor, por eso se ajusta la cantidad mínima de envases que asegure no quedarse sin gas. Los fabricantes de gases son pocos (un oligopolio) y los envases son suyos aunque compres a un distribuidor, porque son los que tienen la infraestructura para inspeccionarlos y, al final de su vida útil, inutilizarlos pinchándolos con soplete. El estanque también es del proveedor, en comodato: lo instala en un espacio que le cedés, solo él accede, lo rellena con un camión cisterna y hoy lo monitorea online para saber cuándo volver."
+    },
+    {
+      "h": "Cilindros: 220 bar, colores y oxígeno medicinal",
+      "p": "Un cilindro es un recipiente de acero de 40 a 50 litros, con una presión máxima de llenado de 220 bar (el de GNC trabaja a 200 bar, es el mismo concepto), y lleva estampadas de forma indeleble la norma, la presión de servicio, el número de serie (es trazable) y las fechas de inspección. Cada cilindro nace y muere con un mismo gas, para evitar contaminación cruzada. Los colores no coinciden entre países: el argón es naranja en Argentina, verde en Chile y marrón en Perú; el oxígeno industrial es azul y el medicinal blanco en Argentina. Por eso hay que leer la etiqueta y no confiar en el color. La diferencia entre oxígeno industrial y medicinal no es tanto la pureza sino la garantía de que no tiene trazas de nada nocivo: el medicinal viene con un certificado de laboratorio firmado. La presión del manómetro indica cuánto gas queda, y siempre se devuelve con un remanente que pagaste pero no usás, como el viejo sifón de soda."
+    },
+    {
+      "h": "La prueba hidráulica se hace por afuera",
+      "p": "Toda prueba de presión de un recipiente o equipo presurizado se hace con agua y no con gas: si el recipiente revienta con un gas, la expansión produce un estallido con esquirlas; con agua, que es incompresible, a lo sumo te mojás. Una aclaración que hizo el profe: en los cilindros la prueba no se hace llenándolos de agua por dentro, porque eso los contaminaría y además el agua es corrosiva. El cilindro se pone dentro de un recipiente que se presuriza con agua, y la presión actúa de afuera hacia adentro; estructuralmente es equivalente. Si el cilindro se rompe, igual queda descartado."
+    },
+    {
+      "h": "Válvula, regulador y flujómetro: lo que va arriba del cilindro",
+      "p": "Arriba del cilindro va una válvula de bloqueo con volante, obturador y asiento, que trae un disco de ruptura: si el cilindro queda envuelto en un incendio y la presión sube, el disco se rompe y se pierde el gas, pero el cilindro no explota. La rosca hacia el cilindro es estándar, pero la de salida tiene un paso y un filete distintos para cada gas, así que un regulador de oxígeno no se puede enroscar en un tubo de argón. Después va la reguladora de presión de acción directa a resorte, con dos manómetros (cilindro y salida). Se usa una de dos etapas cuando el salto es muy grande (por ejemplo 200 a 60 y después 60 a 2 bar) y porque es mucho menos sensible a la caída de presión del cilindro a medida que se vacía. Por último, en procesos como la soldadura lo que importa no es la presión sino el caudal (el procedimiento de soldadura te da litros por minuto), y para eso va un flujómetro: una válvula micrométrica de aguja que regula el paso, y un tubo cónico transparente donde una bolita de acero sube hasta equilibrarse, con una escala calibrada en litros por minuto."
+    },
+    {
+      "h": "El cilindro de acetileno, según la clase",
+      "p": "El acetileno tiene mucho más poder calorífico que el gas natural, por eso se usa en sopletes cuando se necesitan más temperatura que con oxigás, pero es muy inestable y sensible a la temperatura. Adentro el cilindro tiene una masa sólida porosa, como un panal o una arcilla densa, impregnada con acetona; el acetileno se disuelve en ella como en una soda y, fraccionado en miles de poros, pierde su explosividad. Sale gas por arriba y la acetona queda adentro, por eso el cilindro de acetileno nunca se acuesta ni se vuelca (se derramaría la acetona). Tiene tapones de aleación de plomo que funden a unos 100 °C y su contenido se mide pesando, porque la presión siempre es baja. Los cilindros vacíos pesan 40 a 50 kg."
+    },
+    {
+      "h": "Termo criogénico: un Stanley gigante",
+      "p": "Con cilindros se mueven 5 kg de envase por cada kg de gas; con termos la relación es 1 a 1; con un estanque es 0, porque el camión descarga a granel. El termo es un recipiente interior de acero inoxidable apto para baja temperatura, una cámara de vacío y un recipiente exterior (de acero, o inoxidable si es para uso medicinal). Tiene una válvula de líquido conectada al fondo, como un sifón de soda, y una válvula de gas que toma de la parte alta y pasa por un serpentín exterior para terminar de vaporizar cualquier gota de líquido. Trabaja a 6 a 8 bar, y es la propia presión la que lo vacía. El punto clave: aunque esté muy bien aislado, el termo se va calentando, el líquido se evapora, sube la presión y la válvula de venteo lo va descargando sola. Si tu consumo no es lo bastante grande o no es predecible, el gas se te pierde por venteo antes de usarlo (un alumno contó que le pasaba con el nitrógeno del horno de recocido de cobre en paradas y vacaciones)."
+    },
+    {
+      "h": "Cuánto pesa esto en el parcial",
+      "p": "El profe dijo que sobre gases industriales difícilmente tome algo, a lo sumo una pregunta muy elemental en el parcial, y casi nunca en el final; pidió al menos leer lo poco que se vio. Se enfoca en la parte logística (qué envase elegir, alquilar o comprar) más que en la seguridad de manipuleo, que se ve en otras materias."
     },
     {
       "h": "Cilindros: marcas, colores y cuánto gas queda",

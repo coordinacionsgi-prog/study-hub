@@ -1,6 +1,6 @@
 {
-  "thesis": "Las minutas son el resumen de lo que se dio en cada clase en vivo: no reemplazan al apunte, sino que aclaran con otras palabras y ejemplos los mismos temas de Unidad 1 (piping), sobre todo la especificación de caños, la soldadura y las uniones desarmables.",
-  "examTip": "El profesor insiste mucho en dos ideas: que un producto industrial hay que especificarlo sin ninguna ambigüedad (los 6 parámetros de un caño), y que la soldadura de verdad funde el metal base (a diferencia del brazing). También repite la diferencia entre AMPA disponible y requerido, y por qué las roscas cónicas dominan en caños chicos.",
+  "thesis": "Las minutas son el resumen de lo que se dio en cada clase en vivo: no reemplazan al apunte, sino que aclaran con otras palabras y ejemplos los mismos temas. Arrancan con la Unidad 1 (piping) y siguen, clase por clase, con lo que el profesor fue remarcando en el resto de las unidades.",
+  "examTip": "Lo que el profesor marcó en clase como pregunta probable: los 6 parámetros de un caño, la soldadura que funde el metal base, ANPA disponible vs. requerido, que la brida welding neck no aguanta más presión (la define la serie), los elementos de seguridad obligatorios de una caldera y el protocolo de encendido, por qué la humotubular no sirve para alta presión, las válvulas de expansión y en qué circuito va cada una, y el balance térmico de una cámara. De gases industriales dijo que casi no toma.",
   "concepts": [
     "6 parámetros de un caño",
     "Costura vs. sin costura",
@@ -15,7 +15,21 @@
     "Brida ASME B16.5",
     "Cara RF (resalte)",
     "Número de Schedule",
-    "ANPA disponible vs. requerido"
+    "ANPA disponible vs. requerido",
+    "Relux / DIALux",
+    "Serie de brida",
+    "Caldera de agua caliente",
+    "Circulación asistida vs. forzada",
+    "Tubo del hogar corrugado",
+    "Elementos de seguridad de caldera",
+    "Pared delgada",
+    "Trampas de vapor",
+    "Condición FAD",
+    "Expansión seca vs. húmeda",
+    "Válvula termostática",
+    "Compresor scroll",
+    "Torres de enfriamiento",
+    "Barrera de vapor"
   ],
   "sections": [
     {
@@ -41,6 +55,26 @@
     {
       "h": "Roscas y bridas: cómo sellan",
       "p": "Las roscas cónicas (NPT en Estados Unidos, BSPT o 'rosca gas' en el resto del mundo) son el estándar en el 90% de las tuberías chicas (hasta 3 o 4 pulgadas) porque sellan por interferencia entre los filetes, sin necesitar una junta aparte; en diámetros mayores no se recomienda roscar porque haría falta demasiado torque para lograr el sellado. Las bridas, normalizadas según ASME B16.5, se clasifican en 'series' según la presión que soportan (por ejemplo, serie 150 soporta 150 psi a temperatura elevada, y más a temperatura ambiente); el tipo de cara más común es la RF (raised face, cara con resalte), que tiene un rayado en espiral o concéntrico que ayuda a que la junta se 'clave' un poco y selle mejor, evitando fugas."
+    },
+    {
+      "h": "Clase 20/8: software de luminotecnia, errores del 1er parcial y arranque de Vapor",
+      "p": "La clase arrancó con la devolución del 1er parcial (los parciales se pueden ver en la clase siguiente). Primero se mostraron Relux y DIALux por arriba: cómo se carga un local, las reflectancias, el factor de mantenimiento y la iluminancia objetivo, y cómo leer Emed, Emin/Emed, Emin/Emax, isolux y colores falsos; la idea fuerte fue que el software es solo una herramienta y que lo importante es elegir bien la luminaria. A mitad de clase el profe corrigió el error más repetido del parcial: la brida welding neck no soporta más presión (la presión la define la serie), sino que resiste mejor los esfuerzos mecánicos, y pidió croquis técnicos de verdad. Después empezó la Unidad 4: el vapor como servicio de planta, humotubular vs. acuotubular, por qué una caldera de vapor es tan peligrosa (el agua se expande 700-750 veces al evaporarse), calderas de agua caliente, rangos de presión y producción, cómo se elige el combustible (bagazo de Ledesma, gas vs. fuel oil, calderas duales), calderas de recuperación y eléctricas, circulación natural, asistida (circuito cerrado) y forzada (circuito abierto), zonas radiantes y convectivas, fluidos térmicos, la caldera escocesa con su tubo del hogar corrugado y el sarro como causa de explosiones. Quedó pendiente explicar por qué una humotubular no puede pasar de 10-15 bar."
+    },
+    {
+      "h": "Clase 27/8: la caldera por dentro, sus auxiliares y las trampas de vapor",
+      "p": "Se recorrió el esquema de la caldera humotubular elemento por elemento y se remarcaron los obligatorios (nivel, manómetro, válvula de seguridad, sensor de llama, ablandamiento de agua, emplazamiento), con el criterio de que lo analógico y autónomo es lo más seguro. Las válvulas de seguridad van de a pares con válvula de transferencia. El sensor de llama detecta el parpadeo de la llama y está atado a un protocolo de encendido y apagado (corta combustible, barre con el ventilador, espera; para encender, al revés). Agua: el sarro, lodos con floculantes, espumas, conductividad. Ubicación: alejada, techo liviano, nada de sótanos. Después, los auxiliares: circuito de fuel oil (tanques, precalentado, purificadora, calentador, pulverización) y circuito de agua y condensado (vapor vivo, flash, condensado, retorno venteado o presurizado). Se explicó con pared delgada (σt = p·r/t) por qué la humotubular no pasa de 10-15 bar, las calderas de evaporación rápida, los usos del vapor y las tres funciones y tres grupos de trampas de vapor."
+    },
+    {
+      "h": "Clase 10/9: gases industriales y arranque de aire comprimido",
+      "p": "Gases: cilindro, termo o estanque según el consumo diario; casi todo el mundo alquila los envases (se paga el gas más un alquiler diario por envase) y el estanque es un comodato del proveedor. Cilindros de 40-50 litros a 220 bar, colores distintos en cada país, oxígeno medicinal con certificado, prueba hidráulica desde afuera, válvula con disco de ruptura, rosca distinta por gas, regulador de una o dos etapas y flujómetro. Acetileno disuelto en acetona dentro de una masa porosa. Termo criogénico: si no se consume a tiempo, se pierde por venteo. El profe dijo que de gases casi no toma. Aire comprimido: enfoque de servicio, 6-7 bar, velocidades de 8 y 15 m/s, el agua como enemigo eterno y la conversión de caudales a condición FAD antes de sumarlos. La clase siguiente (17/9) fue el recuperatorio."
+    },
+    {
+      "h": "Clase 8/10: refrigerantes, válvulas de expansión y evaporadores",
+      "p": "Repaso de refrigerantes en tres generaciones (CFC prohibidos, HCFC en retirada, HFC vigentes), mezclas como el R-410 y la opinión del profe de que la salida es otra tecnología. Expansión seca vs. húmeda con la analogía del calefón en el bosque. Válvulas: manual, flotador de baja (heladeras exhibidoras), flotador de alta, tubo capilar (frigobar, dispenser), automática (falla con carga variable y con dos evaporadores), termostática (la mejor, para evaporadores secos), termoeléctrica (rápida y reversible, para bomba de calor) y solenoide con flotador. Fluido intermediario con salmuera o glicol, recalentador. Evaporadores: aletas, capas en paralelo, bandejas, tiro forzado, descongelado y sistemas recirculados. Quedaban cuatro clases (15, 22 y 29/10 y 5/11) antes del parcial."
+    },
+    {
+      "h": "Clase 15/10: compresores, condensadores, torres y aislantes",
+      "p": "COP y por qué los compresores frigoríficos necesitan variar su capacidad. Herméticos (la bocha) vs. semiherméticos (industriales). Pistón con anulación de cilindros (por escalones), monotornillo con placas, doble tornillo con camisa, paletas por excentricidad (regulación continua), scroll (tolera líquido, sin espacio muerto, silencioso, no escala) y rodillo excéntrico; para grandes potencias quedan pistón y doble tornillo. Condensadores por aire o por agua, siempre con circuito cerrado y torre de enfriamiento; torres de tiro natural, inducido y forzado, y condensador evaporativo. Aislantes: requisitos, por qué funcionan (microceldas), espumas vs. lanas, inflamabilidad y la barrera de vapor."
     }
   ]
 }
