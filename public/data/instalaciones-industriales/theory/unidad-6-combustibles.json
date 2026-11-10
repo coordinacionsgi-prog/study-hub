@@ -1,0 +1,126 @@
+{
+  "thesis": "Un combustible es energía química guardada: cuando lo quemás, se combina rápido con oxígeno y libera calor. La unidad recorre qué propiedades hacen bueno a un combustible industrial (sobre todo el poder calorífico), cómo son los gaseosos (gas natural, GLP) y los líquidos que salen del petróleo (naftas, kerosene, gasoil, fuel oil), y termina en algo muy de instalaciones: cómo se almacenan en tanques de forma segura según lo volátil que sea el producto.",
+  "examTip": "Lo que más se pregunta: diferencia entre poder calorífico superior e inferior (si el vapor de agua de los humos condensa o no, y que si no hay hidrógeno son iguales), qué es el índice de Wobbe y para qué sirve (intercambiabilidad de gases), características del GLP (más pesado que el aire, dejar 15% de espacio libre, rangos de inflamabilidad), octanaje vs. número de cetano, la clasificación de productos en categorías A, B y C según el punto de inflamación y qué tipo de tanque corresponde a cada una (techo flotante obligatorio para la A), los accesorios de un tanque de techo fijo (sobre todo la válvula de presión y vacío y por qué existe), el recinto de contención (110% de un tanque; el mayor más 50% del resto si hay varios) y por qué el GLP se guarda en esferas o cigarros a presión.",
+  "concepts": [
+    "Energía primaria y secundaria",
+    "TEC y TEP",
+    "Combustible industrial",
+    "Poder calorífico superior (PCS)",
+    "Poder calorífico inferior (PCI)",
+    "Combustibles gaseosos naturales y manufacturados",
+    "Índice de Wobbe",
+    "Intercambiabilidad de gases",
+    "Poder comburívoro (aire teórico)",
+    "Poder fumígeno",
+    "Exceso de aire",
+    "Límites de inflamabilidad",
+    "Gas natural (metano)",
+    "GLP: propano y butano",
+    "Destilación atmosférica y al vacío",
+    "Craqueo térmico y catalítico",
+    "Factor de caracterización KUOP",
+    "Densidad API",
+    "Punto de inflamación",
+    "Octanaje",
+    "Número de cetano",
+    "Fuel oil",
+    "Categorías A, B y C",
+    "Tanque de techo fijo",
+    "Válvula de presión y vacío",
+    "Tanque de techo flotante",
+    "Recinto de contención",
+    "Esferas y cigarros",
+    "NFPA 704",
+    "API 650"
+  ],
+  "sections": [
+    {
+      "h": "Energía: de dónde viene y cómo se clasifica",
+      "p": "La energía es la capacidad de hacer un trabajo y aparece en muchas formas: potencial, cinética, térmica, química, eléctrica, nuclear y radiante, y todas se pueden transformar en calor. Casi todas vienen del sol de una forma u otra: el viento se mueve porque el sol calienta el aire, el ciclo del agua que mueve las represas lo impulsa el sol, y los combustibles fósiles son restos de plantas que crecieron gracias a la fotosíntesis. Según su procedencia, la energía primaria es la que está en su forma natural antes de convertirla (carbón, petróleo, uranio, hidráulica) y la secundaria es la que sale de transformar una primaria (combustibles sólidos y líquidos elaborados, gas natural, electricidad). Para comparar fuentes en planificación energética se usan unidades como el TEC (tonelada equivalente de carbón) y el TEP (tonelada equivalente de petróleo)."
+    },
+    {
+      "h": "Qué es un combustible industrial",
+      "p": "Combustible es toda sustancia capaz de arder, es decir, de combinarse rápido con el oxígeno liberando mucho calor. Pero para que sea un combustible industrial además tiene que poder quemarse sin un proceso complicado y caro, y no tiene que servir para algo más valioso o noble. Casi toda su masa son elementos combustibles: carbono, hidrógeno y azufre. Lo demás son impurezas, y las impurezas siempre traen problemas técnicos y por lo tanto económicos. Los combustibles se clasifican por su origen (fósiles o no fósiles), por su grado de preparación (naturales, que se usan como se encuentran, o elaborados, que se procesan antes) y por su estado (sólidos, líquidos o gaseosos)."
+    },
+    {
+      "h": "Poder calorífico superior e inferior",
+      "p": "El poder calorífico es la cantidad de calor que da una unidad de combustible al quemarse: se expresa en kcal/kg para sólidos, kcal/l para líquidos y kcal/m³ para gases. Hay dos versiones y es pregunta fija. El poder calorífico superior (PCS) supone que tanto el combustible y el aire como los humos terminan a 0 °C, así que todo el vapor de agua de los humos se condensa y devuelve su calor latente (unas 597 kcal por kg de agua). Ese vapor viene de la humedad del propio combustible y del agua que se forma al quemarse el hidrógeno. El poder calorífico inferior (PCI) supone que ese vapor NO condensa, así que solo cuenta el calor de la oxidación. En la práctica los humos salen calientes por la chimenea, por eso el PCI es el que más se parece a lo que realmente aprovechás. Si el combustible no tiene hidrógeno no se forma agua y PCS = PCI."
+    },
+    {
+      "h": "Residuos y temperatura de combustión",
+      "p": "La temperatura de combustión sube con el poder calorífico y depende de la cantidad de residuos y productos que se generan. Los residuos son lo que no arde, y pueden ser gaseosos (van con los humos) o sólidos (cenizas y escorias). Las cenizas molestan por su naturaleza, porque pueden atacar el hogar o la caldera o contaminar el producto que estás calentando, y por su cantidad, porque entorpecen la combustión, obligan a limpiar más seguido y hay que pagar para sacarlas y transportarlas."
+    },
+    {
+      "h": "Combustibles gaseosos y el índice de Wobbe",
+      "p": "Los combustibles gaseosos pueden ser naturales (gas natural) o manufacturados, incluidos los que salen como subproducto de otro proceso industrial. Contienen gases que arden (CO, H2, hidrocarburos) y otros que no (N2, CO2, O2), y estos últimos bajan el poder calorífico; aun así, un gas de menor calidad que es subproducto propio puede convenir económicamente. Dos gases son intercambiables cuando en un mismo quemador, sin tocar la regulación ni la geometría, dan llamas idénticas: misma estabilidad (sin despegue ni retroceso de llama), misma calidad de combustión, mismo rendimiento, mismo caudal de calor y mismo factor de aire. Para saber si lo son se usa el índice de Wobbe, que relaciona el poder calorífico con la raíz de la densidad relativa del gas, y que permite agrupar los gases en tres familias. La intercambiabilidad perfecta no existe; se busca que sean prácticamente intercambiables, y para verlo rápido hay diagramas (de Delbourg)."
+    },
+    {
+      "h": "Cómo se quema un gas: condiciones y parámetros",
+      "p": "La combustión es una oxidación y la llama es su fuente de calor. Para que arranque y se propague, combustible y comburente tienen que estar mezclados en la proporción justa y la mezcla tiene que estar localmente por encima de su temperatura de inflamación. Para que se mantenga, hay que ir sacando los productos de la combustión y seguir alimentando mezcla. Y para que sea buena, hay que usar el aire justo para una combustión completa, con cierta turbulencia y cierto tiempo. Los parámetros clave son: temperatura de ignición (el autoencendido de una mezcla aire-gas ronda 650-700 °C), límites de inflamabilidad (fuera de ellos no hay combustión), velocidad de deflagración, poder comburívoro o aire teórico (m³ de aire por m³ de gas), poder fumígeno (volumen de humos, secos o húmedos), índice de exceso de aire (como quemar con el aire teórico exacto es imposible, siempre se usa algo de exceso; con aire de menos aparecen inquemados gaseosos) y temperatura teórica de combustión, que nunca se alcanza por las pérdidas pero que se puede subir enriqueciendo con oxígeno."
+    },
+    {
+      "h": "El quemador y las ventajas de los gaseosos",
+      "p": "El quemador es el órgano que produce la llama: pone en contacto las cantidades justas de aire y gas, y regula la mezcla, los caudales, la estabilidad, la forma y el tamaño de la llama y su poder de radiación. Los combustibles gaseosos tienen muchas ventajas: se transportan fácil por cañerías, no dejan cenizas, la combustión se controla mucho mejor aunque la demanda varíe, permiten regular la atmósfera del horno (por ejemplo, hacerla reductora), se pueden precalentar en regeneradores o recuperadores para subir el rendimiento, se conoce bien su composición y por lo tanto su poder calorífico, y a igual calor la llama es más corta que la de un sólido o un líquido."
+    },
+    {
+      "h": "Gas natural",
+      "p": "El gas natural es una mezcla de gases livianos que se encuentra en yacimientos de petróleo (disuelto o asociado) o en depósitos de carbón. Es sobre todo metano, comúnmente más del 90 o 95%, con algo de etano, propano, butano, nitrógeno, CO2, a veces sulfhídrico y helio. El que se obtiene descomponiendo residuos orgánicos (basura, efluentes, desechos animales) se llama biogás. Antes de distribuirlo se le sacan los componentes que no aportan energía (nitrógeno, CO2) o los que podrían condensar en las cañerías. Como referencia, el gas de Camisea del apunte tiene 95% de metano, densidad relativa 0,65 y un PCS de unas 9032 kcal/m³."
+    },
+    {
+      "h": "Gas licuado de petróleo (GLP)",
+      "p": "El GLP sale de las refinerías y de las plantas que procesan gas natural, y puede ser propano, butano o una mezcla. El propano comercial admite hasta 30% de butano y el butano comercial hasta 50% de propano. Es inodoro e incoloro, por eso se le agrega un odorizante. A 1 atm y 20 °C es gas; para licuarlo a presión atmosférica habría que enfriar el butano por debajo de -0,5 °C y el propano por debajo de -42,2 °C, así que lo que se hace es presurizarlo a temperatura ambiente: más de 2 bar para el butano y más de 8 bar para el propano. Un litro de líquido da unos 273 litros de gas de propano o 238 de butano. Tres cosas para recordar: si se calienta un recipiente cerrado sube la presión (por eso nunca se llena del todo, se deja al menos 15% libre para la dilatación del líquido); es más pesado que el aire (propano 1,5 veces, butano 2), así que una fuga se queda pegada al piso; y el líquido es menos viscoso que el agua y se filtra por poros donde el agua no pasa. Arde entre 2,3 y 9,5% (propano) y entre 1,9 y 8,5% (butano) en aire, y se apaga con CO2, polvo químico o niebla de agua."
+    },
+    {
+      "h": "De dónde sale el petróleo",
+      "p": "La teoría más aceptada es la orgánica: restos de plancton y otros organismos se acumulan en rocas sedimentarias marinas, quedan enterrados a 1,5-3 km, y con temperaturas de hasta 200 °C, presiones de 10-30 MPa y la ayuda catalítica de las arcillas, sobre todo los lípidos se transforman en hidrocarburos. Como el petróleo y el gas son fluidos, migran: primero hacia rocas porosas vecinas (migración primaria) y después hacia arriba (secundaria) hasta toparse con una roca impermeable que los atrapa. Esas trampas pueden ser un anticlinal (pliegue en forma de lomo), un domo salino o una falla. En el yacimiento siempre hay un casquete de gas en equilibrio con el petróleo y también agua salada, que hay que sacar. Los yacimientos suelen estar a 900-2000 m."
+    },
+    {
+      "h": "Composición y clasificación del crudo",
+      "p": "El crudo es un líquido oleoso, fluorescente, menos denso que el agua, de color negro a casi incoloro según sus resinas. Es sobre todo hidrocarburos (parafínicos, nafténicos y aromáticos) más compuestos con azufre, nitrógeno, oxígeno y metales, y trae sales como cloruro de sodio, calcio y magnesio por haberse formado en agua marina; esos cloruros corroen, por eso lo primero en la refinería es desalarlo. Los crudos se clasifican por composición, viscosidad o curva de destilación. Para eso se usa el factor de caracterización KUOP, que relaciona el punto de ebullición medio (en grados Rankine) con el peso específico: un K de 12,1 indica un crudo de base parafínica, por debajo de 11,5 uno nafténico, y en el medio uno mixto."
+    },
+    {
+      "h": "Refinación: destilación y craqueo",
+      "p": "Fraccionar el crudo es separar sus componentes por punto de ebullición, que depende de cuántos átomos de carbono tienen. En la refinería primero se desala y después se manda a la torre de destilación atmosférica: por arriba salen los más livianos (gases, naftas, kerosene) y abajo queda el residuo atmosférico. Como a presión atmosférica ya no se puede separar más, ese residuo pasa a una torre de destilación al vacío, donde los puntos de ebullición bajan. Los intervalos de temperatura donde se separa cada producto se llaman cortes. Para sacar más nafta de cada barril se inventó el craqueo térmico (calentar las fracciones pesadas a presión para romper moléculas grandes en chicas; deja mucho coque), después el craqueo catalítico (romperlas con un catalizador) y la alquilación (recombinar moléculas chicas en moléculas ramificadas con más octanaje)."
+    },
+    {
+      "h": "Los combustibles líquidos y sus propiedades",
+      "p": "Por número de carbonos: naftas o gasolinas de C4 a C10, kerosenes de C10 a C14, gasoils de C15 a C18 (hasta C25 según el corte) y fuel oil, el más pesado. Las propiedades que los caracterizan son: poder calorífico; densidad relativa (se venden por volumen, así que importa a qué temperatura se midió; se usa mucho la escala API; naftas 0,60-0,70, gasoil 0,825-0,860, fuel oil 0,92-1); viscosidad (define si se puede bombear; los fuel oils se clasifican por viscosidad); volatilidad (curva de destilación); punto de inflamación, la temperatura mínima a la que sus vapores se encienden con una llama piloto, que indica cómo hay que almacenarlo; punto de enturbiamiento (aparecen los primeros cristales de parafina; hoy se usa el punto de obstrucción de filtro en frío) y de congelación; contenido de azufre (corroe, contamina con lluvia ácida, baja el poder calorífico); punto de anilina (bajo = más aromáticos, alto = más parafínicos) y presión de vapor Reid (tendencia a evaporarse, medida a 37,8 °C)."
+    },
+    {
+      "h": "Octanaje y número de cetano",
+      "p": "Son las dos calidades que más se confunden. El octanaje mide la resistencia de una nafta a la detonación (ese golpeteo metálico con recalentamiento y pérdida de potencia). Se mide en un motor monocilíndrico de relación de compresión variable comparando contra una mezcla de referencia: el heptano vale 0 y el isooctano vale 100, y el número de octano es el porcentaje de isooctano de la mezcla que detona igual que la nafta ensayada. Las naftas de aviación necesitan más de 100. El número de cetano, en cambio, es para el gasoil y mide lo contrario: qué tan rápido se enciende solo por compresión, porque en un diésel no hay chispa. Es el porcentaje de cetano en una mezcla con alfametilnaftaleno que tiene el mismo retardo a la ignición. Más cetano significa buen arranque en frío, sin golpeteo y combustión suave; se mejora con aditivos mejoradores de la ignición."
+    },
+    {
+      "h": "Naftas, kerosene, JP, gasoil y fuel oil",
+      "p": "Las naftas (gasolinas) destilan entre 30 y 200 °C y pueden ser naturales (separadas del gas natural), de destilación directa o de craqueo. Las naftas livianas se usan como solventes y el kerosene, que antes alumbraba los quinqués, hoy se usa en estufas. Los Jet Propulsor (JP) son los combustibles de turbinas de avión, cortes entre C12 y C16 que destilan entre 150 y 300 °C, con aromáticos limitados al 25% porque hinchan el caucho. El gasoil destila aproximadamente entre 170 y 380 °C, es mayormente parafínico lineal y se usa en motores diésel; importan su cetano, el agua y sedimentos, el punto de inflamación, la obstrucción de filtro en frío y el azufre. El fuel oil es el residuo de la destilación atmosférica, entre 340 y 500 °C: pastoso, oscuro, con más azufre, metales y cenizas que cualquier otro; se clasifica por viscosidad, a veces hay que calentarlo para manejarlo y se usa en motores diésel lentos de barcos y centrales térmicas, muchas veces mezclado 70/30 con diésel."
+    },
+    {
+      "h": "Categorías A, B y C: cuán peligroso es lo que guardás",
+      "p": "Los tanques se clasifican primero por lo que contienen, según su temperatura de inflamación. Categoría A: hidrocarburos que se inflaman por debajo de 21 °C (naftas, solventes). Categoría B: entre 21 y 65 °C (kerosene). Categoría C: por encima de 65 °C (gasoil, aceites, residuos de destilación). Cuanto más volátil el producto, más exigentes los requisitos de seguridad del tanque. También se clasifican por su uso en la refinería (crudo, intermedios, mezcla y producto terminado), por su construcción (verticales de techo fijo y de techo flotante a presión atmosférica, horizontales a presión atmosférica o presurizados, y esferas presurizadas) y por su emplazamiento: enterrados (el decreto 10877/60 de la ley 13660 exige, por ejemplo, al menos 60 cm de tapada, que se puede reducir a 45 cm con una losa de hormigón de 15 cm) o a nivel o elevados."
+    },
+    {
+      "h": "Tanque vertical de techo fijo y sus accesorios",
+      "p": "Se usa para productos poco volátiles, de categoría B o C. Tiene un fondo plano de chapa soldada de 5 a 10 mm sobre un contrapiso, con 1% de pendiente hacia el desagüe; un costado de chapas soldadas trabadas, a veces en anillos de espesor decreciente hacia arriba porque la presión hidrostática es menor; y un techo de chapa de 4 a 8 mm, apoyado en el costado hasta unos 10-12 m de diámetro o autoportante si es más grande. El accesorio estrella es la válvula de presión y vacío: el tanque está diseñado para la presión hidrostática, su peso y el viento, pero no para soportar presión ni vacío, así que la válvula deja salir vapores cuando la presión sube (sol, llenado) y deja entrar aire cuando baja (frío nocturno, vaciado), siempre con arrestallamas. Además lleva indicador de nivel (flotador, cable y poleas con una aguja sobre una escala pintada), boca de sondeo y muestra, entrada y salida de producto, boca de registro o pasahombre, drenaje de agua y sedimentos, termómetros y puesta a tierra con jabalina para descargar la electricidad estática. Si el producto es muy viscoso, se aísla y se calienta con serpentines."
+    },
+    {
+      "h": "Recinto de contención y lucha contra incendios",
+      "p": "La ley 13660 de 1949, reglamentada por el decreto 10877/60, fija las defensas en parques de tanques. Cada tanque tiene que estar dentro de un recinto (muro o talud de tierra) capaz de contener el 110% de su capacidad. Si en el recinto hay varios tanques, tiene que contener la capacidad del más grande más el 50% de la capacidad de los demás. Los tanques de 10.000 m³ o más van en recintos individuales, y por encima de 15.000 m³ hace falta autorización expresa. El drenaje del recinto tiene que poder abrirse siempre desde afuera del muro, y los drenajes pluviales e industriales van separados del de producto. Como defensa activa contra incendios se rocía espuma dentro del tanque y agua por fuera, con un anillo perimetral de picos en la parte superior que baña todo el costado para enfriarlo y evitar que el fuego pase a los tanques vecinos."
+    },
+    {
+      "h": "Tanque de techo flotante",
+      "p": "Es obligatorio para los productos de categoría A y también se puede usar para la B. El techo literalmente flota sobre el líquido, así que desaparece el espacio de vapor: no hay atmósfera explosiva y se pierde mucho menos producto por evaporación. Puede ser de techo flotante interno (con un techo fijo arriba, hoy un domo geodésico) o externo (el techo flotante queda a la intemperie). Los techos pueden ser tipo pontón (doble tapa, prácticamente insumergible) o simples (un anillo flotador hueco con una tapa central). Lo más difícil es sellar el perímetro entre el techo y el costado: hay un sello primario, una lámina metálica que roza el costado sostenida por mecanismos de tijera o pantógrafo (a veces con rascadores de cera para crudos parafínicos), y un sello secundario arriba que atrapa los vapores. El techo externo necesita un drenaje pluvial por una cañería articulada interna (con un sistema de emergencia), tiene patas de unos 1,80 m para apoyarse cuando el tanque está vacío y guías antigiro que evitan que gire o se cruce."
+    },
+    {
+      "h": "Tanques horizontales, esferas y cigarros",
+      "p": "Los tanques horizontales a presión atmosférica funcionan igual que los verticales pero solo se hacen hasta cierto tamaño, porque se apoyan en dos cunas y trabajan a flexión; a cambio se pueden inspeccionar enteros y es más fácil ponerles el sistema contra incendio. Para el GLP la cosa cambia: guardarlo líquido a presión atmosférica obligaría a mantenerlo a -42 °C, así que se usan recipientes a presión a temperatura ambiente, alrededor de 15 kg/cm², diseñados según API y ASME sección VIII. Los horizontales se llaman cigarros y se usan hasta cierto volumen; para más capacidad se usan esferas, armadas en gajos de chapa y apoyadas en columnas calculadas para el peso de la prueba hidráulica. Todas las soldaduras se radiografían. Se llenan por arriba y se aspira por abajo, con válvulas de bloqueo de accionamiento remoto, doble válvula de seguridad, doble indicador de nivel y doble medición de presión independientes. No llevan válvula de presión y vacío porque trabajan con el equilibrio líquido-vapor: al vaciar se evapora más líquido y al llenar se condensa, y la presión queda casi constante. Ante sobrepresión, las válvulas de seguridad descargan a la antorcha. En los casquetes de los cigarros, el semiesférico necesita la mitad de espesor que el semielíptico y el toriesférico un 75% más."
+    },
+    {
+      "h": "Identificación de riesgos: NFPA 704 y compañía",
+      "p": "Todo tanque o recipiente con sustancias químicas tiene que estar señalizado con el nombre químico y comercial, el número de clase de las Naciones Unidas y el riesgo asociado, para que en una emergencia se sepa cómo actuar. El sistema más conocido es el rombo NFPA 704, pensado para los bomberos: azul es salud, rojo inflamabilidad, amarillo reactividad, cada uno con un número de 0 (sin riesgo) a 4 (máximo), y el blanco para casos especiales como W (reacciona con agua) u OX (oxidante). En rojo, por ejemplo, 4 es gas inflamable o líquido extremadamente inflamable y 3 un líquido con punto de inflamación por debajo de 100 °F. También existen el sistema HMIS (basado en ASTM, peligro intrínseco), el código de etiquetado de la Unión Europea, las recomendaciones de la ONU para transporte y, en Argentina, la norma IRAM 3797 para rotular cañerías, tanques, cisternas, garrafas y depósitos, incluso vacíos si no se limpiaron."
+    },
+    {
+      "h": "Normas de diseño y dispositivos de seguridad",
+      "p": "Para tanques de almacenaje mandan los estándares del American Petroleum Institute: API 650 (tanques soldados en campo, menos de 1,5 psig en el espacio vapor y hasta 121 °C), API 620 (hasta 2,5 psig y 93 °C), API 12D y 12F (tanques de producción soldados en campo o en taller) y API 653 (inspección, reparación y reconstrucción). Para recipientes a presión, el ASME sección VIII (divisiones 1, 2 y 3) y la sección X para plásticos reforzados, además de normas británicas y europeas. El proyecto se completa con el P&ID (niveles, temperaturas, presión y vacío, alarmas de sobrellenado y fugas), los dispositivos de seguridad (válvulas de seguridad y alivio, discos de ruptura, arrestallamas, válvulas de presión y vacío o blanketing con gas inerte, venteos, scrubbers y antorchas) y el cuidado ambiental, controlando las emisiones de compuestos orgánicos volátiles (VOC) según normas de la EPA y las API 2517, 2518 y 2519 de pérdidas por evaporación."
+    }
+  ]
+}

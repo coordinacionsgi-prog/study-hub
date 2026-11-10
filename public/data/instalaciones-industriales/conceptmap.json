@@ -1,56 +1,357 @@
 {
-  "intro": "La materia arranca con Unidad 1 (cómo mover líquidos por cañerías: pérdidas de carga, caños, uniones, válvulas y bombas), sigue con Unidad 2 y 3 (cómo llega y se instala la electricidad, y cómo se ilumina un ambiente) y cierra con Unidad 4 (cómo se genera vapor en una caldera y cómo se aprovecha ese calor en un intercambiador); las tres unidades comparten la misma lógica de fondo: transportar energía (hidráulica, eléctrica o térmica) de un punto a otro de forma segura y bien documentada.",
+  "intro": "La materia arranca con Unidad 1 (cómo mover líquidos por cañerías: pérdidas de carga, caños, uniones, válvulas y bombas), sigue con Unidad 2 y 3 (cómo llega y se instala la electricidad, y cómo se ilumina un ambiente), Unidad 4 (cómo se genera vapor en una caldera y cómo se aprovecha ese calor en un intercambiador), Unidad 5 (aire comprimido como servicio de planta y manejo de gases industriales), Unidad 6 (combustibles y cómo se almacenan en tanques) y Unidad 8 (refrigeración industrial: sacar calor con un ciclo de compresión). Todas comparten la misma lógica de fondo: transportar energía (hidráulica, eléctrica, térmica, neumática o química) de un punto a otro de forma segura y bien documentada.",
   "nodes": [
-    { "id": "n3", "x": 40, "y": 30, "w": 200, "h": 80, "title": "Documentación y normas", "subtitle": "planos, memorias, ASTM/API/ASME", "color": "#a78bfa" },
-    { "id": "n2", "x": 270, "y": 30, "w": 200, "h": 80, "title": "Caños y tubos", "subtitle": "cómo se especifican sin ambigüedad", "color": "#5b8def" },
-    { "id": "n4", "x": 500, "y": 30, "w": 200, "h": 80, "title": "Uniones", "subtitle": "soldadura, bridas y roscas", "color": "#5b8def" },
-    { "id": "n5", "x": 730, "y": 30, "w": 200, "h": 80, "title": "Válvulas", "subtitle": "interceptoras vs. reguladoras", "color": "#5b8def" },
-
-    { "id": "n1", "x": 270, "y": 150, "w": 200, "h": 80, "title": "Pérdidas de carga", "subtitle": "fricción en caños y accesorios", "color": "#5b8def" },
-    { "id": "n6", "x": 500, "y": 150, "w": 200, "h": 80, "title": "Bombas y cavitación", "subtitle": "centrífugas, positivas, ANPA/NPSH", "color": "#5b8def" },
-    { "id": "n7", "x": 730, "y": 150, "w": 220, "h": 80, "title": "Sistema eléctrico AR", "subtitle": "generación, transporte, CAMMESA", "color": "#3fbf7f" },
-
-    { "id": "n9", "x": 270, "y": 270, "w": 200, "h": 80, "title": "Motores eléctricos", "subtitle": "síncronos y asíncronos", "color": "#3fbf7f" },
-    { "id": "n8", "x": 500, "y": 270, "w": 220, "h": 80, "title": "Instalación eléctrica", "subtitle": "cables, tableros, protecciones, tierra", "color": "#3fbf7f" },
-    { "id": "n10", "x": 730, "y": 270, "w": 200, "h": 90, "title": "Luminotecnia", "subtitle": "lumen, lux, tipos de lámparas", "color": "#22d3ee" },
-
-    { "id": "n11", "x": 270, "y": 390, "w": 220, "h": 90, "title": "Generación de vapor", "subtitle": "calderas humo/acuotubulares", "color": "#f2a33d" },
-    { "id": "n12", "x": 520, "y": 390, "w": 220, "h": 90, "title": "Intercambiadores de calor", "subtitle": "carcasa-tubos, placas, DTLM", "color": "#f2a33d" }
+    {
+      "id": "n3",
+      "x": 40,
+      "y": 30,
+      "w": 200,
+      "h": 80,
+      "title": "Documentación y normas",
+      "subtitle": "planos, memorias, ASTM/API/ASME",
+      "color": "#a78bfa"
+    },
+    {
+      "id": "n2",
+      "x": 270,
+      "y": 30,
+      "w": 200,
+      "h": 80,
+      "title": "Caños y tubos",
+      "subtitle": "cómo se especifican sin ambigüedad",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n4",
+      "x": 500,
+      "y": 30,
+      "w": 200,
+      "h": 80,
+      "title": "Uniones",
+      "subtitle": "soldadura, bridas y roscas",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n5",
+      "x": 730,
+      "y": 30,
+      "w": 200,
+      "h": 80,
+      "title": "Válvulas",
+      "subtitle": "interceptoras vs. reguladoras",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n1",
+      "x": 270,
+      "y": 150,
+      "w": 200,
+      "h": 80,
+      "title": "Pérdidas de carga",
+      "subtitle": "fricción en caños y accesorios",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n6",
+      "x": 500,
+      "y": 150,
+      "w": 200,
+      "h": 80,
+      "title": "Bombas y cavitación",
+      "subtitle": "centrífugas, positivas, ANPA/NPSH",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n7",
+      "x": 730,
+      "y": 150,
+      "w": 220,
+      "h": 80,
+      "title": "Sistema eléctrico AR",
+      "subtitle": "generación, transporte, CAMMESA",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n9",
+      "x": 270,
+      "y": 270,
+      "w": 200,
+      "h": 80,
+      "title": "Motores eléctricos",
+      "subtitle": "síncronos y asíncronos",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n8",
+      "x": 500,
+      "y": 270,
+      "w": 220,
+      "h": 80,
+      "title": "Instalación eléctrica",
+      "subtitle": "cables, tableros, protecciones, tierra",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n10",
+      "x": 730,
+      "y": 270,
+      "w": 200,
+      "h": 90,
+      "title": "Luminotecnia",
+      "subtitle": "lumen, lux, tipos de lámparas",
+      "color": "#22d3ee"
+    },
+    {
+      "id": "n11",
+      "x": 270,
+      "y": 390,
+      "w": 220,
+      "h": 90,
+      "title": "Generación de vapor",
+      "subtitle": "calderas humo/acuotubulares",
+      "color": "#f2a33d"
+    },
+    {
+      "id": "n12",
+      "x": 520,
+      "y": 390,
+      "w": 220,
+      "h": 90,
+      "title": "Intercambiadores de calor",
+      "subtitle": "carcasa-tubos, placas, DTLM",
+      "color": "#f2a33d"
+    },
+    {
+      "id": "n13",
+      "x": 40,
+      "y": 150,
+      "w": 200,
+      "h": 80,
+      "title": "Aire comprimido",
+      "subtitle": "red, FRL, válvulas, cilindros",
+      "color": "#e879f9"
+    },
+    {
+      "id": "n14",
+      "x": 40,
+      "y": 270,
+      "w": 200,
+      "h": 80,
+      "title": "Gases industriales",
+      "subtitle": "cilindros, criogénicos, riesgos",
+      "color": "#e879f9"
+    },
+    {
+      "id": "n15",
+      "x": 40,
+      "y": 390,
+      "w": 200,
+      "h": 90,
+      "title": "Combustibles y tanques",
+      "subtitle": "PCS/PCI, GLP, techo fijo/flotante",
+      "color": "#f87171"
+    },
+    {
+      "id": "n16",
+      "x": 760,
+      "y": 390,
+      "w": 220,
+      "h": 90,
+      "title": "Refrigeración",
+      "subtitle": "ciclo de compresión, cámaras",
+      "color": "#38bdf8"
+    }
   ],
   "edges": [
-    ["n3", "n2"],
-    ["n2", "n4"],
-    ["n2", "n5"],
-    ["n2", "n1"],
-    ["n5", "n1"],
-    ["n1", "n6"],
-    ["n6", "n9"],
-    ["n7", "n8"],
-    ["n8", "n9"],
-    ["n8", "n10"],
-    ["n6", "n11"],
-    ["n9", "n11"],
-    ["n11", "n12"],
-    ["n12", "n1"]
+    [
+      "n3",
+      "n2"
+    ],
+    [
+      "n2",
+      "n4"
+    ],
+    [
+      "n2",
+      "n5"
+    ],
+    [
+      "n2",
+      "n1"
+    ],
+    [
+      "n5",
+      "n1"
+    ],
+    [
+      "n1",
+      "n6"
+    ],
+    [
+      "n6",
+      "n9"
+    ],
+    [
+      "n7",
+      "n8"
+    ],
+    [
+      "n8",
+      "n9"
+    ],
+    [
+      "n8",
+      "n10"
+    ],
+    [
+      "n6",
+      "n11"
+    ],
+    [
+      "n9",
+      "n11"
+    ],
+    [
+      "n11",
+      "n12"
+    ],
+    [
+      "n12",
+      "n1"
+    ],
+    [
+      "n13",
+      "n1"
+    ],
+    [
+      "n13",
+      "n14"
+    ],
+    [
+      "n15",
+      "n11"
+    ],
+    [
+      "n12",
+      "n16"
+    ]
   ],
   "comparisons": [
-    ["Bomba centrífuga vs. bomba de desplazamiento positivo", "La centrífuga da velocidad al líquido con un rotor y después la convierte en presión; es barata y anda bien con caudales grandes. La de desplazamiento positivo empuja el líquido físicamente reduciendo el volumen de una cámara, y entrega siempre el mismo caudal por vuelta sin importar la presión."],
-    ["Caño (pipe) vs. tubo (tube)", "El caño se usa para transportar fluidos y su diámetro nominal no coincide con ninguna medida física real (hasta 12 pulgadas). El tubo se usa para estructuras o intercambio de calor y su diámetro nominal sí es el diámetro exterior real."],
-    ["Válvula de compuerta vs. válvula de globo", "La de compuerta es para abrir o cerrar del todo (tipo interruptor), con mínima pérdida de carga cuando está abierta. La de globo sirve para regular el caudal de a poco, como una canilla, pero siempre genera algo más de pérdida de carga."],
-    ["Válvula esférica (bola) vs. válvula mariposa", "Ambas son de un cuarto de vuelta y sirven para on/off. La esférica sella mejor con una bola perforada y admite líquidos viscosos; la mariposa ocupa mucho menos espacio axial y es más liviana, ideal cuando el lugar es chico."],
-    ["Pérdida de carga primaria vs. secundaria", "La primaria es el rozamiento del fluido contra las paredes rectas de la cañería. La secundaria es la que generan los accesorios (codos, válvulas, tes, cambios de sección); se puede calcular con coeficientes propios o con el método de longitud equivalente."],
-    ["Brida slip-on vs. brida welding neck", "La slip-on es más barata y fácil de alinear, pero más débil ante fatiga. La welding neck tiene un cuello cónico que refuerza la unión y aguanta mejor la alta presión y los esfuerzos, aunque cuesta más y exige un corte más preciso del caño."],
-    ["Soldadura SMAW vs. soldadura TIG (GTAW)", "SMAW usa un electrodo revestido, es manual, barata y versátil, ideal para trabajo de taller. TIG usa un electrodo de tungsteno no consumible, es mucho más lenta pero de altísima calidad, y se usa para la primera pasada en tuberías críticas."],
-    ["Soldadura vs. brazing (soldeo blando/fuerte)", "En la soldadura de verdad se funden los dos metales base entre sí. En el brazing solo se calienta y se pega con un material de aporte que funde a menor temperatura, sin fundir las piezas originales."],
-    ["Rosca cilíndrica vs. rosca cónica", "La cilíndrica sella por la cara frontal contra una arandela, y casi no se usa en cañerías porque no hay espesor de pared suficiente. La cónica (NPT/BSPT) sella por la interferencia entre los filetes, y es el estándar en caños chicos (hasta 3-4 pulgadas)."],
-    ["ANPA disponible vs. ANPA requerido", "El requerido es un valor fijo que da el fabricante según el diseño de la bomba. El disponible depende de cómo está instalado el sistema (altura, pérdidas de aspiración). Para que no cavite, el disponible siempre tiene que ser mayor que el requerido."],
-    ["Motor síncrono vs. motor asíncrono", "En el síncrono el rotor gira exactamente a la velocidad del campo magnético del estator, pero necesita corriente continua en el rotor y arranque especial. En el asíncrono el rotor siempre gira un poco más lento (desliza), y esa diferencia es justo lo que genera la corriente que lo hace girar; es más simple y el más usado en la industria."],
-    ["Fusible vs. interruptor termomagnético", "El fusible es un hilo que se funde y hay que reemplazar cada vez que actúa. El termomagnético combina protección térmica (sobrecargas) y magnética (cortocircuitos) en un aparato reutilizable, por eso hoy lo reemplazó casi por completo."],
-    ["Interruptor termomagnético vs. disyuntor diferencial", "El termomagnético protege la instalación y los equipos de sobrecargas y cortocircuitos. El diferencial protege a las personas, detectando fugas de corriente a tierra; uno no reemplaza al otro, cada uno cuida un peligro distinto."],
-    ["Caldera humotubular vs. caldera acuotubular", "En la humotubular los gases calientes van por dentro de los tubos y el agua está afuera; es más simple y la más usada en la industria. En la acuotubular el agua va por dentro de los tubos y los gases por fuera; soporta presiones mucho más altas y se usa en centrales de generación eléctrica."],
-    ["Intercambiador en equicorriente vs. en contracorriente", "En equicorriente los dos fluidos entran por el mismo lado y viajan igual; la diferencia de temperatura se achica rápido. En contracorriente entran por lados opuestos, mantienen una diferencia de temperatura más pareja en todo el recorrido y por eso transfieren más calor con la misma superficie."],
-    ["Intercambiador de carcasa y tubos vs. de placas", "El de carcasa y tubos es el más usado en la industria pesada: muchos tubos delgados dentro de un caño grande. El de placas usa láminas onduladas apiladas, es mucho más compacto y fácil de desarmar para limpiar, pero soporta menos presión."],
-    ["Flujo luminoso (lumen) vs. iluminancia (lux)", "El flujo luminoso es toda la luz que emite una lámpara en todas direcciones. La iluminancia es cuánta de esa luz llega realmente a una superficie determinada; una misma lámpara da menos lux cuanto más lejos está la superficie."],
-    ["Lámpara incandescente vs. lámpara de descarga", "La incandescente calienta un filamento hasta que brilla: buen color pero muy poco eficiente y de vida corta. La de descarga excita un gas con electricidad, sin filamento: mucho más eficiente y de vida más larga, pero necesita un balasto para funcionar."]
+    [
+      "Bomba centrífuga vs. bomba de desplazamiento positivo",
+      "La centrífuga da velocidad al líquido con un rotor y después la convierte en presión; es barata y anda bien con caudales grandes. La de desplazamiento positivo empuja el líquido físicamente reduciendo el volumen de una cámara, y entrega siempre el mismo caudal por vuelta sin importar la presión."
+    ],
+    [
+      "Caño (pipe) vs. tubo (tube)",
+      "El caño se usa para transportar fluidos y su diámetro nominal no coincide con ninguna medida física real (hasta 12 pulgadas). El tubo se usa para estructuras o intercambio de calor y su diámetro nominal sí es el diámetro exterior real."
+    ],
+    [
+      "Válvula de compuerta vs. válvula de globo",
+      "La de compuerta es para abrir o cerrar del todo (tipo interruptor), con mínima pérdida de carga cuando está abierta. La de globo sirve para regular el caudal de a poco, como una canilla, pero siempre genera algo más de pérdida de carga."
+    ],
+    [
+      "Válvula esférica (bola) vs. válvula mariposa",
+      "Ambas son de un cuarto de vuelta y sirven para on/off. La esférica sella mejor con una bola perforada y admite líquidos viscosos; la mariposa ocupa mucho menos espacio axial y es más liviana, ideal cuando el lugar es chico."
+    ],
+    [
+      "Pérdida de carga primaria vs. secundaria",
+      "La primaria es el rozamiento del fluido contra las paredes rectas de la cañería. La secundaria es la que generan los accesorios (codos, válvulas, tes, cambios de sección); se puede calcular con coeficientes propios o con el método de longitud equivalente."
+    ],
+    [
+      "Brida slip-on vs. brida welding neck",
+      "La slip-on es más barata y fácil de alinear, pero más débil ante fatiga. La welding neck tiene un cuello cónico que refuerza la unión y aguanta mejor la alta presión y los esfuerzos, aunque cuesta más y exige un corte más preciso del caño."
+    ],
+    [
+      "Soldadura SMAW vs. soldadura TIG (GTAW)",
+      "SMAW usa un electrodo revestido, es manual, barata y versátil, ideal para trabajo de taller. TIG usa un electrodo de tungsteno no consumible, es mucho más lenta pero de altísima calidad, y se usa para la primera pasada en tuberías críticas."
+    ],
+    [
+      "Soldadura vs. brazing (soldeo blando/fuerte)",
+      "En la soldadura de verdad se funden los dos metales base entre sí. En el brazing solo se calienta y se pega con un material de aporte que funde a menor temperatura, sin fundir las piezas originales."
+    ],
+    [
+      "Rosca cilíndrica vs. rosca cónica",
+      "La cilíndrica sella por la cara frontal contra una arandela, y casi no se usa en cañerías porque no hay espesor de pared suficiente. La cónica (NPT/BSPT) sella por la interferencia entre los filetes, y es el estándar en caños chicos (hasta 3-4 pulgadas)."
+    ],
+    [
+      "ANPA disponible vs. ANPA requerido",
+      "El requerido es un valor fijo que da el fabricante según el diseño de la bomba. El disponible depende de cómo está instalado el sistema (altura, pérdidas de aspiración). Para que no cavite, el disponible siempre tiene que ser mayor que el requerido."
+    ],
+    [
+      "Motor síncrono vs. motor asíncrono",
+      "En el síncrono el rotor gira exactamente a la velocidad del campo magnético del estator, pero necesita corriente continua en el rotor y arranque especial. En el asíncrono el rotor siempre gira un poco más lento (desliza), y esa diferencia es justo lo que genera la corriente que lo hace girar; es más simple y el más usado en la industria."
+    ],
+    [
+      "Fusible vs. interruptor termomagnético",
+      "El fusible es un hilo que se funde y hay que reemplazar cada vez que actúa. El termomagnético combina protección térmica (sobrecargas) y magnética (cortocircuitos) en un aparato reutilizable, por eso hoy lo reemplazó casi por completo."
+    ],
+    [
+      "Interruptor termomagnético vs. disyuntor diferencial",
+      "El termomagnético protege la instalación y los equipos de sobrecargas y cortocircuitos. El diferencial protege a las personas, detectando fugas de corriente a tierra; uno no reemplaza al otro, cada uno cuida un peligro distinto."
+    ],
+    [
+      "Caldera humotubular vs. caldera acuotubular",
+      "En la humotubular los gases calientes van por dentro de los tubos y el agua está afuera; es más simple y la más usada en la industria. En la acuotubular el agua va por dentro de los tubos y los gases por fuera; soporta presiones mucho más altas y se usa en centrales de generación eléctrica."
+    ],
+    [
+      "Intercambiador en equicorriente vs. en contracorriente",
+      "En equicorriente los dos fluidos entran por el mismo lado y viajan igual; la diferencia de temperatura se achica rápido. En contracorriente entran por lados opuestos, mantienen una diferencia de temperatura más pareja en todo el recorrido y por eso transfieren más calor con la misma superficie."
+    ],
+    [
+      "Intercambiador de carcasa y tubos vs. de placas",
+      "El de carcasa y tubos es el más usado en la industria pesada: muchos tubos delgados dentro de un caño grande. El de placas usa láminas onduladas apiladas, es mucho más compacto y fácil de desarmar para limpiar, pero soporta menos presión."
+    ],
+    [
+      "Flujo luminoso (lumen) vs. iluminancia (lux)",
+      "El flujo luminoso es toda la luz que emite una lámpara en todas direcciones. La iluminancia es cuánta de esa luz llega realmente a una superficie determinada; una misma lámpara da menos lux cuanto más lejos está la superficie."
+    ],
+    [
+      "Lámpara incandescente vs. lámpara de descarga",
+      "La incandescente calienta un filamento hasta que brilla: buen color pero muy poco eficiente y de vida corta. La de descarga excita un gas con electricidad, sin filamento: mucho más eficiente y de vida más larga, pero necesita un balasto para funcionar."
+    ],
+    [
+      "Bajada a consumo vs. bajada a purga",
+      "La toma a consumo se hace por la parte de arriba de la cañería para que no se lleve el agua que corre por el fondo; la bajada a purga se hace por abajo justamente para juntar ese condensado y sacarlo."
+    ],
+    [
+      "Tendido lineal vs. anillo cerrado",
+      "El lineal son líneas abiertas desde el compresor, con 2° de pendiente para que escurra el condensado. El anillo rodea la nave y alimenta cada bajada por dos caminos, con presión más pareja."
+    ],
+    [
+      "Cilindro de simple efecto vs. de doble efecto",
+      "En el de simple efecto el aire hace solo la carrera de trabajo y un resorte lo devuelve. En el de doble efecto el aire empuja en las dos caras y ambas carreras hacen trabajo, aunque la cara sin vástago empuja más."
+    ],
+    [
+      "Regulador de una etapa vs. de dos etapas",
+      "El de una etapa baja la presión en un paso y su salida varía un poco al vaciarse el cilindro. El de dos etapas pasa por una presión intermedia y entrega una presión de trabajo constante."
+    ],
+    [
+      "Gas comprimido vs. licuado vs. criogénico",
+      "El comprimido hierve por debajo de -100 °C y sigue siendo gas aunque se presurice (O2, N2, Ar). El licuado se vuelve líquido con presión a temperatura ambiente (CO2, propano). El criogénico se licua enfriándolo por debajo de -100 °C (LOX, LIN, LAR)."
+    ],
+    [
+      "Poder calorífico superior vs. inferior",
+      "El superior cuenta el calor que devuelve el vapor de agua de los humos al condensar; el inferior supone que no condensa. Si el combustible no tiene hidrógeno, son iguales."
+    ],
+    [
+      "Octanaje vs. número de cetano",
+      "El octanaje mide cuánto resiste una nafta a detonar (motores a chispa). El cetano mide qué tan rápido se enciende solo el gasoil por compresión (motores diésel)."
+    ],
+    [
+      "Tanque de techo fijo vs. de techo flotante",
+      "El de techo fijo respira con una válvula de presión y vacío y se usa para productos poco volátiles (categorías B y C). El de techo flotante elimina el espacio de vapor y es obligatorio para la categoría A."
+    ],
+    [
+      "Lado de alta vs. lado de baja (frigorífico)",
+      "Alta: de la descarga del compresor al condensador, receptor y línea de líquido hasta la válvula de expansión. Baja: de la válvula de expansión al evaporador y la aspiración del compresor."
+    ],
+    [
+      "Evaporador seco vs. inundado",
+      "El seco tiene poco líquido que se va evaporando y sale todo vapor, algo sobrecalentado. El inundado está siempre lleno de líquido gracias a un acumulador o tanque compensador, y transfiere mejor."
+    ],
+    [
+      "Válvula de expansión automática vs. termostática",
+      "La automática mantiene constante la presión del evaporador y responde mal a los cambios de carga. La termostática mantiene constante el sobrecalentamiento con un bulbo y sigue la carga."
+    ]
   ]
 }

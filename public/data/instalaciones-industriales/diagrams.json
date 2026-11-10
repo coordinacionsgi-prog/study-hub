@@ -5,12 +5,61 @@
     "viewBoxW": 720,
     "viewBoxH": 220,
     "nodes": [
-      { "id": "s1", "x": 20, "y": 65, "w": 150, "h": 90, "title": "Succión", "subtitle": "líquido entra a baja presión", "color": "#5b8def" },
-      { "id": "s2", "x": 190, "y": 65, "w": 150, "h": 90, "title": "Impulsor", "subtitle": "el rotor le da velocidad", "color": "#5b8def" },
-      { "id": "s3", "x": 360, "y": 65, "w": 150, "h": 90, "title": "Voluta / difusor", "subtitle": "la velocidad se hace presión", "color": "#5b8def" },
-      { "id": "s4", "x": 530, "y": 65, "w": 150, "h": 90, "title": "Descarga", "subtitle": "sale a mayor presión", "color": "#5b8def" }
+      {
+        "id": "s1",
+        "x": 20,
+        "y": 65,
+        "w": 150,
+        "h": 90,
+        "title": "Succión",
+        "subtitle": "líquido entra a baja presión",
+        "color": "#5b8def"
+      },
+      {
+        "id": "s2",
+        "x": 190,
+        "y": 65,
+        "w": 150,
+        "h": 90,
+        "title": "Impulsor",
+        "subtitle": "el rotor le da velocidad",
+        "color": "#5b8def"
+      },
+      {
+        "id": "s3",
+        "x": 360,
+        "y": 65,
+        "w": 150,
+        "h": 90,
+        "title": "Voluta / difusor",
+        "subtitle": "la velocidad se hace presión",
+        "color": "#5b8def"
+      },
+      {
+        "id": "s4",
+        "x": 530,
+        "y": 65,
+        "w": 150,
+        "h": 90,
+        "title": "Descarga",
+        "subtitle": "sale a mayor presión",
+        "color": "#5b8def"
+      }
     ],
-    "edges": [["s1", "s2"], ["s2", "s3"], ["s3", "s4"]]
+    "edges": [
+      [
+        "s1",
+        "s2"
+      ],
+      [
+        "s2",
+        "s3"
+      ],
+      [
+        "s3",
+        "s4"
+      ]
+    ]
   },
   {
     "title": "Cómo se produce la cavitación en una bomba",
@@ -18,13 +67,75 @@
     "viewBoxW": 820,
     "viewBoxH": 240,
     "nodes": [
-      { "id": "c1", "x": 15, "y": 77, "w": 140, "h": 85, "title": "ANPA insuficiente", "subtitle": "disponible menor al requerido", "color": "#e5555a" },
-      { "id": "c2", "x": 173, "y": 77, "w": 140, "h": 85, "title": "Presión cae", "subtitle": "baja de la presión de vapor", "color": "#e5555a" },
-      { "id": "c3", "x": 331, "y": 77, "w": 140, "h": 85, "title": "Burbujas de vapor", "subtitle": "se forman en la aspiración", "color": "#e5555a" },
-      { "id": "c4", "x": 489, "y": 77, "w": 140, "h": 85, "title": "Viajan al rotor", "subtitle": "llegan a zona de más presión", "color": "#e5555a" },
-      { "id": "c5", "x": 647, "y": 77, "w": 140, "h": 85, "title": "Colapso e implosión", "subtitle": "erosiona el metal y hace ruido", "color": "#e5555a" }
+      {
+        "id": "c1",
+        "x": 15,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "ANPA insuficiente",
+        "subtitle": "disponible menor al requerido",
+        "color": "#e5555a"
+      },
+      {
+        "id": "c2",
+        "x": 173,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Presión cae",
+        "subtitle": "baja de la presión de vapor",
+        "color": "#e5555a"
+      },
+      {
+        "id": "c3",
+        "x": 331,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Burbujas de vapor",
+        "subtitle": "se forman en la aspiración",
+        "color": "#e5555a"
+      },
+      {
+        "id": "c4",
+        "x": 489,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Viajan al rotor",
+        "subtitle": "llegan a zona de más presión",
+        "color": "#e5555a"
+      },
+      {
+        "id": "c5",
+        "x": 647,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Colapso e implosión",
+        "subtitle": "erosiona el metal y hace ruido",
+        "color": "#e5555a"
+      }
     ],
-    "edges": [["c1", "c2"], ["c2", "c3"], ["c3", "c4"], ["c4", "c5"]]
+    "edges": [
+      [
+        "c1",
+        "c2"
+      ],
+      [
+        "c2",
+        "c3"
+      ],
+      [
+        "c3",
+        "c4"
+      ],
+      [
+        "c4",
+        "c5"
+      ]
+    ]
   },
   {
     "title": "Cómo se calcula la pérdida de carga total de una cañería",
@@ -32,13 +143,75 @@
     "viewBoxW": 820,
     "viewBoxH": 240,
     "nodes": [
-      { "id": "p1", "x": 15, "y": 77, "w": 140, "h": 85, "title": "Tramo recto", "subtitle": "pérdida primaria (Darcy-Weisbach)", "color": "#f2a33d" },
-      { "id": "p2", "x": 173, "y": 77, "w": 140, "h": 85, "title": "Accesorios", "subtitle": "pérdida secundaria (long. equiv.)", "color": "#f2a33d" },
-      { "id": "p3", "x": 331, "y": 77, "w": 140, "h": 85, "title": "Suma de pérdidas", "subtitle": "primarias + secundarias", "color": "#f2a33d" },
-      { "id": "p4", "x": 489, "y": 77, "w": 140, "h": 85, "title": "Pérdida de carga total", "subtitle": "energía total a vencer", "color": "#f2a33d" },
-      { "id": "p5", "x": 647, "y": 77, "w": 140, "h": 85, "title": "Altura manométrica", "subtitle": "define qué bomba hace falta", "color": "#f2a33d" }
+      {
+        "id": "p1",
+        "x": 15,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Tramo recto",
+        "subtitle": "pérdida primaria (Darcy-Weisbach)",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p2",
+        "x": 173,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Accesorios",
+        "subtitle": "pérdida secundaria (long. equiv.)",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p3",
+        "x": 331,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Suma de pérdidas",
+        "subtitle": "primarias + secundarias",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p4",
+        "x": 489,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Pérdida de carga total",
+        "subtitle": "energía total a vencer",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "p5",
+        "x": 647,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Altura manométrica",
+        "subtitle": "define qué bomba hace falta",
+        "color": "#f2a33d"
+      }
     ],
-    "edges": [["p1", "p2"], ["p2", "p3"], ["p3", "p4"], ["p4", "p5"]]
+    "edges": [
+      [
+        "p1",
+        "p2"
+      ],
+      [
+        "p2",
+        "p3"
+      ],
+      [
+        "p3",
+        "p4"
+      ],
+      [
+        "p4",
+        "p5"
+      ]
+    ]
   },
   {
     "title": "Cómo funciona un intercambiador a contracorriente",
@@ -46,12 +219,61 @@
     "viewBoxW": 740,
     "viewBoxH": 260,
     "nodes": [
-      { "id": "h1", "x": 20, "y": 20, "w": 160, "h": 80, "title": "Fluido caliente entra", "subtitle": "entra por un extremo", "color": "#22d3ee" },
-      { "id": "h2", "x": 20, "y": 160, "w": 160, "h": 80, "title": "Fluido frío entra", "subtitle": "entra por el extremo opuesto", "color": "#22d3ee" },
-      { "id": "h3", "x": 280, "y": 90, "w": 170, "h": 90, "title": "Intercambio de calor", "subtitle": "a través de la pared (U y DTLM)", "color": "#22d3ee" },
-      { "id": "h4", "x": 550, "y": 90, "w": 170, "h": 90, "title": "Salida de ambos fluidos", "subtitle": "frío sale caliente, caliente sale frío", "color": "#22d3ee" }
+      {
+        "id": "h1",
+        "x": 20,
+        "y": 20,
+        "w": 160,
+        "h": 80,
+        "title": "Fluido caliente entra",
+        "subtitle": "entra por un extremo",
+        "color": "#22d3ee"
+      },
+      {
+        "id": "h2",
+        "x": 20,
+        "y": 160,
+        "w": 160,
+        "h": 80,
+        "title": "Fluido frío entra",
+        "subtitle": "entra por el extremo opuesto",
+        "color": "#22d3ee"
+      },
+      {
+        "id": "h3",
+        "x": 280,
+        "y": 90,
+        "w": 170,
+        "h": 90,
+        "title": "Intercambio de calor",
+        "subtitle": "a través de la pared (U y DTLM)",
+        "color": "#22d3ee"
+      },
+      {
+        "id": "h4",
+        "x": 550,
+        "y": 90,
+        "w": 170,
+        "h": 90,
+        "title": "Salida de ambos fluidos",
+        "subtitle": "frío sale caliente, caliente sale frío",
+        "color": "#22d3ee"
+      }
     ],
-    "edges": [["h1", "h3"], ["h2", "h3"], ["h3", "h4"]]
+    "edges": [
+      [
+        "h1",
+        "h3"
+      ],
+      [
+        "h2",
+        "h3"
+      ],
+      [
+        "h3",
+        "h4"
+      ]
+    ]
   },
   {
     "title": "Cómo se genera y usa el vapor en una caldera",
@@ -59,13 +281,75 @@
     "viewBoxW": 820,
     "viewBoxH": 240,
     "nodes": [
-      { "id": "v1", "x": 15, "y": 77, "w": 140, "h": 85, "title": "Combustión en el hogar", "subtitle": "se quema el combustible", "color": "#3fbf7f" },
-      { "id": "v2", "x": 173, "y": 77, "w": 140, "h": 85, "title": "Agua se calienta", "subtitle": "circula por los tubos", "color": "#3fbf7f" },
-      { "id": "v3", "x": 331, "y": 77, "w": 140, "h": 85, "title": "Se genera vapor", "subtitle": "a la presión de trabajo", "color": "#3fbf7f" },
-      { "id": "v4", "x": 489, "y": 77, "w": 140, "h": 85, "title": "Vapor va al proceso", "subtitle": "cede calor (turbina, intercambiador)", "color": "#3fbf7f" },
-      { "id": "v5", "x": 647, "y": 77, "w": 140, "h": 85, "title": "Condensado retorna", "subtitle": "vuelve a alimentar la caldera", "color": "#3fbf7f" }
+      {
+        "id": "v1",
+        "x": 15,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Combustión en el hogar",
+        "subtitle": "se quema el combustible",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "v2",
+        "x": 173,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Agua se calienta",
+        "subtitle": "circula por los tubos",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "v3",
+        "x": 331,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Se genera vapor",
+        "subtitle": "a la presión de trabajo",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "v4",
+        "x": 489,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Vapor va al proceso",
+        "subtitle": "cede calor (turbina, intercambiador)",
+        "color": "#3fbf7f"
+      },
+      {
+        "id": "v5",
+        "x": 647,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Condensado retorna",
+        "subtitle": "vuelve a alimentar la caldera",
+        "color": "#3fbf7f"
+      }
     ],
-    "edges": [["v1", "v2"], ["v2", "v3"], ["v3", "v4"], ["v4", "v5"]]
+    "edges": [
+      [
+        "v1",
+        "v2"
+      ],
+      [
+        "v2",
+        "v3"
+      ],
+      [
+        "v3",
+        "v4"
+      ],
+      [
+        "v4",
+        "v5"
+      ]
+    ]
   },
   {
     "title": "Cómo llega la electricidad hasta un motor o una luminaria",
@@ -73,14 +357,89 @@
     "viewBoxW": 900,
     "viewBoxH": 200,
     "nodes": [
-      { "id": "e1", "x": 15, "y": 60, "w": 130, "h": 80, "title": "Generación", "subtitle": "la central produce energía", "color": "#a78bfa" },
-      { "id": "e2", "x": 160, "y": 60, "w": 130, "h": 80, "title": "Transporte", "subtitle": "alta tensión por el SADI", "color": "#a78bfa" },
-      { "id": "e3", "x": 305, "y": 60, "w": 130, "h": 80, "title": "Distribución", "subtitle": "el transformador baja tensión", "color": "#a78bfa" },
-      { "id": "e4", "x": 450, "y": 60, "w": 130, "h": 80, "title": "Tablero de planta", "subtitle": "reparte a cada circuito", "color": "#a78bfa" },
-      { "id": "e5", "x": 595, "y": 60, "w": 130, "h": 80, "title": "Protecciones", "subtitle": "termomagnético y diferencial", "color": "#a78bfa" },
-      { "id": "e6", "x": 740, "y": 60, "w": 130, "h": 80, "title": "Motor o luminaria", "subtitle": "consumen la energía final", "color": "#a78bfa" }
+      {
+        "id": "e1",
+        "x": 15,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Generación",
+        "subtitle": "la central produce energía",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "e2",
+        "x": 160,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Transporte",
+        "subtitle": "alta tensión por el SADI",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "e3",
+        "x": 305,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Distribución",
+        "subtitle": "el transformador baja tensión",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "e4",
+        "x": 450,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Tablero de planta",
+        "subtitle": "reparte a cada circuito",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "e5",
+        "x": 595,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Protecciones",
+        "subtitle": "termomagnético y diferencial",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "e6",
+        "x": 740,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Motor o luminaria",
+        "subtitle": "consumen la energía final",
+        "color": "#a78bfa"
+      }
     ],
-    "edges": [["e1", "e2"], ["e2", "e3"], ["e3", "e4"], ["e4", "e5"], ["e5", "e6"]]
+    "edges": [
+      [
+        "e1",
+        "e2"
+      ],
+      [
+        "e2",
+        "e3"
+      ],
+      [
+        "e3",
+        "e4"
+      ],
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "e5",
+        "e6"
+      ]
+    ]
   },
   {
     "title": "Cómo se especifica un caño sin ambigüedad",
@@ -88,14 +447,89 @@
     "viewBoxW": 900,
     "viewBoxH": 200,
     "nodes": [
-      { "id": "n1", "x": 15, "y": 60, "w": 130, "h": 80, "title": "Norma", "subtitle": "ASTM, API, ASME, etc.", "color": "#5b8def" },
-      { "id": "n2", "x": 160, "y": 60, "w": 130, "h": 80, "title": "Material", "subtitle": "acero, inox, PVC...", "color": "#5b8def" },
-      { "id": "n3", "x": 305, "y": 60, "w": 130, "h": 80, "title": "Diámetro nominal", "subtitle": "nombre comercial, no real", "color": "#5b8def" },
-      { "id": "n4", "x": 450, "y": 60, "w": 130, "h": 80, "title": "Schedule", "subtitle": "espesor de pared", "color": "#5b8def" },
-      { "id": "n5", "x": 595, "y": 60, "w": 130, "h": 80, "title": "Con/sin costura", "subtitle": "soldado o sin soldadura", "color": "#5b8def" },
-      { "id": "n6", "x": 740, "y": 60, "w": 130, "h": 80, "title": "Acabado", "subtitle": "extremos y superficie", "color": "#5b8def" }
+      {
+        "id": "n1",
+        "x": 15,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Norma",
+        "subtitle": "ASTM, API, ASME, etc.",
+        "color": "#5b8def"
+      },
+      {
+        "id": "n2",
+        "x": 160,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Material",
+        "subtitle": "acero, inox, PVC...",
+        "color": "#5b8def"
+      },
+      {
+        "id": "n3",
+        "x": 305,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Diámetro nominal",
+        "subtitle": "nombre comercial, no real",
+        "color": "#5b8def"
+      },
+      {
+        "id": "n4",
+        "x": 450,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Schedule",
+        "subtitle": "espesor de pared",
+        "color": "#5b8def"
+      },
+      {
+        "id": "n5",
+        "x": 595,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Con/sin costura",
+        "subtitle": "soldado o sin soldadura",
+        "color": "#5b8def"
+      },
+      {
+        "id": "n6",
+        "x": 740,
+        "y": 60,
+        "w": 130,
+        "h": 80,
+        "title": "Acabado",
+        "subtitle": "extremos y superficie",
+        "color": "#5b8def"
+      }
     ],
-    "edges": [["n1", "n2"], ["n2", "n3"], ["n3", "n4"], ["n4", "n5"], ["n5", "n6"]]
+    "edges": [
+      [
+        "n1",
+        "n2"
+      ],
+      [
+        "n2",
+        "n3"
+      ],
+      [
+        "n3",
+        "n4"
+      ],
+      [
+        "n4",
+        "n5"
+      ],
+      [
+        "n5",
+        "n6"
+      ]
+    ]
   },
   {
     "title": "Cómo funciona el arranque estrella-triángulo",
@@ -103,12 +537,61 @@
     "viewBoxW": 720,
     "viewBoxH": 220,
     "nodes": [
-      { "id": "m1", "x": 20, "y": 65, "w": 150, "h": 90, "title": "Arranca en estrella", "subtitle": "menor tensión y corriente", "color": "#f2a33d" },
-      { "id": "m2", "x": 190, "y": 65, "w": 150, "h": 90, "title": "Motor acelera", "subtitle": "toma velocidad de a poco", "color": "#f2a33d" },
-      { "id": "m3", "x": 360, "y": 65, "w": 150, "h": 90, "title": "Temporizador conmuta", "subtitle": "cambia la conexión solo", "color": "#f2a33d" },
-      { "id": "m4", "x": 530, "y": 65, "w": 150, "h": 90, "title": "Pasa a triángulo", "subtitle": "trabaja a tensión plena", "color": "#f2a33d" }
+      {
+        "id": "m1",
+        "x": 20,
+        "y": 65,
+        "w": 150,
+        "h": 90,
+        "title": "Arranca en estrella",
+        "subtitle": "menor tensión y corriente",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "m2",
+        "x": 190,
+        "y": 65,
+        "w": 150,
+        "h": 90,
+        "title": "Motor acelera",
+        "subtitle": "toma velocidad de a poco",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "m3",
+        "x": 360,
+        "y": 65,
+        "w": 150,
+        "h": 90,
+        "title": "Temporizador conmuta",
+        "subtitle": "cambia la conexión solo",
+        "color": "#f2a33d"
+      },
+      {
+        "id": "m4",
+        "x": 530,
+        "y": 65,
+        "w": 150,
+        "h": 90,
+        "title": "Pasa a triángulo",
+        "subtitle": "trabaja a tensión plena",
+        "color": "#f2a33d"
+      }
     ],
-    "edges": [["m1", "m2"], ["m2", "m3"], ["m3", "m4"]]
+    "edges": [
+      [
+        "m1",
+        "m2"
+      ],
+      [
+        "m2",
+        "m3"
+      ],
+      [
+        "m3",
+        "m4"
+      ]
+    ]
   },
   {
     "title": "Curva de disparo de una protección termomagnética",
@@ -119,21 +602,87 @@
     "xAxisLabel": "Corriente (múltiplos de In) →",
     "yAxisLabel": "Tiempo de disparo (escala logarítmica) →",
     "zones": [
-      { "x1": 60, "x2": 330, "y1": 300, "y2": 25, "fill": "#e8f5f2", "opacity": 0.5 },
-      { "x1": 330, "x2": 580, "y1": 300, "y2": 25, "fill": "#fdeceb", "opacity": 0.5 }
+      {
+        "x1": 60,
+        "x2": 330,
+        "y1": 300,
+        "y2": 25,
+        "fill": "#e8f5f2",
+        "opacity": 0.5
+      },
+      {
+        "x1": 330,
+        "x2": 580,
+        "y1": 300,
+        "y2": 25,
+        "fill": "#fdeceb",
+        "opacity": 0.5
+      }
     ],
     "curves": [
-      { "points": "110,60 150,95 190,135 230,175 270,210 300,235 325,250", "color": "#0f766e", "width": 3 },
-      { "points": "325,250 328,270 332,283 340,285 560,283", "color": "#b91c1c", "width": 3 }
+      {
+        "points": "110,60 150,95 190,135 230,175 270,210 300,235 325,250",
+        "color": "#0f766e",
+        "width": 3
+      },
+      {
+        "points": "325,250 328,270 332,283 340,285 560,283",
+        "color": "#b91c1c",
+        "width": 3
+      }
     ],
     "labels": [
-      { "x": 130, "y": 90, "text": "Zona térmica", "color": "#0f766e", "weight": "600", "size": 12.5 },
-      { "x": 130, "y": 106, "text": "(curva inversa, dispara", "color": "#0f766e", "size": 11 },
-      { "x": 130, "y": 120, "text": "en segundos)", "color": "#0f766e", "size": 11 },
-      { "x": 400, "y": 130, "text": "Zona magnética", "color": "#b91c1c", "weight": "600", "size": 12.5 },
-      { "x": 400, "y": 146, "text": "(disparo instantáneo,", "color": "#b91c1c", "size": 11 },
-      { "x": 400, "y": 160, "text": "típico cortocircuito)", "color": "#b91c1c", "size": 11 },
-      { "x": 260, "y": 305, "text": "↑ corriente de disparo magnético (≈5-10 × In)", "color": "var(--map-subtitle)", "size": 10.5 }
+      {
+        "x": 130,
+        "y": 90,
+        "text": "Zona térmica",
+        "color": "#0f766e",
+        "weight": "600",
+        "size": 12.5
+      },
+      {
+        "x": 130,
+        "y": 106,
+        "text": "(curva inversa, dispara",
+        "color": "#0f766e",
+        "size": 11
+      },
+      {
+        "x": 130,
+        "y": 120,
+        "text": "en segundos)",
+        "color": "#0f766e",
+        "size": 11
+      },
+      {
+        "x": 400,
+        "y": 130,
+        "text": "Zona magnética",
+        "color": "#b91c1c",
+        "weight": "600",
+        "size": 12.5
+      },
+      {
+        "x": 400,
+        "y": 146,
+        "text": "(disparo instantáneo,",
+        "color": "#b91c1c",
+        "size": 11
+      },
+      {
+        "x": 400,
+        "y": 160,
+        "text": "típico cortocircuito)",
+        "color": "#b91c1c",
+        "size": 11
+      },
+      {
+        "x": 260,
+        "y": 305,
+        "text": "↑ corriente de disparo magnético (≈5-10 × In)",
+        "color": "var(--map-subtitle)",
+        "size": 10.5
+      }
     ]
   },
   {
@@ -145,13 +694,45 @@
     "xAxisLabel": "Caudal (Q) →",
     "yAxisLabel": "Altura (H) →",
     "curves": [
-      { "points": "90,60 150,80 220,110 300,152 380,195 460,235 540,265", "color": "#0f766e", "width": 3 },
-      { "points": "90,220 150,205 220,182 300,152 380,118 460,85 540,55", "color": "#b45309", "width": 3, "dashed": true }
+      {
+        "points": "90,60 150,80 220,110 300,152 380,195 460,235 540,265",
+        "color": "#0f766e",
+        "width": 3
+      },
+      {
+        "points": "90,220 150,205 220,182 300,152 380,118 460,85 540,55",
+        "color": "#b45309",
+        "width": 3,
+        "dashed": true
+      }
     ],
-    "points": [{ "x": 300, "y": 152, "label": "Punto de funcionamiento", "color": "#1b1d1f", "dx": 10, "dy": -12 }],
+    "points": [
+      {
+        "x": 300,
+        "y": 152,
+        "label": "Punto de funcionamiento",
+        "color": "#1b1d1f",
+        "dx": 10,
+        "dy": -12
+      }
+    ],
     "labels": [
-      { "x": 100, "y": 48, "text": "Curva de la bomba (H disponible)", "color": "#0f766e", "weight": "600", "size": 12 },
-      { "x": 300, "y": 108, "text": "Curva del sistema (H requerida)", "color": "#b45309", "weight": "600", "size": 12 }
+      {
+        "x": 100,
+        "y": 48,
+        "text": "Curva de la bomba (H disponible)",
+        "color": "#0f766e",
+        "weight": "600",
+        "size": 12
+      },
+      {
+        "x": 300,
+        "y": 108,
+        "text": "Curva del sistema (H requerida)",
+        "color": "#b45309",
+        "weight": "600",
+        "size": 12
+      }
     ]
   },
   {
@@ -160,12 +741,392 @@
     "viewBoxW": 820,
     "viewBoxH": 240,
     "nodes": [
-      { "id": "w1", "x": 15, "y": 77, "w": 140, "h": 85, "title": "Preparación de bordes", "subtitle": "bisel y limpieza de la unión", "color": "#a78bfa" },
-      { "id": "w2", "x": 173, "y": 77, "w": 140, "h": 85, "title": "Pasada de raíz (TIG)", "subtitle": "alta calidad, primera capa", "color": "#a78bfa" },
-      { "id": "w3", "x": 331, "y": 77, "w": 140, "h": 85, "title": "Relleno (SMAW/MIG)", "subtitle": "completa el espesor, más rápido", "color": "#a78bfa" },
-      { "id": "w4", "x": 489, "y": 77, "w": 140, "h": 85, "title": "Ensayos no destructivos", "subtitle": "controlan la calidad final", "color": "#a78bfa" },
-      { "id": "w5", "x": 647, "y": 77, "w": 140, "h": 85, "title": "Caño habilitado", "subtitle": "listo para entrar en servicio", "color": "#a78bfa" }
+      {
+        "id": "w1",
+        "x": 15,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Preparación de bordes",
+        "subtitle": "bisel y limpieza de la unión",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "w2",
+        "x": 173,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Pasada de raíz (TIG)",
+        "subtitle": "alta calidad, primera capa",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "w3",
+        "x": 331,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Relleno (SMAW/MIG)",
+        "subtitle": "completa el espesor, más rápido",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "w4",
+        "x": 489,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Ensayos no destructivos",
+        "subtitle": "controlan la calidad final",
+        "color": "#a78bfa"
+      },
+      {
+        "id": "w5",
+        "x": 647,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Caño habilitado",
+        "subtitle": "listo para entrar en servicio",
+        "color": "#a78bfa"
+      }
     ],
-    "edges": [["w1", "w2"], ["w2", "w3"], ["w3", "w4"], ["w4", "w5"]]
+    "edges": [
+      [
+        "w1",
+        "w2"
+      ],
+      [
+        "w2",
+        "w3"
+      ],
+      [
+        "w3",
+        "w4"
+      ],
+      [
+        "w4",
+        "w5"
+      ]
+    ]
+  },
+  {
+    "title": "Cómo es una red de aire comprimido",
+    "description": "El aire se limpia, se comprime, se enfría para sacarle el agua, se acumula en el pulmón y se filtra o seca según lo que pida cada consumo; los cinco primeros elementos van en la tubería principal y son obligatorios.",
+    "viewBoxW": 900,
+    "viewBoxH": 200,
+    "nodes": [
+      {
+        "id": "a1",
+        "x": 15,
+        "y": 57,
+        "w": 130,
+        "h": 85,
+        "title": "Filtro de aspiración",
+        "subtitle": "limpia el aire de entrada",
+        "color": "#e879f9"
+      },
+      {
+        "id": "a2",
+        "x": 161,
+        "y": 57,
+        "w": 130,
+        "h": 85,
+        "title": "Compresor",
+        "subtitle": "energía mecánica a neumática",
+        "color": "#e879f9"
+      },
+      {
+        "id": "a3",
+        "x": 307,
+        "y": 57,
+        "w": 130,
+        "h": 85,
+        "title": "Post-enfriador",
+        "subtitle": "enfría y condensa humedad",
+        "color": "#e879f9"
+      },
+      {
+        "id": "a4",
+        "x": 453,
+        "y": 57,
+        "w": 130,
+        "h": 85,
+        "title": "Pulmón",
+        "subtitle": "acumula y decanta agua",
+        "color": "#e879f9"
+      },
+      {
+        "id": "a5",
+        "x": 599,
+        "y": 57,
+        "w": 130,
+        "h": 85,
+        "title": "Filtros y secador",
+        "subtitle": "calidad según el uso",
+        "color": "#e879f9"
+      },
+      {
+        "id": "a6",
+        "x": 745,
+        "y": 57,
+        "w": 130,
+        "h": 85,
+        "title": "FRL y consumo",
+        "subtitle": "filtro, regulador, lubricador",
+        "color": "#e879f9"
+      }
+    ],
+    "edges": [
+      [
+        "a1",
+        "a2"
+      ],
+      [
+        "a2",
+        "a3"
+      ],
+      [
+        "a3",
+        "a4"
+      ],
+      [
+        "a4",
+        "a5"
+      ],
+      [
+        "a5",
+        "a6"
+      ]
+    ]
+  },
+  {
+    "title": "Cómo funciona el ciclo frigorífico de compresión",
+    "description": "Circuito cerrado: después de la válvula de expansión el refrigerante vuelve al evaporador y el ciclo arranca de nuevo. Del compresor a la válvula es el lado de alta; de la válvula al compresor, el lado de baja.",
+    "viewBoxW": 820,
+    "viewBoxH": 240,
+    "nodes": [
+      {
+        "id": "f1",
+        "x": 15,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Evaporador",
+        "subtitle": "absorbe calor a baja presión",
+        "color": "#38bdf8"
+      },
+      {
+        "id": "f2",
+        "x": 173,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Compresor",
+        "subtitle": "sube presión y temperatura",
+        "color": "#38bdf8"
+      },
+      {
+        "id": "f3",
+        "x": 331,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Condensador",
+        "subtitle": "cede calor y condensa",
+        "color": "#38bdf8"
+      },
+      {
+        "id": "f4",
+        "x": 489,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Receptor de líquido",
+        "subtitle": "líquido subenfriado",
+        "color": "#38bdf8"
+      },
+      {
+        "id": "f5",
+        "x": 647,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Válvula de expansión",
+        "subtitle": "baja la presión (flash gas)",
+        "color": "#38bdf8"
+      }
+    ],
+    "edges": [
+      [
+        "f1",
+        "f2"
+      ],
+      [
+        "f2",
+        "f3"
+      ],
+      [
+        "f3",
+        "f4"
+      ],
+      [
+        "f4",
+        "f5"
+      ]
+    ]
+  },
+  {
+    "title": "Cómo reacciona una válvula de expansión termostática",
+    "description": "La válvula mantiene fijo el sobrecalentamiento a la salida del evaporador (Pbulbo = Presorte + Pevaporador). Si la carga baja, pasa lo mismo al revés y la válvula cierra.",
+    "viewBoxW": 820,
+    "viewBoxH": 240,
+    "nodes": [
+      {
+        "id": "t1",
+        "x": 15,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Sube la carga",
+        "subtitle": "entra calor a la cámara",
+        "color": "#38bdf8"
+      },
+      {
+        "id": "t2",
+        "x": 173,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Se evapora antes",
+        "subtitle": "el líquido no llega al final",
+        "color": "#38bdf8"
+      },
+      {
+        "id": "t3",
+        "x": 331,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Sube el sobrecalor",
+        "subtitle": "a la salida del evaporador",
+        "color": "#38bdf8"
+      },
+      {
+        "id": "t4",
+        "x": 489,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Sube la P del bulbo",
+        "subtitle": "empuja el diafragma",
+        "color": "#38bdf8"
+      },
+      {
+        "id": "t5",
+        "x": 647,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "La válvula abre",
+        "subtitle": "entra más refrigerante",
+        "color": "#38bdf8"
+      }
+    ],
+    "edges": [
+      [
+        "t1",
+        "t2"
+      ],
+      [
+        "t2",
+        "t3"
+      ],
+      [
+        "t3",
+        "t4"
+      ],
+      [
+        "t4",
+        "t5"
+      ]
+    ]
+  },
+  {
+    "title": "Cómo se refina el crudo de petróleo",
+    "description": "Primero se separa por punto de ebullición en destilación atmosférica y al vacío; después se rompen y recombinan moléculas para sacar más nafta de cada barril.",
+    "viewBoxW": 820,
+    "viewBoxH": 240,
+    "nodes": [
+      {
+        "id": "r1",
+        "x": 15,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Desalado",
+        "subtitle": "saca sal y agua del crudo",
+        "color": "#f87171"
+      },
+      {
+        "id": "r2",
+        "x": 173,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Destilación atmosférica",
+        "subtitle": "gases, naftas, kerosene, gasoil",
+        "color": "#f87171"
+      },
+      {
+        "id": "r3",
+        "x": 331,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Residuo atmosférico",
+        "subtitle": "lo que no destila",
+        "color": "#f87171"
+      },
+      {
+        "id": "r4",
+        "x": 489,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Destilación al vacío",
+        "subtitle": "bajan los puntos de ebullición",
+        "color": "#f87171"
+      },
+      {
+        "id": "r5",
+        "x": 647,
+        "y": 77,
+        "w": 140,
+        "h": 85,
+        "title": "Craqueo y alquilación",
+        "subtitle": "más nafta y más octanaje",
+        "color": "#f87171"
+      }
+    ],
+    "edges": [
+      [
+        "r1",
+        "r2"
+      ],
+      [
+        "r2",
+        "r3"
+      ],
+      [
+        "r3",
+        "r4"
+      ],
+      [
+        "r4",
+        "r5"
+      ]
+    ]
   }
 ]

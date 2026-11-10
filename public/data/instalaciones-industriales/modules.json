@@ -18,6 +18,24 @@
     "description": "Generación de vapor, calderas y diseño de intercambiadores de calor."
   },
   {
+    "id": "unidad-5-aire-comprimido",
+    "title": "Unidad 5 · Aire Comprimido y Gases Industriales",
+    "unidad": "Unidad 5",
+    "description": "Redes de aire comprimido, válvulas y actuadores neumáticos, cilindros de gases, criogénicos y seguridad."
+  },
+  {
+    "id": "unidad-6-combustibles",
+    "title": "Unidad 6 · Combustibles y Tanques",
+    "unidad": "Unidad 6",
+    "description": "Poder calorífico, gas natural y GLP, derivados del petróleo y tanques de almacenamiento de combustibles."
+  },
+  {
+    "id": "unidad-8-refrigeracion",
+    "title": "Unidad 8 · Refrigeración Industrial",
+    "unidad": "Unidad 8",
+    "description": "Ciclo frigorífico de compresión, refrigerantes, válvulas de expansión, evaporadores, condensadores y balance térmico de cámaras."
+  },
+  {
     "id": "minutas-clases",
     "title": "Minutas de clases",
     "unidad": "—",

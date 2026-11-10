@@ -1,0 +1,139 @@
+{
+  "thesis": "El aire comprimido es una forma de transportar energía, igual que la electricidad o el vapor: un compresor le mete energía al aire achicándole el volumen, una red de cañerías lo lleva por la planta y los actuadores (cilindros, herramientas) la devuelven como fuerza y movimiento. La segunda mitad de la unidad cambia de tema pero no de lógica: los gases industriales también viajan comprimidos o licuados, y casi todo lo que hay que saber de ellos tiene que ver con cómo se almacenan y se manejan sin que nadie salga lastimado.",
+  "examTip": "Lo más preguntado: hacer el esquema de una red de aire comprimido con sus partes en orden (filtro, compresor, post-enfriador, pulmón, filtros, secador, FRL), las formas de tendido (lineal con pendiente de 2° o anillo cerrado), que las bajadas a consumo se toman por arriba de la cañería y las de purga por abajo, las velocidades máximas (8 m/s en principal y secundarias, 15 m/s en servicio) y la caída de presión admisible. En válvulas neumáticas, saber leer la nomenclatura vías/posiciones (3/2, 5/2, 5/3) y la numeración de vías (1 presión, 2 y 4 salidas, 3 y 5 escapes, 12 y 14 pilotajes). De gases: gases comprimidos vs. licuados vs. criogénicos, por qué el cilindro de acetileno es distinto, la prueba hidrostática a 5/3 de la presión de servicio y los límites de inflamabilidad.",
+  "concepts": [
+    "Neumática",
+    "Ley de Dalton",
+    "Ley de Amagat",
+    "Ley de Boyle-Mariotte",
+    "Humedad relativa",
+    "Punto de rocío",
+    "Aire libre (FAD) y Nm³",
+    "Condensación en la compresión",
+    "Post-enfriador",
+    "Pulmón (tanque acumulador)",
+    "Secador frigorífico / de adsorción",
+    "Unidad FRL",
+    "Tubería principal / secundaria / de servicio",
+    "Tendido lineal vs. anillo cerrado",
+    "Bajadas a consumo y a purga",
+    "Longitud equivalente",
+    "Válvula direccional (vías/posiciones)",
+    "Monoestable / biestable",
+    "Válvula de escape rápido",
+    "Regulación de velocidad por escape",
+    "Cilindro de simple y doble efecto",
+    "Gases comprimidos, licuados y criogénicos",
+    "Cilindro de acetileno",
+    "Prueba hidrostática",
+    "Regulador de una y dos etapas",
+    "Tanque criogénico y termo",
+    "Límites de inflamabilidad"
+  ],
+  "sections": [
+    {
+      "h": "De qué se trata la neumática",
+      "p": "El aire comprimido se usa como vehículo para transmitir energía, y la disciplina que lo estudia se llama neumática. La idea es simple: un compresor agarra aire de la atmósfera, lo comprime (gasta energía mecánica para achicarle el volumen) y ese aire a presión viaja por cañerías hasta donde se necesita. Ahí un actuador, por ejemplo un cilindro, hace el camino inverso: deja que el aire empuje un pistón y recupera esa energía como fuerza. En la mayoría de las plantas el aire comprimido se considera un servicio más, igual que la electricidad, el gas o el agua, y las redes trabajan casi siempre entre 6 y 7 bar (algunas, menos comunes, entre 14 y 16 bar)."
+    },
+    {
+      "h": "Las leyes de los gases que hay que tener a mano",
+      "p": "El aire atmosférico es aire húmedo: una mezcla de aire seco (que a su vez es una mezcla de gases, sobre todo nitrógeno y oxígeno) más vapor de agua. La ley de Dalton dice que en una mezcla de gases la presión total es la suma de las presiones parciales de cada componente, entendiendo por presión parcial la que tendría ese gas si estuviera solo ocupando todo el volumen a la misma temperatura. La ley de Amagat es la gemela para volúmenes: el volumen total es la suma de los volúmenes parciales, que son los que ocuparía cada gas solo a la presión total. Y la ley de Boyle-Mariotte es la que explica el compresor: a temperatura constante, presión y volumen son inversamente proporcionales, P1·V1 = P2·V2. Si achicás el volumen a la cuarta parte, la presión se multiplica por cuatro."
+    },
+    {
+      "h": "Humedad relativa y punto de rocío",
+      "p": "El aire puede contener una cantidad máxima de vapor de agua que depende de la temperatura: cuanto más caliente, más vapor admite. La humedad relativa compara el vapor que el aire tiene realmente con el máximo que podría tener a esa presión y temperatura: 0% es aire totalmente seco y 100% es aire saturado. Cuando el aire está saturado, cualquier agua extra ya no puede quedarse como vapor y aparece como líquido (niebla, microgotas) o incluso como hielo si hace mucho frío. La temperatura a la que el aire llega al 100% y empieza a condensar se llama punto de rocío. Este concepto es clave en neumática porque si el aire de la red se enfría por debajo de su punto de rocío, aparece agua dentro de las cañerías."
+    },
+    {
+      "h": "Volumen normal y aire libre (FAD)",
+      "p": "Como el volumen de un gas cambia con la presión y la temperatura, decir '10 m³ de aire' no significa nada si no aclarás en qué condiciones. Por eso se usan condiciones de referencia. Las condiciones normales (CNPT, según IUPAC) son 0 °C y 1 atmósfera (1,013 bar), y el volumen medido así se expresa en Nm³ (normal metros cúbicos). También se usan condiciones estándar de 20 °C y 1 bar; el aire medido en esas condiciones se llama aire libre o FAD (Free Air Delivered), que es como los fabricantes suelen expresar el caudal que entrega un compresor."
+    },
+    {
+      "h": "Por qué comprimir aire genera litros de agua",
+      "p": "El apunte lo muestra con números. Tomás 4 m³ de aire a 25 °C con 70% de humedad relativa: a esa temperatura el aire saturado tiene unos 23,76 g/m³ de agua, así que tenés 23,76 × 0,7 = 16,6 g/m³, o sea unos 66,5 g de agua en total. Si comprimís esos 4 m³ hasta 1 m³ (alrededor de 3 bar) manteniendo la temperatura, ese metro cúbico solo puede sostener 23,76 g como vapor. Los otros 42,8 g sí o sí se condensan. Moraleja: cualquier instalación de aire comprimido produce muchos litros de agua por día, y la red tiene que estar diseñada para sacarla (post-enfriador, purgas, pendientes, secadores). Si no, el agua llega a las herramientas y a los actuadores y los arruina."
+    },
+    {
+      "h": "Las partes de una red de aire comprimido",
+      "p": "Una red típica tiene siete elementos, en este orden: 1) filtro del compresor, que limpia el aire antes de comprimirlo para proteger la máquina; 2) compresor, que convierte energía mecánica en energía neumática y se conecta a la red con una unión flexible para no transmitir vibraciones; 3) post-enfriador, que enfría el aire caliente que sale del compresor y así condensa y elimina gran parte de la humedad; 4) tanque de almacenamiento o pulmón, que guarda energía neumática y deja que decanten partículas y agua; 5) filtros de línea, que dejan el aire con una calidad apta para la mayoría de los usos; 6) secadores, solo para aplicaciones que piden aire extremadamente seco; 7) las aplicaciones con sus purgas y unidades de mantenimiento FRL (filtro, regulador de presión y lubricador). Los elementos 1 a 5 van en la tubería principal y son obligatorios en toda red; el 6 puede ir en las secundarias y el 7 va en las tuberías de servicio."
+    },
+    {
+      "h": "Principal, secundarias y de servicio",
+      "p": "La tubería principal es la que sale de los compresores y lleva todo el aire de la planta: se dimensiona con el mayor diámetro posible y previendo hasta un 20% de ampliación futura, con una velocidad máxima de 8 m/s. Las secundarias se derivan de la principal y recorren las zonas de trabajo; por ellas pasa la suma de los consumos que alimentan y tampoco deben superar los 8 m/s. Las de servicio son las que llegan a los equipos: llevan acoples rápidos, mangueras y la unidad FRL. Como son tramos cortos, se acepta hasta 15 m/s. Se recomienda no colgar más de tres equipos de una misma tubería de servicio y usar diámetros mayores a 1/2 pulgada para evitar obstrucciones."
+    },
+    {
+      "h": "Cuánta presión se puede perder",
+      "p": "Cada codo, te, cambio de sección, filtro o secador frena el aire y le roba presión. El apunte da dos criterios. Uno estricto: la caída en el sistema de tuberías no debería pasar del 2% de la presión del compresor (con 7 bar, 0,14 bar), porque a eso hay que sumarle lo que pierden los demás equipos. Otro más práctico: se acepta que hasta el 10% de la presión de trabajo se gaste en pérdidas (con 7 bar, 0,7 bar) y el resto llegue a los puntos de consumo. Como referencia, un post-enfriador pierde unos 0,09 bar, un secador frigorífico 0,20 bar, uno de adsorción 0,30 bar y los filtros en general 0,15 bar. Para diseñar la red hay que relevar todos los consumos (con un cuestionario de máquina, caudal, horas de uso, continuo o intermitente y presión) y todas las pérdidas."
+    },
+    {
+      "h": "Cómo se calcula el diámetro de la cañería",
+      "p": "La caída de presión en un tramo recto depende del caudal, la longitud, la presión absoluta y el diámetro interior, y se calcula con una fórmula o con un nomograma. El problema es que para usar esa fórmula necesitás adoptar un diámetro de entrada. Por eso primero se usa un nomograma más simple para tener un diámetro aproximado: se une la longitud de la tubería con el caudal hasta cortar un eje auxiliar (punto 1), se une la caída de presión adoptada con la presión de trabajo hasta otro eje auxiliar (punto 2), y la recta entre 1 y 2 te marca el diámetro. Los accesorios (codos, tes, válvulas) se suman como longitud equivalente: los metros de caño recto que producirían la misma pérdida."
+    },
+    {
+      "h": "Tendido lineal o en anillo, y cómo se hacen las bajadas",
+      "p": "La red se puede tender de forma lineal, con una o varias líneas abiertas que salen del compresor y van alimentando consumos uno tras otro; en ese caso la cañería se monta con una pendiente de 2° en el sentido de circulación para que el condensado escurra hacia las purgas de final de línea. La otra forma es en anillo cerrado: un colector que rodea toda la nave y del que bajan las tomas a cada consumidor; así el aire llega por dos caminos y la presión es más pareja. Una regla que siempre se pregunta: las bajadas a consumo se toman por la parte de arriba de la cañería (así el agua que corre por el fondo no se va al equipo), y las bajadas a purga se toman por la parte de abajo (justamente para juntar esa agua y sacarla)."
+    },
+    {
+      "h": "Tipos de tubería",
+      "p": "Las cañerías de aire tienen que poder desarmarse con facilidad, ser accesibles en precio y resistir la corrosión. Hay tres familias: rígidas (cobre, latón, acero, acero inoxidable, poliuretano duro), semirrígidas (nylon, poliamida, teflón, poliuretano) y flexibles (nylon, goma, poliuretano maleable). Cuando el tendido es permanente, lo ideal es que las uniones sean soldadas."
+    },
+    {
+      "h": "El pulmón: cómo se dimensiona",
+      "p": "El tanque acumulador amortigua las diferencias instantáneas de consumo y evita que la presión de la red fluctúe. Hay dos casos. Si los consumos son variables pero predecibles (cilindros de máquinas o herramientas de una línea de producción), se calcula un caudal promedio y el volumen del pulmón sale de una fórmula que usa el caudal del compresor, la presión y temperatura de entrada, la temperatura en el tanque, la frecuencia máxima de arranques del compresor (para cálculos aproximados, un ciclo cada 30 a 60 segundos) y la diferencia entre presión de carga y descarga. Si hay grandes consumidores esporádicos e impredecibles (una arenadora, una pistola de limpieza grande), lo habitual es ponerle un pulmón individual a ese equipo, calculado con el caudal y el tiempo que dura el vaciado y la diferencia entre la presión de red y la mínima que necesita el equipo."
+    },
+    {
+      "h": "Herramientas e instrumentación",
+      "p": "El aire se usa en dos tipos de aplicaciones con exigencias distintas. En herramientas y equipos robustos (taladros, amoladoras, llaves, elevadores, arenadoras) alcanza con una calidad de aire aceptable. Tienen una ventaja de seguridad importante: si la herramienta se traba, el aire, al ser compresible, actúa como un embrague y amortigua el golpe, sin la 'patada' de una máquina eléctrica que puede lastimar al operario. En instrumentación y actuadores de precisión el aire tiene que ser mucho mejor: su punto de rocío tiene que estar siempre por debajo de la temperatura más baja de la red (para que nunca condense) y las impurezas por debajo de 0,1 g/Nm³ y de 3 μm de tamaño."
+    },
+    {
+      "h": "Válvulas neumáticas: los cinco grupos",
+      "p": "Las válvulas mandan o regulan el arranque, la parada, la dirección y la presión del aire. Según DIN 24300 y CETOP se agrupan en cinco: de bloqueo, de cierre, de vías (direccionales), de caudal y de presión. Las antirretorno (de bloqueo) dejan pasar el aire en un solo sentido, obturando con una bola, cono, disco o membrana. Las de cierre son de paso, todo o nada (ON/OFF). Las lógicas orientan el flujo según una condición: la válvula Y solo deja salir aire si recibe aire por las dos entradas a la vez, y la válvula O lo deja salir si recibe por una u otra entrada."
+    },
+    {
+      "h": "Válvulas direccionales: vías, posiciones y cómo se leen",
+      "p": "Son las más usadas para automatizar. Cada conexión se llama vía y se numera así: 1 (o P) es la entrada de presión; 2, 4, 6 (o A, B, C) son las salidas a consumo; 3, 5, 7 (o R, S, T) son los escapes; 12, 14 (o X, Y, Z) son los pilotajes, que no cuentan como vías porque son parte del mando. Las posiciones son las conmutaciones posibles y en el símbolo se dibuja un cuadrado por posición. Dentro de cada cuadrado, una flecha indica paso abierto y una T indica vía bloqueada. Se nombran 'vías/posiciones': una 3/2 NC tiene 3 vías y 2 posiciones y en reposo está cerrada; una 5/2 tiene 5 vías y 2 posiciones; una 5/3 de centro cerrado tiene tres posiciones y en el centro bloquea todo, lo que permite frenar un cilindro en posiciones intermedias. La estabilidad dice cuántas posiciones se mantienen solas sin actuar: monoestable (vuelve por resorte), biestable (se queda donde la dejaste)."
+    },
+    {
+      "h": "Cómo se acciona una válvula",
+      "p": "El mecanismo que cambia la posición se llama actuador y puede ser muscular (palancas, pedales, pulsadores), mecánico (levas, rodillos, resortes empujados por una pieza en movimiento), neumático (aire de pilotaje que empuja un émbolo en el extremo de la corredera), eléctrico (un solenoide cuyo núcleo mueve la corredera; si es monoestable vuelve con resorte, si es biestable tiene otra bobina para volver) o electroneumático (una bobina chica abre un paso de aire de pilotaje y es ese aire el que mueve la corredera). La actuación es directa si el mecanismo actúa sobre la propia válvula, e indirecta si lo que llega es una señal de un elemento auxiliar. Constructivamente pueden ser de asiento (bolas, discos o conos; muy robustas, poco desgaste e insensibles a la suciedad) o de corredera (más carrera pero menos rozamiento y fuerza de accionamiento; sellan con juntas metálicas o con o-rings en la corredera o en el cuerpo)."
+    },
+    {
+      "h": "Regular caudal y velocidad",
+      "p": "Las reguladoras de caudal sirven sobre todo para controlar la velocidad de los cilindros o los tiempos de un mando. Hay tres tipos: de estrangulación (achican el paso, fija o regulable), de escape rápido (vacían de golpe la cámara del cilindro para que avance mucho más rápido y pegue más fuerte, por ejemplo en punzonado) y unidireccionales (estrangulador más antirretorno, regulan en un solo sentido). La velocidad de un cilindro anda entre 0,1 y 1 m/s y se puede regular de tres formas: estrangulando la alimentación (no conviene, el movimiento sale a tirones; solo para cilindros chicos de simple efecto), estrangulando el escape del cilindro (lo recomendado: se forma un colchón de aire que hace el avance suave y parejo) o estrangulando los escapes 3 y 5 de la válvula distribuidora (parecido al anterior)."
+    },
+    {
+      "h": "Actuadores: cilindros y compañía",
+      "p": "El actuador hace lo inverso del compresor: el aire a presión empuja la cara de un pistón y esa fuerza se aprovecha para sujetar, empujar, cortar, desplazar, girar. El cilindro es el actuador más importante: un tubo con un pistón adentro, tapas, conexiones de entrada y salida, juntas que sellan el huelgo y un vástago que saca la fuerza afuera. En el de simple efecto el aire mueve el pistón en una sola carrera (la de trabajo) y un resorte lo devuelve. En el de doble efecto se inyecta aire alternativamente en cada cara y las dos carreras pueden hacer trabajo, aunque la cara sin vástago empuja más porque tiene más superficie. También hay cilindros de doble vástago, cilindros sin vástago de arrastre magnético, pinzas neumáticas y mesas indexadoras que giran en fracciones exactas de 360° para máquinas transfer."
+    },
+    {
+      "h": "Gases industriales: comprimidos, licuados y criogénicos",
+      "p": "Los gases industriales son gases fabricados (por separación del aire o por síntesis química) que se venden para soldadura y corte, siderurgia, medicina, alimentos, electrónica y más. Como un gas ocupa muchísimo volumen (1 kg de oxígeno son 739 litros a 15 °C y 1 atm), hay que achicarlo para transportarlo, y hay tres formas. Gases comprimidos: tienen punto de ebullición menor a -100 °C, así que siguen siendo gas aunque los comprimas (oxígeno, nitrógeno, argón, helio, hidrógeno); van en cilindros de acero de hasta 220 bar. Gases comprimidos-licuados: hierven cerca de la temperatura ambiente y al presurizarlos en un recipiente cerrado se vuelven líquidos (CO2, propano, óxido nitroso). Gases criogénicos: los que no se licuan con presión se licuan enfriándolos por debajo de -100 °C, como el oxígeno líquido (LOX, -183 °C), el nitrógeno líquido (LIN, -196 °C) y el argón líquido (LAR, -186 °C)."
+    },
+    {
+      "h": "Cilindros: marcas, colores y cuánto gas queda",
+      "p": "Cada cilindro lleva estampado en el casquete el dueño, la norma de fabricación (por ejemplo DOT 3AA), la presión de servicio, el número de serie, el fabricante, la fecha de fabricación y las fechas de las pruebas hidrostáticas. En Argentina los colores de identificación los fija el IRAM: la norma IRAM 2641 para gases industriales y alimentarios y la IRAM 2588 para gases medicinales. Ojo: no hay un código de colores internacional, así que nunca hay que confiar solo en el color; manda la etiqueta. Para gases comprimidos la presión baja en proporción al gas que sacás, así que se puede calcular lo que queda con una regla de tres: un cilindro cargado con 9 m³ de oxígeno a 170,5 bar que marca 120 bar tiene unos 9 × 120/170,5 ≈ 6,3 m³. Esto no vale para gases licuados (la presión se mantiene constante hasta que se acaba el líquido) ni para el acetileno."
+    },
+    {
+      "h": "El caso especial del acetileno",
+      "p": "El acetileno puro bajo presión es inestable y puede descomponerse con inflamación, así que no se puede comprimir como cualquier otro gas. Por eso el cilindro de acetileno viene relleno de una masa porosa seca, como un panal, cuyas miles de celdas están empapadas en acetona. El acetileno se disuelve en la acetona repartido en esas celditas y así desaparece el riesgo de explosión. Lleva tapones fusibles de una aleación de plomo que funden a unos 100 °C, y el contenido se mide pesando el cilindro, no por la presión. Además, su presión de trabajo nunca debe superar 1 bar (14,5 psig). Es muy inflamable (entre 2,8% y 93% en aire) y con oxígeno puro su llama supera los 3000 °C, por eso es el combustible clásico del oxicorte."
+    },
+    {
+      "h": "Inspección, almacenamiento y manejo de cilindros",
+      "p": "Al llegar a la planta de llenado cada cilindro pasa por inspección visual (cortes, abolladuras, corrosión; una marca de arco eléctrico lo inutiliza para siempre), prueba de olor (contaminación del contenido anterior), prueba de sonido (fisuras; vacío suena como campana) y prueba hidrostática periódica, que lo somete a una presión hidráulica de 5/3 de su presión de servicio según normas de la CGA. Los cilindros de alta presión se inspeccionan cada 5 años y los de acetileno cada 10. Nunca se sueldan ni se reparan. Para usarlos: siempre parados y encadenados, con el capuchón puesto cuando no se usan, lejos del calor (nunca más de 50 °C) y de fuentes de ignición, separados llenos de vacíos y por tipo de gas, nunca arrastrados, rodados ni levantados de la válvula, y devueltos con al menos 2 bar para que no entre aire o humedad. Con oxígeno, nada de grasa ni aceite."
+    },
+    {
+      "h": "Válvulas, reguladores y flujómetros",
+      "p": "La válvula del cilindro es de bronce con asiento de teflón, tiene una rosca distinta para cada gas (para que no se pueda conectar un equipo equivocado) y un sello de seguridad que salta ante presión o temperatura excesiva. Se abre a mano, nunca con llave ni martillo, sin pararse frente a la salida y nunca se lubrica. El regulador baja la alta presión del cilindro a la presión de trabajo y la mantiene constante con un diafragma que tiene de un lado la presión del gas y del otro un resorte ajustable; trae dos manómetros (alta y baja). El de una etapa baja la presión en un paso y su salida varía un poco cuando el cilindro se va vaciando; el de dos etapas baja primero a una presión intermedia y después a la de trabajo, así la salida queda precisa y constante. Para conectarlo: se afloja la mariposa, se abre la válvula del cilindro despacio y recién ahí se ajusta la presión. Para regular caudal se usa un flujómetro (bolita en tubo de sección variable), no el regulador ni la válvula del cilindro."
+    },
+    {
+      "h": "Criogénicos: tanques estacionarios, termos y redes",
+      "p": "Mover gas líquido es muchísimo más eficiente: con cilindros movés 5 kg de envase por cada kg de oxígeno, mientras que en estado líquido la relación es 1 a 1, y 1 m³ de oxígeno líquido equivale a 843 m³ de gas. Cuando el consumo lo justifica (un hospital, una industria) se instala un tanque criogénico estacionario: un recipiente interior de acero inoxidable y uno exterior de acero al carbono separados por alto vacío y aislante, con un sistema que vaporiza líquido si la presión baja y entrega gas a la línea si sube (máximo 18 bar), más válvulas de alivio y discos de ruptura. Sus ventajas: carga directa desde el camión, mayor pureza, sin retorno de envases y la posibilidad de una red centralizada. Los termos criogénicos son la versión portátil (2 a 14 bar, regulados a 9 bar, entregan líquido o gas, hasta 9 m³/h continuo). Las redes centralizadas, alimentadas por un manifold de cilindros, termos o un tanque, dan suministro constante a baja presión, con alarmas, más seguridad e higiene."
+    },
+    {
+      "h": "Riesgos: asfixia, presión, inflamabilidad y frío",
+      "p": "Los gases son incoloros y muchas veces inodoros, así que una fuga no se ve. Cualquier gas, sobre todo si es más pesado que el aire, puede desplazar el oxígeno y asfixiar en un ambiente cerrado. Las fugas se buscan con agua jabonosa o detectores, NUNCA con una llama. Un cilindro con la válvula rota se convierte en un proyectil, y abrir la válvula muy rápido recomprime el gas en el regulador y lo calienta, lo que con gases oxidantes puede inflamarlo. Los límites de inflamabilidad son el rango de concentración en aire dentro del cual un gas puede encenderse: el hidrógeno arde entre 4% y 74,5%, por eso hay que mantenerlo por debajo del 4% en el ambiente; los gases inertes amplían el margen de seguridad. Con criogénicos se suman dos riesgos: el frío extremo (quemaduras por frío, guantes secos y máscara facial) y la gran expansión, que puede bajar el oxígeno de una sala y genera presiones enormes si queda líquido atrapado entre dos válvulas (por eso se ponen válvulas de seguridad en esos tramos)."
+    },
+    {
+      "h": "Los gases que más se usan",
+      "p": "Oxígeno: 21% del aire, comburente; se usa en medicina, en oxicorte y soldadura con acetileno y en siderurgia. Nitrógeno: 78% del aire, casi inerte; atmósferas protectoras, desgasificación, limpieza y, líquido, congelación criogénica y criocirugía. Argón: 0,9% del aire, extremadamente inerte; soldadura MIG/TIG y plasma, tratamientos térmicos, relleno de lámparas. Helio: 7 veces más liviano que el aire, inerte; soldadura, globos, criogenia y detección de fugas. Dióxido de carbono: punto triple a -56,6 °C y 5,18 bar, a presión atmosférica sublima a -78,5 °C (hielo seco); soldadura MIG, bebidas, extintores. Hidrógeno: el gas más liviano, muy inflamable y reductor. Acetileno: combustible del oxicorte. Óxido nitroso: analgésico y propelente. Etileno y azetil (etileno con nitrógeno): maduración controlada de frutas."
+    }
+  ]
+}
