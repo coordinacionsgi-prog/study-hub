@@ -46,26 +46,61 @@
     {
       "h": "¿Cuáles son los elementos de seguridad obligatorios de una caldera? Describirlos brevemente",
       "easy": "Pensá en una olla a presión: si falla algo, explota. Por eso la ley obliga a tener cosas simples y a prueba de todo: el vidrio de nivel (para ver cuánta agua hay: si baja, se recalientan y rompen los tubos; si sube, sale agua en vez de vapor), el manómetro (cuánta presión hay), las válvulas de seguridad (se abren solas si la presión se pasa, y siempre van de a pares), el sensor de llama (si se apaga la llama corta el combustible, para que el hogar no se llene de gas y explote) y la planta de ablandamiento del agua (para que no se forme sarro). Además, la caldera va lejos de la gente. Idea para llevarte: cuanto más simple y analógico es un elemento de seguridad, más confiable es.",
+      "figures": [
+        {
+          "src": "caldera-humotubular.svg",
+          "caption": "Los elementos de seguridad en la caldera: indicador de nivel (8), válvulas de seguridad (7), manómetro (17), sensor de llama (9) y termómetro (18).",
+          "alt": "Los elementos de seguridad en la caldera: indicador de nivel (8), válvulas de seguridad (7), manómetro (17), sensor de llama (9) y termómetro (18)."
+        }
+      ],
       "p": "Tomada en: 2do parcial 14/11/2019 (tema 2); 2do parcial 23/11/2023; recuperatorio 28/11/2024. Indicador de nivel: un tubo de vidrio conectado por arriba y por abajo a la caldera, que por vasos comunicantes muestra el nivel de agua; es analógico y autónomo. El nivel no puede bajar (se destapan y recalientan los tubos) ni subir demasiado (se manda agua en vez de vapor). Manómetro: indicación mecánica de la presión interior. Válvula de seguridad: un obturador con resorte calibrado que abre ante sobrepresión, con palanca de prueba, sobrepresión de no más del 3%, siempre de a pares (cada una capaz de descargar toda la producción) y con válvula de transferencia para mantenerlas sin parar la caldera. Sensor de llama: detecta ópticamente el parpadeo de la llama y está atado al protocolo de encendido y apagado (si se apaga la llama corta el combustible, barre con el ventilador y espera antes de reencender), para evitar la explosión por acumulación de combustible en el hogar caliente. Planta de ablandamiento de agua: mantiene el agua blanda para que no se forme sarro, que aísla los tubos y puede hacerlos colapsar. Lugar de emplazamiento: lejos del personal, a la intemperie o con paredes robustas y techo liviano, nada encima. También se exige termómetro. Idea clave: aunque la caldera tenga electrónica, estos elementos analógicos son obligatorios porque cuanto más simple y autónomo es un elemento de seguridad, más confiable es."
     },
     {
       "h": "¿Qué es una caldera de evaporación rápida?",
       "easy": "Es la caldera 'calefón'. Adentro tiene un caño enroscado (serpentín) y casi nada de agua. El agua entra por un lado, pasa UNA sola vez pegada a la llama y sale ya hecha vapor. Como casi no guarda agua, en 4 a 10 minutos está lista; una humotubular, con miles de litros, tarda horas y casi tiene que andar las 24 horas. Sirve para el que prende y apaga según la producción.",
+      "figures": [
+        {
+          "src": "evaporacion-rapida.svg",
+          "caption": "Caldera de evaporación rápida: doble serpentín helicoidal, quemador vertical y una sola pasada del agua.",
+          "alt": "Caldera de evaporación rápida: doble serpentín helicoidal, quemador vertical y una sola pasada del agua."
+        }
+      ],
       "p": "Tomada en: 2do parcial 14/11/2019 (tema 3); 2do parcial 13/11/2025. Es una caldera acuotubular chica, de circuito abierto y quemador vertical, con un doble serpentín helicoidal. El agua entra por arriba del serpentín exterior (la zona más fría), baja, pasa al interior y sale por arriba del serpentín interior (la más caliente, junto a la llama), en una sola pasada, como un calefón, convertida en vapor o agua caliente. Los gases bajan, rebotan y suben entre los serpentines hacia la chimenea, y el aire de combustión se precalienta subiendo por afuera. Su gracia: como guarda muy poca agua, llega a régimen en 4 a 10 minutos, mientras que una humotubular con miles de litros tarda horas y prácticamente tiene que funcionar las 24 horas. Sirve para quien necesita prender y apagar según la producción. Suelen quemar gas o combustibles livianos y compiten con las humotubulares chicas."
     },
     {
       "h": "¿Qué tipos de circulación existen en una caldera acuotubular? ¿Cuál es la diferencia entre circulación forzada y asistida?",
       "easy": "Es cómo se mueve el agua adentro de la caldera. Natural: sola, porque el agua caliente sube y la fría baja (sin bomba). Asistida: el agua da vueltas en círculo dentro de la caldera (circuito cerrado) y la bomba solo ayuda un poco. Forzada: el agua entra, recorre la caldera UNA vez y sale, empujada por la bomba (como un calefón). Para no confundirte: asistida = recircula; forzada = pasa una sola vez.",
+      "figures": [
+        {
+          "src": "circulacion-acuotubular.svg",
+          "caption": "Circulación natural, asistida y forzada en una caldera acuotubular.",
+          "alt": "Circulación natural, asistida y forzada en una caldera acuotubular."
+        }
+      ],
       "p": "Tomada en: recuperatorio 28/11/2024; 2do parcial 13/11/2025. Natural: el agua caliente, menos densa, sube y la fría baja (domo superior, domo inferior, tubos de caída y evaporadores), sin bombas; es pobre y empeora a alta presión. Asistida: el circuito es cerrado (el agua recircula dentro de la caldera hasta evaporarse) y una bomba solo ayuda a mejorar esa circulación. Forzada: el circuito es abierto, el agua entra, recorre la caldera una sola vez y sale, empujada por la bomba (ejemplo: una caldera mural de calefacción o una de evaporación rápida). La diferencia no está en cuánto empuja la bomba sino en si el agua recircula dentro de la caldera (asistida) o pasa una sola vez (forzada)."
     },
     {
       "h": "Enumerar y describir los accesorios que puede poseer una caldera acuotubular para mejorar su eficiencia y rendimiento",
       "easy": "Todos sirven para no tirar plata (calor) por la chimenea. Economizador: usa el calor de los humos para precalentar el agua que entra a la caldera. Sobrecalentador: calienta el vapor un poco más para que salga bien seco (sirve para turbinas). Precalentador de aire: calienta el aire que va al quemador usando los gases de escape. Y además se trata el agua para que no se forme sarro (como el de una pava), que aísla los tubos y los arruina.",
+      "figures": [
+        {
+          "src": "accesorios-caldera.svg",
+          "caption": "Sobrecalentador, economizador y precalentador de aire en el camino de los gases.",
+          "alt": "Sobrecalentador, economizador y precalentador de aire en el camino de los gases."
+        }
+      ],
       "p": "Tomada en: recuperatorio 28/11/2024. Economizador: un intercambiador en el camino de los gases antes de la chimenea que precalienta el agua de alimentación con el calor que se iría con los humos, así entra más caliente a la caldera y se ahorra combustible. Sobrecalentador: serpentines expuestos a los gases calientes por donde pasa el vapor saturado que sale del domo, para llevarlo a vapor sobrecalentado (más temperatura sin más presión), seco y útil para turbinas. Precalentador de aire: calienta el aire de combustión con los gases de escape, lo que mejora la combustión y el rendimiento. A eso se suman el tratamiento del agua (ablandamiento, desaireación, purgas) para que no haya sarro que aísle los tubos, y el retorno de condensado presurizado, que aprovecha el calor del condensado y del vapor flash."
     },
     {
       "h": "¿Cuál es la función de una trampa de vapor? Enumerar los tipos que existen",
       "easy": "Es un portero: deja salir el agua (condensado) pero no deja escapar el vapor, que es plata. También saca el aire y los gases que molestan. Tres tipos según cómo 'se dan cuenta' de que viene agua: mecánicas (por la densidad: un flotador que flota en el agua), termodinámicas (por cómo se comporta el flujo de vapor y el de agua) y termostáticas (por la temperatura: el condensado está más frío que el vapor).",
+      "figures": [
+        {
+          "src": "trampas-vapor.svg",
+          "caption": "Trampas de vapor: mecánica (flotador), termostática (fuelle) y termodinámica (disco).",
+          "alt": "Trampas de vapor: mecánica (flotador), termostática (fuelle) y termodinámica (disco)."
+        }
+      ],
       "p": "Tomada en: 2do parcial 09/11/2017 (tema 2). Es un separador de fases que se pone a la salida de todo equipo que usa vapor: con vapor queda cerrada y, cuando junta condensado, lo drena sin dejar escapar el vapor. Funciones: eliminar el condensado, eliminar el aire y los gases no condensables (ocupan lugar y no aportan calor) y minimizar la pérdida de vapor. Tipos (grupos): mecánicas, que funcionan por diferencia de densidad entre vapor y condensado (un flotador que flota en el líquido, principio de Arquímedes); termodinámicas, que usan la diferencia de comportamiento dinámico del flujo de vapor y del de condensado; y termostáticas, que detectan la diferencia de temperatura entre el vapor y el condensado subenfriado."
     },
     {
@@ -131,11 +166,25 @@
     {
       "h": "¿Qué es la condición de red y qué es la condición FAD? ¿Qué expresión permite pasar el caudal de una a otra?",
       "easy": "El aire se comprime: la misma cantidad de aire ocupa más o menos lugar según la presión. Entonces, para comparar o sumar caudales hay que medirlos 'en las mismas condiciones'. Condición de red: a la presión de la red (por ejemplo 6 bar). Condición FAD (aire libre): a presión atmosférica (~1 bar). Para pasar de una a otra: p1·Q1 = p2·Q2. Ejemplo: 1 m³/min a 6 bar equivale a 6 m³/min FAD. Así se suman todos los consumos para elegir el compresor.",
+      "figures": [
+        {
+          "src": "condicion-red-fad.svg",
+          "caption": "La misma masa de aire en condición de red (6 bar) y en condición FAD (1 bar).",
+          "alt": "La misma masa de aire en condición de red (6 bar) y en condición FAD (1 bar)."
+        }
+      ],
       "p": "Tomada en: 2do parcial 09/11/2017 (tema 2); 2do parcial 14/11/2019 (tema 1); 2do parcial 23/11/2023; 2do parcial 13/11/2025. Condición de red: el aire a la presión de trabajo de la red, por ejemplo 6 bar. Condición FAD (Free Air Delivered, aire libre): el mismo aire llevado a presión atmosférica, alrededor de 1 bar (a fines industriales da lo mismo 1 atm o 1 bar y la temperatura ambiente). Como el aire es compresible, la misma masa ocupa distinto volumen según la presión, así que no se pueden sumar caudales de equipos que trabajan a distintas presiones sin llevarlos antes a una condición común. Expresión (gases ideales, temperatura constante): Q2 = Q1 · (p1 / p2), es decir p1 · Q1 = p2 · Q2. Ejemplo: con una red a 6 bar, Q_FAD = Q_red · 6 / 1 = 6 · Q_red. Así se hace el balance de caudales para elegir el compresor: todos los consumos a FAD, se suman y se aplican coeficientes de utilización."
     },
     {
       "h": "¿Cuáles son las funciones de un pulmón de aire comprimido? ¿Puede evitarse este accesorio en una red? ¿Cómo?",
       "easy": "Es un tanque que guarda aire. Sirve para: tener reserva, evitar que la presión se mueva cuando de golpe se consume mucho, que el compresor no arranque y pare a cada rato (se rompe antes) y que se junte el agua y se purgue. ¿Se puede evitar? En la tubería principal es obligatorio. Se puede achicar mucho si el consumo es parejo, o poner pulmones chicos al lado de los equipos que consumen de golpe.",
+      "figures": [
+        {
+          "src": "red-aire-comprimido.jpg",
+          "caption": "El pulmón o tanque acumulador (4) en la red de aire, con su purga de condensado.",
+          "alt": "El pulmón o tanque acumulador (4) en la red de aire, con su purga de condensado."
+        }
+      ],
       "p": "Tomada en: 2do parcial sin fecha (tema 1); 2do parcial 14/11/2019 (tema 2). Funciones: acumula energía neumática; amortigua las diferencias instantáneas de consumo y evita fluctuaciones de presión; reduce la cantidad de arranques y paradas del compresor (alarga su vida); y como el aire se frena adentro, decanta agua y partículas, que se sacan por su purga. ¿Se puede evitar? En la tubería principal es un elemento obligatorio de toda red. Si los consumos son muy parejos y constantes, se puede achicar mucho. Para grandes consumidores esporádicos, en lugar de agrandar el pulmón general se pone un pulmón individual junto a ese equipo. Una red en anillo de buen diámetro también funciona como acumulación. Pero un compresor alimentando la red directamente sin acumulación arrancaría y pararía todo el tiempo."
     },
     {
@@ -177,6 +226,13 @@
     {
       "h": "¿Qué significa que un recipiente contenga un gas licuado por criogenia?",
       "easy": "Criogénico = gas enfriado a temperaturas bajísimas (oxígeno a -183 °C, nitrógeno a -196 °C) hasta volverlo líquido. La ventaja es que en líquido ocupa unas 800 veces menos lugar. Se guarda en un tanque tipo termo gigante (doble pared con vacío). El problema: igual entra algo de calor y se va evaporando; si no lo consumís a tiempo, se pierde. Por eso conviene solo si consumís mucho y seguido.",
+      "figures": [
+        {
+          "src": "tanque-criogenico.svg",
+          "caption": "Recipiente criogénico: envolvente, alto vacío, recipiente interior, válvula de líquido, de gas y de alivio.",
+          "alt": "Recipiente criogénico: envolvente, alto vacío, recipiente interior, válvula de líquido, de gas y de alivio."
+        }
+      ],
       "p": "Tomada en: 2do parcial 13/11/2025. Que el gas, que a temperatura ambiente no se puede licuar solo con presión (punto de ebullición por debajo de -100 °C), se enfrió hasta volverlo líquido: oxígeno a -183 °C, nitrógeno a -196 °C, argón a -186 °C. Así ocupa muchísimo menos (1 m³ de oxígeno líquido equivale a unos 843 m³ de gas) y se mueve 1 kg de envase por kg de producto (en termos) en lugar de 5 kg (en cilindros). El recipiente es como un termo gigante: recipiente interior de acero inoxidable apto para baja temperatura, cámara de alto vacío y envolvente exterior, a 6 a 8 bar. Tiene válvula de líquido (toma del fondo) y válvula de gas (toma de arriba y pasa por un serpentín vaporizador). Como entra calor, el líquido se va evaporando y sube la presión, que una válvula de alivio ventea: si no se consume a tiempo, el gas se pierde. Por eso conviene solo con consumos altos y predecibles (más de 5 a 10 cilindros diarios)."
     },
     {
@@ -242,21 +298,49 @@
     {
       "h": "¿Cuáles son las 3 generaciones de halogenuros, qué problemas tiene cada una y cuál es su situación frente al Protocolo de Montreal?",
       "easy": "Son los gases refrigerantes con cloro y flúor. Tres generaciones; cada una arregla el problema de la anterior pero deja otro. 1ª CFC (ej. R-12): rompen la capa de ozono → prohibidos. 2ª HCFC (ej. R-22): rompen bastante menos el ozono → en retirada. 3ª HFC (ej. R-134a): no rompen el ozono (ODP = 0) pero calientan el planeta (GWP alto) → son los vigentes hoy. El Protocolo de Montreal (1987) es el tratado que prohibió los que dañan el ozono.",
+      "figures": [
+        {
+          "src": "halogenuros.svg",
+          "caption": "Las tres generaciones de halogenuros (CFC, HCFC, HFC) con su ODP, su GWP y su estado frente a Montreal.",
+          "alt": "Las tres generaciones de halogenuros (CFC, HCFC, HFC) con su ODP, su GWP y su estado frente a Montreal."
+        }
+      ],
       "p": "Tomada en: 2do parcial 09/11/2017 (tema 2); 2do parcial 14/11/2019 (tema 2); 2do parcial 23/11/2023. 1ª generación, CFC (cloro, flúor y carbono; ejemplo R-12, el primer freón de 1931): su cloro destruye la capa de ozono (Rowland y Molina, 1974), con ODP alto (1 para el CFC-11), y además tienen GWP alto. Están prohibidos por el Protocolo de Montreal (1987) y retirados del mercado. 2ª generación, HCFC (con hidrógeno; ejemplo R-22): dañan el ozono alrededor de un 10% de lo que dañan los CFC; tenían agenda de retiro (sin equipos nuevos desde 2010, prohibidos desde 2020) y en países como el nuestro todavía queda algo, cada vez menos. 3ª generación, HFC (sin cloro; ejemplo R-134a, un etano con cuatro flúor, que reemplaza al R-12): ODP cero, por eso les dicen freones ecológicos, pero siguen teniendo GWP alto (calentamiento global); son los vigentes hoy. Además hay mezclas como el R-410. Fuera de los halogenuros quedan amoníaco, CO2, agua e hidrocarburos (propano, isobutano)."
     },
     {
       "h": "¿Qué es el ODP? ¿Qué es el GWP?",
       "easy": "ODP = cuánto destruye la capa de ozono (se compara con el CFC-11, que vale 1). GWP = cuánto calienta el planeta (se compara con el CO2, que vale 1). Los HFC: ODP cero pero GWP alto. El amoníaco y el CO2: ODP cero y casi no calientan el planeta.",
+      "figures": [
+        {
+          "src": "halogenuros.svg",
+          "caption": "ODP y GWP de cada generación de halogenuros.",
+          "alt": "ODP y GWP de cada generación de halogenuros."
+        }
+      ],
       "p": "Tomada en: 2do parcial 09/11/2017 (tema 2); 2do parcial 13/11/2025. ODP (Ozone Depletion Potential, potencial de agotamiento del ozono): cuánto daña la capa de ozono una sustancia comparada con el CFC-11, que vale 1. Los CFC tienen ODP alto, los HCFC bajo y los HFC, el amoníaco o el CO2 tienen cero. Depende del cloro (o bromo) de la molécula. GWP (Global Warming Potential, potencial de calentamiento global): cuánto calor atrapa en la atmósfera una sustancia comparada con la misma masa de CO2, que vale 1, en un horizonte de tiempo (normalmente 100 años). Los HFC tienen ODP cero pero GWP de cientos o miles: por eso no son la solución definitiva."
     },
     {
       "h": "¿Por qué se utilizan fluidos intermediarios como salmuera o agua/glicol en circuitos frigoríficos grandes?",
       "easy": "En una planta grande, llenar kilómetros de caño con amoníaco o freón sería carísimo y peligroso. Entonces el refrigerante trabaja en un circuito cortito y enfría a OTRO fluido barato e inofensivo (agua con glicol; antes, salmuera), que es el que viaja por todas las cámaras. Ganás en costo y seguridad; perdés un poquito de eficiencia por el salto de temperatura extra.",
+      "figures": [
+        {
+          "src": "fluido-intermediario.svg",
+          "caption": "Circuito corto del refrigerante en la sala de máquinas y circuito largo de agua con glicol por las cámaras.",
+          "alt": "Circuito corto del refrigerante en la sala de máquinas y circuito largo de agua con glicol por las cámaras."
+        }
+      ],
       "p": "Tomada en: 2do parcial 13/11/2025. En una planta grande (frigorífico, industria del pescado) inundar todos los serpentines de todas las cámaras con refrigerante significaría miles de litros: muy caro y, si es amoníaco, peligroso (irritante, tóxico); si es un halogenuro, con riesgo ambiental ante una fuga. Entonces el refrigerante trabaja en un circuito corto, que enfría en un intercambiador (casco y tubos, con el refrigerante evaporándose del lado del casco) a un fluido intermediario, y ese fluido barato e inofensivo es el que recorre el circuito largo por todas las cámaras. Antes se usaba salmuera, agua con sal para que no congele a -10 o -15 °C; hoy agua con glicol (el anticongelante), que con 20 a 35% de glicol queda líquida a -15 o -20 °C. Se gana en costo, seguridad y facilidad de distribución, a cambio de un salto de temperatura extra en el intercambiador."
     },
     {
       "h": "Describir brevemente los calores intervinientes en el balance térmico de una cámara frigorífica",
       "easy": "Es la cuenta de cuánto calor entra a la cámara en un día, para saber qué equipo comprar. Las fuentes: Q1 paredes (según el aislante), Q2 aire que se cuela al abrir puertas, Q3 el producto (enfriarlo, congelarlo, el calor de maduración), Q4 motores, Q5 iluminación, Q6 personas. Sumás todo = Qt. Como el equipo no trabaja las 24 horas (trabaja 16 a 20), se agranda: Qc = Qt · 24 / f.",
+      "figures": [
+        {
+          "src": "balance-termico.svg",
+          "caption": "Los calores Q1 a Q6 que entran a una cámara frigorífica.",
+          "alt": "Los calores Q1 a Q6 que entran a una cámara frigorífica."
+        }
+      ],
       "p": "Tomada en: 2do parcial 14/11/2019 (tema 2); recuperatorio 28/11/2024. Se calculan para 24 horas: Q1, transmisión por paredes, techo y piso: Q = A · K · Δt / x (o A · U · Δt), según el aislante y su espesor. Q2, infiltración de aire: el involuntario por aperturas de puertas y juntas (n · V · r, con los recambios por hora según el volumen de la cámara) y el voluntario para sacar olores, renovar el CO2 de frutas y quesos, y el aire para las personas. Q3, producto: enfriarlo hasta la temperatura de conservación (calor sensible), congelarlo (calor latente), enfriarlo ya congelado, enfriar los embalajes si pesan más del 10% y el calor vital de maduración de frutas, verduras y quesos. Q4, motores eléctricos (ventiladores, autoelevadores, bombas). Q5, iluminación (4,6 a 9,3 kcal/h por m² de piso). Q6, personas (100 a 350 kcal/h por persona según la actividad, por las horas que están adentro). Qt = Q1 + Q2 + Q3 + Q4 + Q5 + Q6, y el equipo se dimensiona para trabajar 16 a 20 horas diarias: Qc = Qt · 24 / f."
     },
     {
@@ -274,6 +358,13 @@
     {
       "h": "¿Qué es un condensador evaporativo?",
       "easy": "Es todo junto en un solo aparato: el serpentín del condensador va adentro de una torre y se lo moja con agua, mientras un ventilador sopla aire. El agua, al evaporarse sobre los tubos calientes, se lleva el calor. Ocupa menos lugar y sale más barato que un condensador más una torre por separado.",
+      "figures": [
+        {
+          "src": "condensador-evaporativo.svg",
+          "caption": "Condensador evaporativo: serpentín del condensador dentro de una torre, rociado con agua y con ventilador.",
+          "alt": "Condensador evaporativo: serpentín del condensador dentro de una torre, rociado con agua y con ventilador."
+        }
+      ],
       "p": "Tomada en: 2do parcial 14/11/2019 (tema 2). Combina un condensador de aire, uno de agua y una torre de enfriamiento en un solo aparato: el serpentín del condensador va adentro del gabinete de la torre y se rocía con agua directamente, mientras un ventilador mueve aire a contracorriente. El calor del refrigerante se va por la evaporación parcial del agua sobre los tubos calientes (60 a 80 °C), así que evapora más agua que una torre común. Es más barato que un condensador de casco y tubo más una torre por separado, se puede instalar bajo techo y un mismo gabinete puede servir a varios circuitos."
     },
     {
