@@ -57,6 +57,20 @@ export default function TheoryView({ subjectId, moduleId, scrollRequest }) {
         {data.sections?.map((s, i) => (
           <div key={i} id={`theory-section-${i}`} className="theory-section">
             <h3>{s.h}</h3>
+            {s.easy && (
+              <div className="theory-easy">
+                <span className="theory-label">En criollo</span>
+                <p>{s.easy}</p>
+              </div>
+            )}
+            {s.figures?.map((f, j) => (
+              <figure key={j} className="theory-figure">
+                <a href={`${import.meta.env.BASE_URL}img/instalaciones/${f.src}`} target="_blank" rel="noopener noreferrer">
+                  <img src={`${import.meta.env.BASE_URL}img/instalaciones/${f.src}`} alt={f.alt || f.caption} loading="lazy" />
+                </a>
+                <figcaption>{f.caption} <span className="theory-figure-hint">· tocá la imagen para ampliarla</span></figcaption>
+              </figure>
+            ))}
             <p>{s.p}</p>
           </div>
         ))}

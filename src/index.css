@@ -689,6 +689,48 @@ h1, h2, h3 {
   line-height: 1.4;
 }
 
+.theory-easy {
+  background: #fdf0d5;
+  border: 1px solid #e3b968;
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin: 0 0 12px;
+}
+
+.theory-easy p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #4a3410;
+}
+
+.theory-figure {
+  margin: 0 0 12px;
+}
+
+.theory-figure a {
+  display: block;
+}
+
+.theory-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.theory-figure figcaption {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.theory-figure-hint {
+  font-style: italic;
+}
+
 .theory-section-highlight {
   animation: theory-highlight-flash 2.2s ease;
   border-radius: 10px;

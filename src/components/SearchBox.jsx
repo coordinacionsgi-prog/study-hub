@@ -60,7 +60,7 @@ export default function SearchBox({ subjectId, modules, onNavigate }) {
       if (!data) continue;
       data.sections?.forEach((s, i) => {
         const inHeading = normalize(s.h).includes(q);
-        const inBody = normalize(s.p).includes(q);
+        const inBody = normalize(`${s.p} ${s.easy || ""}`).includes(q);
         if (inHeading || inBody) {
           matches.push({
             moduleId: m.id,
