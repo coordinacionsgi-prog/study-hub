@@ -1,0 +1,72 @@
+{
+  "thesis": "El ejercicio de presupuestos del parcial es siempre el mismo modelo: con un balance inicial y supuestos de ventas, márgenes, políticas de cobro y pago, gastos e impuestos, armás el flujo de caja mes a mes (con financiamiento o colocación de excedentes), el estado de resultados proyectado del período y el balance proyectado al cierre. El balance tiene que cerrar: si cierra, el ejercicio está bien.",
+  "examTip": "Antes de arrancar, armá la tabla Ventas → CMV → Compras, con un mes más de ventas que el período, porque la compra del último mes es para vender el siguiente. Leé bien si el margen es sobre costos (C = V / (1 + m)) o sobre ventas (C = V × (1 − m)). Lo devengado va al estado de resultados y lo cobrado o pagado va al flujo. Lo que no se cobró o pagó al cierre queda en el balance.",
+  "concepts": [
+    "Flujo de caja proyectado",
+    "Estado de resultados proyectado",
+    "Balance proyectado",
+    "Margen sobre costo vs. sobre venta",
+    "Compras con anticipación",
+    "Política de cobranzas",
+    "Política de pagos",
+    "Devengado vs. percibido",
+    "Financiamiento de déficit",
+    "Colocación de excedentes",
+    "Impuesto a las ganancias a pagar",
+    "Presupuesto de producción y compras"
+  ],
+  "sections": [
+    {
+      "h": "Método en 6 pasos",
+      "p": "1) Tabla de ventas, CMV y compras: CMV = costo de lo vendido en el mes; compras del mes m = CMV del mes m + 1 (si compra con un mes de anticipación). 2) Cobranzas: reparto de cada venta según la política (contado, 30, 60 días) más el cobro del saldo de deudores del balance inicial. 3) Pagos de mercadería con su política, más el saldo de proveedores del balance inicial. 4) Gastos: los que se pagan en el mes van directo; los que se pagan a mes vencido entran al mes siguiente. Las amortizaciones nunca son salida de caja. 5) Caja: saldo inicial + ingresos − egresos. Si da negativo se financia: la deuda y sus intereses se devuelven el mes siguiente. Si sobra por encima de un tope, se coloca a plazo fijo. 6) Resultados (todo lo devengado) y balance (lo pendiente de cobrar o pagar más los stocks)."
+    },
+    {
+      "h": "Margen bruto: sobre costos o sobre ventas",
+      "p": "Sobre costos m: V = C × (1 + m), entonces C = V / (1 + m). Con 80 % sobre costos, C = V / 1,8. Sobre ventas m: UB = m × V, entonces C = V × (1 − m). Con 60 % sobre ventas, C = 0,4 V. Es el error más común: confundir los dos te arruina todo el ejercicio."
+    },
+    {
+      "h": "Tema 2 (03/11/2026): enunciado resumido",
+      "p": "Balance al 31/12: Caja 18.000; Deudores 35.000; Mercaderías 45.000; Bienes de uso 90.000; Amortización acumulada −12.000; Proveedores 45.000; Impuestos a pagar 28.000; Capital 71.000; Resultados acumulados 32.000. Ventas: Ene 81.000, Feb 72.000, Mar 108.000, Abr 90.000, May 120.000. Margen bruto del 80 % sobre costos y compra con un mes de anticipación. Pagos: 40 % contado y 60 % a 60 días. Cobros: 25 % contado, 25 % a 30 días y 50 % a 60 días. Los deudores del 31/12 se cobran en febrero. Los proveedores del 31/12 se pagan 50 % en febrero y 50 % en marzo. Gastos mensuales: administración 10.000, comercialización 4.000, comisiones del 5 % sobre ventas (pagadas a mes vencido) y amortizaciones 2.000. Los impuestos del 31/12 se pagan en marzo. Ganancias 35 %, sin pagos hasta junio. Los déficits se financian al 8 % mensual: el interés se devenga en el mes y se paga al siguiente junto con el capital."
+    },
+    {
+      "h": "Paso 1: ventas, CMV y compras",
+      "p": "CMV = V / 1,8: Ene $45.000, Feb $40.000, Mar $60.000, Abr $50.000, May $66.666,67. Las mercaderías del balance (45.000) son justo el CMV de enero: se compraron en diciembre. Compras (lo que se vende el mes siguiente): Ene $40.000, Feb $60.000, Mar $50.000, Abr $66.666,67."
+    },
+    {
+      "h": "Paso 2 y 3: cobranzas y pagos",
+      "p": "Cobros por ventas: Ene $20.250 (25 % de 81.000); Feb $38.250 (18.000 + 20.250); Mar $85.500 (27.000 + 18.000 + 40.500); Abr $85.500 (22.500 + 27.000 + 36.000). Más los deudores del balance, 35.000, en febrero. Pagos de compras: Ene $16.000; Feb $24.000; Mar $44.000 (40 % de 50.000 + 60 % de 40.000); Abr $62.666,67 (40 % de 66.666,67 + 60 % de 60.000). Más los proveedores del balance: 22.500 en febrero y 22.500 en marzo."
+    },
+    {
+      "h": "Paso 4 y 5: flujo de caja",
+      "p": "Enero: saldo inicial $18.000,00 + ingresos $20.250,00 − egresos $30.000,00 = $8.250,00. Febrero: saldo inicial $8.250,00 + ingresos $73.250,00 − egresos $64.550,00 = $16.950,00. Marzo: saldo inicial $16.950,00 + ingresos $85.500,00 − egresos $112.100,00 = $-9.650,00 → se financian $9.650,00 al 8 %, con un interés de $772,00 devengado en marzo; caja final $0. Abril: saldo inicial $0,00 + ingresos $85.500,00 − egresos $92.488,67 (incluye la devolución del préstamo con interés: $10.422,00) = $-6.988,67 → se financian $6.988,67 al 8 %, con un interés de $559,09 devengado en abril; caja final $0. Egresos fijos de cada mes: 14.000 (administración + comercialización). Comisiones pagadas: Feb 4.050, Mar 3.600, Abr 5.400. Impuestos de diciembre: 28.000 en marzo."
+    },
+    {
+      "h": "Paso 6a: estado de resultados enero-abril",
+      "p": "Ventas $351.000 − CMV $195.000 = utilidad bruta $156.000. Gastos: administración 40.000, comercialización 16.000, comisiones $17.550, amortizaciones 8.000; total $81.550. Resultado operativo $74.450. Intereses perdidos $1.331,09 (marzo $772,00 + abril $559,09). Resultado antes de Ganancias $73.118,91. Ganancias 35 % $25.591,62. Resultado neto $47.527,29."
+    },
+    {
+      "h": "Paso 6b: balance proyectado al 30/04",
+      "p": "Activo: Caja $0; Deudores $121.500 (75 % de abril + 50 % de marzo); Mercaderías $66.666,67 (compra de abril para vender en mayo; control: 45.000 + compras 216.666,67 − CMV 195.000); Bienes de uso 90.000; Amortización acumulada −20.000. Total $258.166,67. Pasivo: Proveedores $70.000 (60 % de marzo y 60 % de abril); Comisiones a pagar $4.500; Préstamo $6.988,67; Intereses a pagar $559,09; Ganancias a pagar $25.591,62. Total pasivo $107.639,38. Patrimonio neto: Capital 71.000 + Resultados acumulados $79.527,29 = $150.527,29. Pasivo + PN = $258.166,67: cierra con el activo."
+    },
+    {
+      "h": "Control con la solución oficial de la cátedra",
+      "p": "La solución oficial del Tema 2 da exactamente lo mismo: cobranzas de 20.250 / 73.250 / 85.500 / 85.500; pagos a proveedores de 16.000 / 46.500 / 66.500 / 62.667; financiamiento de 9.650 en marzo y 6.989 en abril, con intereses de 772 y 559; resultado neto de 47.527 (14 % de las ventas); activo de 258.167; pasivo de 107.639 (deuda financiera 7.548 = 6.989 de capital + 559 de interés); PN de 150.527. Fijate que la cátedra presenta las cobranzas y los pagos en una matriz: cada fila es una venta o compra del mes y las columnas, el mes en que se cobra o se paga."
+    },
+    {
+      "h": "Tema 1 del mismo parcial (solución oficial), para practicar",
+      "p": "Mismo modelo con otros números: ventas de 54.000, 48.000, 72.000 y 60.000 (mayo 90.000), margen del 80 % sobre costos, compras de 26.667, 40.000, 33.333 y 50.000; cobro del saldo anterior (24.000) en febrero; proveedores anteriores (30.000) en dos cuotas de 15.000; comercialización 3.500 y administración 6.000 por mes; comisiones del 4 % a mes vencido; impuestos de 20.000 en marzo; amortización de 1.000 por mes. Resultados a verificar: caja de 2.967 en enero y 11.507 en febrero; financiamiento de 9.713 en marzo (interés 777) y 7.870 en abril (interés 630); ventas 234.000, CMV 130.000, resultado operativo 52.640, intereses 1.407, impuesto 17.932, resultado neto 33.302. Balance al 30/4: deudores 76.800, mercaderías 50.000, bienes de uso netos 56.000, total 182.800; proveedores 41.667, impuestos 17.932, comisiones 2.400, deuda financiera 8.500; capital 54.000 y resultados acumulados 58.302."
+    },
+    {
+      "h": "Variantes que aparecen en otros temas",
+      "p": "Empresa nueva sin balance inicial: el aporte de capital es la caja inicial, y los bienes aportados van al activo con contrapartida en el capital. Primer mes: la compra de enero puede repartirse entre ventas de enero y de febrero (ejemplo: 40 % y 60 %). Colocación de excedentes: si la caja supera un tope, el excedente va a plazo fijo y vuelve el mes siguiente con sus intereses (ganancia devengada en el mes de la colocación). Anticipos de Ganancias: son salida de caja y en el balance se restan del impuesto a pagar (o van como crédito); no son gasto adicional. Inversiones del balance que vencen: entran como cobro con su interés."
+    },
+    {
+      "h": "Presupuesto de producción y de compras (guía)",
+      "p": "Producción = ventas + inventario final de producto terminado − inventario inicial. Compras de materia prima (en unidades) = consumo para la producción + inventario final de MP − inventario inicial. Compras en $ = unidades × costo unitario. El inventario final suele darse como % de las ventas o como días de cobertura (ventas anuales / 365 × días). Costo de producción = MP + MOD + GIF."
+    },
+    {
+      "h": "Errores que restan puntos",
+      "p": "Poner amortizaciones en el flujo de caja. Cargar en el estado de resultados lo cobrado en vez de lo vendido. Olvidarte de cobrar el saldo de deudores o de pagar los proveedores del balance inicial. No devolver el préstamo con interés el mes siguiente. Dejar caja negativa en lugar de financiarla. Contar el interés del préstamo en el mes en que se paga en vez de en el que se devenga. Que el balance no cierre y entregarlo igual: buscá la diferencia, suele ser un saldo pendiente."
+    }
+  ]
+}

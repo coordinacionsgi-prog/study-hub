@@ -1,0 +1,44 @@
+{
+  "thesis": "Los gastos indirectos de fabricación se presupuestan y se distribuyen a los centros: primero a todos (distribución primaria, con un criterio para cada gasto) y después se cierran los centros de servicio sobre los productivos (distribución secundaria, en cascada). Con el total de cada centro productivo y su nivel de actividad presupuestado se saca la cuota predeterminada, que se aplica a los productos según la actividad real. La diferencia con los GIF reales es la carga fabril sub o sobreaplicada.",
+  "examTip": "Paso 1, siempre: separar lo que NO es GIF (todo lo comercial, administrativo y financiero: publicidad, comisiones, fletes y seguros de producto terminado, depósito de producto terminado, ascensor de marketing, autos de vendedores, tesorería). Respetá el orden de cierre que da el enunciado y, al cerrar un centro, no le repartas nada a los centros que ya cerraste.",
+  "concepts": [
+    "GIF / carga fabril",
+    "Centros productivos y de servicio",
+    "Distribución primaria",
+    "Distribución secundaria (cascada)",
+    "Bases de distribución",
+    "Cuota predeterminada",
+    "Carga fabril aplicada",
+    "Sub y sobreaplicación"
+  ],
+  "sections": [
+    {
+      "h": "Qué es GIF y qué no",
+      "p": "GIF son los costos de producción que no se pueden asignar directamente a una unidad: alquiler y calefacción de fábrica, capataces, depreciación, reparación y seguros de maquinaria, seguro de accidentes de operarios, energía de planta, oficina de fábrica, suministros y mano de obra indirecta. En el TP 1 NO son GIF: alquiler del depósito de producto terminado, seguro de producto terminado, reparación del ascensor de marketing, publicidad, seguros de autos de vendedores, comisiones, seguro de la caja fuerte de tesorería, gastos de administración y fletes de producto terminado. Total GIF presupuestado: 2.465,4."
+    },
+    {
+      "h": "Distribución primaria: bases",
+      "p": "Alquiler y calefacción: por superficie. Capataces: por número de operarios. Depreciación, reparación y seguro de máquinas: por valor del equipo. Seguro de accidentes: por horas de MOD. Luz y fuerza motriz: por HP (fuerza motriz). Oficina de fábrica (sueldos y gastos), suministros y MOI: directos al centro que los genera. Resultado: Almacén 72,6; Taller 46,4; Oficina de fábrica 456,4; Corte 698,0; Armado 572,0; Pintura 198,0; Soldado 422,0. Control: suman 2.465,4."
+    },
+    {
+      "h": "Distribución secundaria en cascada",
+      "p": "Orden: Oficina de fábrica → Taller → Almacén. Oficina (456,4) por número de operarios, a todos menos a sí misma (90 operarios, 5,07 cada uno): Almacén 25,36, Taller 25,36, Corte 202,84, Armado 126,77, Pintura 25,36, Soldado 50,71. Taller (46,4 + 25,36 = 71,8) por operarios, sin Oficina ni Taller (85): Almacén 4,22, Corte 33,76, Armado 21,10, Pintura 4,22, Soldado 8,44. Almacén (72,6 + 25,36 + 4,22 = 102,2) por materia prima consumida: Corte 40,87, Armado 30,65, Pintura 20,44, Soldado 10,22. Totales productivos: Corte 975,5; Armado 750,5; Pintura 248,0; Soldado 491,4 = 2.465,4."
+    },
+    {
+      "h": "Cuota predeterminada",
+      "p": "Cuota = GIF del centro / horas máquina presupuestadas. Corte 975,5 / 3.000 = 0,32516; Armado 750,5 / 4.000 = 0,18763; Pintura 248,0 / 2.000 = 0,12401; Soldado 491,4 / 1.000 = 0,49137 por hora máquina."
+    },
+    {
+      "h": "Carga aplicada a cada producto",
+      "p": "Aplicado = cuota × horas máquina reales de cada producto. Baranda 1 (400 u): Corte 1.500 h → 487,74; Armado 2.000 → 375,27; Pintura 900 → 111,61; Soldado 500 → 245,69; total 1.220,30, que da 3,05 por unidad. Baranda 2 (300 u): Corte 1.300 → 422,71; Armado 2.100 → 394,02; Pintura 1.000 → 124,01; Soldado 500 → 245,69; total 1.186,43, que da 3,95 por unidad."
+    },
+    {
+      "h": "Carga fabril no aplicada",
+      "p": "Aplicada total: 1.220,30 + 1.186,43 = 2.406,73. Real: 1.000 + 750 + 500 + 250 = 2.500. Subaplicación: 93,27 (se aplicó menos de lo que se gastó). Causas posibles: gasto real mayor que el presupuestado (variación de presupuesto) o menos horas reales que las previstas, como en Corte (2.800 contra 3.000) y Pintura (1.900 contra 2.000), lo que es capacidad ociosa (variación de volumen). La subaplicación va a resultados del período o se prorratea."
+    },
+    {
+      "h": "Por qué una cuota predeterminada",
+      "p": "Los GIF reales se conocen al cierre y varían por estacionalidad (calefacción, mantenimiento). Con una cuota fijada de antemano se puede costear cada orden o producto durante el período, presupuestar y fijar precios sin que el costo unitario salte de un mes a otro. Al cierre se ajusta la diferencia."
+    }
+  ]
+}

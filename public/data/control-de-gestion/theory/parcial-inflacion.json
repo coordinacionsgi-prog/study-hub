@@ -1,0 +1,76 @@
+{
+  "thesis": "En el ejercicio de ajuste por inflación armás el balance al cierre de dos formas. En moneda heterogénea comparás valores finales contra valores de origen, sin corregir. En moneda homogénea reexpresás los valores de origen (y el capital) con el coeficiente de inflación del período: la diferencia entre ambos resultados es el efecto de la inflación (RECPAM). Después justificás el resultado partida por partida.",
+  "examTip": "Los índices son de fin de mes: una operación del 1/4 se toma con el índice, el dólar y las cotizaciones del 31/3 (fila de marzo). Coeficiente = índice de cierre / índice de origen. Usá año comercial (meses de 30 días, año de 360). El activo y el pasivo al cierre son iguales en las dos monedas: lo único que cambia es el capital (ajustado) y, por lo tanto, el resultado.",
+  "concepts": [
+    "Moneda heterogénea",
+    "Moneda homogénea",
+    "Coeficiente de reexpresión",
+    "RECPAM",
+    "Partidas monetarias",
+    "Partidas no monetarias",
+    "Valor de reposición",
+    "Valor neto de realización",
+    "Diferencia de cambio",
+    "Interés devengado",
+    "Descuento racional",
+    "RT 6"
+  ],
+  "sections": [
+    {
+      "h": "Conceptos clave",
+      "p": "Moneda heterogénea: sumás pesos de distintas fechas como si valieran lo mismo. Moneda homogénea: llevás todo a pesos del cierre multiplicando los valores de origen por el coeficiente (índice de cierre / índice de origen). Partidas monetarias (caja en pesos, créditos y deudas en pesos a cobrar o pagar en una suma fija): pierden o ganan poder adquisitivo, y eso es el RECPAM (resultado por exposición a cambios en el poder adquisitivo de la moneda). Tener pesos en caja con inflación genera pérdida; deber pesos genera ganancia. Partidas no monetarias (mercaderías, bienes de uso, moneda extranjera, títulos): se miden a su valor corriente al cierre (reposición, cotización, VNR) y su resultado es por tenencia."
+    },
+    {
+      "h": "Valuación al cierre de cada partida",
+      "p": "Caja en pesos: valor nominal. Moneda extranjera y plazos fijos en dólares: dólares (con su interés devengado) × cotización del cierre. Plazo fijo en pesos: capital + interés devengado al cierre (interés simple, año de 360). Mercaderías: costo de reposición del cierre. Títulos con cotización: cotización del cierre menos gastos de venta (valor neto de realización). Documentos a cobrar descontados: valor actual. Deudas con interés pactado: capital + interés devengado hasta el cierre. Deudas en dólares: dólares (con su interés) × cotización del cierre."
+    },
+    {
+      "h": "Ejercicio A (AXI 01/04 al 31/05): planteo",
+      "p": "Aportes del 1/4: $300.000; u$s 50.000 × 19,10 = $955.000; documento de VN 220.000 que vence el 30/6, descontado al 36 % anual simple por 90 días: VA = 220.000 / (1 + 0,36 × 90/360) = $201.834,86. Capital = $1.456.834,86. Mercaderías por 290.000: se paga con el documento ($201.834,86) y el proveedor financia el saldo de $88.165,14 a 90 días con 36.000 de interés. Bonos: VN 250 × 1.000 = 250.000 + 0,75 % de comisión = $251.875. Caja en pesos = 300.000 − $251.875 = $48.125. Plazo fijo con los u$s 50.000 al 0,20 % por el plazo."
+    },
+    {
+      "h": "Ejercicio A: balance al 31/05",
+      "p": "Caja $48.125. Mercaderías $308.000 (reposición). Bonos 250 × 1.092 = 273.000 menos 3 % de gastos de venta = $264.810. Plazo fijo u$s 50.100 × 21,80 = $1.092.180. Activo $1.713.115,00. Proveedores: $88.165,14 + 2/3 de 36.000 (60 de 90 días) = $112.165,14. Moneda heterogénea: capital $1.456.834,86 y resultado $144.115,00. Moneda homogénea: coeficiente 162,5859 / 154,3 = 1,0537, capital ajustado $1.535.066,80, resultado $65.883,06."
+    },
+    {
+      "h": "Ejercicio A: justificación del resultado",
+      "p": "Heterogénea (final − origen): Mercaderías: $308.000,00 − $290.000,00 = $18.000,00; Bonos: $264.810,00 − $251.875,00 = $12.935,00; Plazo fijo en dólares: $1.092.180,00 − $955.000,00 = $137.180,00; Caja en pesos: $48.125,00 − $48.125,00 = $0,00; Proveedores: $-112.165,14 − $-88.165,14 = $-24.000,00. Total $144.115,00. Homogénea (final − origen × coeficiente): Mercaderías: $308.000,00 − $290.000,00 × 1,0537 = $2.427,02; Bonos: $264.810,00 − $251.875,00 × 1,0537 = $-590,67; Plazo fijo en dólares: $1.092.180,00 − $955.000,00 × 1,0537 = $85.896,56; Caja en pesos: $48.125,00 − $48.125,00 × 1,0537 = $-2.584,31; Proveedores: $-112.165,14 − $-88.165,14 × 1,0537 = $-19.265,54. Total $65.883,06. La línea de caja es el RECPAM puro: los pesos quietos pierden contra la inflación. Atención: si en clase valuaron los bonos sin restar el 3 % de venta (a 273.000), los dos resultados suben en $8.190. Usá el criterio que dio tu profesor."
+    },
+    {
+      "h": "Ejercicio B (T2, abril 2026): planteo",
+      "p": "Aportes del 31/3: $500.000; u$s 100.000; un crédito de u$s 20.000; 20 unidades de mercadería a u$s 501 (dólar a 1.400). Capital = 500.000 + 120.000 × 1.400 + 20 × 501 × 1.400 = $182.528.000. El 1/4: compra de 50 unidades a u$s 501 (u$s 25.050), que se paga cediendo el crédito (u$s 20.000); el saldo de u$s 5.050 lo financia el proveedor al 0,7 % mensual. Plazo fijo en pesos con u$s 50.000 de caja (× 1.400 = 70.000.000) al 60 % anual por 90 días. Plazo fijo en pesos por 280.000 al 72 % anual por 45 días. Plazo fijo en dólares por u$s 40.000 al 2,4 % anual por 60 días. Al 30/4 quedan $220.000 y u$s 10.000 en caja. Índices: 31/3 = 10.010 y 30/4 = 10.510,5, con un coeficiente de 1,05."
+    },
+    {
+      "h": "Ejercicio B: balance y justificación al 30/04",
+      "p": "Todos los plazos fijos llevan 30 días devengados. Partidas: Caja en pesos $220.000,00; Caja en dólares $14.700.000,00; Mercaderías (70 u) $52.479.000,00; Plazo fijo en pesos (u$s 50.000) $73.500.000,00; Plazo fijo en pesos ($ 280.000) $296.800,00; Plazo fijo en dólares $58.917.600,00; Proveedor (deuda en u$s) $-7.475.464,50. Moneda heterogénea: resultado $10.109.935,50. Caja en pesos: $220.000,00 − $220.000,00 = $0,00; Caja en dólares: $14.700.000,00 − $14.000.000,00 = $700.000,00; Mercaderías (70 u): $52.479.000,00 − $49.098.000,00 = $3.381.000,00; Plazo fijo en pesos (u$s 50.000): $73.500.000,00 − $70.000.000,00 = $3.500.000,00; Plazo fijo en pesos ($ 280.000): $296.800,00 − $280.000,00 = $16.800,00; Plazo fijo en dólares: $58.917.600,00 − $56.000.000,00 = $2.917.600,00; Proveedor (deuda en u$s): $-7.475.464,50 − $-7.070.000,00 = $-405.464,50. Moneda homogénea: capital ajustado $191.654.400,00, resultado $983.535,50. Caja en pesos: $220.000,00 − $220.000,00 × 1,0500 = $-11.000,00; Caja en dólares: $14.700.000,00 − $14.000.000,00 × 1,0500 = $0,00; Mercaderías (70 u): $52.479.000,00 − $49.098.000,00 × 1,0500 = $926.100,00; Plazo fijo en pesos (u$s 50.000): $73.500.000,00 − $70.000.000,00 × 1,0500 = $0,00; Plazo fijo en pesos ($ 280.000): $296.800,00 − $280.000,00 × 1,0500 = $2.800,00; Plazo fijo en dólares: $58.917.600,00 − $56.000.000,00 × 1,0500 = $117.600,00; Proveedor (deuda en u$s): $-7.475.464,50 − $-7.070.000,00 × 1,0500 = $-51.964,50. Lectura: la caja en dólares y el plazo fijo de 70 millones empatan justo con la inflación del 5 % (resultado homogéneo de 0), mientras que la caja en pesos pierde."
+    },
+    {
+      "h": "TP 6 (también parcial del 27/06/2023): planteo y balance al 31/10",
+      "p": "Aporte de 100.000 el 30/09. Plazo fijo de u$s 5.000 (a 8,64 = 43.200) al 0,5 % mensual. Plazo fijo en pesos de 15.000 al 26,4 % anual. Mercaderías por 55.000: 30 % en efectivo y 70 % (38.500) a 60 días con un recargo del 8 % (4 % devengado al cierre). Al cierre: dólar a 8,90, reposición 55.900 e inflación del 3,5 %. Partidas: Caja $25.300,00; Plazo fijo u$s $44.722,50; Plazo fijo $ $15.330,00; Mercaderías $55.900,00; Proveedores $-40.040,00. Resultado heterogéneo $1.212,50; capital ajustado $103.500,00; resultado homogéneo $-2.287,50."
+    },
+    {
+      "h": "TP 6: justificación",
+      "p": "Heterogénea: Caja: $25.300,00 − $25.300,00 = $0,00; Plazo fijo u$s: $44.722,50 − $43.200,00 = $1.522,50; Plazo fijo $: $15.330,00 − $15.000,00 = $330,00; Mercaderías: $55.900,00 − $55.000,00 = $900,00; Proveedores: $-40.040,00 − $-38.500,00 = $-1.540,00. Homogénea: Caja: $25.300,00 − $25.300,00 × 1,0350 = $-885,50; Plazo fijo u$s: $44.722,50 − $43.200,00 × 1,0350 = $10,50; Plazo fijo $: $15.330,00 − $15.000,00 × 1,0350 = $-195,00; Mercaderías: $55.900,00 − $55.000,00 × 1,0350 = $-1.025,00; Proveedores: $-40.040,00 − $-38.500,00 × 1,0350 = $-192,50. No te olvides de la línea de caja ($-885,50): en una resolución que circula falta y por eso no cierra."
+    },
+    {
+      "h": "TP 7 (AXI con dólares y crédito cedido): planteo",
+      "p": "Aportes del 31/3: $50.000, u$s 10.000 (× 15,40) y un crédito de $80.000, con un capital de $284.000,00. El 1/4: 20 unidades a u$s 449,74 = $138.519,92; se paga con el crédito (80.000) y el saldo de $58.519,92 (u$s 3799,99) queda en dólares al 0,5 % mensual. Plazo fijo en pesos de 20.000 al 36 % anual. Plazo fijo de u$s 8.000 al 3,6 % anual. Quedan $30.000 y u$s 2.000 en caja. Al 30/4: dólar a 16,17, mercadería a u$s 463,23 e índices de 45.689 a 47.745 (coeficiente 1,0450)."
+    },
+    {
+      "h": "TP 7: balance al 30/04 y justificación",
+      "p": "Partidas: Caja en pesos $30.000,00; Caja en dólares (u$s 2.000) $32.340,00; Mercaderías (20 u) $149.808,58; Plazo fijo en pesos $20.600,00; Plazo fijo en dólares $129.748,08; Proveedor (deuda en u$s) $-61.753,15. Resultado heterogéneo $16.743,52; capital ajustado $296.779,97; resultado homogéneo $3.963,55. Heterogénea: Caja en pesos: $30.000,00 − $30.000,00 = $0,00; Caja en dólares (u$s 2.000): $32.340,00 − $30.800,00 = $1.540,00; Mercaderías (20 u): $149.808,58 − $138.519,92 = $11.288,66; Plazo fijo en pesos: $20.600,00 − $20.000,00 = $600,00; Plazo fijo en dólares: $129.748,08 − $123.200,00 = $6.548,08; Proveedor (deuda en u$s): $-61.753,15 − $-58.519,92 = $-3.233,23. Homogénea: Caja en pesos: $30.000,00 − $30.000,00 × 1,0450 = $-1.350,00; Caja en dólares (u$s 2.000): $32.340,00 − $30.800,00 × 1,0450 = $154,00; Mercaderías (20 u): $149.808,58 − $138.519,92 × 1,0450 = $5.055,28; Plazo fijo en pesos: $20.600,00 − $20.000,00 × 1,0450 = $-300,00; Plazo fijo en dólares: $129.748,08 − $123.200,00 × 1,0450 = $1.004,09; Proveedor (deuda en u$s): $-61.753,15 − $-58.519,92 × 1,0450 = $-599,84. Ojo: la caja en dólares también se valúa al cambio del cierre; si la dejás a 15,40 te falta la diferencia de cambio."
+    },
+    {
+      "h": "TP 5 Gold: ¿se cubrió de la inflación?",
+      "p": "El 30/01, 2.200.000 / 4,976 = u$s 442122,19. El 30/03 compra oro a 1.388 u$s la onza: 318,53 onzas. La custodia cobra el 0,15 % del peso por mes durante 4 meses: quedan 316,62 onzas. El 30/07 valen 316,62 × 1.346 × 5,505 = $2.346.073,48. Inflación del período (la de enero queda fuera porque la inversión arranca el 30/01; tomando 3,2 % febrero-marzo, −0,2 % abril y 4,3 % mayo-julio como tasas del tramo): coeficiente 1,032 × 0,998 × 1,043 = 1,07422. Valor reexpresado: $2.363.291,15. Resultado real $-17.217,66: NO se cubrió. El oro bajó en dólares (de 1.388 a 1.346) y la suba del dólar no alcanzó a compensar la inflación más la custodia. Si las tasas fueran mensuales, la inflación sería todavía mayor y la conclusión no cambia."
+    },
+    {
+      "h": "Cómo presentar la respuesta",
+      "p": "1) Cuadro de datos (índices, dólar, precios) y coeficiente. 2) Asiento o detalle de cada operación al origen. 3) Valuación de cada partida al cierre. 4) Balance en moneda heterogénea con resultado por diferencia. 5) Balance en moneda homogénea: mismo activo y pasivo, capital × coeficiente, resultado por diferencia. 6) Cuadro de justificación con las columnas origen, origen × coeficiente, final y resultado, cuyo total tiene que coincidir con el del balance. Si no coinciden, hay un error de valuación."
+    },
+    {
+      "h": "Errores típicos",
+      "p": "Usar el índice de abril para una operación del 1/4 (corresponde el del 31/3). Ajustar el activo y el pasivo al cierre (ya están en moneda de cierre: solo se ajustan los valores de origen y el capital). Olvidar el interés devengado de plazos fijos o deudas. Valuar el documento a su nominal en lugar del valor actual. Usar año calendario cuando piden año comercial."
+    }
+  ]
+}
