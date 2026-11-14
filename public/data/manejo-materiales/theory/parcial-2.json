@@ -1,0 +1,401 @@
+{
+  "thesis": "Banco de preguntas del 2do parcial (Unidades 3, 4, 5 y 6), respondidas. La base son las preguntas de Grimolizzi, que son las de estilo más normal, más el banco del campus convertido a preguntas abiertas, porque el parcial de teoría es con preguntas para desarrollar, como en el primero. La Unidad 11 (transporte externo) queda para el recuperatorio, así que no está acá.",
+  "examTip": "Formato 2026: 45 minutos de práctica (transportadores aéreos a cadena: tiro, verificación de troleys y % de aumento de carga; mirá el módulo de práctica) y 45 minutos de teoría con preguntas abiertas, con devolución en el momento. Lo que más se repite: Mesh (con cuenta), ángulo de reposo vs. reacomodamiento, componentes y limpieza de una cinta, tensores, Power vs. Power & Free y load bar, paso de cadena armada vs. paso de carga, EOM y AGV, colchón de aire (F = p·S y sección de fuga h·l), carga por rueda (Qt/3 o Qt/2), cables de acero (alma, 6x19+1AT, abrasión vs. flexibilidad), coeficientes del Decreto 351/79, Schedule y eficiencia de junta, residuo vs. desperdicio y clasificación de contaminantes.",
+  "concepts": [
+    "Mesh",
+    "Ángulo de reposo / reacomodamiento",
+    "Fluidez y abrasividad",
+    "Cinta transportadora",
+    "Tensor a tornillo / gravedad",
+    "Rascadores",
+    "Elevador a cangilones",
+    "Redler y rosca",
+    "Transporte neumático",
+    "Power / Power & Free",
+    "Troley y load bar",
+    "Pasos de un TAC",
+    "Caterpillar fijo / flotante",
+    "Flat-top / slat",
+    "EOM",
+    "AGV",
+    "Colchón de aire",
+    "Ruedas industriales",
+    "Mecanum",
+    "Puente grúa",
+    "Cable de acero",
+    "Decreto 351/79",
+    "Caño vs. tubo",
+    "Schedule",
+    "Eficiencia de junta",
+    "ANR ISO R554",
+    "ISO 8573-1",
+    "Residuo vs. desperdicio",
+    "Ley 24.051",
+    "Clases ONU",
+    "Transportadores por gravedad",
+    "Pescantes",
+    "Factor de relleno",
+    "Grado 8 / 10",
+    "Trabajo en altura (Dec. 351)",
+    "Plataformas elevadoras",
+    "HDPE: MRS y SDR",
+    "API 650 / 620",
+    "CRETI",
+    "Residuos patogénicos",
+    "RDONB / RDOP"
+  ],
+  "sections": [
+    {
+      "h": "U3 · ¿Qué es el número Mesh y qué implica un número Mesh alto respecto al tamaño de grano?",
+      "p": "El número Mesh (escala Tyler) es la cantidad de aberturas que tiene una malla por pulgada lineal. Como en una pulgada (25,4 mm) entran N aberturas más N diámetros de alambre, a mayor número Mesh las aberturas son más chicas y pasa un grano más fino: a mayor Mesh, menor tamaño de grano. Se usa para medir la granulometría con tamices. El diámetro equivalente de una partícula es la abertura de la menor malla cuadrada por la que pasa."
+    },
+    {
+      "h": "U3 · Cálculo con Mesh: abertura o diámetro de alambre",
+      "p": "La relación es 25,4 mm = N × abertura + N × diámetro de alambre. Ejemplo de la lista de Grimolizzi: Mesh 3 con alambre de 1,59 mm: 25,4 = 3·X + 3·1,59, entonces X = 6,88 mm de abertura. Ejemplos del apunte: Mesh 2 = 2 × 11,05 + 2 × 1,65 = 25,4 mm; Mesh 3 = 3 × 7,216 + 3 × 1,25 = 25,4 mm. Trampa del campus: si el enunciado dice aberturas por pulgada CUADRADA, primero sacá la raíz cuadrada para obtener el Mesh (9 aberturas por pulgada cuadrada es Mesh 3; 4 por pulgada cuadrada es Mesh 2, que con abertura de 11,05 mm da alambre de 1,65 mm)."
+    },
+    {
+      "h": "U3 · ¿Qué es el ángulo de reposo? ¿Qué factores lo modifican y cuánto puede variar?",
+      "p": "Si volcás un material a granel sobre una superficie horizontal, la pila forma un ángulo con la horizontal: ese es el ángulo de reposo, y mide la capacidad de derrame del material. Para un mismo material puede variar hasta 15°, según las condiciones en que se presente. Aumentan el escurrimiento (bajan el ángulo): menor tamaño de partícula, menor rugosidad de su superficie, mayor esfericidad, menor humedad de la pila y mayor homogeneidad de la pila."
+    },
+    {
+      "h": "U3 · ¿Qué diferencia hay entre ángulo de reposo y ángulo de reacomodamiento (sobrecarga dinámica)?",
+      "p": "El de reposo mide la estabilidad del material quieto, sin perturbar. El de reacomodamiento dinámico es el que adopta el material en movimiento, por ejemplo sobre una cinta, donde la trepidación continua de los rodillos lo nivela y le baja la pendiente. Es menor que el de reposo: el apunte dice entre 5° y 15° menos (la presentación de clase dice 10° a 15°), independientemente del tipo de artesa."
+    },
+    {
+      "h": "U3 · ¿Cómo se clasifica la fluidez (escurrimiento) de un granel?",
+      "p": "En cuatro grupos según el ángulo de reposo: muy alta (19° o menos), alta (20° a 29°), promedio (30° a 39°) y baja (40° o más). La abrasividad, en cambio, se agrupa en tres: medianamente, moderadamente y extremadamente abrasivo."
+    },
+    {
+      "h": "U3 · ¿Qué determina la cohesión? Dar ejemplos",
+      "p": "Es un efecto sobre el escurrimiento. Los no cohesivos fluyen fácilmente por un orificio (arena, granos, pellets plásticos); los cohesivos no fluyen fácilmente porque las partículas se pegan entre sí (arcillas húmedas)."
+    },
+    {
+      "h": "U3 · ¿Qué define la inclinación máxima de un transportador de graneles?",
+      "p": "Es un ángulo que se determina experimentalmente y depende del material: si se supera, parte del material resbala hacia atrás. En transportadores continuos no suele superar 18° a 25°. Siempre tiene que ser menor que el ángulo de sobrecarga dinámico. Influyen el tamaño, la humedad, la consistencia y la fluidez del material y, del lado del equipo, el material y la rugosidad de la banda."
+    },
+    {
+      "h": "U3 · Características secundarias de los graneles y codificación ANSI/CEMA 550",
+      "p": "Secundarias: higroscopía (absorbe humedad), toxicidad, corrosividad, friabilidad (se rompe en polvo), desagregabilidad, compactibilidad, polvo explosivo, muy liviano (lo barre el viento), aceitoso, temperatura elevada, pegajosidad. La norma ANSI/CEMA 550 codifica el material para que el proveedor pueda diseñar y cotizar el equipo: peso específico, tamaño de grano, fluidez, abrasividad y luego las características especiales. Ejemplo del apunte: 15 B6 2 6 L N (15 lbs/ft³, grano de 2,7 mm, fluidez alta con 25° de reposo, abrasividad moderada, muy polvoriento, explosivo)."
+    },
+    {
+      "h": "U3 · ¿Qué afecta al caudal (m³/h) de un granel además de la velocidad y la sección?",
+      "p": "La humedad, la forma, el tamaño y la densidad del material, y la inclinación del equipo. En cintas la capacidad volumétrica es C = Ctabla × K × V, donde K baja con la inclinación (1,00 a 0°, 0,95 a 10°, 0,81 a 20°, 0,71 a 24°), y la capacidad en peso es Q = C × peso específico."
+    },
+    {
+      "h": "U3 · Componentes de una cinta transportadora",
+      "p": "Estructura soporte; tambor de accionamiento (motriz); tambor de reenvío o retorno; tambores tensores y de inflexión; estaciones superiores o portantes (rodillos planos o en artesa de 2 o 3, separadas 600 a 1500 mm; autocentrantes en cintas de más de 50 m; de impacto, recubiertas de caucho, en la zona de carga); estaciones de retorno (un rodillo plano, separación 3000 mm); sistema de limpieza; carga (tolva) y descarga; grupo motriz (motor trifásico IP-55, reductor, acoplamiento, sobre bancada)."
+    },
+    {
+      "h": "U3 · ¿Cómo se transmite la potencia a la banda y cómo se aumenta el rozamiento con el tambor?",
+      "p": "Por fricción entre la banda y el tambor motriz. Se aumenta con mayor arco de abrace: tambor simple con 180° a 230° (con tambor de inflexión se llega a unos 220°) y tambores en tándem con 350° a 480° para grandes potencias. También ayudan el tensado correcto y el revestimiento o chevronado del tambor."
+    },
+    {
+      "h": "U3 · ¿Qué sistemas de tensado existen y qué evita un buen tensado?",
+      "p": "Tensor a tornillo, aplicado sobre el tambor de reenvío con eje deslizante: para transportes livianos y cortos, porque su carrera es limitada. Tensor por gravedad o contrapeso: para cintas largas y transporte pesado, porque cuanto más larga es la cinta, más recorrido de tensado necesita. Un buen tensado evita que la banda resbale sobre el tambor motriz y permite que copie la doble conicidad del tambor, si la tiene."
+    },
+    {
+      "h": "U3 · Componentes de la banda y parámetros para seleccionarla",
+      "p": "La banda es un conjunto de telas (carcasa o tejido) recubierto por coberturas. Las telas absorben los esfuerzos longitudinales y transversales (el estiramiento): se eligen por material (nylon/nylon, poliéster/nylon: alta resistencia, baja elongación, bajo peso, no absorben humedad), resistencia y cantidad de telas según la tensión de trabajo. Las coberturas protegen las telas y dan rozamiento con el material y con el tambor. La superior es más gruesa porque recibe el material; se elige por tipo y tamaño de material, abrasividad, temperatura, aceites, químicos, inflamabilidad, antiestaticidad y salubridad. La inferior tiene 1 a 1,5 mm. Además se definen las condiciones de trabajo: forma y frecuencia de carga e inclinación."
+    },
+    {
+      "h": "U3 · ¿Cuáles son los elementos de limpieza de una banda y dónde se colocan?",
+      "p": "Cara activa (la que lleva material): rascadores de lámina de goma maciza, presionando la banda debajo del tambor de accionamiento antes de que se separe de él, a veces con contrapeso para presión constante; y cepillos rotativos (cerdas de nylon o láminas de goma), en el mismo lugar, que pueden ir motorizados girando en contra. El rascador primario va sobre el tambor motriz y el secundario un poco después, con más presión. Cara no activa (la de abajo): un deflector o rascador en V, faldón de goma inclinado respecto del eje, ubicado antes del tambor de reenvío, para sacar lo que cae sobre la cara inferior."
+    },
+    {
+      "h": "U3 · ¿Para qué sirven las tolvas de carga y qué cuidados requieren?",
+      "p": "Para dosificar y depositar el material centrado sobre la banda, así no se descentra ni se desgasta. El material debe entrar en la dirección de marcha y a la misma velocidad que la banda, con la mínima altura de caída. Con granulometrías mezcladas conviene una criba para que lo fino caiga primero y haga de colchón. Se eligen por capacidad máxima y mínima, peso específico, tamaño máximo de grano y forma de alimentación. Con cargas irregulares se usan alimentadores vibratorios."
+    },
+    {
+      "h": "U3 · Elevadores a cangilones: tipos y usos",
+      "p": "Mueven graneles en vertical. Centrífugos: los cangilones van espaciados y descargan por fuerza centrífuga; para materiales secos que fluyen libremente, como granos, a 1,2 a 4 m/s. Continuos (de descarga por gravedad): los cangilones van juntos y cada uno usa al anterior como tolva de descarga; para materiales frágiles, húmedos o de gran granulometría, como en minería, a baja velocidad (0,5 a 1 m/s). Pueden ir sobre correas (más robustas porque se perforan) o cadenas. Llevan un freno en el tambor de accionamiento para que no retrocedan ante un corte de luz."
+    },
+    {
+      "h": "U3 · Roscas transportadoras y transportadores a cadena tipo Redler",
+      "p": "Rosca: un tornillo sin fin helicoidal (principio de Arquímedes) dentro de una carcasa en U, con apoyos intermedios para que no flexione; es más eficiente en horizontal. Se diseña por porcentaje de llenado: 45% para materiales livianos, fluidos y no abrasivos, y 15% a 30% para densos, lentos y abrasivos. Redler: cadenas con empujadores perpendiculares que, enterrados en el material, lo arrastran como una columna sólida dentro de un conducto cerrado; protege contra mermas y contaminación, consume poco y dura mucho (energía, alimentos, química)."
+    },
+    {
+      "h": "U3 · Transporte neumático: fase densa vs. fase diluida",
+      "p": "Mueve graneles con una corriente de gas por cañería; su ventaja es que es cerrado y no contamina (hasta 1000 t/h y unos 2 km, partículas de micrones a 20 mm). Fase diluida: velocidades de gas mayores a 20 m/s, menos del 1% de sólidos en volumen, baja pérdida de carga (menos de 5 mbar/m), largas distancias; la más usada, alimentada por sopladores a baja presión (alrededor de 1 bar). Fase densa: 1 a 5 m/s, más del 30% de sólidos, gran pérdida de carga (más de 20 mbar/m), menos aire pero más presión (3 a 7 bar), cortas distancias. Según cómo se mueve el gas: a presión positiva, por vacío (hasta unos 10 t/h y 50-60 m), combinado presión-vacío (varias fuentes y destinos) y por fluidización."
+    },
+    {
+      "h": "U3 · Cintas de paredes flexibles y tubulares; stackers y reclaimers",
+      "p": "Paredes flexibles: bandas con bordes ondulados y tabiques, que permiten inclinaciones mucho mayores (hasta 90°); se cargan en la parte horizontal sobre rodillos de impacto. Tubulares: la banda se carga abierta, se cierra formando un tubo estanco (bordes superpuestos) y se abre para descargar; el retorno también es tubular; se usan en minería y en trazas con curvas. En minería, las apiladoras (stackers) arman pilas con lanza fija, basculante, de pórtico o sobre orugas, y las recuperadoras (reclaimers) las levantan con una rueda de cangilones que descarga a una cinta."
+    },
+    {
+      "h": "U3 · ¿Qué son los graneles sólidos y qué equipos se usan para moverlos?",
+      "p": "Son áridos (granos, semillas, minerales, cemento, químicos como fosfatos o nitratos) que se mueven sin envasar, en grandes volúmenes. No se comportan como fluidos newtonianos ni como sólidos (no resisten tracción) pero sí resisten corte en reposo, por eso forman pilas con taludes estables; se estudian con la mecánica de materiales a granel, derivada de la mecánica de suelos. Equipos continuos: cintas, elevadores a cangilones, tornillos. Discontinuos: cargadores frontales o laterales y camiones."
+    },
+    {
+      "h": "U3 · Elevador a cangilones centrífugo: características",
+      "p": "Velocidad de correa elevada, entre 1,2 y 4 m/s, para que la descarga se produzca por fuerza centrífuga cuando el cangilón gira sobre el tambor de mando. Cangilones separados entre sí, carga por dragado en la bota. Apto para materiales de escurrimiento fácil, poco abrasivos y de grano fino o mediano (granos, semillas). Para materiales frágiles, abrasivos o pegajosos se usa el de descarga continua (positiva), más lento y con cangilones contiguos."
+    },
+    {
+      "h": "U4 · ¿Qué es la unitarización de cargas y por qué es clave?",
+      "p": "Es agrupar mercadería en unidades superiores de carga (pallets, contenedores, skids) para facilitar su transporte y asegurar su integridad mientras se mueve o almacena. Una vez definida la unitarización se elige el medio de transporte; y si los equipos ya existen, la unitarización se diseña en función de ellos. Adecuar la carga a los sistemas convencionales de transporte reduce mucho los costos. Ejemplo: carrocerías montadas sobre un skid de acero, para que el transportador solo toque el skid y no el producto."
+    },
+    {
+      "h": "U4 · Tipos de cadenas en la industria y diferencias",
+      "p": "Transmisión de potencia: diseños compactos, altas velocidades, aceros aleados y tolerancias estrictas y costosas. Izaje: eslabones calibrados, velocidades bajas o nulas, aceros aleados. Transporte de materiales: diseños robustos, bajas velocidades, aceros forjados de alto carbono y tolerancias bajas; dentro de ellas, para transportadores aéreos y de piso, y para áridos. Para los transportadores aéreos hay cadenas pesadas forjadas de 2, 3, 4 y 6 pulgadas (sus componentes no son intercambiables entre sí) y livianas estampadas biarticuladas tipo Unibilt, de un único paso de 8 pulgadas, aptas tanto para Power como para Power & Free."
+    },
+    {
+      "h": "U4 · Diferencias entre transportadores aéreos Power y Power & Free (y sus perfiles de sustentación)",
+      "p": "Power: solo transporte; un único riel (doble T de acero de alto carbono) por donde ruedan los troleys, la carga cuelga de los troleys y recorre un circuito fijo. Power & Free: transporte más almacenaje; sistema birriel: arriba un riel por donde va la cadena de arrastre (power), que nunca para, y abajo dos perfiles C enfrentados por donde corren los carros que llevan la carga (free). La cadena solo empuja los carros con un perro de arrastre, así que los carros pueden detenerse, acumularse, cambiar de vía o de velocidad. Esquema: Power = un doble T con troley y carga colgando; P&F = doble T arriba con la cadena y, debajo, el par de C con el carro."
+    },
+    {
+      "h": "U4 · ¿Qué es un troley y qué es una load bar?",
+      "p": "El troley es el carrito con ruedas (rodamientos de acero SAE 52100) que rueda por el riel: en el Power sostiene la carga y en el P&F sostiene la cadena. Su capacidad unitaria de catálogo es, por ejemplo, 2 pulgadas 56,7 kg; 3 pulgadas 90,7 kg; 4 pulgadas 181,4 kg; 6 pulgadas 544,3 kg. Cuando la pieza más su portapieza supera la capacidad de un troley, se usa una load bar (barra de carga): se agrega un troley extra por cada punto de carga y se une con el anterior mediante la barra, así la carga se reparte en dos troleys (o se combinan load bars para cuatro)."
+    },
+    {
+      "h": "U4 · Los tres pasos de un transportador Power y por qué el paso de carga puede ser mayor que el de la cadena armada",
+      "p": "Paso 1: el de la cadena elegida (2, 3, 4 o 6 pulgadas). Paso 2: el de la cadena armada, la distancia entre troleys, múltiplo del paso de la cadena (de 6 a 36 pulgadas). Paso 3: el de transporte o de carga, la distancia entre piezas. Según el tamaño y volumen de la carga, puede que no se puedan cargar todos los troleys porque las piezas chocarían en las curvas verticales y horizontales; entonces el paso de la carga queda mayor que el de la cadena armada. Las interferencias hay que verificarlas en todas las curvas, verticales y horizontales. Si se arma la cadena con una distancia entre troleys distinta de la recomendada por el fabricante, el transportador trabaja a tirones."
+    },
+    {
+      "h": "U4 · Mandos motrices Caterpillar fijos y flotantes; tensores",
+      "p": "Son mandos con una cadena auxiliar con empujadores que se enganchan en los eslabones de la cadena del transportador y la arrastran. El fijo tiene un perno fusible que se corta si el esfuerzo supera el admisible, protegiendo el sistema. El flotante está montado sobre resortes y, ante un sobreesfuerzo, se desplaza y acciona un corte eléctrico que para el sistema sin romper el perno. La cadena se tensa con sistemas de resortes y rodillos o resortes y ruedas. Las ruedas dentadas deben tener al menos 14 dientes para evitar sacudones."
+    },
+    {
+      "h": "U4 · Transportadores de piso: clasificación",
+      "p": "Motorizados (con mando motriz): a cadenas, a rodillos para pallets, skids y cajas, cintas transportadoras, de placas (flat-top y slat conveyors) e inverted power & free. Manuales o por gravedad (sin motor): mesas de rodillos y roldanas, bolillas deslizantes y ruedas multidireccionales, horizontales o inclinadas, fijas o flexibles, para armar líneas de trabajo."
+    },
+    {
+      "h": "U4 · Diferencia entre transportador a rodillos accionado por motor y accionado a cadena",
+      "p": "Cambia la forma en que se transmite el movimiento y la aplicación. En el accionado a cadena, un mando motriz mueve los rodillos mediante una transmisión de cadena piñón-corona (cada rodillo con dos coronas: una recibe y otra pasa el movimiento al siguiente), y la longitud máxima la limita la capacidad de tiro de esa cadena. En los motorizados por zonas, cada zona tiene su motor y los productos pueden acumularse sin tocarse."
+    },
+    {
+      "h": "U4 · Transportadores de cadenas para pallets y skids: ¿por qué más de dos ramales?",
+      "p": "En los de pallets la carga apoya directamente sobre cadenas de transporte; se usan dos o tres líneas de cadena. Se agrega un tercer ramal para evitar la flexión del pallet o skid (y no tener que poner rodillos locos en el centro). En los skids el transportador solo toca la estructura del skid, nunca el producto."
+    },
+    {
+      "h": "U4 · Flat-top conveyors, slat conveyors e inverted power & free",
+      "p": "Flat-top: transportadores de cadenas pesadas unidas por placas o tablillas, a nivel de piso (embutidos, requieren obra civil), de simple o doble hilera; se usan en la industria automotriz para mover autos, carros o racks. Slat: también de cadenas con tablillas, pero apoyados sobre el piso, sin obra civil. Inverted power & free: un P&F instalado debajo del producto, que va sobre un pedestal; da acceso de casi 360°, evita que caiga suciedad sobre el producto y no requiere reforzar el techo; muy usado en líneas de montaje y pintura de autos."
+    },
+    {
+      "h": "U4 · Transportadores autónomos aéreos (EOM/EMS): componentes y ventajas sobre el P&F",
+      "p": "EOM es Electrical Overhead Monorail. Componentes: 1) riel de aluminio (estándar 60 × 180 mm, pesado 80 × 240 mm; el aluminio pesa un 35% del acero y permite las tolerancias necesarias); 2) carros portantes delantero (motriz), trasero e intermedios; 3) electrificación con barrales (hasta 6 en el estándar y 10 en el pesado; 4 son de potencia y el resto de señales) y patines tomacorriente; 4) control a bordo (control box), un PLC en cada carro, cuyo grado lo da la cantidad de mandos motrices que controla (1, 2, 3 o más ejes), coordinado por un PLC central; 5) mando motriz (motorreductor chico y liviano, de una o dos velocidades o con variador); 6) anclajes y cambios de vía. Ventajas sobre el P&F: menos ruido y vibraciones, más flexibilidad, hasta 100% de automatización, 1, 2 o 3 carros por unidad según el proyecto, menos peso por metro y velocidad regulable."
+    },
+    {
+      "h": "U4 · AGV: componentes, sistemas de guiado y ventajas",
+      "p": "Vehículos autopropulsados que siguen una trayectoria fácilmente modificable. Tienen tres partes: el vehículo (baterías ácidas, de gel o níquel-cadmio; motores de corriente continua; paragolpes con sensores; control box; equipo de carga: plataforma, rodillos, cadenas u horquillas), el sistema de tráfico (trazas, puntos de carga y descarga, puntos de comunicación, indicadores, estaciones de recarga) y el sistema de gestión (un PLC central). Guiado: cables soterrados (filoguiado: económico pero el menos flexible), imanes soterrados (poco flexible), pintura reflectiva, láser y satelital (los más flexibles). Frente al inverted P&F, que hace lo mismo, no generan barreras arquitectónicas en el piso; su capacidad solo la limitan el piso y el diseño del carro."
+    },
+    {
+      "h": "U4 · Colchón de aire: principio, fuerza de sustentación y sección de fuga",
+      "p": "Se inyecta aire comprimido dentro de una campana y la carga se sustenta por efecto suelo: el aire que fuga por el perímetro forma un colchón con una presión intermedia entre la de alimentación y la atmosférica. Fuerza de sustentación: F = p × S (presión efectiva por superficie del colchón). Sección de fuga: S fuga = h × l (luz entre el colchón y el piso por el perímetro); la altura h depende del caudal de aire. Los circulares son los más usados porque tienen la mayor relación superficie/perímetro y minimizan la fuga; conviene el mayor diámetro posible y al menos 3 o 4 colchones por carga. Medidas usuales: 300, 450 y 600 mm de diámetro para 500, 1200 y 2500 kg por colchón."
+    },
+    {
+      "h": "U4 · Colchón de aire: ventajas, limitaciones, piso y número índice de consumo",
+      "p": "Ventajas: reparte la carga en mucha superficie (no daña el piso), equipos compactos, movimiento con mínimo esfuerzo en cualquier dirección y sin radio de giro. Limitaciones: necesita una fuente de aire comprimido con caudal y presión suficientes, el piso tiene que ser horizontal, liso, sin porosidades ni grietas, y la plataforma tiene que estar diseñada para el sistema. Las juntas y baches se sellan con cobertores y los escalones se salvan con láminas que formen rampa. El número índice de consumo compara el caudal de aire necesario sobre cada piso con el de un cristal pulido (índice 1): un piso índice 3 necesita el triple de caudal. Sirve para dimensionar el aire según el piso. Sistema combinado ruedas + colchón: un resorte mantiene el dispositivo levantado; al presurizar el diafragma se levantan las ruedas y, a la presión de trabajo, actúa el colchón (hasta unas 20.000 libras); mantiene la comodidad de las ruedas con la plataforma vacía."
+    },
+    {
+      "h": "U4 · Ruedas industriales: diseño, accesorios y variables de selección",
+      "p": "Diseño: diámetro exterior (más diámetro, menos esfuerzo de tiro), banda de rodadura (dura o blanda), masa y cojinetes (agujero liso, bujes, rodamientos comunes o estándar de acero SAE 52100), soportes fijos o giratorios (estos con crapodina, un rodamiento axial), capacidad portante. Accesorios: freno, traba de dirección (trayectos largos), antihilos (evitan que hilos y suciedad traben el eje) y contra impactos. Variables: tipo y estado del piso, tracción manual (4-5 km/h) o mecánica (con rodamientos estándar), condiciones ambientales (químicos, humedad, temperatura fuera de -5 a 40 °C, virutas: banda dura de poliuretano; ruido: banda blanda), tipo de servicio (normal o intenso, con mayor diámetro) y espacio de maniobras (mix de fijas y giratorias, o solo giratorias si hay poco espacio)."
+    },
+    {
+      "h": "U4 · ¿De qué depende la carga que puede soportar una rueda? ¿Cómo se calcula?",
+      "p": "Depende del peso total (carga más el propio carro), del tipo de carga y del estado del piso. Se calcula considerando el carro como estructura rígida e indeformable: aunque tenga 4 o más ruedas, la carga la soportan en la práctica 3 (las demás dan estabilidad). Cálculo aproximado: carga sólida y piso liso, Qr = Qt / 3; carga sólida y piso con obstáculos, Qr = Qt / 2; carga líquida (por ejemplo contenedores sin tapa con líquido), Qr = Qt / 2. Hay fórmulas exactas por configuración (por ejemplo 4 giratorias: Qt / (Ng − 1)). El esfuerzo de tiro es F = Q × f / R: menor con mayor radio y con bandas y pisos duros (acero sobre acero es el de menor esfuerzo)."
+    },
+    {
+      "h": "U4 · Configuraciones de ruedas en un carro",
+      "p": "Tres giratorias: cargas livianas, muy maniobrable, difícil de dirigir en rectas largas (bases circulares para tambores). Una giratoria y dos fijas: carros chicos y livianos, sirve en rectas largas pero la carga tiene que ir centrada. Dos giratorias y dos fijas: la más usual, alta capacidad, buena para arrastre con varios carros. Cuatro giratorias: carga normal a liviana, maniobrabilidad óptima, difícil arranque; traba de dirección opcional. Dos giratorias y dos fijas centrales más altas, o cuatro giratorias y dos fijas centrales: carros largos y de alta capacidad. Tres ruedas fijas solo se justifican para cargas centradas en trayectos lineales."
+    },
+    {
+      "h": "U4 · ¿Qué son las ruedas omnidireccionales (Mecanum)? Ventajas y cómo se mueven",
+      "p": "Inventadas por Bengt Ilon (AB Mecanum, Suecia, patente de 1972): ruedas con rodillos montados en su periferia con eje a 45°. Cada rueda tiene su propio motor, y combinando el sentido de giro de cada una el equipo se mueve en cualquier dirección sin girar. Ventajas: movimiento en espacios reducidos, gran precisión (alrededor de ±5 mm) y cambio rápido de rodillos sin desmontar la rueda. Para un giro sobre su eje, las ruedas de un lado giran en un sentido y las del otro lado al revés; para desplazarse de costado, las ruedas en diagonal giran igual entre sí (delantera derecha con trasera izquierda, y viceversa). Consejo del grupo para el campus: pararse de frente a la rueda, como para cambiar la del auto."
+    },
+    {
+      "h": "U4 · Puentes grúa: componentes y tipos",
+      "p": "Equipos para mover cargas en vertical y horizontal (de 1 a 500 t). Componentes: vigas carrileras (sobre columnas, por donde se traslada todo el puente), vigas testeras (llevan las ruedas motrices y conducidas del puente), viga o vigas principales (por donde corre el carro), carro porta polipasto, polipasto (eleva y baja con un tambor de cable o con cadena), pasteca y gancho, y botonera de comando. Tres movimientos: traslación del puente, traslación del carro y elevación. Monorriel (una viga): naves no muy anchas, aprovecha la altura. Birriel (dos vigas): el carro corre sobre las dos vigas principales; cargas grandes y luces medias o grandes, máxima altura de gancho. También pórticos, pescantes giratorios de columna o murales, aparejos, malacates y tirfor (aparejo manual de tiro)."
+    },
+    {
+      "h": "U4 · ¿Cables o cadenas en polipastos? ¿De qué dependen las pastecas?",
+      "p": "Cadenas: equipos manuales o motorizados con poco espacio para el mecanismo. Cables: equipos sin problema de espacio y para grandes cargas. La pasteca es parte del aparejo y donde se ancla el gancho; cuantas más poleas tiene (simple, doble o triple), menos fuerza hace falta para izar: se elige según la carga a levantar. Los polipastos neumáticos se usan en áreas antiexplosivas."
+    },
+    {
+      "h": "U4 · Componentes de un cable de acero, tipos de alma y lectura de la designación",
+      "p": "Alambres que forman cordones, cordones arrollados helicoidalmente y el alma. El alma da apoyo a los cordones y mantiene el cable circular; puede ser de fibra sintética (polipropileno), fibra natural (sisal), acero de un cordón (hasta 6 mm) o cable de acero independiente (para evitar el aplastamiento). Designación: 6x19+1AT son 6 cordones de 19 alambres cada uno más un alma textil. Más alambres por cordón son alambres más finos: más flexibilidad y resistencia a la fatiga, pero menos resistencia a la abrasión. Por eso el 6x7 es el más resistente a la abrasión y el 6x36 el más flexible. El diámetro real se mide con calibre sobre la circunferencia que envuelve a los cordones (no entre caras planas)."
+    },
+    {
+      "h": "U4 · Coeficientes de seguridad para izaje según el Decreto 351/79",
+      "p": "Ganchos: 3 en aparatos manuales, 4 en motorizados. 5 para elementos que izan materiales peligrosos. 4 para partes estructurales. Cables: no menos de 6; se descartan si tienen más del 10% de hilos rotos en dos tramos separados menos de 8 diámetros. Cuerdas: no menos de 10. Cadenas: acero forjado, factor no menor a 5; se cortan los eslabones con más de 20% de desgaste, doblados o agrietados; nuevas o reparadas se ensayan al doble de la carga nominal antes de usarlas. Los aparatos deben frenar 1,5 veces la carga máxima admisible, que tiene que estar marcada. Usuales del fabricante: 3-4 cables estáticos, 5-6 grúas y eslingas, 8-12 condiciones extremas, 12-22 elevación de personas. Para la construcción rige el Decreto 911/96."
+    },
+    {
+      "h": "U4 · Exigencias del Decreto 351/79 para la operación de aparatos de izar",
+      "p": "Elevar y bajar lentamente, sin arranques ni frenadas bruscas, y en vertical siempre que se pueda; si es inevitable hacerlo oblicuo, con las máximas garantías del encargado. Avisar antes de mover cargas peligrosas (metal fundido, piezas con electroimán) y no operar hasta que el personal esté a salvo. Nunca pasar cargas por encima de personas, con un código de señales uniforme. Prohibido viajar sobre cargas, ganchos o eslingas. El operador revisa diariamente los elementos sometidos a esfuerzo y cada tres meses personal especializado revisa a fondo cables, cadenas, fines de carrera, poleas, frenos y controles. Si la grúa se maneja desde el piso, pasillos de al menos 0,90 m, sin desniveles, con barandas y piso antideslizante."
+    },
+    {
+      "h": "U4 · Cadenas, grilletes, guardacabos, prensacables y ganchos",
+      "p": "Cadenas de izaje (ANSI B30.9): grado 3, usos generales, no apta para izar; grados 4 y 6, tensores y riendas; grado 8 o más, elevación de cargas; nunca se reparan ni se tratan térmicamente. Grillete: une la carga (orejas de izaje) con la cadena o eslinga; se define por diámetro del cuerpo, diámetro del perno y capacidad (recto o de lira, con perno o tuerca); con carga lateral pierde capacidad. Guardacabo: anillo acanalado que protege el cable en el ojal de la eslinga. Prensacables: arman ojales o unen cables donde no se pueden usar casquillos. Gancho: acero templado, factor 4, sin carga lateral ni en la punta. Eslinga: tramo corto de cable con ojales en los extremos; su carga nominal es para tiro vertical simple."
+    },
+    {
+      "h": "U4 · Transportadores de acción libre (por gravedad): tipos",
+      "p": "No usan energía eléctrica ni mecánica: se montan con una leve pendiente y la carga baja por gravedad. Son económicos y reducen la manipulación manual. Tipos: a rodillos (cajas, contenedores, pallets); a roldanas o skatewheel (ruedas chicas independientes, bultos livianos de fondo plano); a bolillas (mesas de transferencia con esferas para girar o desviar la carga); a omnirruedas (ruedas con rodillos periféricos, movimiento en 360°)."
+    },
+    {
+      "h": "U4 · Pescantes y grúa pórtico: diferencias con el puente grúa",
+      "p": "El pescante es una grúa fija dentro de la nave. Mural: la viga con el malacate va amurada a una pared y gira 180°. De bandera: la viga va sobre una columna fijada al piso y gira 360°. La grúa pórtico tiene forma de puente pero apoya en el piso, con las vigas de rodadura empotradas en él; sirve para cubrir sectores exteriores a la nave. El puente grúa, en cambio, corre sobre vigas carrileras apoyadas en las columnas del edificio."
+    },
+    {
+      "h": "U4 · Factor de relleno de un cable de acero",
+      "p": "Es la relación entre la sección metálica real del cable y la sección del círculo de su diámetro nominal: indica cuánto acero hay en el volumen del cable. Los cables comunes están entre 0,46 y 0,75 (46 % a 75 % de acero). Cuanto mayor el factor, mayor la resistencia a la rotura. El alma de acero da más relleno que la de fibra: un 6×25 Filler con alma de fibra (FC) tiene 0,50 y con alma de acero (IWRC) 0,58. Los cordones compactados también aumentan el factor. Ojo con medir el diámetro: siempre sobre los puntos más externos (círculo circunscrito), nunca sobre los valles de los cordones."
+    },
+    {
+      "h": "U4 · Eslingas sintéticas y cadenas para izaje: grado 8 vs. grado 10",
+      "p": "Las eslingas sintéticas son de hilos de nylon o poliéster de alta tenacidad; no dañan la superficie de la carga y son livianas. Según el apunte de la cátedra, el nylon es de bajo estiramiento (no pasa del 2-3 %) y el poliéster de alto estiramiento (hasta 10 %); respondé con eso en el parcial (los catálogos comerciales suelen decirlo al revés). Las cadenas y sus accesorios de izaje deben ser grado 8 o grado 10. El grado 10 frente al 8: +25 % de capacidad de carga, hasta 40 % menos de peso de la eslinga y mayor dureza (más resistencia al desgaste y vida útil)."
+    },
+    {
+      "h": "U4 · ¿Cuándo se usan perchas separadoras?",
+      "p": "Cuando la carga es tan larga que las eslingas formarían un ángulo de abrace mayor al recomendado (a más ángulo, más tensión en cada ramal). La percha (viga separadora) mantiene los ramales verticales o casi verticales y distribuye los puntos de toma. Hay estándar o hechas a medida para una maniobra; normalmente de dos o cuatro tiros."
+    },
+    {
+      "h": "U4 · Trabajo en altura según el Decreto 351/79",
+      "p": "Art. 54: trabajo con riesgo de caída es circular o trabajar a una diferencia de cota igual o mayor a 2 m respecto del plano inferior más próximo. Art. 57: en tareas cortas y de bajo riesgo (a juicio de Higiene y Seguridad) no son obligatorias las protecciones colectivas; como mínimo, cinturón anclado a punto fijo, dos trabajadores en el lugar y supervisión directa. Art. 112: desde 2,50 m es obligatorio el cinturón de seguridad con anillas (no remachadas) para el cabo de vida, revisado antes de cada uso y calculado para el peso del cuerpo en caída libre de 5 m."
+    },
+    {
+      "h": "U4 · Elementos de protección para trabajo en altura",
+      "p": "Anclajes: unen la cuerda al soporte estructural. Permanentes: líneas de vida horizontales o verticales, rieles. Temporales: trípodes, anclajes de cuerpo muerto. Arnés de cuerpo completo: correas que contienen el torso y reparten la fuerza de frenado en muslos, pelvis, tórax y hombros. Conectores: de sujeción y posicionamiento (evitan que el operario llegue a una posición con riesgo de caída) y anticaídas (no evitan la caída, pero lo protegen si ocurre)."
+    },
+    {
+      "h": "U4 · Equipos para elevación de personas y sus requisitos de seguridad",
+      "p": "Unipersonales: un operario, hasta 15 m de altura de trabajo, elevación eléctrica, traslación manual o autopropulsada. Tijera: brazos en X con cilindros hidráulicos, canasta para 3 a 5 personas, tracción eléctrica o diésel. Articuladas: dos brazos en Z para esquivar obstáculos, más de 40 m. Telescópicas: brazos telescópicos hidráulicos, más de 40 m, para accesos limitados. Canasto suspendido de grúa: el peso total (cesta, operarios y herramientas) no puede superar el 50 % de la capacidad de una grúa fija ni el 40 % de una móvil, y la grúa debe levantar al menos 1000 kg. Seguridad: interlock (no eleva si estabilizadores y anclajes no están bien puestos), inclinómetro (corta la maniobra si se supera la pendiente máxima), SWL y cantidad máxima de operarios visibles, y arnés obligatorio."
+    },
+    {
+      "h": "U5 · ¿Cuáles son los pilares para estudiar el manejo de fluidos?",
+      "p": "1) Características y particularidades del fluido. 2) Elementos para su conducción (caños y tubos). 3) Fuentes de energización (bombas para líquidos; compresores y ventiladores para gases). En la materia se estudian el agua como líquido y el aire comprimido como gas."
+    },
+    {
+      "h": "U5 · Diferencias entre caños y tubos",
+      "p": "Caño (pipe): se designa por diámetro nominal y Schedule (ASME B36.10M para acero al carbono y B36.19M para inoxidable); el diámetro nominal no coincide con el exterior hasta 12 pulgadas y coincide desde 14. Se usan en instalaciones industriales de presión baja a media y caudales altos, incluso como elemento estructural. Tubo (tube): se designa por diámetro exterior y espesor de pared (en calibre BWG o mm), con tolerancias más exigentes; se usan en intercambiadores de calor y equipos de alta presión o temperatura y caudales bajos. Ejemplo: caño 2 pulgadas Sch 40 tiene 2,375 pulgadas de exterior; tubo 2 pulgadas BWG 12 tiene 2 pulgadas de exterior. Los caños y tubos estructurales no sirven para conducir fluidos."
+    },
+    {
+      "h": "U5 · ¿Qué es el número de Schedule y qué parámetros intervienen?",
+      "p": "Es un número adimensional que agrupa caños que mantienen la misma relación entre presión interior y tensión admisible del material: Sch = 1000 × P / S (P y S en psi). Por eso caños de distintos diámetros nominales con el mismo Schedule tienen la misma resistencia relativa a la presión, no el mismo espesor. Valores estándar: 10, 20, 30, 40, 80 y 160 para acero al carbono; 5S y 10S solo para inoxidables."
+    },
+    {
+      "h": "U5 · Espesor de pared según ASME: fórmula, eficiencia de junta y sobreespesores",
+      "p": "tm = P × D / [2 × (S × E + P × y)] + A. P presión, D diámetro exterior, S tensión admisible, E eficiencia de junta (grado de confiabilidad de la costura: vale 1 como máximo, en caños sin costura, y menos de 1 con costura), y un coeficiente según material y temperatura, y A sobreespesor por corrosión, erosión o roscado (por eso la pérdida de espesor del roscado y la corrosión se cubren sumando A). Al resultado se le suma la tolerancia de fabricación: un 12,5%."
+    },
+    {
+      "h": "U5 · Caños con costura y sin costura: fabricación, ventajas y desventajas",
+      "p": "Sin costura: por laminación en caliente o en frío (mejor acabado en frío); mejores propiedades, eficiencia de junta 1, pero más caros. Con costura: se parte de una chapa o fleje que se cilindra en frío con rodillos y se suelda: ERW (soldadura recta por inducción sin aporte), RSAW (recta por arco sumergido) o HSAW (helicoidal por arco sumergido); después se rebaba la soldadura por dentro y por fuera. Son más baratos, pero tienen más rozamiento, más probabilidad de falla y eficiencia de junta menor a 1. Material más común: acero al carbono ASTM A53 o A106 (los grados A, B, C difieren en composición y resistencia). Se venden en largos de hasta unos 12 m."
+    },
+    {
+      "h": "U5 · Clasificación de válvulas y series de bridas",
+      "p": "Válvulas: de obturación o bloqueo (todo o nada), de regulación y de seguridad. Bridas: la serie o clase (150, 300, 600, 900, 1500 y 2500) define la presión de trabajo en relación con la temperatura, y esa relación es inversa: a más temperatura, menos presión admite la misma serie. Las de más de 24 pulgadas están normalizadas hasta la serie 900."
+    },
+    {
+      "h": "U5 · Bombas: centrífugas vs. desplazamiento positivo, en serie y en paralelo",
+      "p": "Centrífuga: el rodete da energía cinética al líquido que entra por el centro y la carcasa la transforma en presión; simple, suave, confiable, pero con presión limitada y problemas con fluidos viscosos. Desplazamiento positivo (alternativas de pistón o diafragma, rotativas de engranajes, lóbulos o paletas): mueven volúmenes cerrados; son más caras pero mejores para fluidos viscosos y con sólidos en suspensión (para mucho sólido, por ejemplo, diafragma o lóbulos). Dos bombas iguales en serie suman presión con el mismo caudal; en paralelo suman caudal con la misma presión."
+    },
+    {
+      "h": "U5 · Colores de identificación de cañerías (IRAM)",
+      "p": "Según la tabla del apunte: rojo, elementos de lucha contra incendio; naranja, vapor de agua; amarillo, combustibles líquidos y gaseosos; azul, aire comprimido; negro, electricidad; marrón, vacío; verde, agua fría; verde con franjas naranja, agua caliente. En el banco del campus además aparecen gris para materias primas y productos inofensivos, gris con franjas naranja para productos peligrosos, y las franjas en tramos rectos cada 6 m como máximo (lectura obligatoria, página 31 del libro)."
+    },
+    {
+      "h": "U5 · Atmósfera Normal de Referencia y volumen normal",
+      "p": "Como el aire cambia mucho con presión, temperatura y humedad, la norma ISO R554 fija la ANR: 20 °C, 1,013 bar y 65% de humedad relativa. Los compresores se especifican por caudal de aire aspirado en esas condiciones (Nm³/min). Ejemplo: un tanque de 5 m³ a 6 kg/cm² relativos y 20 °C equivale a 5 × 7,033 / 1,033 = 34 m³ a ANR; en la práctica se simplifica como volumen por presión relativa, 5 × 6 = 30 Nm³. Si la temperatura difiere se corrige con T2/T1 (aproximadamente 1% cada 3 °C). Equivalencias: 1 atm = 1,013 bar = 1,033 kg/cm² = 760 mm Hg = 10,33 m de agua."
+    },
+    {
+      "h": "U5 · Impurezas del aire comprimido, tratamiento y calidades ISO 8573-1",
+      "p": "Las impurezas dañan las instalaciones neumáticas: sólidas (polvo, partículas de la instalación), líquidas (agua y niebla de aceite) y gaseosas (vapor de agua y de aceite). El aire pasa por generación, almacenaje (pulmón primario), distribución (redes y pulmón secundario) y usuarios, con tratamiento en cada etapa: separadores ciclónicos de condensado, secado, filtrado y, en el punto de uso, el FRL (filtro, regulador de presión y lubricador). ISO 8573-1:2010 especifica la calidad con tres números (partículas, agua, aceite), por ejemplo Clase 1.2.1. La Clase 0 no significa cero contaminación: es un nivel acordado por escrito entre usuario y fabricante; un compresor libre de aceite no garantiza por sí solo Clase 0. Para aire respirable, clínico o alimentario suele bastar 2.2.1 o 2.1.1."
+    },
+    {
+      "h": "U5 · Red de aire comprimido: troncales, secundarias, tomas y purgas",
+      "p": "Las cañerías troncales recorren el perímetro de la planta (a menudo en anillo) y alimentan a las secundarias, que van a cada línea; las secundarias se instalan con pendiente (1-2%) hacia las purgas. Las tomas de consumo se hacen desde la parte de arriba de la cañería, para no llevarse el agua y la suciedad; las purgas, en los puntos más bajos. El aire comprimido es de los servicios más caros de la planta, así que exige buen diseño y mantenimiento. Para el factor de simultaneidad hay que considerar consumos máximos, promedio e instantáneos de las máquinas que actúan a la vez."
+    },
+    {
+      "h": "U5 · Motores eléctricos, hidráulicos y neumáticos: comparación",
+      "p": "Eléctricos: económicos, confiables, rendimiento 80-90%. Hidráulicos: baja velocidad y gran par, robustos, velocidad variable, caros, rendimiento 80-85%. Neumáticos: gran relación potencia/peso, fácil regulación de velocidad, aguantan sobrecargas hasta detenerse sin dañarse, no hacen chispas (ambientes explosivos), sin riesgo eléctrico en ambientes húmedos y simples de mantener; pero su rendimiento es muy bajo, entre 12 y 30%."
+    },
+    {
+      "h": "U5 · Tanques de almacenamiento de hidrocarburos: tipos de techos flotantes",
+      "p": "Los techos flotantes pueden ser con pontones (flotadores perimetrales, doble cubierta) o de placa full-contact (una placa que apoya directamente sobre el líquido). Ambos eliminan la cámara de vapor sobre el producto, reduciendo pérdidas por evaporación y el riesgo de atmósfera explosiva."
+    },
+    {
+      "h": "U5 · Extremos de tubo: biselados, lisos y roscados",
+      "p": "Biselados: para soldadura a tope; lo más común en grandes diámetros y ductos largos. Lisos: para accesorios de soldadura tipo zócalo (socket weld); se usan con presiones interiores elevadas. Roscados: los más usados en diámetros chicos; no se recomiendan en alta presión porque la rosca reduce el espesor de pared."
+    },
+    {
+      "h": "U5 · Protección de cañerías contra la corrosión",
+      "p": "Protección catódica: una fuente externa de corriente continua hace que toda la superficie de la cañería actúe como cátodo; el problema es el costo en tramos de varios kilómetros. Recubrimientos externos: pintura estándar o epoxi, polímeros, PVC o HDPE, con espesor según la exposición. Recubrimientos internos, cuando el fluido corroe o erosiona: resinas epoxi, PVC, HDPE, teflón o cerámica. La identificación del fluido se hace con los colores de la norma IRAM 2507."
+    },
+    {
+      "h": "U5 · Cañerías de HDPE: MRS, tensión de diseño, SDR y presión nominal",
+      "p": "Ventajas: baja rugosidad, no se corroe, flexible, liviano, fácil de instalar. Sus límites son presión y temperatura. MRS (ISO 4427): mínima tensión tangencial que debe resistir a 20 °C durante al menos 50 años. PE80 = 8 MPa y PE100 = 10 MPa. Tensión de diseño S = MRS / C, con C = 1,25: PE80 da 6,4 MPa y PE100 da 8 MPa. SDR = diámetro externo / espesor; los comunes son 11 y 17 (menos 21 y 33). A menor SDR, pared más gruesa y más presión. Pn es la máxima presión de trabajo a 20 °C por 50 años; se obtiene como Pn = 2·S / (SDR − 1); por ejemplo PE100 SDR 11 da 1,6 MPa (PN 16). Almacenaje: sobre maderas, bajo techo o protegido del UV, sin arrastrar ni tirar los tubos."
+    },
+    {
+      "h": "U5 · Tanques de almacenamiento: clasificación, normas API y techos",
+      "p": "Normas: API 650 para tanques a presión atmosférica y API 620 para presión interna de hasta 1 kg/cm² (14 psi). Horizontales: volúmenes chicos, muy usados en transporte. Verticales de techo fijo, para líquidos de baja presión de vapor; según API 650 el techo es cónico, domo o sombrilla. El techo autosoportado apoya las chapas en la pared y se usa en diámetros menores a 16 m; el soportado apoya en una estructura y se usa en más de 16 m. Techo flotante (externo o interno), para volátiles como naftas o alcohol: flota sobre el líquido y elimina la cámara de vapor, reduciendo evaporación, emisiones y riesgo de incendio. El interno además tiene techo fijo arriba, que lo protege de la lluvia y del viento."
+    },
+    {
+      "h": "U5 · Compresores de aire: tipos",
+      "p": "De desplazamiento positivo (pistón): un pistón con biela y cigüeñal aspira y comprime el aire en el cilindro. Puede ser lubricado o no lubricado; en el no lubricado el aceite no toca el cilindro y no contamina el aire. Hay también de tornillo, paletas y lóbulos. Centrífugos radiales: el aire entra al centro del rotor, que lo lanza a gran velocidad a un difusor. Axiales: el aire circula paralelo al eje a través de discos rotores alternados con estatores, ganando presión en cada etapa. Recordá que los caudales se expresan en m³/min referidos a la Atmósfera Normal de Referencia (20 °C, 1,013 bar, 65 % HR)."
+    },
+    {
+      "h": "U6 · Diferencia entre residuo y desperdicio",
+      "p": "Residuos: materiales, elementos o sustancias sobrantes de todo proceso productivo o servicio, que deben acopiarse y luego externalizarse del inmueble, gestionándolos según las normas vigentes del sitio. Desperdicios: los efluentes (líquidos y gaseosos) y demás elementos contaminantes que se producen durante el desarrollo de la actividad. Los residuos se clasifican según las normas de cada sitio, no según su procedencia."
+    },
+    {
+      "h": "U6 · Etapas de la gestión de residuos",
+      "p": "1) Generación; 2) disposición inicial selectiva; 3) recolección diferenciada; 4) transporte; 5) tratamiento; 6) disposición final."
+    },
+    {
+      "h": "U6 · Generadores especiales de residuos sólidos urbanos (CABA y PBA)",
+      "p": "En CABA son, entre otros: hoteles de 4 y 5 estrellas o con más de 100 habitaciones o 200 plazas; bancos y aseguradoras; súper e hipermercados con más de 4 cajas; shoppings y galerías; locales con más de 300 personas por evento; cadenas con 6 o más sucursales; industrias, comercios y actividades que generen más de 500 litros diarios; clínicas con internación; edificios corporativos; eventos masivos. En PBA: Resolución OPDS 137/13 (countries y barrios cerrados), 139/13 (grandes generadores industriales, según la Ley 14.273) y 317/20 (generadores especiales: los que generan más de 1000 kg de residuos por mes)."
+    },
+    {
+      "h": "U6 · Residuos peligrosos: marco legal y tipos de generadores",
+      "p": "Nación: Ley 24.051 de residuos peligrosos (con el anexo de la Resolución 263/21). CABA: Ley 2214, con pequeños, medianos y grandes generadores según un puntaje polinómico del Decreto 104/23 (no incluye PCB ni patogénicos). PBA: Ley 11.720, generadores y pequeños generadores según kg por mes y tipo de residuo (incluye PCB, no patogénicos). En todo el país existe además el generador eventual: quien genera residuos peligrosos de forma eventual, no programada o accidental."
+    },
+    {
+      "h": "U6 · Efluentes líquidos: ¿qué se puede volcar y quién da los permisos?",
+      "p": "En CABA rige la Ley de Aguas 3295: se prohíbe volcar efluentes industriales o asimilables a la red pluvial, a cursos de agua superficiales y a la vía pública. Solo como excepción, si se negó el vuelco a cloaca, se dan permisos especiales y temporarios por emergencia. Los permisos de vuelco a pluvial y cursos de agua los da el GCBA y a cloaca AySA (con exigencias propias, de ACUMAR y de Nación). En PBA depende de cada municipio: según el caso intervienen AySA, ACUMAR, la ADA (provincia) o el INA (Nación)."
+    },
+    {
+      "h": "U6 · Efluentes gaseosos: emisión, inmisión y permisos",
+      "p": "Emisión: la concentración de contaminantes que vierte una fuente. Inmisión: la concentración presente en una atmósfera, a la que están expuestos los seres vivos y los materiales. La contaminación intramuros puede ser más relevante para la salud que la extramuros, porque pasamos más tiempo adentro. Fuentes: naturales, móviles, de área y fijas o estacionarias. Los titulares de fuentes fijas deben inscribirse en el registro de generadores y tramitar el permiso de emisión antes de empezar. Las emisiones las regula cada distrito, la calidad del aire ambiente su autoridad ambiental, y la del aire interior de trabajo en todo el país la Ley 19.587 y el Decreto 351/79."
+    },
+    {
+      "h": "U6 · Clasificación de los contaminantes atmosféricos con ejemplos",
+      "p": "Biológicos: bacterias, virus, hongos. Físicos: ruido y vibraciones, radiaciones ionizantes y no ionizantes. Químicos: primarios, que se vierten directamente a la atmósfera (por ejemplo gases de combustión), y secundarios, que se forman por reacciones químicas y fotoquímicas de los primarios (por ejemplo el smog)."
+    },
+    {
+      "h": "U6 · Materiales peligrosos: transporte, clasificación ONU e identificación",
+      "p": "Son sustancias imprescindibles para la vida moderna pero que presentan riesgos para la salud, la seguridad pública o el ambiente. Su transporte se rige por la Ley 24.449 y el Decreto 779/95, alineados con las recomendaciones de Naciones Unidas y el listado del MERCOSUR. Clases ONU: 1 explosivos; 2 gases (inflamables, no inflamables no tóxicos, tóxicos); 3 líquidos inflamables; 4 sólidos inflamables, espontáneamente inflamables y que emiten gases inflamables con agua; 5 oxidantes y peróxidos orgánicos; 6 tóxicos e infecciosos; 7 radiactivos; 8 corrosivos; 9 peligrosos para el ambiente y varios. Se identifican con el Sistema Globalmente Armonizado (SGA/GHS), de uso obligatorio en el trabajo: etiquetado uniforme y fichas de seguridad estandarizadas en castellano."
+    },
+    {
+      "h": "U6 · Almacenaje seguro de materiales peligrosos",
+      "p": "En Argentina todavía no hay una norma general que lo regule, y lo que sobra de su uso se gestiona como residuo (a veces bajo la Ley 24.051). Medidas mínimas: carpeta con las fichas de seguridad SGA; conocer la legislación específica; ordenar por tipo de producto; sectorizar por riesgo y compatibilidad; sistemas de detección, extinción acorde a la carga de fuego, contención de derrames e instalación eléctrica adecuada; planta limpia y envases cerrados; procedimientos de manejo y emergencia; mediciones de ambiente laboral; control de inventario y ubicación; señalización y capacitación."
+    },
+    {
+      "h": "U6 · ¿Cómo se etiqueta un contenedor de residuos peligrosos?",
+      "p": "Como mínimo: la leyenda \"RESIDUOS PELIGROSOS\", el nombre, la dirección y el teléfono del generador, la fecha de envasado y la naturaleza y tipo de los riesgos. Un RP puede ser sólido, semisólido, líquido o gaseoso (este último, contenido en un recipiente)."
+    },
+    {
+      "h": "U6 · Características que hacen peligroso a un residuo (CRETI)",
+      "p": "Corrosividad: pH ≤ 2,0 o ≥ 12,5, o corroe acero SAE 1020 a 6,35 mm/año o más a 55 °C. Explosividad: constante de explosividad igual o mayor a la del dinitrobenceno, o detona a 25 °C y 1,03 kg/cm². Toxicidad: el lixiviado de la prueba de extracción supera los límites de las tablas. Reactividad: polimeriza o reacciona violentamente sin detonar, reacciona con agua o con ácidos o bases liberando gases, o tiene cianuros o sulfuros que liberan más de 250 mg de HCN o 500 mg de H₂S por kg. A esto se suman la inflamabilidad y el carácter biológico infeccioso."
+    },
+    {
+      "h": "U6 · Requisitos de almacenamiento de residuos peligrosos",
+      "p": "Recipientes de material compatible y siempre cerrados (salvo al cargar o descargar). No mezclar residuos incompatibles y evitar apilar en exceso. Lo usado para contener un derrame (trapos, absorbentes, EPP) también es RP. Contención secundaria: canaleta perimetral ciega o sistema equivalente aprobado. Plan de contingencia visible por tipo de residuo. Áreas diferenciadas y señalizadas y registro de ubicaciones, cantidades recibidas, almacenadas y despachadas, a disposición de la autoridad. Los RP que se guardan para reutilizar se manejan con los mismos controles."
+    },
+    {
+      "h": "U6 · Terminología de la gestión de residuos peligrosos",
+      "p": "Registro de generadores y operadores: padrón donde se inscriben todos los que generan, transportan, tratan, almacenan o disponen RP. Certificado ambiental: habilita a operar. Manifiesto: documento que acompaña cada traslado y da trazabilidad \"de la cuna a la tumba\" (generador, transportista, operador). Libro de operaciones: registro interno de movimientos. Transportistas habilitados. Plantas de tratamiento: modifican las características del residuo para eliminar o reducir su peligrosidad. Disposición final: lugares acondicionados para depósito permanente. Los proyectos de plantas los firman profesionales con incumbencia."
+    },
+    {
+      "h": "U6 · Residuos patogénicos: gestión y tiempos de almacenamiento",
+      "p": "Son los que pueden tener infecciosidad, toxicidad o actividad biológica: cultivos, sangre, restos de quirófano, gasas, jeringas, cortopunzantes, restos de animales de laboratorio o veterinaria. Etapas: generación, segregación en el lugar (bolsa roja y descartadores rígidos tipo sharps), envasado y rotulado (establecimiento, fecha, símbolo de riesgo biológico, clase), almacenamiento transitorio, transporte habilitado en vehículo cerrado con manifiesto, tratamiento (autoclave, incineración, microondas) y disposición final ya inocuos. El almacenamiento primario se hace en el punto de generación, cerrando los recipientes al 75 %. El secundario es una sala exclusiva, ventilada, con piso impermeable con pendiente a desagüe y acceso restringido. El terciario, en planta. Tiempos: hasta 72 h sin refrigerar o hasta 7 días a 4 °C o menos."
+    },
+    {
+      "h": "U6 · PCB y residuos radiactivos",
+      "p": "PCB (bifenilos policlorados): hidrocarburos clorados usados desde 1930 en transformadores y capacitores, fluidos térmicos, aditivos de pinturas, selladores y plastificantes. Son persistentes y tóxicos y se gestionan como RP especiales. Radiactivos: las radiaciones ionizantes (rayos X y gamma, partículas alfa, beta y neutrones) alteran los tejidos; la actividad se mide en becquerelios (1 Bq = 1 desintegración por segundo). Residuo radiactivo es material radiactivo sin uso posterior previsto que no puede dispersarse según los límites de la ARN. Su gestión lo aísla de la biosfera hasta que decae. Fuentes: fabricación de combustibles (nivel bajo), centrales nucleares, desmantelamiento, radioisótopos y usos médicos, industriales y de I+D."
+    },
+    {
+      "h": "U6 · Residuos portuarios: RDONB vs. RDOP",
+      "p": "RDONB (residuos derivados de las operaciones normales de los buques): se generan a bordo, el responsable es el capitán o el armador y rige el Convenio MARPOL (ejemplo: aguas grises del buque). RDOP (derivados de la operatoria del puerto): se generan en el área portuaria, el responsable es el operador o concesionario y rige la Ley 24.051 más la normativa local (ejemplo: restos de grano en el muelle después de una descarga)."
+    },
+    {
+      "h": "U6 · Pilares de una gestión integral de residuos",
+      "p": "Cumplimiento normativo (habilitaciones, informes, actualización). Identificación y clasificación (caracterización y peligrosidad). Minimización en la fuente (tecnologías limpias, sustitución de insumos, economía circular). Almacenamiento seguro. Transporte controlado con manifiesto. Tratamiento y disposición final adecuados (incineración, neutralización, encapsulado, celdas de seguridad). Documentación y trazabilidad. Capacitación en las tres R. Cultura organizacional con indicadores ambientales."
+    }
+  ]
+}

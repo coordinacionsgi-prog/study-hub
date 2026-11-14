@@ -1,0 +1,70 @@
+{
+  "thesis": "Graneles sólidos: cómo se caracterizan (granulometría en Mesh, fluidez, ángulos, abrasividad, peso específico y propiedades secundarias) y con qué equipos se mueven: cintas transportadoras, elevadores a cangilones, roscas, Redler y transporte neumático.",
+  "examTip": "Siempre cae una cuenta de Mesh, la diferencia entre ángulo de reposo y de reacomodamiento, y los componentes de una cinta (tensores, rascadores, tambores). Preguntan mucho por qué el ángulo de inclinación máxima depende solo del material.",
+  "concepts": [
+    "Granel sólido",
+    "Mesh / escala Tyler",
+    "IRAM 1501",
+    "Diámetro equivalente por tamizado",
+    "Fluidez",
+    "Cohesión",
+    "Ángulo de reposo",
+    "Ángulo de reacomodamiento",
+    "Inclinación máxima",
+    "Abrasividad",
+    "CEMA 550",
+    "Cinta transportadora",
+    "Tensores",
+    "Rascadores",
+    "Elevador a cangilones",
+    "Rosca",
+    "Redler",
+    "Transporte neumático"
+  ],
+  "sections": [
+    {
+      "h": "Qué es un granel y cómo se comporta",
+      "p": "Áridos sin envasar que se mueven en grandes volúmenes: granos y semillas, minerales, cemento, carbón, fosfatos y nitratos. Resisten esfuerzos de corte en reposo (por eso forman pilas con talud estable), pero no tracción, y no se comportan como fluidos newtonianos. Se estudian con la mecánica de materiales a granel (derivada de la de suelos). Conocer sus características sirve para diseñar y elegir equipos, para almacenarlos y para la seguridad de instalaciones, personas y ambiente."
+    },
+    {
+      "h": "Granulometría: Mesh",
+      "p": "La norma IRAM 1501 define partícula, diámetro equivalente (abertura de la menor malla cuadrada por la que pasa), tela, urdimbre y trama. El número Mesh (escala Tyler) es la cantidad de aberturas por pulgada lineal: 25,4 mm = N × abertura + N × diámetro de alambre. A mayor Mesh, menor grano. Ejemplo: Mesh 4 con abertura de 4,76 mm → 25,4 = 4 × 4,76 + 4 × d, d = 1,59 mm. Normas de tamices: ASTM E11, ISO 3310, BS 410."
+    },
+    {
+      "h": "Fluidez y cohesión",
+      "p": "La fluidez o escurrimiento es la capacidad del granel de fluir y adaptarse a la geometría del equipo: muy fácil, fácil, media o difícil. Los no cohesivos (arena, granos, plásticos) fluyen fácil por un orificio; los cohesivos (arcilla húmeda) no."
+    },
+    {
+      "h": "Ángulos: reposo, reacomodamiento e inclinación máxima",
+      "p": "Ángulo de reposo α: el talud que forma una pila volcada sobre un plano horizontal. Puede variar hasta 15° en el mismo material. El escurrimiento aumenta (y α baja) con menor tamaño de partícula, menor rugosidad, mayor esfericidad, menor humedad y mayor homogeneidad. Ángulo de reacomodamiento δ: en movimiento el ángulo baja entre 10° y 15° por la trepidación de la banda sobre los rodillos; es el que se usa para calcular la sección de carga. Inclinación máxima λ: la que admite el transportador sin que el material resbale hacia atrás. En continuos no suele pasar de 18°-25° y depende solo del material."
+    },
+    {
+      "h": "Abrasividad, peso específico y características secundarias",
+      "p": "Abrasividad: capacidad de desgastar por fricción las partes del equipo: no abrasivo, abrasivo, muy abrasivo, con aristas cortantes. Peso específico: peso por volumen, para dimensionar la potencia. Las características secundarias (corrosividad, temperatura, higroscopicidad, explosividad, toxicidad, tendencia a apelmazarse o a aplastarse, polvo) se codifican con la norma ANSI/CEMA 550."
+    },
+    {
+      "h": "Cinta transportadora: componentes",
+      "p": "Banda; tambor motriz (de mando), de cola, de desvío y de tensado; rodillos de carga en artesa, de retorno y de impacto bajo la tolva; tolva de carga con faldones; tensor; limpiadores; estructura; motorreductor. Para dar más rozamiento al tambor motriz: recubrimiento de goma (engomado) y mayor ángulo de abrace con tambores de desvío o doble tambor."
+    },
+    {
+      "h": "Tensado y limpieza",
+      "p": "El tensor mantiene la tensión para que la banda no patine en el tambor motriz y no se forme catenaria entre rodillos. A tornillo: cintas cortas, ajuste manual. Por gravedad (contrapeso): cintas largas, tensión constante y automática. Limpieza: rascadores primarios y secundarios en el tambor de descarga, limpiador en V o arado delante del tambor de cola (sobre la cara interna) y raspadores de retorno. Evitan acumulación, desvío de la banda y desgaste."
+    },
+    {
+      "h": "La banda",
+      "p": "Carcasa de tejidos superpuestos (telas o lonas, o cables de acero) que da la resistencia a tracción, protegida por cubiertas de goma. La cubierta superior, que recibe el material, es más gruesa que la inferior. Se elige por ancho (según caudal y tamaño de terrón), cantidad de telas (según tensión), espesor y calidad de cubiertas (según abrasividad, temperatura, aceites) y tipo de empalme."
+    },
+    {
+      "h": "Elevadores a cangilones",
+      "p": "Transporte vertical. Centrífugos: banda a 1,2-4 m/s, cangilones separados, descarga por fuerza centrífuga en el tambor superior; para granos y materiales de escurrimiento fácil. De descarga continua (positiva): baja velocidad, cangilones contiguos que vuelcan sobre el dorso del anterior; para materiales frágiles, abrasivos o en terrones. Partes: cabezal con mando y freno antirretorno, bota con tensor, caños de subida y bajada, cangilones."
+    },
+    {
+      "h": "Roscas, Redler y neumático",
+      "p": "Rosca transportadora (tornillo sinfín): hélice en una canaleta o tubo; distancias cortas, puede mezclar o dosificar, es cerrada (sin polvo) y tiene alto consumo y desgaste. Redler: cadena con paletas dentro de un cajón cerrado que arrastra el material en masa; horizontal o inclinado, cerrado y de bajo desgaste. Neumático: el material va en una corriente de aire por cañerías. En fase diluida a alta velocidad, con poca carga por volumen de aire y mayor desgaste y rotura. En fase densa a baja velocidad, en tapones, con menos desgaste y degradación y más presión. Se elige por la fragilidad y abrasividad del material."
+    },
+    {
+      "h": "Otros equipos",
+      "p": "Cintas de paredes flexibles (bordes corrugados y tacos, permiten grandes inclinaciones hasta vertical). Cintas tubulares (la banda se cierra en tubo: sin derrames ni polvo, curvas en planta). Stackers (apiladoras) y reclaimers (recuperadoras) para playas de acopio de minerales y carbón."
+    }
+  ]
+}

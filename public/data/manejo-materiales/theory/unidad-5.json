@@ -1,0 +1,66 @@
+{
+  "thesis": "Manejo de fluidos: cañerías (caños vs. tubos, Schedule, espesor ASME, con y sin costura, extremos, protección, colores IRAM, HDPE), válvulas, bridas, bombas, tanques de almacenamiento y aire comprimido (ANR, compresores, tratamiento ISO 8573-1 y red).",
+  "examTip": "Lo que más se pregunta: diferencia caño-tubo, qué es el Schedule, la fórmula de espesor y la eficiencia de junta, bombas en serie y en paralelo, ANR y las calidades de aire. El curso de Grimolizzi agrega HDPE (MRS, SDR) y tanques API 650/620 con sus techos.",
+  "concepts": [
+    "Caño vs. tubo",
+    "Schedule (ANSI B36.10 / B36.19)",
+    "Espesor ASME",
+    "Eficiencia de junta",
+    "Con / sin costura",
+    "Extremos de tubo",
+    "Protección catódica",
+    "IRAM 2507",
+    "HDPE",
+    "MRS / SDR",
+    "Válvulas",
+    "Bridas",
+    "Bombas",
+    "Tanques API 650 / 620",
+    "Techo flotante",
+    "ANR",
+    "Compresores",
+    "ISO 8573-1"
+  ],
+  "sections": [
+    {
+      "h": "Pilares y caños vs. tubos",
+      "p": "Para estudiar fluidos: conocer el fluido (estado, temperatura, presión, corrosividad, viscosidad), conducirlo (cañerías, accesorios, válvulas), impulsarlo (bombas, compresores) y almacenarlo (tanques). Caño (pipe): para conducir fluidos, se designa por diámetro nominal y Schedule, y el diámetro exterior es fijo por medida. Tubo (tube): para intercambiadores, instrumentos o estructuras, se designa por diámetro exterior real y espesor (BWG), con tolerancias más ajustadas."
+    },
+    {
+      "h": "Schedule y espesor",
+      "p": "Schedule ≈ 1000 × P / S (presión interna sobre tensión admisible). ANSI B36.10 (acero al carbono): 5 a 160, STD, XS y XXS. SCH 40 coincide con STD hasta 10\" (después el STD queda en 3/8\"), y SCH 80 con XS hasta 8\" (después XS queda en 1/2\"). ANSI B36.19 (inoxidable): 5S, 10S, 40S y 80S. Espesor ASME: t = P·D / (2·(S·E + P·Y)) + c, con E eficiencia de junta (1 sin costura, menor con costura según el tipo de soldadura e inspección), Y coeficiente por temperatura y c sobreespesor por corrosión y erosión, rosca y tolerancia de fabricación (−12,5 %)."
+    },
+    {
+      "h": "Con y sin costura, extremos y protección",
+      "p": "Sin costura: laminado o extruido de un tocho; resiste más y tiene E = 1, pero es más caro y tiene límites de diámetro. Con costura: chapa curvada y soldada (ERW, LSAW, HSAW); más barato y para grandes diámetros, con menor E. Extremos: biselados (soldadura a tope, grandes diámetros), lisos (socket weld, alta presión) y roscados (diámetros chicos, no alta presión). Protección: catódica (cara en tramos largos), recubrimientos externos e internos. Identificación por colores según IRAM 2507."
+    },
+    {
+      "h": "HDPE",
+      "p": "Polietileno de alta densidad: no se corroe, liviano, flexible, baja rugosidad, fácil de instalar; sus límites son presión y temperatura. MRS es la tensión mínima que aguanta a 20 °C por 50 años: PE80 = 8 MPa y PE100 = 10 MPa. S = MRS / 1,25 da 6,4 y 8 MPa. SDR = D / e (11 y 17 comunes). Pn = 2S / (SDR − 1). Norma ISO 4427. Se estiba sobre madera, bajo techo o protegido del UV, sin arrastrar ni tirar los tubos."
+    },
+    {
+      "h": "Válvulas y bridas",
+      "p": "Válvulas de bloqueo (esclusa, bola, mariposa, macho): abren o cierran. De regulación (globo, aguja, mariposa): controlan el caudal. De retención (check, a clapeta o a pistón): impiden el retroceso. De seguridad o alivio: protegen contra sobrepresión. Bridas: slip-on, welding neck, socket, roscada, ciega y lap joint; series ANSI 150, 300, 600, 900, 1500 y 2500 según presión y temperatura; caras planas, con resalte o RTJ."
+    },
+    {
+      "h": "Bombas",
+      "p": "Centrífugas: el impulsor da energía cinética que la voluta transforma en presión; caudal continuo, fluidos poco viscosos, el caudal depende de la presión. De desplazamiento positivo (alternativas de pistón, émbolo o diafragma, o rotativas de engranajes, tornillo, lóbulos o paletas): entregan un volumen por ciclo casi independiente de la presión, para fluidos viscosos y altas presiones, y necesitan válvula de alivio. En serie se suman las alturas con el mismo caudal; en paralelo se suman los caudales con la misma altura."
+    },
+    {
+      "h": "Tanques de almacenamiento",
+      "p": "API 650 para tanques atmosféricos y API 620 para tanques de hasta 1 kg/cm². Horizontales (poco volumen, transporte), verticales de techo fijo (cónico, domo o sombrilla; autosoportado en diámetros menores a 16 m y soportado en mayores) para baja presión de vapor, y de techo flotante externo o interno, con pontones o full-contact, para volátiles: eliminan la cámara de vapor y reducen emisiones, pérdidas y riesgo. Hay tanques elevados y enterrados, y siempre con recinto de contención para derrames."
+    },
+    {
+      "h": "Aire comprimido: ANR y compresores",
+      "p": "Ventajas: abundante, se transporta y almacena fácil, no hay riesgo eléctrico ni de explosión y es limpio, con velocidades altas regulables. Desventajas: hay que tratarlo, es costoso de producir, ruidoso y con fuerzas limitadas. ANR (ISO R554): 20 °C, 1,013 bar y 65 % de humedad relativa; los consumos se dan en m³/min de ANR. Compresores de desplazamiento positivo (pistón lubricado o no lubricado, tornillo, paletas, lóbulos) y dinámicos (centrífugos radiales y axiales)."
+    },
+    {
+      "h": "Tratamiento y red de aire",
+      "p": "Impurezas: partículas, agua (vapor y condensado) y aceite, que dañan los equipos neumáticos. Tratamiento: filtro de aspiración, posenfriador, separador, secador (frigorífico o adsorción), filtros de línea y coalescentes, y unidad FRL (filtro, regulador y lubricador) en cada consumo. ISO 8573-1 define clases de calidad por partículas, punto de rocío y aceite. Red: troncal en anillo con pendiente de 1-2 % en sentido del flujo, secundarias, tomas que salen por arriba (cuello de cisne), purgas en los puntos bajos y tanque pulmón."
+    },
+    {
+      "h": "Motores eléctricos, hidráulicos y neumáticos",
+      "p": "Eléctricos: buen rendimiento y control, para uso continuo, pero con riesgo en atmósferas explosivas. Hidráulicos: mucha fuerza y par en poco tamaño, regulación fina, con riesgo de pérdidas de aceite. Neumáticos: livianos, seguros en ambientes explosivos y húmedos, aguantan sobrecarga sin dañarse y regulan velocidad fácil, pero con bajo rendimiento y ruido."
+    }
+  ]
+}

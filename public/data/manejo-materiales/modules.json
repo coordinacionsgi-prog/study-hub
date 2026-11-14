@@ -12,6 +12,30 @@
     "description": "Clasificación de los materiales a mover, propiedades físicas, unidades de carga y normas de manejo manual (ergonomía, límites de peso)."
   },
   {
+    "id": "unidad-3",
+    "title": "Unidad 3 · Manejo de Graneles Sólidos",
+    "unidad": "Unidad 3",
+    "description": "Características de los graneles (Mesh, fluidez, ángulos, abrasividad, CEMA 550) y equipos: cintas transportadoras, elevadores a cangilones, roscas, Redler y transporte neumático."
+  },
+  {
+    "id": "unidad-4",
+    "title": "Unidad 4 · Manejo de Unidades de Carga",
+    "unidad": "Unidad 4",
+    "description": "Transportadores aéreos Power y Power & Free, de piso y por gravedad, EOM y AGV, colchón de aire, ruedas industriales, puentes grúa, accesorios de izaje, Decreto 351/79 y trabajo en altura."
+  },
+  {
+    "id": "unidad-5",
+    "title": "Unidad 5 · Manejo de Fluidos",
+    "unidad": "Unidad 5",
+    "description": "Caños y tubos, Schedule y espesor ASME, HDPE, válvulas, bridas, bombas, tanques API 650/620 y aire comprimido (ANR, compresores, ISO 8573-1, red)."
+  },
+  {
+    "id": "unidad-6",
+    "title": "Unidad 6 · Residuos, Desperdicios y Materiales Peligrosos",
+    "unidad": "Unidad 6",
+    "description": "Residuo vs. desperdicio, RSU y generadores especiales, residuos peligrosos (Ley 24.051), efluentes, patogénicos, PCB, radiactivos, portuarios y transporte y almacenaje de materiales peligrosos."
+  },
+  {
     "id": "unidad-7",
     "title": "Unidad 7 · Almacenes y Supply Chain",
     "unidad": "Unidad 7",
@@ -28,6 +52,18 @@
     "title": "Unidad 9 y 10 · Distribución en Planta y Diseño de Lay-out",
     "unidad": "Unidad 9 y 10",
     "description": "Tipos de distribución en planta (por producto, proceso, posición fija, celular) y la metodología SLP (Systematic Layout Planning) de Richard Muther."
+  },
+  {
+    "id": "practica-cadenas",
+    "title": "Práctica 2do parcial · Transportadores aéreos a cadena",
+    "unidad": "Unidad 4 (práctica)",
+    "description": "Método en 5 pasos para el tiro de cadena y el % de aumento de carga, el 2do parcial resuelto (temas 1 a 4), los casos de la cátedra y el TP 4."
+  },
+  {
+    "id": "parcial-2",
+    "title": "2do parcial · Banco de preguntas respondidas",
+    "unidad": "Unidades 3 a 6",
+    "description": "Preguntas de teoría del 2do parcial (estilo Grimolizzi y banco del campus) respondidas, ordenadas por unidad."
   },
   {
     "id": "clases-grabadas",

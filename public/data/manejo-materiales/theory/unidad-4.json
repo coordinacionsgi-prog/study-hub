@@ -1,0 +1,77 @@
+{
+  "thesis": "Manejo de unidades de carga: cadenas y transportadores aéreos (Power y Power & Free), transportadores de piso y de acción libre, sistemas autónomos (EOM y AGV), colchón de aire, ruedas industriales, puentes grúa, accesorios de izaje y la normativa de izaje y trabajo en altura.",
+  "examTip": "Es la unidad más larga y la que más pesa. Teoría que se repite: Power vs. Power & Free, troley y load bar, los tres pasos, Caterpillar, AGV, colchón de aire, ruedas (de qué depende la carga y las configuraciones), designación del cable y coeficientes del Decreto 351/79. La práctica (tiro de cadenas) está en su propio módulo.",
+  "concepts": [
+    "Unitarización",
+    "Power",
+    "Power & Free",
+    "Troley",
+    "Load bar",
+    "Caterpillar",
+    "Transportadores de piso",
+    "Acción libre",
+    "EOM / EMS",
+    "AGV",
+    "Colchón de aire",
+    "Ruedas industriales",
+    "Mecanum",
+    "Puente grúa",
+    "Pescante",
+    "Cable de acero",
+    "Factor de relleno",
+    "Eslingas",
+    "Grado 8 / 10",
+    "Decreto 351/79",
+    "Trabajo en altura"
+  ],
+  "sections": [
+    {
+      "h": "Unitarización y cadenas",
+      "p": "Unitarizar es agrupar la carga en unidades estándar (pallet, contenedor, caja) para moverla con equipos mecánicos, bajar costos y manipulaciones y facilitar el control. Tipos de cadena: de rodillos (transmisión y transportadores livianos), forjadas desmontables de 3\", 4\" y 6\" (X348, X458, X678) para transportadores aéreos y de piso, cadenas para áridos (Redler, cangilones), cadenas Unibilt articuladas para baja carga y cadenas calibradas para izaje (grado 8 o 10)."
+    },
+    {
+      "h": "Transportadores aéreos Power y Power & Free",
+      "p": "Power: la carga cuelga del troley que va unido a la cadena; todas las piezas avanzan juntas y a la misma velocidad. Solo transporta. Power & Free: dos perfiles, uno arriba para la cadena (power) con empujadores y otro abajo para los troleys libres (free) que llevan la carga. Los empujadores arrastran los carros, que pueden detenerse, acumularse, desviarse y almacenarse. Transporta y almacena temporalmente. Power vs. P&F: en el Power la carga pende del troley y en el P&F los troleys la empujan, pero los cálculos de cadena son casi iguales."
+    },
+    {
+      "h": "Troley, load bar y los tres pasos",
+      "p": "Troley: carrito con ruedas que rueda por el perfil y sostiene la cadena y la carga. Load bar: barra que une dos troleys para repartir una carga que supera la capacidad de uno. Pasos: el de la cadena (por ejemplo 4\"), el de la cadena armada (distancia entre troleys, múltiplo del de cadena) y el de carga (distancia entre piezas, igual o múltiplo del de cadena armada). El de carga puede ser mayor porque piezas grandes necesitan separación o porque la producción requerida es menor."
+    },
+    {
+      "h": "Mandos Caterpillar y tensores",
+      "p": "El mando Caterpillar es una cadena auxiliar con dientes que engrana en la cadena del transportador en un tramo recto. Fijo: posición fija, para circuitos cortos. Flotante: montado sobre resortes, absorbe variaciones de tiro y permite usar varios mandos en circuitos largos. Tensores (a tornillo, contrapeso o neumáticos) en las curvas horizontales para compensar el estiramiento y el desgaste de la cadena."
+    },
+    {
+      "h": "Transportadores de piso y de acción libre",
+      "p": "Piso: a rodillos accionados (por motor directo o por cadena: el de cadena sirve para cargas pesadas pero tiene más mantenimiento), a cadenas para pallets y skids (más de dos ramales para cargas anchas o flexibles, que no flexionen), flat-top y slat (placas articuladas para envases, botellas o autos), inverted power & free (sobre el piso, en líneas de montaje). Acción libre (por gravedad, sin energía): rodillos, roldanas (skatewheel), bolillas y omnirruedas."
+    },
+    {
+      "h": "Sistemas autónomos: EOM/EMS y AGV",
+      "p": "EOM/EMS: carros con motor propio que corren por un riel aéreo con alimentación eléctrica por barra colectora y control individual. Frente al P&F no tienen cadena, hacen menos ruido y menos mantenimiento, varían la velocidad por carro y la traza es flexible. AGV: vehículo autoguiado con batería (ácida, gel, níquel-cadmio o litio), sensores de seguridad, control y guiado por cable inductivo, banda magnética, óptico, láser, natural o satelital. Ventajas: flexibilidad de recorrido, menos personal y accidentes, trazabilidad e integración con el WMS. Usos: almacenaje, producción, correo y logística, hospitales."
+    },
+    {
+      "h": "Colchón de aire",
+      "p": "La carga apoya en módulos (cojines) que inyectan aire a presión y forman una película entre el cojín y el piso: casi sin fricción, una persona empuja varias toneladas. Fuerza de sustentación = presión × área efectiva del cojín. Se pierde aire por la sección de fuga (perímetro × altura de la película). Ventajas: cargas muy pesadas, movimiento omnidireccional, poco espacio, no daña el piso. Limitaciones: el piso tiene que ser liso, sin juntas ni pendientes y no poroso; consumo de aire comprimido; no sirve en rampas. El número índice de consumo relaciona el caudal de aire con la carga y la terminación del piso."
+    },
+    {
+      "h": "Ruedas industriales",
+      "p": "Diseño: llanta o banda de rodadura (poliuretano, goma, nylon, fundición, acero), núcleo, rodamiento y soporte fijo o giratorio, con freno. La carga admisible depende del material de la banda, del diámetro y del ancho, de la velocidad, del piso, de la temperatura y de los choques. Carga por rueda = (peso propio + carga) / cantidad de ruedas que apoyan efectivamente, con coeficiente por irregularidad del piso (en 4 ruedas se calcula sobre 3). Configuraciones: 4 giratorias (máxima maniobra, difícil de guiar), 2 fijas + 2 giratorias (lo más común), 6 ruedas con fijas al medio (gira sobre su eje). Mecanum u omnidireccionales: rodillos a 45° en la periferia que, combinando el giro de cada rueda, mueven el vehículo en cualquier dirección sin girar."
+    },
+    {
+      "h": "Puentes grúa, pórticos y pescantes",
+      "p": "Puente grúa: vigas principales (mono o birriel) sobre vigas testeras que ruedan por vigas carrileras apoyadas en las columnas de la nave, carro con polipasto, botonera o control remoto. Grúa pórtico: apoya en el piso con las vías empotradas, para el exterior de la nave. Pescante mural (180°) o de bandera sobre columna (360°). Polipastos, aparejos, malacates y cabrestantes. Cable o cadena: el cable sirve para grandes alturas y velocidades y es silencioso; la cadena es más compacta, para recorridos cortos y ambientes agresivos. Las pastecas (móviles) multiplican la cantidad de ramales y reducen el tiro por ramal."
+    },
+    {
+      "h": "Cables de acero, eslingas y accesorios",
+      "p": "Cable: alambres → cordones → cable, alrededor de un alma (fibra FC, que es flexible, o acero IWRC, que da más resistencia y aguanta temperatura). Designación: por ejemplo 6×19 Seale + IWRC, con tipo de torsión (regular o Lang). El diámetro se mide sobre el círculo circunscrito. El factor de relleno va de 0,46 a 0,75 y es mayor con alma de acero y cordones compactados. Eslingas de cable, cadena o sintéticas (nylon y poliéster; según la cátedra el nylon se estira 2-3 % y el poliéster hasta 10 %). Cadenas de grado 8 o 10 (el 10 tiene 25 % más capacidad y 40 % menos peso). Grilletes recto o lira, con perno o tuerca. Guardacabos, prensacables, ganchos con traba y perchas separadoras cuando el ángulo de eslinga es excesivo."
+    },
+    {
+      "h": "Decreto 351/79: izaje",
+      "p": "Art. 114: la carga máxima se marca en el aparato, legible desde el piso, y no se puede superar. Art. 115: subir y bajar lento, sin tirones, en vertical; no dejar cargas suspendidas ni viajar sobre ellas. Art. 116: ensayo antes del primer uso, control diario por el operador y revisión trimestral a fondo por personal especializado. Art. 118, coeficientes de seguridad para ganchos: 3 en aparatos manuales, 4 en aparatos a motor y 5 para materiales peligrosos (más los de cables y cadenas que da el decreto)."
+    },
+    {
+      "h": "Trabajo en altura y elevación de personas",
+      "p": "Dec. 351/79: el riesgo de caída empieza a 2 m (art. 54); desde 2,5 m el cinturón con cabo de vida es obligatorio y se calcula para una caída libre de 5 m (art. 112); en tareas cortas valen las mínimas del art. 57. Elementos: anclajes permanentes o temporales, arnés de cuerpo completo, conectores de posicionamiento o anticaídas. Plataformas: unipersonal hasta 15 m; tijera para 3 a 5 personas; articulada y telescópica de más de 40 m; canasto de grúa con hasta 50 % de capacidad en grúa fija o 40 % en móvil y grúa mínima de 1000 kg. Con interlock, inclinómetro, SWL visible y arnés."
+    }
+  ]
+}

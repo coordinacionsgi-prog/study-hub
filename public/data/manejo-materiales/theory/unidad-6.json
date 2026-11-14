@@ -1,0 +1,66 @@
+{
+  "thesis": "Gestión de residuos, desperdicios y materiales peligrosos: diferencia residuo-desperdicio, etapas de la gestión, RSU y generadores especiales, residuos peligrosos (Ley 24.051, características, etiquetado, almacenamiento, manifiesto), efluentes líquidos y gaseosos, residuos especiales (patogénicos, PCB, radiactivos, portuarios) y transporte y almacenaje de materiales peligrosos.",
+  "examTip": "Preguntas fijas: residuo vs. desperdicio, etapas de la gestión, tipos de generadores, qué se puede volcar y quién lo habilita, emisión vs. inmisión, clases ONU de materiales peligrosos y almacenaje seguro. Grimolizzi suma el etiquetado de RP, CRETI y los patogénicos.",
+  "concepts": [
+    "Residuo vs. desperdicio",
+    "Lean / LPM",
+    "Cuna a tumba",
+    "RSU",
+    "Generadores especiales",
+    "Ley 24.051",
+    "Manifiesto",
+    "CRETI",
+    "Etiqueta RP",
+    "Contención secundaria",
+    "Efluentes líquidos",
+    "Emisión / inmisión",
+    "Patogénicos",
+    "PCB",
+    "Radiactivos (ARN)",
+    "MARPOL",
+    "Clases ONU",
+    "Fichas SGA"
+  ],
+  "sections": [
+    {
+      "h": "Residuo vs. desperdicio",
+      "p": "Desperdicio: uso ineficiente de un recurso que se podía evitar (material, energía, tiempo), un concepto de gestión y de mejora continua (lean). Residuo: lo que queda de un proceso y no tiene uso inmediato en él; puede ser inevitable y debe gestionarse según la normativa (reducir, reutilizar, reciclar, tratar, disponer). Minimizar desperdicios reduce la generación de residuos."
+    },
+    {
+      "h": "Etapas de la gestión",
+      "p": "Generación, separación en origen, almacenamiento transitorio, recolección y transporte, tratamiento (o valorización) y disposición final, con trazabilidad \"de la cuna a la tumba\". En residuos domiciliarios: secos, orgánicos (compostables) y húmedos (\"basura\"), más voluminosos, áridos, poda y RAEE."
+    },
+    {
+      "h": "RSU y generadores especiales",
+      "p": "Los residuos sólidos urbanos los gestiona el municipio. Los grandes generadores (comercios, industrias, hoteles, shoppings según cantidad o tipo), definidos en CABA y en PBA, deben separar, contratar transporte y tratamiento propios y presentar planes de gestión."
+    },
+    {
+      "h": "Residuos peligrosos",
+      "p": "Ley 24.051 (y normativa provincial, como la 11.720 en PBA): son peligrosos los que pueden dañar a seres vivos o contaminar suelo, agua o aire. Generadores, transportistas y operadores se inscriben en el registro y obtienen el certificado ambiental; cada traslado va con manifiesto. Características (CRETI): corrosividad (pH ≤ 2 o ≥ 12,5), reactividad, explosividad, toxicidad por lixiviado e inflamabilidad. Etiqueta: \"RESIDUOS PELIGROSOS\", datos del generador, fecha de envasado y riesgos."
+    },
+    {
+      "h": "Almacenamiento de RP",
+      "p": "Recipientes compatibles y cerrados, sin mezclar incompatibles, sin apilar de más, contención secundaria (canaleta ciega o cubeto), plan de contingencia visible, áreas señalizadas y registro de entradas y salidas. El material de limpieza de derrames también es RP."
+    },
+    {
+      "h": "Efluentes líquidos y gaseosos",
+      "p": "Líquidos: solo se vuelca lo que cumple los límites del cuerpo receptor (colectora cloacal, pluvial, curso de agua, absorción) y con permiso de vuelco de la autoridad (AySA, ADA en PBA, ACUMAR en la cuenca). Si no cumple se trata antes (físico, químico o biológico). Gaseosos: emisión es lo que sale por la chimenea (se mide en la fuente) e inmisión es la concentración en el aire que respira la población (calidad de aire). Se requiere permiso de descarga de contaminantes a la atmósfera. Contaminantes: material particulado, gases (SOx, NOx, CO, COV) y olores, primarios o secundarios."
+    },
+    {
+      "h": "Residuos patogénicos, PCB y radiactivos",
+      "p": "Patogénicos: separados en bolsa roja y descartadores rígidos, rotulados, guardados hasta 72 h sin refrigerar o 7 días a 4 °C o menos, transportados con manifiesto y tratados (autoclave, incineración) antes de la disposición final. PCB: aceites de transformadores y capacitores, persistentes y tóxicos, se retiran y destruyen como RP. Radiactivos: los regula la ARN y se aíslan de la biosfera hasta que decaen; los equipos de rayos X necesitan autorización."
+    },
+    {
+      "h": "Portuarios y aeroportuarios",
+      "p": "RDONB: generados a bordo, bajo responsabilidad del capitán o armador y del Convenio MARPOL. RDOP: generados en el puerto, bajo responsabilidad del operador y de la Ley 24.051 más la normativa local. En aeropuertos se distinguen de forma análoga los residuos de la operación de las aeronaves y los de la operatoria aeroportuaria."
+    },
+    {
+      "h": "Materiales peligrosos: transporte e identificación",
+      "p": "Clasificación ONU en 9 clases: 1 explosivos, 2 gases, 3 líquidos inflamables, 4 sólidos inflamables, 5 comburentes y peróxidos, 6 tóxicos e infecciosos, 7 radiactivos, 8 corrosivos y 9 varios. Se identifican con rombo de clase, número ONU y panel naranja con número de riesgo; el vehículo va habilitado, con conductor capacitado, hoja de ruta y fichas de seguridad. Normas: ADR y RTN, y en Argentina el reglamento de transporte de mercancías peligrosas."
+    },
+    {
+      "h": "Almacenaje seguro de materiales peligrosos",
+      "p": "No hay una norma nacional general; se aplican la Ley 19.587 con el Decreto 351/79 y normas específicas por producto. Medidas: fichas de seguridad SGA a mano, sectorizar por riesgo y compatibilidad, ventilación, piso impermeable con contención, señalización, extintores adecuados, EPP, capacitación y plan de emergencia. Los locales pueden ser internos o externos a la planta si cumplen todas las condiciones."
+    }
+  ]
+}
