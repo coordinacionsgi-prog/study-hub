@@ -1,32 +1,44 @@
 [
   {
+    "id": "teoria-presupuestos",
+    "title": "2do parcial · Teoría de presupuestos",
+    "unidad": "2do parcial · Presupuestos",
+    "description": "Planeamiento, presupuesto maestro, económico vs. financiero, estados proyectados, tipos de presupuesto, control presupuestario y desvíos, con tablas comparativas."
+  },
+  {
     "id": "parcial-presupuestos",
-    "title": "Parcial · Presupuestos (práctica resuelta)",
-    "unidad": "Planeamiento y presupuestos",
-    "description": "Método para el flujo de caja, el estado de resultados y el balance proyectados, con el Tema 2 del 1er parcial del 03/11/2026 resuelto paso a paso."
+    "title": "2do parcial · Práctica de presupuestos (Tema 2 resuelto)",
+    "unidad": "2do parcial · Presupuestos",
+    "description": "Enunciado del Tema 2 del 03/11/2026 y su resolución paso a paso con tablas: ventas-CMV-compras, matrices de cobros y pagos, flujo de caja, estado de resultados y balance proyectado."
+  },
+  {
+    "id": "teoria-inflacion",
+    "title": "2do parcial · Teoría de ajuste por inflación",
+    "unidad": "2do parcial · Inflación",
+    "description": "Índices y coeficientes, moneda heterogénea vs. homogénea, partidas monetarias y no monetarias, RECPAM, valuación al cierre y el caso testigo de la cátedra con sus 4 alternativas."
   },
   {
     "id": "parcial-inflacion",
-    "title": "Parcial · Ajuste por inflación (práctica resuelta)",
-    "unidad": "Ajuste por inflación",
-    "description": "Moneda heterogénea vs. homogénea, RECPAM y valuación al cierre, con dos ejercicios de parcial resueltos y justificados."
+    "title": "2do parcial · Práctica de ajuste por inflación",
+    "unidad": "2do parcial · Inflación",
+    "description": "Ejercicios de parcial y TP 5, 6 y 7 resueltos con balance heterogéneo y homogéneo y cuadro de justificación por partida."
+  },
+  {
+    "id": "parcial-teoria",
+    "title": "Preguntas de parcial respondidas",
+    "unidad": "2do parcial · Banco de preguntas",
+    "description": "Banco de preguntas de teoría de los parciales 2023-2026 respondidas: verdadero o falso, tipos de presupuesto, control presupuestario, GIF, IVA, Ganancias, Bienes Personales, Ingresos Brutos, monotributo, leasing, factoring y RECPAM."
   },
   {
     "id": "parcial-gif",
     "title": "Parcial · GIF y cuota predeterminada (TP 1 resuelto)",
-    "unidad": "Gastos indirectos de fabricación",
+    "unidad": "Complementario · GIF",
     "description": "Distribución primaria y secundaria en cascada, cuota predeterminada por centro, carga aplicada por producto y subaplicación, con el TP 1 de las barandas resuelto."
-  },
-  {
-    "id": "parcial-teoria",
-    "title": "Parcial · Teoría respondida (presupuestos, tributos e inflación)",
-    "unidad": "Planeamiento, control, GIF, tributos e inflación",
-    "description": "Banco de preguntas de teoría de los parciales 2023-2026 respondidas: verdadero o falso, tipos de presupuesto, control presupuestario, GIF, IVA, Ganancias, Bienes Personales, Ingresos Brutos, monotributo, leasing, factoring y RECPAM."
   },
   {
     "id": "pronosticos",
     "title": "Pronósticos (Forecast)",
-    "unidad": "Unidad 1",
+    "unidad": "1er parcial · Unidad 1",
     "description": "Métodos de pronóstico de demanda: promedios móviles, suavizado exponencial, tabla T, medición de error.",
     "extracted": [
       "Forecast Pronost Teoria v26.txt",
@@ -38,7 +50,7 @@
   {
     "id": "costos-std",
     "title": "Costos Estándar",
-    "unidad": "Unidad 2 / Bloque UNO",
+    "unidad": "1er parcial · Unidad 2 / Bloque UNO",
     "description": "Costeo estándar, desvíos en cantidad y precio de materiales, mano de obra y carga fabril.",
     "extracted": [
       "Costos STD Teoria.txt",
@@ -51,7 +63,7 @@
   {
     "id": "analisis-marginal",
     "title": "Análisis Marginal",
-    "unidad": "Unidad 3 / Bloque DOS",
+    "unidad": "1er parcial · Unidad 3 / Bloque DOS",
     "description": "Costeo variable vs. absorbente, punto de equilibrio, contribución marginal, medición y reporte de costos históricos.",
     "extracted": [
       "Análisis Marginal Guia v26.txt",
@@ -63,7 +75,7 @@
   {
     "id": "ae1-eecc",
     "title": "AE1 · Estados Contables (EECC)",
-    "unidad": "Unidad 4",
+    "unidad": "1er parcial · Unidad 4",
     "description": "Lectura y análisis de estados contables: balance, resultados, ejemplos reales (Molinos, La Romana).",
     "extracted": [
       "AE1 Teoria v26.txt",
@@ -75,7 +87,7 @@
   {
     "id": "ae2",
     "title": "AE2 · Variaciones Patrimoniales",
-    "unidad": "Unidad 5",
+    "unidad": "1er parcial · Unidad 5",
     "description": "Análisis de variaciones patrimoniales y ejercicios guiados de un período.",
     "extracted": [
       "AE2_Teoria v26 1c.txt",
@@ -88,7 +100,7 @@
   {
     "id": "ae3-ae4",
     "title": "AE3 y AE4 · Ratios e Indicadores",
-    "unidad": "Unidad 6 / Unidad 11",
+    "unidad": "1er parcial · Unidad 6 / Unidad 11",
     "description": "Ratios financieros, comparables por industria, ejercicio integrador Requilsur y Tata del Sur.",
     "extracted": [
       "AE3 Teoria y AE4  v26 1c.txt",
@@ -101,7 +113,7 @@
   {
     "id": "bloque-uno",
     "title": "Bloque UNO (integrador)",
-    "unidad": "Unidad 7",
+    "unidad": "1er parcial · Unidad 7",
     "description": "Integración de costos estándar, pronósticos y ratios en el caso Requilsur.",
     "extracted": [
       "Bloque UNO AE331 Requilsur ej c Soluc.txt",
@@ -111,7 +123,7 @@
   {
     "id": "ae5-ciclos-rotacion",
     "title": "AE5 · Ciclos de Rotación",
-    "unidad": "Unidad 8",
+    "unidad": "1er parcial · Unidad 8",
     "description": "Ciclo operativo y de conversión de efectivo, ratios de rotación, casos a dos períodos.",
     "extracted": [
       "AE5_Teoria_v26_Ciclos Rotac 1c.txt",
@@ -123,7 +135,7 @@
   {
     "id": "ae6-nof-tesoreria",
     "title": "AE6 · NOF y Tesorería",
-    "unidad": "Unidad 9 / Unidad 10",
+    "unidad": "1er parcial · Unidad 9 / Unidad 10",
     "description": "Necesidades operativas de fondos (NOF), gestión de tesorería.",
     "extracted": [
       "AE6_Teoria_v26_NOF Tesoreria 1c.txt",
@@ -137,7 +149,7 @@
   {
     "id": "ae7-eva",
     "title": "AE7 · EVA (Valor Económico Agregado)",
-    "unidad": "Unidad 10 / Unidad 11",
+    "unidad": "1er parcial · Unidad 10 / Unidad 11",
     "description": "Cálculo e interpretación del EVA como medida de creación de valor.",
     "extracted": [
       "AE7_Teoria_v26_EVA 1c.txt",
@@ -148,7 +160,7 @@
   {
     "id": "bloque-dos",
     "title": "Bloque DOS (integrador)",
-    "unidad": "Unidad 11",
+    "unidad": "1er parcial · Unidad 11",
     "description": "Integración de análisis marginal y costos estándar en ejercicios combinados.",
     "extracted": [
       "Bloque DOS - ejercicios y teoria.txt",

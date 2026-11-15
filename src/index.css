@@ -731,6 +731,83 @@ h1, h2, h3 {
   font-style: italic;
 }
 
+/* Tablas y pasos dentro de la teoría */
+.theory-steps {
+  margin: 10px 0 0;
+  padding-left: 22px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.theory-steps li {
+  margin-bottom: 4px;
+}
+
+.theory-table-block {
+  margin-top: 14px;
+}
+
+.theory-table-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.theory-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.theory-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.theory-table th,
+.theory-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.theory-table th {
+  background: rgba(15, 118, 110, 0.08);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 12.5px;
+}
+
+.theory-table td.num {
+  text-align: right;
+}
+
+.theory-table tr:last-child td {
+  border-bottom: none;
+}
+
+.theory-table tr.is-strong td {
+  font-weight: 700;
+  background: rgba(15, 118, 110, 0.05);
+}
+
+.theory-section p.theory-table-note {
+  margin-top: 6px;
+  font-size: 12.5px;
+  color: var(--text-dim);
+}
+
+.theory-section p.theory-after {
+  margin-top: 12px;
+}
+
 .theory-section-highlight {
   animation: theory-highlight-flash 2.2s ease;
   border-radius: 10px;

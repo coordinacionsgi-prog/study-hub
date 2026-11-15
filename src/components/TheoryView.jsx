@@ -63,15 +63,56 @@ export default function TheoryView({ subjectId, moduleId, scrollRequest }) {
                 <p>{s.easy}</p>
               </div>
             )}
-            {s.figures?.map((f, j) => (
-              <figure key={j} className="theory-figure">
-                <a href={`${import.meta.env.BASE_URL}img/instalaciones/${f.src}`} target="_blank" rel="noopener noreferrer">
-                  <img src={`${import.meta.env.BASE_URL}img/instalaciones/${f.src}`} alt={f.alt || f.caption} loading="lazy" />
-                </a>
-                <figcaption>{f.caption} <span className="theory-figure-hint">· tocá la imagen para ampliarla</span></figcaption>
-              </figure>
+            {s.figures?.map((f, j) => {
+              const src = `${import.meta.env.BASE_URL}img/${f.dir || "instalaciones"}/${f.src}`;
+              return (
+                <figure key={j} className="theory-figure">
+                  <a href={src} target="_blank" rel="noopener noreferrer">
+                    <img src={src} alt={f.alt || f.caption} loading="lazy" />
+                  </a>
+                  <figcaption>{f.caption} <span className="theory-figure-hint">· tocá la imagen para ampliarla</span></figcaption>
+                </figure>
+              );
+            })}
+            {s.p && <p>{s.p}</p>}
+            {s.steps?.length > 0 && (
+              <ol className="theory-steps">
+                {s.steps.map((st, j) => (
+                  <li key={j}>{st}</li>
+                ))}
+              </ol>
+            )}
+            {s.tables?.map((t, j) => (
+              <div key={j} className="theory-table-block">
+                {t.title && <div className="theory-table-title">{t.title}</div>}
+                <div className="theory-table-wrap">
+                  <table className="theory-table">
+                    {t.head && (
+                      <thead>
+                        <tr>
+                          {t.head.map((h, k) => (
+                            <th key={k}>{h}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                    )}
+                    <tbody>
+                      {t.rows.map((r, k) => (
+                        <tr key={k} className={t.strong?.includes(k) ? "is-strong" : undefined}>
+                          {r.map((c, m) => (
+                            <td key={m} className={m > 0 && /^[−\-–(]?\$?\s?[\d.,]+%?\)?$|^—$/.test(String(c).trim()) ? "num" : undefined}>
+                              {c}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                {t.note && <p className="theory-table-note">{t.note}</p>}
+              </div>
             ))}
-            <p>{s.p}</p>
+            {s.after && <p className="theory-after">{s.after}</p>}
           </div>
         ))}
       </div>

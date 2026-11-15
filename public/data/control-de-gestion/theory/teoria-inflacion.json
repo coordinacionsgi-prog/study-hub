@@ -1,0 +1,522 @@
+{
+  "thesis": "Con inflación, un peso de enero no vale lo mismo que un peso de abril. Los estados en moneda heterogénea suman pesos de fechas distintas como si fueran iguales y muestran ganancias que son solo nominales. El ajuste por inflación lleva todo a moneda de poder adquisitivo del cierre (moneda homogénea): así se ve si la empresa realmente ganó o solo acompañó la suba de precios.",
+  "examTip": "En teoría preguntan: partidas monetarias y no monetarias (y qué resultado genera cada una), qué es el RECPAM, por qué el resultado homogéneo es menor que el heterogéneo y cómo se calcula el coeficiente. En la práctica, siempre lo mismo: valuar cada partida al cierre, ajustar el capital con el coeficiente y justificar el resultado partida por partida.",
+  "concepts": [
+    "Inflación",
+    "Índice y coeficiente",
+    "Moneda heterogénea",
+    "Moneda homogénea",
+    "Partidas monetarias",
+    "Partidas no monetarias",
+    "RECPAM / REI",
+    "Resultado por tenencia",
+    "Diferencia de cambio real",
+    "Interés real",
+    "Valuación al cierre",
+    "Capital ajustado"
+  ],
+  "sections": [
+    {
+      "h": "Qué es la inflación y por qué importa",
+      "easy": "Si los precios suben 8 % en el mes, los 100 pesos que tenías quietos ahora compran lo que antes compraban 92,6. No perdiste billetes, perdiste poder de compra.",
+      "p": "La inflación es el aumento generalizado y sostenido del nivel de precios, o lo que es lo mismo, la caída del poder adquisitivo de la moneda. Para la cátedra es un fenómeno monetario: depende de la oferta y la demanda de dinero. Si se emite más dinero del que se demanda, cae su valor; y también cae si baja la demanda de dinero (como en 2018, cuando subieron las expectativas de inflación y la gente se desprendió de los pesos). En Argentina, en los últimos 100 años la inflación promedió 105 % anual (máximo de 3.079 % en 1989) y a la moneda se le quitaron 13 ceros.",
+      "steps": [
+        "Desprecio por la moneda de curso legal y refugio en bienes o monedas fuertes.",
+        "Aumenta la velocidad de circulación del dinero (nadie quiere quedarse con pesos).",
+        "Deterioro físico de la moneda y divergencia entre valor intrínseco y valor facial.",
+        "Los estados contables en moneda heterogénea dejan de ser comparables y muestran resultados ficticios."
+      ]
+    },
+    {
+      "h": "Índices y coeficientes",
+      "p": "Para reexpresar se usa un índice de precios (el de la cátedra es el IPIM o IPC del INDEC, a fin de mes). El coeficiente de reexpresión de una partida es el índice del cierre dividido por el índice de la fecha de origen. Los coeficientes se acumulan multiplicando, no sumando.",
+      "tables": [
+        {
+          "head": [
+            "Año",
+            "Índice",
+            "Coeficiente al cierre de 2002",
+            "Inflación acumulada"
+          ],
+          "rows": [
+            [
+              "2000",
+              "100",
+              "120 / 100 = 1,20",
+              "20 %"
+            ],
+            [
+              "2001",
+              "110",
+              "120 / 110 = 1,0909",
+              "9,09 %"
+            ],
+            [
+              "2002",
+              "120",
+              "1,00",
+              "0 %"
+            ]
+          ],
+          "note": "Inflaciones mensuales de 3 % y 4 %: el coeficiente es 1,03 × 1,04 = 1,0712 (7,12 %), no 7 %. Los índices son de fin de mes: para una operación del 1/4 se usa el índice del 31/3."
+        }
+      ]
+    },
+    {
+      "h": "Moneda heterogénea vs. moneda homogénea",
+      "tables": [
+        {
+          "head": [
+            "",
+            "Moneda heterogénea",
+            "Moneda homogénea"
+          ],
+          "rows": [
+            [
+              "Qué hace",
+              "Suma pesos de distintas fechas como si valieran lo mismo",
+              "Expresa todo en pesos de poder adquisitivo del cierre"
+            ],
+            [
+              "Capital",
+              "Valor nominal aportado",
+              "Aporte × coeficiente (índice cierre / índice del aporte)"
+            ],
+            [
+              "Activo y pasivo al cierre",
+              "Valores corrientes al cierre",
+              "Los mismos (ya están en moneda de cierre)"
+            ],
+            [
+              "Resultado",
+              "Nominal: incluye la ganancia ficticia por la suba de precios",
+              "Real: solo lo que se ganó por encima de la inflación"
+            ],
+            [
+              "Justificación por partida",
+              "Valor final − valor de origen",
+              "Valor final − valor de origen × coeficiente"
+            ]
+          ],
+          "note": "Por eso con inflación el resultado homogéneo es menor: el capital ajustado «absorbe» la parte del resultado que solo compensa la suba de precios."
+        }
+      ]
+    },
+    {
+      "h": "Partidas monetarias y no monetarias",
+      "easy": "Monetaria = está fijada en una cantidad de pesos (un billete, una deuda de $1.000). No monetaria = es una cosa o una moneda extranjera cuyo valor en pesos sube con los precios.",
+      "p": "Las monetarias no se reexpresan (ya están en pesos del cierre) pero, mientras se tienen, pierden o ganan poder adquisitivo: eso es el RECPAM. Las no monetarias se valúan a su valor corriente al cierre y generan resultados por tenencia (que pueden ser reales positivos o negativos según suban más o menos que la inflación).",
+      "tables": [
+        {
+          "head": [
+            "Rubro",
+            "Monetario",
+            "No monetario"
+          ],
+          "rows": [
+            [
+              "Disponibilidades",
+              "Caja y bancos en pesos",
+              "Moneda extranjera"
+            ],
+            [
+              "Inversiones",
+              "Plazo fijo en pesos",
+              "Plazo fijo en dólares, títulos, acciones, oro"
+            ],
+            [
+              "Créditos",
+              "En pesos a cobrar",
+              "En moneda extranjera o con cláusula de ajuste"
+            ],
+            [
+              "Bienes de cambio",
+              "—",
+              "Mercaderías, materias primas"
+            ],
+            [
+              "Bienes de uso e intangibles",
+              "—",
+              "Siempre no monetarios"
+            ],
+            [
+              "Deudas comerciales y financieras",
+              "En pesos",
+              "En moneda extranjera o en especie"
+            ],
+            [
+              "Deudas fiscales y sociales",
+              "Siempre monetarias",
+              "—"
+            ],
+            [
+              "Patrimonio neto",
+              "—",
+              "Capital, reservas y resultados (se reexpresan)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "RECPAM: quién gana y quién pierde con la inflación",
+      "p": "RECPAM (o REI) es el resultado por exposición a los cambios en el poder adquisitivo de la moneda. Lo generan las partidas monetarias: tener pesos pierde y deber pesos gana, porque la deuda se cancela con pesos que valen menos.",
+      "tables": [
+        {
+          "head": [
+            "Posición",
+            "Con inflación",
+            "Ejemplo con 8 %"
+          ],
+          "rows": [
+            [
+              "Activo monetario (caja en $ quieta)",
+              "Pérdida",
+              "5.000 en caja → −400"
+            ],
+            [
+              "Pasivo monetario (deuda en $ sin ajuste)",
+              "Ganancia",
+              "Deuda de 20.000 → +1.600 real (menos el interés que pagás)"
+            ],
+            [
+              "Activo no monetario (mercadería, dólares)",
+              "Tenencia real: + si sube más que la inflación, − si sube menos",
+              "Mercadería de 10.000 que vale 11.000 → +200"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Resultado nominal vs. resultado real",
+      "tables": [
+        {
+          "head": [
+            "Tipo de resultado",
+            "Nominal (heterogéneo)",
+            "Real (homogéneo)"
+          ],
+          "rows": [
+            [
+              "Por tenencia de bienes",
+              "Valor corriente − costo",
+              "Valor corriente − costo × coeficiente"
+            ],
+            [
+              "Diferencia de cambio",
+              "u$s × (TC cierre − TC origen)",
+              "Valor al cierre − valor de origen × coeficiente"
+            ],
+            [
+              "Intereses ganados",
+              "Capital × tasa",
+              "Capital × (tasa − inflación) aproximadamente"
+            ],
+            [
+              "Intereses perdidos",
+              "Deuda × tasa",
+              "Deuda × tasa − deuda × inflación (puede dar ganancia)"
+            ],
+            [
+              "RECPAM",
+              "No existe (no se mide)",
+              "Activos y pasivos monetarios × inflación"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Valuación de cada partida al cierre",
+      "tables": [
+        {
+          "head": [
+            "Partida",
+            "Cómo se valúa al cierre"
+          ],
+          "rows": [
+            [
+              "Caja en pesos",
+              "Valor nominal"
+            ],
+            [
+              "Moneda extranjera",
+              "Cantidad × cotización del cierre"
+            ],
+            [
+              "Plazo fijo en pesos",
+              "Capital + interés devengado hasta el cierre (año de 360 días si no dicen otra cosa)"
+            ],
+            [
+              "Plazo fijo en dólares",
+              "(u$s + interés devengado) × cotización del cierre"
+            ],
+            [
+              "Mercaderías",
+              "Costo de reposición al cierre"
+            ],
+            [
+              "Títulos o bonos con cotización",
+              "Cotización del cierre − gastos de venta (valor neto de realización)"
+            ],
+            [
+              "Documentos descontados",
+              "Valor actual"
+            ],
+            [
+              "Deudas en pesos con interés",
+              "Capital + interés devengado hasta el cierre"
+            ],
+            [
+              "Deudas en dólares",
+              "(u$s + interés devengado) × cotización del cierre"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Método de resolución paso a paso",
+      "steps": [
+        "Cuadro de datos: índices, cotizaciones y precios; calculá el coeficiente = índice cierre / índice origen.",
+        "Registrá cada operación a su valor de origen (aportes, compras, colocaciones, deudas).",
+        "Valuá cada partida al cierre según la tabla de valuación.",
+        "Balance en moneda heterogénea: activo − pasivo − capital nominal = resultado.",
+        "Balance en moneda homogénea: mismo activo y pasivo; capital × coeficiente; resultado por diferencia.",
+        "Justificación: para cada partida, final − origen (heterogéneo) y final − origen × coeficiente (homogéneo). La suma tiene que dar el resultado del balance.",
+        "Conclusión: explicá qué partidas ganaron o perdieron en términos reales y por qué."
+      ]
+    },
+    {
+      "h": "Caso testigo de la cátedra: 4 alternativas con 8 % de inflación",
+      "p": "El 30/04/2017 se constituye una sociedad con un aporte de $15.000 en efectivo. Cierre: 31/05/2017. Inflación de mayo: 8 %, así que el capital ajustado es 15.000 × 1,08 = 16.200. En las cuatro alternativas cambia solo qué se hace con la plata.",
+      "steps": [
+        "Alternativa 1: compra mercaderías por 10.000 en efectivo; reposición al cierre 11.000.",
+        "Alternativa 2: compra u$s 2.500 a $4 y los coloca a plazo fijo a 60 días al 6 % anual; dólar al cierre $4,40.",
+        "Alternativa 3: plazo fijo en pesos de 10.000 al 10 % mensual, vence el 01/07.",
+        "Alternativa 4: compra mercaderías por 20.000 en cuenta corriente a 60 días con 48 % anual simple y compra € 2.000 a $4,80; al cierre el euro vale $5,65 y la reposición es 21.500."
+      ],
+      "tables": [
+        {
+          "title": "Alternativa 1: mercaderías",
+          "head": [
+            "Partida",
+            "Origen",
+            "Origen × 1,08",
+            "Cierre",
+            "Heterogéneo",
+            "Homogéneo"
+          ],
+          "rows": [
+            [
+              "Caja",
+              "5.000",
+              "5.400",
+              "5.000",
+              "—",
+              "-400"
+            ],
+            [
+              "Mercaderías",
+              "10.000",
+              "10.800",
+              "11.000",
+              "1.000",
+              "200"
+            ],
+            [
+              "Total",
+              "",
+              "",
+              "",
+              "1.000",
+              "-200"
+            ]
+          ],
+          "strong": [
+            2
+          ],
+          "note": "Heterogéneo: +1.000 por tenencia. Homogéneo: la mercadería gana 200 reales (11.000 − 10.800) y la caja pierde 400 de poder adquisitivo (5.000 × 8 %): resultado −200."
+        },
+        {
+          "title": "Alternativa 2: plazo fijo en dólares",
+          "head": [
+            "Partida",
+            "Origen",
+            "Origen × 1,08",
+            "Cierre",
+            "Heterogéneo",
+            "Homogéneo"
+          ],
+          "rows": [
+            [
+              "Caja",
+              "5.000",
+              "5.400",
+              "5.000",
+              "—",
+              "-400"
+            ],
+            [
+              "Plazo fijo u$s 2.500 (+ interés)",
+              "10.000",
+              "10.800",
+              "11.055",
+              "1.055",
+              "255"
+            ],
+            [
+              "Total",
+              "",
+              "",
+              "",
+              "1.055",
+              "-145"
+            ]
+          ],
+          "strong": [
+            2
+          ],
+          "note": "Plazo fijo: u$s 2.500 × (1 + 6 % × 30/360) = u$s 2.512,50 × 4,40 = 11.055. Diferencia de cambio e interés reales: 255; caja −400; resultado −145."
+        },
+        {
+          "title": "Alternativa 3: plazo fijo en pesos al 10 % mensual",
+          "head": [
+            "Partida",
+            "Origen",
+            "Origen × 1,08",
+            "Cierre",
+            "Heterogéneo",
+            "Homogéneo"
+          ],
+          "rows": [
+            [
+              "Caja",
+              "5.000",
+              "5.400",
+              "5.000",
+              "—",
+              "-400"
+            ],
+            [
+              "Plazo fijo $ al 10 % mensual",
+              "10.000",
+              "10.800",
+              "11.000",
+              "1.000",
+              "200"
+            ],
+            [
+              "Total",
+              "",
+              "",
+              "",
+              "1.000",
+              "-200"
+            ]
+          ],
+          "strong": [
+            2
+          ],
+          "note": "El interés nominal es 1.000, pero el real es solo 200 (10 % − 8 % sobre 10.000). Con la caja (−400), el resultado es −200."
+        },
+        {
+          "title": "Alternativa 4: compra a crédito y euros",
+          "head": [
+            "Partida",
+            "Origen",
+            "Origen × 1,08",
+            "Cierre",
+            "Heterogéneo",
+            "Homogéneo"
+          ],
+          "rows": [
+            [
+              "Caja",
+              "5.400",
+              "5.832",
+              "5.400",
+              "—",
+              "-432"
+            ],
+            [
+              "Euros 2.000",
+              "9.600",
+              "10.368",
+              "11.300",
+              "1.700",
+              "932"
+            ],
+            [
+              "Mercaderías",
+              "20.000",
+              "21.600",
+              "21.500",
+              "1.500",
+              "-100"
+            ],
+            [
+              "Proveedores (pasivo)",
+              "-20.000",
+              "-21.600",
+              "-20.800",
+              "-800",
+              "800"
+            ],
+            [
+              "Total",
+              "",
+              "",
+              "",
+              "2.400",
+              "1.200"
+            ]
+          ],
+          "strong": [
+            4
+          ],
+          "note": "Euros: 2.000 × 4,80 = 9.600 al origen y 2.000 × 5,65 = 11.300 al cierre. Deuda: 20.000 + 48 % / 12 de interés de un mes = 20.800. La deuda en pesos GANA en términos reales (+800): se devuelve con pesos que valen menos. La mercadería pierde 100 real porque subió menos que la inflación."
+        }
+      ],
+      "after": "Resumen: heterogéneos de 1.000, 1.055, 1.000 y 2.400; homogéneos de -200, -145, -200 y 1.200. Las tres primeras parecen ganar, pero en términos reales pierden por los 5.000 que quedaron quietos en caja. La cuarta gana en términos reales gracias a la deuda en pesos y al euro, que subió 17,7 % contra una inflación del 8 %. (En la alternativa 4 se toma un mes de interés: 20.000 × 48 % / 12 = 800.)"
+    },
+    {
+      "h": "Preguntas de teoría frecuentes",
+      "tables": [
+        {
+          "head": [
+            "Pregunta",
+            "Respuesta corta"
+          ],
+          "rows": [
+            [
+              "¿Por qué el resultado homogéneo es menor que el heterogéneo?",
+              "Porque se ajusta el capital: para ganar en términos reales los activos tienen que crecer más que la inflación"
+            ],
+            [
+              "¿Qué partidas generan RECPAM?",
+              "Las monetarias: caja, créditos y deudas en pesos"
+            ],
+            [
+              "¿Se ajustan el activo y el pasivo al cierre?",
+              "No, ya están valuados en moneda del cierre; se ajustan los valores de origen y el capital"
+            ],
+            [
+              "¿Un plazo fijo al 10 % con inflación del 8 % gana?",
+              "Gana solo 2 % real; el resto compensa la inflación"
+            ],
+            [
+              "¿Endeudarse en pesos conviene con inflación?",
+              "Sí, si la tasa es menor que la inflación: la deuda pierde valor real"
+            ],
+            [
+              "¿Me cubrí de la inflación?",
+              "Sí, si el valor al cierre es mayor que la inversión × coeficiente"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

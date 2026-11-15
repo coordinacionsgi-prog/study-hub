@@ -1,0 +1,511 @@
+{
+  "thesis": "Presupuestar es traducir el plan de la empresa a números para un período: cuánto se va a vender, producir, comprar, gastar, cobrar y pagar, y qué resultado y qué situación patrimonial se espera al final. El presupuesto sirve para planificar, para coordinar las áreas y, sobre todo, para controlar: después se compara lo real con lo presupuestado, se analizan los desvíos y se corrige.",
+  "examTip": "En la teoría del parcial se repiten: los niveles de planeamiento, presupuesto económico vs. financiero, qué muestra cada estado proyectado, base cero vs. flexible, control presupuestario y desvíos, y el impacto de una decisión (comprar una máquina, alargar la cobranza) en los tres estados proyectados. Casi siempre aparece algún verdadero o falso armado con esas confusiones.",
+  "concepts": [
+    "Planeamiento estratégico, táctico y operativo",
+    "Presupuesto maestro",
+    "Presupuesto económico",
+    "Presupuesto financiero",
+    "Estados proyectados",
+    "Devengado vs. percibido",
+    "Presupuesto base cero",
+    "Presupuesto flexible",
+    "Presupuesto de capital",
+    "Control presupuestario",
+    "Desvíos",
+    "Caja mínima"
+  ],
+  "sections": [
+    {
+      "h": "Planeamiento y presupuesto",
+      "easy": "El plan dice adónde querés llegar; el presupuesto dice cuánta plata hace falta y cuánta vas a generar este año para avanzar hacia ahí.",
+      "p": "El presupuesto es un plan integrado y coordinado, expresado en términos monetarios, de las operaciones y recursos de la empresa para un período determinado, con el fin de lograr los objetivos fijados. Es la herramienta que une el planeamiento con el control: se fija la meta, se mide lo real, se compara y se corrige.",
+      "tables": [
+        {
+          "head": [
+            "Nivel",
+            "Quién",
+            "Horizonte",
+            "Qué define"
+          ],
+          "rows": [
+            [
+              "Estratégico",
+              "Alta dirección",
+              "Largo plazo (3 a 5 años o más)",
+              "Misión, visión, objetivos generales y estrategias de toda la organización"
+            ],
+            [
+              "Táctico",
+              "Gerencias de área",
+              "Mediano plazo",
+              "Programas y políticas de cada área para cumplir la estrategia"
+            ],
+            [
+              "Operativo",
+              "Mandos medios",
+              "Corto plazo (el año, el mes)",
+              "Acciones concretas, metas y recursos: acá está el presupuesto anual"
+            ]
+          ],
+          "note": "V o F típico: «El planeamiento estratégico desarrolla programas, políticas y planes de acción para cada nivel de responsabilidad» es FALSO: eso es táctico y operativo."
+        }
+      ]
+    },
+    {
+      "h": "Para qué sirve el presupuesto",
+      "steps": [
+        "Planificar: obliga a pensar el futuro y fijar objetivos cuantificados.",
+        "Coordinar: integra ventas, producción, compras y finanzas en un mismo plan.",
+        "Asignar recursos: define cuánto puede gastar e invertir cada área.",
+        "Comunicar: todos saben qué se espera de ellos.",
+        "Controlar: es la vara para medir lo real y detectar desvíos a tiempo.",
+        "Anticipar la necesidad de financiamiento o los excedentes de caja."
+      ],
+      "after": "Limitaciones: se basa en estimaciones (si las ventas proyectadas están mal, todo está mal), puede volverse rígido si no se actualiza y no reemplaza la gestión: es una herramienta, no una garantía."
+    },
+    {
+      "h": "El presupuesto maestro y su secuencia",
+      "p": "El presupuesto maestro integra todos los presupuestos parciales. Siempre arranca por las ventas, porque de ellas depende todo lo demás. Se divide en presupuesto operativo (lo económico) y presupuesto financiero (caja, inversiones y balance).",
+      "steps": [
+        "Presupuesto de ventas (unidades × precio). Es el punto de partida.",
+        "Presupuesto de producción = ventas + inventario final de producto terminado − inventario inicial.",
+        "Presupuesto de compras y consumo de materia prima = consumo + inventario final de MP − inventario inicial.",
+        "Presupuesto de mano de obra directa y de gastos indirectos de fabricación.",
+        "Presupuesto del costo de ventas (CMV).",
+        "Presupuesto de gastos de administración y comercialización.",
+        "Estado de resultados proyectado (presupuesto económico).",
+        "Presupuesto de inversiones de capital.",
+        "Presupuesto de caja o flujo de efectivo proyectado (presupuesto financiero).",
+        "Balance o estado de situación patrimonial proyectado."
+      ]
+    },
+    {
+      "h": "Presupuesto económico vs. presupuesto financiero",
+      "easy": "El económico te dice si ganás plata; el financiero te dice si tenés plata. Podés ganar y quedarte sin caja si cobrás tarde y pagás rápido.",
+      "tables": [
+        {
+          "head": [
+            "",
+            "Económico",
+            "Financiero"
+          ],
+          "rows": [
+            [
+              "Criterio",
+              "Devengado",
+              "Percibido (cobrado o pagado)"
+            ],
+            [
+              "Estado que produce",
+              "Estado de resultados proyectado",
+              "Flujo de caja proyectado"
+            ],
+            [
+              "Qué muestra",
+              "Rentabilidad: ganancia o pérdida del período",
+              "Liquidez: saldos de caja, déficits y excedentes"
+            ],
+            [
+              "Pregunta que responde",
+              "¿Gano plata?",
+              "¿Me alcanza la plata mes a mes? ¿Cuándo necesito financiamiento?"
+            ],
+            [
+              "Incluye amortizaciones",
+              "Sí (gasto sin salida de caja)",
+              "No"
+            ],
+            [
+              "Incluye préstamos tomados y devueltos",
+              "Solo los intereses devengados",
+              "Sí, el capital y los intereses pagados"
+            ]
+          ],
+          "note": "V o F típicos: «El flujo de efectivo proyectado permite ver la rentabilidad» → FALSO. «El estado de resultados proyectado muestra las necesidades de financiamiento» → FALSO."
+        }
+      ]
+    },
+    {
+      "h": "Los tres estados proyectados y qué va en cada uno",
+      "p": "El estado de resultados, el flujo de caja y el balance proyectados están encadenados: el resultado neto pasa al patrimonio neto y el saldo final de caja pasa al activo. Todo lo devengado y todavía no cobrado o pagado queda como saldo en el balance.",
+      "tables": [
+        {
+          "head": [
+            "Partida",
+            "Estado de resultados",
+            "Flujo de caja",
+            "Balance al cierre"
+          ],
+          "rows": [
+            [
+              "Ventas",
+              "Total vendido",
+              "Lo cobrado",
+              "Deudores = vendido − cobrado"
+            ],
+            [
+              "Compras de mercadería",
+              "No (va el CMV)",
+              "Lo pagado",
+              "Proveedores = comprado − pagado; mercaderías = stock final"
+            ],
+            [
+              "CMV",
+              "Sí",
+              "No",
+              "—"
+            ],
+            [
+              "Amortizaciones",
+              "Sí",
+              "No",
+              "Aumenta la amortización acumulada"
+            ],
+            [
+              "Gastos a mes vencido",
+              "En el mes devengado",
+              "Al mes siguiente",
+              "El último mes queda a pagar"
+            ],
+            [
+              "Préstamo tomado",
+              "No",
+              "Entrada",
+              "Deuda financiera"
+            ],
+            [
+              "Intereses del préstamo",
+              "En el mes devengado",
+              "Cuando se pagan",
+              "Intereses a pagar si no se pagaron"
+            ],
+            [
+              "Impuesto a las ganancias del período",
+              "Sí (alícuota × resultado)",
+              "Solo si se paga en el período",
+              "Ganancias a pagar"
+            ],
+            [
+              "Deudas del balance inicial",
+              "No (ya se devengaron antes)",
+              "Cuando se pagan",
+              "Desaparecen al pagarse"
+            ],
+            [
+              "Compra de bienes de uso",
+              "No (solo su amortización)",
+              "Salida",
+              "Aumenta el activo no corriente"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Presupuesto de caja: estructura",
+      "p": "Es el corazón del presupuesto financiero: muestra mes a mes las entradas, las salidas y el saldo. Sirve para conocer la posición de caja de cada mes, anticipar déficits (y conseguir financiamiento a tiempo) o excedentes (y colocarlos), y evaluar las políticas de cobro y pago. Muchas empresas fijan una caja mínima de seguridad: si el saldo queda por debajo, se financia hasta llegar a ese mínimo.",
+      "tables": [
+        {
+          "head": [
+            "Línea",
+            "Contenido"
+          ],
+          "rows": [
+            [
+              "Saldo inicial",
+              "Saldo final del mes anterior"
+            ],
+            [
+              "+ Cobranzas",
+              "Ventas de contado, cobro de ventas anteriores, otros ingresos"
+            ],
+            [
+              "− Pagos operativos",
+              "Proveedores, sueldos, gastos, impuestos"
+            ],
+            [
+              "− Inversiones",
+              "Compra de bienes de uso"
+            ],
+            [
+              "= Saldo antes de financiar",
+              "Si es menor que la caja mínima (o negativo) hay déficit"
+            ],
+            [
+              "+ Financiamiento / − colocación",
+              "Préstamo para cubrir el déficit o plazo fijo con el excedente"
+            ],
+            [
+              "− Devolución + intereses",
+              "Del préstamo del mes anterior"
+            ],
+            [
+              "= Saldo final",
+              "Pasa como saldo inicial del mes siguiente"
+            ]
+          ],
+          "strong": [
+            4,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Margen sobre costos vs. margen sobre ventas",
+      "p": "Es la confusión que más ejercicios arruina. Leé con cuidado sobre qué base está el margen.",
+      "tables": [
+        {
+          "head": [
+            "Margen",
+            "Fórmula del costo",
+            "Ejemplo con venta de 180"
+          ],
+          "rows": [
+            [
+              "80 % sobre costos",
+              "C = V / (1 + 0,8) = V / 1,8",
+              "C = 100; utilidad bruta 80"
+            ],
+            [
+              "80 % sobre ventas",
+              "C = V × (1 − 0,8) = V × 0,2",
+              "C = 36; utilidad bruta 144"
+            ],
+            [
+              "60 % sobre costos",
+              "C = V / 1,6",
+              "C = 112,50"
+            ],
+            [
+              "60 % sobre ventas",
+              "C = V × 0,4",
+              "C = 72"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Tipos de presupuesto",
+      "tables": [
+        {
+          "head": [
+            "Tipo",
+            "Qué es",
+            "Para qué sirve / ojo"
+          ],
+          "rows": [
+            [
+              "Fijo o rígido (estático)",
+              "Se arma para un solo nivel de actividad",
+              "Si la actividad real cambia, la comparación engaña"
+            ],
+            [
+              "Flexible",
+              "Se recalcula para el nivel de actividad real: costos variables al volumen real, fijos iguales",
+              "Es el que sirve para controlar la eficiencia"
+            ],
+            [
+              "Base cero",
+              "Cada gasto se justifica desde cero, sin tomar como base el año anterior",
+              "Elimina gastos por inercia; lleva mucho tiempo"
+            ],
+            [
+              "Incremental",
+              "Se toma el año anterior y se ajusta un porcentaje",
+              "Rápido, pero arrastra ineficiencias"
+            ],
+            [
+              "Continuo (rolling)",
+              "Al terminar un mes se agrega uno al final: siempre hay 12 meses por delante",
+              "Mantiene el presupuesto actualizado"
+            ],
+            [
+              "Por programas",
+              "Se presupuesta por programa o proyecto, no por área",
+              "Típico del sector público"
+            ],
+            [
+              "De capital (inversiones)",
+              "Inversiones en activos de largo plazo",
+              "Se evalúa con VAN, TIR y recupero; impacta en caja y amortizaciones"
+            ]
+          ],
+          "note": "V o F típico: «El presupuesto flexible considera cada ejercicio como si iniciara desde cero» → FALSO: eso es el base cero."
+        }
+      ]
+    },
+    {
+      "h": "Control presupuestario y desvíos",
+      "easy": "Controlar es comparar lo que pasó con lo que habías dicho que iba a pasar, entender por qué no coincide y hacer algo al respecto.",
+      "p": "Es el proceso de comparar periódicamente lo real con lo presupuestado, analizar los desvíos y sus causas y tomar acciones correctivas (o ajustar el presupuesto si cambió el contexto). Tiene un componente físico (unidades, horas, kilos) y uno monetario (esos mismos conceptos en pesos). Un desvío es favorable si mejora el resultado (más ventas o menos costos) y desfavorable si lo empeora.",
+      "steps": [
+        "Fijar el presupuesto (la norma) por responsable.",
+        "Medir lo real con el mismo criterio y para el mismo período.",
+        "Calcular los desvíos: real − presupuestado.",
+        "Separar el desvío por volumen (se vendió más o menos) del desvío por eficiencia y precios, usando el presupuesto flexible.",
+        "Analizar las causas y asignar responsables.",
+        "Corregir: medidas sobre la operación o actualización del presupuesto."
+      ],
+      "tables": [
+        {
+          "title": "Ejemplo: se presupuestaron 1.000 unidades a $100 (costo variable $60, fijos $20.000) y se vendieron 1.200",
+          "head": [
+            "",
+            "Estático (1.000 u)",
+            "Flexible (1.200 u)",
+            "Real (1.200 u)",
+            "Desvío por volumen",
+            "Desvío flexible"
+          ],
+          "rows": [
+            [
+              "Ventas",
+              "100.000",
+              "120.000",
+              "118.800",
+              "20.000 F",
+              "-1.200 D"
+            ],
+            [
+              "Costos variables",
+              "60.000",
+              "72.000",
+              "74.400",
+              "12.000 D",
+              "2.400 D"
+            ],
+            [
+              "Costos fijos",
+              "20.000",
+              "20.000",
+              "21.000",
+              "—",
+              "1.000 D"
+            ],
+            [
+              "Resultado",
+              "20.000",
+              "28.000",
+              "23.400",
+              "8.000 F",
+              "-4.600 D"
+            ]
+          ],
+          "strong": [
+            3
+          ],
+          "note": "Contra el estático el resultado mejoró 3.400 y parece todo bien. Contra el flexible se ve que, al volumen real, se debió ganar 28.000: hay 4.600 de desvíos desfavorables (precio de venta más bajo, costos variables y fijos más altos). F = favorable, D = desfavorable."
+        }
+      ]
+    },
+    {
+      "h": "Impacto de decisiones en los estados proyectados",
+      "p": "Pregunta clásica: te plantean una decisión y tenés que decir qué pasa en cada estado. Pensalo siempre en los tres: resultados (devengado), flujo (caja) y balance (saldos).",
+      "tables": [
+        {
+          "head": [
+            "Decisión",
+            "Estado de resultados",
+            "Flujo de caja",
+            "Balance"
+          ],
+          "rows": [
+            [
+              "Comprar una máquina con fondos propios",
+              "No es gasto; aparecen amortizaciones (y quizás más ventas o menos costos)",
+              "Salida por la compra",
+              "Sube bienes de uso, baja caja; el PN no cambia por la compra"
+            ],
+            [
+              "Comprarla con un préstamo",
+              "Amortizaciones e intereses",
+              "Entra el préstamo, sale la compra; después cuotas",
+              "Sube bienes de uso y la deuda financiera"
+            ],
+            [
+              "Liquidar inversiones para comprar un bien de uso",
+              "Se pierden los intereses de la inversión; aparecen amortizaciones",
+              "Entrada por el rescate y salida por la compra",
+              "Baja el activo corriente, sube el no corriente"
+            ],
+            [
+              "Alargar el plazo de cobranza",
+              "Ventas iguales (quizás más); más intereses si hay que financiarse",
+              "Menos cobros: más déficit",
+              "Suben los deudores por ventas"
+            ],
+            [
+              "Acortar el plazo de pago a proveedores",
+              "Igual (o descuento por pronto pago)",
+              "Más pagos: más déficit",
+              "Bajan los proveedores"
+            ],
+            [
+              "Aumentar el stock de seguridad",
+              "Igual (salvo costos de almacenamiento)",
+              "Más compras pagadas",
+              "Suben las mercaderías"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Verdadero o falso que más se repiten",
+      "tables": [
+        {
+          "head": [
+            "Afirmación",
+            "",
+            "Por qué"
+          ],
+          "rows": [
+            [
+              "El flujo de efectivo proyectado muestra la rentabilidad",
+              "F",
+              "Muestra liquidez; la rentabilidad está en el estado de resultados"
+            ],
+            [
+              "El estado de resultados proyectado muestra las necesidades de financiamiento",
+              "F",
+              "Eso sale del presupuesto de caja"
+            ],
+            [
+              "El presupuesto flexible arranca cada ejercicio desde cero",
+              "F",
+              "Eso es el base cero; el flexible se ajusta al nivel de actividad"
+            ],
+            [
+              "Las amortizaciones son una salida de caja",
+              "F",
+              "Son gasto devengado sin movimiento de fondos"
+            ],
+            [
+              "El presupuesto de ventas es el punto de partida del presupuesto maestro",
+              "V",
+              "Producción, compras y gastos dependen de las ventas"
+            ],
+            [
+              "El planeamiento estratégico desarrolla los planes de acción de cada nivel",
+              "F",
+              "Eso es táctico y operativo"
+            ],
+            [
+              "Una empresa con ganancias puede necesitar financiamiento",
+              "V",
+              "Si cobra más tarde de lo que paga, la caja no acompaña al resultado"
+            ],
+            [
+              "El presupuesto estático sirve para evaluar la eficiencia si cambió el volumen",
+              "F",
+              "Hay que comparar contra el flexible"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
