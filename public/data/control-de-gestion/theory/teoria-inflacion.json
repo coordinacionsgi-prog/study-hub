@@ -60,7 +60,8 @@
           ],
           "note": "Inflaciones mensuales de 3 % y 4 %: el coeficiente es 1,03 × 1,04 = 1,0712 (7,12 %), no 7 %. Los índices son de fin de mes: para una operación del 1/4 se usa el índice del 31/3."
         }
-      ]
+      ],
+      "easy": "El índice es el precio de una canasta en cada fecha. Dividís el del final por el del principio y sabés cuántas veces subieron los precios: 120 / 100 = 1,20, o sea 20 %. Ojo, las inflaciones de cada mes se multiplican, no se suman."
     },
     {
       "h": "Moneda heterogénea vs. moneda homogénea",
@@ -100,7 +101,8 @@
           ],
           "note": "Por eso con inflación el resultado homogéneo es menor: el capital ajustado «absorbe» la parte del resultado que solo compensa la suba de precios."
         }
-      ]
+      ],
+      "easy": "Heterogénea es sumar pesos de distintas épocas como si fueran iguales. Homogénea es pasarlos todos a pesos de hoy. Lo único que se ajusta es el capital (y los valores de origen al justificar), porque el activo y el pasivo ya están a valor de hoy."
     },
     {
       "h": "Partidas monetarias y no monetarias",
@@ -186,7 +188,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Tener billetes quietos con inflación es como tener un helado al sol: se derrite. Deber pesos es al revés: devolvés plata que vale menos. Eso que ganás o perdés por tener o deber pesos es el RECPAM."
     },
     {
       "h": "Resultado nominal vs. resultado real",
@@ -225,7 +228,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Nominal es lo que ves en los números (el plazo fijo te dio 10 %). Real es lo que ganaste de verdad descontando la inflación (si la inflación fue 8 %, ganaste solo 2 %)."
     },
     {
       "h": "Valuación de cada partida al cierre",
@@ -274,7 +278,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Cada cosa al precio del día del cierre: los billetes por lo que dicen, los dólares por el dólar de ese día, la mercadería por lo que cuesta reponerla, los plazos fijos y deudas con los intereses que ya corrieron."
     },
     {
       "h": "Método de resolución paso a paso",
@@ -286,7 +291,8 @@
         "Balance en moneda homogénea: mismo activo y pasivo; capital × coeficiente; resultado por diferencia.",
         "Justificación: para cada partida, final − origen (heterogéneo) y final − origen × coeficiente (homogéneo). La suma tiene que dar el resultado del balance.",
         "Conclusión: explicá qué partidas ganaron o perdieron en términos reales y por qué."
-      ]
+      ],
+      "easy": "Siempre los mismos 7 pasos: coeficiente, operaciones al origen, valuar al cierre, balance sin ajustar, balance ajustado, cuadro de justificación y una conclusión de quién ganó y quién perdió de verdad."
     },
     {
       "h": "Caso testigo de la cátedra: 4 alternativas con 8 % de inflación",
@@ -479,7 +485,8 @@
           "note": "Euros: 2.000 × 4,80 = 9.600 al origen y 2.000 × 5,65 = 11.300 al cierre. Deuda: 20.000 + 48 % / 12 de interés de un mes = 20.800. La deuda en pesos GANA en términos reales (+800): se devuelve con pesos que valen menos. La mercadería pierde 100 real porque subió menos que la inflación."
         }
       ],
-      "after": "Resumen: heterogéneos de 1.000, 1.055, 1.000 y 2.400; homogéneos de -200, -145, -200 y 1.200. Las tres primeras parecen ganar, pero en términos reales pierden por los 5.000 que quedaron quietos en caja. La cuarta gana en términos reales gracias a la deuda en pesos y al euro, que subió 17,7 % contra una inflación del 8 %. (En la alternativa 4 se toma un mes de interés: 20.000 × 48 % / 12 = 800.)"
+      "after": "Resumen: heterogéneos de 1.000, 1.055, 1.000 y 2.400; homogéneos de -200, -145, -200 y 1.200. Las tres primeras parecen ganar, pero en términos reales pierden por los 5.000 que quedaron quietos en caja. La cuarta gana en términos reales gracias a la deuda en pesos y al euro, que subió 17,7 % contra una inflación del 8 %. (En la alternativa 4 se toma un mes de interés: 20.000 × 48 % / 12 = 800.)",
+      "easy": "Es el mismo aporte de 15.000 usado de 4 formas distintas. En las tres primeras parece que ganás, pero perdés de verdad porque dejaste 5.000 quietos en la caja. En la cuarta ganás de verdad porque te endeudaste en pesos y compraste euros, que subieron más que la inflación."
     },
     {
       "h": "Preguntas de teoría frecuentes",
@@ -516,7 +523,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Las preguntas cortas siempre giran alrededor de lo mismo: los pesos quietos pierden, las deudas en pesos ganan, y solo ganás de verdad si algo sube más que la inflación."
     }
   ]
 }

@@ -78,7 +78,8 @@
           ]
         }
       ],
-      "after": "Ventas proyectadas: enero $81.000, febrero $72.000, marzo $108.000, abril $90.000 y mayo $120.000. La empresa maneja un margen bruto sobre costos del 80 % y compra la mercadería con un mes de anticipación al momento estimado de las ventas. Pagos de mercadería: 40 % de contado y 60 % a 60 días. Cobranzas: 25 % de contado, 25 % a 30 días y 50 % a 60 días. Los créditos por ventas al 31/12 se cobran en febrero por su totalidad; la deuda con proveedores al 31/12 se paga 50 % en febrero y 50 % en marzo. Gastos mensuales: administración $10.000, comercialización $4.000, comisiones 5 % sobre ventas y amortizaciones de bienes de uso $2.000. Los gastos se pagan en el mes en que se devengan, salvo las comisiones a vendedores, que se pagan a mes vencido. Se destinan fondos para pagar el impuesto a las ganancias según la deuda al 31/12, todo en marzo. La alícuota es del 35 % y el impuesto devengado en el período no se paga hasta junio. Si la caja resulta deficitaria, se financia el saldo al 8 % mensual: los intereses se devengan por el total financiado en el mes del financiamiento y se pagan al mes siguiente junto con la devolución del capital."
+      "after": "Ventas proyectadas: enero $81.000, febrero $72.000, marzo $108.000, abril $90.000 y mayo $120.000. La empresa maneja un margen bruto sobre costos del 80 % y compra la mercadería con un mes de anticipación al momento estimado de las ventas. Pagos de mercadería: 40 % de contado y 60 % a 60 días. Cobranzas: 25 % de contado, 25 % a 30 días y 50 % a 60 días. Los créditos por ventas al 31/12 se cobran en febrero por su totalidad; la deuda con proveedores al 31/12 se paga 50 % en febrero y 50 % en marzo. Gastos mensuales: administración $10.000, comercialización $4.000, comisiones 5 % sobre ventas y amortizaciones de bienes de uso $2.000. Los gastos se pagan en el mes en que se devengan, salvo las comisiones a vendedores, que se pagan a mes vencido. Se destinan fondos para pagar el impuesto a las ganancias según la deuda al 31/12, todo en marzo. La alícuota es del 35 % y el impuesto devengado en el período no se paga hasta junio. Si la caja resulta deficitaria, se financia el saldo al 8 % mensual: los intereses se devengan por el total financiado en el mes del financiamiento y se pagan al mes siguiente junto con la devolución del capital.",
+      "easy": "Te dan cómo arranca la empresa (el balance al 31/12) y cómo va a funcionar los próximos meses (ventas, margen, cuándo cobra, cuándo paga, gastos). Tenés que proyectar 3 cosas: la caja mes a mes, si gana o pierde, y cómo queda todo al 30/04."
     },
     {
       "h": "Paso 0: ordenar los datos antes de calcular",
@@ -199,7 +200,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Si gana 80 % sobre lo que le costó, lo que vende es 1,8 veces el costo: costo = venta / 1,8. Y como compra un mes antes de vender, lo que compra en enero es lo que vende en febrero. Por eso necesitás la venta de mayo: la compra de abril es para mayo."
     },
     {
       "h": "Paso 2: matriz de cobranzas",
@@ -276,7 +278,8 @@
           ],
           "note": "Pendiente al 30/04: 50 % de marzo (54.000) + 75 % de abril (67.500) = 121.500 → Deudores por ventas en el balance."
         }
-      ]
+      ],
+      "easy": "Cada venta se cobra en cuotas: un cuarto en el mes, un cuarto al mes siguiente y la mitad a los dos meses. La tabla es como un calendario de cobros: cada fila es una venta y cada columna, el mes en que entra la plata. Lo que no llegaste a cobrar al 30/04 es lo que te deben los clientes."
     },
     {
       "h": "Paso 3: matriz de pagos a proveedores",
@@ -353,7 +356,8 @@
           ],
           "note": "Pendiente al 30/04: 60 % de la compra de marzo (30.000) + 60 % de la de abril (40.000) = 70.000 → Proveedores en el balance."
         }
-      ]
+      ],
+      "easy": "Lo mismo pero al revés: cada compra se paga 40 % en el mes y 60 % a los dos meses. Y no te olvides de pagar lo que ya debías a proveedores al 31/12. Lo que no pagaste al 30/04 es lo que les seguís debiendo."
     },
     {
       "h": "Paso 4: gastos, devengado vs. pagado",
@@ -424,7 +428,8 @@
           ],
           "note": "Las comisiones de abril (4.500) quedan a pagar al 30/04. Las de diciembre no figuran en el balance inicial, así que en enero no se paga ninguna."
         }
-      ]
+      ],
+      "easy": "Un gasto puede ser de un mes y pagarse en otro. La comisión de enero es de enero (va al resultado de enero) pero se paga en febrero (sale de la caja en febrero). La amortización es gasto pero nunca sale plata: solo va al resultado."
     },
     {
       "h": "Paso 5: flujo de caja proyectado",
@@ -537,7 +542,8 @@
           ],
           "note": "Marzo: 16.950 + 85.500 − 112.100 = −9.650 → préstamo de 9.650 (interés 772). Abril: 0 + 85.500 − 82.066,67 − 9.650 − 772 = −6.988,67 → nuevo préstamo de 6.988,67 (interés 559,09), que se devuelve en mayo."
         }
-      ]
+      ],
+      "easy": "Es la billetera mes a mes: lo que tenías + lo que cobraste − lo que pagaste. Si te da negativo, pedís prestado justo lo que falta para quedar en cero. El mes siguiente devolvés el préstamo más el 8 % de interés."
     },
     {
       "h": "Paso 6: estado de resultados proyectado enero-abril",
@@ -605,7 +611,8 @@
           ],
           "note": "El resultado neto es el 13,5 % de las ventas. La solución oficial de la cátedra da 47.527."
         }
-      ]
+      ],
+      "easy": "Acá no importa cuándo cobrás ni cuándo pagás, sino lo que vendiste y lo que gastaste en el período. Vendiste 351.000, la mercadería te costó 195.000, pagaste gastos e intereses y le dejás 35 % al impuesto: te quedan 47.527 de ganancia."
     },
     {
       "h": "Paso 7: balance proyectado al 30/04",
@@ -723,7 +730,8 @@
           ]
         }
       ],
-      "after": "Los 28.000 de impuestos a pagar del balance inicial desaparecen porque se pagaron en marzo. La cátedra muestra la deuda financiera en una sola línea: 7.547,76 (6.988,67 de capital + 559,09 de interés)."
+      "after": "Los 28.000 de impuestos a pagar del balance inicial desaparecen porque se pagaron en marzo. La cátedra muestra la deuda financiera en una sola línea: 7.547,76 (6.988,67 de capital + 559,09 de interés).",
+      "easy": "Es la foto al 30/04: lo que tenés (caja, lo que te deben, mercadería, máquinas) contra lo que debés (proveedores, comisiones, préstamo, impuesto) más lo que es de los dueños. Cada número sale de una tabla de antes. Si los dos lados dan igual, está bien."
     },
     {
       "h": "Control con la solución oficial de la cátedra",
@@ -777,7 +785,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Comparé número por número con la solución que publicó la cátedra y da todo igual. Si a vos te da distinto, buscá en qué tabla te separaste."
     },
     {
       "h": "Errores que restan puntos",
@@ -791,15 +800,18 @@
         "No devolver el préstamo con su interés al mes siguiente, o dejar la caja en negativo.",
         "Pagar el impuesto a las ganancias del período: se devenga, pero se paga en junio.",
         "Entregar un balance que no cierra: buscá la diferencia, casi siempre es un saldo pendiente."
-      ]
+      ],
+      "easy": "Los errores típicos son de despiste: confundir el margen, olvidarte de cobrar o pagar lo que venía del año anterior, meter la amortización en la caja o cobrar el interés en el mes equivocado."
     },
     {
       "h": "Para practicar: Tema 1 del mismo parcial (resultados oficiales)",
-      "p": "Mismo modelo con otros números: ventas de 54.000, 48.000, 72.000 y 60.000 (mayo 90.000) y margen del 80 % sobre costos, así que las compras son 26.667, 40.000, 33.333 y 50.000. El saldo de deudores anterior (24.000) se cobra en febrero; los proveedores anteriores (30.000), en dos cuotas de 15.000. Gastos de comercialización 3.500 y de administración 6.000 por mes; comisiones del 4 % a mes vencido; impuestos de 20.000 en marzo; amortización de 1.000 por mes. Hacelo con las mismas tablas y controlá: caja de 2.967 en enero y 11.507 en febrero, resultado neto de 33.302 y activo de 182.800."
+      "p": "Mismo modelo con otros números: ventas de 54.000, 48.000, 72.000 y 60.000 (mayo 90.000) y margen del 80 % sobre costos, así que las compras son 26.667, 40.000, 33.333 y 50.000. El saldo de deudores anterior (24.000) se cobra en febrero; los proveedores anteriores (30.000), en dos cuotas de 15.000. Gastos de comercialización 3.500 y de administración 6.000 por mes; comisiones del 4 % a mes vencido; impuestos de 20.000 en marzo; amortización de 1.000 por mes. Hacelo con las mismas tablas y controlá: caja de 2.967 en enero y 11.507 en febrero, resultado neto de 33.302 y activo de 182.800.",
+      "easy": "Es el mismo ejercicio con otros números. Hacelo solo con las mismas tablas y fijate si te dan los resultados que pusimos."
     },
     {
       "h": "Variantes que aparecen en otros temas",
-      "p": "Empresa nueva sin balance inicial: el aporte de capital es la caja inicial, y los bienes aportados van al activo con contrapartida en el capital. Primer mes: la compra de enero puede repartirse entre ventas de enero y de febrero (ejemplo: 40 % y 60 %). Colocación de excedentes: si la caja supera un tope, el excedente va a plazo fijo y vuelve el mes siguiente con sus intereses (ganancia devengada en el mes de la colocación). Anticipos de Ganancias: son salida de caja y en el balance se restan del impuesto a pagar (o van como crédito); no son gasto adicional. Inversiones del balance que vencen: entran como cobro con su interés."
+      "p": "Empresa nueva sin balance inicial: el aporte de capital es la caja inicial, y los bienes aportados van al activo con contrapartida en el capital. Primer mes: la compra de enero puede repartirse entre ventas de enero y de febrero (ejemplo: 40 % y 60 %). Colocación de excedentes: si la caja supera un tope, el excedente va a plazo fijo y vuelve el mes siguiente con sus intereses (ganancia devengada en el mes de la colocación). Anticipos de Ganancias: son salida de caja y en el balance se restan del impuesto a pagar (o van como crédito); no son gasto adicional. Inversiones del balance que vencen: entran como cobro con su interés.",
+      "easy": "En otros temas cambian detalles: la empresa arranca de cero (el aporte de los socios es la caja inicial), te sobra plata y la ponés a plazo fijo, o pagás anticipos de Ganancias. El método es el mismo."
     }
   ]
 }

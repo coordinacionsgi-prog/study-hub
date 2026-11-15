@@ -62,7 +62,8 @@
         "Controlar: es la vara para medir lo real y detectar desvíos a tiempo.",
         "Anticipar la necesidad de financiamiento o los excedentes de caja."
       ],
-      "after": "Limitaciones: se basa en estimaciones (si las ventas proyectadas están mal, todo está mal), puede volverse rígido si no se actualiza y no reemplaza la gestión: es una herramienta, no una garantía."
+      "after": "Limitaciones: se basa en estimaciones (si las ventas proyectadas están mal, todo está mal), puede volverse rígido si no se actualiza y no reemplaza la gestión: es una herramienta, no una garantía.",
+      "easy": "Sirve para pensar antes de hacer, para que todas las áreas tiren para el mismo lado, para repartir la plata, y sobre todo para darte cuenta a tiempo si algo se está desviando."
     },
     {
       "h": "El presupuesto maestro y su secuencia",
@@ -78,7 +79,8 @@
         "Presupuesto de inversiones de capital.",
         "Presupuesto de caja o flujo de efectivo proyectado (presupuesto financiero).",
         "Balance o estado de situación patrimonial proyectado."
-      ]
+      ],
+      "easy": "Es una cadena: todo arranca en cuánto vas a vender. De ahí sale cuánto producir, cuánta materia prima comprar, cuánta gente y gastos necesitás, y recién al final armás la caja y el balance."
     },
     {
       "h": "Presupuesto económico vs. presupuesto financiero",
@@ -200,7 +202,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Regla de oro: si se vendió o se gastó, va al resultado; si entró o salió plata, va a la caja; y lo que quedó sin cobrar o sin pagar va al balance."
     },
     {
       "h": "Presupuesto de caja: estructura",
@@ -250,7 +253,8 @@
             7
           ]
         }
-      ]
+      ],
+      "easy": "Es la billetera del mes: lo que tenías + lo que entra − lo que sale. Si queda negativo (o debajo del mínimo que querés tener), pedís prestado; si sobra mucho, lo invertís."
     },
     {
       "h": "Margen sobre costos vs. margen sobre ventas",
@@ -285,7 +289,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Sobre costos: al costo le sumás el margen (costo 100 + 80 % = vendés a 180). Sobre ventas: el margen es parte del precio (vendés a 180 y 80 % de eso es ganancia, así que el costo es solo 36). Leé bien cuál te dan."
     },
     {
       "h": "Tipos de presupuesto",
@@ -335,7 +340,8 @@
           ],
           "note": "V o F típico: «El presupuesto flexible considera cada ejercicio como si iniciara desde cero» → FALSO: eso es el base cero."
         }
-      ]
+      ],
+      "easy": "Fijo: un solo número, no se mueve. Flexible: se adapta a lo que vendiste de verdad. Base cero: arrancás de la hoja en blanco. Incremental: el del año pasado más un porcentaje. Continuo: siempre tenés 12 meses por delante. De capital: para las compras grandes."
     },
     {
       "h": "Control presupuestario y desvíos",
@@ -451,7 +457,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Siempre preguntate tres cosas: ¿cambia lo que gano? ¿cambia la plata que tengo? ¿cambia lo que tengo o debo al final? Comprar una máquina no es gasto (sale plata y entra una máquina); alargar la cobranza no cambia lo que ganás pero te deja sin caja."
     },
     {
       "h": "Verdadero o falso que más se repiten",
@@ -505,7 +512,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "easy": "Casi todos los falsos juegan con cruzar los conceptos: el flujo de caja con la rentabilidad, el flexible con el base cero, la amortización con la salida de plata. Si sabés qué muestra cada cosa, los sacás seguro."
     }
   ]
 }
