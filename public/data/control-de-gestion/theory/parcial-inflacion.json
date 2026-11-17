@@ -28,8 +28,62 @@
     },
     {
       "h": "Ejercicio A (AXI 01/04 al 31/05): planteo",
-      "p": "Aportes del 1/4: $300.000; u$s 50.000 × 19,10 = $955.000; documento de VN 220.000 que vence el 30/6, descontado al 36 % anual simple por 90 días: VA = 220.000 / (1 + 0,36 × 90/360) = $201.834,86. Capital = $1.456.834,86. Mercaderías por 290.000: se paga con el documento ($201.834,86) y el proveedor financia el saldo de $88.165,14 a 90 días con 36.000 de interés. Bonos: VN 250 × 1.000 = 250.000 + 0,75 % de comisión = $251.875. Caja en pesos = 300.000 − $251.875 = $48.125. Plazo fijo con los u$s 50.000 al 0,20 % por el plazo.",
-      "easy": "Primero anotá todo lo que entra al principio, a precio de ese día: lo que pusieron los socios, la mercadería, los bonos, el plazo fijo. Esos son los valores de origen contra los que después vas a comparar."
+      "easy": "Primero anotá todo lo que entra al principio, a precio de ese día: lo que pusieron los socios, la mercadería, los bonos, el plazo fijo. Esos son los valores de origen contra los que después vas a comparar.",
+      "statement": "El 01/04 los socios aportan $300.000, u$s 50.000 y un documento a cobrar de VN $220.000 que vence el 30/06 (se descuenta al 36 % anual simple). Ese día: compran mercadería por $290.000 pagando con el documento (a su valor actual) y el proveedor financia el saldo a 90 días cobrando $36.000 de interés; compran bonos T1 por VN 250 (comisión 0,75 % al comprar y 3 % al vender); y ponen los dólares en un plazo fijo al 0,20 % por el plazo, que vence el 31/05. Reposición de la mercadería al 31/05: $308.000. Se pide el RECPAM, justificando el resultado en moneda heterogénea y homogénea al 31/05. Meses de 30 días.",
+      "figures": [
+        {
+          "dir": "control-de-gestion",
+          "src": "infl-ej-a-2018.jpg",
+          "caption": "Enunciado original (parcial del 14/06/2024), con la tabla de índices, dólar y bonos",
+          "alt": "Enunciado original (parcial del 14/06/2024), con la tabla de índices, dólar y bonos"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Datos de la tabla del enunciado",
+          "head": [
+            "Mes",
+            "Índice",
+            "Dólar",
+            "Bonos (cada 100 VN)"
+          ],
+          "rows": [
+            [
+              "Marzo",
+              "154,3000",
+              "19,10",
+              "1.000,00"
+            ],
+            [
+              "Abril",
+              "158,1575",
+              "20,50",
+              "1.040,00"
+            ],
+            [
+              "Mayo",
+              "162,5859",
+              "21,80",
+              "1.092,00"
+            ],
+            [
+              "Junio",
+              "168,2764",
+              "23,60",
+              "1.157,52"
+            ]
+          ],
+          "note": "Las operaciones del 1/4 usan el índice de marzo (cierre del mes anterior). Coeficiente = 162,5859 / 154,3 = 1,0537."
+        }
+      ],
+      "steps": [
+        "Aportes del 1/4: $300.000; u$s 50.000 × 19,10 = $955.000; documento de VN 220.000 que vence el 30/6, descontado al 36 % anual simple por 90 días: VA = 220.000 / (1 + 0,36 × 90/360) = $201.834,86.",
+        "Capital = $1.456.834,86.",
+        "Mercaderías por 290.000: se paga con el documento ($201.834,86) y el proveedor financia el saldo de $88.165,14 a 90 días con 36.000 de interés.",
+        "Bonos: VN 250 × 1.000 = 250.000 + 0,75 % de comisión = $251.875.",
+        "Caja en pesos = 300.000 − $251.875 = $48.125.",
+        "Plazo fijo con los u$s 50.000 al 0,20 % por el plazo."
+      ]
     },
     {
       "h": "Ejercicio A: balance al 31/05",
@@ -168,8 +222,108 @@
     },
     {
       "h": "Ejercicio B (T2, abril 2026): planteo",
-      "p": "Aportes del 31/3: $500.000; u$s 100.000; un crédito de u$s 20.000; 20 unidades de mercadería a u$s 501 (dólar a 1.400). Capital = 500.000 + 120.000 × 1.400 + 20 × 501 × 1.400 = $182.528.000. El 1/4: compra de 50 unidades a u$s 501 (u$s 25.050), que se paga cediendo el crédito (u$s 20.000); el saldo de u$s 5.050 lo financia el proveedor al 0,7 % mensual. Plazo fijo en pesos con u$s 50.000 de caja (× 1.400 = 70.000.000) al 60 % anual por 90 días. Plazo fijo en pesos por 280.000 al 72 % anual por 45 días. Plazo fijo en dólares por u$s 40.000 al 2,4 % anual por 60 días. Al 30/4 quedan $220.000 y u$s 10.000 en caja. Índices: 31/3 = 10.010 y 30/4 = 10.510,5, con un coeficiente de 1,05.",
-      "easy": "Mismo juego con dólares: los socios aportan pesos, dólares, un crédito y mercadería. Pasás todo a pesos con el dólar de ese día y anotás cada operación de abril."
+      "easy": "Mismo juego con dólares: los socios aportan pesos, dólares, un crédito y mercadería. Pasás todo a pesos con el dólar de ese día y anotás cada operación de abril.",
+      "statement": "Una sociedad se arma el 31/3 y opera durante abril. Abajo están los datos del enunciado ordenados en tablas: qué aportan los socios, qué hacen el 1/4 y los datos del cierre. Se pide el balance en moneda heterogénea y homogénea al 30/04, justificando el resultado.",
+      "tables": [
+        {
+          "title": "Qué aportan los socios el 31/3",
+          "head": [
+            "Aporte",
+            "Cantidad",
+            "En pesos (dólar 1.400)"
+          ],
+          "rows": [
+            [
+              "Efectivo en pesos",
+              "$500.000",
+              "500.000"
+            ],
+            [
+              "Efectivo en dólares",
+              "u$s 100.000",
+              "140.000.000"
+            ],
+            [
+              "Crédito a cobrar en dólares",
+              "u$s 20.000",
+              "28.000.000"
+            ],
+            [
+              "Mercadería",
+              "20 u × u$s 501",
+              "14.028.000"
+            ],
+            [
+              "Capital",
+              "",
+              "182.528.000"
+            ]
+          ],
+          "strong": [
+            4
+          ]
+        },
+        {
+          "title": "Qué pasa el 1/4",
+          "head": [
+            "Operación",
+            "Detalle"
+          ],
+          "rows": [
+            [
+              "Compra de mercadería",
+              "50 u × u$s 501 = u$s 25.050. Se paga cediendo el crédito (u$s 20.000); el saldo de u$s 5.050 lo financia el proveedor al 0,7 % mensual"
+            ],
+            [
+              "Plazo fijo en pesos (1)",
+              "Con u$s 50.000 de caja (× 1.400 = $70.000.000), al 60 % anual por 90 días"
+            ],
+            [
+              "Plazo fijo en pesos (2)",
+              "$280.000 al 72 % anual por 45 días"
+            ],
+            [
+              "Plazo fijo en dólares",
+              "u$s 40.000 al 2,4 % anual por 60 días"
+            ]
+          ]
+        },
+        {
+          "title": "Datos del cierre",
+          "head": [
+            "Dato",
+            "Valor"
+          ],
+          "rows": [
+            [
+              "Caja al 30/4",
+              "$220.000 y u$s 10.000"
+            ],
+            [
+              "Índice 31/3",
+              "10.010"
+            ],
+            [
+              "Índice 30/4",
+              "10.510,5"
+            ],
+            [
+              "Coeficiente",
+              "1,05"
+            ]
+          ]
+        }
+      ],
+      "steps": [
+        "Aportes del 31/3: $500.000; u$s 100.000; un crédito de u$s 20.000; 20 unidades de mercadería a u$s 501 (dólar a 1.400).",
+        "Capital = 500.000 + 120.000 × 1.400 + 20 × 501 × 1.400 = $182.528.000.",
+        "El 1/4: compra de 50 unidades a u$s 501 (u$s 25.050), que se paga cediendo el crédito (u$s 20.000); el saldo de u$s 5.050 lo financia el proveedor al 0,7 % mensual.",
+        "Plazo fijo en pesos con u$s 50.000 de caja (× 1.400 = 70.000.000) al 60 % anual por 90 días.",
+        "Plazo fijo en pesos por 280.000 al 72 % anual por 45 días.",
+        "Plazo fijo en dólares por u$s 40.000 al 2,4 % anual por 60 días.",
+        "Al 30/4 quedan $220.000 y u$s 10.000 en caja.",
+        "Índices: 31/3 = 10.010 y 30/4 = 10.510,5, con un coeficiente de 1,05."
+      ]
     },
     {
       "h": "Ejercicio B: balance y justificación al 30/04",
@@ -329,8 +483,31 @@
     },
     {
       "h": "TP 6 (también parcial del 27/06/2023): planteo y balance al 31/10",
-      "p": "Aporte de 100.000 el 30/09. Plazo fijo de u$s 5.000 (a 8,64 = 43.200) al 0,5 % mensual. Plazo fijo en pesos de 15.000 al 26,4 % anual. Mercaderías por 55.000: 30 % en efectivo y 70 % (38.500) a 60 días con un recargo del 8 % (4 % devengado al cierre). Al cierre: dólar a 8,90, reposición 55.900 e inflación del 3,5 %. Partidas: Caja $25.300,00; Plazo fijo u$s $44.722,50; Plazo fijo $ $15.330,00; Mercaderías $55.900,00; Proveedores $-40.040,00. Resultado heterogéneo $1.212,50; capital ajustado $103.500,00; resultado homogéneo $-2.287,50.",
-      "easy": "Una sociedad arranca con 100.000, hace un plazo fijo en dólares, otro en pesos y compra mercadería, una parte a crédito. Al cierre valuás cada cosa: el dólar subió, la mercadería también y la deuda creció con el recargo."
+      "easy": "Una sociedad arranca con 100.000, hace un plazo fijo en dólares, otro en pesos y compra mercadería, una parte a crédito. Al cierre valuás cada cosa: el dólar subió, la mercadería también y la deuda creció con el recargo.",
+      "statement": "El 30/09/2014 los socios aportan $100.000 en efectivo; cierre el 31/10/2014 con 3,5 % de inflación. Ese día: plazo fijo de u$s 5.000 (a $8,64) al 0,5 % mensual y plazo fijo en pesos de $15.000 al 26,4 % anual; compran mercadería por $55.000, 30 % en efectivo y el resto a 60 días con un 8 % de recargo sobre lo financiado. Al 31/10: dólar a $8,90 y reposición de la mercadería $55.900. Se pide el balance en moneda heterogénea y homogénea y el RECPAM. Año comercial.",
+      "figures": [
+        {
+          "dir": "control-de-gestion",
+          "src": "infl-tp6.jpg",
+          "caption": "Enunciado del TP 6",
+          "alt": "Enunciado del TP 6"
+        },
+        {
+          "dir": "control-de-gestion",
+          "src": "infl-tp6-parcial-2023.jpg",
+          "caption": "La misma consigna en el parcial del 27/06/2023, tema 2 (ahí los plazos son a 30 días y el recargo devengado es del 4 %)",
+          "alt": "La misma consigna en el parcial del 27/06/2023, tema 2 (ahí los plazos son a 30 días y el recargo devengado es del 4 %)"
+        }
+      ],
+      "steps": [
+        "Aporte de 100.000 el 30/09.",
+        "Plazo fijo de u$s 5.000 (a 8,64 = 43.200) al 0,5 % mensual.",
+        "Plazo fijo en pesos de 15.000 al 26,4 % anual.",
+        "Mercaderías por 55.000: 30 % en efectivo y 70 % (38.500) a 60 días con un recargo del 8 % (4 % devengado al cierre).",
+        "Al cierre: dólar a 8,90, reposición 55.900 e inflación del 3,5 %.",
+        "Partidas: Caja $25.300,00; Plazo fijo u$s $44.722,50; Plazo fijo $ $15.330,00; Mercaderías $55.900,00; Proveedores $-40.040,00.",
+        "Resultado heterogéneo $1.212,50; capital ajustado $103.500,00; resultado homogéneo $-2.287,50."
+      ]
     },
     {
       "h": "TP 6: justificación",
@@ -464,8 +641,24 @@
     },
     {
       "h": "TP 7 (AXI con dólares y crédito cedido): planteo",
-      "p": "Aportes del 31/3: $50.000, u$s 10.000 (× 15,40) y un crédito de $80.000, con un capital de $284.000,00. El 1/4: 20 unidades a u$s 449,74 = $138.519,92; se paga con el crédito (80.000) y el saldo de $58.519,92 (u$s 3799,99) queda en dólares al 0,5 % mensual. Plazo fijo en pesos de 20.000 al 36 % anual. Plazo fijo de u$s 8.000 al 3,6 % anual. Quedan $30.000 y u$s 2.000 en caja. Al 30/4: dólar a 16,17, mercadería a u$s 463,23 e índices de 45.689 a 47.745 (coeficiente 1,0450).",
-      "easy": "Los socios aportan pesos, dólares y un crédito. Con eso se compra mercadería en dólares, se hacen plazos fijos y queda una deuda en dólares con el proveedor."
+      "easy": "Los socios aportan pesos, dólares y un crédito. Con eso se compra mercadería en dólares, se hacen plazos fijos y queda una deuda en dólares con el proveedor.",
+      "statement": "El 31/03/2017 los 3 socios aportan $50.000, u$s 10.000 y un crédito a cobrar de $80.000. El 1/4: compran 20 unidades a u$s 449,74 pagando con el crédito y el saldo en dólares lo financia el proveedor al 0,5 % mensual; plazo fijo en pesos de $20.000 al 36 % anual por 90 días; plazo fijo en dólares de u$s 8.000 al 3,6 % anual por 60 días. Se pide el balance en moneda heterogénea y homogénea al 30/04, justificando el resultado.",
+      "figures": [
+        {
+          "dir": "control-de-gestion",
+          "src": "infl-tp7.jpg",
+          "caption": "Enunciado del TP 7, con la tabla de dólar, mercadería e índices",
+          "alt": "Enunciado del TP 7, con la tabla de dólar, mercadería e índices"
+        }
+      ],
+      "steps": [
+        "Aportes del 31/3: $50.000, u$s 10.000 (× 15,40) y un crédito de $80.000, con un capital de $284.000,00.",
+        "El 1/4: 20 unidades a u$s 449,74 = $138.519,92; se paga con el crédito (80.000) y el saldo de $58.519,92 (u$s 3799,99) queda en dólares al 0,5 % mensual.",
+        "Plazo fijo en pesos de 20.000 al 36 % anual.",
+        "Plazo fijo de u$s 8.000 al 3,6 % anual.",
+        "Quedan $30.000 y u$s 2.000 en caja.",
+        "Al 30/4: dólar a 16,17, mercadería a u$s 463,23 e índices de 45.689 a 47.745 (coeficiente 1,0450)."
+      ]
     },
     {
       "h": "TP 7: balance al 30/04 y justificación",
@@ -612,8 +805,33 @@
     },
     {
       "h": "TP 5 Gold: ¿se cubrió de la inflación?",
-      "p": "El 30/01, 2.200.000 / 4,976 = u$s 442122,19. El 30/03 compra oro a 1.388 u$s la onza: 318,53 onzas. La custodia cobra el 0,15 % del peso por mes durante 4 meses: quedan 316,62 onzas. El 30/07 valen 316,62 × 1.346 × 5,505 = $2.346.073,48. Inflación del período (la de enero queda fuera porque la inversión arranca el 30/01; tomando 3,2 % febrero-marzo, −0,2 % abril y 4,3 % mayo-julio como tasas del tramo): coeficiente 1,032 × 0,998 × 1,043 = 1,07422. Valor reexpresado: $2.363.291,15. Resultado real $-17.217,66: NO se cubrió. El oro bajó en dólares (de 1.388 a 1.346) y la suba del dólar no alcanzó a compensar la inflación más la custodia. Si las tasas fueran mensuales, la inflación sería todavía mayor y la conclusión no cambia.",
-      "easy": "La pregunta es: ¿comprar oro me protegió de la inflación? Comparás cuánto vale el oro al final contra cuánto valdría la plata original ajustada por la inflación. Da menos: el oro bajó en dólares y encima pagaste custodia, así que no te cubriste."
+      "easy": "La pregunta es: ¿comprar oro me protegió de la inflación? Comparás cuánto vale el oro al final contra cuánto valdría la plata original ajustada por la inflación. Da menos: el oro bajó en dólares y encima pagaste custodia, así que no te cubriste.",
+      "statement": "El dueño de una PyME invirtió $2.200.000: el 30/01/13 compró dólares, el 30/03 compró oro con esos dólares y lo dejó en custodia en un banco. Pregunta si se cubrió de la inflación entre el 30/01/13 y el 30/07/13. Hay que responderle, justificar y calcular el REI en pesos.",
+      "figures": [
+        {
+          "dir": "control-de-gestion",
+          "src": "infl-tp5-1.jpg",
+          "caption": "Enunciado del TP 5 Gold (consigna)",
+          "alt": "Enunciado del TP 5 Gold (consigna)"
+        },
+        {
+          "dir": "control-de-gestion",
+          "src": "infl-tp5-2.jpg",
+          "caption": "TP 5 Gold: datos de dólar, oro, custodia e inflación",
+          "alt": "TP 5 Gold: datos de dólar, oro, custodia e inflación"
+        }
+      ],
+      "steps": [
+        "El 30/01, 2.200.000 / 4,976 = u$s 442122,19.",
+        "El 30/03 compra oro a 1.388 u$s la onza: 318,53 onzas.",
+        "La custodia cobra el 0,15 % del peso por mes durante 4 meses: quedan 316,62 onzas.",
+        "El 30/07 valen 316,62 × 1.346 × 5,505 = $2.346.073,48.",
+        "Inflación del período (la de enero queda fuera porque la inversión arranca el 30/01; tomando 3,2 % febrero-marzo, −0,2 % abril y 4,3 % mayo-julio como tasas del tramo): coeficiente 1,032 × 0,998 × 1,043 = 1,07422.",
+        "Valor reexpresado: $2.363.291,15.",
+        "Resultado real $-17.217,66: NO se cubrió.",
+        "El oro bajó en dólares (de 1.388 a 1.346) y la suba del dólar no alcanzó a compensar la inflación más la custodia.",
+        "Si las tasas fueran mensuales, la inflación sería todavía mayor y la conclusión no cambia."
+      ]
     },
     {
       "h": "Cómo presentar la respuesta",
