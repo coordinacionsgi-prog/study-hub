@@ -57,6 +57,12 @@ export default function TheoryView({ subjectId, moduleId, scrollRequest }) {
         {data.sections?.map((s, i) => (
           <div key={i} id={`theory-section-${i}`} className="theory-section">
             <h3>{s.h}</h3>
+            {s.statement && (
+              <div className="callout callout-info theory-statement">
+                <span className="theory-label">Enunciado</span>
+                <p>{s.statement}</p>
+              </div>
+            )}
             {s.easy && (
               <div className="theory-easy">
                 <span className="theory-label">En criollo</span>

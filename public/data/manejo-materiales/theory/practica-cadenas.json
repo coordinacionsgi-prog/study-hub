@@ -19,7 +19,15 @@
     {
       "h": "Datos que siempre tenés que sacar de la gráfica",
       "p": "Longitud total L (perímetro rectificado), en el parcial 121.920 mm = 400 ft. Zona útil LU (donde viaja la pieza, de carga a descarga): L menos el tramo sin pieza; en el parcial 121.920 − 36.576 = 85.344 mm = 280 ft. Desnivel máximo de las curvas de ascenso en zona útil: 1500 mm = 4,921 ft. Paso de la cadena armada (distancia entre troleys) y paso de carga (distancia entre piezas), ambos de 24\" = 2 ft. Cantidades: portapiezas en toda la traza = L / paso de carga = 200; piezas solo en zona útil = LU / paso de carga = 140; troleys = L / paso de cadena armada = 200.",
-      "easy": "Antes de calcular, sacá de la gráfica cuánto mide todo el circuito (L), en qué tramo viaja la pieza (zona útil) y cuánto sube. Después contá: portapiezas hay en todo el circuito (L / paso); piezas, solo en la zona útil. Y pasá todo a pies, porque los datos de la cadena vienen en libras y pies."
+      "easy": "Antes de calcular, sacá de la gráfica cuánto mide todo el circuito (L), en qué tramo viaja la pieza (zona útil) y cuánto sube. Después contá: portapiezas hay en todo el circuito (L / paso); piezas, solo en la zona útil. Y pasá todo a pies, porque los datos de la cadena vienen en libras y pies.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "parcial-cadenas-grafica.jpg",
+          "caption": "Gráfica del 2do parcial (idéntica en los 4 temas): perímetro R–S de 36.576 mm sin pieza, cotas 3500 y 5000 mm",
+          "alt": "Gráfica del 2do parcial (idéntica en los 4 temas): perímetro R–S de 36.576 mm sin pieza, cotas 3500 y 5000 mm"
+        }
+      ]
     },
     {
       "h": "Paso 1 y 2: cargas normales y tiro horizontal",
@@ -49,52 +57,185 @@
     {
       "h": "2do parcial resuelto: datos comunes a los 4 temas",
       "p": "Power con cadena forjada de 4\", X458: tiro admisible 2500 lb; cadena 3,1 lb/ft; troley y load bar 7,1 lb; capacidad del troley 480 lb; fricción 2,5 %. Pasos de cadena armada y de carga de 24\". Portapiezas 150 lb. Dos curvas de ascenso, desnivel 1500 mm. La gráfica es idéntica para los 4 temas.",
-      "easy": "Son los datos que se repiten en los 4 temas: la cadena aguanta 2500 lb, cada troley 480 lb, el portapiezas pesa 150 lb y roza un 2,5 %. Solo cambia la carga o el coeficiente en cada tema."
+      "easy": "Son los datos que se repiten en los 4 temas: la cadena aguanta 2500 lb, cada troley 480 lb, el portapiezas pesa 150 lb y roza un 2,5 %. Solo cambia la carga o el coeficiente en cada tema.",
+      "statement": "Para el transportador aéreo (POWER) del esquema se pide calcular en qué porcentaje se puede aumentar el peso de la carga a transportar, justificando matemáticamente. Datos del equipo: cadena forjada de paso 4\"; longitud (perímetro total rectificado) 121.920 mm; paso de la cadena armada 24\"; paso de la carga 24\"; portacargas 150 lb; dos curvas verticales de ascenso; desnivel máximo según cotas del esquema. Catálogo X458: tiro admisible 2500 lb; cadena 3,1 lb/ft; troley = barra de carga 7,1 lb; capacidad del troley 480 lb; fricción de troleys 4\" = 2,5 %. La gráfica es idéntica para los 4 temas; cada tema cambia solo la carga actual o el coeficiente.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "parcial-cadenas-grafica.jpg",
+          "caption": "Esquema del transportador: planta, corte A-A y vista B",
+          "alt": "Esquema del transportador: planta, corte A-A y vista B"
+        }
+      ],
+      "tables": [
+        {
+          "title": "Qué cambia en cada tema (hoja original con resultados de la cátedra)",
+          "head": [
+            "Tema",
+            "Carga actual",
+            "Coeficiente",
+            "Resultado"
+          ],
+          "rows": [
+            [
+              "Tema 1",
+              "250 lb",
+              "ninguno",
+              "13 %"
+            ],
+            [
+              "Tema 2",
+              "282,58 lb",
+              "ninguno",
+              "0 %"
+            ],
+            [
+              "Tema 3",
+              "250 lb",
+              "seguridad 1,0838 (solo tiro de cadena)",
+              "0 %"
+            ],
+            [
+              "Tema 4",
+              "250 lb",
+              "sobrecarga 10 % (solo tiro de cadena)",
+              "29,7 %"
+            ]
+          ]
+        }
+      ]
     },
     {
       "h": "Tema 1: carga de 250 lb, sin coeficiente → 13 %",
       "p": "Troleys: 250 + 150 = 400 lb ≤ 480 lb, no hacen falta load bars. Cargas normales sin piezas: cadena 400 × 3,1 = 1240; troleys 200 × 7,1 = 1420; portapiezas 200 × 150 = 30.000; total 32.660 lb; × 0,025 = 816,5 lb. Término de la pieza: horizontal 140 × 0,025 = 3,5 X; elevación 4,921 / 2 = 2,4606 X; en total 5,9606 X. Tiro actual con 250 lb: 816,5 + 5,9606 × 250 = 2306,66 lb ≤ 2500, verifica. Máximo: X = (2500 − 816,5) / 5,9606 = 282,44 lb. Troleys: 282,44 + 150 = 432,44 ≤ 480, verifican. Aumento: 282,44 / 250 = 1,130 → 13 %.",
-      "easy": "Con 250 lb la cadena tira 2306 lb y aguanta 2500: verifica. Si despejás cuánto podrías colgar, te da 282 lb, y los troleys aguantan eso. O sea, podés aumentar la carga un 13 %."
+      "easy": "Con 250 lb la cadena tira 2306 lb y aguanta 2500: verifica. Si despejás cuánto podrías colgar, te da 282 lb, y los troleys aguantan eso. O sea, podés aumentar la carga un 13 %.",
+      "statement": "Carga actual 250 lb. Coeficiente de seguridad: ninguno. El resto de los datos y la gráfica son los comunes (ver arriba). Pide: % de aumento de la carga.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "parcial-cadenas-tema1.jpg",
+          "caption": "Hoja del 2do parcial, tema 1",
+          "alt": "Hoja del 2do parcial, tema 1"
+        }
+      ]
     },
     {
       "h": "Tema 2: carga actual de 282,58 lb → 0 %",
       "p": "Es la carga máxima que encontraste en el tema 1 (282,44 lb). Tiro = 816,5 + 5,9606 × 282,58 ≈ 2500 lb: la cadena ya trabaja al límite. No se puede aumentar la carga: 0 %.",
-      "easy": "Te dan justo la carga máxima del tema 1: la cadena ya está tirando todo lo que puede. No podés agregar nada: 0 %."
+      "easy": "Te dan justo la carga máxima del tema 1: la cadena ya está tirando todo lo que puede. No podés agregar nada: 0 %.",
+      "statement": "Carga actual 282,58 lb. Coeficiente de seguridad: ninguno. El resto de los datos y la gráfica son los comunes (ver arriba). Pide: % de aumento de la carga.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "parcial-cadenas-tema2.jpg",
+          "caption": "Hoja del 2do parcial, tema 2",
+          "alt": "Hoja del 2do parcial, tema 2"
+        }
+      ]
     },
     {
       "h": "Tema 3: coeficiente de seguridad 1,0838 (solo tiro) → 0 %",
       "p": "Admisible = 2500 / 1,0838 = 2306,7 lb. Con 250 lb el tiro es 2306,66 lb, igual al admisible. X = (2306,7 − 816,5) / 5,9606 = 250,01 lb → 0 %.",
-      "easy": "Con el coeficiente de seguridad la cadena aguanta menos (2306,7 lb), que es justo lo que tira con 250 lb. Está al límite: 0 % de aumento."
+      "easy": "Con el coeficiente de seguridad la cadena aguanta menos (2306,7 lb), que es justo lo que tira con 250 lb. Está al límite: 0 % de aumento.",
+      "statement": "Carga actual 250,00 lb. Coeficiente de seguridad 1,0838, solo para el tiro de la cadena. El resto de los datos y la gráfica son los comunes (ver arriba). Pide: % de aumento de la carga.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "parcial-cadenas-tema3.jpg",
+          "caption": "Hoja del 2do parcial, tema 3",
+          "alt": "Hoja del 2do parcial, tema 3"
+        }
+      ]
     },
     {
       "h": "Tema 4: sobrecarga del 10 % (solo tiro) → 29,7 %",
       "p": "Admisible = 2500 × 1,1 = 2750 lb. X = (2750 − 816,5) / 5,9606 = 324,38 lb. Troleys: 324,38 + 150 = 474,38 ≤ 480, verifican. Aumento: 324,38 / 250 = 1,298 → 29,7 %.",
-      "easy": "Con un 10 % de sobrecarga la cadena aguanta 2750 lb, así que podés colgar hasta 324 lb, y los troleys todavía aguantan (474 de 480). Aumento: casi 30 %."
+      "easy": "Con un 10 % de sobrecarga la cadena aguanta 2750 lb, así que podés colgar hasta 324 lb, y los troleys todavía aguantan (474 de 480). Aumento: casi 30 %.",
+      "statement": "Carga actual 250 lb. Coeficiente de sobrecarga 10 %, solo para el tiro de la cadena. El resto de los datos y la gráfica son los comunes (ver arriba). Pide: % de aumento de la carga.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "parcial-cadenas-tema4.jpg",
+          "caption": "Hoja del 2do parcial, tema 4",
+          "alt": "Hoja del 2do parcial, tema 4"
+        }
+      ]
     },
     {
       "h": "Caso resuelto P1: 10 % de seguridad en todo el sistema → 17,1 %",
       "p": "Mismo transportador, troley de 400 lb y fricción del 2 %. Con el 10 %, admisible 2500 × 0,9 = 2250 lb y troley 400 × 0,9 = 360 lb. Como 250 + 150 = 400 > 360, van load bars: troleys 200 + 200 = 400 → 2840 lb; load bars 200 × 7,1 = 1420 lb. Cargas normales: 1240 + 2840 + 1420 + 35.000 (140 × 250) + 30.000 = 70.500 lb; × 0,02 = 1410 lb. Elevación: 4,921 × 250 / 2 = 615,16 lb. Total 2025,16 < 2250. Máximo: 710 + 2,8 X + 2,46 X = 2250, X = 1540 / 5,26 = 292,77 lb. Troleys: 2 × 360 = 720 ≥ 292,77 + 150 + 7,1 = 449,87, verifican. 292,77 / 250 = 1,171 → 17,1 %.",
-      "easy": "Acá el 10 % de seguridad baja todo: la cadena y los troleys. La pieza ya no entra en un troley solo, así que van load bars (más peso para arrastrar). Aun así, la pieza puede llegar a 293 lb: un 17 % más."
+      "easy": "Acá el 10 % de seguridad baja todo: la cadena y los troleys. La pieza ya no entra en un troley solo, así que van load bars (más peso para arrastrar). Aun así, la pieza puede llegar a 293 lb: un 17 % más.",
+      "statement": "Mismo transportador y misma gráfica del parcial (L = 121.920 mm, pasos de 24\", carga 250 lb, portacargas 150 lb, dos curvas de ascenso). Catálogo X458: tiro 2500 lb; cadena 3,1 lb/ft; troley = barra 7,1 lb; capacidad del troley 400 lb; fricción 2,0 %. Coeficiente de seguridad: 10 % para todo el sistema (troleys y cadena). Pide: % de aumento de la carga.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "caso-slide-02.jpg",
+          "caption": "Problema 1 de los casos resueltos (Ing. Fernández)",
+          "alt": "Problema 1 de los casos resueltos (Ing. Fernández)"
+        }
+      ]
     },
     {
       "h": "Caso resuelto P2: 10 % solo para troleys → 36,1 %",
       "p": "Igual al P1, pero la cadena conserva sus 2500 lb. Las load bars siguen siendo necesarias (400 > 360). X = (2500 − 710) / 5,26 = 1790 / 5,26 = 340,3 lb. Troleys: 720 ≥ 340,3 + 150 + 7,1 = 497,4, verifican. 340,3 / 250 → 36,1 %.",
-      "easy": "Igual que el anterior, pero la cadena conserva toda su fuerza y solo los troleys tienen el 10 %. Como la cadena aguanta más, la pieza puede llegar a 340 lb: 36 % más."
+      "easy": "Igual que el anterior, pero la cadena conserva toda su fuerza y solo los troleys tienen el 10 %. Como la cadena aguanta más, la pieza puede llegar a 340 lb: 36 % más.",
+      "statement": "Mismo transportador y misma gráfica del parcial (L = 121.920 mm, pasos de 24\", carga 250 lb, portacargas 150 lb, dos curvas de ascenso). Catálogo X458: tiro 2500 lb; cadena 3,1 lb/ft; troley = barra 7,1 lb; capacidad del troley 400 lb; fricción 2,0 %. Coeficiente de seguridad: 10 % solo para los troleys. Pide: % de aumento de la carga.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "caso-slide-09.jpg",
+          "caption": "Problema 2 de los casos resueltos",
+          "alt": "Problema 2 de los casos resueltos"
+        }
+      ]
     },
     {
       "h": "Caso resuelto P3: paso de carga 48\" y 5 % en troleys → 141,1 % (limitan los troleys)",
       "p": "Con paso de carga 4 ft hay 100 portapiezas (15.000 lb) y 70 piezas en zona útil (17.500 lb). Troley 400 × 0,95 = 380 lb. Las cargas normales de la cátedra dan 36.580 lb (con 2840 lb de troleys y load bars); × 0,02 = 731,6 lb. Elevación: 4,921 × 250 / 4 = 307,58 lb. Total 1039,18 < 2500. Por cadena: 381,6 + (1,4 + 1,23) X = 2500, X = 2118,4 / 2,63 = 805,47 lb. Troleys: 2 × 380 = 760 < 805,47 + 150 + 7,1 = 962,57, NO verifican. Manda el troley: Xmáx = 760 − 150 − 7,1 = 602,9 lb. 602,9 / 250 = 2,411 → 141,1 %. Moraleja: a mayor paso de carga hay menos piezas y la cadena sobra; el límite pasa a ser el troley.",
-      "easy": "Con las piezas más separadas (cada 4 pies) hay menos piezas colgadas y la cadena podría tirar hasta 805 lb por pieza. Pero los troleys no aguantan tanto: mandan ellos y la pieza máxima queda en 603 lb (141 % más). Moraleja: siempre verificá los troleys."
+      "easy": "Con las piezas más separadas (cada 4 pies) hay menos piezas colgadas y la cadena podría tirar hasta 805 lb por pieza. Pero los troleys no aguantan tanto: mandan ellos y la pieza máxima queda en 603 lb (141 % más). Moraleja: siempre verificá los troleys.",
+      "statement": "Mismo transportador y misma gráfica del parcial (L = 121.920 mm, paso de cadena 24\" y paso de carga 48\", carga 250 lb, portacargas 150 lb, dos curvas de ascenso). Catálogo X458: tiro 2500 lb; cadena 3,1 lb/ft; troley = barra 7,1 lb; capacidad del troley 400 lb; fricción 2,0 %. Coeficiente de seguridad: 5 % solo para los troleys. Pide: % de aumento de la carga.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "caso-slide-16.jpg",
+          "caption": "Problema 3 de los casos resueltos (paso de carga 48\")",
+          "alt": "Problema 3 de los casos resueltos (paso de carga 48\")"
+        }
+      ]
     },
     {
       "h": "TP 4.1 (grupo 1): elegir entre X348, X458 y X678",
       "p": "Datos: L = 800 ft, LU = 640 ft, pasos de 2 ft, H = 14 ft, Cs = 1,25 para todo el sistema, pieza 122 lb, porta 26 lb. Hay 400 troleys y portapiezas y 320 piezas. Con Cs = 1,25, dividí el tiro y la capacidad del troley. Pieza + porta = 148 lb, menor que la capacidad de troley corregida de las tres cadenas (160 / 320 / 480 lb), así que no van load bars. Elevación en todas: 14 × 122 / 2 = 854 lb. X348: normales 53000 lb, horizontal 1590,0, total 2444,0 lb contra un admisible de 1200 lb → no verifica. X458: normales 54840 lb, horizontal 1371,0, total 2225,0 lb contra un admisible de 2000 lb → no verifica. X678: normales 58920 lb, horizontal 1178,4, total 2032,4 lb contra un admisible de 3600 lb → VERIFICA. Se elige la X678: es la única que verifica. Hacé siempre las tres cuentas, porque las pide justificadas.",
-      "easy": "Es elegir la cadena más chica que alcance. Probás la de 3\" (X348): tira de más, no sirve. La de 4\" (X458) tampoco alcanza. La de 6\" (X678) sí verifica. Elegís la primera que cumple."
+      "easy": "Es elegir la cadena más chica que alcance. Probás la de 3\" (X348): tira de más, no sirve. La de 4\" (X458) tampoco alcanza. La de 6\" (X678) sí verifica. Elegís la primera que cumple.",
+      "statement": "Dado un transportador Power con los datos de tu grupo (L, LU, pasos de 2 ft, desnivel H, coeficiente de seguridad para todo el sistema, carga y portacargas), determinar cuál de las cadenas X348, X458 o X678 cumple, justificando con el cálculo para cada una. Abajo se resuelve el grupo 1.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "tp4-p41.jpg",
+          "caption": "Enunciado TP 4.1: datos por grupo y tabla de cadenas",
+          "alt": "Enunciado TP 4.1: datos por grupo y tabla de cadenas"
+        }
+      ]
     },
     {
       "h": "TP 4.2 y 4.3: lo que agregan",
       "p": "4.2: la traza tiene varias cotas (H1 a H4) y se da la distancia entre descarga y carga. La zona útil es L menos ese tramo, y el desnivel es el de las subidas que la pieza hace cargada (leelo del esquema). Piden si cumple, la pieza máxima y el aumento absoluto (Xmáx − Qc) y porcentual. Con paso de carga 4 u 8 ft y paso de cadena 2 ft, la load bar reparte la carga entre troleys sin agregar troleys. 4.3: primero probás la cadena de 3\" (X348); si no verifica, pasás a la siguiente. Velocidad: piezas por minuto = unidades del mes / minutos productivos del mes, y v (ft/min) = piezas por minuto × paso de carga (ft). Presupuesto: cadena (L × precio por ft) + troleys + load bars + mando y tensor, según la lista de precios.",
-      "easy": "Lo mismo pero con más vueltas: el circuito tiene varias alturas y tenés que ver en cuáles sube la pieza cargada. Y si te dan la velocidad, calculás cuántas piezas por hora salen."
+      "easy": "Lo mismo pero con más vueltas: el circuito tiene varias alturas y tenés que ver en cuáles sube la pieza cargada. Y si te dan la velocidad, calculás cuántas piezas por hora salen.",
+      "statement": "4.2: transportador Power que lleva carcazas de medidores de gas a pintura (portapiezas de 6\" × 30\" × 20\"). Con los datos de tu grupo (cadena, L, distancia descarga-carga, pasos, cotas H1 a H4, carga y portacargas) se pide si cumple, la pieza máxima y el aumento absoluto y porcentual. 4.3: fábrica de motores con cadena de 3\": A) si la cadena de 3\" sirve; B) si sirve, % de aumento; C) si no, qué cadena da solución; D) velocidad para la producción mensual; E) presupuesto de los componentes.",
+      "figures": [
+        {
+          "dir": "manejo-materiales",
+          "src": "tp4-p42.jpg",
+          "caption": "Enunciado TP 4.2: tabla por grupo, esquema con cotas H1–H4 y cadenas",
+          "alt": "Enunciado TP 4.2: tabla por grupo, esquema con cotas H1–H4 y cadenas"
+        },
+        {
+          "dir": "manejo-materiales",
+          "src": "tp4-p43.jpg",
+          "caption": "Enunciado TP 4.3: consignas A–E y tabla por grupo",
+          "alt": "Enunciado TP 4.3: consignas A–E y tabla por grupo"
+        }
+      ]
     },
     {
       "h": "Errores típicos que bajan nota",
