@@ -1,0 +1,88 @@
+{
+  "thesis": "El sistema de costeo define qué costos van al producto. En el costeo directo o variable solo van los variables de fabricación y todos los fijos se cargan al período; en el integral o por absorción también se reparten los fijos de fabricación entre las unidades producidas. Con el punto de equilibrio se ve cuánto hay que vender para no perder.",
+  "examTip": "Preguntas fijas: qué registra cada sistema en el cuadro de resultados, cuándo uno da más utilidad que el otro, y cómo se valúa el stock en el integral. En los ejercicios: punto de equilibrio económico vs financiero y cuentas de mermas y recortes.",
+  "concepts": [
+    "Costeo variable",
+    "Costeo integral",
+    "Contribución marginal",
+    "Utilidad bruta",
+    "Punto de equilibrio económico",
+    "Punto de equilibrio financiero",
+    "Mermas",
+    "Recortes"
+  ],
+  "sections": [
+    {
+      "h": "Costeo directo vs integral",
+      "p": "Costeo directo o variable: en el cuadro de resultados van los costos variables de fabricación de LO VENDIDO y TODOS los costos fijos de fabricación del período; permite obtener la contribución marginal y el punto de equilibrio (y la utilidad neta). Costeo integral o por absorción: van los costos variables y fijos de fabricación DE LO VENDIDO; permite obtener la utilidad bruta y la utilidad neta. Valuación unitaria del stock en el integral = (costos variables de fabricación + costos fijos de fabricación) / unidades PRODUCIDAS. Comparación: si producido > vendido (el stock aumenta), el INTEGRAL da más utilidad (parte de los fijos queda en el stock) y el directo da menos. Si vendido > producido (el stock disminuye), el DIRECTO da más utilidad. Si producido = vendido, o no hay stock inicial ni final, dan la misma.",
+      "easy": "Con stock que crece, la absorción «esconde» costos fijos en el stock y muestra más ganancia. Con stock que baja, pasa al revés.",
+      "tables": [
+        {
+          "title": "Ejemplo: se producen 10.000 y se venden 8.000; precio $10, costo variable $5, fijos de fabricación $20.000",
+          "head": [
+            "Sistema",
+            "Cuenta",
+            "Utilidad"
+          ],
+          "rows": [
+            [
+              "Directo",
+              "8.000 × (10 − 5) − 20.000",
+              "$20.000"
+            ],
+            [
+              "Integral (fijo unitario 20.000/10.000 = $2)",
+              "8.000 × (10 − 5 − 2)",
+              "$24.000"
+            ],
+            [
+              "Diferencia",
+              "2.000 unidades en stock × $2 de fijo",
+              "$4.000"
+            ]
+          ],
+          "note": "El integral da más porque produjo más de lo que vendió: $4.000 de fijos quedaron dentro del stock."
+        }
+      ]
+    },
+    {
+      "h": "Punto de equilibrio económico y financiero",
+      "p": "Económico: cantidad que hay que vender para cubrir TODOS los costos (fijos y variables): q* = CF / (precio − CVu); ingreso de equilibrio = precio × q*. Beneficio = ingresos − costos totales. Financiero: nivel de ventas que cubre las necesidades financieras (solo los costos erogables) aunque no logre el equilibrio económico: q_fin = (CF − costos no erogables como las amortizaciones) / (precio − CVu). Por eso el financiero es menor que el económico: la empresa puede seguir abierta transitoriamente aunque pierda plata contable.",
+      "easy": "El económico es cuando no ganás ni perdés. El financiero es cuando al menos te alcanza la plata, aunque no cubras la amortización."
+    },
+    {
+      "h": "Ejercicio del 1er parcial 2025 · Punto de equilibrio",
+      "p": "Fábrica de pocillos. Invirtió $1.200.000 en equipos de producción y $150.000 en oficinas; los amortiza en 15 años con un valor final del 20 % y cuotas mensuales constantes de $6.000. Con 75.000 pocillos a $2 llega al equilibrio económico; con 200.000 gana $30.000 por mes. Se pide el ingreso y la cantidad del punto de equilibrio financiero mensual.",
+      "easy": "Con dos situaciones armás dos ecuaciones y sacás el costo fijo y el variable. Después al fijo le restás la amortización (no es plata que sale) y calculás el financiero.",
+      "steps": [
+        "Equilibrio: CF = 75.000 × (2 − CVu).",
+        "Con 200.000 unidades: 30.000 = 2 × 200.000 − CF − 200.000 × CVu → CF = 370.000 − 200.000 × CVu.",
+        "Igualando: 150.000 − 75.000 CVu = 370.000 − 200.000 CVu → 125.000 CVu = 220.000 → CVu = $1,76; CF = 75.000 × 0,24 = $18.000.",
+        "Control de la amortización: (1.200.000 + 150.000) × 0,8 / 180 meses = $6.000 por mes.",
+        "Equilibrio financiero: (18.000 − 6.000) / (2 − 1,76) = 50.000 pocillos → ingresos de $100.000 (opción «50.000 pocillos y $100.000»). El económico es el del enunciado: 75.000 pocillos y $150.000."
+      ]
+    },
+    {
+      "h": "Ejercicio del 1er parcial 2025 · Mermas y recortes",
+      "p": "Dos materias primas en tres procesos. La MP A entra al proceso 1 (merma 2 %, recorte 5 %) y salen 112,06 kg. Proceso 2: merma 3 % y recortes 8 %. Se agregan 30 kg de MP B con una merma del 10 % solo sobre B. Proceso 3: merma 8 % y recortes 20 %. Los recortes se reciclan en la fábrica (no vuelven al producto). Calcular el producto terminado.",
+      "easy": "Vas aplicando cada pérdida sobre lo que queda, en orden, y sumás la segunda materia prima cuando entra.",
+      "steps": [
+        "Proceso 2: 112,06 × (1 − 0,03) = 108,70 kg; × (1 − 0,08) = 100,00 kg.",
+        "Entra B: 30 × (1 − 0,10) = 27 kg → 127,00 kg al proceso 3.",
+        "Proceso 3: 127 × 0,92 = 116,84 kg; × 0,80 = 93,47 kg de producto terminado.",
+        "No está entre las opciones numéricas: la respuesta es «Ninguna de las anteriores»."
+      ]
+    },
+    {
+      "h": "Ejercicio del 1er parcial 2025 · Costos generales (FIFO, costeo variable)",
+      "p": "MP $250.000, MOD $25.000, gastos de fabricación fijos $30.000 y variables $15.000, gastos de comercialización variables $20.000 y fijos $15.000, administración y financieros $25.000. Producción 40.000 u; ventas 45.000 u; stock inicial 10.000 u a costo variable de $7; precio $15. Calcular la contribución marginal.",
+      "easy": "Con FIFO, primero vendés las 10.000 del stock viejo (a $7) y después 35.000 de las nuevas.",
+      "steps": [
+        "Costo variable de fabricación unitario = (250.000 + 25.000 + 15.000) / 40.000 = $7,25.",
+        "Ventas = 45.000 × 15 = $675.000.",
+        "Costo variable de lo vendido (FIFO) = 10.000 × 7 + 35.000 × 7,25 = 70.000 + 253.750 = $323.750.",
+        "Contribución marginal = 675.000 − 323.750 − 20.000 (comercialización variable) = $331.250."
+      ]
+    }
+  ]
+}

@@ -38,5 +38,10 @@
     "id": "economia-empresa",
     "title": "Economía de la Empresa",
     "description": "Final práctico por partes: costos y contabilidad, amortización, renta nacional y evaluación de proyectos (VAN, TIR, repago), con finales de 2007 resueltos paso a paso."
+  },
+  {
+    "id": "costos-presupuestos",
+    "title": "Costos y Presupuestos",
+    "description": "Final: costeo directo e integral, punto de equilibrio, amortización, costo de capital, ABC, costos conjuntos y estándar, presupuestos, con el 1er parcial 2025 resuelto y el banco de preguntas de los parciales."
   }
 ]

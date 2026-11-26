@@ -1,0 +1,38 @@
+[
+  {
+    "id": "conceptos",
+    "title": "Conceptos base: capital, productividad, costos y estados",
+    "unidad": "1er parcial",
+    "description": "Capital fijo y circulante, productividad, clasificación de costos, balance y cuadro de resultados, IVA crédito y débito, inventarios (FIFO, LIFO, PPP)."
+  },
+  {
+    "id": "costeo-equilibrio",
+    "title": "Sistemas de costeo y punto de equilibrio",
+    "unidad": "1er parcial",
+    "description": "Costeo directo vs integral (cuándo da más utilidad cada uno), punto de equilibrio económico y financiero, mermas y recortes de materia prima, con ejercicios del 1er parcial 2025 resueltos."
+  },
+  {
+    "id": "amortizacion-capital",
+    "title": "Amortización, costo de capital y apalancamiento",
+    "unidad": "1er parcial",
+    "description": "Valor de origen de un bien importado (FAS, FOB, CIF), sistemas de amortización, vida útil, capital propio vs prestado, costo de capital, WACC y efecto palanca."
+  },
+  {
+    "id": "abc-conjunto-estandar",
+    "title": "ABC, costos conjuntos y costos estándar",
+    "unidad": "2do parcial",
+    "description": "Costeo basado en actividades, métodos de costo conjunto (unidades físicas, valor relativo de ventas, costo inverso), costos estimados y estándar, con ejemplos resueltos."
+  },
+  {
+    "id": "presupuestos",
+    "title": "Presupuestos y control presupuestario",
+    "unidad": "2do parcial",
+    "description": "Presupuesto operativo, financiero, de inversiones y consolidado; por dónde se empieza; control presupuestario, informes de excepción e indicadores."
+  },
+  {
+    "id": "preguntas-parciales",
+    "title": "Preguntas de parciales y final respondidas",
+    "unidad": "Final · Repaso",
+    "description": "El banco de preguntas de opción múltiple de los parciales de Costos y Presupuestos con la respuesta correcta y el porqué."
+  }
+]

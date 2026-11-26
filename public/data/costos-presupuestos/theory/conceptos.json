@@ -1,0 +1,44 @@
+{
+  "thesis": "Costos y Presupuestos enseña a medir cuánto cuesta producir y a planificar. Todo arranca en los factores de producción (capital fijo y circulante), sigue con cómo se clasifican los costos y cómo se reflejan en el balance y en el cuadro de resultados, y termina en el presupuesto.",
+  "examTip": "Los parciales son de opción múltiple con ejercicios numéricos (punto de equilibrio, materia prima con mermas, amortización, costos generales) y preguntas teóricas cortas. Leé todas las opciones: muchas veces la diferencia está en una palabra («siempre», «de lo vendido», «producidas»).",
+  "concepts": [
+    "Capital fijo",
+    "Capital circulante",
+    "Productividad",
+    "Erogable y no erogable",
+    "Directo e indirecto",
+    "Fijo y variable",
+    "Costo de conversión",
+    "Balance",
+    "Cuadro de resultados",
+    "IVA CF y DF",
+    "FIFO, LIFO, PPP"
+  ],
+  "sections": [
+    {
+      "h": "Factores de la producción",
+      "p": "Capital fijo: bienes de uso durables que se aplican muchas veces al proceso (terrenos, edificios, máquinas, rodados, software); son de lenta recuperación y se deprecian. Capital circulante: bienes que se consumen en un solo ciclo (materias primas, mano de obra, servicios). Ciclo del capital circulante: dinero → materias primas → producción en proceso → producto terminado → ventas → créditos → cobranza → dinero; las ventas no siempre coinciden con la cobranza, y lo cobrado vuelve a ser disponible sin destino específico. Los inventarios de producto terminado son parte del capital circulante arriesgado.",
+      "easy": "El capital fijo es la máquina que usás años; el circulante es lo que gastás en cada vuelta (materia prima, sueldos). La plata da una vuelta entera hasta que cobrás."
+    },
+    {
+      "h": "Productividad",
+      "p": "Índice que relaciona la producción con los recursos empleados. Productividad técnica: producción / factores utilizados (mano de obra: cumplir estándares, estudiar métodos, reducir horas improductivas y horas extra; materia prima: comprar bien, stock acorde a la planificación, reducir recortes y mermas). Al subir la productividad baja el costo unitario. Productividad económica: beneficios / capital invertido; se mide con ROA (rentabilidad del negocio), ROE (de los socios) y ROI (de la inversión). Eficiencia: cumplir el objetivo con la menor cantidad de recursos. Eficacia: posibilidad de cumplir la meta.",
+      "easy": "Productividad es sacar más con lo mismo. Si sube, cada unidad sale más barata."
+    },
+    {
+      "h": "Clasificación de costos",
+      "p": "Inversión (se recupera a mediano o largo plazo con un beneficio), gasto (consumo) y costo (dinero insumido por la producción de un bien). Directos (se asignan exactos al producto: MP, MOD) e indirectos (se distribuyen con criterios: gastos generales de fabricación). Fijos y variables según el volumen. Erogables (son salida de dinero) y no erogables (costo económico sin desembolso: amortizaciones, previsiones). Costo primo = MP + MOD. Costo de conversión = MOD + costos indirectos de fabricación. Costo de fabricación total = MP + MOD + costos indirectos de fabricación. Costo de materia prima = cantidad × precio, y el precio depende del sistema de valuación de inventarios.",
+      "easy": "Directo es lo que se puede asignar exacto a cada producto; indirecto hay que repartirlo. Erogable es lo que sale de la caja; la amortización es un costo pero no sale plata."
+    },
+    {
+      "h": "Balance, cuadro de resultados e IVA",
+      "p": "Activo corriente (se convierte en dinero dentro del año) y no corriente; pasivo exigible corriente y no corriente; pasivo no exigible = patrimonio neto. Ecuación: activo = pasivo exigible + PN. Cuadro de resultados: ventas − costo de ventas = resultado bruto − gastos de administración, comercialización y financiación = resultado operativo ± otros = resultado antes de impuestos − impuesto = resultado neto, que se suma al PN como resultado del ejercicio. IVA crédito fiscal: el IVA pagado en las compras (activo, a favor de la empresa). IVA débito fiscal: el IVA de las ventas (pasivo, se le debe al fisco). Cada mes se comparan: si CF > DF queda saldo a favor (remanente); si DF > CF se paga la diferencia.",
+      "easy": "El resultado del año termina sumándose a lo de los dueños. El IVA que pagás al comprar lo descontás del que cobrás al vender, y pagás solo la diferencia."
+    },
+    {
+      "h": "Valuación de inventarios: FIFO, LIFO y PPP",
+      "p": "Kardex: registro de entradas, salidas y saldos de cada material. FIFO (primero entrado, primero salido): lo que sale se valúa a los precios más viejos. LIFO (último entrado, primero salido): a los más nuevos. PPP (precio promedio ponderado). En épocas de inflación, FIFO da costos de venta más bajos, por lo tanto mayor margen, mayor impuesto a las ganancias y mayor valuación del inventario final (que queda a precios nuevos). LIFO da lo contrario.",
+      "easy": "Con inflación, FIFO saca primero lo barato: el costo te da más bajo, ganás más en los papeles y pagás más impuesto, y el stock queda valuado caro."
+    }
+  ]
+}

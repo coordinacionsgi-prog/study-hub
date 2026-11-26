@@ -1,0 +1,123 @@
+{
+  "intro": "El 1er parcial es la base: con qué capital trabaja la empresa, cómo se clasifican los costos, qué sistema de costeo se usa, el punto de equilibrio, la amortización y el costo del financiamiento. El 2do parcial suma herramientas para repartir costos entre varios productos (ABC, costo conjunto), fijar cuánto debería costar (estándar) y planificar y controlar todo con el presupuesto.",
+  "nodes": [
+    {
+      "id": "n1",
+      "x": 40,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Capital y costos",
+      "subtitle": "Fijo, circulante, clasificación",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n2",
+      "x": 290,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Sistemas de costeo",
+      "subtitle": "Directo vs integral, equilibrio",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n3",
+      "x": 540,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Amortización",
+      "subtitle": "Valor de origen, sistemas",
+      "color": "#f0a63a"
+    },
+    {
+      "id": "n4",
+      "x": 790,
+      "y": 40,
+      "w": 180,
+      "h": 90,
+      "title": "Financiamiento",
+      "subtitle": "Costo de capital, palanca",
+      "color": "#e0605e"
+    },
+    {
+      "id": "n5",
+      "x": 160,
+      "y": 260,
+      "w": 220,
+      "h": 90,
+      "title": "ABC y costo conjunto",
+      "subtitle": "Repartir indirectos y conjuntos",
+      "color": "#b06ad9"
+    },
+    {
+      "id": "n6",
+      "x": 420,
+      "y": 260,
+      "w": 200,
+      "h": 90,
+      "title": "Costos estándar",
+      "subtitle": "Lo que debería costar",
+      "color": "#4bb3c7"
+    },
+    {
+      "id": "n7",
+      "x": 660,
+      "y": 260,
+      "w": 220,
+      "h": 90,
+      "title": "Presupuestos",
+      "subtitle": "Operativo, financiero, control",
+      "color": "#2f8fb5"
+    }
+  ],
+  "edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n2",
+      "n3"
+    ],
+    [
+      "n3",
+      "n4"
+    ],
+    [
+      "n2",
+      "n5"
+    ],
+    [
+      "n5",
+      "n6"
+    ],
+    [
+      "n6",
+      "n7"
+    ],
+    [
+      "n4",
+      "n7"
+    ]
+  ],
+  "comparisons": [
+    [
+      "Costeo directo vs integral",
+      "Fijos de fabricación al período contra fijos repartidos en las unidades; con stock creciente el integral muestra más utilidad."
+    ],
+    [
+      "Equilibrio económico vs financiero",
+      "Cubre todos los costos contra solo los erogables (sin amortizaciones)."
+    ],
+    [
+      "Capital asociado vs prestado",
+      "Socios que comparten pérdidas y decisiones contra deuda con interés fijo y ahorro impositivo."
+    ],
+    [
+      "Costos estimados vs estándar",
+      "Aproximados y poco exactos contra técnicos, basados en ingeniería, para controlar."
+    ]
+  ]
+}

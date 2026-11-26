@@ -1,0 +1,125 @@
+{
+  "thesis": "Cuando hay varios productos, el problema es repartir los costos indirectos o compartidos. El costeo ABC los reparte según las actividades que cada producto consume; el costo conjunto reparte lo que cuesta un proceso del que salen varios productos a la vez; y los costos estándar fijan de antemano cuánto debería costar, para controlar los desvíos.",
+  "examTip": "En el 2º parcial toman: qué es un objeto de costo y un inductor (cost driver), virtudes y críticas del ABC, los métodos de costo conjunto (unidades físicas, valor relativo de ventas y costo inverso para subproductos) y la diferencia entre costos estimados y estándar.",
+  "concepts": [
+    "ABC",
+    "Actividades",
+    "Objeto de costo",
+    "Inductor (cost driver)",
+    "Costo conjunto",
+    "Unidades físicas",
+    "Valor relativo de ventas",
+    "Costo inverso",
+    "Subproducto",
+    "Costos estimados",
+    "Costos estándar",
+    "Variaciones"
+  ],
+  "sections": [
+    {
+      "h": "Costeo basado en actividades (ABC)",
+      "p": "Los recursos los consumen las actividades, y las actividades las consumen los objetos de costo. Objeto de costo: el producto, servicio o departamento cuyo costo se quiere medir. Actividad: conjunto de tareas para satisfacer una demanda de la empresa. Proceso: conjunto de actividades relacionadas que crean valor. Inductor o cost driver: lo que traslada los costos desde las actividades a los objetos (cantidad de preparaciones, movimientos, inspecciones). Pasos: identificar actividades → asignarles costos → elegir el inductor de cada una → tasa = costo de la actividad / total del inductor → cargar a cada producto según cuánto inductor consume. Virtud: evalúa las actividades en función de si son imprescindibles o prescindibles para los objetos de costo, y asigna mejor los indirectos. Crítica: carece de análisis marginal (vuelca todos los costos, incluso los fijos, a los productos).",
+      "easy": "En vez de repartir los indirectos por horas máquina «a ojo», mirás qué actividad genera cada costo y cuánto de esa actividad usa cada producto.",
+      "tables": [
+        {
+          "title": "Ejemplo propio: A (5.000 u) y B (20.000 u)",
+          "head": [
+            "Actividad",
+            "Tasa",
+            "$ por inductor",
+            "A",
+            "B"
+          ],
+          "rows": [
+            [
+              "Preparación de máquinas",
+              "$20.000 / 40 preparaciones",
+              "$500",
+              "$15.000",
+              "$5.000"
+            ],
+            [
+              "Manejo de materiales",
+              "$12.000 / 120 movimientos",
+              "$100",
+              "$4.000",
+              "$8.000"
+            ],
+            [
+              "Inspección",
+              "$8.000 / 100 inspecciones",
+              "$80",
+              "$4.000",
+              "$4.000"
+            ],
+            [
+              "Total indirectos",
+              "",
+              "",
+              "$23.000",
+              "$17.000"
+            ],
+            [
+              "Por unidad",
+              "",
+              "",
+              "$4,6",
+              "$0,85"
+            ]
+          ],
+          "strong": [
+            3,
+            4
+          ],
+          "note": "A, que se fabrica en lotes chicos con muchas preparaciones, absorbe más indirectos por unidad que B."
+        }
+      ]
+    },
+    {
+      "h": "Costos conjuntos",
+      "p": "De un mismo proceso salen varios productos a la vez (como en la industria láctea o la petroquímica) y el productor no puede elegir la variedad ni el tipo de producto: el costo conjunto no se puede identificar con cada uno. Métodos de reparto: unidades físicas (según kg o litros), valor relativo de las ventas (según lo que vende cada uno) y costo inverso para los subproductos (se parte del precio de venta, se le resta la utilidad deseada y lo que queda es su costo asignado; el resto del costo conjunto se reparte entre los productos principales). No es conveniente para tomar decisiones porque es un método inexacto (el reparto es arbitrario).",
+      "easy": "Si de la leche sacás crema, manteca y suero, no podés saber cuánto «costó» cada uno: lo repartís con algún criterio, y por eso no sirve para decidir.",
+      "tables": [
+        {
+          "title": "Ejemplo propio: costo conjunto de $28.000 por lote",
+          "head": [
+            "Producto",
+            "Producción",
+            "Precio",
+            "Por unidades físicas",
+            "Con P3 a costo inverso (20 %) y el resto por valor de ventas"
+          ],
+          "rows": [
+            [
+              "P1",
+              "4.000 kg",
+              "$10/kg",
+              "$8.000",
+              "$12.342,86"
+            ],
+            [
+              "P2",
+              "6.000 kg",
+              "$5/kg",
+              "$12.000",
+              "$9.257,14"
+            ],
+            [
+              "P3 (subproducto)",
+              "4.000 kg",
+              "$2/kg",
+              "$8.000",
+              "$6.400 (8.000 × 0,8)"
+            ]
+          ],
+          "note": "Costo inverso: ventas del subproducto $8.000 menos un 20 % de utilidad → se le asignan $6.400; los $21.600 restantes se reparten 40.000 : 30.000 según las ventas de P1 y P2."
+        }
+      ]
+    },
+    {
+      "h": "Costos estimados y estándar",
+      "p": "Costos históricos: los reales, después de producir. Costos estimados: predeterminados, con bajo grado de exactitud (basados en la experiencia). Costos estándar: se fundan en especificaciones de ingeniería y estimaciones de precios; son lo que DEBERÍA costar producir con eficiencia. Características del estándar: sirven para controlar (se comparan con los reales y se calculan variaciones de precio y de cantidad en materiales, mano de obra y gastos), las variaciones se reflejan en el cuadro de resultados, permiten la trazabilidad de los planes de producción y se usan en producción en serie (no se modifican constantemente). Para presupuestar el año próximo se usan costos estimados y estándar. En un estándar con mermas y desperdicios: se calcula cuánta materia prima hace falta por kg terminado y se descuenta el valor de lo que se recicla o se vende como desperdicio.",
+      "easy": "El estimado es «más o menos cuánto va a salir»; el estándar es «cuánto debería salir si todo se hace bien», y sirve para ver dónde te desviaste."
+    }
+  ]
+}

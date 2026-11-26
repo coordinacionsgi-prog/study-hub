@@ -1,0 +1,85 @@
+{
+  "thesis": "La amortización refleja contablemente la pérdida de valor de los bienes de uso (depreciación). Para calcularla hay que armar bien el valor de origen (todo lo que cuesta dejarlo funcionando, sin IVA ni costo financiero) y el valor final. El financiamiento de la empresa tiene un costo (el costo de capital) y la deuda puede multiplicar la rentabilidad de los socios (efecto palanca).",
+  "examTip": "Distinguí depreciación (el desgaste del bien) de amortización (la técnica contable que la refleja). En el valor amortizable de un bien importado NO va el IVA ni el costo del financiamiento, y SÍ van aranceles, fletes, despachante, instalación, puesta en marcha y capacitación, menos el valor final.",
+  "concepts": [
+    "Depreciación física, funcional y económica",
+    "Valor de origen",
+    "FAS, FOB, CIF",
+    "Vida útil tecnológica y económica",
+    "Lineal, acelerado y desacelerado",
+    "Capital asociado y prestado",
+    "Costo de capital",
+    "WACC",
+    "Efecto palanca"
+  ],
+  "sections": [
+    {
+      "h": "Depreciación y amortización",
+      "p": "Depreciación: pérdida de valor del bien; física (por el paso del tiempo), funcional (por el uso) y económica u obsolescencia (aparecen tecnologías mejores, cambia la demanda). Amortización: la técnica contable que carga a resultados esa pérdida y ajusta el valor residual. Sistemas: por uso (según unidades producidas) o por tiempo: lineal (cuotas iguales), acelerado (cuota decreciente: mucho al principio) y desacelerado (cuota creciente). Vida útil tecnológica (hasta que deja de servir técnicamente) y económica (hasta que mantenerlo cuesta más que reemplazarlo). Criterios de reemplazo: físicos (desastre, decrepitud) y funcionales (antieconómico, inadecuado, obsoleto).",
+      "easy": "La depreciación es que la máquina pierde valor; la amortización es cómo lo anotás en los libros."
+    },
+    {
+      "h": "Valor de origen de un bien importado",
+      "p": "Incluye el valor de adquisición (sin IVA ni gastos financieros), fletes y seguros, aranceles y derechos de importación, gastos de despacho y despachante, transporte a planta, montaje, instalación, ingeniería, capacitación y puesta en marcha. Cotizaciones: FAS (al costado del barco en origen), FOB (puesto a bordo: FAS + estibaje) y CIF (FOB + flete y seguro marítimo hasta destino). Los aranceles suelen calcularse sobre el valor CIF. Valor final = reventa − desmantelamiento − gastos hasta la venta. Valor amortizable = valor de origen − valor final.",
+      "easy": "Sumás todo lo que pagaste para que la máquina ande en tu planta (menos el IVA y los intereses) y le restás lo que vas a recuperar al venderla."
+    },
+    {
+      "h": "Ejercicio del 1er parcial 2025 · Torno importado (cuota creciente)",
+      "p": "Torno a USD 130.000 FOB Beijing; flete marítimo USD 15.000 y seguro USD 5.000; aranceles 30 % del CIF; tipo de cambio $1.200; gastos aduaneros $160.000, transporte a planta $190.000, puesta en marcha $250.000; reventa $22.220.000, desmantelamiento $170.000, alquiler para exposición $250.000; vida económica 4 años; año fraccionario con cuota creciente. (El 50 % se paga con un crédito: los intereses NO van al valor del bien.) Valor residual al final del 3er año.",
+      "easy": "Pasás a pesos el CIF con aranceles, sumás los gastos locales, restás el valor final, y con pesos 1, 2, 3 y 4 sobre 10 ves cuánto se amortizó en tres años.",
+      "steps": [
+        "CIF = 130.000 + 15.000 + 5.000 = USD 150.000; con aranceles × 1,3 y a $1.200: $234.000.000; + 160.000 + 190.000 + 250.000 = $234.600.000.",
+        "Valor final = 22.220.000 − 170.000 − 250.000 = $21.800.000; valor amortizable = $212.800.000.",
+        "En 3 años se amortizó (1 + 2 + 3)/10 = 6/10 → $127.680.000.",
+        "Valor residual al 3er año = $234.600.000 − $127.680.000 = $106.920.000 (opción 1)."
+      ]
+    },
+    {
+      "h": "Capital propio vs prestado",
+      "p": "Capital asociado (aporte de socios): ventajas: se comparten las pérdidas, deja libre la capacidad de endeudamiento y los activos, preserva el PN en épocas de depresión. Desventajas: se comparten utilidades y decisiones, más carga impositiva y menor rendimiento del capital propio en épocas normales o de auge. Capital prestado (crédito): ventajas: libertad de decisión, puede ser más barato, ahorro impositivo (los intereses se deducen de ganancias), aumenta el PN en épocas normales y de auge. Desventajas: reduce la capacidad crediticia (sube el endeudamiento), el interés es una carga fija aunque haya pérdidas, los activos en garantía no se pueden realizar y disminuye el PN en épocas de depresión.",
+      "easy": "Traer socios es repartir riesgo y ganancias; pedir prestado es mantener el control y deducir intereses, pero con una cuota fija que hay que pagar igual."
+    },
+    {
+      "h": "Costo de capital, WACC y efecto palanca",
+      "p": "Costo de capital: lo que le cuesta a la empresa cada peso invertido en activos; es lo que obtienen acreedores y accionistas por proveer fondos. El PN es la fuente más cara (costo de oportunidad del accionista). Costo real de la deuda = intereses a la tasa dirigida a la empresa DESPUÉS del impuesto a las ganancias / capital prestado (si hay beneficio, kd × (1 − t); si hay pérdida no hay ahorro impositivo). WACC = kd·(1 − t)·D/(D + E) + ke·E/(D + E). Tres etapas del costo de la deuda según el endeudamiento: alto al principio (no te conocen), a tasa de mercado cuando hay trayectoria, y vuelve a subir si hay sobreendeudamiento. Efecto palanca = ROE / ROA: > 1, la deuda aumentó la rentabilidad del PN (la empresa rinde más que lo que cuesta la deuda); = 1, neutro; < 1, la deuda la perjudicó.",
+      "easy": "Endeudarse conviene si lo que ganás con esa plata es más que el interés que pagás. Ahí la ganancia de los socios se multiplica (palanca positiva).",
+      "tables": [
+        {
+          "title": "Ejemplo: activo $1.000.000 (deuda $400.000 al 10 % y PN $600.000), resultado operativo $150.000, impuesto 35 %, ke 15 %",
+          "head": [
+            "Indicador",
+            "Cuenta",
+            "Resultado"
+          ],
+          "rows": [
+            [
+              "Resultado neto",
+              "(150.000 − 40.000) × 0,65",
+              "$71.500"
+            ],
+            [
+              "ROE",
+              "71.500 / 600.000",
+              "11,92 %"
+            ],
+            [
+              "ROA (operativo después de impuesto)",
+              "150.000 × 0,65 / 1.000.000",
+              "9,75 %"
+            ],
+            [
+              "Efecto palanca",
+              "ROE / ROA",
+              "1,22 > 1 → positivo"
+            ],
+            [
+              "WACC",
+              "10 % × 0,65 × 0,4 + 15 % × 0,6",
+              "11,6 %"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

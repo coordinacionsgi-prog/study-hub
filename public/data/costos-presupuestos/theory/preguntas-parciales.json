@@ -1,0 +1,111 @@
+{
+  "thesis": "Estas son las preguntas de opción múltiple que se repiten en los parciales de Costos y Presupuestos (banco de teóricos de 1º y 2º parcial y el parcial de 2025), con la respuesta correcta y el porqué.",
+  "examTip": "Cuidado con las opciones parecidas: «de lo vendido» contra «del período», «producidas» contra «vendidas», «después de impuesto» contra «antes».",
+  "concepts": [
+    "Opción múltiple",
+    "Verdadero o falso",
+    "Justificar"
+  ],
+  "sections": [
+    {
+      "h": "En el costeo VARIABLE, el cuadro de resultados registra…",
+      "p": "Los costos de fabricación variables de lo vendido y TODOS los costos fijos de fabricación (del período).",
+      "easy": "Variables de lo que vendiste, y los fijos enteros."
+    },
+    {
+      "h": "En el costeo INTEGRAL, el cuadro de resultados registra…",
+      "p": "Solo los costos variables de fabricación y los costos fijos de fabricación DE LO VENDIDO. Permite obtener la utilidad bruta y la utilidad neta después de intereses e impuestos. El stock se valúa a (CV de fabricación + CF de fabricación) / unidades producidas.",
+      "easy": "Variables y fijos, pero solo de lo vendido."
+    },
+    {
+      "h": "¿Cuándo el costeo directo da MAYOR utilidad que el integral? ¿Y menor? ¿Y la misma?",
+      "p": "Mayor: cuando la cantidad vendida es mayor que la producida (los inventarios disminuyen). Menor: cuando la producida es mayor que la vendida (los inventarios aumentan). Igual: cuando no hay stock inicial ni final de producción terminada (y, en general, cuando producido = vendido).",
+      "easy": "Stock que baja: gana el directo. Stock que sube: gana el integral."
+    },
+    {
+      "h": "En el costeo variable se puede obtener…",
+      "p": "La contribución marginal total y el punto de equilibrio (y también la utilidad neta).",
+      "easy": "Contribución marginal: la estrella del costeo variable."
+    },
+    {
+      "h": "FIFO en épocas de inflación, respecto a otros criterios…",
+      "p": "Mayor valuación de los inventarios y mayor impuesto a las ganancias pagado (porque el costo de ventas es menor y el margen, mayor).",
+      "easy": "Sacás lo barato primero: más ganancia en los papeles y más impuesto."
+    },
+    {
+      "h": "Costos estándar vs estimados",
+      "p": "Estándar: se fundan en especificaciones de ingeniería y estimaciones de precios; las variaciones van al cuadro de resultados y permiten trazar los planes de producción. Estimados: predeterminados y con bajo grado de exactitud.",
+      "easy": "El estándar es «lo que debería costar»; el estimado, «más o menos cuánto»."
+    },
+    {
+      "h": "Costo definitivo del financiamiento de terceros",
+      "p": "Intereses calculados con la tasa DIRIGIDA a la empresa, DESPUÉS del impuesto a las ganancias, divididos por el capital provisto por los acreedores.",
+      "easy": "La tasa que te cobran a vos, neta del ahorro impositivo."
+    },
+    {
+      "h": "Al pedir prestado capital, una empresa…",
+      "p": "Tiene ventajas impositivas, pero se reduce su capacidad crediticia.",
+      "easy": "Deducís intereses, pero te queda menos margen para pedir más."
+    },
+    {
+      "h": "Al asociar capital, una empresa…",
+      "p": "En épocas de depresión preserva el patrimonio neto y comparte las pérdidas, minimizando el riesgo empresario.",
+      "easy": "Con socios, las pérdidas se reparten."
+    },
+    {
+      "h": "El costo de capital es…",
+      "p": "El pago que obtienen tanto acreedores como accionistas por proveer fondos a la empresa.",
+      "easy": "Lo que le cuesta a la empresa toda la plata que usa, propia y prestada."
+    },
+    {
+      "h": "Si ROE > ROA…",
+      "p": "La tasa de rentabilidad de la empresa resultó mayor que el costo del endeudamiento: palanca positiva.",
+      "easy": "La deuda rindió más de lo que costó."
+    },
+    {
+      "h": "ABC: objeto de costo, inductor, virtud y crítica",
+      "p": "Objeto de costo: el producto, servicio o departamento que se quiere costear. Inductor (cost driver): lo que traslada los costos desde las actividades a los objetos. Virtud: evalúa actividades imprescindibles y prescindibles. Crítica: carece de análisis marginal.",
+      "easy": "Qué querés costear, con qué medís el consumo, lo bueno y lo malo."
+    },
+    {
+      "h": "Costo conjunto: ¿cuándo se usa y para qué no sirve?",
+      "p": "Cuando el productor no tiene opción de elegir la variedad ni el tipo de producto (salen juntos del proceso). No es conveniente para la toma de decisiones porque es un método inexacto.",
+      "easy": "Salen todos juntos y el reparto es arbitrario: no sirve para decidir."
+    },
+    {
+      "h": "Presupuestos: ventas, producción, operativo, financiero y por dónde empezar",
+      "p": "Ventas: expresión monetaria de las proyecciones. Producción: unidades físicas a producir. Operativo: actividades de explotación. Financiero: flujos de caja. Consolidado: operativo + financiero + inversiones, con estados proforma. Se empieza por ventas en crecimiento normal y por el financiero en recesión.",
+      "easy": "Ventas en plata, producción en unidades, y si hay crisis arrancás por la caja."
+    },
+    {
+      "h": "Control presupuestario: para qué sirve y qué NO es una ventaja",
+      "p": "Sirve para ver si la empresa mantiene el rumbo dentro de los límites fijados por la dirección. No es una ventaja: el costo del proceso de control (ni identificar mercados). Los informes de excepción se hacen cuando hay desvíos importantes.",
+      "easy": "Comparar lo real con lo planeado; lo que cuesta controlar no es una ventaja."
+    },
+    {
+      "h": "Parcial 2025 · Valor amortizable de un bien importado",
+      "p": "Valor CIF + aranceles y derechos + fletes y seguros nacionales + instalación, puesta en marcha y capacitación + honorarios del despachante, MENOS el valor final. No van el IVA ni el costo del financiamiento ni el mantenimiento.",
+      "easy": "Todo para dejarlo andando, sin IVA ni intereses, menos lo que recuperás."
+    },
+    {
+      "h": "Parcial 2025 · Amortización vs depreciación",
+      "p": "Amortización: la técnica que permite reflejar contablemente la pérdida de valor del bien. Depreciación: el desgaste del bien de capital.",
+      "easy": "Uno es el desgaste; el otro, cómo se anota."
+    },
+    {
+      "h": "Parcial 2025 · Costo de conversión y costo de fabricación total",
+      "p": "Conversión = MOD + costos indirectos de fabricación. Fabricación total = MOD + materia prima utilizada + costo indirecto de fabricación.",
+      "easy": "Conversión es transformar (mano de obra + indirectos); total le suma la materia prima."
+    },
+    {
+      "h": "Parcial 2025 · Punto de equilibrio económico y financiero",
+      "p": "Económico: unidades a vender para no tener pérdidas (cubre costos fijos y variables). Financiero: nivel de ventas que cubre las necesidades financieras sin lograr el equilibrio económico.",
+      "easy": "Uno cubre todo; el otro, solo la plata que sale."
+    },
+    {
+      "h": "Parcial 2025 · Ciclo del capital circulante",
+      "p": "Una vez cobrado lo vendido, ese dinero se considera disponible sin destino específico. Es falso que la venta siempre coincida con la cobranza, y el producto terminado y la materia prima se registran a costo, no a valor de venta.",
+      "easy": "La plata vuelve a la caja libre para la próxima vuelta."
+    }
+  ]
+}

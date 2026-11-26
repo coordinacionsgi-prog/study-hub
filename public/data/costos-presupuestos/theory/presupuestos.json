@@ -1,0 +1,27 @@
+{
+  "thesis": "El presupuesto es el plan de la empresa expresado en números para el próximo ciclo. Se arma en cascada (ventas → producción → compras y gastos → caja → estados proforma) y después se controla comparando lo real con lo presupuestado para corregir el rumbo.",
+  "examTip": "Definiciones que se repiten: presupuesto de ventas (en dinero), de producción (en unidades físicas), operativo (actividades de explotación), financiero (flujos de caja), de inversiones (bienes de capital), consolidado, por dónde se empieza según el contexto, y qué NO es una ventaja del control presupuestario (su costo).",
+  "concepts": [
+    "Presupuesto de ventas",
+    "Presupuesto de producción",
+    "Operativo",
+    "Financiero",
+    "De inversiones",
+    "Consolidado",
+    "Proforma",
+    "Control presupuestario",
+    "Informes de excepción"
+  ],
+  "sections": [
+    {
+      "h": "Tipos de presupuesto",
+      "p": "Presupuesto de ventas: expresión MONETARIA de las proyecciones de ventas para el próximo ciclo, considerando variables externas e internas. Presupuesto de producción: expresión en UNIDADES FÍSICAS de lo que hay que producir (ventas + stock final deseado − stock inicial). Presupuesto operativo: describe las actividades de explotación (ventas, producción, compras, mano de obra, gastos). Presupuesto financiero: describe los flujos de caja proyectados (cobros, pagos, financiamiento). Presupuesto de inversiones: las incorporaciones de bienes de capital. Presupuesto consolidado: integra el operativo, el financiero y el de inversiones y se sintetiza en el cuadro de resultados y el balance proforma. Por dónde se empieza: en crecimiento normal, por el presupuesto de VENTAS; en recesión, por el FINANCIERO (la restricción es la caja). Indicadores para medir el presupuesto financiero: liquidez, solvencia y endeudamiento (y la rotación del activo corriente).",
+      "easy": "Primero ves cuánto vas a vender, de ahí cuánto fabricar, cuánto comprar y gastar, y cómo queda la caja. Si la economía está mal, arrancás por la caja."
+    },
+    {
+      "h": "Control presupuestario",
+      "p": "Sirve para determinar si la empresa mantiene el rumbo dentro de los límites establecidos por la dirección. Ventajas: análisis continuo para modificar y actualizar los programas, identificar responsabilidades de personas y departamentos, e investigar las causas de las variaciones. El costo del proceso de control NO es una ventaja (es una desventaja), e identificar mercados no es su función. Informes de excepción: se elaboran cuando el control muestra desvíos importantes (gestión por excepción: no se informa todo, solo lo que se desvía).",
+      "easy": "Controlar es comparar lo que pasó con lo que planeaste. Solo se avisa a los jefes cuando algo se desvía mucho (informe de excepción)."
+    }
+  ]
+}
