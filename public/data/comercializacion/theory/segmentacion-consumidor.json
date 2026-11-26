@@ -1,0 +1,50 @@
+{
+  "thesis": "No se le puede vender a todo el mundo: hay que dividir el mercado en grupos parecidos (segmentar), elegir a cuáles apuntar (meta) y ocupar un lugar claro en la mente de esos clientes (posicionar). Para eso hay que entender cómo y por qué compra el consumidor.",
+  "examTip": "Piden las bases de segmentación con ejemplos, los requisitos de un segmento útil, el diagrama de Abell, el modelo de comportamiento del consumidor (factores) y las etapas del proceso de decisión de compra.",
+  "concepts": [
+    "Mercado potencial, disponible, meta",
+    "Cobertura",
+    "Abell",
+    "Macro y microsegmentación",
+    "Bases de segmentación",
+    "Posicionamiento",
+    "Mapa perceptual",
+    "Factores del consumidor",
+    "Proceso de decisión",
+    "Roles de compra",
+    "Curva de adopción",
+    "Sesgos"
+  ],
+  "sections": [
+    {
+      "h": "Mercado y estrategias de cobertura",
+      "p": "Mercado: el conjunto de compradores reales y potenciales de un producto. Mercado potencial (los que tienen interés), disponible (además tienen ingreso y acceso), meta (el que la empresa decide atender) y penetrado (los que ya compran). Estrategias de cobertura: indiferenciada o masiva (una oferta para todos), diferenciada (una oferta para cada segmento), concentrada o de nicho (un solo segmento) y micromarketing (local o individual). Cobertura completa: atender todas las necesidades de todos los grupos.",
+      "easy": "Primero ves cuánta gente podría comprar; después decidís si le hablás a todos igual, a cada grupo distinto o a un solo grupo."
+    },
+    {
+      "h": "Macrosegmentación: diagrama de Abell",
+      "p": "Derek Abell (1980) define el negocio con orientación al mercado en tres dimensiones: necesidades o funciones (QUÉ se satisface), grupos de clientes (A QUIÉN) y tecnologías (CÓMO). Cada combinación es un producto-mercado. Así se define el mercado de referencia y se ve dónde competir, en lugar de definir el negocio por el producto que se fabrica.",
+      "easy": "Definís tu negocio por qué necesidad cubrís, para quién y con qué tecnología, no por lo que fabricás."
+    },
+    {
+      "h": "Microsegmentación y requisitos",
+      "p": "Dentro de un producto-mercado, se divide la demanda en grupos homogéneos. Bases para consumo: geográficas (región, ciudad, clima), demográficas (edad, sexo, ingreso, ocupación, ciclo de vida familiar), psicográficas (clase social, estilo de vida, personalidad) y conductuales (ocasión de uso, beneficios buscados, tasa de uso, lealtad, actitud). En mercados industriales: tamaño de la empresa, rubro, ubicación, criterios de compra. Requisitos de un segmento útil: medible, accesible, sustancial (suficientemente grande y rentable), diferenciable y accionable.",
+      "easy": "Agrupás a la gente por dónde vive, quién es, cómo vive y cómo compra. Un buen segmento se puede medir, alcanzar, es suficientemente grande y responde distinto a los demás."
+    },
+    {
+      "h": "Posicionamiento",
+      "p": "Es el lugar que ocupa el producto en la mente de los consumidores respecto de la competencia. Se construye eligiendo la ventaja competitiva (diferenciación por producto, servicio, canal, personal o imagen) y comunicándola de forma coherente con todo el mix. Herramienta: mapa perceptual o de posicionamiento (dos atributos clave en los ejes, por ejemplo precio y calidad, y la ubicación de cada marca). Se dice que «posicionamiento y marketing mix» van juntos: las 4 P tienen que reforzar el mismo lugar.",
+      "easy": "Posicionar es lograr que cuando el cliente piense en algo (barato, seguro, premium) piense en tu marca."
+    },
+    {
+      "h": "Comportamiento del consumidor",
+      "p": "Modelo estímulo-respuesta: los estímulos de marketing (4 P) y del entorno entran a la «caja negra» del comprador (sus características y su proceso de decisión) y salen las respuestas (qué, marca, dónde, cuándo y cuánto compra). Factores que influyen: culturales (cultura, subcultura, clase social), sociales (grupos de referencia, familia, roles y estatus), personales (edad y ciclo de vida, ocupación, situación económica, estilo de vida, personalidad) y psicológicos (motivación, percepción, aprendizaje, creencias y actitudes). Roles en la compra: iniciador, influenciador, decisor, comprador y usuario. Sesgos cognitivos: efecto de encuadre (framing), falacia del costo hundido y reactancia (rechazo cuando se siente presionado).",
+      "easy": "Lo que comprás depende de tu cultura, de la gente que te rodea, de quién sos y de cómo pensás. Y a veces el que decide no es el que paga ni el que usa."
+    },
+    {
+      "h": "Proceso de decisión y adopción",
+      "p": "Proceso de decisión del comprador: 1) reconocimiento de la necesidad; 2) búsqueda de información; 3) evaluación de alternativas; 4) decisión de compra; 5) comportamiento posterior (satisfacción o disonancia cognitiva). Ante productos nuevos, proceso de aceptación: conocimiento, interés, evaluación, prueba y adopción. Curva de adopción (Rogers): innovadores (2,5 %), adoptadores tempranos (13,5 %), mayoría temprana (34 %), mayoría tardía (34 %) y rezagados (16 %). Customer journey: el recorrido completo del cliente por todos los puntos de contacto con la marca.",
+      "easy": "Primero notás que te falta algo, buscás, comparás, comprás y después ves si te arrepentís. Con lo nuevo, unos pocos se tiran primero y el resto los va siguiendo."
+    }
+  ]
+}

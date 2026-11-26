@@ -1,0 +1,98 @@
+{
+  "thesis": "El marketing mix son las cuatro herramientas que la empresa controla para lograr el posicionamiento: Producto (qué ofrezco), Precio (cuánto cobro), Plaza (cómo llega al cliente) y Promoción (cómo lo comunico). Tienen que ser coherentes entre sí y con la etapa del ciclo de vida.",
+  "examTip": "Preguntas clásicas: los tres niveles del producto, la clasificación de los bienes, las estrategias de precio para un producto nuevo (descreme y penetración), los niveles de canal y la intensidad de la distribución, la mezcla promocional, AIDA y push contra pull. Puede caer una cuenta de precio.",
+  "concepts": [
+    "4 P",
+    "Niveles del producto",
+    "Bienes de consumo e industriales",
+    "Marca",
+    "Empaque",
+    "Mezcla de productos",
+    "Fijación de precios",
+    "Descreme y penetración",
+    "Van Westendorp",
+    "Canales",
+    "Intensiva, selectiva, exclusiva",
+    "Comunicación",
+    "AIDA",
+    "Mezcla promocional",
+    "Push y pull",
+    "5M",
+    "USP"
+  ],
+  "sections": [
+    {
+      "h": "Producto: niveles y clasificación",
+      "p": "Producto: cualquier cosa que se ofrece para satisfacer una necesidad (bienes, servicios, experiencias, ideas). Tres niveles: beneficio básico o núcleo (lo que realmente compra el cliente: transporte), producto real o formal (características, diseño, calidad, marca, empaque) y producto aumentado (servicios y beneficios adicionales: garantía, instalación, posventa, financiación). Bienes de consumo: de conveniencia (compra frecuente y con poco esfuerzo), de comparación (se comparan calidad y precio), de especialidad (características únicas, se busca la marca) y no buscados (el cliente no los busca: seguros). Bienes industriales: materiales y partes, bienes de capital (instalaciones y equipos) y suministros y servicios. Los servicios son intangibles, inseparables, variables y perecederos.",
+      "easy": "El núcleo es lo que de verdad comprás (llegar a tiempo); el real es el auto en sí; el aumentado es la garantía y el service."
+    },
+    {
+      "h": "Producto: marca, empaque y mezcla",
+      "p": "Marca: nombre, término, signo, símbolo o diseño que identifica y diferencia. Valor de marca (brand equity): el plus que la marca agrega por conocimiento, lealtad, calidad percibida y asociaciones. Decisiones: posicionamiento de la marca, nombre, patrocinio (marca del fabricante, propia o privada, licencia, co-branding) y desarrollo (extensión de línea, extensión de marca, multimarcas, marcas nuevas). Segundas marcas para cubrir segmentos de precio sin dañar la principal. Empaque: contener y proteger, identificar, comunicar e informar (etiqueta), facilitar el uso; es «el vendedor silencioso». Mezcla de productos: amplitud (cantidad de líneas), extensión o longitud (cantidad total de productos) y profundidad (variantes de cada producto).",
+      "easy": "La marca es lo que hace que pagues más por lo mismo. El envase vende solo en la góndola. Y la mezcla se mide en cuántas líneas, cuántos productos y cuántas versiones de cada uno."
+    },
+    {
+      "h": "Precio: factores y métodos",
+      "p": "El precio es la única P que genera ingresos; las demás son costos. Factores internos: objetivos de marketing, estrategia del mix, costos (fijos y variables: el piso del precio) y organización. Factores externos: el mercado y la demanda (el techo: lo que el cliente percibe que vale; elasticidad), la competencia y el entorno (inflación, regulación). Métodos: basados en el costo (costo más margen; punto de equilibrio), basados en el valor percibido por el comprador y basados en la competencia (seguir precios vigentes, licitaciones). Van Westendorp (Price Sensitivity Meter): cuatro preguntas (a qué precio es tan barato que dudás de la calidad, a qué precio es una ganga, a qué precio empieza a ser caro, a qué precio es demasiado caro) para encontrar el rango aceptable de precios.",
+      "easy": "El costo te dice el precio mínimo; lo que el cliente cree que vale te dice el máximo; la competencia te dice dónde pararte en el medio.",
+      "tables": [
+        {
+          "title": "Cuenta típica: costo unitario $1.000 y margen del 25 %",
+          "head": [
+            "Criterio",
+            "Cuenta",
+            "Precio"
+          ],
+          "rows": [
+            [
+              "Margen sobre el PRECIO de venta",
+              "1.000 / (1 − 0,25)",
+              "$1.333,33"
+            ],
+            [
+              "Mark-up sobre el COSTO",
+              "1.000 × (1 + 0,25)",
+              "$1.250,00"
+            ]
+          ],
+          "note": "Ojo con la consigna: un 25 % sobre el precio de venta no es lo mismo que un 25 % sobre el costo."
+        },
+        {
+          "title": "Punto de equilibrio: costos fijos $600.000, precio $1.500, costo variable $900",
+          "head": [
+            "Paso",
+            "Cuenta",
+            "Resultado"
+          ],
+          "rows": [
+            [
+              "Contribución marginal unitaria",
+              "1.500 − 900",
+              "$600,00"
+            ],
+            [
+              "Punto de equilibrio",
+              "600.000 / 600",
+              "1000 unidades"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Precio: estrategias",
+      "p": "Para productos nuevos: descreme (precio alto al lanzar para «descremar» a los que más valoran el producto; requiere calidad e imagen acordes, compradores dispuestos a pagar y que no entren competidores rápido; después se baja) y penetración (precio bajo para ganar rápido participación; requiere un mercado sensible al precio y costos que bajen con el volumen: curva de experiencia). Otras: precios diferenciales (por segmento, momento, lugar), competitivos (igualar, por encima o por debajo del líder), psicológicos ($999 en vez de $1.000, precio de prestigio, precios de referencia) y por línea, por paquete o cautivos. El precio cambia con el ciclo de vida: alto en la introducción con descreme, baja en crecimiento y madurez, y defensivo en declinación.",
+      "easy": "Al lanzar, o cobrás caro y vas bajando (descreme, como el iPhone), o entrás barato para ganar clientes rápido (penetración)."
+    },
+    {
+      "h": "Plaza: canales y distribución",
+      "p": "Canal de distribución: conjunto de organizaciones que hacen llegar el producto al cliente. Funciones: información, promoción, contacto, adecuación de la oferta, negociación, distribución física, financiamiento y asunción de riesgos. Niveles: canal directo o de nivel 0 (fabricante → consumidor), nivel 1 (con minorista), nivel 2 (mayorista y minorista) y nivel 3 (con agente o intermediario adicional). Organización: canal convencional, sistemas verticales (corporativo, contractual como la franquicia, administrado), horizontales y multicanal; hay cooperación y conflicto en el canal. Intensidad: intensiva (en todos lados: productos de conveniencia), selectiva (algunos puntos: comparación) y exclusiva (pocos o uno por zona: especialidad, lujo). Minoristas (tiendas por departamentos, supermercados, outlets, minoristas sin tienda como el e-commerce) y mayoristas. Distribución física o logística: procesamiento de pedidos, almacenaje, inventario y transporte.",
+      "easy": "Plaza es cómo llega el producto a tus manos. Una gaseosa tiene que estar en todos lados (intensiva); un Rolex, en muy pocos lugares (exclusiva)."
+    },
+    {
+      "h": "Promoción: comunicación y mezcla promocional",
+      "p": "Proceso de comunicación: emisor → codificación → mensaje → medio → decodificación → receptor → respuesta → retroalimentación, con ruido en todo el proceso (y saturación publicitaria o clutter). Semiología: el signo (significante y significado), lenguaje denotativo (literal) y connotativo (lo que sugiere). Modelo AIDA: atención, interés, deseo y acción. Mezcla promocional: publicidad (masiva y pagada), promoción de ventas (incentivos de corto plazo: cupones, 2×1, muestras), relaciones públicas (imagen, prensa, eventos), venta personal (cara a cara; clave en mercados industriales) y marketing directo y digital (email, redes). Estrategias: push (empujar el producto por el canal con incentivos a los intermediarios) y pull (generar demanda en el consumidor final para que la pida). Programa de promoción con las 5M: misión (objetivos), money (presupuesto: porcentaje de ventas, paridad competitiva, objetivo y tarea), message (mensaje y estilo de ejecución; USP: propuesta única de venta), media (plan de medios: alcance, frecuencia, impacto) y measurement (medición de resultados). La publicidad también cambia con el ciclo de vida: informativa al principio, persuasiva en crecimiento y de recordación en madurez.",
+      "easy": "Comunicar es llamar la atención, despertar interés, generar deseo y lograr que compren (AIDA). Push es convencer al negocio para que lo venda; pull es que el cliente vaya y lo pida."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "thesis": "Comercializar es crear, comunicar y entregar valor para que haya intercambio. La materia va de afuera hacia adentro: primero se entiende el entorno, después la empresa define su estrategia, elige a qué clientes apuntar y cómo posicionarse, y al final arma las 4 P.",
+  "examTip": "La cátedra (Gache y Santander) sigue a Kotler-Armstrong, Lambin y Porter. En el final piden definir y relacionar conceptos y aplicarlos a un caso o empresa real: siempre llevá un ejemplo.",
+  "concepts": [
+    "Definición AMA",
+    "Kotler",
+    "Intercambio",
+    "Necesidad, deseo, demanda",
+    "Orientaciones",
+    "Investigación de mercados",
+    "Datos primarios y secundarios"
+  ],
+  "sections": [
+    {
+      "h": "¿Qué es la comercialización?",
+      "p": "AMA (2007): el marketing es la actividad, el conjunto de instituciones y los procesos para crear, comunicar, distribuir e intercambiar ofertas que tengan valor para los consumidores, los clientes, los socios y la sociedad. Kotler: proceso social y administrativo mediante el cual personas y grupos obtienen lo que necesitan y desean, creando productos y valores e intercambiándolos con terceros. Para que haya intercambio hacen falta 4 condiciones: al menos 2 partes; cada una tiene algo de valor para la otra; cada una está dispuesta a ceder lo suyo; y pueden comunicarse entre sí.",
+      "easy": "Marketing no es solo vender ni hacer publicidad: es entender qué necesita la gente, crear algo que valga para ella y hacérselo llegar, ganando plata en el camino."
+    },
+    {
+      "h": "Necesidades, deseos y demanda",
+      "p": "Necesidad: estado de carencia (alimento, abrigo, pertenencia); no la crea el marketing. Deseo: la forma que toma la necesidad según la cultura y la personalidad (tengo hambre → quiero una hamburguesa). Demanda: deseo respaldado por poder de compra. El marketing actúa sobre deseos y demanda, ofreciendo productos que generan valor (beneficios percibidos menos costos) y satisfacción (desempeño percibido frente a expectativas).",
+      "easy": "Tener hambre es la necesidad; querer una pizza, el deseo; tener la plata para comprarla, la demanda."
+    },
+    {
+      "h": "Evolución del marketing",
+      "p": "Mercados: autosuficiencia → intercambio descentralizado → intercambio centralizado (mercado). Etapas: marketing pasivo con orientación a la PRODUCCIÓN (1800-1920: escasez de oferta, todo lo que se fabrica se vende; Ford modelo T); marketing de organización con orientación a las VENTAS (1920-1990: sobra oferta y hay que empujar la venta; aparecen la radio y la TV, el franchising, los supermercados; en 1965 se crea la Asociación Argentina de Marketing); orientación al MARKETING (las necesidades del cliente primero; segmentación); marketing activo o digital (1990 en adelante: progreso tecnológico acelerado, saturación de necesidades, globalización) y marketing social (la sociedad y el ambiente).",
+      "easy": "Al principio se vendía todo lo que se fabricaba; después hubo que salir a vender; después se entendió que hay que fabricar lo que el cliente quiere; hoy es digital y con responsabilidad social."
+    },
+    {
+      "h": "Investigación de mercados",
+      "p": "Es la obtención y el análisis sistemático de información para decidir en marketing. Proceso: 1) definir el problema y los objetivos de la investigación (exploratoria, descriptiva o causal); 2) diseñar el plan (fuentes de datos, métodos, instrumentos, muestra); 3) recolectar los datos; 4) analizarlos; 5) presentar e interpretar los resultados. Datos secundarios (ya existen: INDEC, estudios publicados, registros internos; baratos y rápidos) y primarios (se generan para esta investigación). Métodos: observación, encuestas, entrevistas en profundidad, focus groups y experimentos. Instrumentos: cuestionarios y dispositivos de medición. Muestra: unidad, tamaño y procedimiento (probabilístico o no).",
+      "easy": "Primero buscás lo que ya existe (datos secundarios) y, si no alcanza, salís a preguntar u observar vos (datos primarios)."
+    }
+  ]
+}

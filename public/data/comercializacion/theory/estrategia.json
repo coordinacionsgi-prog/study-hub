@@ -1,0 +1,49 @@
+{
+  "thesis": "La planificación estratégica arranca con la misión (para qué existe la empresa) y la visión (qué quiere ser), baja a objetivos medibles y usa herramientas para decidir dónde y cómo competir: FODA, estrategias genéricas, Ansoff, ciclo de vida y la matriz BCG para la cartera de negocios.",
+  "examTip": "La matriz BCG y el ciclo de vida son los clásicos del final: cada cuadrante o etapa con sus características y su estrategia. Llevá un ejemplo de empresa para cada uno.",
+  "concepts": [
+    "Misión",
+    "Visión",
+    "Objetivos SMART",
+    "FODA",
+    "Estrategias genéricas",
+    "Ansoff",
+    "Atractivo-fortalezas",
+    "Ciclo de vida",
+    "Curva de experiencia",
+    "BCG",
+    "UEN"
+  ],
+  "sections": [
+    {
+      "h": "Misión, visión y objetivos",
+      "p": "Misión: la razón de ser de la empresa, aquello que se propone; orientada al mercado (a la necesidad que satisface) y no al producto. Ejemplo de enfoque: «mejorar la vida de los consumidores» en vez de «fabricamos detergente». Visión: la imagen del futuro que la empresa quiere tener de sí misma; la descripción vívida de cómo va a estar cuando logre sus planes. Objetivos: la misión se destila en objetivos y metas concretos; toda organización económica tiene al menos objetivos de rentabilidad, crecimiento y supervivencia. Se forman con un atributo (rentabilidad), una escala (ROI), un valor (15 %) y un plazo. Método SMART: específicos, medibles, alcanzables, relevantes y con tiempo definido.",
+      "easy": "La misión es para qué existís hoy; la visión, qué querés ser mañana; los objetivos, los números que te dicen si vas bien."
+    },
+    {
+      "h": "FODA y estrategias genéricas de Porter",
+      "p": "FODA: fortalezas y debilidades (internas, controlables) y oportunidades y amenazas (externas, del entorno). Se cruzan para armar estrategias: FO (usar fortalezas para aprovechar oportunidades), DO (superar debilidades aprovechando oportunidades), FA (usar fortalezas para frenar amenazas) y DA (minimizar debilidades y evitar amenazas). Estrategias genéricas de Porter: liderazgo en costos (producir más barato que todos), diferenciación (algo único por lo que el cliente paga más) y enfoque o concentración (en un segmento, por costo o por diferenciación). Quedarse en el medio, sin ninguna, es lo peor.",
+      "easy": "FODA: lo bueno y lo malo tuyo, y lo bueno y lo malo de afuera. Y para competir, o sos el más barato, o sos distinto, o te especializás en un nicho."
+    },
+    {
+      "h": "Matriz de Ansoff y matriz atractivo-fortalezas",
+      "p": "Ansoff (crecimiento producto-mercado): penetración de mercado (productos actuales en mercados actuales: vender más a los mismos), desarrollo de mercado (productos actuales en mercados nuevos), desarrollo de producto (productos nuevos en mercados actuales) y diversificación (productos nuevos en mercados nuevos; la más riesgosa). Matriz atractivo del mercado-fortalezas de la empresa (tipo GE/McKinsey): cruza variables de atractivo (tamaño, crecimiento, rentabilidad, competencia) con fortalezas (participación, costos, tecnología, marca) para decidir invertir, mantener o desinvertir.",
+      "easy": "Ansoff: crecer vendiendo más de lo mismo, llevarlo a otro mercado, inventar algo nuevo para los mismos clientes, o arrancar algo totalmente nuevo (lo más riesgoso)."
+    },
+    {
+      "h": "Ciclo de vida del producto",
+      "p": "Etapas: introducción (ventas bajas, costos altos, pérdidas; informar y lograr la prueba), crecimiento (ventas y ganancias suben rápido, entran competidores; ganar participación, ampliar la distribución), madurez (ventas se estabilizan, máxima competencia, ganancias altas que empiezan a bajar; defender participación, diferenciar, modificar el producto o el mercado) y declinación (ventas y ganancias caen; reducir costos, cosechar o retirar). El CVP se aplica a una categoría o a un producto-mercado, y hay perfiles distintos (moda, novedad pasajera, ciclo-reciclo). La empresa puede influir en la forma de la curva con sus decisiones de marketing; también cambian los canales y los precios según la etapa.",
+      "easy": "Todo producto nace, crece, madura y muere. En cada etapa cambia qué hay que hacer: al principio darlo a conocer, después ganar espacio, después defenderse y al final sacarle el jugo o retirarlo."
+    },
+    {
+      "h": "Curva de experiencia",
+      "p": "Reducción sistemática del costo unitario a medida que crece la producción acumulada: cada vez que se duplica la producción acumulada, el costo unitario baja un porcentaje constante (por aprendizaje, mejoras de proceso, economías de escala). Consecuencia: la empresa con más participación acumula más experiencia, tiene menores costos y puede lograr una ventaja competitiva sostenida. Es la base teórica de la matriz BCG (por qué importa la participación relativa).",
+      "easy": "Cuanto más fabricás, más barato te sale cada unidad. Por eso el líder del mercado suele tener los costos más bajos."
+    },
+    {
+      "h": "Matriz BCG",
+      "p": "Analiza la cartera de unidades estratégicas de negocio (UEN: conjunto homogéneo de productos con mercado, competidores y estrategia propios). Ejes: crecimiento del mercado (alto o bajo, corte típico 10 %) y participación relativa de mercado (mi participación dividida la del mayor competidor; corte en 1). Interrogante (crecimiento alto, participación baja): consume mucha caja; invertir para que sea estrella o abandonar. Estrella (alto-alto): líder en un mercado que crece; necesita caja para sostenerse, pero genera mucha. Vaca lechera (crecimiento bajo, participación alta): genera más caja de la que usa; financia a los interrogantes. Perro (bajo-bajo): genera poca caja; mantener si es rentable o desinvertir. Recorrido ideal: interrogante → estrella → vaca.",
+      "easy": "Las vacas dan la plata, las estrellas son el futuro, los interrogantes son apuestas y los perros conviene largarlos. La plata de las vacas se usa para convertir interrogantes en estrellas."
+    }
+  ]
+}

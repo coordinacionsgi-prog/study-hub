@@ -1,0 +1,38 @@
+[
+  {
+    "id": "intro-investigacion",
+    "title": "Bolilla I · Qué es comercializar e investigación de mercados",
+    "unidad": "Final · Introducción",
+    "description": "Definiciones (AMA, Kotler), condiciones del intercambio, necesidades, deseos y demanda, evolución del marketing y proceso de investigación de mercados."
+  },
+  {
+    "id": "ambiente",
+    "title": "Bolilla II · Ambiente: macro y micro entorno",
+    "unidad": "Final · Ambiente",
+    "description": "Macroentorno (demográfico, económico, natural, tecnológico, político y cultural), microentorno y las 5 fuerzas de Porter."
+  },
+  {
+    "id": "estrategia",
+    "title": "Bolilla III · Organización y estrategia",
+    "unidad": "Final · Estrategia",
+    "description": "Misión, visión y objetivos SMART, FODA, estrategias genéricas, Ansoff, matriz atractivo-fortalezas, ciclo de vida del producto, curva de experiencia y matriz BCG, con ejercicio."
+  },
+  {
+    "id": "segmentacion-consumidor",
+    "title": "Bolillas IV y V · Segmentación, posicionamiento y comportamiento del consumidor",
+    "unidad": "Final · Mercado",
+    "description": "Mercado potencial y meta, cobertura, macrosegmentación (Abell) y microsegmentación, posicionamiento, modelo del comportamiento del consumidor, proceso de decisión, roles y curva de adopción."
+  },
+  {
+    "id": "marketing-mix",
+    "title": "Bolilla VI · Marketing mix: las 4 P",
+    "unidad": "Final · Mix",
+    "description": "Producto (niveles, clasificación, marca, empaque, mezcla), precio (factores, métodos, estrategias, Van Westendorp, con cuentas), plaza (canales y distribución física) y promoción (comunicación, AIDA, mezcla promocional, 5M)."
+  },
+  {
+    "id": "final-preguntas",
+    "title": "Final · Preguntas y ejercicios resueltos",
+    "unidad": "Final · Repaso",
+    "description": "Las preguntas típicas de final por bolilla, respondidas, y ejercicios de BCG, precios y punto de equilibrio."
+  }
+]

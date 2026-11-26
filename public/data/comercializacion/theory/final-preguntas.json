@@ -1,0 +1,98 @@
+{
+  "thesis": "Preguntas típicas de final de Comercialización armadas sobre las bolillas de la cátedra (clases de Gache y Santander), con su respuesta y ejercicios resueltos de los temas con cuentas.",
+  "examTip": "Estructura que conviene: definición → clasificación o modelo → ejemplo real (una marca argentina sirve) → relación con otra parte de la materia (por ejemplo, cómo cambian las 4 P según el ciclo de vida).",
+  "concepts": [
+    "Definir",
+    "Clasificar",
+    "Ejemplificar",
+    "Relacionar",
+    "Calcular"
+  ],
+  "sections": [
+    {
+      "h": "1. Defina comercialización y explique las condiciones del intercambio",
+      "p": "AMA: actividad, instituciones y procesos para crear, comunicar, distribuir e intercambiar ofertas de valor. Kotler: proceso social y administrativo para obtener lo que se necesita y desea intercambiando productos y valor. Condiciones: dos partes como mínimo, cada una con algo de valor para la otra, dispuestas a cederlo y que puedan comunicarse.",
+      "easy": "Crear y entregar valor para que haya intercambio."
+    },
+    {
+      "h": "2. Diferencie las orientaciones a la producción, a las ventas y al marketing",
+      "p": "Producción: falta oferta, se vende todo lo que se fabrica, el foco es producir eficiente. Ventas: sobra oferta, hay que empujar lo producido con esfuerzo de venta. Marketing: se parte de las necesidades del cliente y se fabrica lo que quiere. Luego vienen el marketing social y el digital.",
+      "easy": "Fabricar y vender, salir a empujar, o fabricar lo que el cliente quiere."
+    },
+    {
+      "h": "3. Fuerzas del macroentorno con un ejemplo de cada una",
+      "p": "Demográfica (envejecimiento de la población → más demanda de salud), económica (inflación → consumidor que busca segundas marcas), natural (escasez de agua → productos que ahorran agua), tecnológica (e-commerce → nuevos canales), político-legal (ley de etiquetado frontal → cambios en las recetas) y cultural (vida saludable → productos light).",
+      "easy": "Seis fuerzas, cada una con un ejemplo concreto."
+    },
+    {
+      "h": "4. Explique las 5 fuerzas de Porter",
+      "p": "Rivalidad entre competidores, amenaza de nuevos entrantes (barreras de entrada), amenaza de sustitutos, poder de los proveedores y poder de los clientes. Juntas determinan la rentabilidad y el atractivo de la industria.",
+      "easy": "Cuanto más fuertes, peor negocio."
+    },
+    {
+      "h": "5. Misión, visión y objetivos SMART",
+      "p": "Misión: razón de ser, orientada a la necesidad del mercado. Visión: imagen del futuro deseado. Objetivos: atributo, escala, valor y plazo; SMART (específicos, medibles, alcanzables, relevantes y con tiempo).",
+      "easy": "Para qué existo, qué quiero ser y cómo mido si voy bien."
+    },
+    {
+      "h": "6. Explique la matriz BCG y la estrategia para cada cuadrante",
+      "p": "Ejes: crecimiento del mercado y participación relativa. Interrogante (invertir o abandonar), estrella (invertir para mantener el liderazgo), vaca (cosechar: genera la caja) y perro (desinvertir o mantener si es rentable). Se apoya en la curva de experiencia: más participación, menores costos.",
+      "easy": "Las vacas financian a los interrogantes para que se vuelvan estrellas."
+    },
+    {
+      "h": "7. Etapas del ciclo de vida y cómo cambia el mix en cada una",
+      "p": "Introducción: producto básico, precio de descreme o penetración, distribución selectiva, publicidad informativa. Crecimiento: extensiones y servicios, precio para penetrar, distribución intensiva, publicidad persuasiva. Madurez: diversificar marcas y modelos, precio para igualar o mejorar a la competencia, distribución más intensiva, publicidad de recordación y promociones. Declinación: retirar productos débiles, bajar precios, distribución selectiva, reducir la promoción.",
+      "easy": "El mix acompaña la vida del producto: informar, crecer, defender y cosechar."
+    },
+    {
+      "h": "8. Matriz de Ansoff",
+      "p": "Penetración (producto actual, mercado actual), desarrollo de mercado (producto actual, mercado nuevo), desarrollo de producto (producto nuevo, mercado actual) y diversificación (producto nuevo, mercado nuevo: la más riesgosa).",
+      "easy": "Cuatro maneras de crecer, de la más segura a la más riesgosa."
+    },
+    {
+      "h": "9. Bases de segmentación y requisitos de un segmento",
+      "p": "Geográficas, demográficas, psicográficas y conductuales (más las industriales). Requisitos: medible, accesible, sustancial, diferenciable y accionable.",
+      "easy": "Agrupar por dónde, quién, cómo vive y cómo compra."
+    },
+    {
+      "h": "10. Diagrama de Abell",
+      "p": "Define el negocio por tres ejes: necesidades o funciones (qué), grupos de clientes (quién) y tecnologías (cómo). Sirve para la macrosegmentación: identificar los productos-mercado en los que competir.",
+      "easy": "Qué necesidad, para quién y con qué tecnología."
+    },
+    {
+      "h": "11. Factores que influyen en el comportamiento del consumidor y proceso de decisión",
+      "p": "Culturales, sociales, personales y psicológicos. Proceso: reconocimiento de la necesidad, búsqueda de información, evaluación de alternativas, decisión y comportamiento poscompra. Roles: iniciador, influenciador, decisor, comprador y usuario.",
+      "easy": "Quién sos y quién te rodea define qué comprás; y comprar tiene cinco pasos."
+    },
+    {
+      "h": "12. Niveles del producto y clasificación de los bienes de consumo",
+      "p": "Núcleo (beneficio básico), real (características, marca, empaque, calidad) y aumentado (garantía, servicio, instalación). Consumo: conveniencia, comparación, especialidad y no buscados.",
+      "easy": "Lo que compro de verdad, el producto en sí y los extras."
+    },
+    {
+      "h": "13. Estrategias de precio para un producto nuevo",
+      "p": "Descreme: precio alto inicial para segmentos que valoran mucho; luego baja. Penetración: precio bajo para ganar participación rápido; requiere demanda sensible al precio y economías de escala.",
+      "easy": "Caro y bajar, o barato y ganar volumen."
+    },
+    {
+      "h": "14. Canales: niveles e intensidad de la distribución",
+      "p": "Niveles 0 (directo), 1, 2 y 3 según la cantidad de intermediarios. Intensidad: intensiva (conveniencia), selectiva (comparación) y exclusiva (especialidad o lujo).",
+      "easy": "Cuántos intermediarios hay y en cuántos lugares está el producto."
+    },
+    {
+      "h": "15. Mezcla promocional, AIDA y push contra pull",
+      "p": "Publicidad, promoción de ventas, relaciones públicas, venta personal y marketing directo. AIDA: atención, interés, deseo y acción. Push: empujar al canal con incentivos; pull: generar demanda en el consumidor final.",
+      "easy": "Las herramientas para comunicar, el camino de la atención a la compra, y si empujás o tirás."
+    },
+    {
+      "h": "Ejercicio · Clasificar en la matriz BCG (corte: crecimiento 10 %, participación relativa 1)",
+      "p": "A: mercado crece 15 % y participación relativa 2,0 → ESTRELLA. B: crece 3 % y participación relativa 3,0 → VACA LECHERA. C: crece 18 % y participación relativa 0,4 → INTERROGANTE. D: crece 2 % y participación relativa 0,3 → PERRO. Estrategia de cartera: usar la caja de B para invertir en C (si tiene chances de liderar) y sostener a A; evaluar desinvertir en D.",
+      "easy": "Mirás si el mercado crece más o menos del 10 % y si sos más grande o más chico que el líder."
+    },
+    {
+      "h": "Ejercicio · Precio con margen y punto de equilibrio",
+      "p": "Costo unitario $1.000, margen del 25 % sobre el precio de venta: P = 1.000 / 0,75 = $1.333,33; si el 25 % fuera sobre el costo (mark-up): P = $1.250,00. Punto de equilibrio con costos fijos de $600.000, precio de $1.500 y costo variable de $900: 600.000 / (1.500 − 900) = 1000 unidades.",
+      "easy": "El margen sobre el precio da un precio más alto que el mark-up sobre el costo; el equilibrio son los costos fijos divididos lo que te queda por unidad."
+    }
+  ]
+}

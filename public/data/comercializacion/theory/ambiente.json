@@ -1,0 +1,29 @@
+{
+  "thesis": "Ninguna empresa decide en el vacío: el macroentorno ejerce presión sobre toda la industria y el microentorno son los actores cercanos con los que la empresa se relaciona. Las excelentes monitorean el ambiente y adaptan su negocio a las oportunidades.",
+  "examTip": "Piden enumerar y ejemplificar las fuerzas del macroentorno y explicar las 5 fuerzas de Porter aplicadas a una industria. Un error típico es mezclar macro con micro: el macro no lo controla nadie de la industria.",
+  "concepts": [
+    "Ambiente de la comercialización",
+    "Macroentorno",
+    "PESTEL",
+    "Microentorno",
+    "5 fuerzas de Porter",
+    "Barreras de entrada"
+  ],
+  "sections": [
+    {
+      "h": "El ambiente de la mercadotecnia",
+      "p": "Son las fuerzas externas y los actores que afectan la capacidad de la empresa para desarrollar y mantener relaciones exitosas con sus clientes meta. Tres niveles: macroentorno (fuerzas generales de la sociedad), entorno sectorial o industria (microentorno) y la empresa. El análisis del macroambiente es un análisis de la presión del ambiente sobre la industria: dice qué industrias son atractivas y rentables.",
+      "easy": "Mirás de afuera hacia adentro: el país y el mundo, después tu industria, y recién después tu empresa."
+    },
+    {
+      "h": "Macroentorno",
+      "p": "Demográfico: tamaño, densidad, ubicación, edad, sexo y composición de la población (envejecimiento, cambios en la familia, migraciones, nivel educativo). Económico: poder adquisitivo y patrones de gasto (ingreso, costo de vida, ahorro, crédito, PBI, inflación, desempleo, tipo de cambio, balanza comercial). Natural: recursos naturales (escasez de materias primas, costo de la energía, contaminación, clima, regulación ambiental). Tecnológico: nuevas tecnologías que crean mercados (velocidad del cambio, inversión en I+D, normas de seguridad). Político-legal: leyes, organismos y grupos de presión (regulación comercial, defensa de la competencia, impuestos, aranceles, ética). Cultural: valores, creencias y comportamientos de la sociedad (valores centrales persistentes y secundarios cambiantes). Es la base del análisis PESTEL.",
+      "easy": "Seis fuerzas que nadie controla: cuánta gente hay y cómo es, la economía, la naturaleza, la tecnología, la política y la cultura."
+    },
+    {
+      "h": "Microentorno y las 5 fuerzas de Porter",
+      "p": "Microentorno: la propia empresa (sus áreas), proveedores, intermediarios de marketing (distribuidores, logística, agencias, financieras), clientes, competidores y públicos (financieros, medios, gobierno, comunidad). Las 5 fuerzas de Porter determinan la rentabilidad de una industria: 1) rivalidad entre competidores existentes; 2) amenaza de nuevos entrantes (depende de las barreras de entrada: economías de escala, inversión, diferenciación, acceso a canales, regulación); 3) amenaza de productos sustitutos; 4) poder de negociación de los proveedores; 5) poder de negociación de los clientes. Cuanto más fuertes las fuerzas, menos atractiva es la industria.",
+      "easy": "Una industria es buen negocio si hay poca pelea entre competidores, cuesta entrar, no hay sustitutos fáciles y ni los proveedores ni los clientes te aprietan."
+    }
+  ]
+}

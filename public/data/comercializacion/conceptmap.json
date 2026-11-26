@@ -1,0 +1,133 @@
+{
+  "intro": "La materia sigue el orden en que se arma un plan de marketing (como el TP anual): primero el ambiente (macro y micro), después la estrategia de la empresa (misión, FODA, BCG, ciclo de vida), después el mercado (segmentar, elegir el mercado meta, posicionar, entender al consumidor) y al final las 4 P, que tienen que bajar a la práctica ese posicionamiento.",
+  "nodes": [
+    {
+      "id": "n1",
+      "x": 40,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Ambiente",
+      "subtitle": "Macro, micro, 5 fuerzas",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n2",
+      "x": 290,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Estrategia",
+      "subtitle": "Misión, FODA, Ansoff, BCG, CVP",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n3",
+      "x": 540,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Mercado",
+      "subtitle": "Segmentación, posicionamiento",
+      "color": "#f0a63a"
+    },
+    {
+      "id": "n4",
+      "x": 790,
+      "y": 40,
+      "w": 180,
+      "h": 90,
+      "title": "Consumidor",
+      "subtitle": "Factores y proceso de decisión",
+      "color": "#e0605e"
+    },
+    {
+      "id": "n5",
+      "x": 160,
+      "y": 280,
+      "w": 170,
+      "h": 80,
+      "title": "Producto",
+      "subtitle": "Niveles, marca, mezcla",
+      "color": "#b06ad9"
+    },
+    {
+      "id": "n6",
+      "x": 360,
+      "y": 280,
+      "w": 170,
+      "h": 80,
+      "title": "Precio",
+      "subtitle": "Métodos y estrategias",
+      "color": "#b06ad9"
+    },
+    {
+      "id": "n7",
+      "x": 560,
+      "y": 280,
+      "w": 170,
+      "h": 80,
+      "title": "Plaza",
+      "subtitle": "Canales y logística",
+      "color": "#b06ad9"
+    },
+    {
+      "id": "n8",
+      "x": 760,
+      "y": 280,
+      "w": 170,
+      "h": 80,
+      "title": "Promoción",
+      "subtitle": "AIDA, mezcla, 5M",
+      "color": "#b06ad9"
+    }
+  ],
+  "edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n2",
+      "n3"
+    ],
+    [
+      "n3",
+      "n4"
+    ],
+    [
+      "n3",
+      "n5"
+    ],
+    [
+      "n3",
+      "n6"
+    ],
+    [
+      "n3",
+      "n7"
+    ],
+    [
+      "n3",
+      "n8"
+    ]
+  ],
+  "comparisons": [
+    [
+      "Necesidad vs deseo vs demanda",
+      "La carencia, la forma que toma según la persona, y ese deseo con plata para comprarlo."
+    ],
+    [
+      "Macro vs microentorno",
+      "Fuerzas generales que nadie de la industria controla, contra los actores cercanos con los que la empresa se relaciona."
+    ],
+    [
+      "Descreme vs penetración",
+      "Precio alto que baja con el tiempo, contra precio bajo para ganar participación rápido."
+    ],
+    [
+      "Push vs pull",
+      "Empujar el producto a través del canal, contra generar demanda en el consumidor final."
+    ]
+  ]
+}
