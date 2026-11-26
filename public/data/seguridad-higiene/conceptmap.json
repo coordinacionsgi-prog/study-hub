@@ -1,0 +1,117 @@
+{
+  "intro": "La materia tiene dos mitades. Seguridad e Higiene cuida a las personas dentro de la fábrica: Seguridad evita accidentes (máquinas, electricidad, incendio) y Higiene evita enfermedades por el ambiente de trabajo (químicos, ruido, luz, calor). Ingeniería Ambiental cuida lo que sale de la fábrica: aire, agua y residuos. Todo se apoya en un marco legal y se gestiona igual: identificar, medir, comparar con el límite y controlar.",
+  "nodes": [
+    {
+      "id": "n1",
+      "x": 400,
+      "y": 30,
+      "w": 200,
+      "h": 80,
+      "title": "Marco legal",
+      "subtitle": "Ley 19.587, Dto. 351/79, Ley 24.557, Ley 25.675",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n2",
+      "x": 60,
+      "y": 190,
+      "w": 200,
+      "h": 90,
+      "title": "Seguridad",
+      "subtitle": "Riesgos, accidentes, EPP, eléctrico",
+      "color": "#e0605e"
+    },
+    {
+      "id": "n3",
+      "x": 300,
+      "y": 190,
+      "w": 180,
+      "h": 90,
+      "title": "Incendio",
+      "subtitle": "Clases, extinción, carga de fuego",
+      "color": "#f0a63a"
+    },
+    {
+      "id": "n4",
+      "x": 520,
+      "y": 190,
+      "w": 180,
+      "h": 90,
+      "title": "Higiene",
+      "subtitle": "Tóxicos, CMP, ruido, luz",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n5",
+      "x": 740,
+      "y": 190,
+      "w": 200,
+      "h": 90,
+      "title": "Ambiental",
+      "subtitle": "Aire, efluentes, RSU, peligrosos",
+      "color": "#4bb3c7"
+    },
+    {
+      "id": "n6",
+      "x": 400,
+      "y": 370,
+      "w": 220,
+      "h": 90,
+      "title": "Gestión",
+      "subtitle": "Identificar → medir → límite → controlar",
+      "color": "#b06ad9"
+    }
+  ],
+  "edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n1",
+      "n3"
+    ],
+    [
+      "n1",
+      "n4"
+    ],
+    [
+      "n1",
+      "n5"
+    ],
+    [
+      "n2",
+      "n6"
+    ],
+    [
+      "n3",
+      "n6"
+    ],
+    [
+      "n4",
+      "n6"
+    ],
+    [
+      "n5",
+      "n6"
+    ]
+  ],
+  "comparisons": [
+    [
+      "Seguridad vs higiene",
+      "Seguridad previene accidentes (daño súbito); higiene previene enfermedades profesionales (daño progresivo por exposición)."
+    ],
+    [
+      "CMP vs CMP-CPT vs CMP-C",
+      "Promedio de 8 horas; picos de 15 minutos; techo que no se supera nunca."
+    ],
+    [
+      "Smog industrial vs fotoquímico",
+      "SO₂ + partículas + niebla (reductor) contra NOx + COV + sol → ozono (oxidante)."
+    ],
+    [
+      "DBO vs DQO",
+      "La DBO mide la materia orgánica biodegradable; la DQO, toda la oxidable químicamente. DQO ≥ DBO."
+    ]
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "thesis": "Ingeniería ambiental es controlar lo que la industria le devuelve al ambiente: emisiones al aire, efluentes al agua y residuos al suelo. Para cada uno se identifica el contaminante, se lo compara con el límite y se elige un tratamiento.",
+  "examTip": "En el oral pidieron explicar el smog, las transformaciones de los RSU y cómo tratar un efluente con aceites y grasas, sólidos en suspensión, DBO, nutrientes y pH. Aprendé la tabla de contaminante → tratamiento.",
+  "concepts": [
+    "Smog industrial",
+    "Smog fotoquímico",
+    "Lluvia ácida",
+    "Control de emisiones",
+    "DBO",
+    "DQO",
+    "Tratamiento primario, secundario y terciario",
+    "RSU",
+    "Compostaje",
+    "Relleno sanitario",
+    "Ley 24.051",
+    "Ley 25.675",
+    "EIA"
+  ],
+  "sections": [
+    {
+      "h": "Contaminación del aire: smog",
+      "p": "Smog industrial o clásico (tipo Londres): niebla con dióxido de azufre (SO₂) y partículas de la quema de carbón y combustibles con azufre, en clima frío y húmedo; es de carácter reductor. Smog fotoquímico (tipo Los Ángeles): los óxidos de nitrógeno (NOx) y los compuestos orgánicos volátiles (COV) de los autos y la industria reaccionan con la luz solar y forman ozono troposférico y PAN (nitrato de peroxiacetilo); se da en días soleados y cálidos; es oxidante e irrita ojos y vías respiratorias. Otros problemas: lluvia ácida (SO₂ y NOx forman ácido sulfúrico y nítrico que caen con la lluvia), efecto invernadero (CO₂, metano) y destrucción de la capa de ozono estratosférico (CFC).",
+      "easy": "Hay dos smogs: el de las chimeneas de carbón con niebla (Londres) y el que arma el sol con los gases de los autos (Los Ángeles), que genera ozono a nivel del piso."
+    },
+    {
+      "h": "Control de emisiones gaseosas",
+      "p": "Material particulado: ciclones (separación por fuerza centrífuga, para partículas gruesas), filtros de mangas (alta eficiencia), precipitadores electrostáticos (cargan las partículas y las capturan en placas) y lavadores húmedos o scrubbers. Gases: absorción (lavado con un líquido que retiene el gas, por ejemplo la desulfuración con cal), adsorción (carbón activado, para COV), combustión u oxidación térmica y catalítica (convierte COV y CO en CO₂ y agua) y reducción catalítica de NOx. Además, prevenir: cambiar de combustible, mejorar la combustión.",
+      "easy": "Para el polvo usás ciclones, filtros de tela o placas con electricidad; para los gases, los lavás, los atrapás con carbón activado o los quemás."
+    },
+    {
+      "h": "Efluentes líquidos: parámetros",
+      "p": "DBO (demanda bioquímica de oxígeno, normalmente a 5 días): oxígeno que consumen los microorganismos para degradar la materia orgánica biodegradable; mide la carga orgánica. DQO (demanda química de oxígeno): oxígeno para oxidar químicamente toda la materia orgánica; siempre DQO ≥ DBO, y la relación DBO/DQO indica qué tan biodegradable es el efluente. Sólidos en suspensión (SST), aceites y grasas, nutrientes (nitrógeno y fósforo: causan eutrofización), pH, temperatura, metales pesados, detergentes y bacterias coliformes. Cada jurisdicción fija los límites de vuelco (a cloaca, a curso de agua o a absorción).",
+      "easy": "La DBO dice cuánta materia orgánica tiene el agua (cuánto oxígeno le sacaría al río). Si se vuelca sin tratar, el río se queda sin oxígeno y los peces se mueren."
+    },
+    {
+      "h": "Efluentes líquidos: tratamientos",
+      "p": "Pretratamiento y primario (físico): rejas, desarenadores, separación de aceites y grasas, ecualización, sedimentación. Secundario (biológico): microorganismos consumen la materia orgánica (baja la DBO): lodos activados, lechos percoladores, lagunas de estabilización, reactores anaeróbicos. Terciario o avanzado: remoción de nutrientes, filtración, desinfección (cloro, UV, ozono). Los lodos generados se espesan, se estabilizan (digestión), se deshidratan y se disponen.",
+      "tables": [
+        {
+          "title": "Contaminante → cómo se trata (pregunta tomada en el final)",
+          "head": [
+            "Problema",
+            "Tratamiento"
+          ],
+          "rows": [
+            [
+              "Aceites y grasas",
+              "Separador o trampa de grasas por diferencia de densidad, flotación con aire disuelto (DAF)"
+            ],
+            [
+              "Sólidos en suspensión",
+              "Rejas y desarenador; sedimentación o decantación; coagulación-floculación para los finos; filtración"
+            ],
+            [
+              "DBO alta (materia orgánica)",
+              "Tratamiento biológico secundario: lodos activados, lechos percoladores, lagunas o digestión anaeróbica"
+            ],
+            [
+              "Nutrientes (N y P)",
+              "Terciario: nitrificación-desnitrificación biológica para el nitrógeno; precipitación química (sales de hierro o aluminio) para el fósforo"
+            ],
+            [
+              "pH fuera de rango",
+              "Neutralización con ácido o con base (cal, soda) en un tanque de ecualización antes de los demás tratamientos"
+            ]
+          ]
+        }
+      ],
+      "easy": "Primero sacás lo que flota y lo que se hunde; después dejás que las bacterias se coman la materia orgánica; al final limpiás lo que queda (nutrientes) y desinfectás. Y el pH lo corregís al principio porque si no se mueren las bacterias."
+    },
+    {
+      "h": "Residuos sólidos urbanos (RSU)",
+      "p": "Gestión integral (Ley 25.916): generación → separación en origen → recolección → transferencia y transporte → tratamiento → disposición final. Jerarquía: reducir, reutilizar, reciclar, valorizar (energía) y, por último, disponer. Transformaciones de los RSU: físicas (separación de componentes, reducción de tamaño por trituración, compactación o reducción de volumen), químicas (incineración o combustión con recuperación de energía, pirólisis, gasificación) y biológicas (compostaje aeróbico de la fracción orgánica para obtener compost; digestión anaeróbica para obtener biogás). Disposición final: relleno sanitario (celdas impermeabilizadas, compactación y cobertura diaria, captación de lixiviados y de gases); a diferencia del basural a cielo abierto, controla los impactos.",
+      "easy": "La basura se transforma de tres maneras: físicamente (separar, triturar, compactar), químicamente (quemar para sacar energía) o biológicamente (compost o biogás). Lo que no sirve va a un relleno sanitario bien hecho, no a un basural."
+    },
+    {
+      "h": "Residuos peligrosos",
+      "p": "Ley 24.051: residuos que pueden causar daño a seres vivos o contaminar (categorías Y por corriente de desecho, y características como inflamable, corrosivo, tóxico o reactivo). Actores: generador, transportista y operador (tratamiento y disposición), todos inscriptos en un registro. El manifiesto acompaña al residuo desde que sale del generador hasta su destino final (trazabilidad «de la cuna a la tumba»). El generador es responsable del residuo aun después de entregarlo. Tratamientos: físico-químicos, incineración, estabilización y relleno de seguridad.",
+      "easy": "Los residuos peligrosos viajan siempre con un papel (el manifiesto) que dice quién los generó, quién los llevó y quién los trató. Y el que los generó sigue siendo responsable."
+    },
+    {
+      "h": "Ley General del Ambiente y EIA",
+      "p": "Ley 25.675 (presupuestos mínimos): principios de congruencia, prevención, precautorio (ante la duda de un daño grave, no hace falta certeza científica para actuar), equidad intergeneracional, progresividad, responsabilidad (el que contamina paga y recompone), subsidiariedad, sustentabilidad y solidaridad. Instrumentos: ordenamiento territorial, evaluación de impacto ambiental (EIA), control de actividades, educación e información ambiental. La EIA identifica, predice y evalúa los impactos de un proyecto antes de aprobarlo (por ejemplo con la matriz de Leopold: acciones del proyecto × factores ambientales, con magnitud e importancia) y define medidas de mitigación y un plan de gestión ambiental. Sistemas de gestión: ISO 14001 (ambiente) e ISO 45001 (seguridad y salud).",
+      "easy": "Antes de construir una fábrica hay que estudiar qué daño puede hacer y cómo evitarlo. Y si hay duda de que algo sea grave, se frena igual (principio precautorio)."
+    }
+  ]
+}

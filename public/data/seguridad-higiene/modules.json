@@ -1,0 +1,32 @@
+[
+  {
+    "id": "seguridad",
+    "title": "Seguridad en el trabajo",
+    "unidad": "Final · Seguridad",
+    "description": "Marco legal (Ley 19.587, Decreto 351/79, Ley 24.557), tipos de riesgo, accidentes e índices, jerarquía de controles, EPP, riesgo eléctrico y máquinas."
+  },
+  {
+    "id": "incendio",
+    "title": "Protección contra incendios",
+    "unidad": "Final · Seguridad",
+    "description": "Tetraedro del fuego, clases de fuego, métodos y agentes de extinción, carga de fuego y cantidad de matafuegos, con ejercicio resuelto."
+  },
+  {
+    "id": "higiene",
+    "title": "Higiene industrial",
+    "unidad": "Final · Higiene",
+    "description": "Contaminantes y vías de ingreso al organismo, concentraciones máximas permisibles, ruido (dosis), iluminación, ventilación y carga térmica."
+  },
+  {
+    "id": "ambiental",
+    "title": "Ingeniería ambiental",
+    "unidad": "Final · Ambiental",
+    "description": "Contaminación del aire (smog, lluvia ácida, control de emisiones), efluentes líquidos y sus tratamientos, residuos sólidos urbanos y peligrosos, evaluación de impacto ambiental y ley general del ambiente."
+  },
+  {
+    "id": "finales-tomados",
+    "title": "Finales tomados · Respondidos",
+    "unidad": "Final · Repaso",
+    "description": "Las preguntas que tomaron en orales de SHIA, respondidas, y las preguntas típicas de cada bloque."
+  }
+]

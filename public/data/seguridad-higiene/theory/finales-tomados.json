@@ -1,0 +1,71 @@
+{
+  "thesis": "El final de SHIA es oral y tiene dos partes: Seguridad e Higiene, e Ingeniería Ambiental. Abajo están las preguntas que tomaron (oral de diciembre de 2020) y las más típicas de cada bloque, respondidas.",
+  "examTip": "Un alumno que rindió avisó que es «random» y que no te dejan decir «no sé este punto»: hay que llevar todo el programa leído. Respondé con definición, clasificación y un ejemplo industrial.",
+  "concepts": [
+    "Oral",
+    "Seguridad e Higiene",
+    "Ingeniería Ambiental"
+  ],
+  "sections": [
+    {
+      "h": "Final oral (dic. 2020) · 1. ¿De qué maneras puede ingresar una sustancia tóxica al organismo?",
+      "p": "Por cuatro vías: inhalatoria o respiratoria (la principal en la industria: gases, vapores, humos y polvos), dérmica (absorción por la piel, típica de los solventes), digestiva (comer, beber o fumar con las manos contaminadas) y parenteral (heridas o pinchazos). El daño depende de la concentración, el tiempo de exposición y la sensibilidad individual. Por eso se controla la concentración en el aire (CMP) y se usan EPP específicos: respiratorio, guantes y ropa.",
+      "easy": "Lo respirás, te entra por la piel, te lo tragás o entra por una herida."
+    },
+    {
+      "h": "Final oral (dic. 2020) · 2. Distintos tipos de fuegos",
+      "p": "Clase A: sólidos que dejan brasa (agua, espuma, polvo ABC). Clase B: líquidos y gases inflamables (espuma, CO₂, polvo; no chorro de agua). Clase C: equipos eléctricos con tensión (CO₂, polvo; nunca agua). Clase D: metales combustibles (polvos especiales). Clase K: aceites de cocina (acetato de potasio). Sumá el tetraedro del fuego y los métodos de extinción: enfriamiento, sofocación, remoción del combustible e inhibición.",
+      "easy": "A sólidos, B líquidos, C eléctrico, D metales, K cocina. Y para cada uno, su extintor."
+    },
+    {
+      "h": "Final oral (dic. 2020) · 3. Distintos tipos de concentración máxima permisible",
+      "p": "CMP: promedio ponderado para 8 h por día y 40 h por semana. CMP-CPT: corto plazo, 15 minutos, como máximo 4 veces por día con 60 minutos entre exposiciones. CMP-C: techo, no se supera en ningún momento. Mezclas con el mismo efecto: Σ C/CMP ≤ 1. Están en la Resolución 295/03.",
+      "easy": "Tope del promedio diario, tope de los picos de 15 minutos y tope que no se pasa nunca."
+    },
+    {
+      "h": "Final oral (dic. 2020) · 4. Explicar el smog",
+      "p": "Smog industrial (Londres): SO₂ + partículas + niebla, por quemar carbón, en clima frío y húmedo; es reductor. Smog fotoquímico (Los Ángeles): NOx + COV + sol → ozono troposférico y PAN; en días cálidos y soleados; es oxidante e irritante. Se previene controlando las emisiones de la industria y los vehículos (filtros, catalizadores, combustibles con menos azufre).",
+      "easy": "Uno es humo de carbón con niebla; el otro lo fabrica el sol con los gases de los autos."
+    },
+    {
+      "h": "Final oral (dic. 2020) · 5. Transformación de los RSU",
+      "p": "Físicas: separación de componentes, reducción de tamaño (trituración) y de volumen (compactación). Químicas: incineración con recuperación de energía, pirólisis y gasificación. Biológicas: compostaje aeróbico (compost) y digestión anaeróbica (biogás). Encuadralo en la gestión integral (Ley 25.916) y la jerarquía: reducir, reutilizar, reciclar, valorizar y, al final, el relleno sanitario.",
+      "easy": "Separar y compactar, quemar para sacar energía, o dejar que las bacterias hagan compost o biogás."
+    },
+    {
+      "h": "Final oral (dic. 2020) · 6. Efluente con aceites y grasas, sólidos en suspensión, DBO, nutrientes y pH: ¿cómo lo solucionás?",
+      "p": "Orden lógico del tren de tratamiento: 1) Neutralizar el pH en un tanque de ecualización (con cal, soda o ácido) para proteger el tratamiento biológico. 2) Aceites y grasas: separador por gravedad o flotación con aire disuelto. 3) Sólidos en suspensión: desarenador y sedimentación primaria, con coagulación-floculación para los finos. 4) DBO: tratamiento biológico secundario (lodos activados, lechos percoladores o lagunas) y sedimentador secundario. 5) Nutrientes: terciario (nitrificación-desnitrificación para el N; precipitación química con sales de hierro o aluminio para el P). Final: desinfección y manejo de los lodos.",
+      "easy": "Primero corregís el pH, después sacás lo que flota y lo que se hunde, después las bacterias se comen la materia orgánica y al final sacás el nitrógeno y el fósforo."
+    },
+    {
+      "h": "Típica · Jerarquía de controles y lugar del EPP",
+      "p": "Eliminación → sustitución → controles de ingeniería → controles administrativos → EPP. Se actúa primero en la fuente, después en el medio y por último en el trabajador. El EPP es el último recurso porque no elimina el riesgo.",
+      "easy": "El casco y los guantes son lo último que se piensa, no lo primero."
+    },
+    {
+      "h": "Típica · Contacto eléctrico directo e indirecto y sus protecciones",
+      "p": "Directo: tocar una parte con tensión (protección: aislación, barreras, distancia). Indirecto: tocar una masa energizada por una falla (protección: puesta a tierra + disyuntor diferencial de 30 mA). La termomagnética protege la instalación, no a las personas.",
+      "easy": "Directo es el cable; indirecto es la carcasa. La jabalina y el disyuntor te salvan del indirecto."
+    },
+    {
+      "h": "Típica · Calcular la carga de fuego",
+      "p": "Qf = Σ (Pi × Hi) / (4.400 × A) en kg/m² de madera equivalente. Con eso y la clase de riesgo se obtienen la resistencia al fuego y el potencial extintor (Anexo VII del Decreto 351/79). Matafuegos: uno cada 200 m² como mínimo, a 20 m como máximo para fuego clase A y 15 m para clase B.",
+      "easy": "Todo a kilos de madera, dividido por los metros cuadrados."
+    },
+    {
+      "h": "Típica · Ruido: límite y dosis",
+      "p": "85 dB(A) para 8 h; se reduce a la mitad el tiempo por cada 3 dB. Dosis D = Σ Ci/Ti ≤ 1. Control en la fuente, en el medio y en el receptor. Efecto: hipoacusia irreversible.",
+      "easy": "Si sumás tiempo real dividido tiempo permitido y te da más de 1, te pasaste."
+    },
+    {
+      "h": "Típica · Índices de siniestralidad",
+      "p": "Frecuencia = accidentes × 10⁶ / horas-hombre. Gravedad = días perdidos × 10³ / horas-hombre. Incidencia = accidentados × 10³ / trabajadores expuestos.",
+      "easy": "Frecuencia, cuántos; gravedad, cuán graves; incidencia, cuántos de cada mil trabajadores."
+    },
+    {
+      "h": "Típica · Residuos peligrosos: actores y manifiesto",
+      "p": "Ley 24.051: generador, transportista y operador, inscriptos en un registro. El manifiesto da trazabilidad de la cuna a la tumba, y el generador sigue siendo responsable.",
+      "easy": "El residuo peligroso viaja con su papel y el que lo generó nunca deja de ser responsable."
+    }
+  ]
+}

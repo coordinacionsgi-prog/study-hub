@@ -1,0 +1,77 @@
+{
+  "thesis": "Higiene industrial es reconocer, evaluar y controlar los agentes del ambiente de trabajo que pueden enfermar a las personas a largo plazo: sustancias químicas, ruido, falta de luz, calor. Se mide, se compara con un valor límite legal y, si se supera, se corrige.",
+  "examTip": "En el final tomaron «maneras en que puede ingresar una sustancia tóxica al organismo» y «distintos tipos de concentración máxima permisible». Llevá también la cuenta de dosis de ruido.",
+  "concepts": [
+    "Vías de ingreso",
+    "CMP",
+    "CMP-CPT",
+    "CMP-C",
+    "Dosis de ruido",
+    "dBA",
+    "Iluminancia",
+    "Ventilación general y localizada",
+    "Carga térmica"
+  ],
+  "sections": [
+    {
+      "h": "Contaminantes y vías de ingreso al organismo",
+      "p": "Contaminantes: químicos (gases, vapores, polvos, humos, nieblas), físicos (ruido, vibraciones, radiaciones, calor) y biológicos. Vías de ingreso de un tóxico: 1) respiratoria o inhalatoria, la más importante en la industria (gases, vapores y polvos llegan al pulmón y a la sangre); 2) dérmica o cutánea (absorción por la piel, por ejemplo los solventes); 3) digestiva (por comer, beber o fumar con las manos contaminadas); 4) parenteral (por heridas o pinchazos). El efecto depende de la concentración, el tiempo de exposición y la sensibilidad de la persona.",
+      "easy": "Un tóxico entra por cuatro lados: lo respirás (el más común), te lo absorbe la piel, te lo comés sin querer o entra por una herida."
+    },
+    {
+      "h": "Concentraciones máximas permisibles",
+      "p": "Valores límite de un contaminante en el aire del puesto de trabajo (Resolución 295/03). CMP: concentración media ponderada en el tiempo para una jornada de 8 horas diarias y 40 semanales, a la que casi todos los trabajadores pueden estar expuestos día tras día sin efectos adversos. CMP-CPT (corto plazo): concentración a la que se puede estar expuesto como máximo 15 minutos seguidos, no más de 4 veces por día y con al menos 60 minutos entre exposiciones; no debe superarse en ningún período de 15 minutos. CMP-C (techo): concentración que no debe superarse en ningún momento de la jornada. Si hay varios contaminantes con el mismo efecto, se suman las fracciones: Σ Ci/CMPi ≤ 1.",
+      "easy": "Hay tres topes: uno para el promedio del día (CMP), uno para picos cortos de 15 minutos (CMP-CPT) y uno que no se puede pasar nunca, ni un segundo (CMP-C, el techo)."
+    },
+    {
+      "h": "Ruido",
+      "p": "Se mide en dB(A) con decibelímetro o dosímetro. Límite (Resolución 295/03): 85 dB(A) para 8 horas diarias; cada 3 dB más, el tiempo permitido se reduce a la mitad (88 dB 4 h, 91 dB 2 h, 94 dB 1 h). Para exposiciones a distintos niveles se calcula la dosis: D = Σ Ci/Ti (tiempo real en cada nivel dividido el tiempo permitido); si D > 1 se supera el límite. Ruido de impulso: pico máximo de 140 dB(C). Control: en la fuente (máquinas más silenciosas, mantenimiento, amortiguación), en el medio (encerramientos, barreras, materiales absorbentes) y en el receptor (cabinas, rotación, protectores auditivos). Efecto: hipoacusia (sordera profesional), irreversible.",
+      "tables": [
+        {
+          "title": "Ejemplo de dosis: 4 h a 88 dB(A) y 4 h a 85 dB(A)",
+          "head": [
+            "Nivel",
+            "Tiempo real",
+            "Tiempo permitido",
+            "Ci/Ti"
+          ],
+          "rows": [
+            [
+              "88 dB(A)",
+              "4 h",
+              "4 h",
+              "1,00"
+            ],
+            [
+              "85 dB(A)",
+              "4 h",
+              "8 h",
+              "0,50"
+            ],
+            [
+              "Dosis",
+              "",
+              "",
+              "1,50"
+            ]
+          ],
+          "strong": [
+            2
+          ],
+          "note": "D = 1,5 > 1: no cumple. Hay que bajar el ruido o el tiempo de exposición; mientras tanto, protectores auditivos."
+        }
+      ],
+      "easy": "85 decibeles es el máximo para 8 horas. Cada 3 decibeles más, podés estar la mitad del tiempo. Si sumás tiempo real sobre tiempo permitido y te da más de 1, te pasaste."
+    },
+    {
+      "h": "Iluminación",
+      "p": "Se mide la iluminancia en lux con un luxómetro (protocolo de la Resolución SRT 84/2012). El Decreto 351/79 (Anexo IV) fija niveles mínimos según la tarea: cuanto más fino el trabajo, más luz. Uniformidad: la iluminancia mínima no debe ser menor que la mitad de la media (Emín ≥ Emedia / 2). También importan el deslumbramiento, el contraste y la iluminación de emergencia. Una mala iluminación causa fatiga visual y accidentes.",
+      "easy": "Se mide cuánta luz llega al puesto. Para un trabajo de precisión hace falta más que para un pasillo, y no puede haber zonas mucho más oscuras que el promedio."
+    },
+    {
+      "h": "Ventilación y carga térmica",
+      "p": "Ventilación general o por dilución: renovar el aire de todo el local para bajar la concentración (sirve para contaminantes poco tóxicos y fuentes dispersas). Ventilación localizada: captar el contaminante en la fuente con una campana y extraerlo antes de que llegue a la zona de respiración (para contaminantes tóxicos o fuentes puntuales: soldadura, cabinas de pintura). Es más eficaz. Carga térmica: estrés por calor. Se evalúa con el índice TGBH (temperatura de globo y bulbo húmedo), según el tipo de trabajo (liviano, moderado o pesado) y el régimen de trabajo y descanso. Se controla con ventilación, pantallas, hidratación y pausas.",
+      "easy": "La ventilación general cambia el aire de todo el galpón; la localizada chupa el humo justo donde se genera, y es mejor. Para el calor se usa un índice que combina temperatura y humedad."
+    }
+  ]
+}

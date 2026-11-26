@@ -1,0 +1,96 @@
+{
+  "thesis": "Para que haya fuego tienen que estar los cuatro elementos del tetraedro. Apagarlo es sacar uno. Cada clase de fuego tiene su agente extintor, y la carga de fuego indica qué tan peligroso es un local y cuántos matafuegos necesita.",
+  "examTip": "«Distintos tipos de fuegos» ya se tomó en el final. Sabé las cinco clases con su agente extintor, los métodos de extinción y la cuenta de la carga de fuego.",
+  "concepts": [
+    "Tetraedro del fuego",
+    "Clases A, B, C, D y K",
+    "Métodos de extinción",
+    "Agentes extintores",
+    "Carga de fuego",
+    "Madera equivalente",
+    "Matafuegos"
+  ],
+  "sections": [
+    {
+      "h": "Tetraedro del fuego",
+      "p": "Combustible + comburente (oxígeno) + calor (energía de activación) + reacción en cadena. Si falta uno, el fuego no se produce o se apaga. Conceptos: punto de inflamación (temperatura a la que un líquido desprende vapores que se encienden con una llama, pero no se mantienen), punto de ignición o combustión (temperatura a la que la combustión se mantiene) y temperatura de autoignición (arde sin llama externa). Límites de inflamabilidad: la mezcla de vapor y aire arde solo entre el límite inferior y el superior.",
+      "easy": "El fuego necesita algo que se queme, oxígeno, calor y la reacción que lo mantiene. Sacás una pata y se cae."
+    },
+    {
+      "h": "Clases de fuego y agentes extintores",
+      "p": "Cada clase de fuego tiene sus agentes adecuados y los que no hay que usar.",
+      "tables": [
+        {
+          "title": "Clases de fuego",
+          "head": [
+            "Clase",
+            "Qué arde",
+            "Agente adecuado",
+            "No usar"
+          ],
+          "rows": [
+            [
+              "A",
+              "Sólidos comunes que dejan brasa (madera, papel, tela)",
+              "Agua, espuma, polvo ABC",
+              "—"
+            ],
+            [
+              "B",
+              "Líquidos y gases inflamables (nafta, aceites, solventes)",
+              "Espuma, CO₂, polvo BC o ABC",
+              "Chorro de agua (desparrama)"
+            ],
+            [
+              "C",
+              "Equipos eléctricos con tensión",
+              "CO₂, polvo, agentes limpios",
+              "Agua y espuma (conducen)"
+            ],
+            [
+              "D",
+              "Metales combustibles (magnesio, sodio, titanio)",
+              "Polvos especiales para metales",
+              "Agua"
+            ],
+            [
+              "K",
+              "Aceites y grasas de cocina",
+              "Acetato de potasio (agente húmedo)",
+              "Agua"
+            ]
+          ]
+        }
+      ],
+      "easy": "A: lo que deja brasa, se apaga con agua. B: líquidos, con espuma o polvo. C: eléctrico, nunca con agua. D: metales, con polvo especial. K: la freidora de la cocina."
+    },
+    {
+      "h": "Métodos de extinción",
+      "p": "Enfriamiento (sacar el calor; el agua es el agente típico), sofocación (sacar el oxígeno: espuma, CO₂, mantas, arena), remoción o eliminación del combustible (cerrar la válvula de gas, apartar el material) e inhibición química (cortar la reacción en cadena: polvo químico, agentes halogenados o limpios).",
+      "easy": "Cada método saca una pata del tetraedro: el agua saca el calor, la espuma tapa el oxígeno, cerrar la llave saca el combustible y el polvo corta la reacción."
+    },
+    {
+      "h": "Carga de fuego",
+      "p": "Es el peso en madera equivalente por unidad de superficie (kg/m²) capaz de desarrollar la misma cantidad de calor que todos los materiales del sector. Fórmula: Qf = Σ (Pi × Hi) / (Hmadera × A), con Pi el peso de cada material, Hi su poder calorífico, Hmadera = 4.400 kcal/kg (18,41 MJ/kg) y A la superficie del sector de incendio. Junto con la clasificación de los materiales según su riesgo (R1 explosivos, R2 inflamables, R3 muy combustibles, R4 combustibles, R5 poco combustibles, R6 incombustibles, R7 refractarios), sirve para fijar la resistencia al fuego de la construcción y el potencial extintor (Decreto 351/79, Anexo VII). Matafuegos: como mínimo uno cada 200 m², con un recorrido máximo de 20 m hasta él para fuegos clase A y de 15 m para clase B.",
+      "easy": "Pasás todo lo que se puede quemar a «kilos de madera» y lo dividís por los metros cuadrados. Cuanto más alto el número, más peligroso el local y más extintores y protección pide."
+    },
+    {
+      "h": "Ejercicio resuelto: carga de fuego",
+      "p": "Depósito de 500 m² con 10.000 kg de madera (4.400 kcal/kg) y 2.000 kg de polietileno (10.400 kcal/kg).",
+      "steps": [
+        "Calor de la madera: 10.000 × 4.400 = 44.000.000 kcal.",
+        "Calor del polietileno: 2.000 × 10.400 = 20.800.000 kcal.",
+        "Calor total: 64.800.000 kcal.",
+        "Lo paso a madera equivalente: 64.800.000 / 4.400 = 14.727 kg.",
+        "Divido por la superficie: 14.727 / 500 = 29,45 kg/m².",
+        "Matafuegos: 500 / 200 = 2,5 → como mínimo 3, y además hay que verificar que desde cualquier punto no haya más de 20 m hasta uno (fuego clase A). El potencial extintor de cada uno sale de la tabla del Anexo VII con la carga de fuego y la clase de riesgo."
+      ],
+      "easy": "Sumás el calor de cada material, lo convertís a kilos de madera y dividís por los metros. Después ves cuántos matafuegos entran: uno cada 200 m² y ninguno a más de 20 pasos."
+    },
+    {
+      "h": "Prevención y protección",
+      "p": "Prevención: evitar que se inicie (orden y limpieza, control de fuentes de ignición, permisos para trabajos en caliente, almacenamiento correcto de inflamables). Protección pasiva: limitar la propagación con la construcción (sectores de incendio, muros cortafuego, materiales resistentes al fuego, medios de escape con salidas y señalización). Protección activa: detectar y extinguir (detectores, alarmas, matafuegos, hidrantes, rociadores automáticos). Más el plan de evacuación y los simulacros.",
+      "easy": "Prevenir es que no empiece; la protección pasiva es que no se expanda (paredes, salidas); la activa es apagarlo (detectores, matafuegos, rociadores)."
+    }
+  ]
+}
