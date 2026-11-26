@@ -1,0 +1,240 @@
+{
+  "thesis": "El derecho del trabajo existe para equilibrar una relación desigual entre empleador y trabajador. Por eso tiene principios que protegen al trabajador, y la Ley de Contrato de Trabajo (20.744, de 1974) fija los mínimos: jornada, descansos, vacaciones, aguinaldo, licencias y lo que se paga cuando termina la relación.",
+  "examTip": "Es la unidad con más datos «de memoria» y la que tiene cuentas: horas extra, vacaciones (dividir por 25 y por 30), SAC (mejor sueldo ÷ 2) e indemnización por despido. Llevá las fórmulas claras.",
+  "concepts": [
+    "Principio protectorio",
+    "Primacía de la realidad",
+    "Art. 14 bis",
+    "LCT 20.744",
+    "Ius variandi",
+    "Jornada",
+    "Horas extra",
+    "Plus vacacional",
+    "SAC",
+    "Licencias",
+    "ART",
+    "Aportes 17 %",
+    "Preaviso",
+    "Art. 245"
+  ],
+  "sections": [
+    {
+      "h": "Historia del derecho laboral argentino",
+      "p": "1905: Ley 4661, descanso dominical (primera ley laboral, autor Joaquín V. González). 1907: Ley 5291, trabajo de mujeres y niños (prohíbe contratar menores de 10 años) y se crea el Departamento Nacional del Trabajo. 1915: Ley 9688 de accidentes de trabajo (vigente hasta 1991). 1929: Ley 11.544, jornada máxima de 8 horas diarias o 48 semanales (sigue vigente). 1933: Ley 11.729, indemnización y vacaciones pagas (al principio solo para el comercio). Década del 40: el trabajo como medio de dignidad y ascenso social; aguinaldo e indemnización actual. 1974: Ley 20.744 de Contrato de Trabajo, la base actual.",
+      "easy": "Primero se ganó el domingo libre, después las 8 horas, después las vacaciones e indemnización, y en 1974 todo se ordenó en la Ley de Contrato de Trabajo."
+    },
+    {
+      "h": "Principios del derecho del trabajo",
+      "p": "1) Protectorio (nivela la desigualdad), con tres reglas: in dubio pro operario (si hay duda al interpretar, a favor del trabajador), norma más favorable (si hay varias normas, se aplica la más favorable; art. 9 LCT) y condición más beneficiosa (se pueden pactar mejores condiciones que la ley, nunca peores). 2) Progresividad: cada ley o convenio debe mejorar lo anterior. 3) Irrenunciabilidad: el trabajador no puede renunciar a sus derechos. 4) Continuidad: ante la duda, el contrato sigue. 5) Primacía de la realidad: vale lo que pasa en los hechos, no lo que dice el papel. 6) Buena fe. 7) No discriminación. 8) Gratuidad: reclamar no le cuesta al trabajador.",
+      "easy": "Como el trabajador es la parte débil, la ley lo cuida: ante la duda gana él, no puede firmar que renuncia a sus derechos, y si el contrato dice «freelance» pero en la práctica es empleado, es empleado."
+    },
+    {
+      "h": "Art. 14 bis y el contrato de trabajo",
+      "p": "El art. 14 bis de la Constitución tiene tres partes: individual (condiciones dignas, jornada limitada, descanso y vacaciones pagas, retribución justa, salario mínimo vital y móvil, igual remuneración por igual tarea, protección contra el despido arbitrario), colectiva (los gremios pueden firmar convenios colectivos, ir a conciliación y arbitraje, y hacer huelga) y seguridad social (integral e irrenunciable). Contrato de trabajo (art. 21 LCT): una persona física se obliga a hacer actos, obras o servicios para otra, bajo su dependencia, por tiempo determinado o indeterminado, a cambio de una remuneración. Características: consensual, bilateral, oneroso, personal y dependiente (dependencia técnica, económica y jurídica). Se presume por tiempo indeterminado. La LCT no cubre empleo público, docencia, pasantías, empleo doméstico ni trabajo agrario.",
+      "easy": "Hay contrato de trabajo cuando trabajás vos en persona, para otro, bajo sus órdenes y te pagan. Si se dan esas cosas, sos empleado, diga lo que diga el papel."
+    },
+    {
+      "h": "Derechos y deberes de las partes",
+      "p": "Empleador — derechos: organización (art. 64), dirección (art. 65), ius variandi (art. 66: cambiar formas y modalidades no esenciales, sin perjuicio material ni moral; si lo hace mal, el trabajador puede considerarse despedido o pedir que se restablezcan las condiciones), poder disciplinario (art. 67: sanciones proporcionales; el trabajador tiene 30 días para cuestionarlas) y controles personales (arts. 70-72, respetando la dignidad). Deberes: pagar la remuneración, cumplir con sindicatos y seguridad social, seguridad e higiene (art. 75), ocupación efectiva (art. 78), igualdad de trato (art. 81), entregar el certificado de trabajo (art. 80) y no indagar opiniones (art. 73). Trabajador — deberes: diligencia y colaboración, fidelidad y secreto, cumplir órdenes, cuidar las herramientas, responder por daños con dolo o culpa grave, no concurrencia y prestar auxilio en emergencias.",
+      "easy": "El jefe puede organizar, dar órdenes, hacer cambios razonables y sancionar con proporción; a cambio tiene que pagar, cuidar tu seguridad y darte trabajo. Vos tenés que cumplir, ser leal y no hacerle competencia."
+    },
+    {
+      "h": "Jornada de trabajo y horas extra",
+      "p": "Jornada: todo el tiempo a disposición del empleador. Ordinaria: 8 horas diarias o 48 semanales (máximo 9 por día), con al menos 12 horas de descanso entre jornadas. Nocturna (21 a 6 h): máximo 7 horas; en jornada mixta, cada hora nocturna reduce 8 minutos o se paga el adicional (× 1,13). Insalubre: máximo 6 horas diarias o 36 semanales, con declaración previa de la autoridad y sin bajar el sueldo. Descanso semanal: desde el sábado a las 13 h hasta el domingo a las 24 h. Horas extra: al 50 % de lunes a viernes y sábados hasta las 13 h; al 100 % sábados después de las 13 h, domingos y feriados. Límites: 3 por día, 30 por mes, 200 por año.",
+      "easy": "Lo normal son 8 horas. Si trabajás de más, te pagan la hora 1,5 veces en días comunes y el doble en fin de semana o feriado. De noche y en lugares insalubres la jornada es más corta.",
+      "tables": [
+        {
+          "title": "Fórmulas de horas extra (ejemplo con valor hora de $200 y 5 horas)",
+          "head": [
+            "Concepto",
+            "Fórmula",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "Extra al 50 %",
+              "valor hora × horas × 1,5",
+              "$1.500"
+            ],
+            [
+              "Extra al 100 %",
+              "valor hora × horas × 2",
+              "$2.000"
+            ],
+            [
+              "Adicional nocturno",
+              "valor hora × horas × 1,13",
+              "$1.130"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Vacaciones",
+      "p": "Son un descanso anual pago, de fin higiénico: no se pueden compensar en dinero (salvo al terminar el contrato) ni fraccionar; se puede acumular 1/3 para el año siguiente. Se otorgan entre el 1/10 y el 30/4, avisando por escrito con 45 días de anticipación, y empiezan un lunes (o el hábil siguiente); una temporada de verano al menos cada 3 años. La antigüedad se calcula al 31/12. Si no trabajó la mitad de los días hábiles del año, corresponde 1 día cada 20 trabajados. Se pagan dividiendo el sueldo por 25 y se descuentan dividiendo por 30: la diferencia es el PLUS VACACIONAL.",
+      "easy": "Cuantos más años tenés en la empresa, más días te tocan. Como se pagan dividiendo por 25 y se descuentan dividiendo por 30, en el mes de vacaciones cobrás un poco más: eso es el plus vacacional.",
+      "tables": [
+        {
+          "title": "Días de vacaciones según antigüedad (art. 150 LCT)",
+          "head": [
+            "Antigüedad",
+            "Días corridos"
+          ],
+          "rows": [
+            [
+              "Hasta 5 años",
+              "14"
+            ],
+            [
+              "Más de 5 y hasta 10",
+              "21"
+            ],
+            [
+              "Más de 10 y hasta 20",
+              "28"
+            ],
+            [
+              "Más de 20",
+              "35"
+            ]
+          ]
+        },
+        {
+          "title": "Ejemplo de la cátedra: sueldo $45.000, 21 días",
+          "head": [
+            "Paso",
+            "Cuenta",
+            "Resultado"
+          ],
+          "rows": [
+            [
+              "Pago de vacaciones",
+              "45.000 ÷ 25 × 21",
+              "$37.800,00"
+            ],
+            [
+              "Descuento al volver",
+              "45.000 ÷ 30 × 21",
+              "$31.500,00"
+            ],
+            [
+              "Plus vacacional",
+              "37.800 − 31.500",
+              "$6.300,00"
+            ]
+          ],
+          "strong": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Aguinaldo (SAC) y licencias",
+      "p": "El sueldo anual complementario es la doceava parte de lo cobrado en el año. Se paga en dos cuotas: 30/6 y 18/12; cada cuota es el 50 % de la mejor remuneración mensual del semestre. Si no trabajó el semestre entero: (mejor sueldo ÷ 2) × días trabajados ÷ 180. Entran los conceptos remunerativos (sueldo, comisiones, horas extra, premios, vacaciones); no entran los no remunerativos (asignaciones familiares, licencia por maternidad, prestaciones de la ART). Licencias especiales (art. 158): nacimiento 2 días, matrimonio 10, fallecimiento de cónyuge, hijo o padres 3, de hermano 1, examen 2 días por examen (máximo 10 por año). Maternidad: 90 días (45 antes y 45 después del parto; se puede reducir el período previo a 30); paga ANSES; después puede volver, renunciar con 25 % de indemnización o pedir excedencia de 3 o 6 meses sin goce. Si se la despide 7 meses y medio antes o después del parto se presume que es por embarazo: 13 sueldos más la indemnización del art. 245. Enfermedad inculpable: 3 meses pagos si tiene menos de 5 años de antigüedad y 6 si tiene más (se duplican con cargas de familia); después, 1 año de reserva del puesto sin goce.",
+      "easy": "El aguinaldo es medio sueldo (el mejor del semestre) dos veces por año. Las licencias son días pagos por cosas de la vida: casarte, tener un hijo, rendir un final.",
+      "tables": [
+        {
+          "title": "SAC: ejemplo de la cátedra",
+          "head": [
+            "Caso",
+            "Cuenta",
+            "Resultado"
+          ],
+          "rows": [
+            [
+              "Semestre completo (mejor sueldo $44.000)",
+              "44.000 ÷ 2",
+              "$22.000,00"
+            ],
+            [
+              "Proporcional: 120 días, mejor sueldo $41.500",
+              "41.500 ÷ 2 ÷ 180 × 120",
+              "$13.833,33"
+            ]
+          ],
+          "note": "La cátedra redondea el valor diario a $115,27 y llega a $13.832; sin redondear da $13.833,33."
+        }
+      ]
+    },
+    {
+      "h": "Riesgos del trabajo (ART) y seguridad social",
+      "p": "Ley 24.557: prevenir riesgos y reparar daños. Cubre: accidente de trabajo (hecho súbito y violento en el lugar y por causa del trabajo), accidente in itinere (en el trayecto casa-trabajo sin desviarse) y enfermedad profesional (de desarrollo progresivo, causada por el trabajo; hay un listado; si no está, deciden las comisiones médicas). La ART es una empresa privada contratada por el empleador; la controlan la SRT y la Superintendencia de Seguros. El empleador debe afiliarse, pagar, llevar registro de siniestralidad y capacitar; el trabajador debe cumplir las normas, usar los EPP, hacerse los exámenes periódicos e informar riesgos. Seguridad social: aportes del empleado = 17 % (SIPA, jubilación, 11 %; PAMI, ley 19.032, 3 %; obra social 3 %); además el empleador paga contribuciones patronales, la ART y aportes sindicales. Obra social (sindical, obligatoria) y prepaga (privada; se accede derivando aportes). El cambio de obra social se puede hacer una vez por año.",
+      "easy": "Si te lastimás trabajando o yendo al trabajo, te cubre la ART que paga la empresa. De tu sueldo bruto te descuentan 17 %: 11 para jubilación, 3 para PAMI y 3 para la obra social."
+    },
+    {
+      "h": "Extinción del contrato: causas y qué se paga",
+      "p": "Causas: despido en período de prueba, renuncia (por telegrama colacionado del trabajador), mutuo acuerdo, despido sin causa, despido con justa causa (injuria grave que impide seguir; la valoran los jueces), abandono de trabajo (se intima a volver en 48 h y, si no vuelve, se lo notifica), despido indirecto (el trabajador se considera despedido por una injuria del empleador, por ejemplo no pagar o bajar la categoría: cobra como un despido sin causa), fuerza mayor o falta de trabajo, muerte, quiebra, vencimiento del plazo, jubilación o incapacidad. Siempre se paga la liquidación final: días trabajados, SAC proporcional, vacaciones no gozadas y SAC sobre ellas. En el despido sin causa se suman: indemnización por antigüedad (art. 245: un mes de la mejor remuneración mensual, normal y habitual por año o fracción mayor a 3 meses), preaviso (15 días en el período de prueba, 1 mes con hasta 5 años de antigüedad, 2 meses con más) y su SAC, e integración del mes de despido (los días que faltan para terminar el mes) y su SAC. Documentación: certificado de trabajo del art. 80 y certificación de servicios para ANSES (si no se entregan tras intimación, multa de 3 sueldos), baja en AFIP, recibo final y formulario 1357.",
+      "easy": "Cuando te vas, siempre te pagan lo que trabajaste, el aguinaldo y las vacaciones que te quedaron. Si te echan sin causa, encima te pagan un sueldo por año trabajado, el preaviso y lo que falta del mes."
+    },
+    {
+      "h": "Liquidación resuelta: despido sin causa",
+      "p": "Ingresó el 01/03/2022 y se lo despide sin causa y sin preaviso el 15/10/2026. Mejor remuneración mensual, normal y habitual: $1.000.000. Antigüedad: 4 años y 7 meses → como la fracción supera 3 meses, cuenta 5 años.",
+      "steps": [
+        "Indemnización por antigüedad (art. 245): 1.000.000 × 5 = $5.000.000.",
+        "Preaviso: antigüedad de hasta 5 años → 1 mes = $1.000.000; SAC sobre preaviso = 1.000.000 ÷ 12.",
+        "Integración del mes: faltan 16 días (del 16 al 31 de octubre) → 1.000.000 ÷ 30 × 16; más su SAC (÷ 12).",
+        "Días trabajados de octubre: 1.000.000 ÷ 30 × 15.",
+        "SAC proporcional del 2do semestre: del 1/7 al 15/10 son 107 días → 1.000.000 ÷ 2 × 107 ÷ 180.",
+        "Vacaciones no gozadas: le tocan 14 días por año; trabajó 288 días del año → 14 ÷ 360 × 288 = 11,2 ≈ 11 días → 1.000.000 ÷ 25 × 11; más su SAC (÷ 12)."
+      ],
+      "tables": [
+        {
+          "title": "Liquidación final",
+          "head": [
+            "Concepto",
+            "Importe"
+          ],
+          "rows": [
+            [
+              "Indemnización por antigüedad",
+              "$5.000.000,00"
+            ],
+            [
+              "Preaviso",
+              "$1.000.000,00"
+            ],
+            [
+              "SAC sobre preaviso",
+              "$83.333,33"
+            ],
+            [
+              "Integración del mes",
+              "$533.333,33"
+            ],
+            [
+              "SAC sobre integración",
+              "$44.444,44"
+            ],
+            [
+              "Días trabajados (15)",
+              "$500.000,00"
+            ],
+            [
+              "SAC proporcional",
+              "$297.222,22"
+            ],
+            [
+              "Vacaciones no gozadas (11 días)",
+              "$440.000,00"
+            ],
+            [
+              "SAC sobre vacaciones",
+              "$36.666,67"
+            ],
+            [
+              "Total",
+              "$7.935.000,00"
+            ]
+          ],
+          "strong": [
+            9
+          ],
+          "note": "Si en vez de un despido sin causa fuera una renuncia o un abandono, solo se pagan días trabajados, SAC proporcional, vacaciones no gozadas y su SAC: $1.273.888,89."
+        }
+      ],
+      "easy": "Sumás siempre lo básico (días trabajados, aguinaldo y vacaciones). Si es despido sin causa, agregás un sueldo por año, un sueldo de preaviso y los días que faltan del mes, y a cada uno de esos le sumás su aguinaldo (dividido 12)."
+    }
+  ]
+}

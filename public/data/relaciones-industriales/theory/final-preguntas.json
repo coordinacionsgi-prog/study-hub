@@ -1,0 +1,113 @@
+{
+  "thesis": "Estas son las preguntas que aparecen en los finales y parciales de Relaciones Industriales, respondidas con el material de la cátedra. Cada respuesta tiene su explicación en criollo.",
+  "examTip": "Respondé siempre con la estructura: definición → modelo o autor → ejemplo concreto → en qué proceso de RRHH impacta. Si te piden comparar, armá un cuadro.",
+  "concepts": [
+    "Definir",
+    "Relacionar",
+    "Comparar",
+    "Ejemplificar",
+    "Calcular"
+  ],
+  "sections": [
+    {
+      "h": "1. ¿Cuál es el rol estratégico de RRHH según Ulrich?",
+      "p": "Alinear las prácticas de RRHH con la estrategia del negocio; su aporte es ejecutar la estrategia. Ulrich define 4 roles: socio estratégico, agente de cambio, experto administrativo y defensor del empleado. Además, RRHH es una función de staff (da herramientas) y una responsabilidad de línea (cada jefe gestiona a su gente).",
+      "easy": "RRHH tiene que ayudar a que la empresa cumpla su estrategia, con cuatro sombreros: estratega, motor del cambio, administrativo y defensor de la gente."
+    },
+    {
+      "h": "2. Diferencias entre motivación extrínseca e intrínseca",
+      "p": "Extrínseca: viene de afuera (sueldo, premios, reconocimiento); funciona a corto o mediano plazo y, si es lo único, el rendimiento termina bajando. Intrínseca: hacer algo porque te gusta o te desafía (competencia, autodeterminación); funciona a largo plazo. Pink: la intrínseca se apoya en autonomía, maestría y propósito.",
+      "easy": "La plata te mueve un rato; que te guste lo que hacés te mueve siempre."
+    },
+    {
+      "h": "3. Relacioná Maslow con Herzberg",
+      "p": "Maslow ordena las necesidades en una pirámide (fisiológicas, seguridad, pertenencia, estima, autorrealización) y solo motiva lo no satisfecho. Herzberg separa los factores higiénicos (salario, condiciones, supervisión: si faltan generan insatisfacción, pero no motivan) de los motivacionales (logro, reconocimiento, responsabilidad: sí motivan). Los higiénicos se corresponden con la base de la pirámide y los motivacionales con la parte de arriba (estima y autorrealización).",
+      "easy": "Lo de abajo de la pirámide evita quejas; lo de arriba es lo que de verdad motiva."
+    },
+    {
+      "h": "4. ¿Engagement es lo mismo que satisfacción?",
+      "p": "No. Satisfacción es tener las condiciones que uno valora (sueldo, beneficios). Engagement es el compromiso emocional o racional con la organización, que se ve en la dedicación y en las ganas de quedarse. Se puede estar satisfecho sin estar comprometido. La falta de engagement trae rotación, mal clima y baja productividad; se mide con encuestas (pulso, onboarding, egreso).",
+      "easy": "Cómodo no es lo mismo que comprometido."
+    },
+    {
+      "h": "5. Explicá el modelo SCARF",
+      "p": "David Rock (2008): cinco dominios que el cerebro vive como amenaza o recompensa: Status, Certainty (certeza), Autonomy, Relatedness (pertenencia) y Fairness (equidad). Un líder los usa para motivar y para gestionar el cambio: reconocer logros, informar con claridad, dar autonomía, integrar al equipo y ser justo.",
+      "easy": "Cinco cosas que al cerebro le importan: que lo valoren, saber qué viene, poder decidir, pertenecer y que lo traten justo."
+    },
+    {
+      "h": "6. Diferencia entre cultura y clima organizacional",
+      "p": "Cultura: valores, normas y hábitos compartidos; es la imagen auténtica de la organización y se forma con los mensajes de comportamientos, símbolos y sistemas. Clima: el ambiente interno percibido por las personas, que nace de esa cultura; es grupal y se mide con encuestas de clima, de pulso e indicadores como la rotación y el ausentismo.",
+      "easy": "La cultura es cómo es la empresa; el clima es cómo se siente trabajar ahí."
+    },
+    {
+      "h": "7. ¿Qué es el contrato psicológico y qué aporta Rousseau?",
+      "p": "Son las expectativas o creencias no escritas entre empleado y empresa. Lo nombra Argyris (1960) y lo desarrollan Levinson y Schein como expectativas mutuas. Rousseau (1989) lo redefine como las creencias de un individuo sobre un intercambio basado en promesas, con mutualidad percibida. Su ruptura genera enojo, frustración, renuncias e incluso sabotaje.",
+      "easy": "Es lo que vos sentís que te prometieron. Si no se cumple, te sentís estafado aunque no esté escrito en ningún lado."
+    },
+    {
+      "h": "8. Nombrá y explicá los principios del derecho del trabajo",
+      "p": "Protectorio (in dubio pro operario, norma más favorable, condición más beneficiosa), progresividad, irrenunciabilidad, continuidad del contrato, primacía de la realidad, buena fe, no discriminación y gratuidad.",
+      "easy": "Todos apuntan a lo mismo: proteger al trabajador, que es la parte débil."
+    },
+    {
+      "h": "9. Características del contrato de trabajo",
+      "p": "Consensual, bilateral, oneroso, personal y dependiente (técnica, económica y jurídicamente). Art. 21 LCT. Se presume por tiempo indeterminado; las demás modalidades (plazo fijo, eventual, temporada, tiempo parcial) hay que justificarlas.",
+      "easy": "Acuerdo entre dos, con obligaciones para los dos, pago de por medio, lo hacés vos en persona y bajo las órdenes de otro."
+    },
+    {
+      "h": "10. Jornada laboral y horas extra",
+      "p": "Ordinaria: 8 h diarias o 48 semanales (máximo 9 por día, 12 h de descanso entre jornadas). Nocturna (21 a 6 h): 7 h. Insalubre: 6 h diarias o 36 semanales. Horas extra al 50 % (lunes a viernes y sábado hasta las 13) o al 100 % (sábado después de las 13, domingos y feriados); máximo 3 por día, 30 por mes y 200 por año.",
+      "easy": "8 horas es lo normal; de noche o en lugares insalubres, menos. Las horas de más se pagan 1,5 o 2 veces."
+    },
+    {
+      "h": "11. ¿Qué es el plus vacacional y cómo se calcula?",
+      "p": "Las vacaciones se pagan dividiendo el sueldo por 25 y se descuentan dividiendo por 30; la diferencia es el plus vacacional. Ejemplo de la cátedra: $45.000 y 21 días → 37.800 − 31.500 = $6.300. Días según antigüedad: 14, 21, 28 o 35.",
+      "easy": "Te pagan cada día de vacaciones un poco más caro de lo que te lo descuentan: esa diferencia es el plus."
+    },
+    {
+      "h": "12. ¿Cómo se calcula el SAC?",
+      "p": "Es el 50 % de la mejor remuneración mensual del semestre, en dos cuotas (30/6 y 18/12). Proporcional: (mejor sueldo ÷ 2) × días trabajados ÷ 180. Solo entran los conceptos remunerativos.",
+      "easy": "Medio sueldo, del mejor mes, dos veces por año."
+    },
+    {
+      "h": "13. Formas de extinción del contrato y qué se liquida",
+      "p": "Renuncia, mutuo acuerdo, abandono, despido con causa, despido sin causa, despido indirecto, período de prueba, fuerza mayor, muerte, quiebra, vencimiento del plazo, jubilación o incapacidad. Siempre: días trabajados, SAC proporcional, vacaciones no gozadas y su SAC. En el despido sin causa (y el indirecto) se suman la indemnización del art. 245 (1 sueldo por año o fracción mayor a 3 meses), el preaviso con su SAC y la integración del mes con su SAC.",
+      "easy": "Al irte siempre cobrás lo trabajado, el aguinaldo y las vacaciones. Si te echan sin razón, además un sueldo por año, el preaviso y lo que falta del mes."
+    },
+    {
+      "h": "14. ¿Qué cubre la ART y qué obligaciones hay?",
+      "p": "Ley 24.557: accidentes de trabajo, accidentes in itinere y enfermedades profesionales. El empleador se afilia, paga y capacita; el trabajador cumple las normas, usa los EPP y se hace los exámenes. La ART presta servicios médicos y dinerarios, controla la prevención y denuncia los incumplimientos ante la SRT.",
+      "easy": "Si te lastimás o te enfermás por el trabajo, te cubre el seguro que paga la empresa."
+    },
+    {
+      "h": "15. Aportes del trabajador",
+      "p": "17 % del sueldo bruto: 11 % jubilación (SIPA), 3 % PAMI (ley 19.032) y 3 % obra social. El empleador paga además las contribuciones patronales, la ART y los aportes sindicales.",
+      "easy": "Del bruto te sacan 17: 11 para jubilarte, 3 para los jubilados y 3 para tu obra social."
+    },
+    {
+      "h": "16. Explicá el ciclo de la capacitación y el modelo de Kirkpatrick",
+      "p": "Política → detección de necesidades (requisitos del puesto − lo que sabe la persona; origen correctivo o preventivo) → diseño y ejecución → evaluación. Kirkpatrick evalúa en 4 niveles: reacción, aprendizaje, comportamiento y resultados. Modelo 70/20/10: experiencia, aprendizaje social y cursos formales.",
+      "easy": "Primero ves qué le falta a la gente, después la capacitás y al final medís si cambió algo en el trabajo y en los resultados."
+    },
+    {
+      "h": "17. Ciclo de gestión del desempeño, SMART y SCI",
+      "p": "Planificación (objetivos SMART, competencias y funciones) → seguimiento con feedback continuo → evaluación al cierre. El feedback con el modelo SCI: situación, comportamiento e impacto.",
+      "easy": "Objetivos claros al principio, charla durante el año y evaluación al final."
+    },
+    {
+      "h": "18. ¿Para qué sirve la matriz de desempeño y potencial?",
+      "p": "Cruza el desempeño actual con el potencial de desarrollo y da cuatro grupos: bajo-bajo, bajo desempeño con alto potencial, alto desempeño con bajo potencial y alto-alto. Sirve para identificar talento, planificar sucesiones y armar planes de desarrollo a medida.",
+      "easy": "Te dice a quién preparar para jefe, a quién ayudar a mejorar y a quién dejar donde está porque ahí rinde."
+    },
+    {
+      "h": "19. Actores de las relaciones laborales y tipos de sindicatos",
+      "p": "Actores: cámaras empresariales, sindicatos y Ministerio de Trabajo. Ley 23.551: asociaciones sin inscripción, simplemente inscriptas o con personería gremial (la única que firma convenios colectivos). Los delegados tienen tutela sindical. La huelga es legal si cumple los requisitos; para negociar se usa el método Harvard (intereses, no posiciones).",
+      "easy": "El sindicato con personería gremial es el que negocia el convenio de todos, y sus delegados no pueden ser despedidos así nomás."
+    },
+    {
+      "h": "20. Diferencia entre KPI, insight y OKR",
+      "p": "KPI: indicador que mide el rendimiento contra un objetivo (por ejemplo, la rotación). Insight: conclusión que surge del análisis y explica algo que no se veía. OKR: objetivo cualitativo + resultados clave medibles para alinear a la organización. People Analytics usa todo esto para decidir con datos.",
+      "easy": "El KPI es el número, el insight es lo que entendés del número y el OKR es la meta con su forma de medirla."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bloque-personas",
+    "title": "Bloque Personas · Unidades 1 a 6",
+    "unidad": "Final · Personas",
+    "description": "Rol de RRHH, motivación y engagement, comunicación y coaching, liderazgo (Goleman y SCARF), cultura, clima y contrato psicológico, cambio y neurociencias."
+  },
+  {
+    "id": "bloque-procesos-1",
+    "title": "Procesos de RRHH I · Diseño, compensaciones y selección",
+    "unidad": "Final · Procesos",
+    "description": "Diseño organizacional, compensaciones y beneficios, reclutamiento y selección."
+  },
+  {
+    "id": "legislacion-laboral",
+    "title": "Legislación laboral · Unidades 12 y 13",
+    "unidad": "Final · Legislación",
+    "description": "Principios del derecho del trabajo, LCT, jornada, horas extra, vacaciones, SAC, licencias, ART, seguridad social y extinción del contrato, con liquidaciones resueltas."
+  },
+  {
+    "id": "bloque-procesos-2",
+    "title": "Procesos de RRHH II · Unidades 14 a 19",
+    "unidad": "Final · Procesos",
+    "description": "Gestión del desempeño, gestión del talento, relaciones laborales, capacitación, costos laborales e indicadores (People Analytics)."
+  },
+  {
+    "id": "final-preguntas",
+    "title": "Final · Preguntas respondidas",
+    "unidad": "Final · Repaso",
+    "description": "Las preguntas que más se toman en el final de Relaciones Industriales, respondidas y explicadas en criollo."
+  }
+]

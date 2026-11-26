@@ -18,5 +18,10 @@
     "id": "comercio-exterior",
     "title": "Comercio Exterior",
     "description": "Introducción al comercio exterior, logística internacional, cotizaciones e importaciones."
+  },
+  {
+    "id": "relaciones-industriales",
+    "title": "Relaciones Industriales",
+    "description": "Final: rol de RRHH, motivación, liderazgo, cultura y clima, compensaciones, selección, legislación laboral con liquidaciones resueltas, desempeño, talento, capacitación y relaciones laborales."
   }
 ]

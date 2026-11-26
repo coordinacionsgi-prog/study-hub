@@ -1,0 +1,96 @@
+{
+  "thesis": "Relaciones Industriales es RRHH visto por un ingeniero: las personas son el diferencial de la empresa, y RRHH tiene que alinear su gestión con la estrategia del negocio. La materia se divide en tres bloques: Personas (cómo se comporta la gente), Procesos (lo que hace RRHH: seleccionar, pagar, capacitar, evaluar) y Negocio (costos, indicadores, legislación).",
+  "examTip": "En el final piden definir y relacionar: motivación con engagement, cultura con clima, Maslow con Herzberg. Siempre que puedas, cerrá con un ejemplo concreto de empresa y con en qué proceso de RRHH impacta.",
+  "concepts": [
+    "Ulrich: 4 roles",
+    "Línea y staff",
+    "Maslow",
+    "Herzberg",
+    "Pink",
+    "Engagement",
+    "SCARF",
+    "Goleman",
+    "Cultura",
+    "Clima",
+    "Contrato psicológico",
+    "7S de McKinsey",
+    "Laloux"
+  ],
+  "sections": [
+    {
+      "h": "U1 · El rol de RRHH",
+      "p": "El rol estratégico de RRHH es alinear sus prácticas con la estrategia del negocio: su aporte es la EJECUCIÓN de la estrategia (Ulrich, «HR Champions»). La materia lo organiza en tres enfoques: Personas (motivación, liderazgo, coaching, comunicación, cultura, cambio), Procesos (administración de personal, relaciones laborales, compensaciones, capacitación, evaluación de desempeño, indicadores, costos de personal) y Negocio (tamaño: PyME o corporación; tipo: industrial, servicios, digital). Ulrich define los ámbitos de RRHH como Personas (talento, competencias), Organización (capacidades, cultura, procesos) y Liderazgo (líderes individuales y capacidad de liderazgo de la organización).",
+      "easy": "RRHH no es solo pagar sueldos: tiene que hacer que la gente sea capaz de cumplir lo que la empresa quiere lograr. Por eso la materia mira tres cosas: las personas, los procesos de RRHH y el negocio."
+    },
+    {
+      "h": "Los 4 roles de Ulrich (1996)",
+      "p": "1) Socio estratégico: une la estrategia de RRHH con la del negocio, ayuda a la línea con sus equipos y busca soluciones gana-gana. 2) Agente de cambio: comunica los cambios, ayuda a que la gente se adapte, desarrolla nuevas competencias y nuevos roles. 3) Experto administrativo: el rol tradicional (nómina, vacaciones, convenios, legislación), apoyado en tecnología. 4) Defensor del empleado (employee champion): representa los intereses de los empleados en las decisiones, mide satisfacción y busca retener talento con trato justo. Ulrich lo actualizó con «HR from the outside in»: RRHH tiene que crear valor medible con indicadores («lo que no se mide no se gestiona»).",
+      "easy": "Ulrich dice que RRHH tiene cuatro sombreros: el de estratega, el de motor del cambio, el de administrativo y el de defensor de la gente. Uno bueno los usa todos."
+    },
+    {
+      "h": "¿RRHH es línea o staff?",
+      "p": "Las dos cosas: la administración de RRHH es una función de STAFF (el área de RRHH da políticas, lineamientos y herramientas al resto) y una responsabilidad de LÍNEA (cada jefe gestiona a su propio equipo: lo selecciona, lo evalúa, lo motiva). Por eso a los ingenieros industriales les toca RRHH: lideran equipos, evalúan personas, eligen colaboradores e impulsan cambios.",
+      "easy": "RRHH arma las reglas y las herramientas, pero el que maneja a la gente todos los días es el jefe de cada área. O sea, vos como ingeniero."
+    },
+    {
+      "h": "Evolución de las organizaciones (Laloux)",
+      "p": "«Reinventando las organizaciones»: cada etapa de conciencia genera un modelo de organización. Roja (manada de lobos: poder por miedo, ej. mafias), Ámbar (ejército: jerarquía, procesos y estatus, ej. Fuerzas Armadas, Iglesia, administración pública), Naranja (máquina: meritocracia, innovación, multinacionales), Verde (familia: valores, empoderamiento, bienestar, ej. ONGs) y Teal o esmeralda (organismo vivo: autogestión, plenitud y propósito evolutivo). También se ve el cambio del paradigma del valor: economía agraria → industrial → de la información → de la experiencia.",
+      "easy": "Las empresas fueron evolucionando: de mandar con miedo, a jerarquías, a máquinas eficientes, a familias con valores, y ahora a equipos que se autogestionan con un propósito."
+    },
+    {
+      "h": "U2 · Motivación",
+      "p": "Motivo es todo lo que impulsa a la persona a actuar de cierta manera; puede venir de un estímulo externo o de procesos internos. La conducta es causada, motivada y orientada a objetivos, y la motivación es CÍCLICA (ciclo motivacional: necesidad → tensión → comportamiento → satisfacción; las necesidades vuelven a aparecer). Motivación extrínseca: recompensas externas (salario, premios); funciona a corto/mediano plazo. Motivación intrínseca: hacer algo porque te gusta (competencia, autodeterminación); funciona a largo plazo. La conducta depende de factores internos (personalidad, aprendizaje, percepción, valores) y externos (cultura, reglas, recompensas, confianza).",
+      "easy": "Motivarse por la plata dura poco; motivarse porque te gusta lo que hacés dura mucho más. Y ninguna motivación es para siempre: cuando cubrís una necesidad, aparece otra."
+    },
+    {
+      "h": "Teorías: Maslow, Herzberg, McGregor y Pink",
+      "p": "Maslow (1943): pirámide de necesidades — fisiológicas, seguridad, afiliación o pertenencia, reconocimiento o estima y autorrealización; las básicas predominan sobre las superiores y solo motiva lo no satisfecho. Herzberg (dos factores): factores higiénicos (salario, condiciones, supervisión) que si faltan generan insatisfacción pero no motivan; factores motivacionales (logro, reconocimiento, el trabajo en sí, responsabilidad) que sí motivan. Relación: los higiénicos coinciden con la base de Maslow y los motivacionales con la parte alta. McGregor: Teoría X (la gente evita trabajar y hay que controlarla) y Teoría Y (la gente es responsable y autónoma). Daniel Pink («Drive»): la motivación intrínseca se apoya en Autonomía (delegar, no micromanagement), Maestría (competencias, tareas y soporte adecuados) y Propósito (para el cliente, la empresa, el equipo y para mí). Herramienta práctica: Moving Motivators (CHAMPFROGS: curiosidad, honor, aceptación, maestría, poder, libertad, relaciones, orden, meta, estatus).",
+      "easy": "Maslow: primero comer y estar seguro, después todo lo demás. Herzberg: un buen sueldo evita que te quejes, pero no te hace dar lo mejor; eso lo hace el reconocimiento y un trabajo que te desafíe. Pink: dame libertad, dejame mejorar y decime para qué sirve lo que hago."
+    },
+    {
+      "h": "Engagement",
+      "p": "Es el grado en que los colaboradores están comprometidos emocional o racionalmente con algo o alguien de la organización, lo que impacta en cómo trabajan (dedicación) y en las ganas de quedarse. NO es lo mismo que satisfacción: la satisfacción es tener las condiciones que uno considera importantes (beneficios, buen sueldo), sin necesariamente sentirse comprometido y con energía. Poco engagement trae alta rotación, mal clima y menos productividad. Cómo se genera: plan cercano, cumplible y auténtico (no copiar recetas): 1) identificar con encuestas los factores clave, 2) detectar puntos débiles, 3) crear iniciativas a medida (se puede usar design thinking: empatizar, definir, idear, prototipar y evaluar). Se mide con encuestas de onboarding, pulso, egreso, preguntando directamente o con chatbots.",
+      "easy": "Estar satisfecho es «estoy cómodo»; tener engagement es «me pongo la camiseta». Se puede estar cómodo sin ponerse la camiseta."
+    },
+    {
+      "h": "U3 · Comunicación y coaching",
+      "p": "Comunicación verbal (palabras habladas o escritas) y no verbal (gestos, expresiones, cuerpo). Barreras: diferencias culturales, malas interpretaciones, ruido del entorno, filtros personales. La comunicación es la base del liderazgo, del feedback y de la cultura. Coaching: proceso de acompañamiento para que la persona desarrolle su potencial y encuentre sus propias respuestas; coaching ejecutivo (mejorar las habilidades de gestión y liderazgo de los líderes) y coaching de equipo (mejorar colaboración y efectividad del equipo).",
+      "easy": "Comunicar no es solo hablar: también cuenta cómo lo decís y qué hacés. El coach no te da la respuesta, te hace las preguntas para que la encuentres vos."
+    },
+    {
+      "h": "U4 · Liderazgo: estilos y Goleman",
+      "p": "Estilos clásicos: autocrático (decide solo), democrático (consulta al equipo), laissez-faire (deja que el equipo decida), transformacional (inspira con una visión) y situacional (adapta el estilo a la situación y a la madurez del equipo). Goleman define seis estilos basados en inteligencia emocional: coercitivo (exige obediencia inmediata; sirve en crisis), orientativo o visionario (moviliza hacia una visión), afiliativo (crea armonía y vínculos), democrático (busca consenso), ejemplarizante o timonel (marca estándares altos de rendimiento) y coaching (desarrolla a las personas para el futuro). Los mejores líderes combinan varios según el momento.",
+      "easy": "No hay un estilo de jefe perfecto: en un incendio mandás vos, en un proyecto nuevo preguntás al equipo, y con alguien nuevo le enseñás. Liderar bien es saber cuál usar en cada momento."
+    },
+    {
+      "h": "Modelo SCARF (David Rock, 2008)",
+      "p": "Cinco dominios sociales que el cerebro vive como amenaza o recompensa: Status (posición relativa frente a otros), Certainty (poder predecir el futuro), Autonomy (control sobre las propias decisiones), Relatedness (pertenencia y conexión) y Fairness (trato justo). Una amenaza en cualquiera baja la motivación; una recompensa la sube. Aplicaciones: liderazgo, coaching y gestión del cambio. Ejemplos: reconocer públicamente un logro (status), informar claro y seguido en un cambio (certeza), dar flexibilidad en cómo se hace el trabajo (autonomía), team building (relación), aplicar las reglas igual para todos (equidad).",
+      "easy": "Al cerebro le molestan cinco cosas: que lo ninguneen, no saber qué va a pasar, que no lo dejen decidir, quedar afuera del grupo y que lo traten injustamente. Un buen jefe cuida esas cinco."
+    },
+    {
+      "h": "U5 · Cultura organizacional",
+      "p": "Conjunto de normas, hábitos y valores compartidos que generan pertenencia. Es lo que las personas crean a partir de los MENSAJES que reciben sobre cómo se espera que se comporten; cuando lo que se dice y lo que se hace no coinciden, lo que se hace modela la cultura. Para ver los valores reales: mirar en qué se gasta TIEMPO y DINERO. Los mensajes vienen de 3 áreas: comportamientos (sobre todo de los directivos; se cambian rápido), símbolos (oficinas, empleado del mes, qué sale en la intranet) y sistemas (procesos de feedback, de RRHH, de reclamos; son los más lentos de cambiar). Ejemplos: cultura ágil (Scrum: backlog, sprint, daily, review, retro) y Mercado Libre (valores vividos con procesos diseñados).",
+      "easy": "La cultura no es lo que dice el cartel de valores: es lo que la gente ve que se premia y se castiga todos los días. Si el gerente dice «equilibrio» y se queda hasta las 22, la cultura es quedarse hasta las 22."
+    },
+    {
+      "h": "Modelo 7S de McKinsey",
+      "p": "No hay una única mejor forma de organizarse: la ideal es la que encaja con su entorno y tiene alineación interna entre siete factores: estrategia, estructura, sistemas, personal (staff), habilidades (skills), estilo (cultura) y valores compartidos (en el centro). Si una S no acompaña a las otras, la organización pierde eficiencia; muestra por qué la cultura tiene que estar alineada con la estrategia.",
+      "easy": "Son siete piezas que tienen que encajar. Si cambiás la estrategia pero no la cultura ni la gente, no funciona."
+    },
+    {
+      "h": "Clima organizacional",
+      "p": "Es el ambiente interno PERCIBIDO por los miembros; se experimenta e influye en el comportamiento. Diferencia: la cultura son los valores y comportamientos (la imagen auténtica de la organización); el clima es la atmósfera que se percibe a partir de esa cultura. La motivación es individual; el clima es grupal. Para qué medirlo: conocer la percepción, fortalezas y debilidades y armar planes de acción. Herramientas: entrevistas, focus groups, encuesta de clima anual, encuestas de pulso (rápidas, 5 a 15 preguntas, frecuentes, complementan a la anual) e indicadores (rotación voluntaria, ausentismo). Dimensiones: pertenencia, comunicación, relación con la tarea, con pares y con superiores, identificación con la empresa. Proceso de la encuesta: relevamiento → diseño y lanzamiento → seguimiento de participación → cierre → informes → difusión de resultados → planes de mejora → ajustes al proceso. Great Place to Work certifica con 65 % o más de favorabilidad (mínimo 10 colaboradores).",
+      "easy": "La cultura es la personalidad de la empresa; el clima es cómo se siente trabajar ahí. Se mide con encuestas, pero si preguntás y después no hacés nada, la gente deja de confiar."
+    },
+    {
+      "h": "Contrato psicológico",
+      "p": "Son las expectativas o creencias no escritas entre empleado y organización, que operan como determinantes de la conducta. Evolución: Argyris (1960) lo nombra por primera vez; Levinson (1962): expectativas mutuas de las que las partes pueden no ser conscientes; Schein (1965): el individuo y la organización tienen expectativas mutuas no formalizadas; Rousseau (1989): las creencias de UN individuo sobre los términos de un intercambio recíproco basado en promesas. Tres diferencias de Rousseau: 1) son creencias de un individuo, no expectativas mutuas; 2) habla de promesas (palabras o acciones en contexto), no de expectativas; 3) importa la mutualidad PERCIBIDA, no la real. Su ruptura genera estrés, enojo, frustración y resentimiento, y puede llevar a la renuncia, el robo o el sabotaje; por eso hay que cuidar los mensajes explícitos e implícitos (por ejemplo, prometer carrera en un programa de jóvenes profesionales).",
+      "easy": "Es todo lo que el empleado cree que la empresa le prometió aunque no esté en el contrato. Si en la entrevista te dijeron «acá se crece rápido» y no pasa, sentís que te fallaron, aunque legalmente nadie te debía nada."
+    },
+    {
+      "h": "U6 · Cambio y neurociencias",
+      "p": "La gestión del cambio es planificar y ejecutar estrategias para que las personas se adapten a nuevas políticas, procesos o estructuras. La resistencia al cambio es natural: el cerebro percibe la incertidumbre como amenaza (ver SCARF). Neuroliderazgo: usar lo que se sabe del cerebro (cómo el estrés y las emociones afectan las decisiones) para liderar mejor. Neurocoaching: aplicar la neurociencia en el coaching para desarrollar nuevos hábitos y comportamientos. Para gestionar el cambio: comunicar el porqué, dar certezas, involucrar a la gente y reconocer los avances.",
+      "easy": "A todos nos cuesta cambiar porque el cerebro lo vive como un peligro. Si explicás el porqué y hacés participar a la gente, el miedo baja y el cambio sale."
+    }
+  ]
+}

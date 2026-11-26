@@ -1,0 +1,113 @@
+{
+  "intro": "La materia tiene tres bloques que se conectan: las Personas (cómo se motivan, cómo se las lidera, en qué cultura trabajan), los Procesos que RRHH maneja para gestionarlas (seleccionar, pagar, evaluar, capacitar, negociar con el sindicato) y el Negocio (costos, indicadores y la ley que pone los límites). Todo apunta a lo mismo: que la gestión de personas ayude a cumplir la estrategia.",
+  "nodes": [
+    {
+      "id": "n1",
+      "x": 400,
+      "y": 30,
+      "w": 200,
+      "h": 80,
+      "title": "Rol de RRHH",
+      "subtitle": "Ulrich: ejecutar la estrategia",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n2",
+      "x": 60,
+      "y": 200,
+      "w": 200,
+      "h": 90,
+      "title": "Personas",
+      "subtitle": "Motivación, liderazgo, cultura, cambio",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n3",
+      "x": 400,
+      "y": 200,
+      "w": 200,
+      "h": 90,
+      "title": "Procesos",
+      "subtitle": "Selección, compensaciones, desempeño, capacitación",
+      "color": "#f0a63a"
+    },
+    {
+      "id": "n4",
+      "x": 740,
+      "y": 200,
+      "w": 200,
+      "h": 90,
+      "title": "Negocio",
+      "subtitle": "Costos laborales e indicadores",
+      "color": "#b06ad9"
+    },
+    {
+      "id": "n5",
+      "x": 230,
+      "y": 380,
+      "w": 220,
+      "h": 90,
+      "title": "Legislación laboral",
+      "subtitle": "LCT, jornada, SAC, vacaciones, despido",
+      "color": "#e0605e"
+    },
+    {
+      "id": "n6",
+      "x": 570,
+      "y": 380,
+      "w": 220,
+      "h": 90,
+      "title": "Relaciones laborales",
+      "subtitle": "Sindicatos, convenios, negociación",
+      "color": "#4bb3c7"
+    }
+  ],
+  "edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n1",
+      "n3"
+    ],
+    [
+      "n1",
+      "n4"
+    ],
+    [
+      "n3",
+      "n5"
+    ],
+    [
+      "n3",
+      "n6"
+    ],
+    [
+      "n4",
+      "n5"
+    ],
+    [
+      "n2",
+      "n3"
+    ]
+  ],
+  "comparisons": [
+    [
+      "Motivación vs engagement",
+      "La motivación es el impulso individual a actuar; el engagement es el compromiso sostenido con la organización, que se ve en la dedicación y en las ganas de quedarse."
+    ],
+    [
+      "Cultura vs clima",
+      "La cultura son los valores y comportamientos compartidos; el clima es cómo las personas perciben el ambiente que esa cultura genera."
+    ],
+    [
+      "Reclutamiento vs selección",
+      "Reclutar es atraer candidatos; seleccionar es evaluarlos y elegir al más adecuado."
+    ],
+    [
+      "Despido con causa vs sin causa",
+      "Con justa causa solo se paga la liquidación final; sin causa se suman la indemnización por antigüedad, el preaviso y la integración del mes."
+    ]
+  ]
+}

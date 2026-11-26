@@ -1,0 +1,54 @@
+{
+  "thesis": "Una vez que la persona está adentro, RRHH la evalúa (desempeño), la desarrolla (talento y capacitación), gestiona la relación colectiva con el sindicato (relaciones laborales) y mide todo con costos e indicadores para mostrar el valor que aporta.",
+  "examTip": "Estas unidades se preguntan con modelos: ciclo del desempeño, objetivos SMART, feedback SCI, matriz desempeño-potencial, 70/20/10, Kirkpatrick, grados de asociaciones sindicales y método Harvard. Aprendé cada modelo con sus pasos.",
+  "concepts": [
+    "Ciclo del desempeño",
+    "SMART",
+    "Feedback SCI",
+    "Gestión del talento",
+    "Learning agility",
+    "Matriz 9-box",
+    "Sindicatos",
+    "Ley 23.551",
+    "Método Harvard",
+    "70/20/10",
+    "Kirkpatrick",
+    "Costo laboral",
+    "KPI",
+    "Insight",
+    "OKR",
+    "People Analytics"
+  ],
+  "sections": [
+    {
+      "h": "U14 · Gestión del desempeño",
+      "p": "Proceso continuo que evalúa y mejora el rendimiento alineándolo con los objetivos de la organización. Ciclo: 1) Planificación: fijar objetivos (metas a alcanzar), competencias (habilidades necesarias) y funciones (responsabilidades); los objetivos tienen que ser SMART: específicos, medibles, alcanzables, relevantes y con tiempo definido. 2) Seguimiento: monitorear y dar feedback continuo. 3) Evaluación: analizar los resultados al cierre del ciclo. El feedback se da con el modelo SCI: Situación (cuándo y dónde), Comportamiento (qué hizo, observable) e Impacto (qué efecto tuvo en el equipo, la empresa o el cliente).",
+      "easy": "Al principio del año acordás objetivos concretos, durante el año te van diciendo cómo vas, y al final te evalúan. El feedback bueno no dice «sos desprolijo»: dice «en la reunión del lunes llegaste sin el informe y el cliente tuvo que esperar»."
+    },
+    {
+      "h": "U15 · Gestión del talento",
+      "p": "Estrategias para atraer (marca empleadora, buena selección), identificar y captar, desarrollar (capacitación, carrera) y retener (beneficios, oportunidades, buen ambiente) a las personas, alineando el talento con los objetivos. Tres elementos: compromiso (lealtad y dedicación), habilidad (competencias) y aspiración (metas personales); se potencian entre sí. Learning agility: capacidad de aprender rápido y aplicarlo en situaciones nuevas (mentalidad abierta, aprendizaje rápido, reflexión, experimentación, adaptabilidad y colaboración). Matriz de talento (desempeño actual × potencial): bajo-bajo (requieren atención), bajo desempeño y alto potencial (talento no aprovechado: desarrollar), alto desempeño y bajo potencial (efectivos en su rol), alto-alto (clave para el futuro, futuros líderes). Sirve para identificar talento, planificar sucesiones y diseñar desarrollo a medida.",
+      "easy": "Talento es alguien que rinde, quiere crecer y está comprometido. La matriz te dice a quién promover, a quién desarrollar y a quién dejar donde está porque ahí rinde bien."
+    },
+    {
+      "h": "U16 · Relaciones laborales",
+      "p": "Es la relación colectiva entre empleadores y trabajadores: negociación colectiva, derechos y deberes, y gestión de conflictos. Actores: cámaras empresariales, sindicatos y el Ministerio de Trabajo (regula y media). Asociaciones sindicales (Ley 23.551): sin inscripción, simplemente inscriptas, o con personería gremial (la más representativa: puede negociar convenios colectivos y representar a todos). Convenio colectivo de trabajo: acuerdo entre el sindicato y los empleadores que se aplica a toda la actividad. Representantes gremiales (delegados): elegidos por sus compañeros, con tutela sindical (no se los puede despedir ni cambiar sus condiciones sin un proceso judicial previo). Conflicto: puede llevar a medidas de acción directa como la huelga; es ilegal si no cumple los requisitos (por ejemplo, no agotar la conciliación obligatoria). Negociación con el método Harvard: separar a las personas del problema, centrarse en intereses y no en posiciones, buscar opciones de beneficio mutuo y usar criterios objetivos.",
+      "easy": "Es la relación con el sindicato. El sindicato con personería gremial es el que firma el convenio para todos. Para negociar bien, en vez de pelear por posiciones («quiero 20 %») hay que entender qué necesita cada uno de verdad."
+    },
+    {
+      "h": "U17 · Capacitación",
+      "p": "Proceso educativo estructurado para adquirir conocimientos, habilidades y actitudes. Modelo 70/20/10: 70 % se aprende con la experiencia en el trabajo, 20 % de otros (colegas, mentores, feedback) y 10 % en cursos formales. Ciclo: 1) Política alineada a la estrategia; 2) Detección de necesidades: lo que exige el puesto menos lo que sabe la persona = necesidad de capacitación (de origen correctivo, porque algo se hace mal, o preventivo, por un cambio o una tarea nueva); 3) Diseño y ejecución (presencial, a distancia, coaching, en el puesto); 4) Evaluación con el modelo de Kirkpatrick: reacción (satisfacción), aprendizaje (qué aprendieron), comportamiento (si lo aplican en el trabajo) y resultados (impacto en la organización).",
+      "easy": "Casi todo se aprende haciendo, un poco mirando a otros y muy poco en cursos. Para saber si una capacitación sirvió no alcanza con que les guste: hay que ver si después trabajan distinto y si eso mejora los resultados."
+    },
+    {
+      "h": "U18 · Costos laborales",
+      "p": "Son todos los gastos para compensar a los empleados: salarios, cargas sociales (contribuciones patronales), ART, beneficios y costos de contratar y retener. El presupuesto de RRHH proyecta esos costos para un período. Costos por proceso: selección y reclutamiento (avisos, consultoras, exámenes médicos), compensaciones y beneficios (sueldos, bonos, prepaga, comida, gimnasio), capacitación (cursos, materiales), desarrollo (encuestas, software, reconocimientos), administración de personal (nómina, EPP, inspecciones, abogados) y eventos y gastos operativos. Por eso un empleado le cuesta a la empresa bastante más que su sueldo bruto.",
+      "easy": "Un empleado no cuesta su sueldo: cuesta el sueldo más las cargas, la ART, los beneficios y todo lo que se gastó en buscarlo y capacitarlo."
+    },
+    {
+      "h": "U19 · Indicadores y People Analytics",
+      "p": "Los sistemas de información de RRHH guardan datos de empleados y gestionan selección, desempeño, capacitación, nómina y beneficios. People Analytics usa esos datos y la estadística para decidir mejor (análisis descriptivo, predictivo y prescriptivo): identificar talento, bajar la rotación, mejorar el desempeño. KPI: métrica que mide el rendimiento contra un objetivo (rotación, ausentismo, tiempo de cobertura de vacantes, costo por contratación, horas de capacitación por empleado). Insight: conclusión que sale de analizar los datos y revela algo que no se veía a simple vista. OKR: objetivo cualitativo + resultados clave medibles; alinean a toda la organización y se ajustan según los resultados.",
+      "easy": "El KPI es el número («la rotación es 18 %»); el insight es lo que entendés al mirarlo («se van los que no tuvieron aumento en dos años»). Y el OKR es «quiero esto, y lo voy a medir así»."
+    }
+  ]
+}

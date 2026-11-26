@@ -1,0 +1,42 @@
+{
+  "thesis": "Los procesos de RRHH siguen el recorrido del empleado: se diseña la organización (qué puestos hacen falta), se busca y elige a la persona (reclutamiento y selección) y se la paga (compensaciones y beneficios). Todos tienen que estar alineados con la estrategia.",
+  "examTip": "Diferenciá siempre reclutamiento (atraer candidatos) de selección (elegir). En compensaciones, los conceptos clave son equidad interna, competitividad externa y bandas salariales.",
+  "concepts": [
+    "Diseño organizacional",
+    "Departamentalización",
+    "Compensación total",
+    "Equidad interna",
+    "Competitividad externa",
+    "Banda salarial",
+    "Reclutamiento",
+    "Selección",
+    "Perfil del puesto"
+  ],
+  "sections": [
+    {
+      "h": "Diseño organizacional",
+      "p": "Es definir cómo se divide y coordina el trabajo. Elementos: división del trabajo (repartir tareas entre roles y áreas para ganar eficiencia), jerarquía (niveles de autoridad y responsabilidad, tramo de control), departamentalización (agrupar actividades similares: por función, producto, cliente, región o en forma matricial) y mecanismos de coordinación (en una PyME predomina el ajuste mutuo por comunicación informal y la supervisión directa; en una corporación, la estandarización de procesos). La estructura tiene que acompañar a la estrategia.",
+      "easy": "Es decidir quién hace qué, quién le reporta a quién y cómo se agrupan las áreas. En una empresa chica se arreglan hablando; en una grande hacen falta procesos."
+    },
+    {
+      "h": "Compensaciones: objetivos",
+      "p": "Compensación = salario base + variables (bonos, comisiones, incentivos); beneficios = ventajas adicionales (prepaga, plan de retiro, comida, gimnasio, días libres). Objetivos: acompañar la estrategia del negocio con una propuesta de COMPENSACIÓN TOTAL que atraiga y motive al talento; garantizar la EQUIDAD INTERNA (puestos de igual valor cobran parecido) y la COMPETITIVIDAD EXTERNA (comparado con el mercado, con encuestas salariales); recompensar el desempeño; comunicar bien la compensación integral; y mantener el equilibrio con la estructura de costos.",
+      "easy": "Pagar bien no es solo pagar mucho: es pagar parecido a puestos parecidos dentro de la empresa, no quedar lejos del mercado y no fundir a la empresa en el intento."
+    },
+    {
+      "h": "Bandas salariales y valuación de puestos",
+      "p": "Primero se describe y valúa cada puesto (qué tan importante y complejo es) para ordenarlo en niveles. Cada nivel tiene una banda salarial con un mínimo, un punto medio (referencia de mercado) y un máximo. El posicionamiento en la banda ubica el sueldo de cada empleado según su experiencia, habilidades y desempeño: alguien que recién entra está cerca del mínimo; alguien experto y de alto desempeño, cerca del máximo.",
+      "easy": "Cada puesto tiene un rango de sueldo, de tanto a tanto. Dónde caés dentro de ese rango depende de cuánto sabés y de cómo trabajás."
+    },
+    {
+      "h": "Reclutamiento",
+      "p": "Es identificar la necesidad de personal y ATRAER candidatos calificados. Empieza con el perfil del puesto (tareas, requisitos, competencias). Puede ser interno (búsquedas internas, promociones, rotación; motiva y es más barato) o externo (avisos, redes como LinkedIn, consultoras, referidos, ferias de empleo, universidades; trae ideas nuevas). La marca empleadora ayuda a atraer.",
+      "easy": "Reclutar es conseguir que se postule gente buena. Todavía no elegiste a nadie: solo llenaste la vidriera."
+    },
+    {
+      "h": "Selección",
+      "p": "Es EVALUAR y ELEGIR al candidato más adecuado. Etapas típicas: filtro de CV, entrevistas (de RRHH y técnica con el jefe), evaluaciones (técnicas, psicotécnicas, assessment), referencias, examen preocupacional, oferta e incorporación (onboarding o inducción). Ojo con el contrato psicológico: lo que se promete en la entrevista se vuelve una expectativa del empleado. En la selección no se puede indagar sobre opiniones políticas, religiosas, sindicales o de orientación sexual (art. 73 LCT).",
+      "easy": "Seleccionar es elegir de esa vidriera al que mejor encaja. Y cuidado con lo que prometés en la entrevista, porque el que entra se lo acuerda."
+    }
+  ]
+}
