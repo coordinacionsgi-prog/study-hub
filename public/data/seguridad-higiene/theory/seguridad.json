@@ -1,50 +1,92 @@
 {
-  "thesis": "Seguridad es evitar que el trabajo lastime a las personas. La ley obliga al empleador a identificar los riesgos, eliminarlos o controlarlos en orden de prioridad (primero en la fuente, último con el equipo de protección personal) y a medir los accidentes para mejorar.",
-  "examTip": "El final es oral y te pueden preguntar cualquier punto del programa, así que no conviene dejar temas afuera. En Seguridad suelen pedir la jerarquía de controles, definir accidente e incidente y calcular índices.",
+  "thesis": "La ley obliga a la empresa a conocer sus riesgos y controlarlos, y a asegurar a sus trabajadores (ART). Para mejorar hay que medir: se investigan los accidentes para encontrar sus causas y se calculan índices de siniestralidad que dicen si la empresa es de alta o baja siniestralidad.",
+  "examTip": "El final tiene una parte A (Higiene y Seguridad) y una parte B (Ingeniería Ambiental). De estas unidades toman definiciones (AT, EP, in itinere, RGRL, RAR), la diferencia entre accidente y enfermedad profesional y los índices.",
   "concepts": [
     "Ley 19.587",
-    "Decreto 351/79",
+    "Dto. 351/79",
     "Ley 24.557",
+    "ART y autoseguro",
+    "RGRL",
+    "RAR",
+    "Accidente de trabajo",
+    "Enfermedad profesional",
+    "In itinere",
     "Peligro y riesgo",
-    "Accidente e incidente",
-    "Índices",
-    "Jerarquía de controles",
-    "EPP",
-    "Riesgo eléctrico"
+    "Bow tie",
+    "Árbol de causas",
+    "II, IF, IP, DM",
+    "PESE y PRAM"
   ],
   "sections": [
     {
-      "h": "Marco legal",
-      "p": "Ley 19.587 (1972) de Higiene y Seguridad en el Trabajo y su decreto reglamentario 351/79 (con anexos de carga térmica, contaminantes, iluminación, ruido, protección contra incendios, etc.). Decretos específicos: 911/96 para la construcción y 617/97 para el agro. Ley 24.557 de Riesgos del Trabajo (1995): crea las ART y la Superintendencia de Riesgos del Trabajo (SRT), y busca prevenir y reparar. La Resolución SRT 295/03 actualizó los valores de ruido, contaminantes químicos, radiaciones y ergonomía. El empleador debe contar con un servicio de Higiene y Seguridad y otro de Medicina del Trabajo.",
-      "easy": "La ley base es la 19.587 y el decreto 351 dice cómo cumplirla. La 24.557 creó las ART, que son el seguro que paga la empresa."
+      "h": "Marco legal y seguro",
+      "p": "Ley 19.587 de Higiene y Seguridad en el Trabajo y su Decreto 351/79 (reglamentario, con anexos técnicos). Ley 24.557 de Riesgos del Trabajo: el empleador se autoasegura (si demuestra solvencia económica y garantiza los servicios; casi ninguna empresa lo hace) o contrata una ART. RGRL (Relevamiento General de Riesgos Laborales): declaración jurada obligatoria al dar de alta un establecimiento o al afiliarse a una ART; identifica peligros y riesgos para planificar la prevención. RAR (Relevamiento de Agentes de Riesgo): declaración jurada anual con los trabajadores expuestos a agentes que pueden causar una enfermedad profesional. La ART cubre accidentes de trabajo, in itinere y enfermedades profesionales; no cubre lo causado por dolo del trabajador, fuerza mayor ajena al trabajo ni las incapacidades preexistentes.",
+      "easy": "La 19.587 dice qué hay que cumplir; la 24.557 obliga a tener seguro (la ART). El RGRL es la foto de los riesgos al arrancar; el RAR es la lista anual de quién está expuesto a qué."
     },
     {
-      "h": "Peligro, riesgo, accidente e incidente",
-      "p": "Peligro: fuente o situación con capacidad de producir daño (una sierra, un producto tóxico). Riesgo: combinación de la probabilidad de que el daño ocurra y la gravedad de sus consecuencias (riesgo = probabilidad × consecuencia). Accidente de trabajo: hecho súbito y violento ocurrido por el hecho o en ocasión del trabajo, o en el trayecto (in itinere). Incidente: hecho que pudo causar daño pero no lo causó (casi accidente); analizarlo previene accidentes. Enfermedad profesional: daño progresivo causado por la exposición en el trabajo (está en un listado). Pirámide de Bird: por cada accidente grave hay muchos leves y cientos de incidentes; atacar la base baja la punta.",
-      "easy": "La sierra es el peligro; la chance de cortarte y qué tan feo sería es el riesgo. Un incidente es un «casi»: si lo investigás, evitás el accidente de verdad."
+      "h": "Accidente, lesión, siniestro e incidente",
+      "p": "Accidente de trabajo: hecho no planeado que interrumpe el avance ordenado de una actividad y puede provocar lesiones personales o daños materiales en el momento. Lesión: cuando involucra a una persona. Siniestro: cuando no hay personas pero sí daño a máquinas o instalaciones. Incidente o cuasiaccidente: no hubo lesión ni daño; es una alerta que hay que investigar. Incapacidades: lesión no incapacitante (sin días perdidos), incapacidad temporal, incapacidad parcial permanente (hasta el 66 %) e incapacidad total (más del 66 %). Costos (iceberg): directos o asegurados, que se ven (asistencia médica, indemnizaciones, salarios caídos), e indirectos, que no se ven y son mayores (pérdida de productividad, daño a máquinas, reemplazos, imagen).",
+      "easy": "Si se lastima alguien es una lesión; si se rompe solo la máquina, un siniestro; si no pasó nada pero estuvo cerca, un incidente. Y lo que más cuesta de un accidente es lo que no se ve."
     },
     {
-      "h": "Tipos de riesgo",
-      "p": "Mecánicos (cortes, golpes, atrapamientos, caídas), eléctricos, físicos (ruido, vibraciones, temperatura, iluminación, radiaciones, falta de oxígeno en espacios confinados), químicos (gases, vapores, polvos, humos, líquidos), biológicos (virus, bacterias, hongos), ergonómicos (posturas, levantamiento de cargas, movimientos repetitivos) y psicosociales (estrés, turnos, carga mental). Se identifican con un mapa de riesgos y se priorizan con una matriz de probabilidad por impacto.",
-      "easy": "Los riesgos se agrupan por de dónde vienen: máquinas, electricidad, el ambiente físico, sustancias, bichos, la postura y la cabeza."
-    },
-    {
-      "h": "Jerarquía de controles",
-      "p": "Orden en que se controla un riesgo, de más a menos eficaz: 1) eliminación del peligro; 2) sustitución por algo menos peligroso; 3) controles de ingeniería (resguardos de máquinas, aislación, ventilación localizada, encerramiento de la fuente); 4) controles administrativos (procedimientos, señalización, capacitación, rotación, permisos de trabajo); 5) equipos de protección personal (EPP). El orden de aplicación es fuente → medio → trabajador. El EPP es el ÚLTIMO recurso: no elimina el riesgo, solo protege a quien lo usa, y depende de que se use bien.",
-      "easy": "Primero intentás sacar el problema; si no se puede, lo cambiás por algo menos peligroso; después le ponés una barrera; después reglas; y recién al final le das al trabajador guantes o casco."
-    },
-    {
-      "h": "EPP",
-      "p": "Equipos de protección personal: casco, protección ocular y facial, protectores auditivos (tapones u orejeras), protección respiratoria (barbijos con filtro, semimáscaras, equipos autónomos), guantes, calzado de seguridad, ropa, arneses contra caídas. Deben estar certificados, ser adecuados al riesgo, entregarse sin costo (con registro de entrega) y su uso es obligatorio para el trabajador. Se entregan con capacitación sobre uso y mantenimiento.",
-      "easy": "Son los elementos que se pone el trabajador. Los paga la empresa, hay que firmar que los recibiste y estás obligado a usarlos."
-    },
-    {
-      "h": "Accidentes: investigación e índices",
-      "p": "Se investigan para encontrar las causas (inmediatas: actos y condiciones inseguras; básicas: factores personales y del trabajo), por ejemplo con el árbol de causas. Índices: Frecuencia IF = accidentes con baja × 1.000.000 / horas-hombre trabajadas. Gravedad IG = días perdidos × 1.000 / horas-hombre trabajadas. Incidencia II = trabajadores accidentados × 1.000 / trabajadores expuestos. Sirven para comparar períodos, sectores o empresas.",
-      "easy": "La frecuencia dice cuántos accidentes hay; la gravedad, qué tan graves fueron (cuántos días se perdieron). Se multiplican por un millón o por mil para que den números cómodos.",
+      "h": "Accidente de trabajo vs enfermedad profesional",
+      "p": "Enfermedad profesional: de aparición previsible, manifestación lenta y gradual, causada exclusivamente por el trabajo (anatómica como un cáncer, funcional como la hipoacusia o psicológica como el estrés). Para que una enfermedad sea profesional y no común tienen que estar los 4 elementos: agente, exposición, enfermedad y relación de causalidad. Factores que la dificultan: variabilidad biológica, multicausalidad (causas laborales y extralaborales), inespecificidad clínica y condiciones de exposición. Accidente in itinere: en el trayecto habitual casa-trabajo sin desvíos por interés propio; lo cubre la ART pero no entra en el cálculo de los índices, porque el empleador no controla esos factores (con dos empleos, cubre la ART del trabajo al que se dirigía).",
+      "easy": "El accidente es de golpe y se ve; la enfermedad profesional aparece de a poco y cuesta probar que fue por el trabajo.",
       "tables": [
         {
-          "title": "Ejemplo: 200 trabajadores × 2.000 h/año, 6 accidentes con baja y 90 días perdidos",
+          "title": "Diferencias (cuadro de la cátedra)",
+          "head": [
+            "Factor",
+            "Accidente de trabajo",
+            "Enfermedad profesional"
+          ],
+          "rows": [
+            [
+              "Presentación",
+              "Inesperada",
+              "Esperada"
+            ],
+            [
+              "Iniciación",
+              "Súbita, brusca",
+              "Lenta"
+            ],
+            [
+              "Manifestación",
+              "Externa y única",
+              "Interna y repetida"
+            ],
+            [
+              "Relación causa-efecto",
+              "Fácil",
+              "Difícil (interviene el tiempo)"
+            ],
+            [
+              "Tratamiento",
+              "Rápido",
+              "Prolongado"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Peligro, riesgo y evaluación de riesgos",
+      "p": "Peligro: potencial de causar daño; es una propiedad fija que no se puede modificar. Riesgo: combinación de la probabilidad y la consecuencia de un peligro; sí se puede gestionar y reducir (ejemplo: con ácido sulfúrico, usar guantes, trabajar a distancia, usar menos cantidad). Proceso de evaluación: 1) clasificar las actividades; 2) identificar los peligros; 3) determinar el nivel de riesgo (semáforo); 4) preparar el plan de acción; 5) implementarlo; 6) revisar su adecuación. Herramientas: diagrama de moño (bow tie: causas → evento → consecuencias, con barreras de prevención a la izquierda y de mitigación a la derecha) y matriz de riesgo (probabilidad × consecuencia; primero se atacan los riesgos altos, con medidas temporales si la solución definitiva tarda). Dos enfoques: sistema convencional (formación, EPP, comités, permisos, fichas de sustancias) y Metodología de Procedimiento Operativo (más estructurada, busca «riesgo cero» con procedimientos analítico, correctivo, preventivo y evaluativo).",
+      "easy": "El tiburón es el peligro: no lo podés cambiar. El riesgo es la chance de que te muerda, y eso sí lo podés bajar (no meterte al agua)."
+    },
+    {
+      "h": "Investigación de accidentes",
+      "p": "Se va al lugar, se observa y se identifica el cómo y el porqué, para prevenir un suceso similar. Pasos: A) recolección de datos (inspección, fotos, objetos, entrevistas al accidentado y testigos, revisión de registros, permisos y capacitaciones); B) análisis con el árbol de causas (análisis retrospectivo; parte de que un accidente nunca tiene una sola causa) o con la espina de pescado (método, material o EPP, persona, máquina o instalación); C) conclusiones; D) recomendaciones para que no se repita.",
+      "easy": "Investigar no es buscar un culpable: es encontrar todas las causas encadenadas para cortar la cadena."
+    },
+    {
+      "h": "Índices estadísticos de siniestralidad",
+      "p": "Se cuentan solo accidentes de trabajo y enfermedades profesionales con días perdidos; no se incluyen los in itinere. Índice de incidencia II = trabajadores siniestrados / trabajadores expuestos × 1.000 (sirve para calificar a la empresa de alta o baja siniestralidad). Índice de frecuencia IF = trabajadores siniestrados / horas-hombre trabajadas × 1.000.000. Índice de pérdida IP (gravedad) = jornadas no trabajadas / trabajadores expuestos × 1.000. Duración media DM = jornadas no trabajadas / trabajadores siniestrados. Las jornadas no trabajadas se cuentan entre el día del accidente y el de la reincorporación, sin incluir esos dos. Si la incidencia supera el valor de la SRT, la empresa es de alta siniestralidad y entra en un programa: PESE (50 o más empleados), PESE-PyMEs o PRAM (reducción de accidentes mortales).",
+      "easy": "La incidencia dice cuántos de cada mil se accidentan; la frecuencia, cuántos por millón de horas; la pérdida, cuántos días se pierden por cada mil; y la duración media, cuántos días pierde en promedio cada accidentado.",
+      "tables": [
+        {
+          "title": "Ejercicio: 200 trabajadores × 2.000 h/año, 6 siniestrados con días perdidos, 90 jornadas perdidas",
           "head": [
             "Índice",
             "Cuenta",
@@ -52,38 +94,28 @@
           ],
           "rows": [
             [
-              "Horas-hombre trabajadas",
-              "200 × 2.000",
-              "400.000"
+              "Incidencia (II)",
+              "6 / 200 × 1.000",
+              "30,00"
             ],
             [
-              "Frecuencia",
-              "6 × 1.000.000 / 400.000",
+              "Frecuencia (IF)",
+              "6 / 400.000 × 1.000.000",
               "15,00"
             ],
             [
-              "Gravedad",
-              "90 × 1.000 / 400.000",
-              "0,23"
+              "Pérdida (IP)",
+              "90 / 200 × 1.000",
+              "450,00"
             ],
             [
-              "Incidencia",
-              "6 × 1.000 / 200",
-              "30,00"
+              "Duración media (DM)",
+              "90 / 6",
+              "15,00 días"
             ]
           ]
         }
       ]
-    },
-    {
-      "h": "Riesgo eléctrico",
-      "p": "Contacto directo: tocar una parte normalmente con tensión (un cable pelado). Se protege con aislación, barreras o envolventes, distancia y obstáculos. Contacto indirecto: tocar una masa que quedó con tensión por una falla (la carcasa de una máquina). Se protege con puesta a tierra de las masas más el disyuntor diferencial (corta con una fuga de 30 mA). La llave termomagnética protege la instalación (sobrecarga y cortocircuito), no a la persona. El daño depende de la intensidad de la corriente, el recorrido por el cuerpo y el tiempo. Las cinco reglas de oro para trabajar sin tensión: cortar, bloquear, verificar la ausencia de tensión, poner a tierra y en cortocircuito, y señalizar.",
-      "easy": "Directo es tocar el cable; indirecto es tocar la máquina que se electrificó por una falla. Para el indirecto está la jabalina a tierra y el disyuntor, que te corta la luz antes de que te haga daño."
-    },
-    {
-      "h": "Máquinas y herramientas",
-      "p": "Riesgos: atrapamiento, corte, proyección de partículas, aplastamiento. Protecciones: resguardos fijos o móviles con enclavamiento, dispositivos de mando a dos manos, parada de emergencia, barreras fotoeléctricas, bloqueo y etiquetado (lockout-tagout) durante el mantenimiento. Además orden y limpieza, señalización de seguridad (colores: rojo prohibición o incendio, amarillo advertencia, azul obligación, verde condición segura) y capacitación.",
-      "easy": "A la máquina le ponés tapas y frenos para que no te agarre la mano, y cuando la arreglás la bloqueás con candado para que nadie la prenda."
     }
   ]
 }

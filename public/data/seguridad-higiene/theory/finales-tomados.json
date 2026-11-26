@@ -1,71 +1,122 @@
 {
-  "thesis": "El final de SHIA es oral y tiene dos partes: Seguridad e Higiene, e Ingeniería Ambiental. Abajo están las preguntas que tomaron (oral de diciembre de 2020) y las más típicas de cada bloque, respondidas.",
-  "examTip": "Un alumno que rindió avisó que es «random» y que no te dejan decir «no sé este punto»: hay que llevar todo el programa leído. Respondé con definición, clasificación y un ejemplo industrial.",
+  "thesis": "Estas preguntas salen de finales reales de SHIA que circulan entre los alumnos (archivo «pregunta final SHEIA», un oral de diciembre de 2020 y el resumen de Nacif). El final tiene una parte A de Higiene y Seguridad y una parte B de Ingeniería Ambiental, con preguntas para desarrollar, verdaderos o falsos y casos de efluentes.",
+  "examTip": "Un alumno avisó que «no se puede decir no sé este punto»: hay que llevar todo leído. En los casos de efluentes, nombrá siempre el muestreo primero y después los tratamientos en orden.",
   "concepts": [
-    "Oral",
-    "Seguridad e Higiene",
-    "Ingeniería Ambiental"
+    "Parte A · Higiene y Seguridad",
+    "Parte B · Ingeniería Ambiental",
+    "Verdadero o falso",
+    "Casos de efluentes"
   ],
   "sections": [
     {
-      "h": "Final oral (dic. 2020) · 1. ¿De qué maneras puede ingresar una sustancia tóxica al organismo?",
-      "p": "Por cuatro vías: inhalatoria o respiratoria (la principal en la industria: gases, vapores, humos y polvos), dérmica (absorción por la piel, típica de los solventes), digestiva (comer, beber o fumar con las manos contaminadas) y parenteral (heridas o pinchazos). El daño depende de la concentración, el tiempo de exposición y la sensibilidad individual. Por eso se controla la concentración en el aire (CMP) y se usan EPP específicos: respiratorio, guantes y ropa.",
+      "h": "A · Maneras en que puede ingresar una sustancia tóxica al organismo",
+      "p": "Vía respiratoria (la más importante: gases, vapores, polvos, humos), dérmica (solventes como tolueno o aguarrás), digestiva (comer o fumar con manos contaminadas; plomo) y parenteral (heridas). El daño depende de la naturaleza del tóxico, la vía, el tiempo de exposición, la susceptibilidad individual y las condiciones de trabajo; de esos, se pueden gestionar la vía, el tiempo y las condiciones.",
       "easy": "Lo respirás, te entra por la piel, te lo tragás o entra por una herida."
     },
     {
-      "h": "Final oral (dic. 2020) · 2. Distintos tipos de fuegos",
-      "p": "Clase A: sólidos que dejan brasa (agua, espuma, polvo ABC). Clase B: líquidos y gases inflamables (espuma, CO₂, polvo; no chorro de agua). Clase C: equipos eléctricos con tensión (CO₂, polvo; nunca agua). Clase D: metales combustibles (polvos especiales). Clase K: aceites de cocina (acetato de potasio). Sumá el tetraedro del fuego y los métodos de extinción: enfriamiento, sofocación, remoción del combustible e inhibición.",
-      "easy": "A sólidos, B líquidos, C eléctrico, D metales, K cocina. Y para cada uno, su extintor."
+      "h": "A · Distintos tipos de concentración máxima permisible",
+      "p": "CMP (ponderada para 8 h), CMP-CPT (15 minutos, máximo 4 veces por día con 60 minutos entre exposiciones) y CMP-C (techo, nunca se supera). A menor CMP, mayor peligrosidad de la sustancia.",
+      "easy": "Promedio del día, picos de 15 minutos y techo."
     },
     {
-      "h": "Final oral (dic. 2020) · 3. Distintos tipos de concentración máxima permisible",
-      "p": "CMP: promedio ponderado para 8 h por día y 40 h por semana. CMP-CPT: corto plazo, 15 minutos, como máximo 4 veces por día con 60 minutos entre exposiciones. CMP-C: techo, no se supera en ningún momento. Mezclas con el mismo efecto: Σ C/CMP ≤ 1. Están en la Resolución 295/03.",
-      "easy": "Tope del promedio diario, tope de los picos de 15 minutos y tope que no se pasa nunca."
+      "h": "A · Distintos tipos de fuegos",
+      "p": "A (volumen: sólidos con brasa), B (superficie: arde el vapor de líquidos y gases), C (eléctrico conectado; si se corta la corriente pasa a A), D (metales) y K (aceites de cocina, subclase de B). Con su agente y método de extinción.",
+      "easy": "A sólidos, B líquidos, C eléctrico, D metales, K cocina."
     },
     {
-      "h": "Final oral (dic. 2020) · 4. Explicar el smog",
-      "p": "Smog industrial (Londres): SO₂ + partículas + niebla, por quemar carbón, en clima frío y húmedo; es reductor. Smog fotoquímico (Los Ángeles): NOx + COV + sol → ozono troposférico y PAN; en días cálidos y soleados; es oxidante e irritante. Se previene controlando las emisiones de la industria y los vehículos (filtros, catalizadores, combustibles con menos azufre).",
-      "easy": "Uno es humo de carbón con niebla; el otro lo fabrica el sol con los gases de los autos."
+      "h": "A · Estrés térmico: qué temperaturas se miden y qué es la aclimatación",
+      "p": "Se miden la temperatura de bulbo húmedo (TBH), la de globo (TG, calor radiante con una esfera de cobre negra) y la de bulbo seco (TBS), y se calcula el índice TGBH (distinto para interior y exterior). Aclimatación: adaptación fisiológica a la carga térmica por exposiciones sucesivas; unos 100 minutos diarios de trabajo continuo los primeros 4 a 7 días, completada en dos semanas.",
+      "easy": "Tres temperaturas para armar el TGBH; y al que recién llega se lo aclimata de a poco."
     },
     {
-      "h": "Final oral (dic. 2020) · 5. Transformación de los RSU",
-      "p": "Físicas: separación de componentes, reducción de tamaño (trituración) y de volumen (compactación). Químicas: incineración con recuperación de energía, pirólisis y gasificación. Biológicas: compostaje aeróbico (compost) y digestión anaeróbica (biogás). Encuadralo en la gestión integral (Ley 25.916) y la jerarquía: reducir, reutilizar, reciclar, valorizar y, al final, el relleno sanitario.",
-      "easy": "Separar y compactar, quemar para sacar energía, o dejar que las bacterias hagan compost o biogás."
+      "h": "A · Diferencia entre accidente de trabajo y enfermedad profesional",
+      "p": "Accidente: inesperado, súbito, externo y único, con relación causa-efecto fácil y tratamiento rápido. Enfermedad profesional: esperada, lenta, interna y repetida, con relación causa-efecto difícil por el factor tiempo. Para que sea profesional: agente, exposición, enfermedad y relación de causalidad.",
+      "easy": "Uno es de golpe; la otra, de a poco."
     },
     {
-      "h": "Final oral (dic. 2020) · 6. Efluente con aceites y grasas, sólidos en suspensión, DBO, nutrientes y pH: ¿cómo lo solucionás?",
-      "p": "Orden lógico del tren de tratamiento: 1) Neutralizar el pH en un tanque de ecualización (con cal, soda o ácido) para proteger el tratamiento biológico. 2) Aceites y grasas: separador por gravedad o flotación con aire disuelto. 3) Sólidos en suspensión: desarenador y sedimentación primaria, con coagulación-floculación para los finos. 4) DBO: tratamiento biológico secundario (lodos activados, lechos percoladores o lagunas) y sedimentador secundario. 5) Nutrientes: terciario (nitrificación-desnitrificación para el N; precipitación química con sales de hierro o aluminio para el P). Final: desinfección y manejo de los lodos.",
-      "easy": "Primero corregís el pH, después sacás lo que flota y lo que se hunde, después las bacterias se comen la materia orgánica y al final sacás el nitrógeno y el fósforo."
+      "h": "A · Riesgo eléctrico: factores, contactos y protecciones",
+      "p": "Factores: intensidad, duración, impedancia, tensión, frecuencia, recorrido y falta de puesta a tierra. Contacto directo (alejar, aislar, obstáculos) e indirecto (PAT, disyuntor diferencial, tensión de seguridad). Para trabajar sin tensión: las 5 reglas de oro.",
+      "easy": "Lo que daña es cuánta corriente, cuánto tiempo y por dónde pasa."
     },
     {
-      "h": "Típica · Jerarquía de controles y lugar del EPP",
-      "p": "Eliminación → sustitución → controles de ingeniería → controles administrativos → EPP. Se actúa primero en la fuente, después en el medio y por último en el trabajador. El EPP es el último recurso porque no elimina el riesgo.",
-      "easy": "El casco y los guantes son lo último que se piensa, no lo primero."
+      "h": "A · Causas de un accidente; resguardos y dispositivos de seguridad",
+      "p": "Causas: actos y condiciones inseguras, elementos móviles, falta de mantenimiento, herramientas e instalaciones. Resguardo: impide el acceso a la zona peligrosa (fijo o móvil con bloqueo). Dispositivo de seguridad: elimina el peligro antes de que la persona llegue (sensor de presencia, barrera fotoeléctrica, mando bimanual). Además, distancia de seguridad y parada de emergencia.",
+      "easy": "El resguardo no te deja entrar; el dispositivo frena la máquina si entrás."
     },
     {
-      "h": "Típica · Contacto eléctrico directo e indirecto y sus protecciones",
-      "p": "Directo: tocar una parte con tensión (protección: aislación, barreras, distancia). Indirecto: tocar una masa energizada por una falla (protección: puesta a tierra + disyuntor diferencial de 30 mA). La termomagnética protege la instalación, no a las personas.",
-      "easy": "Directo es el cable; indirecto es la carcasa. La jabalina y el disyuntor te salvan del indirecto."
+      "h": "A · Índices de siniestralidad",
+      "p": "II = siniestrados / expuestos × 1.000; IF = siniestrados / horas-hombre × 10⁶; IP = jornadas perdidas / expuestos × 1.000; DM = jornadas perdidas / siniestrados. Sin accidentes in itinere. Con la incidencia, la ART califica a la empresa de alta o baja siniestralidad (programas PESE, PESE-PyMEs y PRAM).",
+      "easy": "Cuántos, cada cuántas horas, cuántos días se pierden y cuánto dura cada baja."
     },
     {
-      "h": "Típica · Calcular la carga de fuego",
-      "p": "Qf = Σ (Pi × Hi) / (4.400 × A) en kg/m² de madera equivalente. Con eso y la clase de riesgo se obtienen la resistencia al fuego y el potencial extintor (Anexo VII del Decreto 351/79). Matafuegos: uno cada 200 m² como mínimo, a 20 m como máximo para fuego clase A y 15 m para clase B.",
-      "easy": "Todo a kilos de madera, dividido por los metros cuadrados."
+      "h": "B · Definición de contaminación ambiental, clasificación de las fuentes y principales contaminantes globales",
+      "p": "Cambio indeseable en las características físicas, químicas o biológicas del aire, el agua o el suelo que afecta a los seres vivos. Fuentes biogénicas (naturales) y antropogénicas (humanas); fijas, móviles o compuestas; puntuales, lineales o de área. A nivel global: CO₂ y metano (efecto invernadero) y los compuestos que destruyen la capa de ozono.",
+      "easy": "Naturales o humanas; y lo global es el efecto invernadero y el agujero de ozono."
     },
     {
-      "h": "Típica · Ruido: límite y dosis",
-      "p": "85 dB(A) para 8 h; se reduce a la mitad el tiempo por cada 3 dB. Dosis D = Σ Ci/Ti ≤ 1. Control en la fuente, en el medio y en el receptor. Efecto: hipoacusia irreversible.",
-      "easy": "Si sumás tiempo real dividido tiempo permitido y te da más de 1, te pasaste."
+      "h": "B · ¿Qué contaminación provoca el CO₂? ¿Es local o global? ¿Cómo se produce?",
+      "p": "Provoca efecto invernadero, de alcance GLOBAL. Los gases de efecto invernadero absorben la radiación térmica que emite la Tierra y devuelven parte hacia la superficie, subiendo la temperatura media. El CO₂ viene principalmente de la quema de combustibles fósiles.",
+      "easy": "Es global: atrapa el calor de todo el planeta."
     },
     {
-      "h": "Típica · Índices de siniestralidad",
-      "p": "Frecuencia = accidentes × 10⁶ / horas-hombre. Gravedad = días perdidos × 10³ / horas-hombre. Incidencia = accidentados × 10³ / trabajadores expuestos.",
-      "easy": "Frecuencia, cuántos; gravedad, cuán graves; incidencia, cuántos de cada mil trabajadores."
+      "h": "B · Contaminación atmosférica: qué es, cómo se clasifica y principales contaminantes",
+      "p": "Presencia en el aire de agentes en concentraciones nocivas. Se clasifica por fuente, desplazamiento, proyección, tipo (primarios y secundarios), efecto (visible o invisible) y alcance (local o global). Principales: SO₂, NOx, material particulado, CO, COV y amoníaco.",
+      "easy": "Clasificás por de dónde viene, cómo se mueve la fuente, si sale tal cual o se forma en el aire, y si es local o global."
     },
     {
-      "h": "Típica · Residuos peligrosos: actores y manifiesto",
-      "p": "Ley 24.051: generador, transportista y operador, inscriptos en un registro. El manifiesto da trazabilidad de la cuna a la tumba, y el generador sigue siendo responsable.",
-      "easy": "El residuo peligroso viaja con su papel y el que lo generó nunca deja de ser responsable."
+      "h": "B · Características de un efluente a considerar para la planta de tratamiento (2 ejemplos de cada una)",
+      "p": "Físicas: sólidos (suspendidos, disueltos, sedimentables) y temperatura (también olor, color, turbiedad). Químicas: orgánicas (DBO, DQO, SSEE) e inorgánicas (nitrógeno, fósforo, metales pesados, pH). Biológicas: patógenos y coliformes. Más el caudal (pico, medio, horas sin actividad), el lugar de vuelco y sus límites, el espacio y el costo.",
+      "easy": "Física, química y biológica, más el caudal y dónde lo vas a volcar."
+    },
+    {
+      "h": "B · Función del tratamiento secundario; cuáles hay; desarrollar uno",
+      "p": "Eliminar la materia orgánica soluble (DBO) con microorganismos. Por tipo de cultivo: suspendidos (barros activados; lagunas anaeróbicas, aeróbicas y facultativas) y fijos (lechos percoladores, biodiscos). Barros activados: tanque aireado donde los microorganismos forman flocs y degradan la materia orgánica; después un sedimentador secundario clarifica y recircula parte del barro.",
+      "easy": "Las bacterias se comen la materia orgánica disuelta, sueltas o pegadas a un soporte."
+    },
+    {
+      "h": "B · ¿Qué se entiende por precipitación química?",
+      "p": "Agregar productos químicos (coagulantes y floculantes) que cambian el estado de los sólidos disueltos y en suspensión para que formen partículas sedimentables: la coagulación desestabiliza las partículas y la floculación las junta en flóculos que decantan. Se usa también para remover metales pesados.",
+      "easy": "Le echás un químico para que lo fino se junte en grumos y se hunda."
+    },
+    {
+      "h": "B · Procesos de transformación de RSU; desarrollar uno. Pirámide de jerarquía",
+      "p": "Físicos (separación, reducción de tamaño, compactación), químicos (incineración, pirólisis, gasificación: recuperan energía) y biológicos (compostaje aeróbico y digestión anaeróbica que produce biogás). Jerarquía: reducción en origen → reutilización → reciclaje → transformación → disposición final.",
+      "easy": "Físico, químico o biológico; y en la pirámide, primero no generar."
+    },
+    {
+      "h": "B · Disposición final: ventajas frente al vertedero a cielo abierto y reacciones en el vertedero",
+      "p": "El relleno sanitario controla lo que ingresa, compacta y cubre en celdas impermeabilizadas y capta lixiviados y gases; el basural no separa ni trata, contamina suelos y agua, genera enfermedades y emisiones por quema. En el vertedero hay reacciones biológicas (descomposición anaeróbica: biogás y lixiviado), químicas (disolución y óxido-reducción) y físicas (difusión de gases, movimiento del lixiviado, asentamiento).",
+      "easy": "El relleno es una pileta impermeable y controlada; el basural es tirar todo al aire libre."
+    },
+    {
+      "h": "B · Residuos peligrosos vs especiales; «de la cuna a la tumba»; tres tratamientos",
+      "p": "Peligroso (Ley 24.051, nación) y especial (Ley 11.720, provincia de Buenos Aires) son el mismo concepto con distinto nombre según la jurisdicción. De la cuna a la tumba: el generador es responsable desde que lo genera hasta su disposición final, con trazabilidad por el manifiesto (generador, transportista y operador inscriptos). Tratamientos: físico-químicos, térmicos (incineración) y estabilización o solidificación con relleno de seguridad.",
+      "easy": "Mismo residuo, distinto nombre según la ley. El que lo genera es responsable hasta el final."
+    },
+    {
+      "h": "B · Pasos de la EIA y matriz de riesgo ambiental",
+      "p": "Descripción del proyecto, línea de base, identificación de impactos (matriz de Leopold), valoración, medidas de mitigación, plan de gestión y monitoreo, participación pública y Declaración de Impacto Ambiental. La matriz de riesgo cruza probabilidad y gravedad para priorizar.",
+      "easy": "Cómo está el lugar, qué le haría el proyecto y cómo evitarlo."
+    },
+    {
+      "h": "B · ISO 14001: 5 principios. Tipos de auditorías",
+      "p": "Principios: compromiso y política; planificación; implementación y operación; medición y evaluación; revisión y mejora continua. Auditorías de primera parte (internas), de segunda parte (cliente-proveedor) y de tercera parte (certificación); de cumplimiento legal, de sistema y de desempeño.",
+      "easy": "Me comprometo, planifico, hago, controlo y mejoro."
+    },
+    {
+      "h": "B · ¿Qué es el Nivel de Complejidad Ambiental y qué parámetros lo componen?",
+      "p": "Puntaje que categoriza a un establecimiento según su riesgo ambiental (primera, segunda o tercera categoría) y define si debe contratar el seguro ambiental. NCA = Ru (rubro) + ER (efluentes y residuos) + Ri (riesgo) + Di (dimensionamiento) + Lo (localización).",
+      "easy": "Un puntaje con cinco ingredientes que dice qué tan riesgosa es tu planta para el ambiente."
+    },
+    {
+      "h": "B · Efluentes gaseosos: cómo se toma la muestra y qué equipo se usa",
+      "p": "En el ambiente laboral: bomba portátil que lleva el trabajador con el filtro a la altura de nariz y boca; después se pesa el filtro. En el ambiente exterior: recolectores con agua para sedimentables y equipos con filtro para partículas en suspensión. En chimenea: tren de muestreo en varios puntos del conducto cuidando la temperatura. Para vapores orgánicos: tubos de carbón activado o impactadores.",
+      "easy": "Bombita a la altura de la nariz en la fábrica; tren de muestreo en la chimenea."
+    },
+    {
+      "h": "B · Litosfera: describir los horizontes",
+      "p": "A: capa superior, con la mayor parte de la materia orgánica y actividad biológica. B: alteración de rocas con materia orgánica y minerales lavados del A. C: el más profundo, material disgregado y roca madre. El conjunto forma el perfil del suelo.",
+      "easy": "A arriba (fértil), B en el medio, C la roca de abajo."
     }
   ]
 }

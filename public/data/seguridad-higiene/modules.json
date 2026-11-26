@@ -1,32 +1,44 @@
 [
   {
     "id": "seguridad",
-    "title": "Seguridad en el trabajo",
-    "unidad": "Final · Seguridad",
-    "description": "Marco legal (Ley 19.587, Decreto 351/79, Ley 24.557), tipos de riesgo, accidentes e índices, jerarquía de controles, EPP, riesgo eléctrico y máquinas."
-  },
-  {
-    "id": "incendio",
-    "title": "Protección contra incendios",
-    "unidad": "Final · Seguridad",
-    "description": "Tetraedro del fuego, clases de fuego, métodos y agentes de extinción, carga de fuego y cantidad de matafuegos, con ejercicio resuelto."
+    "title": "U1-U2 · Legislación, accidentes e índices",
+    "unidad": "Final · Higiene y Seguridad",
+    "description": "Ley 19.587, ART, RGRL y RAR, accidente vs enfermedad profesional, peligro y riesgo, evaluación de riesgos, investigación de accidentes e índices de siniestralidad (II, IF, IP, DM) con ejercicio."
   },
   {
     "id": "higiene",
-    "title": "Higiene industrial",
-    "unidad": "Final · Higiene",
-    "description": "Contaminantes y vías de ingreso al organismo, concentraciones máximas permisibles, ruido (dosis), iluminación, ventilación y carga térmica."
+    "title": "U3-U8 · Contaminantes, ruido, carga térmica e iluminación",
+    "unidad": "Final · Higiene y Seguridad",
+    "description": "Contaminantes y tóxicos, CMP, métodos de control, ventilación, NFPA 704 y SGA, ruido (índice global y NSCE), vibraciones, carga térmica (TGBH y aclimatación), iluminación con ejemplo, señalización y radiaciones."
+  },
+  {
+    "id": "incendio",
+    "title": "U9 · Prevención y control de incendios",
+    "unidad": "Final · Higiene y Seguridad",
+    "description": "Tetraedro del fuego, clases A-B-C-D-K, fases de la combustión, métodos de extinción, tipos de matafuegos y carga de fuego con ejercicio resuelto."
+  },
+  {
+    "id": "electrico-mecanico",
+    "title": "U10-U11 · Riesgo eléctrico, mecánico y permisos de trabajo",
+    "unidad": "Final · Higiene y Seguridad",
+    "description": "Factores y umbrales de la corriente, contactos directos e indirectos, puesta a tierra, 5 reglas de oro, resguardos y dispositivos, y permisos de trabajo."
   },
   {
     "id": "ambiental",
-    "title": "Ingeniería ambiental",
-    "unidad": "Final · Ambiental",
-    "description": "Contaminación del aire (smog, lluvia ácida, control de emisiones), efluentes líquidos y sus tratamientos, residuos sólidos urbanos y peligrosos, evaluación de impacto ambiental y ley general del ambiente."
+    "title": "Ambiental · Contaminación, efluentes gaseosos, RSU y gestión",
+    "unidad": "Final · Ingeniería Ambiental",
+    "description": "Contaminación del aire, agua y suelo; efecto invernadero, smog y lluvia ácida; muestreo y tratamiento de efluentes gaseosos; RSU; residuos peligrosos; EIA, ISO 14001, auditorías y nivel de complejidad ambiental."
+  },
+  {
+    "id": "efluentes",
+    "title": "Ambiental · Efluentes líquidos",
+    "unidad": "Final · Ingeniería Ambiental",
+    "description": "Contaminantes y características (sólidos, DBO, DQO, SSEE), muestreo, pretratamiento, primario, secundario (cultivos suspendidos y fijos, lagunas) y terciario, con los casos que toman en el final resueltos."
   },
   {
     "id": "finales-tomados",
     "title": "Finales tomados · Respondidos",
     "unidad": "Final · Repaso",
-    "description": "Las preguntas que tomaron en orales de SHIA, respondidas, y las preguntas típicas de cada bloque."
+    "description": "Las preguntas reales de los finales de SHIA (parte Higiene y Seguridad y parte Ingeniería Ambiental), respondidas y explicadas en criollo."
   }
 ]

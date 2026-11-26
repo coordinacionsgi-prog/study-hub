@@ -1,0 +1,127 @@
+{
+  "thesis": "Tratar un efluente es sacar en orden lo que no se puede volcar: primero lo grueso (pretratamiento), después lo que flota, se hunde o tiene el pH mal (primario), después la materia orgánica disuelta con bacterias (secundario) y al final lo que queda en poca cantidad (terciario). Para elegir el tratamiento hay que caracterizar bien el efluente, empezando por un buen muestreo.",
+  "examTip": "Es lo que más se repite en la parte ambiental: «qué tratamiento usaría para tal contaminante», «qué muestreo haría», «función del tratamiento secundario y clasificación por tipo de cultivo», «qué es la precipitación química» y casos con pH raro, sólidos y DBO alta.",
+  "concepts": [
+    "Sólidos totales, suspendidos, disueltos y sedimentables",
+    "DBO",
+    "DQO",
+    "SSEE",
+    "OC",
+    "Muestreo instantáneo, compuesto y compensado",
+    "Rejas y desarenadores",
+    "Ecualización",
+    "Neutralización",
+    "Coagulación-floculación",
+    "Barros activados",
+    "Lagunas",
+    "Cultivos fijos",
+    "Terciario"
+  ],
+  "sections": [
+    {
+      "h": "Contaminantes y características de los efluentes",
+      "p": "Contaminantes importantes: sólidos, materia orgánica biodegradable (proteínas, carbohidratos, grasas), nutrientes (N y P), metales pesados (níquel, cromo, plomo), materia orgánica refractaria (detergentes), sustancias inorgánicas disueltas y patógenos. Características físicas: sólidos totales (residuo al evaporar a 105-110 °C) que se dividen en suspendidos (no filtrables) y disueltos (filtrables), cada uno fijo (inorgánico: queda tras calcinar a 550 °C) o volátil (orgánico); sólidos sedimentables (decantan en un cono en 10 minutos o 2 horas); además olor, temperatura, color y turbiedad. Químicas: DBO (oxígeno que consumen los microorganismos para degradar la materia orgánica biodegradable, a 20 °C durante 5 días), DQO (oxígeno para oxidar químicamente TODA la materia orgánica, biodegradable o no, con dicromato de potasio en 2 horas; siempre DQO > DBO), SSEE (sustancias solubles en éter etílico: grasas y aceites; se separan por métodos físicos, flotación) y OC (oxígeno consumido, con permanganato); inorgánicos: nitrógeno y fósforo (hay que agregarlos si se hace tratamiento biológico y faltan), metales, detergentes, pesticidas. Biológicas: patógenos y coliformes. Si la DBO y la DQO son parecidas, el efluente es biodegradable y conviene el tratamiento biológico; si la DQO es mucho mayor, hace falta un tratamiento químico.",
+      "easy": "La DBO mide la materia orgánica que se comen las bacterias; la DQO, toda la que se puede oxidar. Si son parecidas, sirven las bacterias; si la DQO es mucho más grande, hay mucha cosa que las bacterias no pueden comer.",
+      "tables": [
+        {
+          "title": "Verdadero o falso que toman",
+          "head": [
+            "Afirmación",
+            "Respuesta"
+          ],
+          "rows": [
+            [
+              "La DQO mide la materia orgánica biodegradable de una muestra",
+              "FALSO: eso es la DBO; la DQO mide toda la oxidable químicamente"
+            ],
+            [
+              "El compostaje aeróbico es una transformación física de RSU",
+              "FALSO: es biológica"
+            ],
+            [
+              "El CO₂ y el metano son gases de efecto invernadero",
+              "VERDADERO"
+            ],
+            [
+              "Las moléculas de ozono absorben radiación UV",
+              "VERDADERO"
+            ],
+            [
+              "Un suelo arcilloso retiene poca agua y es aireado por su porosidad",
+              "FALSO: el arcilloso retiene mucha agua y es poco aireado (eso describe a uno arenoso)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Criterios de selección y muestreo",
+      "p": "Para elegir el tratamiento: características del efluente (cantidad y calidad), límites y lugar de vuelco, espacio disponible y costo; el caudal es clave (pico, medio y horas sin actividad). Muestreo representativo: muestra instantánea o puntual (si la carga es constante y el caudal conocido); muestra compuesta (varias muestras mezcladas; si el caudal es relativamente constante); muestra compensada (proporcional al caudal en cada momento; cuando varían el caudal y la carga, como en una producción discontinua).",
+      "easy": "Si el efluente cambia mucho durante el día (producción por tandas), tomás muestras proporcionales al caudal (compensada); si es parejo, alcanza con una compuesta o hasta una puntual."
+    },
+    {
+      "h": "Pretratamiento y tratamiento primario",
+      "p": "Pretratamiento (sacar lo grueso que obstruye o daña): rejas (sólidos groseros y voluminosos), tamices y filtros (papeles, pelusas, pelos), desarenadores (arena, grava) y ecualizadores o compensadores (pulmón que empareja caudal y carga). Primario físico: sedimentación (sólidos sedimentables; clarifica y separa barros), separadores de grasas y aceites (cámara que aprovecha que flotan; para SSEE) y flotación con aire a presión (gotas finas de grasa). Primario químico: neutralización (llevar el pH a 5,5-9 con cal o soda cáustica si es ácido, o con ácido sulfúrico, clorhídrico o CO₂ si es básico) y precipitación química (coagulación: desestabilizar las partículas para que dejen de repelerse; floculación: que se junten en flóculos que sedimentan; sirve para sólidos finos, disueltos y algunos metales pesados).",
+      "easy": "Primero rejas para lo grande, después dejar decantar lo pesado y sacar lo que flota. Si el pH está mal, se neutraliza. Y con químicos se hace que lo fino se junte en grumos que se hunden."
+    },
+    {
+      "h": "Tratamiento secundario (biológico)",
+      "p": "Función: eliminar la materia orgánica SOLUBLE (baja la DBO) mediante microorganismos; la insoluble ya se sacó en el primario. Se clasifica por el tipo de cultivo. A) Cultivos suspendidos: barros activados (los microorganismos flotan formando flocs en un tanque aireado; después un sedimentador secundario clarifica y parte del barro se recircula) y lagunas: anaeróbicas (sin O₂, para efluentes con mucha materia orgánica; 2 a 5 m de profundidad; 20 a 25 días), aeróbicas (con O₂; 15 a 30 cm; 2 a 5 días) y facultativas (aeróbicas arriba y anaeróbicas abajo; 1 a 2 m; 7 a 30 días). B) Cultivos fijos: los microorganismos crecen adheridos a un soporte (lechos percoladores, biodiscos) y los sólidos se separan después en un sedimentador secundario.",
+      "easy": "En el secundario trabajan las bacterias: se comen la materia orgánica disuelta. Pueden estar sueltas en el agua (barros activados, lagunas) o pegadas a un soporte (cultivos fijos)."
+    },
+    {
+      "h": "Tratamiento terciario",
+      "p": "Remueve lo que queda en pequeñas cantidades: precipitación química (metales pesados), desinfección (imprescindible después de un biológico o con efluentes cloacales), adsorción con carbón activado (materia orgánica disuelta, cloro, pesticidas), filtración, remoción biológica de nutrientes (exceso de N y P), ósmosis inversa (inorgánicos, solventes, bacterias) e intercambio iónico (dureza: calcio y magnesio). En el final pueden pedir dibujar uno de los tratamientos.",
+      "easy": "El terciario es el pulido final: saca lo poquito que queda y desinfecta."
+    },
+    {
+      "h": "Casos de final resueltos",
+      "p": "Así se resuelven los casos de efluentes que aparecen en los finales.",
+      "easy": "Siempre el mismo orden: muestreo → lo grueso → pH → lo que flota y lo que decanta → bacterias para la DBO → pulido final.",
+      "tables": [
+        {
+          "title": "Qué tratamiento para cada contaminante (pregunta tomada)",
+          "head": [
+            "Contaminante",
+            "Tratamiento"
+          ],
+          "rows": [
+            [
+              "DBO",
+              "Secundario biológico: barros activados, lagunas o cultivos fijos"
+            ],
+            [
+              "Sólidos en suspensión",
+              "Sedimentación primaria; coagulación-floculación para los finos; filtración"
+            ],
+            [
+              "SSEE (grasas y aceites)",
+              "Separador de grasas por flotación natural; flotación con aire a presión"
+            ],
+            [
+              "pH fuera de rango",
+              "Neutralización (cal o soda si es ácido; ácido o CO₂ si es básico), con ecualización"
+            ],
+            [
+              "Nitrógeno total",
+              "Remoción biológica de nutrientes (nitrificación-desnitrificación) en el terciario"
+            ],
+            [
+              "Sólidos sedimentables en 2 h",
+              "Sedimentador o decantador primario"
+            ],
+            [
+              "Sólidos voluminosos",
+              "Rejas en el pretratamiento"
+            ]
+          ]
+        }
+      ],
+      "steps": [
+        "Caso 1 (producción discontinua; sólidos disueltos altos; pH mayor a 10; sólidos voluminosos; materia orgánica sobre el límite): muestreo COMPENSADO (proporcional al caudal), porque al ser discontinuo varían el caudal y la carga. Tratamiento: rejas (voluminosos) → ecualización (emparejar tandas) → neutralización con ácido (bajar el pH) → secundario biológico (materia orgánica) → terciario para los sólidos disueltos (precipitación química, intercambio iónico u ósmosis inversa según el caso).",
+        "Caso 2 (sólidos en suspensión altos; pH 3; materia orgánica sobre el límite): muestreo compuesto o compensado según cómo varíe el caudal. Tratamiento: ecualización → neutralización con cal o soda → sedimentación primaria con coagulación-floculación → secundario biológico → sedimentador secundario y desinfección.",
+        "Caso 3 (curtiembre: ácido sulfúrico, óxido de cromo, pelo y grasa animal): rejas y tamices (pelo) → separador de grasas o flotación (grasa) → neutralización del ácido → precipitación química del cromo (se lo reduce a Cr³⁺ y se lo precipita como hidróxido subiendo el pH) con sedimentación → secundario biológico para la materia orgánica restante."
+      ]
+    }
+  ]
+}

@@ -1,64 +1,74 @@
 {
-  "intro": "La materia tiene dos mitades. Seguridad e Higiene cuida a las personas dentro de la fábrica: Seguridad evita accidentes (máquinas, electricidad, incendio) y Higiene evita enfermedades por el ambiente de trabajo (químicos, ruido, luz, calor). Ingeniería Ambiental cuida lo que sale de la fábrica: aire, agua y residuos. Todo se apoya en un marco legal y se gestiona igual: identificar, medir, comparar con el límite y controlar.",
+  "intro": "El final de SHIA tiene dos partes. A) Higiene y Seguridad cuida a las personas dentro de la fábrica: la ley y el seguro (U1), los accidentes y sus índices (U2), los agentes que enferman de a poco (contaminantes, ruido, calor, luz, radiaciones: U3 a U8) y los que lastiman de golpe (incendio, electricidad, máquinas: U9 a U11). B) Ingeniería Ambiental cuida lo que sale de la fábrica: aire, agua y residuos, y las herramientas para gestionarlo (EIA, ISO 14001, NCA).",
   "nodes": [
     {
       "id": "n1",
-      "x": 400,
+      "x": 40,
       "y": 30,
       "w": 200,
       "h": 80,
-      "title": "Marco legal",
-      "subtitle": "Ley 19.587, Dto. 351/79, Ley 24.557, Ley 25.675",
+      "title": "U1-U2 Ley y accidentes",
+      "subtitle": "ART, RGRL, RAR, índices",
       "color": "#5b8def"
     },
     {
       "id": "n2",
-      "x": 60,
-      "y": 190,
+      "x": 280,
+      "y": 30,
       "w": 200,
-      "h": 90,
-      "title": "Seguridad",
-      "subtitle": "Riesgos, accidentes, EPP, eléctrico",
-      "color": "#e0605e"
+      "h": 80,
+      "title": "U3-U8 Higiene",
+      "subtitle": "Tóxicos, ruido, calor, luz",
+      "color": "#3fbf7f"
     },
     {
       "id": "n3",
-      "x": 300,
-      "y": 190,
-      "w": 180,
-      "h": 90,
-      "title": "Incendio",
+      "x": 520,
+      "y": 30,
+      "w": 200,
+      "h": 80,
+      "title": "U9 Incendio",
       "subtitle": "Clases, extinción, carga de fuego",
       "color": "#f0a63a"
     },
     {
       "id": "n4",
-      "x": 520,
-      "y": 190,
-      "w": 180,
-      "h": 90,
-      "title": "Higiene",
-      "subtitle": "Tóxicos, CMP, ruido, luz",
-      "color": "#3fbf7f"
+      "x": 760,
+      "y": 30,
+      "w": 200,
+      "h": 80,
+      "title": "U10-U11 Eléctrico y mecánico",
+      "subtitle": "PAT, 5 reglas, resguardos",
+      "color": "#e0605e"
     },
     {
       "id": "n5",
-      "x": 740,
-      "y": 190,
-      "w": 200,
+      "x": 160,
+      "y": 260,
+      "w": 220,
       "h": 90,
-      "title": "Ambiental",
-      "subtitle": "Aire, efluentes, RSU, peligrosos",
+      "title": "Contaminación",
+      "subtitle": "Aire, agua, suelo; gaseosos",
       "color": "#4bb3c7"
     },
     {
       "id": "n6",
-      "x": 400,
-      "y": 370,
+      "x": 420,
+      "y": 260,
+      "w": 200,
+      "h": 90,
+      "title": "Efluentes líquidos",
+      "subtitle": "Muestreo y tratamientos 1º, 2º y 3º",
+      "color": "#2f8fb5"
+    },
+    {
+      "id": "n7",
+      "x": 660,
+      "y": 260,
       "w": 220,
       "h": 90,
-      "title": "Gestión",
-      "subtitle": "Identificar → medir → límite → controlar",
+      "title": "Residuos y gestión",
+      "subtitle": "RSU, peligrosos, EIA, ISO 14001, NCA",
       "color": "#b06ad9"
     }
   ],
@@ -68,50 +78,50 @@
       "n2"
     ],
     [
-      "n1",
+      "n2",
       "n3"
     ],
     [
-      "n1",
+      "n3",
       "n4"
     ],
     [
-      "n1",
-      "n5"
-    ],
-    [
       "n2",
-      "n6"
-    ],
-    [
-      "n3",
-      "n6"
-    ],
-    [
-      "n4",
-      "n6"
+      "n5"
     ],
     [
       "n5",
       "n6"
+    ],
+    [
+      "n6",
+      "n7"
+    ],
+    [
+      "n5",
+      "n7"
     ]
   ],
   "comparisons": [
     [
-      "Seguridad vs higiene",
-      "Seguridad previene accidentes (daño súbito); higiene previene enfermedades profesionales (daño progresivo por exposición)."
+      "Accidente vs enfermedad profesional",
+      "Súbito, externo y fácil de relacionar contra lento, interno y difícil de probar."
     ],
     [
       "CMP vs CMP-CPT vs CMP-C",
-      "Promedio de 8 horas; picos de 15 minutos; techo que no se supera nunca."
+      "Promedio de 8 h; picos de 15 minutos (hasta 4 por día); techo que no se supera nunca."
     ],
     [
-      "Smog industrial vs fotoquímico",
-      "SO₂ + partículas + niebla (reductor) contra NOx + COV + sol → ozono (oxidante)."
+      "Emisión vs inmisión",
+      "Lo que sale de la fuente contra la concentración que llega a los seres vivos."
     ],
     [
       "DBO vs DQO",
-      "La DBO mide la materia orgánica biodegradable; la DQO, toda la oxidable químicamente. DQO ≥ DBO."
+      "Materia orgánica biodegradable (5 días, bacterias) contra toda la oxidable químicamente (2 horas, dicromato). DQO > DBO."
+    ],
+    [
+      "Cultivos suspendidos vs fijos",
+      "Microorganismos sueltos en el agua (barros activados, lagunas) contra adheridos a un soporte (lechos percoladores)."
     ]
   ]
 }

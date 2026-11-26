@@ -1,39 +1,63 @@
 {
-  "thesis": "Higiene industrial es reconocer, evaluar y controlar los agentes del ambiente de trabajo que pueden enfermar a las personas a largo plazo: sustancias químicas, ruido, falta de luz, calor. Se mide, se compara con un valor límite legal y, si se supera, se corrige.",
-  "examTip": "En el final tomaron «maneras en que puede ingresar una sustancia tóxica al organismo» y «distintos tipos de concentración máxima permisible». Llevá también la cuenta de dosis de ruido.",
+  "thesis": "Higiene es controlar los agentes del ambiente de trabajo que enferman de a poco: químicos, ruido, calor, frío, mala iluminación, radiaciones. Siempre es el mismo camino: medir, comparar con el límite de la ley y controlar, primero en el foco, después en el medio y por último en el trabajador.",
+  "examTip": "Toman las 3 CMP, las vías de ingreso, los métodos de control, la ventilación, el ruido (qué es el NSCE y el índice global), la carga térmica (qué temperaturas se miden y qué es la aclimatación) y la iluminación (uniformidad).",
   "concepts": [
+    "Tóxico",
     "Vías de ingreso",
-    "CMP",
-    "CMP-CPT",
-    "CMP-C",
-    "Dosis de ruido",
-    "dBA",
-    "Iluminancia",
-    "Ventilación general y localizada",
-    "Carga térmica"
+    "CMP, CMP-CPT, CMP-C",
+    "DL50",
+    "Foco-medio-receptor",
+    "Ventilación",
+    "LII y LSI",
+    "NFPA 704",
+    "SGA",
+    "dB(A)",
+    "NSCE",
+    "Índice global",
+    "Nef",
+    "TGBH",
+    "Aclimatación",
+    "Emín ≥ Emed/2",
+    "IRAM 10005"
   ],
   "sections": [
     {
-      "h": "Contaminantes y vías de ingreso al organismo",
-      "p": "Contaminantes: químicos (gases, vapores, polvos, humos, nieblas), físicos (ruido, vibraciones, radiaciones, calor) y biológicos. Vías de ingreso de un tóxico: 1) respiratoria o inhalatoria, la más importante en la industria (gases, vapores y polvos llegan al pulmón y a la sangre); 2) dérmica o cutánea (absorción por la piel, por ejemplo los solventes); 3) digestiva (por comer, beber o fumar con las manos contaminadas); 4) parenteral (por heridas o pinchazos). El efecto depende de la concentración, el tiempo de exposición y la sensibilidad de la persona.",
-      "easy": "Un tóxico entra por cuatro lados: lo respirás (el más común), te lo absorbe la piel, te lo comés sin querer o entra por una herida."
+      "h": "U3 · Contaminantes y tóxicos",
+      "p": "Agentes de riesgo: físicos (ruido, temperatura, radiación, vibración, presión), químicos (metales pesados, solventes, polvos), biológicos (virus, bacterias, insectos), ergonómicos (posturas, cargas, mobiliario) y psicológicos (jornada, acoso). Contaminante químico: toda sustancia orgánica o inorgánica, sólida, líquida o gaseosa, cuya presencia en el trabajo pueda alterar la salud. Elementos que definen a un tóxico: naturaleza (no se gestiona), vía de entrada (se gestiona, por ejemplo con máscara), tiempo de exposición (se gestiona), susceptibilidad individual (no se gestiona) y condiciones de trabajo (se gestionan, por ejemplo con ventilación). Vías de entrada: respiratoria (polvos), dérmica (tolueno, aguarrás), digestiva (plomo) y parenteral (heridas). Clasificación por forma (aerosoles, polvos, nieblas, humos, gases, vapores), por efecto (irritantes como el cloro, neumoconióticos como la sílice, sistémicos, anestésicos, cancerígenos, alérgicos, corrosivos, mutagénicos, teratogénicos) y por exposición (directa o indirecta).",
+      "easy": "Un tóxico te hace más o menos daño según qué es, por dónde entra, cuánto tiempo estás expuesto y cómo sos vos. De esas cinco cosas, la empresa puede manejar tres: la vía, el tiempo y el ambiente."
     },
     {
-      "h": "Concentraciones máximas permisibles",
-      "p": "Valores límite de un contaminante en el aire del puesto de trabajo (Resolución 295/03). CMP: concentración media ponderada en el tiempo para una jornada de 8 horas diarias y 40 semanales, a la que casi todos los trabajadores pueden estar expuestos día tras día sin efectos adversos. CMP-CPT (corto plazo): concentración a la que se puede estar expuesto como máximo 15 minutos seguidos, no más de 4 veces por día y con al menos 60 minutos entre exposiciones; no debe superarse en ningún período de 15 minutos. CMP-C (techo): concentración que no debe superarse en ningún momento de la jornada. Si hay varios contaminantes con el mismo efecto, se suman las fracciones: Σ Ci/CMPi ≤ 1.",
-      "easy": "Hay tres topes: uno para el promedio del día (CMP), uno para picos cortos de 15 minutos (CMP-CPT) y uno que no se puede pasar nunca, ni un segundo (CMP-C, el techo)."
+      "h": "Concentraciones máximas permisibles y dosis",
+      "p": "CMP: concentración media ponderada para 8 h/día a la que casi todos pueden exponerse día tras día sin efectos adversos. CMP-CPT: exposiciones de 15 minutos, no más de 4 por día y separadas por al menos 60 minutos. CMP-C (techo): no se supera en ningún momento. Conviene trabajar muy por debajo de los límites. A MENOR CMP, MAYOR RIESGO: entre dos solventes, se elige el de CMP más alto. Dosis efectiva mínima, DE50 y dosis efectiva máxima; DL50: dosis que mata al 50 % de la población de ensayo (cuanto más baja, más tóxica); CL50: lo mismo expresado como concentración en aire o agua. Evaluación ambiental (prediagnóstico y muestreo en los puestos más expuestos) y evaluación biológica (detección temprana, comparando con el Índice Biológico de Exposición).",
+      "easy": "Tres topes: el promedio del día, los picos de 15 minutos y el techo que no se toca. Y si una sustancia tiene un límite muy bajo, es porque es muy peligrosa."
     },
     {
-      "h": "Ruido",
-      "p": "Se mide en dB(A) con decibelímetro o dosímetro. Límite (Resolución 295/03): 85 dB(A) para 8 horas diarias; cada 3 dB más, el tiempo permitido se reduce a la mitad (88 dB 4 h, 91 dB 2 h, 94 dB 1 h). Para exposiciones a distintos niveles se calcula la dosis: D = Σ Ci/Ti (tiempo real en cada nivel dividido el tiempo permitido); si D > 1 se supera el límite. Ruido de impulso: pico máximo de 140 dB(C). Control: en la fuente (máquinas más silenciosas, mantenimiento, amortiguación), en el medio (encerramientos, barreras, materiales absorbentes) y en el receptor (cabinas, rotación, protectores auditivos). Efecto: hipoacusia (sordera profesional), irreversible.",
+      "h": "Métodos de control y ventilación",
+      "p": "Se actúa en tres lugares: 1) foco (diseño del proceso, sustitución, mantenimiento, aislamiento, extracción localizada, métodos húmedos); 2) medio de difusión (limpieza, ventilación general, alarmas, más distancia entre emisor y receptor); 3) receptor (capacitación, cabina, rotación para bajar el tiempo, EPP). Ventilación: mantiene la calidad del aire (contaminante muy por debajo de la CMP, oxígeno entre 18-19 % y 22-22,5 % v/v) y controla el estrés térmico. Tipos: general o por dilución (todo el local; buena para sacar calor), localizada (sobre el foco: menos aire y no esparce el contaminante), natural (aberturas, por diferencias de temperatura y presión) y forzada o mecánica (ventiladores). Límites de inflamabilidad: LII (por debajo no propaga la llama) y LSI (por encima tampoco). Se trabaja lejos y por debajo del LII, porque si entra aire a una mezcla cerca del LSI, pasa por la zona inflamable.",
+      "easy": "Al contaminante lo atacás donde nace, después en el aire y recién al final en la persona. La ventilación localizada es la mejor: chupa el humo antes de que se desparrame."
+    },
+    {
+      "h": "Rotulado: NFPA 704 y SGA",
+      "p": "NFPA 704: rombo con cuatro sectores, cada uno con un número de 0 a 4 (4 es lo más peligroso): rojo inflamabilidad, amarillo reactividad, azul salud y blanco riesgos especiales (W reacciona con agua, OX oxidante). SGA (Sistema Globalmente Armonizado): clasifica los peligros en físicos, para la salud y para el ambiente, y comunica con etiquetas (pictogramas) y Fichas de Datos de Seguridad (FDS: identificación, peligros, composición, incendio, primeros auxilios, protección personal).",
+      "easy": "El rombo de colores te dice en un vistazo si algo se prende fuego, si explota, si te hace mal o si no le podés tirar agua."
+    },
+    {
+      "h": "U6 · Ruido: conceptos y límites",
+      "p": "Sonido: vibración mecánica que se propaga en un medio elástico. Ruido: sonido indeseable; es un riesgo laboral. El nivel de presión sonora se mide en decibeles: NPS = 10 log (P²/P₀²), con umbral audible P₀ = 2 × 10⁻⁵ Pa y umbral de dolor de 20 Pa; zona audible de 20 a 20.000 Hz. Se mide con ponderación A (lo que afecta al oído) y respuesta lenta; la ponderación C (plana) sirve para analizar máquinas. Pérdida de audición conductiva (oído medio, corregible) y neurosensorial (oído interno, órgano de Corti; irreversible y laboral). Criterio de igual energía: duplicar la energía suma 3 dB y obliga a reducir el tiempo a la mitad. Normativa: hasta 85 dB(A), 8 h diarias y 48 semanales sin protección; de 85 a 110 dB(A), con protección o menos horas; más de 110, siempre con protección; más de 135 dB(A), no se permite trabajar.",
+      "easy": "85 decibeles por 8 horas es el máximo sin protección. Cada 3 dB más es el doble de energía, así que la mitad de tiempo. Arriba de 135 no se puede trabajar ni con protectores."
+    },
+    {
+      "h": "Ruido: índice global, NSCE y nivel efectivo",
+      "p": "Cuando hay varios períodos a distintos niveles: índice global diario IG = Σ Cn/Tn (tiempo real sobre tiempo permitido por tabla). Si IG ≤ 1 no está expuesto; si IG > 1 está expuesto y hay que calcular el Nivel Sonoro Continuo Equivalente (NSCE): el nivel constante que en la jornada semanal de 48 h tendría la misma energía que el ruido real. Con las tablas del Decreto 351: se pasa cada tiempo diario a semanal (× 6), se obtiene el índice de exposición parcial de cada período, se suman y con el total se lee el NSCE (si el valor no está en la tabla, se toma el inmediato superior para proteger al trabajador). Ejemplo de la cátedra: parciales 5 + 20 + 25 = 50 → NSCE = 87 dB(A). Con protectores se calcula el nivel efectivo por bandas de octava: NSi = NS − (AT − 2·DE) y NSEf = 10 log Σ 10^(NSi/10), que debe ser menor a 80 dB(A). Control: en la fuente (sustituir, cambiar el proceso, bajar la velocidad, alejar o aislar), en la propagación (soportes elásticos, fundaciones desvinculadas) y en el puesto (aislar la zona, materiales absorbentes, EPP con registro de entrega y capacitación). La evaluación se repite cada año o cuando cambian las condiciones.",
+      "easy": "Primero ves si en el día se pasa (suma de tiempo real sobre permitido). Si se pasa, calculás a cuánto equivale en la semana (NSCE) y elegís el protector que lo deje por debajo de 80.",
       "tables": [
         {
-          "title": "Ejemplo de dosis: 4 h a 88 dB(A) y 4 h a 85 dB(A)",
+          "title": "Ejemplo de índice global: 4 h a 88 dB(A) y 4 h a 85 dB(A)",
           "head": [
             "Nivel",
             "Tiempo real",
             "Tiempo permitido",
-            "Ci/Ti"
+            "Cn/Tn"
           ],
           "rows": [
             [
@@ -49,7 +73,7 @@
               "0,50"
             ],
             [
-              "Dosis",
+              "Índice global",
               "",
               "",
               "1,50"
@@ -58,20 +82,82 @@
           "strong": [
             2
           ],
-          "note": "D = 1,5 > 1: no cumple. Hay que bajar el ruido o el tiempo de exposición; mientras tanto, protectores auditivos."
+          "note": "1,5 > 1: el operario está expuesto. Hay que calcular el NSCE y actuar sobre la fuente, el medio y, por último, el operario."
         }
-      ],
-      "easy": "85 decibeles es el máximo para 8 horas. Cada 3 decibeles más, podés estar la mitad del tiempo. Si sumás tiempo real sobre tiempo permitido y te da más de 1, te pasaste."
+      ]
     },
     {
-      "h": "Iluminación",
-      "p": "Se mide la iluminancia en lux con un luxómetro (protocolo de la Resolución SRT 84/2012). El Decreto 351/79 (Anexo IV) fija niveles mínimos según la tarea: cuanto más fino el trabajo, más luz. Uniformidad: la iluminancia mínima no debe ser menor que la mitad de la media (Emín ≥ Emedia / 2). También importan el deslumbramiento, el contraste y la iluminación de emergencia. Una mala iluminación causa fatiga visual y accidentes.",
-      "easy": "Se mide cuánta luz llega al puesto. Para un trabajo de precisión hace falta más que para un pasillo, y no puede haber zonas mucho más oscuras que el promedio."
+      "h": "Vibraciones",
+      "p": "Vibraciones en extremidades superiores (VES): las transmiten herramientas como martillos neumáticos o podadoras, a manos, muñecas y antebrazos (demolición, forestal, fundición, minería). Se miden con acelerómetro y transductor. Prevención: eliminar la vibración, bajar el tiempo de exposición, pausas (10 minutos por hora de vibración continua), rotación, mantenimiento preventivo y materiales aislantes.",
+      "easy": "Las herramientas que vibran te dañan las manos y los brazos: se mide con un acelerómetro y se controla con pausas, rotación y mantenimiento."
     },
     {
-      "h": "Ventilación y carga térmica",
-      "p": "Ventilación general o por dilución: renovar el aire de todo el local para bajar la concentración (sirve para contaminantes poco tóxicos y fuentes dispersas). Ventilación localizada: captar el contaminante en la fuente con una campana y extraerlo antes de que llegue a la zona de respiración (para contaminantes tóxicos o fuentes puntuales: soldadura, cabinas de pintura). Es más eficaz. Carga térmica: estrés por calor. Se evalúa con el índice TGBH (temperatura de globo y bulbo húmedo), según el tipo de trabajo (liviano, moderado o pesado) y el régimen de trabajo y descanso. Se controla con ventilación, pantallas, hidratación y pausas.",
-      "easy": "La ventilación general cambia el aire de todo el galpón; la localizada chupa el humo justo donde se genera, y es mejor. Para el calor se usa un índice que combina temperatura y humedad."
+      "h": "U7 · Carga térmica: frío y calor",
+      "p": "Estrés por frío: depende de la temperatura, la velocidad del viento y la humedad; el objetivo es que la temperatura interna no baje de 36 °C (excepcionalmente 35 °C). Con temperatura de bulbo seco y velocidad del viento se obtiene en tabla la temperatura equivalente de enfriamiento. Medidas: ropa aislante debajo de 4 °C, guantes anticontacto (Kevlar), trabajo en parejas, pausas de reanimación. Estrés térmico (calor): carga neta de calor sobre el trabajador (metabolismo + ambiente + ropa); tensión térmica: la respuesta fisiológica del cuerpo. Efectos: golpe de calor, síncope por calor, deshidratación. Medición (lo que preguntan: qué temperaturas se miden): temperatura de bulbo húmedo (TBH, termómetro con gasa húmeda), de globo (TG, esfera de cobre negra: calor radiante) y de bulbo seco (TBS); con ellas se calcula el índice TGBH (distinto para interior y exterior). Pasos: 1) ver si el trabajador está aclimatado; 2) calcular el TGBH; 3) clasificar la actividad (ligera, moderada, pesada, muy pesada); 4) leer en la tabla el régimen de trabajo y descanso. Aclimatación: adaptación fisiológica por exposiciones sucesivas; se logra con unos 100 minutos diarios de trabajo continuo durante los primeros 4 a 7 días y se completa en dos semanas. Control: bajar el esfuerzo (calor metabólico), pantallas reflectivas o absorbentes (calor radiante), ventilación y, si no se puede controlar la humedad, menos tiempo de exposición y lugares de recuperación.",
+      "easy": "Para el calor se miden tres temperaturas (húmeda, de globo y seca) y se arma el índice TGBH. Con eso y qué tan pesado es el trabajo, la tabla te dice cuánto trabajar y cuánto descansar. Y al que recién empieza hay que aclimatarlo de a poco."
+    },
+    {
+      "h": "U8 · Iluminación y color",
+      "p": "Magnitudes: flujo luminoso (lumen), iluminancia (lux = lumen/m², lo que llega al plano de trabajo), intensidad luminosa (candela) y luminancia (cd/m², el brillo que ve el ojo). Se mide con luxómetro a 0,8 m del piso o sobre el plano de trabajo. Requisitos: la iluminancia media debe superar el mínimo de la tabla para la tarea, y debe haber uniformidad: Emín ≥ Emed/2. Número mínimo de puntos de medición = (x + 2)², donde x es el índice del local redondeado hacia arriba (si el índice es mayor a 3, x = 4). Índice del local = largo × ancho / [altura de montaje × (largo + ancho)]. La luz que llega desde arriba debe formar un ángulo de al menos 30° con la horizontal. Señalización (IRAM 10005): rojo = parada, prohibición o elementos contra incendio (círculo); amarillo = precaución (triángulo); azul = obligación (círculo); verde = condición segura (cuadrado). Cañerías de servicio con su color; de materias primas y productos, gris (con franjas naranja si son peligrosos).",
+      "easy": "Medís la luz en varios puntos: el promedio tiene que superar el mínimo y el punto más oscuro no puede tener menos de la mitad del promedio.",
+      "tables": [
+        {
+          "title": "Ejemplo de la cátedra: oficina (mínimo 500 lux), mediciones 250, 950, 800 y 400 lux",
+          "head": [
+            "Control",
+            "Cuenta",
+            "Resultado"
+          ],
+          "rows": [
+            [
+              "Iluminancia media",
+              "2.400 / 4",
+              "600 lux → cumple (≥ 500)"
+            ],
+            [
+              "Uniformidad",
+              "Emín ≥ 600/2 = 300",
+              "Emín = 250 → NO cumple"
+            ]
+          ],
+          "note": "Soluciones: agregar una lámpara en la zona oscura, cambiar el tipo de fuente o el color de la luz, limpiar los artefactos."
+        },
+        {
+          "title": "Puntos de medición: local de 20 × 10 m con altura de montaje de 3 m",
+          "head": [
+            "Paso",
+            "Cuenta",
+            "Resultado"
+          ],
+          "rows": [
+            [
+              "Índice del local",
+              "200 / (3 × 30)",
+              "2,22"
+            ],
+            [
+              "x (redondeo hacia arriba)",
+              "",
+              "3"
+            ],
+            [
+              "Puntos mínimos",
+              "(3 + 2)²",
+              "25"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "h": "Radiaciones",
+      "p": "Ionizantes (ionizan la materia, penetran y son más peligrosas, con efectos a largo plazo): rayos X y gamma (alteran el ADN), partículas alfa (no atraviesan la piel; peligrosas si ingresan por heridas) y beta (penetran y queman la piel; blindaje de aluminio o vidrio). No ionizantes: UV (ojos y piel; lentes, ropa, protector), visible (fatiga, deslumbramiento), infrarroja (pantallas reflectoras, protección ocular), microondas y láser. Si hay una fuente radiactiva: informar al personal, señalizar y que solo intervenga personal autorizado.",
+      "easy": "Las ionizantes (rayos X, gamma) son las peligrosas porque atraviesan y dañan las células, y no las sentís. Las no ionizantes (UV, infrarrojo) dañan sobre todo ojos y piel."
+    },
+    {
+      "h": "Ergonomía (breve)",
+      "p": "Ciencia que estudia la relación entre el hombre, la tecnología y el ambiente de trabajo: hay que adaptar el puesto a la persona, no al revés. Objetivos: reducir lesiones, costos y ausentismo, y aumentar la producción y la calidad. La Resolución 295/03 pide un programa de ergonomía integrado con controles de ingeniería (estudio de tiempos, análisis de movimientos, ayudas mecánicas) y controles administrativos (pausas activas, rotación).",
+      "easy": "Se adapta el puesto a la persona, no la persona al puesto."
     }
   ]
 }

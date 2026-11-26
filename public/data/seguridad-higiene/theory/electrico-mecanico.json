@@ -1,0 +1,42 @@
+{
+  "thesis": "La electricidad lastima cuando la corriente pasa por el cuerpo. El daño depende sobre todo de la intensidad, el tiempo y el recorrido. Se protege a las personas contra el contacto directo (alejar, aislar) y el indirecto (puesta a tierra y disyuntor), y se trabaja sin tensión siguiendo las 5 reglas de oro.",
+  "examTip": "Preguntas tomadas: los factores del riesgo eléctrico, qué pasa según la dirección de la corriente, contacto directo e indirecto, qué es la PAT, las 5 reglas de oro, resguardos y dispositivos de seguridad, y los permisos de trabajo.",
+  "concepts": [
+    "Umbrales",
+    "Contacto directo",
+    "Contacto indirecto",
+    "PAT",
+    "Disyuntor diferencial",
+    "5 reglas de oro",
+    "Resguardos",
+    "Dispositivos de seguridad",
+    "Permisos de trabajo"
+  ],
+  "sections": [
+    {
+      "h": "Factores del riesgo eléctrico",
+      "p": "Riesgo eléctrico: probabilidad de que la corriente circule por el cuerpo. Factores: 1) intensidad de la corriente (umbral de percepción, de reacción, de no soltar y de fibrilación ventricular); 2) duración del contacto; 3) impedancia del cuerpo; 4) tensión (no es peligrosa en sí, pero con baja resistencia produce mucha intensidad); 5) frecuencia (a muy alta frecuencia baja el riesgo de fibrilación pero priman los efectos térmicos); 6) recorrido (un trayecto más largo tiene más resistencia, pero puede pasar por órganos vitales); 7) falta de puesta a tierra. Dirección respecto de las señales nerviosas: en el mismo sentido provoca contracciones más fuertes y sostenidas; en sentido opuesto, debilidad o parálisis temporal. Zonas de la corriente alterna: hasta 0,5 mA percepción sin reacción; desde unos 10 mA umbral de no soltar y tetanización; después alteraciones del ritmo cardíaco y fibrilación si el tiempo es largo; por último quemaduras, asfixia y muerte.",
+      "easy": "Lo que mata es cuánta corriente pasa, cuánto tiempo y por dónde. Con unos pocos miliamperes ya no podés soltar el cable."
+    },
+    {
+      "h": "Contactos y protecciones",
+      "p": "Contacto directo: tocar un elemento que está bajo tensión (cables, enchufes); protección: alejamiento, aislamiento e interposición de obstáculos. Contacto indirecto: tocar algo que normalmente no tiene tensión pero quedó energizado por una falla de aislación; protección: puesta a tierra, disyuntor diferencial, tensión de seguridad y aislación. Cortocircuitos: fusibles e interruptores automáticos (protegen la instalación). PAT: unión eléctrica de baja resistencia con un electrodo (jabalina) para que, ante una falla, la corriente vaya a tierra y no a la persona; se mide una vez por año (Resolución SRT 900/15).",
+      "easy": "Directo es tocar el cable; indirecto es tocar la carcasa electrificada por una falla. Para el indirecto están la jabalina (PAT) y el disyuntor."
+    },
+    {
+      "h": "Trabajos sin y con tensión: 5 reglas de oro",
+      "p": "Sin tensión, con las 5 reglas de oro: 1) corte efectivo y visible de toda fuente; 2) bloqueo de los aparatos de corte; 3) comprobación de ausencia de tensión y descarga de estáticas; 4) puesta a tierra y en cortocircuito; 5) señalización y vallado. Con tensión (cuando no se puede cortar): a contacto (con herramientas aislantes), a distancia (respetando distancias de seguridad) o a potencial (el operario al mismo potencial que la instalación), siempre con todos los EPP y aislando los conductores desnudos, incluso el neutro.",
+      "easy": "Para trabajar sin luz: cortar, trabar con candado, verificar que no hay tensión, poner a tierra y señalizar."
+    },
+    {
+      "h": "U11 · Riesgos mecánicos",
+      "p": "Accidentes por la interacción con máquinas y herramientas (cortes, atrapamientos, golpes), por elementos móviles o falta de mantenimiento. Zona peligrosa: dentro o alrededor de la máquina; su contorno es la línea de peligro. Medios de protección: resguardos (impiden el acceso: fijos, como una valla perimetral, o móviles con bloqueo, como una puerta que solo abre con la máquina apagada), distancia de seguridad (marcas en el piso), dispositivos de seguridad (eliminan el peligro antes de que la persona llegue: sensor de presencia, barrera fotoeléctrica, mando a dos manos) y parada de emergencia (botón rojo de acción voluntaria).",
+      "easy": "El resguardo es la tapa que no te deja meter la mano; el dispositivo es el sensor que frena la máquina si la metés."
+    },
+    {
+      "h": "Permisos de trabajo",
+      "p": "Son controles administrativos que validan tareas rutinarias y no rutinarias definiendo la actividad, los responsables, las medidas de protección y las verificaciones. Tipos: en caliente (soldadura, esmerilado, corte: riesgo de incendio, explosión, quemaduras y humos), en altura (2 m o más), eléctricos (con o sin tensión), en espacios confinados (tanques, fosas: falta de oxígeno y sustancias peligrosas) y de excavación (caños enterrados, derrumbes, descargas eléctricas).",
+      "easy": "Antes de un trabajo riesgoso se llena un permiso que dice qué se va a hacer, quién responde y qué cuidados hay que tomar."
+    }
+  ]
+}
