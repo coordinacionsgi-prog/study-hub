@@ -1,0 +1,189 @@
+{
+  "thesis": "El modelo de transporte busca cómo mandar mercadería desde orígenes con cierta oferta a destinos con cierta demanda al menor costo. Se arma una solución inicial (esquina noroeste, costo mínimo o Vogel) y se mejora hasta el óptimo (stepping stone o MODI). La asignación es un caso especial (uno a uno) y el inventario busca el tamaño de pedido que minimiza el costo total.",
+  "examTip": "Pregunta teórica tomada: definí el método de transporte, qué características se deben cumplir (oferta = demanda; si no, origen o destino ficticio con costo 0) y nombrá los métodos y cómo se aplican. En inventarios piden completar la tabla de costos y graficar.",
+  "concepts": [
+    "Oferta y demanda",
+    "Balanceo",
+    "Ficticio",
+    "Esquina noroeste",
+    "Costo mínimo",
+    "Vogel",
+    "m + n − 1",
+    "Stepping stone",
+    "MODI",
+    "Asignación (húngaro)",
+    "Lote económico"
+  ],
+  "sections": [
+    {
+      "h": "Modelo de transporte: características y métodos",
+      "p": "Características: m orígenes con oferta, n destinos con demanda, costo unitario por ruta; debe estar balanceado (oferta total = demanda total); si no, se agrega un origen o destino ficticio con costo 0. Una solución básica tiene m + n − 1 celdas ocupadas (si tiene menos, es degenerada). Solución inicial: esquina noroeste (se asigna desde arriba a la izquierda, sin mirar costos), costo mínimo (se asigna a la celda más barata) y Vogel (en cada fila y columna se calcula la penalidad = diferencia entre los dos costos más bajos; se asigna en la celda más barata de la fila o columna de mayor penalidad; suele dar una solución muy buena). Optimización: stepping stone (se evalúa el costo de cada celda vacía con un circuito) o MODI (u_i + v_j = c_ij en las celdas ocupadas; costo reducido de las vacías = c_ij − u_i − v_j; es óptima si todos son ≥ 0).",
+      "easy": "Mandás de las fábricas a los clientes por la ruta más barata. Primero armás un reparto razonable y después lo mejorás hasta que no se pueda bajar más el costo."
+    },
+    {
+      "h": "Ejemplo resuelto: Vogel y mejora con MODI",
+      "p": "Tres orígenes (ofertas 35, 50 y 40) y tres destinos (demandas 45, 20 y 30). Oferta 125 > demanda 95 → se agrega un destino ficticio con demanda 30 y costo 0.",
+      "easy": "Vogel da un buen punto de partida, pero no siempre el óptimo: MODI te dice si hay una celda vacía que abarata, y el circuito te dice cuánto mover.",
+      "tables": [
+        {
+          "title": "Solución inicial por Vogel (cantidad @ costo) → costo $980",
+          "head": [
+            "Origen",
+            "D1",
+            "D2",
+            "D3",
+            "Ficticio",
+            "Oferta"
+          ],
+          "rows": [
+            [
+              "O1",
+              "25 @ 8",
+              "@ 6",
+              "10 @ 10",
+              "@ 0",
+              "35"
+            ],
+            [
+              "O2",
+              "20 @ 9",
+              "@ 12",
+              "@ 13",
+              "30 @ 0",
+              "50"
+            ],
+            [
+              "O3",
+              "@ 14",
+              "20 @ 9",
+              "20 @ 16",
+              "@ 0",
+              "40"
+            ],
+            [
+              "Demanda",
+              "45",
+              "20",
+              "30",
+              "30",
+              "125"
+            ]
+          ]
+        },
+        {
+          "title": "Solución óptima después de MODI → costo $870",
+          "head": [
+            "Origen",
+            "D1",
+            "D2",
+            "D3",
+            "Ficticio",
+            "Oferta"
+          ],
+          "rows": [
+            [
+              "O1",
+              "@ 8",
+              "5 @ 6",
+              "30 @ 10",
+              "@ 0",
+              "35"
+            ],
+            [
+              "O2",
+              "45 @ 9",
+              "@ 12",
+              "@ 13",
+              "5 @ 0",
+              "50"
+            ],
+            [
+              "O3",
+              "@ 14",
+              "15 @ 9",
+              "@ 16",
+              "25 @ 0",
+              "40"
+            ],
+            [
+              "Demanda",
+              "45",
+              "20",
+              "30",
+              "30",
+              "125"
+            ]
+          ]
+        }
+      ],
+      "steps": [
+        "Iteración 1: con u = (0; 1; 6) y v = (8; 3; 10; -1), la celda O3-Ficticio tiene costo reducido -5 < 0 → entra. Circuito: +O3F, −O3D3, +O1D3, −O1D1, +O2D1, −O2F; se mueven θ = 20 unidades. Costo: $980 → $880.",
+        "Iteración 2: con u = (0; 1; 1) y v = (8; 8; 10; -1), la celda O1-D2 tiene costo reducido -2 < 0 → entra. Circuito: +O1D2, −O1D1, +O2D1, −O2F, +O3F, −O3D2; se mueven θ = 5 unidades. Costo: $880 → $870.",
+        "Final: con u = (0; 3; 3) y v = (6; 6; 10; -3) todos los costos reducidos son ≥ 0 → ÓPTIMO, costo $870. El destino ficticio indica qué origen se queda con 30 unidades sin mandar."
+      ]
+    },
+    {
+      "h": "Asignación (método húngaro)",
+      "p": "Caso especial de transporte en el que cada origen se asigna a un solo destino (operarios a máquinas, tareas a personas): matriz cuadrada (si no, se agregan filas o columnas ficticias). Método húngaro: 1) restar el mínimo de cada fila; 2) restar el mínimo de cada columna; 3) cubrir todos los ceros con la menor cantidad de líneas; si hacen falta n líneas, hay asignación óptima entre los ceros; 4) si no, restar el menor elemento no cubierto a los no cubiertos y sumarlo en las intersecciones, y repetir.",
+      "easy": "Repartir una tarea por persona al menor costo: restás mínimos hasta que aparecen suficientes ceros para elegir uno por fila y columna."
+    },
+    {
+      "h": "Inventarios: lote económico",
+      "p": "Costos: de compra (D × precio), de almacenamiento (Q/2 × costo de mantener una unidad por año = precio × tasa) y de pedido o adquisición (D/Q × costo por pedido). Lote económico (Wilson): Q* = √(2·D·K / Ch). En el óptimo el costo de almacenar es igual al de pedir. Número de pedidos = D/Q*; tiempo entre pedidos = Q*/D.",
+      "easy": "Si pedís mucho de una vez, gastás en guardar; si pedís poco, gastás en pedir seguido. El lote económico es el punto donde los dos gastos son iguales.",
+      "tables": [
+        {
+          "title": "Ejemplo: D = 3.600 u/año, K = $500 por pedido, precio $40, tasa 25 % (Ch = $10) → Q* = 600",
+          "head": [
+            "Q",
+            "Compra",
+            "Almacenamiento",
+            "Pedido",
+            "Costo total"
+          ],
+          "rows": [
+            [
+              "400",
+              "$144.000",
+              "$2.000",
+              "$4.500",
+              "$150.500"
+            ],
+            [
+              "500",
+              "$144.000",
+              "$2.500",
+              "$3.600",
+              "$150.100"
+            ],
+            [
+              "600",
+              "$144.000",
+              "$3.000",
+              "$3.000",
+              "$150.000"
+            ],
+            [
+              "750",
+              "$144.000",
+              "$3.750",
+              "$2.400",
+              "$150.150"
+            ],
+            [
+              "900",
+              "$144.000",
+              "$4.500",
+              "$2.000",
+              "$150.500"
+            ]
+          ],
+          "strong": [
+            2
+          ],
+          "note": "Con Q* = 600: 6 pedidos por año (uno cada 2 meses), almacenamiento = pedido = $3.000. Con las cantidades menores y mayores el costo total sube: eso es lo que se grafica."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "thesis": "El final de IO es práctico con una parte teórica. Según lo que contaron en el grupo de UTN Industrial (diciembre de 2019): 3 ejercicios y 2 preguntas de teoría, y para aprobar había que sacar al menos un punto en CADA ejercicio. El 2º parcial (tema 2) fue PL con simplex, transporte e inventarios, más tres preguntas teóricas, con condición de 1 punto por ejercicio y 12 puntos en total.",
+  "examTip": "Como piden un mínimo en cada ejercicio, no dejes ninguno en blanco: plantear bien el modelo ya suma. Llevá las fórmulas de colas, PERT y lote económico de memoria.",
+  "concepts": [
+    "3 ejercicios + 2 teóricas",
+    "Mínimo por ejercicio",
+    "Teoría de decisiones"
+  ],
+  "sections": [
+    {
+      "h": "Teoría de decisiones y juegos (material de soporte)",
+      "p": "Decisión bajo incertidumbre (no se conocen las probabilidades): Laplace (promedio de cada alternativa), Wald o maximin (pesimista: el mejor de los peores), maximax (optimista: el mejor de los mejores), Hurwicz (α·mejor + (1 − α)·peor) y Savage o minimax de arrepentimiento (se arma la matriz de pérdidas de oportunidad y se elige la de menor arrepentimiento máximo). Bajo riesgo (con probabilidades): valor esperado; árboles de decisión; valor de la información perfecta = ganancia esperada con información perfecta − mejor valor esperado. Juegos de dos personas y suma cero: punto de silla si maximin = minimax; si no, estrategias mixtas.",
+      "easy": "Sin probabilidades elegís según tu actitud (pesimista, optimista o minimizar el arrepentimiento); con probabilidades, la de mayor valor esperado."
+    },
+    {
+      "h": "Teoría tomada · ¿Qué parámetros encontramos en un problema de programación lineal?",
+      "p": "Variables de decisión; coeficientes de la función objetivo (c_j: beneficio o costo unitario); coeficientes tecnológicos de las restricciones (a_ij: cuánto recurso usa cada unidad); disponibilidades o lados derechos (b_i); y la no negatividad. Supuestos: proporcionalidad, aditividad, divisibilidad y certeza.",
+      "easy": "Qué decidís, cuánto gana cada cosa, cuánto recurso usa y cuánto recurso tenés."
+    },
+    {
+      "h": "Teoría tomada · ¿Cómo se evalúa la conveniencia de introducir un nuevo producto desde la tabla óptima del primal?",
+      "p": "Con los precios sombra (valores de las variables duales, que están en la fila Z bajo las holguras): se calcula el costo de oportunidad de los recursos que usaría el producto nuevo, Σ a_i,nuevo × y_i, y se lo compara con su beneficio unitario. Si c_nuevo − Σ a_i,nuevo·y_i > 0, conviene introducirlo (mejora el óptimo); si es ≤ 0, no.",
+      "easy": "Conviene si gana más de lo que «cuestan» los minutos de máquina que le saca a los otros productos."
+    },
+    {
+      "h": "Teoría tomada · Defina el método de transporte, sus características y los métodos",
+      "p": "Modelo para distribuir desde orígenes con oferta hacia destinos con demanda al mínimo costo. Debe estar balanceado (si no, origen o destino ficticio con costo 0) y una solución básica tiene m + n − 1 asignaciones. Solución inicial: esquina noroeste, costo mínimo o Vogel (penalidades). Mejora y prueba de optimalidad: stepping stone o MODI (u_i + v_j = c_ij y costos reducidos ≥ 0).",
+      "easy": "Balancear, armar una solución inicial y mejorarla hasta el óptimo."
+    },
+    {
+      "h": "Típica · Diferencia entre CPM y PERT",
+      "p": "CPM usa tiempos determinísticos (y analiza el costo de acelerar actividades); PERT usa tres estimaciones de tiempo (optimista, más probable y pesimista) y permite calcular la probabilidad de terminar en un plazo con la distribución normal.",
+      "easy": "CPM: tiempos fijos y costos; PERT: tiempos inciertos y probabilidades."
+    },
+    {
+      "h": "Típica · ¿Qué es el estado estable de una cadena de Markov?",
+      "p": "La distribución de probabilidades entre estados que no cambia de un período al siguiente (π = π·P con Σπ = 1). Se alcanza a largo plazo si la cadena es regular, independientemente del estado inicial.",
+      "easy": "A la larga, el reparto se queda quieto."
+    },
+    {
+      "h": "Típica · ¿Qué significa ρ en colas y qué pasa si es mayor que 1?",
+      "p": "ρ = λ/(s·μ) es el factor de utilización: la fracción del tiempo que el servidor está ocupado y la probabilidad de que un cliente tenga que esperar. Si ρ ≥ 1, llegan más clientes de los que se pueden atender y la cola crece indefinidamente (el sistema no es estable).",
+      "easy": "Qué tan ocupado está el que atiende; si es más de 1, la fila es infinita."
+    }
+  ]
+}

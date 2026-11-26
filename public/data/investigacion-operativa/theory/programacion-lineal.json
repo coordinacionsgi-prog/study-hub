@@ -1,0 +1,80 @@
+{
+  "thesis": "La programación lineal busca la mejor combinación (máxima ganancia o mínimo costo) respetando recursos limitados, cuando todo es lineal. Se resuelve gráficamente con dos variables o con el método simplex, y la tabla óptima da además los precios sombra (cuánto vale una unidad más de cada recurso).",
+  "examTip": "Preguntas teóricas que tomaron: qué parámetros hay en un problema de PL y cómo se evalúa desde la tabla óptima del primal si conviene introducir un producto nuevo. En la práctica: plantear el modelo y resolver con simplex.",
+  "concepts": [
+    "Variables de decisión",
+    "Función objetivo",
+    "Restricciones",
+    "No negatividad",
+    "Supuestos",
+    "Método gráfico",
+    "Simplex",
+    "Variables de holgura",
+    "Precio sombra",
+    "Dual",
+    "Costo reducido"
+  ],
+  "sections": [
+    {
+      "h": "Parámetros y supuestos del modelo",
+      "p": "Variables de decisión (cuánto producir de cada cosa), función objetivo (maximizar beneficio o minimizar costo, con los coeficientes c_j), restricciones (uso de cada recurso a_ij ≤ disponibilidad b_i), y condición de no negatividad. Supuestos: proporcionalidad (el aporte es proporcional al nivel de la variable), aditividad (los aportes se suman), divisibilidad (las variables pueden ser fraccionarias) y certeza (los coeficientes se conocen).",
+      "easy": "Decidís cuánto hacer de cada producto, querés ganar lo máximo, y no podés pasarte de las horas de máquina."
+    },
+    {
+      "h": "Método simplex y dualidad",
+      "p": "Simplex: se agregan variables de holgura para convertir las desigualdades en igualdades y se parte de una solución básica (todo en cero). En cada iteración entra la variable que más mejora el objetivo (el más negativo en la fila Z si se maximiza), sale la que primero llega a cero (cociente mínimo b_i/a_ij positivo) y se pivotea. Es óptimo cuando no quedan coeficientes negativos en la fila Z. En la tabla óptima, los valores de las holguras en la fila Z son los precios sombra (variables duales): cuánto aumenta Z por una unidad más del recurso. Producto nuevo: conviene si su costo reducido c_nuevo − Σ (a_i,nuevo × precio sombra_i) es positivo (gana más de lo que cuestan los recursos que usa).",
+      "easy": "El simplex va saltando de esquina en esquina del área posible hasta que ya no mejora. El precio sombra dice cuánto ganarías con un minuto más de máquina."
+    },
+    {
+      "h": "Ejemplo resuelto",
+      "p": "Dos productos con utilidad de $8 y $9 por unidad. El producto 1 usa 2 minutos del proceso 1 y 4 del proceso 2; el producto 2, 3 y 2 minutos. Disponibles: 370 minutos del proceso 1 y 480 del proceso 2. Máx Z = 8x₁ + 9x₂ con 2x₁ + 3x₂ ≤ 370 y 4x₁ + 2x₂ ≤ 480.",
+      "easy": "Las esquinas posibles son pocas: evaluás la ganancia en cada una y te quedás con la mejor (eso hace el simplex).",
+      "tables": [
+        {
+          "title": "Vértices de la región factible",
+          "head": [
+            "Vértice",
+            "x₁",
+            "x₂",
+            "Z"
+          ],
+          "rows": [
+            [
+              "1",
+              "0,0",
+              "0,0",
+              "0"
+            ],
+            [
+              "2",
+              "120,0",
+              "0,0",
+              "960"
+            ],
+            [
+              "3",
+              "0,0",
+              "123,3",
+              "1.110"
+            ],
+            [
+              "4",
+              "87,5",
+              "65,0",
+              "1.285"
+            ]
+          ],
+          "strong": [
+            3
+          ]
+        }
+      ],
+      "steps": [
+        "Óptimo: x₁ = 87,5, x₂ = 65, Z = $1.285 (usa los dos procesos completos: 2 × 87,5 + 3 × 65 = 370 y 4 × 87,5 + 2 × 65 = 480).",
+        "Control por dualidad: 370 × 2,50 + 480 × 0,75 = $1.285 = Z (el valor del dual coincide con el del primal).",
+        "Precios sombra (resolviendo 2y₁ + 4y₂ = 8 y 3y₁ + 2y₂ = 9): y₁ = $2,50 por minuto del proceso 1 e y₂ = $0,75 por minuto del proceso 2.",
+        "Producto nuevo que usa 1 minuto del proceso 1 y 2 del proceso 2 con utilidad $5: costo reducido = 5 − (1 × 2,50 + 2 × 0,75) = $1,00 > 0 → conviene introducirlo."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "thesis": "Una cadena de Markov modela un sistema que salta entre estados con probabilidades que solo dependen del estado actual (no de la historia). Con la matriz de transición se calcula cómo queda la población en n pasos y hacia dónde converge a largo plazo (estado estable).",
+  "examTip": "Primero armá la matriz de transición (cada fila suma 1). Para n pasos, multiplicá el vector de estado por la matriz n veces. Para el largo plazo, resolvé π = π·P con Σπ = 1.",
+  "concepts": [
+    "Proceso estocástico",
+    "Propiedad de Markov",
+    "Matriz de transición",
+    "Vector de estado",
+    "n pasos",
+    "Estado estable",
+    "Estado absorbente"
+  ],
+  "sections": [
+    {
+      "h": "Conceptos",
+      "p": "Proceso estocástico: variable aleatoria que evoluciona en el tiempo. Cadena de Markov: proceso de tiempo discreto con un número finito de estados en el que la probabilidad del próximo estado depende solo del estado actual (propiedad de Markov o «falta de memoria»). Matriz de transición P: p_ij = probabilidad de pasar del estado i al j en un paso; cada fila suma 1. Vector de estado: distribución de la población entre los estados; el siguiente es x(n+1) = x(n)·P y en n pasos x(n) = x(0)·Pⁿ. Estado estable: distribución π que ya no cambia (π = π·P, Σπ = 1); existe si la cadena es regular (alguna potencia de P tiene todos los elementos positivos). Estado absorbente: del que no se sale (p_ii = 1).",
+      "easy": "Es como una tabla de «si hoy estás acá, mañana estás allá con tal probabilidad». Multiplicando la tabla varias veces ves cómo se reparte la gente con el tiempo, y a la larga se estabiliza."
+    },
+    {
+      "h": "Ejercicio de clase 1 · Compra de un producto",
+      "p": "El 20 % de quienes compran un mes no compra el siguiente, y el 30 % de quienes no compran sí lo hace al mes siguiente. Población de 1.000 personas; el primer mes compraron 100. ¿Cuántos compran el mes próximo y dentro de dos meses?",
+      "easy": "Armás la tabla con los porcentajes, y cada mes multiplicás: los que se quedan comprando más los que se suman.",
+      "tables": [
+        {
+          "title": "Matriz de transición (C = compra, N = no compra)",
+          "head": [
+            "Desde \\ Hacia",
+            "C",
+            "N"
+          ],
+          "rows": [
+            [
+              "C",
+              "0,8",
+              "0,2"
+            ],
+            [
+              "N",
+              "0,3",
+              "0,7"
+            ]
+          ]
+        }
+      ],
+      "steps": [
+        "Mes próximo: 100 × 0,8 + 900 × 0,3 = 80 + 270 = 350 compradores.",
+        "Dentro de dos meses: 350 × 0,8 + 650 × 0,3 = 280 + 195 = 475 compradores.",
+        "Largo plazo: π_C = 0,3 / (0,2 + 0,3) = 0,60 → 600 compradores de 1.000."
+      ]
+    },
+    {
+      "h": "Ejercicio de clase 2 · Fumadores (tres estados)",
+      "p": "10.000 habitantes: 5.000 no fuman (NF), 2.500 fuman un paquete o menos (≤1) y 2.500 más de un paquete (>1). NF: 5 % pasa a ≤1 y 2 % a >1. ≤1: 10 % deja y 10 % pasa a >1. >1: 5 % deja y 10 % pasa a ≤1. ¿Cuántos hay de cada clase el mes próximo?",
+      "easy": "Lo que falta para completar cada fila es la probabilidad de quedarse igual.",
+      "tables": [
+        {
+          "title": "Matriz de transición",
+          "head": [
+            "Desde \\ Hacia",
+            "NF",
+            "≤1",
+            ">1"
+          ],
+          "rows": [
+            [
+              "NF",
+              "0,93",
+              "0,05",
+              "0,02"
+            ],
+            [
+              "≤1",
+              "0,10",
+              "0,80",
+              "0,10"
+            ],
+            [
+              ">1",
+              "0,05",
+              "0,10",
+              "0,85"
+            ]
+          ]
+        }
+      ],
+      "steps": [
+        "NF = 5.000 × 0,93 + 2.500 × 0,10 + 2.500 × 0,05 = 5025.",
+        "≤1 = 5.000 × 0,05 + 2.500 × 0,80 + 2.500 × 0,10 = 2500.",
+        ">1 = 5.000 × 0,02 + 2.500 × 0,10 + 2.500 × 0,85 = 2475. Control: suman 10.000."
+      ]
+    },
+    {
+      "h": "Ejercicio de clase 3 · Clima",
+      "p": "Al 90 % de los días soleados le sigue uno soleado y al 80 % de los nublados, uno nublado. Modelar como cadena de Markov.",
+      "easy": "Dos estados, y a la larga hay sol dos de cada tres días.",
+      "steps": [
+        "P = [[0,9 ; 0,1], [0,2 ; 0,8]] (filas: hoy soleado, hoy nublado).",
+        "Estado estable: π_S = 0,2 / (0,1 + 0,2) = 0,6667 ≈ 66,7 % de días soleados; π_N ≈ 33,3 %."
+      ]
+    }
+  ]
+}

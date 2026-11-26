@@ -1,0 +1,49 @@
+{
+  "thesis": "Las filas de espera aparecen cuando la llegada de clientes y la atención son aleatorias. El modelo M/M/1 (llegadas de Poisson, servicio exponencial, un servidor) da fórmulas cerradas para saber cuánto se espera, cuánta gente hay y cuánto tiempo está ocioso el servidor.",
+  "examTip": "Lo primero es poner λ y μ en las MISMAS unidades (clientes por hora). Si te dan el tiempo medio de servicio de 4 minutos, μ = 60/4 = 15 por hora. Y verificá que ρ = λ/μ < 1.",
+  "concepts": [
+    "λ (tasa de llegada)",
+    "μ (tasa de servicio)",
+    "ρ (utilización)",
+    "Kendall",
+    "M/M/1",
+    "P0",
+    "Lq, Ls",
+    "Wq, Ws",
+    "Pn",
+    "Little"
+  ],
+  "sections": [
+    {
+      "h": "Elementos y notación",
+      "p": "Elementos: fuente de clientes, proceso de llegadas (λ = tasa media de llegada), cola (disciplina FIFO), servidores (μ = tasa media de servicio por servidor). Notación de Kendall A/B/s: distribución de llegadas / de servicio / cantidad de servidores; M = Markoviano (Poisson para llegadas, exponencial para tiempos). Condición de estabilidad: ρ = λ/(s·μ) < 1. Ley de Little: L = λ·W (vale para la cola y para el sistema).",
+      "easy": "λ es cuánta gente llega por hora; μ, cuánta podés atender por hora. Si llega más de la que atendés, la fila crece sin fin."
+    },
+    {
+      "h": "Fórmulas M/M/1",
+      "p": "ρ = λ/μ (utilización; probabilidad de que un cliente tenga que esperar). P0 = 1 − ρ (sistema ocioso). Pn = (1 − ρ)·ρⁿ (n clientes en el sistema). Ls = ρ/(1 − ρ) = λ/(μ − λ) (clientes en el sistema). Lq = ρ²/(1 − ρ) = λ²/[μ(μ − λ)] (clientes en la cola). Ws = 1/(μ − λ) (tiempo en el sistema). Wq = λ/[μ(μ − λ)] (tiempo en la cola). Relación: Ws = Wq + 1/μ y Ls = Lq + ρ.",
+      "easy": "Con λ y μ salen todas: qué tan ocupado está, cuánta gente hay y cuánto esperan."
+    },
+    {
+      "h": "Ejercicio de clase · Cajero de autos",
+      "p": "Llegan 12 autos por hora y el servicio promedio dura 4 minutos (μ = 15/h).",
+      "easy": "Pasás todo a «por hora» y aplicás las fórmulas.",
+      "steps": [
+        "ρ = 12/15 = 0,80; a) cajero ocioso: P0 = 0,20 (20 % del tiempo).",
+        "b) autos en la cola: Lq = 0,8² / 0,2 = 3,20.",
+        "c) tiempo total en el estacionamiento: Ws = 1/(15 − 12) = 1/3 h = 20 minutos.",
+        "d) atiende en promedio 12 clientes por hora (todos los que llegan, porque ρ < 1)."
+      ]
+    },
+    {
+      "h": "Ejercicios de clase · Más casos",
+      "p": "Comidas rápidas: λ = 100/h, μ = 150/h. Tienda de alimentos: λ = 8/h, servicio de 5 minutos (μ = 12/h). Aviones: λ = 9/h y aterrizaje de 4 minutos (μ = 15/h).",
+      "easy": "Mismo método: ρ, y después la fórmula que pidan.",
+      "steps": [
+        "Comidas rápidas: P0 = 1 − 100/150 = 0,33; probabilidad de tener que esperar = ρ = 0,67; 10 clientes en la COLA significa 11 en el sistema: P11 = (1 − ρ)ρ¹¹ = 0,0039.",
+        "Tienda: probabilidad de que haya línea = ρ = 0,67; Lq = 1,33 clientes; Wq = 10 minutos.",
+        "Aviones: tiempo dando vueltas = Wq = 9 / (15 × 6) = 0,1 h = 6 minutos."
+      ]
+    }
+  ]
+}

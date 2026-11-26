@@ -1,0 +1,38 @@
+[
+  {
+    "id": "markov",
+    "title": "Cadenas de Markov",
+    "unidad": "1er parcial",
+    "description": "Procesos estocásticos, matriz de transición, estado en n pasos y estado estable, con los ejercicios de clase (compra de un producto, fumadores, clima) resueltos."
+  },
+  {
+    "id": "colas",
+    "title": "Teoría de colas (filas de espera)",
+    "unidad": "1er parcial",
+    "description": "Notación de Kendall, modelo M/M/1 con todas sus fórmulas (ρ, P0, Lq, Ls, Wq, Ws, Pn) y ejercicios de clase resueltos."
+  },
+  {
+    "id": "redes",
+    "title": "Redes: CPM, PERT y programación de proyectos",
+    "unidad": "1er parcial",
+    "description": "Red del proyecto, fechas tempranas y tardías, holguras, camino crítico, aceleración (crashing) y PERT con probabilidad de terminar a tiempo, con ejercicios de clase resueltos."
+  },
+  {
+    "id": "programacion-lineal",
+    "title": "Programación lineal: modelo, simplex y dualidad",
+    "unidad": "2do parcial",
+    "description": "Partes del modelo y supuestos, método gráfico y simplex, precios sombra y cómo evaluar un producto nuevo desde la tabla óptima, con ejemplo resuelto."
+  },
+  {
+    "id": "transporte-inventarios",
+    "title": "Transporte, asignación e inventarios",
+    "unidad": "2do parcial",
+    "description": "Modelo de transporte (balanceo, esquina noroeste, costo mínimo, Vogel, MODI), asignación (método húngaro) y lote económico con su tabla de costos."
+  },
+  {
+    "id": "final",
+    "title": "Cómo es el final + preguntas teóricas",
+    "unidad": "Final · Repaso",
+    "description": "Formato del final (3 ejercicios con mínimo por ejercicio + 2 de teoría), teoría de decisiones y las preguntas teóricas que toman, respondidas."
+  }
+]

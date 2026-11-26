@@ -1,0 +1,187 @@
+{
+  "thesis": "Un proyecto se representa como una red de actividades con sus precedencias. El camino más largo es el camino crítico: define la duración del proyecto y sus actividades no tienen holgura. Con PERT se agrega la incertidumbre de los tiempos para calcular la probabilidad de terminar en un plazo.",
+  "examTip": "Pasos: matriz de precedencias → red → fechas tempranas (hacia adelante) → fechas tardías (hacia atrás) → holguras → camino crítico → Gantt y carga financiera. En PERT: te = (o + 4m + p)/6, σ² = ((p − o)/6)², z = (T − Te)/σ.",
+  "concepts": [
+    "Red",
+    "Precedencias",
+    "Inicio y fin temprano",
+    "Inicio y fin tardío",
+    "Holgura",
+    "Camino crítico",
+    "Gantt",
+    "Carga financiera",
+    "Crashing",
+    "PERT",
+    "Probabilidad"
+  ],
+  "sections": [
+    {
+      "h": "CPM: fechas y camino crítico",
+      "p": "Fecha temprana: IT = máximo de los fines tempranos de las precedentes; FT = IT + duración. Fecha tardía (desde el final hacia atrás): FTa = mínimo de los inicios tardíos de las siguientes; ITa = FTa − duración. Holgura total = ITa − IT. Camino crítico: actividades con holgura cero; su duración total es la del proyecto, y si una se atrasa, se atrasa todo. Gantt: barras a fecha temprana o tardía. Carga financiera: cuánto se paga en cada unidad de tiempo según cómo se programan las actividades (a fecha tardía se demoran los pagos; con interés, el VAN a fecha tardía es menor).",
+      "easy": "La ruta más larga manda: esas tareas no pueden atrasarse ni un día. Las otras tienen margen."
+    },
+    {
+      "h": "Ejercicio de clase 1 · Construcción de una casa (PREFAB)",
+      "p": "Nueve actividades con sus precedencias y tiempos normales.",
+      "easy": "Adelante calculás cuándo puede empezar cada una lo antes posible; atrás, lo más tarde sin atrasar el final. Donde coinciden está el camino crítico.",
+      "tables": [
+        {
+          "title": "Fechas y holguras (UT)",
+          "head": [
+            "Actividad",
+            "Dur.",
+            "Precede",
+            "IT",
+            "FT",
+            "ITa",
+            "FTa",
+            "Holgura"
+          ],
+          "rows": [
+            [
+              "CIM",
+              "5",
+              "—",
+              "0",
+              "5",
+              "0",
+              "5",
+              "0"
+            ],
+            [
+              "EST",
+              "8",
+              "CIM",
+              "5",
+              "13",
+              "5",
+              "13",
+              "0"
+            ],
+            [
+              "VITE",
+              "5",
+              "EST",
+              "13",
+              "18",
+              "14",
+              "19",
+              "1"
+            ],
+            [
+              "ELEC",
+              "8",
+              "EST",
+              "13",
+              "21",
+              "13",
+              "21",
+              "0"
+            ],
+            [
+              "VENT",
+              "5",
+              "EST",
+              "13",
+              "18",
+              "15",
+              "20",
+              "2"
+            ],
+            [
+              "RETE",
+              "7",
+              "VITE",
+              "18",
+              "25",
+              "19",
+              "26",
+              "1"
+            ],
+            [
+              "EXT",
+              "6",
+              "VENT",
+              "18",
+              "24",
+              "20",
+              "26",
+              "2"
+            ],
+            [
+              "INT",
+              "5",
+              "ELEC, VENT",
+              "21",
+              "26",
+              "21",
+              "26",
+              "0"
+            ],
+            [
+              "PINT",
+              "3",
+              "RETE, EXT, INT",
+              "26",
+              "29",
+              "26",
+              "29",
+              "0"
+            ]
+          ]
+        },
+        {
+          "title": "Aceleración: costo por UT ganada = (CF − CN)/(TN − TF)",
+          "head": [
+            "Actividad",
+            "Cuenta",
+            "$ por UT"
+          ],
+          "rows": [
+            [
+              "EST",
+              "(150 − 100) / (8 − 6)",
+              "25,00"
+            ],
+            [
+              "RETE",
+              "(120 − 80) / (7 − 5)",
+              "20,00"
+            ],
+            [
+              "ELEC",
+              "(125 − 60) / (8 − 4)",
+              "16,25"
+            ],
+            [
+              "EXT",
+              "(240 − 100) / (6 − 3)",
+              "46,67"
+            ],
+            [
+              "INT",
+              "(240 − 180) / (5 − 4)",
+              "60,00"
+            ]
+          ],
+          "note": "Para acortar el proyecto se acelera primero la actividad CRÍTICA más barata por UT (ELEC, a $16,25), controlando que no aparezca otro camino crítico."
+        }
+      ],
+      "steps": [
+        "Duración del proyecto: 29 UT.",
+        "Camino crítico: CIM → EST → ELEC → INT → PINT."
+      ]
+    },
+    {
+      "h": "PERT: probabilidad de terminar a tiempo",
+      "p": "Tres estimaciones por actividad: optimista (o), más probable (m) y pesimista (p). Tiempo esperado te = (o + 4m + p)/6; varianza σ² = ((p − o)/6)². La duración del proyecto se aproxima con una normal de media = suma de te del camino crítico y varianza = suma de las varianzas del camino crítico. Probabilidad de terminar antes de T: z = (T − media)/σ y se busca en la tabla normal. Si hay dos caminos críticos, se toma el de mayor varianza (es el caso más desfavorable).",
+      "easy": "Promediás los tiempos dándole más peso al más probable, sumás las varianzas del camino crítico y con la normal sacás la probabilidad.",
+      "steps": [
+        "Ejercicio de clase 4 (plazo de 22 UT): te de cada tarea → A 3, B 5, C 3, D 4, E 8, F 2, G 4, H 2, I 5, K 3, J 3.",
+        "Duración esperada = 17 UT, con dos caminos críticos: B–D–E (σ² = 5,44) y B–C–F–G–J (σ² = 2,50).",
+        "Se toma el de mayor varianza: σ = √5,44 = 2,33; z = (22 − 17)/2,33 = 2,14.",
+        "Probabilidad de terminar en 22 UT ≈ 98,4 %."
+      ]
+    }
+  ]
+}

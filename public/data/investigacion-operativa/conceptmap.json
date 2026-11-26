@@ -1,0 +1,101 @@
+{
+  "intro": "IO arma modelos matemáticos para decidir mejor. El 1er parcial trata la incertidumbre y el tiempo: cadenas de Markov (cómo cambia un sistema entre estados), colas (esperas) y redes (programar proyectos, con CPM y PERT). El 2do parcial trata la optimización con recursos limitados: programación lineal (simplex y dualidad), su caso especial de transporte y asignación, e inventarios (lote económico).",
+  "nodes": [
+    {
+      "id": "n1",
+      "x": 40,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Markov",
+      "subtitle": "Matriz de transición, estado estable",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n2",
+      "x": 290,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Colas",
+      "subtitle": "M/M/1: ρ, L, W",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n3",
+      "x": 540,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Redes",
+      "subtitle": "CPM, PERT, camino crítico",
+      "color": "#f0a63a"
+    },
+    {
+      "id": "n4",
+      "x": 160,
+      "y": 260,
+      "w": 220,
+      "h": 90,
+      "title": "Programación lineal",
+      "subtitle": "Simplex, precios sombra",
+      "color": "#e0605e"
+    },
+    {
+      "id": "n5",
+      "x": 420,
+      "y": 260,
+      "w": 220,
+      "h": 90,
+      "title": "Transporte y asignación",
+      "subtitle": "Vogel, MODI, húngaro",
+      "color": "#b06ad9"
+    },
+    {
+      "id": "n6",
+      "x": 680,
+      "y": 260,
+      "w": 200,
+      "h": 90,
+      "title": "Inventarios",
+      "subtitle": "Lote económico",
+      "color": "#4bb3c7"
+    }
+  ],
+  "edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n2",
+      "n3"
+    ],
+    [
+      "n4",
+      "n5"
+    ],
+    [
+      "n4",
+      "n6"
+    ]
+  ],
+  "comparisons": [
+    [
+      "CPM vs PERT",
+      "Tiempos fijos y análisis de costos de aceleración contra tres estimaciones y probabilidad de cumplir un plazo."
+    ],
+    [
+      "Lq vs Ls",
+      "Clientes esperando en la cola contra clientes en todo el sistema (cola + atendidos)."
+    ],
+    [
+      "Esquina noroeste vs Vogel",
+      "Solución inicial rápida sin mirar costos contra una que usa penalidades y suele quedar cerca del óptimo."
+    ],
+    [
+      "Primal vs dual",
+      "El primal decide cuánto producir; el dual da cuánto vale cada recurso (precios sombra)."
+    ]
+  ]
+}

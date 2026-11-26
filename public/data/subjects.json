@@ -43,5 +43,10 @@
     "id": "costos-presupuestos",
     "title": "Costos y Presupuestos",
     "description": "Final: costeo directo e integral, punto de equilibrio, amortización, costo de capital, ABC, costos conjuntos y estándar, presupuestos, con el 1er parcial 2025 resuelto y el banco de preguntas de los parciales."
+  },
+  {
+    "id": "investigacion-operativa",
+    "title": "Investigación Operativa",
+    "description": "Final: Markov, colas, CPM/PERT, programación lineal (simplex y dualidad), transporte, asignación e inventarios, con los ejercicios de la cátedra resueltos y la teoría que toman."
   }
 ]
