@@ -1,0 +1,91 @@
+{
+  "intro": "La materia junta cinco herramientas económicas que el final toma por partes. La contabilidad y los costos miran la empresa por dentro (cuánto cuesta producir, cuánto gana, qué tiene y qué debe). La amortización reparte el costo de los bienes de uso, y esa amortización aparece después en el flujo de fondos de un proyecto, que se evalúa con VAN, TIR y repago. La renta nacional mira la economía del país.",
+  "nodes": [
+    {
+      "id": "n1",
+      "x": 40,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Costos",
+      "subtitle": "Directo vs absorción, costo unitario",
+      "color": "#5b8def"
+    },
+    {
+      "id": "n2",
+      "x": 290,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Contabilidad",
+      "subtitle": "Balance, resultados, índices",
+      "color": "#3fbf7f"
+    },
+    {
+      "id": "n3",
+      "x": 540,
+      "y": 40,
+      "w": 200,
+      "h": 90,
+      "title": "Amortización",
+      "subtitle": "Valor inicial, final, cuotas",
+      "color": "#f0a63a"
+    },
+    {
+      "id": "n4",
+      "x": 540,
+      "y": 260,
+      "w": 220,
+      "h": 90,
+      "title": "Evaluación de proyectos",
+      "subtitle": "Flujo, VAN, TIR, repago",
+      "color": "#e0605e"
+    },
+    {
+      "id": "n5",
+      "x": 790,
+      "y": 40,
+      "w": 180,
+      "h": 90,
+      "title": "Renta nacional",
+      "subtitle": "PBI, PNN, costo de factores",
+      "color": "#b06ad9"
+    }
+  ],
+  "edges": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n2",
+      "n4"
+    ],
+    [
+      "n3",
+      "n4"
+    ],
+    [
+      "n3",
+      "n2"
+    ]
+  ],
+  "comparisons": [
+    [
+      "Costeo directo vs absorción",
+      "En el directo los fijos de fabricación van enteros al período; en la absorción se reparten entre las unidades y una parte queda en el stock."
+    ],
+    [
+      "Amortización decreciente vs creciente",
+      "Decreciente: cuotas altas al principio (5/15, 4/15…); creciente: cuotas bajas al principio (1/10, 2/10…)."
+    ],
+    [
+      "Bruto vs neto, interno vs nacional",
+      "Neto resta amortizaciones; nacional suma el saldo con el exterior."
+    ],
+    [
+      "VAN vs TIR",
+      "El VAN dice cuánto valor agrega el proyecto a la tasa de oportunidad; la TIR, a qué tasa el VAN da cero."
+    ]
+  ]
+}

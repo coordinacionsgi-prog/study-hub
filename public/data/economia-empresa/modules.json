@@ -1,0 +1,38 @@
+[
+  {
+    "id": "contabilidad",
+    "title": "Contabilidad e índices",
+    "unidad": "Final · Parte Contabilidad",
+    "description": "Ecuación patrimonial, balance y cuadro de resultados, y los índices que toman: rotación del PN, solvencia, margen sobre ventas y rentabilidad del activo, con el final del 05/03/2007 resuelto."
+  },
+  {
+    "id": "costos",
+    "title": "Costos: costeo directo y por absorción",
+    "unidad": "Final · Parte Costos",
+    "description": "Clasificación de costos, costeo directo vs absorción, costo unitario, stock final, contribución marginal y punto de equilibrio, con el final del 03/12/2007 resuelto (y corregido)."
+  },
+  {
+    "id": "amortizacion",
+    "title": "Amortización y depreciación",
+    "unidad": "Final · Parte Amortización",
+    "description": "Valor inicial, valor final, valor amortizable y residual; sistemas lineal, año fraccionario decreciente y creciente, con ejercicios de final."
+  },
+  {
+    "id": "renta-nacional",
+    "title": "Renta Nacional",
+    "unidad": "Final · Parte Macro",
+    "description": "PBI a precios de mercado, bienes disponibles, producto bruto y neto, nacional e interno, a precios de mercado y a costo de factores, con ejercicio de final."
+  },
+  {
+    "id": "evaluacion-proyectos",
+    "title": "Evaluación de proyectos",
+    "unidad": "Final · Parte Proyectos",
+    "description": "Flujo de fondos (inversión, IVA, activo de trabajo, amortizaciones, impuesto, recuperos), VAN, TIR y período de repago, con dos finales resueltos."
+  },
+  {
+    "id": "finales",
+    "title": "Finales resueltos · Cómo es el examen",
+    "unidad": "Final · Repaso",
+    "description": "Estructura del final y los dos finales de 2007 completos, con el paso a paso y las fórmulas para llevar."
+  }
+]

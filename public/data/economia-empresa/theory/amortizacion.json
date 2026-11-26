@@ -1,0 +1,47 @@
+{
+  "thesis": "Un bien de uso pierde valor con el tiempo (depreciación) y la contabilidad reparte su costo en los años de vida útil (amortización). Primero se arma el valor inicial (todo lo que cuesta dejarlo funcionando), se le resta el valor final (lo que se recupera al venderlo) y ese valor amortizable se reparte con algún sistema.",
+  "examTip": "En el final dan precio CIF en dólares, aranceles, fletes, puesta en marcha, valor de reventa y gastos de desmantelamiento, y piden valor inicial, valor final, una cuota y un valor residual. El sistema puede ser lineal, año fraccionario decreciente o creciente.",
+  "concepts": [
+    "Valor inicial",
+    "Valor final",
+    "Valor amortizable",
+    "Valor residual",
+    "Lineal",
+    "Año fraccionario decreciente",
+    "Año fraccionario creciente"
+  ],
+  "sections": [
+    {
+      "h": "Conceptos",
+      "p": "Valor inicial: precio de compra más todo lo necesario para que funcione (impuestos y aranceles de importación, fletes hasta la planta, instalación y puesta en marcha). Valor final: lo que se obtiene al final de la vida útil (reventa) menos los gastos para lograrlo (desmantelamiento, gastos comerciales). Valor amortizable = valor inicial − valor final. Valor residual en el año n = valor inicial − amortizaciones acumuladas hasta ese año. Amortización: es un costo que NO es una salida de dinero; por eso en el flujo de fondos se suma de vuelta después de calcular el impuesto.",
+      "easy": "Valor inicial: todo lo que pagaste hasta que la máquina anda. Valor final: lo que te queda en el bolsillo al venderla. Lo del medio es lo que se amortiza."
+    },
+    {
+      "h": "Sistemas de amortización",
+      "p": "Lineal: cuota = valor amortizable / n, igual todos los años. Año fraccionario decreciente (suma de dígitos): se suman los dígitos de los años (para 5 años: 1+2+3+4+5 = 15) y la cuota del año k es VA × (n − k + 1)/15: amortiza más al principio. Año fraccionario creciente: al revés, cuota del año k = VA × k / suma de dígitos: amortiza menos al principio y más al final.",
+      "easy": "Lineal: igual todos los años. Decreciente: mucho al principio y poco al final. Creciente: poco al principio y mucho al final."
+    },
+    {
+      "h": "Final 05/03/2007 · Parte A resuelto (año fraccionario creciente)",
+      "p": "Datos: bien comprado a USD 500.000 CIF Buenos Aires; impuestos y aranceles 30 % del CIF; tipo de cambio 3:1; transporte aduana-planta $10.000; puesta en marcha $25.000; reventa final $300.000; desmantelamiento $5.000; gastos comerciales hasta la venta $10.000; vida útil 4 años; sistema año fraccionario creciente.",
+      "easy": "Armás el valor inicial sumando todo, le restás lo que vas a recuperar y repartís con pesos 1, 2, 3 y 4 sobre 10.",
+      "steps": [
+        "1) Valor inicial = 500.000 × 3 + 30 % × 1.500.000 + 10.000 + 25.000 = 1.500.000 + 450.000 + 10.000 + 25.000 = $1.985.000.",
+        "2) Valor final = 300.000 − 5.000 − 10.000 = $285.000. Valor amortizable = $1.700.000.",
+        "Suma de dígitos para 4 años = 10. Cuotas crecientes: 1/10, 2/10, 3/10 y 4/10 → $170.000, $340.000, $510.000, $680.000.",
+        "3) Valor residual al 2º año = $1.985.000 − 170.000 − 340.000 = $1.475.000.",
+        "4) Cuota del último año = $680.000."
+      ]
+    },
+    {
+      "h": "Final 03/12/2007 · Parte B: cuotas por año fraccionario decreciente",
+      "p": "Equipo de $10.000.000 (más IVA del 10,5 %), vida de 5 años y valor final de $2.500.000.",
+      "easy": "Repartís 7,5 millones con pesos 5, 4, 3, 2 y 1 sobre 15.",
+      "steps": [
+        "Valor amortizable = 10.000.000 − 2.500.000 = $7.500.000; suma de dígitos = 15.",
+        "Cuotas: 5/15, 4/15, 3/15, 2/15 y 1/15 → $2.500.000, $2.000.000, $1.500.000, $1.000.000, $500.000.",
+        "Valores residuales: 7.500.000, 5.500.000, 4.000.000, 3.000.000 y 2.500.000 (el último es el valor final)."
+      ]
+    }
+  ]
+}

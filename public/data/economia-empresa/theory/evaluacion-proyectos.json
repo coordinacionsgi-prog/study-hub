@@ -1,0 +1,150 @@
+{
+  "thesis": "Evaluar un proyecto es comparar lo que se invierte con lo que se recupera, en el tiempo. Se arma el flujo de fondos (solo movimientos de dinero), se lo descuenta a la tasa de oportunidad (VAN), se busca la tasa que lo hace cero (TIR) y se mira en cuánto tiempo se recupera la inversión (repago).",
+  "examTip": "Las trampas del flujo: el IVA de la inversión sale y vuelve (crédito fiscal); el activo de trabajo sale al principio y se recupera al final; la amortización no es salida de dinero (se suma después del impuesto); y el valor final del bien entra en el último año. Leé bien en qué INSTANTE va cada flujo y en qué instante piden el VAN.",
+  "concepts": [
+    "Flujo de fondos",
+    "Inversión fija",
+    "Crédito fiscal IVA",
+    "Activo de trabajo",
+    "Amortización",
+    "Impuesto a las ganancias",
+    "Valor final",
+    "VAN",
+    "TIR",
+    "Período de repago"
+  ],
+  "sections": [
+    {
+      "h": "Cómo se arma el flujo de fondos",
+      "p": "Por período: + utilidad neta antes de impuestos − impuesto a las ganancias (tasa × utilidad) + amortización (no es salida de dinero; se descontó para calcular la utilidad, entonces se suma de vuelta) − inversión fija − IVA de la inversión (crédito fiscal) + recupero del IVA cuando se compensa − aumento del activo de trabajo (stock, créditos, caja) + recupero del activo de trabajo al final + valor final del bien al final. Flujo acumulado: se van sumando los flujos; donde pasa de negativo a positivo está el repago.",
+      "easy": "Todo lo que sale de la caja va negativo y todo lo que entra, positivo. La amortización no sale de la caja, así que se vuelve a sumar."
+    },
+    {
+      "h": "VAN, TIR y repago",
+      "p": "VAN = Σ flujo_t / (1 + i)^t, en el instante que pida el enunciado (si piden el VAN en el instante −1, ese flujo no se descuenta; si lo piden en el 0, el flujo de −1 se capitaliza multiplicando por 1 + i). VAN > 0: el proyecto rinde más que la tasa de oportunidad y conviene. TIR: la tasa que hace VAN = 0; conviene si TIR > tasa de oportunidad. Período de repago simple (sin actualizar): años hasta que el flujo acumulado se hace cero; la fracción del último año = (lo que falta recuperar / flujo de ese año) × 365 días.",
+      "easy": "El VAN es cuánta plata de hoy te deja el proyecto por encima de lo que ganarías en otro lado. La TIR es cuánto rinde. El repago es en cuánto tiempo recuperás lo que pusiste."
+    },
+    {
+      "h": "Final 03/12/2007 · Parte B resuelto",
+      "p": "Inversión de $10.000.000 + IVA 10,5 % en el año −1; vida de 5 años; amortización por año fraccionario decreciente; valor final $2.500.000; en el año 1, aumento del activo de trabajo de $2.300.000 (stock 500.000 + créditos 300.000 + caja 1.500.000); el IVA se recupera en el período 2 y el valor final y el activo de trabajo en el 5; utilidad antes de impuestos de $2.000.000 por año; impuesto 40 %; tasa de oportunidad 10 %.",
+      "easy": "Cada año: lo que ganás menos el impuesto más la amortización, y sumás o restás lo que se invierte o se recupera ese año.",
+      "tables": [
+        {
+          "title": "Flujo de fondos (en el instante 0 está la inversión del año −1)",
+          "head": [
+            "Concepto",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "rows": [
+            [
+              "Utilidad antes de impuestos",
+              "",
+              "2.000.000",
+              "2.000.000",
+              "2.000.000",
+              "2.000.000",
+              "2.000.000"
+            ],
+            [
+              "− Impuesto 40 %",
+              "",
+              "−800.000",
+              "−800.000",
+              "−800.000",
+              "−800.000",
+              "−800.000"
+            ],
+            [
+              "+ Amortización",
+              "",
+              "2.500.000",
+              "2.000.000",
+              "1.500.000",
+              "1.000.000",
+              "500.000"
+            ],
+            [
+              "− Inversión + IVA",
+              "−11.050.000",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "± Activo de trabajo",
+              "",
+              "−2.300.000",
+              "",
+              "",
+              "",
+              "2.300.000"
+            ],
+            [
+              "+ Recupero IVA",
+              "",
+              "",
+              "1.050.000",
+              "",
+              "",
+              ""
+            ],
+            [
+              "+ Valor final",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "2.500.000"
+            ],
+            [
+              "= Flujo",
+              "−11.050.000",
+              "1.400.000",
+              "4.250.000",
+              "2.700.000",
+              "2.200.000",
+              "6.500.000"
+            ],
+            [
+              "Acumulado",
+              "−11.050.000",
+              "−9.650.000",
+              "−5.400.000",
+              "−2.700.000",
+              "−500.000",
+              "6.000.000"
+            ]
+          ],
+          "strong": [
+            7
+          ]
+        }
+      ],
+      "steps": [
+        "VAN (10 %, instante 0) = $1.302.292,13 → conviene.",
+        "TIR = 13,84 % (mayor al 10 %).",
+        "Repago simple: al final del año 4 faltan 500.000; 500.000 / 6.500.000 × 365 = 28,08 días → 4 años y 28 días."
+      ]
+    },
+    {
+      "h": "Final 05/03/2007 · Parte C resuelto",
+      "p": "Flujos por instante (−1 a 3): IVA 178.500 e inversión fija 1.700.000 en −1; activo de trabajo 100.000 en 0; utilidades netas 500.000, 1.000.000 y 1.000.000; amortizaciones 400.000, 500.000 y 600.000; impuesto 200.000, 400.000 y 400.000; recupero del IVA en 1; recupero del activo de trabajo y valor final 200.000 en 3. Tasa 10 %.",
+      "easy": "Igual que antes, pero ojo con el instante: el VAN se pide en −1 y en 0.",
+      "steps": [
+        "Flujo: −$1.878.500 | −$100.000 | $878.500 | $1.100.000 | $1.500.000 (instantes −1, 0, 1, 2, 3).",
+        "Acumulado: −1.878.500, −1.978.500, −1.100.000, 0 y 1.500.000 → repago justo al final del 2º año.",
+        "VAN en el instante −1 = −1.878.500 − 100.000/1,1 + 878.500/1,21 + 1.100.000/1,331 + 1.500.000/1,4641 = $607.590,43.",
+        "VAN en el instante 0 = VAN(−1) × 1,1 = $668.349,47.",
+        "TIR = 20,17 %."
+      ]
+    }
+  ]
+}

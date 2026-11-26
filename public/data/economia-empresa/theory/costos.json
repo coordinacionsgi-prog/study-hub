@@ -1,0 +1,133 @@
+{
+  "thesis": "El costo de un producto depende de qué costos se le cargan. En el costeo directo (variable) solo los variables de fabricación van al producto y los fijos se descuentan enteros en el período; en el costeo por absorción (integral) también se reparten los fijos de fabricación. Eso cambia el valor del stock y el resultado.",
+  "examTip": "En el final piden el costo unitario de fabricación, el cuadro de resultados, el balance, el margen sobre ventas y la rentabilidad del activo. Fijate bien qué sistema de costeo pide y dividí por las unidades PRODUCIDAS, no por las vendidas.",
+  "concepts": [
+    "Costos fijos y variables",
+    "Directos e indirectos",
+    "Costeo directo",
+    "Costeo por absorción",
+    "Costo unitario",
+    "Stock final",
+    "Contribución marginal",
+    "Punto de equilibrio"
+  ],
+  "sections": [
+    {
+      "h": "Clasificación de costos",
+      "p": "Por comportamiento: variables (cambian con el nivel de actividad: materia prima, mano de obra directa, gastos variables) y fijos (no cambian dentro de un rango: alquiler, sueldos de supervisión, amortizaciones). Por imputación: directos (se asignan claramente al producto: MP, MOD) e indirectos (gastos de fabricación que hay que prorratear). Por función: de fabricación, de comercialización, de administración y financieros. Costo de producción = MP consumida + MOD + gastos de fabricación. MP consumida = compras − stock final de MP (+ stock inicial).",
+      "easy": "Los variables suben si fabricás más; los fijos los pagás igual. Y de la materia prima solo cuenta lo que usaste, no lo que compraste."
+    },
+    {
+      "h": "Costeo directo vs costeo por absorción",
+      "p": "Costeo directo o variable: el costo unitario incluye solo los costos variables de fabricación (MP + MOD + GF variables); los gastos fijos de fabricación se tratan como costo del período y van enteros al cuadro de resultados. Cuadro: ventas − costo variable de lo vendido − gastos variables de comercialización = contribución marginal; − gastos fijos (fabricación, comercialización, administración) = resultado. Costeo por absorción o integral: el costo unitario incluye también los gastos fijos de fabricación prorrateados; una parte de esos fijos queda «guardada» en el stock final. Si se produce más de lo que se vende, la absorción da mayor resultado que el directo (por los fijos que quedan en el stock).",
+      "easy": "En el directo, al producto solo le cargás lo que varía; los fijos los restás enteros en el año. En la absorción le cargás también una parte de los fijos, así que el stock vale más."
+    },
+    {
+      "h": "Punto de equilibrio",
+      "p": "Es el volumen en el que ventas = costos totales (resultado cero). Q* = costos fijos / (precio − costo variable unitario). La diferencia precio − costo variable unitario es la contribución marginal unitaria: lo que cada unidad aporta para cubrir los fijos. Margen de seguridad: cuánto pueden caer las ventas antes de entrar en pérdida.",
+      "easy": "Cada unidad que vendés deja algo para pagar los fijos. Cuando juntaste lo suficiente para pagarlos todos, llegaste al equilibrio."
+    },
+    {
+      "h": "Final 03/12/2007 · Parte A resuelto (costeo directo)",
+      "p": "Datos: capital social $10.000.000; compras de MP 1.150.000 kg a $10; producción terminada 1.080.000 unidades; MOD 200.000 HH a $8 (con cargas sociales); gastos de fabricación fijos $2.000.000 y variables $400.000; gastos de comercialización fijos $700.000 y variables $1.000.000; gastos de administración y financieros $300.000; precio $20. Stock final: MP 50.000 kg y producción terminada 80.000 unidades (se vendieron 1.000.000). Créditos $2.000.000, activo no corriente $9.000.000, pasivo corriente $740.000 y no corriente $800.000. Impuesto a las ganancias 0 %.",
+      "easy": "Sacás lo que costó fabricar todo, lo dividís por lo que fabricaste, y con eso valuás lo vendido y lo que quedó en stock.",
+      "steps": [
+        "MP consumida = (1.150.000 − 50.000) kg × $10 = $11.000.000; MOD = 200.000 × $8 = $1.600.000; GF variables = $400.000.",
+        "Costo unitario de fabricación (directo) = (11.000.000 + 1.600.000 + 400.000) / 1.080.000 = $12,04. OJO: el resuelto que circula divide por 1.000.000 (las vendidas) y da $13, lo que es un error: el costo de fabricación se reparte entre las unidades PRODUCIDAS.",
+        "Costo de lo vendido = 1.000.000 × 12,0370 = $12.037.037,04; stock final de producto terminado = 80.000 × 12,0370 = $962.962,96; stock de MP = $500.000."
+      ],
+      "tables": [
+        {
+          "title": "Cuadro de resultados (costeo directo)",
+          "head": [
+            "Concepto",
+            "Importe"
+          ],
+          "rows": [
+            [
+              "Ventas (1.000.000 × $20)",
+              "$20.000.000"
+            ],
+            [
+              "− Costo variable de lo vendido",
+              "−$12.037.037,04"
+            ],
+            [
+              "− Gastos variables de comercialización",
+              "−$1.000.000"
+            ],
+            [
+              "= Contribución marginal",
+              "$6.962.962,96"
+            ],
+            [
+              "− Gastos fijos de fabricación",
+              "−$2.000.000"
+            ],
+            [
+              "− Gastos fijos de comercialización",
+              "−$700.000"
+            ],
+            [
+              "− Gastos de administración y financieros",
+              "−$300.000"
+            ],
+            [
+              "= Resultado del ejercicio (impuesto 0 %)",
+              "$3.962.962,96"
+            ]
+          ],
+          "strong": [
+            3,
+            7
+          ]
+        },
+        {
+          "title": "Balance al cierre",
+          "head": [
+            "Activo",
+            "Importe",
+            "Pasivo + PN",
+            "Importe"
+          ],
+          "rows": [
+            [
+              "Caja y bancos (por diferencia)",
+              "$3.040.000",
+              "Pasivo corriente",
+              "$740.000"
+            ],
+            [
+              "Créditos",
+              "$2.000.000",
+              "Pasivo no corriente",
+              "$800.000"
+            ],
+            [
+              "Bienes de cambio (MP + PT)",
+              "$1.462.962,96",
+              "Capital",
+              "$10.000.000"
+            ],
+            [
+              "Activo no corriente",
+              "$9.000.000",
+              "Resultado del ejercicio",
+              "$3.962.962,96"
+            ],
+            [
+              "Total activo",
+              "$15.502.962,96",
+              "Total pasivo + PN",
+              "$15.502.962,96"
+            ]
+          ],
+          "strong": [
+            4
+          ],
+          "note": "Con el costo unitario correcto el balance dado en el enunciado no cierra, así que caja y bancos se calcula por diferencia. Margen sobre ventas = $3.962.962,96 / $20.000.000 = 19,81 %. Rentabilidad del activo = $3.962.962,96 / $15.502.962,96 = 25,56 %."
+        }
+      ]
+    }
+  ]
+}

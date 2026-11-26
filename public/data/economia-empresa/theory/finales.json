@@ -1,0 +1,33 @@
+{
+  "thesis": "El final de Economía de la Empresa es práctico y por partes: amortización y depreciación, renta nacional, evaluación de proyectos, y costos y contabilidad. En la carpeta «Economía» de la enciclopedia hay 10 finales resueltos (2002 y 2007) en Excel; acá están los dos completos y las fórmulas para llevar.",
+  "examTip": "Cada parte se aprueba por separado (como en IO, que pedía puntos en cada ejercicio). Llevá las fórmulas de memoria y escribí cada paso con su unidad.",
+  "concepts": [
+    "Parte A",
+    "Parte B",
+    "Parte C",
+    "Parte D",
+    "Fórmulas"
+  ],
+  "sections": [
+    {
+      "h": "Cómo es el final",
+      "p": "Final del 05/03/2007: A) Amortización y depreciación; B) Renta nacional; C) Evaluación de proyectos; D) Contabilidad. Final del 03/12/2007: A) Costos y contabilidad (costeo directo, cuadro de resultados, balance, margen y rentabilidad); B) Depreciación y evaluación de proyectos (cuotas, flujo de fondos, VAN, repago, TIR). En la enciclopedia («Economía» → Finales) están también los de 12/06/2002, 17/02, 19/02, 23/02, 16/07, 30/07 y 08/12 de 2007, y uno de febrero.",
+      "easy": "Siempre son los mismos temas en distinto orden: amortizar, PBI, proyecto y contabilidad o costos."
+    },
+    {
+      "h": "Fórmulas para llevar",
+      "p": "Valor inicial = precio (en $) + impuestos y aranceles + fletes + puesta en marcha. Valor final = reventa − desmantelamiento − gastos de venta. Cuota lineal = VA/n; decreciente año k = VA·(n−k+1)/Σ; creciente año k = VA·k/Σ. PBI p.m. = C + I + ΔS + (X − M) + G; bienes disponibles = PBI − (X − M); PNN c.f. = PBI − amortizaciones + saldo exterior − imp. indirectos + subsidios. Costo unitario directo = (MP consumida + MOD + GF variables) / unidades producidas. Rotación PN = ventas / PN promedio; solvencia = AC/PC; margen = resultado/ventas; rentabilidad del activo = resultado/activo. Flujo = utilidad − impuesto + amortización ± inversiones y recuperos; VAN = Σ F/(1+i)^t; repago = años + (faltante/flujo del año) × 365.",
+      "easy": "Una hoja de fórmulas y listo."
+    },
+    {
+      "h": "Final 05/03/2007 completo (respuestas)",
+      "p": "A) Valor inicial $1.985.000; valor final $285.000; residual al 2º año $1.475.000; última cuota $680.000. B) PBI p.m. 1.280; bienes disponibles 1.220; PNN c.f. 1.020. C) Flujo −1.878.500, −100.000, 878.500, 1.100.000, 1.500.000; VAN(−1) $607.590; VAN(0) $668.349,47; repago al final del 2º año. D) Rotación del PN 0,73; solvencia 1,71; margen 25 %; rentabilidad del activo 12,5 %.",
+      "easy": "Las respuestas para que te autocorrijas después de resolverlo solo."
+    },
+    {
+      "h": "Final 03/12/2007 completo (respuestas)",
+      "p": "A) Costo unitario $12,04 (no $13: hay que dividir por las 1.080.000 producidas); resultado $3.962.962,96; margen 19,81 %; rentabilidad del activo 25,56 %. B) Cuotas 2.500.000, 2.000.000, 1.500.000, 1.000.000 y 500.000; flujo −11.050.000, 1.400.000, 4.250.000, 2.700.000, 2.200.000 y 6.500.000; VAN (10 %) $1.302.292,13; repago 4 años y 28 días; TIR 13,84 %.",
+      "easy": "Si te da $13 de costo unitario, dividiste mal: va por lo producido."
+    }
+  ]
+}

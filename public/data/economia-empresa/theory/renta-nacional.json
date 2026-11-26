@@ -1,0 +1,31 @@
+{
+  "thesis": "La renta nacional mide la actividad de todo el país. El PBI se puede calcular por el gasto: consumo + inversión + gasto del gobierno + exportaciones netas. Después, se pasa de bruto a neto (restando amortizaciones), de interno a nacional (sumando el saldo con el exterior) y de precios de mercado a costo de factores (restando impuestos indirectos y sumando subsidios).",
+  "examTip": "Suele ser la parte más corta del final: tres cálculos con datos macro. Usá exactamente las fórmulas de la cátedra.",
+  "concepts": [
+    "PBI a precios de mercado",
+    "Inversión bruta",
+    "Variación de stocks",
+    "Exportaciones netas",
+    "Bienes disponibles",
+    "Bruto y neto",
+    "Interno y nacional",
+    "Precios de mercado y costo de factores"
+  ],
+  "sections": [
+    {
+      "h": "Fórmulas de la cátedra",
+      "p": "PBI a precios de mercado = Consumo + Inversión bruta + Variación de stocks + (Exportaciones − Importaciones) + Gasto del gobierno. Monto total de bienes disponibles = PBI a p.m. − (X − M) (es decir, lo que queda en el país para usar). Bruto → neto: restar las amortizaciones del capital fijo. Interno → nacional: sumar el saldo con el resto del mundo (en el final aparece como saldo de la balanza de pagos). Precios de mercado → costo de factores: restar impuestos indirectos y sumar subsidios. Por eso: PNN a costo de factores = PBI a p.m. − amortizaciones + saldo con el exterior − impuestos indirectos + subsidios.",
+      "easy": "Bruto a neto: restás el desgaste. Interno a nacional: sumás lo que entra o sale del exterior. Mercado a factores: sacás los impuestos y devolvés los subsidios."
+    },
+    {
+      "h": "Final 05/03/2007 · Parte B resuelto",
+      "p": "Datos ($/año): impuestos indirectos 80, amortización del capital fijo 50, gasto del gobierno 300, subsidios 20, consumo 800, inversión bruta 150, variación de stocks −30, saldo de la balanza de pagos −150, saldo de la balanza comercial (X − M) 60.",
+      "easy": "Sumás los componentes del gasto y después vas restando y sumando según la fórmula.",
+      "steps": [
+        "1) PBI a p.m. = 800 + 150 + (−30) + 60 + 300 = 1280 $/año.",
+        "2) Monto total de bienes disponibles = 1.280 − 60 = 1220 $/año.",
+        "3) PNN a costo de factores = 1.280 − 50 + (−150) − 80 + 20 = 1020 $/año."
+      ]
+    }
+  ]
+}

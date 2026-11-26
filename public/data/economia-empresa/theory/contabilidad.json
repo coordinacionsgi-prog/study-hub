@@ -1,0 +1,41 @@
+{
+  "thesis": "La contabilidad cuenta la historia de la empresa en dos fotos: el balance (lo que tiene y lo que debe en un momento) y el cuadro de resultados (lo que ganó o perdió en el período). Con esos números se arman índices que dicen si la empresa puede pagar, si gana plata y cuánto le rinde lo invertido.",
+  "examTip": "En el final dan activo, pasivo, capital y ventas, y piden índices con su interpretación. Ojo: el resultado del ejercicio sale de la diferencia entre el PN final y el capital inicial, y el PN promedio es (inicial + final)/2.",
+  "concepts": [
+    "Activo = Pasivo + PN",
+    "Corriente y no corriente",
+    "Balance",
+    "Cuadro de resultados",
+    "Rotación del PN",
+    "Solvencia",
+    "Margen sobre ventas",
+    "Rentabilidad del activo",
+    "ROE"
+  ],
+  "sections": [
+    {
+      "h": "Ecuación patrimonial y estados contables",
+      "p": "Activo (lo que la empresa tiene: corriente, que se convierte en dinero dentro del año, como caja, créditos y bienes de cambio; y no corriente, como bienes de uso) = Pasivo (lo que debe a terceros: corriente o no corriente) + Patrimonio Neto (lo de los dueños: capital más resultados acumulados). El balance general muestra esa igualdad en una fecha. El cuadro de resultados muestra ventas menos costos y gastos del período, y el resultado del ejercicio (ganancia o pérdida) aumenta o disminuye el PN.",
+      "easy": "Lo que tenés es igual a lo que debés más lo que es tuyo. Si ganaste plata en el año, lo tuyo (el PN) creció en esa cantidad."
+    },
+    {
+      "h": "Índices que toma la cátedra",
+      "p": "Rotación del PN = ventas / PN promedio: cuántas veces rotó el patrimonio en el período (idea de la liquidez de sus componentes). Solvencia de corto plazo (liquidez corriente) = activo corriente / pasivo corriente: cuántos pesos de activo corriente hay por cada peso de deuda de corto plazo (mayor a 1 es bueno). Margen sobre ventas = resultado del ejercicio / ventas: cuánto se gana por cada peso vendido. Rentabilidad del activo o del negocio = resultado / activo total. Rentabilidad del PN (ROE) = resultado / PN. Siempre hay que interpretar el número, no solo calcularlo.",
+      "easy": "Rotación: cuánto vendiste respecto de lo invertido por los dueños. Solvencia: cuánta plata tenés a mano por cada peso que debés pronto. Margen: cuánto ganás de cada peso vendido. Rentabilidad: cuánto te rinde todo lo invertido."
+    },
+    {
+      "h": "Final 05/03/2007 · Parte D (Contabilidad) resuelto",
+      "p": "Datos: capital social inicial $3.000.000; al cierre: activo corriente $1.200.000, activo no corriente $3.600.000, pasivo corriente $700.000, pasivo no corriente $500.000; ventas netas $2.400.000.",
+      "easy": "Primero sacás el PN final (activo menos pasivo); la diferencia con el capital es la ganancia; con eso salen todos los índices.",
+      "steps": [
+        "Activo total = 1.200.000 + 3.600.000 = $4.800.000; pasivo total = $1.200.000.",
+        "PN final = $4.800.000 − $1.200.000 = $3.600.000; resultado del ejercicio = $3.600.000 − 3.000.000 = $600.000.",
+        "PN promedio = (3.600.000 + 3.000.000) / 2 = $3.300.000.",
+        "1) Rotación del PN = 2.400.000 / 3.300.000 = 0,73 veces.",
+        "2) Solvencia = 1.200.000 / 700.000 = 1,71: hay $1,71 de activo corriente por cada peso de deuda de corto plazo.",
+        "3) Margen sobre ventas = 600.000 / 2.400.000 = 25,00 %: se ganan 25 centavos por cada peso vendido.",
+        "4) Rentabilidad del activo = 600.000 / 4.800.000 = 12,50 %."
+      ]
+    }
+  ]
+}
